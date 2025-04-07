@@ -1,0 +1,8 @@
+@media (max-width: 1024px) {
+    .mob\:w-\[39px\] {
+        width: 39px;
+    }
+    .mob\:h-\[2px\] {
+        height: 2px;
+    }
+}

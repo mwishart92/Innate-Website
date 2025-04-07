@@ -1,0 +1,31 @@
+.custom-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 4px;
+    transition: background-color 0.3s;
+    top: 100px;
+
+}
+
+.custom-pagination-parent {
+    /* position: absolute; */
+    text-align: center;
+    transition: 300ms opacity;
+    transform: translate3d(0, 0, 0);
+    margin-top: 20px;
+    z-index: 100;
+}
+
+.custom-bullet-active {
+    background-color: #0B44A0;
+}
+
+@media (max-width: 1024px) {
+    .mob\:px-5 {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}

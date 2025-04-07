@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #000;
+  --foreground: #ededed;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000;
+    --foreground: #ededed;
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,  input[type="number"]::-webkit-outer-spin-button {
+  @apply appearance-none; 
+}
+
+.scroll-section {
+  height: 100vh; /* Each section takes up the full viewport height */
+  position: relative;
+  overflow: hidden;
+}
+
+.scroll-section > div {
+  height: 100%; /* Ensure child components fill the section */
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gradient{
+  background: linear-gradient(to left, #0e1637 0%, #080a1c 25%,  #000000 100%);
+
+}
+.lowergradient{
+  background: linear-gradient(to top left, #0e1637 0%,#080a1c 20%, #000000 40%, #000000 100%);
+}
+
+.gradient2{
+  background: linear-gradient(to left, #171d37 5%, #0f1221 25%, #0f1015 100%);
+
+}
+.gradientabout{
+  background: linear-gradient(to left, #171d37 5%, #0f1221 25%, #0f1015 100%);
+
+}
+
+.icon-scale {
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.icon-scale {
+  transform: scale(1.1);
+}
