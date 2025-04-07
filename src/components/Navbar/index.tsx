@@ -171,7 +171,7 @@ const Navbar = () => {
                             : 'text-[#FFFFFF]'
                           }`}
                       >
-                        About
+                        About.
                       </Link>
                     </li>
                     <li>
