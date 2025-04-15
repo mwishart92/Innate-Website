@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Text from '@/components/ui/Text'
 
 import firm from '@/public/images/about/firm.jpg'
-import michel from '@/public/images/about/michael.jpg'
+import michael from '@/public/images/about/michael2.jpg'
 import gelberg from '@/public/images/about/rangul1.jpg'
 // import amin from '@/public/images/about/amin.png'
 import mary from '@/public/images/about/mary.jpg'
@@ -88,7 +88,7 @@ const HeroAbout = () => {
           </Text>
         </div>
         <Image
-          src={michel}
+          src={michael}
           alt=""
           className="w-1/3 tab:w-full mob:order-1 rounded-[10px]"
           // height={357}
