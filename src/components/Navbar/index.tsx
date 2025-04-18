@@ -129,7 +129,7 @@ const Navbar = () => {
                   alt="Flowbite Logo"
                 />
               </Link>
-              <div className="flex xl:pr-4 xl:hidden  pt-2">
+              <div className="flex xl:pr-4 lg:hidden  pt-2">
                 <button
                   // onClick={toggleMenu}
                   type="button"
@@ -362,7 +362,7 @@ const Navbar = () => {
               </div>
 
               {/* tab and mob  menu*/}
-              <div className="hidden xl:block  ">
+              <div className="hidden lg:inline  ">
                 <div
                   className="relative cursor-pointer flex pt-[5px]"
                   onClick={() => {
