@@ -1,46 +1,45 @@
-'use client'
-import React, { useState, useEffect } from "react";
-// import Image from "next/image";
+import React from "react";
 import Text from "@/components/ui/Text";
-
-// import bath from "@/public/images/services/bathroom.png";
+import { StaticImageData } from "next/image";
 import Projects from "./Projects";
-const LatestProjects = () => {
-  const [text, setText] = useState("");
-  useEffect(() => {
-    const serviceType = sessionStorage.getItem("serviceType");
-    console.log(serviceType);
-    if (serviceType === "KitchensAndBathrooms") {
-      setText("Check Out Some of Our Latest Bathroom & Kitchen Projects.");
-    }
-    else if (serviceType === "Architecture") {
-      setText("Check Out Some of Our Latest Bathroom & Kitchen Projects.");
-    }
-    else if (serviceType === "Construction") {
-      setText("Check Out Some of Our Latest New Construction and ADU Projects.");
-    }
-    else if (serviceType === "Roofing") {
-      setText("Check Out Some of Our Latest Roofing Work.");
-    }
-    else if (serviceType === "Decks") {
-      setText("Check Out Some of Our Latest Deck Work.");
-    }
 
-  }, [])
+interface MediaData {
+  image: string | StaticImageData;
+}
+
+interface LatestProjectsProps {
+  title?: string;
+  content?: string;
+  sliderAlbum?: MediaData[];
+}
+
+const LatestProjects = ({
+  title = "",
+  content = "",
+  sliderAlbum = [],
+}: LatestProjectsProps) => {
   return (
-    <div className="w-full max-w-[1203px] min-h-[700px] py-16 flex flex-wrap lg:justify-center lg:gap-[50px] items-center justify-between mx-auto lg:px-5">
-      <div className="w-full max-w-[504px]">
-        <Text className="text-[40px] font-medium text-white leading-[52px]">
-          {text}
-        </Text>
-        <Text className="text-white mt-4">
-          This gallery showcases some of the projects we have done for clients
-          in both Colorado and Washington.
-        </Text>
-      </div>
-      {/*  */}
-      <div className="max-w-[558px] w-full">
-        <Projects />
+    <div className="w-full">
+      <div className="w-full max-w-[1203px] xl:px-8 mx-auto">
+        <div className="w-full grid grid-cols-2 tab:grid-cols-1 tab:gap-8 min-h-[700px] py-16 items-center">
+          <div className="w-full pr-[78px] tab:pr-0">
+            {title && (
+              <Text
+                as="h2"
+                className="text-[40px] font-medium text-white mob:leading-normal leading-[52px] tab:text-center w-full"
+              >
+                {title}
+              </Text>
+            )}
+            <Text className="text-white mt-4 tab:text-center w-full">
+              {content}
+            </Text>
+          </div>
+          {/*  */}
+          <div className="w-full">
+            <Projects sliderAlbum={sliderAlbum} />
+          </div>
+        </div>
       </div>
     </div>
   );

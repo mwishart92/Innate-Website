@@ -22,21 +22,28 @@ import stresstop from "@/public/images/home/dsignbuild/avoidtop.png";
 import track from "@/public/images/home/cabinetry.png";
 import stressbg from "@/public/images/home/dsignbuild/avoidbg.png";
 import { StaticImageData } from "next/image";
+import { Metadata } from "next";
 
-import KB1 from "@/public/images/services/kitchen/KB1.png";
-import KB2 from "@/public/images/services/kitchen/KB2.png";
 import Slide from "@/components/Services/Hero/Content/slide";
 interface MediaData {
   image: string | StaticImageData;
 }
 
-const slides = [];
+const slides = [
+  {
+    component: (
+      <Slide image="/images/services/Decks/Hero/cover.webp" video={null} />
+    ),
+    delay: 36000,
+    projectName: "Bosma ADU",
+  },
+];
 
 const sections = [
   {
     title: "Free Estimate",
     description:
-      "After doing an in-person site visit, we will provide an accurate, comprehensive and transparent bid, broken down by trade.",
+      "We evaluate your yard and discuss how best to complement your home’s architecture and landscape.",
     image: {
       src: avoidcenter,
       alt: "Free Estimate",
@@ -61,7 +68,7 @@ const sections = [
   {
     title: "Design & Permitting",
     description:
-      "If needed, our network of vetted architects, engineers and interior designers save you the time and hassle of putting together your own team.",
+      "We create a deck design tailored to your needs, and secure any necessary local permits for safety and compliance.",
     image: {
       src: savetime,
       alt: "Design & Permitting",
@@ -72,7 +79,7 @@ const sections = [
   {
     title: "Materials Consultation",
     description:
-      "Our industry connections, exclusive suppliers and contractor discounts mean you have access to the best materials at the best price.",
+      "Choose from hardwoods, pressure-treated lumber, or low-maintenance composites—whatever fits your vision and budget.",
     image: {
       src: matrialbg,
       alt: "Materials Consultation",
@@ -91,7 +98,7 @@ const sections = [
   {
     title: "Construction",
     description:
-      "Our dedicated project managers attend to every detail of your project to make sure it get done right, on time and on budget. Our subcontractors are vetted, experienced and highly skilled.",
+      "Our skilled craftsmen build each deck with long-term structural integrity, visual appeal, and comfort in mind.",
     image: {
       src: track,
       alt: "Construction",
@@ -102,7 +109,7 @@ const sections = [
   {
     title: "Post Construction",
     description:
-      "Our job is not complete until all the details are double checked, punch-list items are addressed, and the job site has been cleaned of all mess and debris.",
+      "We complete the finishing touches, clean the site, and ensure your new outdoor space is ready for relaxing, entertaining, or anything in between.",
     image: {
       src: stressbg,
       alt: "Post Construction",
@@ -121,34 +128,30 @@ const sections = [
   },
 ];
 
+const faqTitle = "Decks – FAQs";
 const faqItems = [
   {
-    question: "How long does a kitchen remodel usually take?",
+    question: "What materials do you use for deck construction?",
     answer:
-      "A standard kitchen remodel in Seattle takes 6–12 weeks, depending on the size and materials selected.",
+      "We work with wood, composite, and PVC materials, helping you choose what fits your aesthetic and maintenance goals.",
   },
   {
-    question: "Can I use my kitchen during the remodel?",
+    question: "Do you design custom decks?",
     answer:
-      "During a kitchen remodel, your kitchen will be largely unusable. We recommend setting up a temporary kitchen space and making arrangements for meals during the renovation period.",
+      "Yes, every deck is custom-designed to complement your home and outdoor lifestyle.",
   },
   {
-    question: "How long does a kitchen remodel usually take?",
+    question: "Do I need a permit to build a deck in Seattle?",
     answer:
-      "A typical kitchen remodel takes between 6-12 weeks to complete. The exact timeline depends on factors like project scope, material availability, and any unforeseen issues.",
-  },
-  {
-    question: "Do you help with kitchen design and material selection?",
-    answer:
-      "Yes, we provide comprehensive design assistance and material selection guidance to ensure your kitchen meets both your aesthetic preferences and functional needs.",
+      "Permits are usually required for decks over 18 inches off the ground — we handle all permitting.",
   },
 ];
 
 const ServicesPage = () => {
   const sliderAlbum = useMemo<MediaData[]>(
     () => [
-      { image: "/images/services/kitchen/KB1.png" },
-      { image: "/images/services/kitchen/KB2.png" },
+      { image: "/images/services/Decks/Projects/p1.webp" },
+      { image: "/images/services/Decks/Projects/p2.webp" },
     ],
     []
   );
@@ -156,25 +159,25 @@ const ServicesPage = () => {
   return (
     <div className="gradient">
       <Navbar />
-      <HomeSlider />
+      <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
-        contentText="Innate offers boutique kitchen remodel services, combining modern design with functionality in order to transform spaces into personalized havens of comfort and style. Our dedicated project management and design team ensures that there is no difference between the product you envisioned and the product that you got."
+        contentText="Transform your outdoor space with a custom-built deck designed for relaxation and connection. From classic wood to modern composites, Innate designs and constructs decks that expand your living space and elevate your lifestyle."
       />
       <LatestProjects
-        title="Check Out Some of Our Latest Bathroom & Kitchen Projects"
-        content="This gallery showcases some of the projects we have done for clients in both Colorado and Washington."
+        title="See Our Full Home Renovation Projects in Seattle"
+        content="This gallery features before-and-after transformations of entire homes across the Greater Seattle area."
         sliderAlbum={sliderAlbum}
       />
       <DesignAndBuild
-        title="Design and build the Innate way"
+        title="Design and Build the Innate Way"
         sections={sections}
       />
       <ReviewsSlider />
       <Testimonials />
       <Consultation />
       <Faq
-        title="FAQ"
+        title={faqTitle}
         description="We've answered some of the most common questions homeowners in the Seattle area ask before starting a project. From timelines and costs to permits and materials, our goal is to make your renovation as smooth and transparent as possible."
         faqItems={faqItems}
       />
@@ -185,3 +188,9 @@ const ServicesPage = () => {
 };
 
 export default ServicesPage;
+
+export const metadata: Metadata = {
+  title: "Custom Deck Building Services in Seattle | Innate NW",
+  description:
+    "Expand your outdoor living space with a custom-built deck by Innate NW. Premium materials and expert design tailored to your lifestyle in Seattle.",
+};

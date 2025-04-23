@@ -22,21 +22,51 @@ import stresstop from "@/public/images/home/dsignbuild/avoidtop.png";
 import track from "@/public/images/home/cabinetry.png";
 import stressbg from "@/public/images/home/dsignbuild/avoidbg.png";
 import { StaticImageData } from "next/image";
+import { Metadata } from "next";
 
-import KB1 from "@/public/images/services/kitchen/KB1.png";
-import KB2 from "@/public/images/services/kitchen/KB2.png";
 import Slide from "@/components/Services/Hero/Content/slide";
 interface MediaData {
   image: string | StaticImageData;
 }
 
-const slides = [];
+const slides = [
+  {
+    component: (
+      <Slide
+        image="/images/services/architectural-services/Hero/cover.webp"
+        video={null}
+      />
+    ),
+    delay: 36000,
+    projectName: "Bosma ADU",
+  },
+  {
+    component: (
+      <Slide
+        image="/images/services/architectural-services/Hero/h1.webp"
+        video={null}
+      />
+    ),
+    delay: 36000,
+    projectName: "Pellegrino Residence",
+  },
+  {
+    component: (
+      <Slide
+        image="/images/services/architectural-services/Hero/h2.webp"
+        video={null}
+      />
+    ),
+    delay: 36000,
+    projectName: "Innate NW",
+  },
+];
 
 const sections = [
   {
     title: "Free Estimate",
     description:
-      "After doing an in-person site visit, we will provide an accurate, comprehensive and transparent bid, broken down by trade.",
+      "We begin with a thorough site visit and consultation to understand your project vision and outline a clear scope and budget.",
     image: {
       src: avoidcenter,
       alt: "Free Estimate",
@@ -61,7 +91,7 @@ const sections = [
   {
     title: "Design & Permitting",
     description:
-      "If needed, our network of vetted architects, engineers and interior designers save you the time and hassle of putting together your own team.",
+      "Our architectural partners create drawings and structural plans, while we handle the permit application process and code compliance.",
     image: {
       src: savetime,
       alt: "Design & Permitting",
@@ -72,7 +102,7 @@ const sections = [
   {
     title: "Materials Consultation",
     description:
-      "Our industry connections, exclusive suppliers and contractor discounts mean you have access to the best materials at the best price.",
+      "We help you choose finishes and materials early in the design process, keeping your vision cohesive and your project efficient.",
     image: {
       src: matrialbg,
       alt: "Materials Consultation",
@@ -91,7 +121,7 @@ const sections = [
   {
     title: "Construction",
     description:
-      "Our dedicated project managers attend to every detail of your project to make sure it get done right, on time and on budget. Our subcontractors are vetted, experienced and highly skilled.",
+      "Our construction team works from the approved plans to deliver your design exactly as envisioned—no compromises, no surprises.",
     image: {
       src: track,
       alt: "Construction",
@@ -102,7 +132,7 @@ const sections = [
   {
     title: "Post Construction",
     description:
-      "Our job is not complete until all the details are double checked, punch-list items are addressed, and the job site has been cleaned of all mess and debris.",
+      "We ensure your completed project aligns with your vision, final inspections are passed, and the space is fully ready for use.",
     image: {
       src: stressbg,
       alt: "Post Construction",
@@ -123,32 +153,36 @@ const sections = [
 
 const faqItems = [
   {
-    question: "How long does a kitchen remodel usually take?",
+    question: "Do you offer architectural plans for permits?",
     answer:
-      "A standard kitchen remodel in Seattle takes 6–12 weeks, depending on the size and materials selected.",
+      "Yes, our architectural team prepares plans suitable for Seattle permitting and construction.",
   },
   {
-    question: "Can I use my kitchen during the remodel?",
+    question:
+      "Can I work with your architect even if I already have a builder?",
     answer:
-      "During a kitchen remodel, your kitchen will be largely unusable. We recommend setting up a temporary kitchen space and making arrangements for meals during the renovation period.",
+      "Absolutely. Our architectural services can be provided independently or alongside your preferred contractor.",
   },
   {
-    question: "How long does a kitchen remodel usually take?",
+    question: "What’s the difference between an architect and a designer?",
     answer:
-      "A typical kitchen remodel takes between 6-12 weeks to complete. The exact timeline depends on factors like project scope, material availability, and any unforeseen issues.",
+      "An architect focuses on structural integrity and code compliance; a designer typically focuses on layout and aesthetics. Our team does both.",
   },
   {
-    question: "Do you help with kitchen design and material selection?",
+    question: "How long does the design phase take?",
     answer:
-      "Yes, we provide comprehensive design assistance and material selection guidance to ensure your kitchen meets both your aesthetic preferences and functional needs.",
+      "Design timelines range from 4 to 12 weeks depending on complexity, revisions, and city approvals.",
   },
 ];
 
 const ServicesPage = () => {
   const sliderAlbum = useMemo<MediaData[]>(
     () => [
-      { image: "/images/services/kitchen/KB1.png" },
-      { image: "/images/services/kitchen/KB2.png" },
+      { image: "/images/services/architectural-services/Projects/p1.webp" },
+      { image: "/images/services/architectural-services/Projects/p2.webp" },
+      { image: "/images/services/architectural-services/Projects/p3.webp" },
+      { image: "/images/services/architectural-services/Projects/p4.webp" },
+      { image: "/images/services/architectural-services/Projects/p5.webp" },
     ],
     []
   );
@@ -156,25 +190,25 @@ const ServicesPage = () => {
   return (
     <div className="gradient">
       <Navbar />
-      <HomeSlider />
+      <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
-        contentText="Innate offers boutique kitchen remodel services, combining modern design with functionality in order to transform spaces into personalized havens of comfort and style. Our dedicated project management and design team ensures that there is no difference between the product you envisioned and the product that you got."
+        contentText="Innate partners with skilled architects and structural engineers to deliver custom designs that work in harmony with your lifestyle and the unique constraints of your home. Whether you're opening up a floorplan, adding a second story, or building from scratch—we make the design process easy."
       />
       <LatestProjects
-        title="Check Out Some of Our Latest Bathroom & Kitchen Projects"
-        content="This gallery showcases some of the projects we have done for clients in both Colorado and Washington."
+        title="See Our Full Home Renovation Projects in Seattle"
+        content="This gallery features before-and-after transformations of entire homes across the Greater Seattle area."
         sliderAlbum={sliderAlbum}
       />
       <DesignAndBuild
-        title="Design and build the Innate way"
+        title="Design and Build the Innate Way"
         sections={sections}
       />
       <ReviewsSlider />
       <Testimonials />
       <Consultation />
       <Faq
-        title="FAQ"
+        title="Architectural Services – FAQs"
         description="We've answered some of the most common questions homeowners in the Seattle area ask before starting a project. From timelines and costs to permits and materials, our goal is to make your renovation as smooth and transparent as possible."
         faqItems={faqItems}
       />
@@ -185,3 +219,9 @@ const ServicesPage = () => {
 };
 
 export default ServicesPage;
+
+export const metadata: Metadata = {
+  title: "Architectural Design Services in Seattle | Innate NW",
+  description:
+    "Innate NW offers architectural design services in Seattle. Work with expert architects to create a space tailored to your lifestyle and future vision.",
+};

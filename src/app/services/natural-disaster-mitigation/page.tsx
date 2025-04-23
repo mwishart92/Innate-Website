@@ -22,21 +22,51 @@ import stresstop from "@/public/images/home/dsignbuild/avoidtop.png";
 import track from "@/public/images/home/cabinetry.png";
 import stressbg from "@/public/images/home/dsignbuild/avoidbg.png";
 import { StaticImageData } from "next/image";
+import { Metadata } from "next";
 
-import KB1 from "@/public/images/services/kitchen/KB1.png";
-import KB2 from "@/public/images/services/kitchen/KB2.png";
 import Slide from "@/components/Services/Hero/Content/slide";
 interface MediaData {
   image: string | StaticImageData;
 }
 
-const slides = [];
+const slides = [
+  {
+    component: (
+      <Slide
+        image="/images/services/architectural-services/Hero/cover.webp"
+        video={null}
+      />
+    ),
+    delay: 36000,
+    projectName: "Bosma ADU",
+  },
+  {
+    component: (
+      <Slide
+        image="/images/services/architectural-services/Hero/h1.webp"
+        video={null}
+      />
+    ),
+    delay: 36000,
+    projectName: "Pellegrino Residence",
+  },
+  {
+    component: (
+      <Slide
+        image="/images/services/architectural-services/Hero/h2.webp"
+        video={null}
+      />
+    ),
+    delay: 36000,
+    projectName: "Innate NW",
+  },
+];
 
 const sections = [
   {
     title: "Free Estimate",
     description:
-      "After doing an in-person site visit, we will provide an accurate, comprehensive and transparent bid, broken down by trade.",
+      "We conduct a thorough structural and site assessment to determine your property’s vulnerabilities and provide a custom mitigation plan.",
     image: {
       src: avoidcenter,
       alt: "Free Estimate",
@@ -61,7 +91,7 @@ const sections = [
   {
     title: "Design & Permitting",
     description:
-      "If needed, our network of vetted architects, engineers and interior designers save you the time and hassle of putting together your own team.",
+      "Our team ensures all upgrades follow FEMA, state, and local regulations, preparing architectural or engineering documents as needed.",
     image: {
       src: savetime,
       alt: "Design & Permitting",
@@ -72,7 +102,7 @@ const sections = [
   {
     title: "Materials Consultation",
     description:
-      "Our industry connections, exclusive suppliers and contractor discounts mean you have access to the best materials at the best price.",
+      "We source structural hardware, water barriers, and resilient materials designed to perform in high-risk situations.",
     image: {
       src: matrialbg,
       alt: "Materials Consultation",
@@ -91,7 +121,7 @@ const sections = [
   {
     title: "Construction",
     description:
-      "Our dedicated project managers attend to every detail of your project to make sure it get done right, on time and on budget. Our subcontractors are vetted, experienced and highly skilled.",
+      "Our trained crews install retrofits and reinforcements with careful attention to your home’s safety, appearance, and integrity.",
     image: {
       src: track,
       alt: "Construction",
@@ -102,7 +132,7 @@ const sections = [
   {
     title: "Post Construction",
     description:
-      "Our job is not complete until all the details are double checked, punch-list items are addressed, and the job site has been cleaned of all mess and debris.",
+      "We walk through the upgrades with you, review all safety improvements, and provide documentation for insurance or future resale.",
     image: {
       src: stressbg,
       alt: "Post Construction",
@@ -123,32 +153,56 @@ const sections = [
 
 const faqItems = [
   {
-    question: "How long does a kitchen remodel usually take?",
+    question:
+      "What types of natural disaster risks affect homes in the Seattle area?",
     answer:
-      "A standard kitchen remodel in Seattle takes 6–12 weeks, depending on the size and materials selected.",
+      "Seattle homeowners face risks from earthquakes, heavy rain and flooding, landslides, and wildfires—especially in more wooded or hillside neighborhoods.",
   },
   {
-    question: "Can I use my kitchen during the remodel?",
+    question: "What does natural disaster mitigation include?",
     answer:
-      "During a kitchen remodel, your kitchen will be largely unusable. We recommend setting up a temporary kitchen space and making arrangements for meals during the renovation period.",
+      "Our mitigation services may include seismic retrofitting, grading and drainage improvements, fire-resistant landscaping, siding upgrades, sump pump installation, and more—based on your property’s specific risks.",
   },
   {
-    question: "How long does a kitchen remodel usually take?",
+    question: "Do I need a permit for natural disaster mitigation work?",
     answer:
-      "A typical kitchen remodel takes between 6-12 weeks to complete. The exact timeline depends on factors like project scope, material availability, and any unforeseen issues.",
+      "Yes, most structural and drainage-related upgrades require permits in Seattle. We handle all permitting and ensure the work meets city codes and safety standards.",
   },
   {
-    question: "Do you help with kitchen design and material selection?",
+    question: "How do I know if my home needs earthquake retrofitting?",
     answer:
-      "Yes, we provide comprehensive design assistance and material selection guidance to ensure your kitchen meets both your aesthetic preferences and functional needs.",
+      "Homes built before 1980 are often not bolted to their foundations and may be at risk. We offer inspections to determine if your home needs seismic reinforcement.",
+  },
+  {
+    question: "Can you help protect my home from future flooding?",
+    answer:
+      "Absolutely. We assess your property’s grading, downspouts, foundation, and existing drainage systems to prevent water damage during Seattle’s heavy rain seasons.",
+  },
+  {
+    question: "How much does natural disaster mitigation cost?",
+    answer:
+      "Costs vary depending on the type of work needed. Earthquake retrofits may start around $10,000, while drainage or wildfire prevention work will depend on property size and complexity.",
+  },
+  {
+    question: "Will this improve my home’s resale value?",
+    answer:
+      "Yes—buyers are increasingly interested in homes that are disaster-prepared. Retrofitting and mitigation improvements can boost value and provide a strong selling point.",
+  },
+  {
+    question: "How long does a mitigation project usually take?",
+    answer:
+      "Timelines range from a few days to a few weeks depending on the scope of work. We'll provide a detailed timeline during your estimate.",
   },
 ];
 
 const ServicesPage = () => {
   const sliderAlbum = useMemo<MediaData[]>(
     () => [
-      { image: "/images/services/kitchen/KB1.png" },
-      { image: "/images/services/kitchen/KB2.png" },
+      { image: "/images/services/architectural-services/Projects/p1.webp" },
+      { image: "/images/services/architectural-services/Projects/p2.webp" },
+      { image: "/images/services/architectural-services/Projects/p3.webp" },
+      { image: "/images/services/architectural-services/Projects/p4.webp" },
+      { image: "/images/services/architectural-services/Projects/p5.webp" },
     ],
     []
   );
@@ -156,25 +210,25 @@ const ServicesPage = () => {
   return (
     <div className="gradient">
       <Navbar />
-      <HomeSlider />
+      <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
-        contentText="Innate offers boutique kitchen remodel services, combining modern design with functionality in order to transform spaces into personalized havens of comfort and style. Our dedicated project management and design team ensures that there is no difference between the product you envisioned and the product that you got."
+        contentText="Protect your home against future disaster with Innate’s mitigation services. From seismic retrofits to flood-resistant construction, we help safeguard your home and family with proactive, expert solutions tailored to your region and property."
       />
       <LatestProjects
-        title="Check Out Some of Our Latest Bathroom & Kitchen Projects"
-        content="This gallery showcases some of the projects we have done for clients in both Colorado and Washington."
+        title="See Our Full Home Renovation Projects in Seattle"
+        content="This gallery features before-and-after transformations of entire homes across the Greater Seattle area."
         sliderAlbum={sliderAlbum}
       />
       <DesignAndBuild
-        title="Design and build the Innate way"
+        title="Design and Build the Innate Way"
         sections={sections}
       />
       <ReviewsSlider />
       <Testimonials />
       <Consultation />
       <Faq
-        title="FAQ"
+        title="Architectural Services – FAQs"
         description="We've answered some of the most common questions homeowners in the Seattle area ask before starting a project. From timelines and costs to permits and materials, our goal is to make your renovation as smooth and transparent as possible."
         faqItems={faqItems}
       />
@@ -185,3 +239,9 @@ const ServicesPage = () => {
 };
 
 export default ServicesPage;
+
+export const metadata: Metadata = {
+  title: "Natural Disaster Mitigation Services | Innate NW Seattle",
+  description:
+    "Protect your home with disaster mitigation solutions from Innate NW. We offer seismic retrofits and flood-resistant construction services in Seattle.",
+};
