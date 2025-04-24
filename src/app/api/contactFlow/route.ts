@@ -1,11 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
+const brevo = require("@getbrevo/brevo");
+let apiInstance = new brevo.TransactionalEmailsApi();
+let apiKey = apiInstance.authentications["apiKey"];
+apiKey.apiKey = process.env.BREVO_API_KEY;
+
 export async function POST(req: NextRequest) {
   try {
     // Parse the request body
     const data = await req.json();
-    console.log(JSON.stringify(data, null, 2))
+    console.log(JSON.stringify(data, null, 2));
 
     // Configure the email transport using SMTP (for example, using Gmail)
     const transporter = nodemailer.createTransport({
@@ -56,11 +61,13 @@ export async function POST(req: NextRequest) {
           Selected Options (Step 1):
         </p>
         <p style="font-size: 22px; font-weight: 100;">${data.step1.selectedOptions.join(
-      ", "
-    )}</p>
+          ", "
+        )}</p>
       </div>
   
-      ${data.step1.comment ? `
+      ${
+        data.step1.comment
+          ? `
   <div>
     <p
       style="
@@ -76,7 +83,9 @@ export async function POST(req: NextRequest) {
       ${data.step1.comment}
     </p>
   </div>
-` : ''}
+`
+          : ""
+      }
 
   
       <div >
@@ -91,8 +100,8 @@ export async function POST(req: NextRequest) {
           Selected Options (Step 2):
         </p>
         <p style="font-size: 22px; font-weight: 100;">${data.step2.selectedOptions.join(
-      ", "
-    )}</p>
+          ", "
+        )}</p>
       </div>
   
       <div >
@@ -107,14 +116,15 @@ export async function POST(req: NextRequest) {
     Selected Range (Step 4):
   </p>
   <p style="font-size: 22px; font-weight: 100;">
-    ${Array.isArray(data.step4.selectedOptions)
+    ${
+      Array.isArray(data.step4.selectedOptions)
         ? data.step4.selectedOptions.join(", ")
         : `
           Title: ${data.step4.selectedOptions.title}<br>
           Description: ${data.step4.selectedOptions.description}<br>
          
         `
-      }
+    }
   </p>
 </div>
 
@@ -130,10 +140,12 @@ export async function POST(req: NextRequest) {
         >
           Selected Style (Step 5):
         </p>
-        <p style="font-size: 22px; font-weight: 100;">Title: ${data.step5.selectedStyle.title
-      }</p>
-        <p style="font-size: 22px; font-weight: 100;">Description: ${data.step5.selectedStyle.description
-      }</p>
+        <p style="font-size: 22px; font-weight: 100;">Title: ${
+          data.step5.selectedStyle.title
+        }</p>
+        <p style="font-size: 22px; font-weight: 100;">Description: ${
+          data.step5.selectedStyle.description
+        }</p>
         
       </div>
   
@@ -212,16 +224,47 @@ export async function POST(req: NextRequest) {
     </div>
   `;
 
-    // Set up email options
-    const mailOptions = {
-      from: "info@innate-nw.com",
-      to: "info@innate-nw.com",
-      subject: "Consultation",
-      html: emailTemplate,
+    const sendSmtpEmail = new brevo.SendSmtpEmail();
+    sendSmtpEmail.to = [{ email: "hasnainshafqatmlt@gmail.com" }];
+    sendSmtpEmail.templateId = 1; // Use the correct template ID
+    sendSmtpEmail.params = {
+      step1: data.step1.selectedOptions.join(", "),
+      step1comment: data.step1.comment,
+      step2: data.step2.selectedOptions.join(", "),
+      step4: Array.isArray(data.step4.selectedOptions)
+        ? data.step4.selectedOptions.join(", ")
+        : ``,
+      step4title: !Array.isArray(data.step4.selectedOptions)
+        ? `Title: ${data.step4.selectedOptions.title}`
+        : ``,
+      step4description: !Array.isArray(data.step4.selectedOptions)
+        ? `Description: ${data.step4.selectedOptions.description}`
+        : ``,
+      step5title: data.step5.selectedStyle.title,
+      step5description: data.step5.selectedStyle.description,
+      step6: data.step6.address,
+      step8name: data.step8.name,
+      step8email: data.step8.email,
+      step8phone: data.step8.phone,
     };
 
+    try {
+      await apiInstance.sendTransacEmail(sendSmtpEmail);
+      console.log("Email sent via Brevo.");
+    } catch (error) {
+      console.error("Brevo email error:", error);
+    }
+
+    // Set up email options
+    // const mailOptions = {
+    //   from: "info@innate-nw.com",
+    //   to: "hasnainshafqatmlt@gmail.com",
+    //   subject: "Consultation",
+    //   html: emailTemplate,
+    // };
+
     // Send the email
-    await transporter.sendMail(mailOptions);
+    // await transporter.sendMail(mailOptions);
 
     // Return success response
     return NextResponse.json({

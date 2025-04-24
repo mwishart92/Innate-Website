@@ -11,11 +11,11 @@ import Step6 from "./Step6";
 import Step7 from "./Step7";
 import Step8 from "./Step8";
 import LastStep from "./LastStep";
-import { ClipLoader } from "react-spinners"
+import { ClipLoader } from "react-spinners";
 // import logo from "@/public/logo-innate.png";
 // import facebook from "@/public/fbb.png";
 // import linkedin from "@/public/LinkedIn.png";
-import Swal from 'sweetalert2';
+import Swal from "sweetalert2";
 // import instagaram from "@/public/Instagram.png";
 
 const OnBoarding: React.FC = () => {
@@ -36,7 +36,6 @@ const OnBoarding: React.FC = () => {
     return savedData ? (JSON.parse(savedData) as FormData) : {}; // Retrieve data from localStorage
   });
 
-
   useEffect(() => {
     // Save the current step to localStorage
     sessionStorage.setItem("currentStep", String(currentStep));
@@ -52,12 +51,14 @@ const OnBoarding: React.FC = () => {
       // If currently on Step 3, check the selection from Step1 to decide the next step
       if (prev === 3) {
         const step1Data = formData["step1"] as { selectedOptions: string[] };
-        if (step1Data?.selectedOptions?.includes("Accessory Dwelling Unit (ADU)")) {
+        if (
+          step1Data?.selectedOptions?.includes("Accessory Dwelling Unit (ADU)")
+        ) {
           return 9; // Arbitrary number for Step4Alternative
         }
       }
       if (prev === 9) {
-        return 4
+        return 4;
       }
 
       // Default navigation
@@ -69,22 +70,28 @@ const OnBoarding: React.FC = () => {
       // If currently on Step 3, check the selection from Step1 to decide the next step
       if (prev === 4) {
         const step1Data = formData["step1"] as { selectedOptions: string[] };
-        if (step1Data?.selectedOptions?.includes("Accessory Dwelling Unit (ADU)")) {
+        if (
+          step1Data?.selectedOptions?.includes("Accessory Dwelling Unit (ADU)")
+        ) {
           return 9; // Arbitrary number for Step4Alternative
         }
       }
       if (prev === 9) {
-        return 2
+        return 2;
       }
       // Default navigation
       return prev > 0 ? prev - 1 : prev;
     });
   };
 
-  const handleInputChange = (step: number, data: string | number | object | unknown[]) => {
+  const handleInputChange = (
+    step: number,
+    data: string | number | object | unknown[]
+  ) => {
     // Only update the state if the data has changed
+    console.log(`Step ${step} data:***`, data); // Log the data
     if (JSON.stringify(formData[`step${step}`]) !== JSON.stringify(data)) {
-      // console.log(`Step ${step} data:`, data); // Log the data
+      console.log(`Step ${step} data:`, data); // Log the data
 
       setFormData((prev: FormData) => ({
         ...prev,
@@ -92,8 +99,6 @@ const OnBoarding: React.FC = () => {
       }));
     }
   };
-
-
 
   const handleStep8Next = async (): Promise<void> => {
     console.log("All data collected so far:", formData);
@@ -106,9 +111,9 @@ const OnBoarding: React.FC = () => {
       // Check if formData is valid before sending the API request
       if (!formData || Object.keys(formData).length === 0) {
         Swal.fire({
-          title: 'Error!',
+          title: "Error!",
           text: "Please complete the form before proceeding.",
-          icon: 'error',
+          icon: "error",
           showConfirmButton: false,
           timer: 2000,
         });
@@ -138,31 +143,37 @@ const OnBoarding: React.FC = () => {
       // Check the response success
       if (data.success) {
         handleNext(); // Proceed to the next step
+        Swal.fire({
+          title: "Success!",
+          text: "Your request has been sent successfully.",
+          icon: "success",
+          showConfirmButton: false,
+          timer: 2000,
+        });
       } else {
         Swal.fire({
-          title: 'Error!',
+          title: "Error!",
           text: data.message,
-          icon: 'error',
+          icon: "error",
           showConfirmButton: false,
           timer: 2000,
         });
       }
     } catch (error) {
-      console.error("Error calling contactFlow API:", error instanceof Error ? error.message : error);
+      console.error(
+        "Error calling contactFlow API:",
+        error instanceof Error ? error.message : error
+      );
       Swal.fire({
-        title: 'Error!',
+        title: "Error!",
         text: "Something went Wrong. Please Try Again",
-        icon: 'error',
+        icon: "error",
         showConfirmButton: false,
         timer: 2000,
       });
     }
     setLoading(false);
-
   };
-
-
-
 
   // Calculate progress as a percentage
   let progress = ((currentStep / totalSteps) * 100).toFixed(2);
@@ -250,7 +261,8 @@ const OnBoarding: React.FC = () => {
         <Step4Alternative
           onNext={handleNext}
           onPrevious={handlePrevious}
-          onChange={(data) => handleInputChange(4, data)} />
+          onChange={(data) => handleInputChange(4, data)}
+        />
       )}
       {currentStep === 5 && (
         <Step5
@@ -276,11 +288,7 @@ const OnBoarding: React.FC = () => {
           onChange={(data) => handleInputChange(8, data)}
         />
       )}
-      {currentStep === 9 && (
-        <LastStep
-          onPrevious={handlePrevious}
-        />
-      )}
+      {currentStep === 9 && <LastStep onPrevious={handlePrevious} />}
     </div>
   );
 };
