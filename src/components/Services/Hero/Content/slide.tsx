@@ -10,7 +10,7 @@ interface SlideProps {
 
 const Slide = ({ image, video }: SlideProps) => {
   return (
-    <div className="relative h-screen mob:h-full min-h-[784px] flex justify-center items-center">
+    <div className="relative h-screen mob:h-screen min-h-[784px] flex justify-center items-center">
       {video ? (
         <video
           preload="none"

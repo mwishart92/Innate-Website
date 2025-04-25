@@ -6,7 +6,7 @@ import frame2 from "@/public/images/home/Frame2.png";
 import frame3 from "@/public/images/home/Frame3.png";
 import frame4 from "@/public/images/home/Frame4.png";
 import frame5 from "@/public/images/home/Frame5.png";
-import frame6 from "@/public/images/home/Frame6.png";
+import frame6 from "@/public/images/services/bathroom-remodeling/Hero/cover.webp";
 import frame7 from "@/public/images/home/Frame7.png";
 import frame8 from "@/public/images/home/NaturalDisaster.png";
 import Text from "@/components/ui/Text";

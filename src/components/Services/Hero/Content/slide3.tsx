@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 // import NB5 from "@/public/images/home/NB5.mp4"
 // import Text from "@/components/ui/Text";
@@ -10,7 +10,7 @@ const Slide3 = () => {
   //   }
   // };
   return (
-    <div className="relative h-screen mob:h-full min-h-[784px] flex justify-center items-center">
+    <div className="relative h-screen mob:h-screen min-h-[784px] flex justify-center items-center">
       <video
         preload="none"
         className="fixed top-0 left-0 w-full h-full object-cover z-0"
@@ -41,7 +41,7 @@ const Slide3 = () => {
         <Text className="text-[28px] leading-[36.4px] text-[#FFFFFF]">Palm Springs ADU</Text>
       </div> */}
     </div>
-  )
-}
+  );
+};
 
-export default Slide3
+export default Slide3;

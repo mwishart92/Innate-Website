@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 // import Text from "@/components/ui/Text";
 const Slide4 = () => {
   // const scrollToSection = (id: string) => {
@@ -8,7 +8,7 @@ const Slide4 = () => {
   //     }
   // };
   return (
-    <div className="relative h-screen mob:h-full min-h-[784px] flex justify-center items-center">
+    <div className="relative h-screen mob:h-screen min-h-[784px] flex justify-center items-center">
       <video
         preload="none"
         className="fixed top-0 left-0 w-full h-full object-cover z-0"
@@ -17,7 +17,7 @@ const Slide4 = () => {
         muted
         playsInline
       >
-       <source
+        <source
           src="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/website-homepage.mp4?alt=media&token=3a0019cb-9ce1-4740-abe6-41c3f53bbe3e"
           type="video/mp4"
         />
@@ -39,7 +39,7 @@ const Slide4 = () => {
                 <Text className="text-[28px] leading-[36.4px] text-[#FFFFFF]">Palm Springs ADU</Text>
             </div> */}
     </div>
-  )
-}
+  );
+};
 
-export default Slide4
+export default Slide4;
