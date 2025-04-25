@@ -20,6 +20,7 @@ import roof6 from "@/public/images/home/roof6.png";
 import roof7 from "@/public/images/home/roof7.png";
 import roof8 from "@/public/images/home/natural Disaster Logo.png";
 import roof9 from "@/public/images/home/roof9.png";
+import mitigation from "@/public/images/home/mitigation.png";
 import roof10 from "@/public/images/home/roof10.png";
 import { useRouter } from "next/navigation";
 import "./Services.css";
@@ -256,7 +257,7 @@ const Services = () => {
             <div className="relative z-10">
               <Image
                 className="mx-auto w-[95px] h-[95px] mob:w-[78px] mob:h-[78px]"
-                src={roof6}
+                src={roof9}
                 alt=""
               />
               <Text className="text-[24px] font-light text-center my-4">
@@ -326,7 +327,7 @@ const Services = () => {
             <div className="relative z-10">
               <Image
                 className="mx-auto w-[95px] h-[95px] mob:w-[78px] mob:h-[78px]"
-                src={roof9}
+                src={mitigation}
                 alt=""
               />
               <Text className="text-[24px] font-light text-center my-4">
