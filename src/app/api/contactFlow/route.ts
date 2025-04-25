@@ -39,8 +39,7 @@ export async function POST(req: NextRequest) {
     //     pass: "Innate@123",
     //   },
     // });
-    // const email = 'info@innate-nw.com'
-    const email = "hasnainshafqatmlt@gmail.com";
+    const email = "info@innate-nw.com";
     const sendSmtpEmail = new brevo.SendSmtpEmail();
     sendSmtpEmail.to = [{ email }];
     sendSmtpEmail.templateId = 1; // Use the correct template ID
