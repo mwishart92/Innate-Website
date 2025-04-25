@@ -20,7 +20,7 @@ import roof6 from "@/public/images/home/roof6.png";
 import roof7 from "@/public/images/home/roof7.png";
 import roof8 from "@/public/images/home/natural Disaster Logo.png";
 import roof9 from "@/public/images/home/roof9.png";
-import mitigation from "@/public/images/home/mitigation.png";
+import mitigation from "@/public/images/home/mitigation.svg";
 import roof10 from "@/public/images/home/roof10.png";
 import { useRouter } from "next/navigation";
 import "./Services.css";
