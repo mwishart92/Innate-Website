@@ -64,14 +64,9 @@ function HomeSlider({ slides }: HomeSliderProps) {
               as="h2"
               className="my-3 text-white leading-[44px] mob:leading-[36.4px]"
             >
-              <span className="text-[40px] mob:text-[28px] font-light">
-                Design+ Build
+              <span className="text-[40px] mob:text-[28px] font-light uppercase">
+                {swiperSlides[currentSlide]?.projectName}
               </span>
-              <br />
-              <span className="text-[40px] mob:text-[28px] font-light">
-                It's{" "}
-              </span>
-              <span className="italic text-[40px] mob:text-[28px]">Innate</span>
             </Text>
 
             <button
@@ -83,12 +78,14 @@ function HomeSlider({ slides }: HomeSliderProps) {
             </button>
           </div>
 
-          <Text className="text-[20px] leading-[28px] mob:leading-[25px] text-[#FFFFFF] mt-5 mob:text-[18px] font-normal font-bentonMedium">
+          {/* <Text className="text-[20px] leading-[28px] mob:leading-[25px] text-[#FFFFFF] mt-5 mob:text-[18px] font-normal font-bentonMedium">
             Project
-          </Text>
+          </Text> */}
           <Text className="text-[28px] mob:text-[24px] leading-[36.4px] mob:leading-[31.2px] text-[#FFFFFF] font-light">
-            {swiperSlides[currentSlide]?.projectName}
+            Design+ Build
           </Text>
+          <span className="text-[40px] mob:text-[28px] font-light">It's </span>
+          <span className="italic text-[40px] mob:text-[28px]">Innate</span>
         </div>
 
         <Swiper

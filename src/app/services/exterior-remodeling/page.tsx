@@ -35,21 +35,7 @@ const slides = [
       <Slide image="/images/services/adus/Hero/cover.webp" video={null} />
     ),
     delay: 36000,
-    projectName: "Bosma ADU",
-  },
-  {
-    component: (
-      <Slide image="/images/services/adus/Hero/h1.webp" video={null} />
-    ),
-    delay: 36000,
-    projectName: "Pellegrino Residence",
-  },
-  {
-    component: (
-      <Slide image="/images/services/adus/Hero/h2.webp" video={null} />
-    ),
-    delay: 36000,
-    projectName: "Innate NW",
+    projectName: "exterior remodeling",
   },
 ];
 
@@ -98,14 +84,14 @@ const sections = [
       src: matrialbg,
       alt: "Materials Consultation",
       className: "w-[340.46px]  mob:w-[260.71px]  rounded-[18px] bg-[#b6b6b6]",
-      additionalImages: [
-        {
-          src: stresstop,
-          alt: "Materials Consultation Top",
-          className:
-            "absolute top-[-86px] left-0 w-[263px] h-[98px] mob:w-[198.17px] mob:h-[73.84px] mob:top-[-60px]",
-        },
-      ],
+      // additionalImages: [
+      //   {
+      //     src: stresstop,
+      //     alt: "Materials Consultation Top",
+      //     className:
+      //       "absolute top-[-86px] left-0 w-[263px] h-[98px] mob:w-[198.17px] mob:h-[73.84px] mob:top-[-60px]",
+      //   },
+      // ],
     },
     layout: "right" as const,
   },
@@ -171,8 +157,6 @@ const ServicesPage = () => {
     () => [
       { image: "/images/services/adus/Projects/p1.webp" },
       { image: "/images/services/adus/Projects/p2.webp" },
-      { image: "/images/services/adus/Projects/p3.webp" },
-      { image: "/images/services/adus/Projects/p4.webp" },
     ],
     []
   );

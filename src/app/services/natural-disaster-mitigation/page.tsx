@@ -33,32 +33,12 @@ const slides = [
   {
     component: (
       <Slide
-        image="/images/services/architectural-services/Hero/cover.webp"
+        image="/images/services/natural-disaster-mitigation/Hero/cover.webp"
         video={null}
       />
     ),
     delay: 36000,
-    projectName: "Bosma ADU",
-  },
-  {
-    component: (
-      <Slide
-        image="/images/services/architectural-services/Hero/h1.webp"
-        video={null}
-      />
-    ),
-    delay: 36000,
-    projectName: "Pellegrino Residence",
-  },
-  {
-    component: (
-      <Slide
-        image="/images/services/architectural-services/Hero/h2.webp"
-        video={null}
-      />
-    ),
-    delay: 36000,
-    projectName: "Innate NW",
+    projectName: "natural disaster mitigation",
   },
 ];
 
@@ -107,14 +87,14 @@ const sections = [
       src: matrialbg,
       alt: "Materials Consultation",
       className: "w-[340.46px]  mob:w-[260.71px]  rounded-[18px] bg-[#b6b6b6]",
-      additionalImages: [
-        {
-          src: stresstop,
-          alt: "Materials Consultation Top",
-          className:
-            "absolute top-[-86px] left-0 w-[263px] h-[98px] mob:w-[198.17px] mob:h-[73.84px] mob:top-[-60px]",
-        },
-      ],
+      // additionalImages: [
+      //   {
+      //     src: stresstop,
+      //     alt: "Materials Consultation Top",
+      //     className:
+      //       "absolute top-[-86px] left-0 w-[263px] h-[98px] mob:w-[198.17px] mob:h-[73.84px] mob:top-[-60px]",
+      //   },
+      // ],
     },
     layout: "right" as const,
   },
@@ -198,11 +178,9 @@ const faqItems = [
 const ServicesPage = () => {
   const sliderAlbum = useMemo<MediaData[]>(
     () => [
-      { image: "/images/services/architectural-services/Projects/p1.webp" },
-      { image: "/images/services/architectural-services/Projects/p2.webp" },
-      { image: "/images/services/architectural-services/Projects/p3.webp" },
-      { image: "/images/services/architectural-services/Projects/p4.webp" },
-      { image: "/images/services/architectural-services/Projects/p5.webp" },
+      {
+        image: "/images/services/natural-disaster-mitigation/Projects/p1.webp",
+      },
     ],
     []
   );

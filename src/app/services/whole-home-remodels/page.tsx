@@ -38,7 +38,7 @@ const slides = [
       />
     ),
     delay: 36000,
-    projectName: "Bosma ADU",
+    projectName: "whole home remodeling",
   },
   {
     component: (
@@ -48,7 +48,7 @@ const slides = [
       />
     ),
     delay: 36000,
-    projectName: "Pellegrino Residence",
+    projectName: "whole home remodeling",
   },
   {
     component: (
@@ -58,7 +58,7 @@ const slides = [
       />
     ),
     delay: 36000,
-    projectName: "Innate NW",
+    projectName: "whole home remodeling",
   },
 ];
 
@@ -107,14 +107,14 @@ const sections = [
       src: matrialbg,
       alt: "Materials Consultation",
       className: "w-[340.46px]  mob:w-[260.71px]  rounded-[18px] bg-[#b6b6b6]",
-      additionalImages: [
-        {
-          src: stresstop,
-          alt: "Materials Consultation Top",
-          className:
-            "absolute top-[-86px] left-0 w-[263px] h-[98px] mob:w-[198.17px] mob:h-[73.84px] mob:top-[-60px]",
-        },
-      ],
+      // additionalImages: [
+      //   {
+      //     src: stresstop,
+      //     alt: "Materials Consultation Top",
+      //     className:
+      //       "absolute top-[-86px] left-0 w-[263px] h-[98px] mob:w-[198.17px] mob:h-[73.84px] mob:top-[-60px]",
+      //   },
+      // ],
     },
     layout: "right" as const,
   },
