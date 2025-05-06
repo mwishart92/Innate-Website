@@ -17,7 +17,8 @@ import avoidcenter from "@/public/images/home/dsignbuild/avoidcenter.png";
 import avoidleft from "@/public/images/home/dsignbuild/avoidleft.png";
 import avoidright from "@/public/images/home/dsignbuild/avoidright.png";
 import savetime from "@/public/images/home/savetimee.png";
-import matrialbg from "@/public/images/services/matrial.png";
+import matrialbg from "@/public/images/services/matrial-info.png";
+import matrialicon from "@/public/images/services/matrial-heading.png";
 import stresstop from "@/public/images/home/dsignbuild/avoidtop.png";
 import track from "@/public/images/home/cabinetry.png";
 import stressbg from "@/public/images/home/dsignbuild/avoidbg.png";
@@ -102,19 +103,20 @@ const sections = [
   {
     title: "Materials Consultation",
     description:
-      "Selecting materials for an entire home requires vision and cohesion. We help you create a seamless design narrative through carefully chosen finishes, fixtures, and surfaces.",
+      "We help you select durable, space-conscious materials suited for small-space living with maximum comfort and appeal.",
     image: {
       src: matrialbg,
       alt: "Materials Consultation",
-      className: "w-[340.46px]  mob:w-[260.71px]  rounded-[18px] bg-[#b6b6b6]",
-      // additionalImages: [
-      //   {
-      //     src: stresstop,
-      //     alt: "Materials Consultation Top",
-      //     className:
-      //       "absolute top-[-86px] left-0 w-[263px] h-[98px] mob:w-[198.17px] mob:h-[73.84px] mob:top-[-60px]",
-      //   },
-      // ],
+      className: "w-[430.46px]  mob:w-[260.71px]  rounded-[18px] bg-[#b6b6b6]",
+      additionalImages: [
+        {
+          type: "heading",
+          src: matrialicon,
+          alt: "Innate’s Material Hub",
+          className:
+            "flex items-center gap-2 text-white text-[24px] font-bold leading-[24px] font-inter absolute top-0 left-0 px-3 pt-4",
+        },
+      ],
     },
     layout: "right" as const,
   },

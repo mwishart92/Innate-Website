@@ -58,7 +58,7 @@ function Projects({ sliderAlbum = [] }: ProjectsProps) {
               Pagination,
               EffectFade,
             ]}
-            className="mySwiper"
+            className="mySwiper w-full"
           >
             {sliderAlbum?.map((item: MediaData, index) => (
               <SwiperSlide key={index} className="px-2 mb-[18px]">

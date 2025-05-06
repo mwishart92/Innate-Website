@@ -26,8 +26,10 @@ interface Section {
       src: any;
       alt: string;
       className: string;
+      type?: "heading" | "image";
     }[];
   };
+  imageContainerClass?: string;
   layout: "left" | "right";
 }
 
@@ -52,7 +54,10 @@ const DesignAndBuild = ({
       {sections.map((section, index) => (
         <div
           key={index}
-          className="flex lg:flex-wrap gap-[47px] items-center px-[43px] pt-[43px] pb-[43px] mob:px-[16px] w-[80%] mob:w-full min-h-[500px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] justify-center mob:gap-[40px] mob:pt-[12px] mob:pb-[28px]"
+          className={cn(
+            "flex lg:flex-wrap gap-[47px] items-center px-[43px] pt-[43px] pb-[43px] mob:px-[16px] w-[80%] mob:w-full min-h-[500px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] justify-center mob:gap-[40px] mob:pt-[12px] mob:pb-[28px]",
+            section.imageContainerClass
+          )}
         >
           {section.layout === "right" ? (
             <>
@@ -74,7 +79,13 @@ const DesignAndBuild = ({
                 {section.image.additionalImages?.map((img, idx) => (
                   <Image
                     key={idx}
-                    data-aos={idx === 0 ? "fade-left" : "fade-right"}
+                    data-aos={
+                      img.type === "heading"
+                        ? "fade-down"
+                        : idx === 0
+                        ? "fade-left"
+                        : "fade-right"
+                    }
                     data-aos-duration="1000"
                     data-aos-delay="200"
                     src={img.src}
@@ -107,17 +118,23 @@ const DesignAndBuild = ({
                   alt={section.image.alt}
                   className={section.image.className}
                 />
-                {section.image.additionalImages?.map((img, idx) => (
-                  <Image
-                    key={idx}
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="0"
-                    src={img.src}
-                    alt={img.alt}
-                    className={img.className}
-                  />
-                ))}
+                {section.image.additionalImages?.map((img, idx) =>
+                  img.type === "heading" ? (
+                    <div key={idx} className={img.className}>
+                      <Text as="h2">{img.alt}</Text>
+                    </div>
+                  ) : (
+                    <Image
+                      key={idx}
+                      data-aos="fade-up"
+                      data-aos-duration="1000"
+                      data-aos-delay="0"
+                      src={img.src}
+                      alt={img.alt}
+                      className={img.className}
+                    />
+                  )
+                )}
               </div>
             </>
           )}

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import frame1 from "@/public/images/home/Frame1.png";
+import frame1 from "@/public/images/services/exterior-remodeling/Projects/exterior.webp";
 import frame2 from "@/public/images/home/Frame2.png";
 import frame3 from "@/public/images/home/Frame3.png";
 import frame4 from "@/public/images/home/Frame4.png";

@@ -211,7 +211,7 @@ const Navbar = () => {
                         Work
                       </Link>
                     </li>
-                    <li className="relative group">
+                    {/* <li className="relative group">
                       <Link
                         href="/services"
                         onClick={() => handleTabChange("/services")}
@@ -222,8 +222,7 @@ const Navbar = () => {
                         }`}
                       >
                         <div className="flex items-center gap-1">Services</div>
-                      </Link>
-                      {/* Dropdown menu */}
+                      </Link> 
                       <ul className="absolute left-0 min-w-[200px] bg-[#333333] text-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                         {services.map((service) => (
                           <li key={service.slug}>
@@ -242,7 +241,7 @@ const Navbar = () => {
                           </li>
                         ))}
                       </ul>
-                    </li>
+                    </li> */}
 
                     <li>
                       <Link
@@ -339,7 +338,7 @@ const Navbar = () => {
                             Work
                           </li>
                         </Link>
-                        <div className="flex justify-between">
+                        {/* <div className="flex justify-between">
                           <Link
                             href="/services"
                             onClick={() => handleTabChange("/services")}
@@ -370,8 +369,8 @@ const Navbar = () => {
                               height={24}
                             />
                           </div>
-                        </div>
-                        {/* Mobile menu  */}
+                        </div> */}
+
                         <div
                           className={cn(
                             "overflow-hidden transition-all duration-300 ease-in-out",

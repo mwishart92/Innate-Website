@@ -18,6 +18,7 @@ const LatestProjects = ({
   content = "",
   sliderAlbum = [],
 }: LatestProjectsProps) => {
+  console.log(sliderAlbum, "sliderAlbum >>>");
   return (
     <div className="w-full">
       <div className="w-full max-w-[1203px] xl:px-8 mx-auto">
