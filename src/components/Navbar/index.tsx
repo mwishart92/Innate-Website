@@ -211,10 +211,8 @@ const Navbar = () => {
                         Work
                       </Link>
                     </li>
-                    {/* <li className="relative group">
-                      <Link
-                        href="/services"
-                        onClick={() => handleTabChange("/services")}
+                    <li className="relative group">
+                      <div
                         className={`cursor-pointer block text-[16px] font-inter font-light leading-[25.5px] hover:text-[#2CFF06] ${
                           activeTab === "/services"
                             ? "text-[#2CFF06]"
@@ -222,7 +220,7 @@ const Navbar = () => {
                         }`}
                       >
                         <div className="flex items-center gap-1">Services</div>
-                      </Link> 
+                      </div>
                       <ul className="absolute left-0 min-w-[200px] bg-[#333333] text-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                         {services.map((service) => (
                           <li key={service.slug}>
@@ -241,7 +239,7 @@ const Navbar = () => {
                           </li>
                         ))}
                       </ul>
-                    </li> */}
+                    </li>
 
                     <li>
                       <Link
@@ -338,10 +336,8 @@ const Navbar = () => {
                             Work
                           </li>
                         </Link>
-                        {/* <div className="flex justify-between">
-                          <Link
-                            href="/services"
-                            onClick={() => handleTabChange("/services")}
+                        <div className="flex justify-between">
+                          <div
                             className={`block text-[19px] font-inter font-normal leading-[25.5px] text-[#FFFFFF] hover:text-[#2CFF06] ${
                               activeTab === "/services"
                                 ? "text-[#2CFF06]"
@@ -351,7 +347,7 @@ const Navbar = () => {
                             <span className="flex ms-5 py-[15px] list-items">
                               Services
                             </span>
-                          </Link>
+                          </div>
                           <div
                             className="flex items-center w-full justify-end"
                             onClick={() => {
@@ -369,7 +365,7 @@ const Navbar = () => {
                               height={24}
                             />
                           </div>
-                        </div> */}
+                        </div>
 
                         <div
                           className={cn(
