@@ -51,12 +51,14 @@ const sections = [
       className: "w-[251.2px]  sm:w-[340.31px] z-20",
       additionalImages: [
         {
+          type: "image" as const,
           src: avoidleft,
           alt: "Free Estimate Left",
           className:
             "absolute left-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px]",
         },
         {
+          type: "image" as const,
           src: avoidright,
           alt: "Free Estimate Right",
           className:
@@ -69,7 +71,7 @@ const sections = [
   {
     title: "Design & Permitting",
     description:
-      "We assist with exterior material choices and handle necessary permitting for structural or visual changes that affect your home’s footprint.",
+      "We assist with exterior material choices and handle necessary permitting for structural or visual changes that affect your home's footprint.",
     image: {
       src: savetime,
       alt: "Design & Permitting",
@@ -88,9 +90,9 @@ const sections = [
       imageContainerClass: "relative",
       additionalImages: [
         {
-          type: "heading",
+          type: "heading" as const,
           src: matrialicon,
-          alt: "Innate’s Material Hub",
+          alt: "Innate's Material Hub",
           className:
             "flex items-center gap-2 text-white text-[24px] font-bold leading-[24px] font-inter absolute top-0 left-0 px-3 pt-4",
         },
@@ -134,9 +136,9 @@ const sections = [
 const faqTitle = "Exterior Remodeling (Siding, Windows, Doors) – FAQs";
 const faqItems = [
   {
-    question: "What are the most durable siding options in Seattle’s climate?",
+    question: "What are the most durable siding options in Seattle's climate?",
     answer:
-      "Fiber cement, engineered wood, and metal siding hold up well against Seattle’s moisture and seasonal weather.",
+      "Fiber cement, engineered wood, and metal siding hold up well against Seattle's moisture and seasonal weather.",
   },
   {
     question: "Can you replace my siding, windows, and doors at the same time?",
@@ -144,7 +146,7 @@ const faqItems = [
       "Yes, we often bundle exterior upgrades to streamline cost, time, and visual impact.",
   },
   {
-    question: "Will new siding and windows increase my home’s value?",
+    question: "Will new siding and windows increase my home's value?",
     answer:
       "Yes — these upgrades improve curb appeal, energy efficiency, and overall market value.",
   },
@@ -169,7 +171,7 @@ const ServicesPage = () => {
       <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
-        contentText="Boost curb appeal and efficiency with Innate’s exterior remodeling services. We handle siding replacement, energy-efficient windows, and modern door installations with care, precision, and a keen eye for long-term value."
+        contentText="Boost curb appeal and efficiency with Innate's exterior remodeling services. We handle siding replacement, energy-efficient windows, and modern door installations with care, precision, and a keen eye for long-term value."
       />
       <LatestProjects
         title="See Our Full Home Renovation Projects in Seattle"
@@ -199,5 +201,5 @@ export default ServicesPage;
 export const metadata: Metadata = {
   title: "Exterior Remodeling in Seattle | Siding, Windows & Doors | Innate NW",
   description:
-    "Boost your home’s curb appeal with exterior remodeling from Innate NW in Seattle. Expert siding, windows, and door upgrades with precision craftsmanship.",
+    "Boost your home's curb appeal with exterior remodeling from Innate NW in Seattle. Expert siding, windows, and door upgrades with precision craftsmanship.",
 };

@@ -101,9 +101,9 @@ const sections = [
       className: "w-[430.46px]  mob:w-[260.71px]  rounded-[18px] bg-[#b6b6b6]",
       additionalImages: [
         {
-          type: "heading",
+          type: "heading" as const,
           src: matrialicon,
-          alt: "Innate’s Material Hub",
+          alt: "Innate's Material Hub",
           className:
             "flex items-center gap-2 text-white text-[24px] font-bold leading-[24px] font-inter absolute top-0 left-0 px-3 pt-4",
         },
@@ -154,7 +154,7 @@ const faqItems = [
   {
     question: "Do I need permits for an ADU in Seattle?",
     answer:
-      "Yes, and we manage the entire permitting process in compliance with Seattle’s ADU regulations.",
+      "Yes, and we manage the entire permitting process in compliance with Seattle's ADU regulations.",
   },
   {
     question: "How long does it take to build an ADU?",
@@ -180,7 +180,7 @@ const ServicesPage = () => {
       <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
-        contentText="Innate designs and builds custom ADUs that maximize your property’s value, provide rental income, or support multigenerational living. We streamline the complex permitting process and provide complete build solutions for detached or attached ADUs."
+        contentText="Innate designs and builds custom ADUs that maximize your property's value, provide rental income, or support multigenerational living. We streamline the complex permitting process and provide complete build solutions for detached or attached ADUs."
       />
       <LatestProjects
         title="See Our Full Home Renovation Projects in Seattle"
@@ -210,5 +210,5 @@ export default ServicesPage;
 export const metadata: Metadata = {
   title: "Exterior Remodeling in Seattle | Siding, Windows & Doors | Innate NW",
   description:
-    "Boost your home’s curb appeal with exterior remodeling from Innate NW in Seattle. Expert siding, windows, and door upgrades with precision craftsmanship.",
+    "Boost your home's curb appeal with exterior remodeling from Innate NW in Seattle. Expert siding, windows, and door upgrades with precision craftsmanship.",
 };

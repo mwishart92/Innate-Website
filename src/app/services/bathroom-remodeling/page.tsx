@@ -54,12 +54,14 @@ const sections = [
       className: "w-[251.2px]  sm:w-[340.31px] z-20",
       additionalImages: [
         {
+          type: "image" as const,
           src: avoidleft,
           alt: "Free Estimate Left",
           className:
             "absolute left-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px]",
         },
         {
+          type: "image" as const,
           src: avoidright,
           alt: "Free Estimate Right",
           className:
@@ -90,9 +92,9 @@ const sections = [
       className: "w-[430.46px]  mob:w-[260.71px]  rounded-[18px] bg-[#b6b6b6]",
       additionalImages: [
         {
-          type: "heading",
+          type: "heading" as const,
           src: matrialicon,
-          alt: "Innate’s Material Hub",
+          alt: "Innate's Material Hub",
           className:
             "flex items-center gap-2 text-white text-[24px] font-bold leading-[24px] font-inter absolute top-0 left-0 px-3 pt-4",
         },
@@ -144,7 +146,7 @@ const ServicesPage = () => {
 
   const faqItems = [
     {
-      question: "What’s the timeline for remodeling a bathroom?",
+      question: "What's the timeline for remodeling a bathroom?",
       answer:
         "Most bathroom remodels take 3–8 weeks, depending on the size and scope.",
     },
@@ -166,7 +168,7 @@ const ServicesPage = () => {
       <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
-        contentText="From compact powder rooms to luxurious spa-like retreats, Innate’s bathroom remodel services combine elegant design with functional upgrades. We help you reimagine your bathroom into a space that brings peace, value, and utility to your daily life."
+        contentText="From compact powder rooms to luxurious spa-like retreats, Innate's bathroom remodel services combine elegant design with functional upgrades. We help you reimagine your bathroom into a space that brings peace, value, and utility to your daily life."
       />
       <LatestProjects
         title="Explore Our Bathroom Remodel Work Across Seattle"
@@ -196,5 +198,5 @@ export default ServicesPage;
 export const metadata: Metadata = {
   title: "Bathroom Remodeling Experts in Seattle | Innate NW",
   description:
-    "Create a spa-like bathroom retreat with Innate NW’s remodeling services in Seattle. Tailored design, moisture-resistant materials, and expert construction.",
+    "Create a spa-like bathroom retreat with Innate NW's remodeling services in Seattle. Tailored design, moisture-resistant materials, and expert construction.",
 };

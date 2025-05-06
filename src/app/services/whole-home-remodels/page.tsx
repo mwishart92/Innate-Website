@@ -67,19 +67,21 @@ const sections = [
   {
     title: "Free Estimate",
     description:
-      "We conduct an in-depth walkthrough to understand your entire home’s layout, identify structural opportunities, and provide a detailed bid broken down by scope and trade.",
+      "We conduct an in-depth walkthrough to understand your entire home's layout, identify structural opportunities, and provide a detailed bid broken down by scope and trade.",
     image: {
       src: avoidcenter,
       alt: "Free Estimate",
       className: "w-[251.2px]  sm:w-[340.31px] z-20",
       additionalImages: [
         {
+          type: "image" as const,
           src: avoidleft,
           alt: "Free Estimate Left",
           className:
             "absolute left-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px]",
         },
         {
+          type: "image" as const,
           src: avoidright,
           alt: "Free Estimate Right",
           className:
@@ -110,9 +112,9 @@ const sections = [
       className: "w-[430.46px]  mob:w-[260.71px]  rounded-[18px] bg-[#b6b6b6]",
       additionalImages: [
         {
-          type: "heading",
+          type: "heading" as const,
           src: matrialicon,
-          alt: "Innate’s Material Hub",
+          alt: "Innate's Material Hub",
           className:
             "flex items-center gap-2 text-white text-[24px] font-bold leading-[24px] font-inter absolute top-0 left-0 px-3 pt-4",
         },
@@ -165,7 +167,7 @@ const faqItems = [
       "It depends on the extent of the work. For full gut renovations or major structural changes, we often recommend temporarily relocating.",
   },
   {
-    question: "What’s included in a whole home remodel?",
+    question: "What's included in a whole home remodel?",
     answer:
       "Our whole home remodeling service covers everything from design and planning to kitchens, bathrooms, flooring, lighting, and structural upgrades.",
   },
@@ -216,5 +218,5 @@ export default ServicesPage;
 export const metadata: Metadata = {
   title: "Whole Home Remodeling Services in Seattle | Innate NW",
   description:
-    "Transform your entire home with Innate NW’s expert whole home remodeling services in Seattle. Personalized design, dedicated project management, and flawless execution.",
+    "Transform your entire home with Innate NW's expert whole home remodeling services in Seattle. Personalized design, dedicated project management, and flawless execution.",
 };

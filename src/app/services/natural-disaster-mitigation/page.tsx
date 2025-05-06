@@ -47,19 +47,21 @@ const sections = [
   {
     title: "Free Estimate",
     description:
-      "We conduct a thorough structural and site assessment to determine your property’s vulnerabilities and provide a custom mitigation plan.",
+      "We conduct a thorough structural and site assessment to determine your property's vulnerabilities and provide a custom mitigation plan.",
     image: {
       src: avoidcenter,
       alt: "Free Estimate",
       className: "w-[251.2px]  sm:w-[340.31px] z-20",
       additionalImages: [
         {
+          type: "image" as const,
           src: avoidleft,
           alt: "Free Estimate Left",
           className:
             "absolute left-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px]",
         },
         {
+          type: "image" as const,
           src: avoidright,
           alt: "Free Estimate Right",
           className:
@@ -90,9 +92,9 @@ const sections = [
       className: "w-[430.46px]  mob:w-[260.71px]  rounded-[18px] bg-[#b6b6b6]",
       additionalImages: [
         {
-          type: "heading",
+          type: "heading" as const,
           src: matrialicon,
-          alt: "Innate’s Material Hub",
+          alt: "Innate's Material Hub",
           className:
             "flex items-center gap-2 text-white text-[24px] font-bold leading-[24px] font-inter absolute top-0 left-0 px-3 pt-4",
         },
@@ -103,7 +105,7 @@ const sections = [
   {
     title: "Construction",
     description:
-      "Our trained crews install retrofits and reinforcements with careful attention to your home’s safety, appearance, and integrity.",
+      "Our trained crews install retrofits and reinforcements with careful attention to your home's safety, appearance, and integrity.",
     image: {
       src: track,
       alt: "Construction",
@@ -143,7 +145,7 @@ const faqItems = [
   {
     question: "What does natural disaster mitigation include?",
     answer:
-      "Our mitigation services may include seismic retrofitting, grading and drainage improvements, fire-resistant landscaping, siding upgrades, sump pump installation, and more—based on your property’s specific risks.",
+      "Our mitigation services may include seismic retrofitting, grading and drainage improvements, fire-resistant landscaping, siding upgrades, sump pump installation, and more—based on your property's specific risks.",
   },
   {
     question: "Do I need a permit for natural disaster mitigation work?",
@@ -158,7 +160,7 @@ const faqItems = [
   {
     question: "Can you help protect my home from future flooding?",
     answer:
-      "Absolutely. We assess your property’s grading, downspouts, foundation, and existing drainage systems to prevent water damage during Seattle’s heavy rain seasons.",
+      "Absolutely. We assess your property's grading, downspouts, foundation, and existing drainage systems to prevent water damage during Seattle's heavy rain seasons.",
   },
   {
     question: "How much does natural disaster mitigation cost?",
@@ -166,7 +168,7 @@ const faqItems = [
       "Costs vary depending on the type of work needed. Earthquake retrofits may start around $10,000, while drainage or wildfire prevention work will depend on property size and complexity.",
   },
   {
-    question: "Will this improve my home’s resale value?",
+    question: "Will this improve my home's resale value?",
     answer:
       "Yes—buyers are increasingly interested in homes that are disaster-prepared. Retrofitting and mitigation improvements can boost value and provide a strong selling point.",
   },
@@ -193,7 +195,7 @@ const ServicesPage = () => {
       <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
-        contentText="Protect your home against future disaster with Innate’s mitigation services. From seismic retrofits to flood-resistant construction, we help safeguard your home and family with proactive, expert solutions tailored to your region and property."
+        contentText="Protect your home against future disaster with Innate's mitigation services. From seismic retrofits to flood-resistant construction, we help safeguard your home and family with proactive, expert solutions tailored to your region and property."
       />
       {/* <LatestProjects
         title="See Our Full Home Renovation Projects in Seattle"
