@@ -169,8 +169,8 @@ const ServicesPage = () => {
         contentText="Transform your outdoor space with a custom-built deck designed for relaxation and connection. From classic wood to modern composites, Innate designs and constructs decks that expand your living space and elevate your lifestyle."
       />
       <LatestProjects
-        title="See Our Full Home Renovation Projects in Seattle"
-        content="This gallery features before-and-after transformations of entire homes across the Greater Seattle area."
+        title="View Our Custom Deck Projects"
+        content="This gallery features some of our custom deck builds for clients in Seattle and surrounding areas. Discover how we design and construct beautiful, durable outdoor spaces perfect for relaxing and entertaining."
         sliderAlbum={sliderAlbum}
       />
       <DesignAndBuild

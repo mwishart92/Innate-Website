@@ -183,8 +183,8 @@ const ServicesPage = () => {
         contentText="Innate designs and builds custom ADUs that maximize your property's value, provide rental income, or support multigenerational living. We streamline the complex permitting process and provide complete build solutions for detached or attached ADUs."
       />
       <LatestProjects
-        title="See Our Full Home Renovation Projects in Seattle"
-        content="This gallery features before-and-after transformations of entire homes across the Greater Seattle area."
+        title="Discover Our ADU Design & Build Projects"
+        content="Browse recent accessory dwelling unit (ADU) projects we’ve completed in Seattle, Washington. From backyard cottages to garage conversions, see how we create high-quality, efficient living spaces."
         sliderAlbum={sliderAlbum}
       />
       <DesignAndBuild

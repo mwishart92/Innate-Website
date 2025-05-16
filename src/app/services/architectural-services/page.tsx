@@ -200,8 +200,8 @@ const ServicesPage = () => {
         contentText="Innate partners with skilled architects and structural engineers to deliver custom designs that work in harmony with your lifestyle and the unique constraints of your home. Whether you're opening up a floorplan, adding a second story, or building from scratch—we make the design process easy."
       />
       <LatestProjects
-        title="See Our Full Home Renovation Projects in Seattle"
-        content="This gallery features before-and-after transformations of entire homes across the Greater Seattle area."
+        title="See Our Architectural Design Projects"
+        content="Explore examples of architectural design work completed for homeowners in Seattle, Washington. Our architectural services help bring your vision to life with innovative, functional, and beautiful design solutions."
         sliderAlbum={sliderAlbum}
       />
       <DesignAndBuild

@@ -174,8 +174,8 @@ const ServicesPage = () => {
         contentText="Boost curb appeal and efficiency with Innate's exterior remodeling services. We handle siding replacement, energy-efficient windows, and modern door installations with care, precision, and a keen eye for long-term value."
       />
       <LatestProjects
-        title="See Our Full Home Renovation Projects in Seattle"
-        content="This gallery features before-and-after transformations of entire homes across the Greater Seattle area."
+        title="Explore Our Recent Exterior Remodeling Projects"
+        content="Browse a selection of our exterior remodeling work across Seattle, Washington. See how we’ve helped homeowners enhance curb appeal, improve energy efficiency, and create stunning exteriors."
         sliderAlbum={sliderAlbum}
       />
       <DesignAndBuild

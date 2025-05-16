@@ -55,7 +55,7 @@ const DesignAndBuild = ({
         <div
           key={index}
           className={cn(
-            "flex lg:flex-wrap gap-[47px] items-center px-[43px] pt-[43px] pb-[43px] mob:px-[16px] w-[80%] mob:w-full min-h-[500px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] justify-center mob:gap-[40px] mob:pt-[12px] mob:pb-[28px]",
+            "flex lg:flex-wrap gap-[47px] items-center px-[43px] pt-[43px] pb-[43px] mob:px-[16px] w-[80%] mob:w-full min-h-[500px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] gradient2 justify-center mob:gap-[40px] mob:pt-[12px] mob:pb-[28px]",
             section.imageContainerClass
           )}
         >

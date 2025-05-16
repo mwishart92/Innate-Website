@@ -64,7 +64,7 @@ function HomeSlider({ slides }: HomeSliderProps) {
               as="h2"
               className="my-3 text-white leading-[44px] mob:leading-[36.4px]"
             >
-              <span className="text-[40px] mob:text-[28px] font-light uppercase">
+              <span className="text-[40px] mob:text-[28px] font-light capitalize">
                 {swiperSlides[currentSlide]?.projectName}
               </span>
             </Text>
