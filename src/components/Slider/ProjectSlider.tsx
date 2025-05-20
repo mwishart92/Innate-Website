@@ -18,18 +18,18 @@ const ProjectSlider = ({ projectDetails }: { projectDetails: any }) => {
       <div>
         <Swiper
           spaceBetween={50}
-          slidesPerView={1}
+          slidesPerView={"auto"}
+          centeredSlides={true}
           speed={2000}
           autoplay={{
             delay: 4000,
             disableOnInteraction: false,
           }}
-          effect="fade"
-          modules={[Autoplay, EffectFade]}
+          modules={[Autoplay]}
           loop={true}
         >
           {projectDetails.projectSlider.map((item: any, index: number) => (
-            <SwiperSlide key={index} className="relative">
+            <SwiperSlide key={index} className="relative !w-[1133px]">
               <div className="w-full h-[358px]">
                 <Image
                   src={item.image}
