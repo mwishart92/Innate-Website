@@ -69,33 +69,36 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
           </Link>
         </div>
 
-        <div className="flex">
-          <Image
-            src={USCDL}
-            alt=""
-            className="w-full object-cover mob:hidden"
-          />
-          <Image src={USCDM} alt="" className="w-full object-cover md:hidden" />
-        </div>
+        {projectDetails?.media?.desktop && (
+          <div className="relative w-full h-full">
+            <Image
+              src={projectDetails?.media?.desktop}
+              alt=""
+              className="w-full object-cover mob:hidden !relative"
+              fill
+              sizes="100vw"
+            />
+            {projectDetails?.media?.mobile && (
+              <Image
+                src={projectDetails?.media?.mobile}
+                alt=""
+                className="w-full object-cover md:hidden !relative"
+                fill
+                priority
+                sizes="100vw"
+              />
+            )}
+          </div>
+        )}
         <div className="flex flex-col gap-10">
-          <Text className="text-[#D9D9D9] font-normal mob:text-[14px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </Text>
-          <Text className="text-[#D9D9D9] font-normal mob:text-[14px] ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </Text>
+          {projectDetails?.description.map((d: string, key: number) => (
+            <Text
+              className="text-[#D9D9D9] font-normal mob:text-[14px]"
+              key={key}
+            >
+              {d}
+            </Text>
+          ))}
         </div>
         <div className="grid grid-cols-3 gap-[18px] mob:gap-2">
           {projectDetails.gallery.map((image: any, index: any) => (
@@ -103,7 +106,8 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
               <Image
                 src={image.image}
                 alt=""
-                className={cn("w-full object-cover")}
+                className={cn("w-full object-cover !relative")}
+                fill
               />
             </div>
           ))}

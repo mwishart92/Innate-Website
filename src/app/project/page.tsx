@@ -1,5 +1,4 @@
 import Navbar from "@/components/Navbar";
-import HeroProject from "@/components/Project/HeroProject";
 import ProjectDescription from "@/components/Project/ProjectDescription";
 import React from "react";
 import p1 from "@/public/images/project/gabrielle-maurer-bSDRTDquQG8-unsplash.webp";
@@ -8,7 +7,18 @@ import p3 from "@/public/images/project/bailey-alexander-QQ6xmTXXFZ8-unsplash.we
 import p4 from "@/public/images/project/bailey-alexander-PE4pFgcYzoQ-unsplash.webp";
 import slider1 from "@/public/images/project/project-slider-1.webp";
 import slider2 from "@/public/images/project/project-slider-2.webp";
+import ProjectSlider from "@/components/Project/Hero/Slider";
+import Slide from "@/components/Project/Hero/Content/slide";
+
 const page = () => {
+  const slides = [
+    {
+      component: <Slide image="/images/home/slide1innate.png" video={null} />,
+      delay: 36000,
+      projectName: "Palm Springs ADU",
+      projectType: "Residential",
+    },
+  ];
   const projectDetails = {
     projectScope: [
       { key: "Scope", value: "Architecture" },
@@ -27,6 +37,26 @@ const page = () => {
             diffused-skylight daylighting system creates a soft natural light
             for viewing art, and gives the sense of the outdoors while inside.
             Intimate living alcoves punctuate the sides of the gallery.`,
+    media: {
+      desktop: "/images/project/UCSDL.webp",
+      mobile: "/images/project/UCSDM.webp",
+    },
+    description: [
+      `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.`,
+      `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.`,
+    ],
     gallery: [
       {
         image: p1,
@@ -83,7 +113,7 @@ const page = () => {
   return (
     <div>
       <Navbar />
-      <HeroProject />
+      <ProjectSlider slides={slides} />
 
       <ProjectDescription projectDetails={projectDetails} />
     </div>
