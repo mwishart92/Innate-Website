@@ -10,13 +10,6 @@ import slider2 from "@/public/images/project/project-slider-2.webp";
 import ProjectSlider from "@/components/Project/Hero/Slider";
 import Slide from "@/components/Project/Hero/Content/slide";
 
-interface ProjectPageProps {
-  params: {
-    slug: string;
-  };
-  searchParams: { [key: string]: string | string[] | undefined };
-}
-
 const defaultSlides = [
   {
     component: <Slide image="/images/home/slide1innate.png" video={null} />,
@@ -140,12 +133,12 @@ const projectData = {
         { key: "Design Principle", value: "Michael Wishart" },
         { key: "General Contractor", value: "Innate-NW" },
       ],
-      scopedescription: `This North Seattle kitchen renovation highlights how thoughtful design and skilled craftsmanship can completely transform a home’s most used space. Custom cabinetry from Canyon Creek was carefully tailored to fit the needs of the homeowners, with specialized compartments for spices, pans, and baking trays. Large-format tile and quartz countertops add a modern aesthetic, while a radiant heated floor ensures comfort and function through Seattle’s colder months.`,
+      scopedescription: `This North Seattle kitchen renovation highlights how thoughtful design and skilled craftsmanship can completely transform a home's most used space. Custom cabinetry from Canyon Creek was carefully tailored to fit the needs of the homeowners, with specialized compartments for spices, pans, and baking trays. Large-format tile and quartz countertops add a modern aesthetic, while a radiant heated floor ensures comfort and function through Seattle's colder months.`,
       media: {
         desktop: "/images/project/seattle-kitchen/IMG_1568.webp",
       },
       description: [
-        `Every detail in this kitchen remodel was considered—from the custom cabinet inserts to the precision installation required for each unique piece. Our team coordinated closely with Canyon Creek to fabricate custom elements that not only elevated the kitchen’s look, but also made day-to-day use more intuitive. The result is a space that feels highly personal, with finishes and functionality aligned to the client's vision.`,
+        `Every detail in this kitchen remodel was considered—from the custom cabinet inserts to the precision installation required for each unique piece. Our team coordinated closely with Canyon Creek to fabricate custom elements that not only elevated the kitchen's look, but also made day-to-day use more intuitive. The result is a space that feels highly personal, with finishes and functionality aligned to the client's vision.`,
       ],
       gallery: [
         {
@@ -163,7 +156,7 @@ const projectData = {
         },
       ],
       galleryDescription:
-        "Completed in just four weeks, this North Seattle kitchen renovation showcases Innate-NW’s commitment to quality, efficiency, and design excellence. Whether you're seeking a kitchen remodel in Seattle or a full-scale home renovation, our team brings deep experience and a collaborative approach to every custom project.",
+        "Completed in just four weeks, this North Seattle kitchen renovation showcases Innate-NW's commitment to quality, efficiency, and design excellence. Whether you're seeking a kitchen remodel in Seattle or a full-scale home renovation, our team brings deep experience and a collaborative approach to every custom project.",
       projectSlider,
     },
   },
@@ -224,7 +217,7 @@ const projectData = {
         },
       ],
       galleryDescription:
-        "This Palm Springs home was fully designed in just three months, a testament to Innate-NW’s efficient design process and collaborative approach. Whether you're building a new home in Palm Springs or looking to design a modern ADU, Innate-NW brings purpose, clarity, and intention to every residential project.",
+        "This Palm Springs home was fully designed in just three months, a testament to Innate-NW's efficient design process and collaborative approach. Whether you're building a new home in Palm Springs or looking to design a modern ADU, Innate-NW brings purpose, clarity, and intention to every residential project.",
       projectSlider,
     },
   },
@@ -287,7 +280,7 @@ const projectData = {
           image: "/images/project/gray-bathroom/DSC00506.webp",
         },
       ],
-      galleryDescription: `Located in Kent, this bathroom remodel showcases Innate-NW’s ability to turn urgent repairs into long-term value. By combining expert construction, design vision, and insurance coordination, we delivered a stunning result with minimal stress for the client.`,
+      galleryDescription: `Located in Kent, this bathroom remodel showcases Innate-NW's ability to turn urgent repairs into long-term value. By combining expert construction, design vision, and insurance coordination, we delivered a stunning result with minimal stress for the client.`,
       projectSlider: [
         {
           image: slider1,
@@ -349,7 +342,7 @@ const projectData = {
         desktop: "/images/project/gray-bathroom/IMG_9334.webp",
       },
       description: [
-        `Accordion doors open the main living space to the outdoors, while quartzite counters and gold accents add elegance to the kitchen. One of the home’s standout features is a custom golf simulator installed in the living room—perfectly suited to the client’s passion, and cleverly concealed when not in use. Every inch of the layout was thoughtfully considered to support evolving needs over time.`,
+        `Accordion doors open the main living space to the outdoors, while quartzite counters and gold accents add elegance to the kitchen. One of the home's standout features is a custom golf simulator installed in the living room—perfectly suited to the client's passion, and cleverly concealed when not in use. Every inch of the layout was thoughtfully considered to support evolving needs over time.`,
       ],
       gallery: [
         {
@@ -375,7 +368,7 @@ const projectData = {
           image: "/images/project/gray-bathroom/DSC00506.webp",
         },
       ],
-      galleryDescription: `Completed over the course of a year, this ADU in Kirkland reflects Innate-NW’s expertise in full-service design-build projects. Whether you're planning a detached suite or a full garage conversion, our team delivers creative, high-functioning spaces that align with both lifestyle and long-term value.`,
+      galleryDescription: `Completed over the course of a year, this ADU in Kirkland reflects Innate-NW's expertise in full-service design-build projects. Whether you're planning a detached suite or a full garage conversion, our team delivers creative, high-functioning spaces that align with both lifestyle and long-term value.`,
       projectSlider: [
         {
           image: slider1,
@@ -455,7 +448,7 @@ const projectData = {
           class: "col-span-3 aspect-[4/2]",
         },
       ],
-      galleryDescription: `Located in Renton, this commercial build-out reflects Innate-NW’s expertise in restaurant and franchise tenant improvements. Whether you're opening a boutique café or a multi-unit food concept, our team ensures your space is compliant, functional, and true to your brand’s identity.`,
+      galleryDescription: `Located in Renton, this commercial build-out reflects Innate-NW's expertise in restaurant and franchise tenant improvements. Whether you're opening a boutique café or a multi-unit food concept, our team ensures your space is compliant, functional, and true to your brand's identity.`,
       projectSlider: [
         {
           image: slider1,
@@ -512,7 +505,7 @@ const projectData = {
         },
         { key: "General Contractor", value: "Innate-NW" },
       ],
-      scopedescription: `This kitchen remodel in Seattle’s historic Madrona neighborhood presented a unique set of challenges—steep slope, tight site conditions, and an aging structure that required a full seismic retrofit. Innate-NW led the design and renovation, transforming the original layout into a bright, modern kitchen with expanded square footage and improved structural integrity. The six-month kitchen renovation resulted in a functional and resilient space that seamlessly blends old and new.`,
+      scopedescription: `This kitchen remodel in Seattle's historic Madrona neighborhood presented a unique set of challenges—steep slope, tight site conditions, and an aging structure that required a full seismic retrofit. Innate-NW led the design and renovation, transforming the original layout into a bright, modern kitchen with expanded square footage and improved structural integrity. The six-month kitchen renovation resulted in a functional and resilient space that seamlessly blends old and new.`,
       media: {
         desktop: "/images/project/madrona-remodel/living3.webp",
       },
@@ -534,7 +527,7 @@ const projectData = {
           class: "col-span-3 aspect-[4/2]",
         },
       ],
-      galleryDescription: `This Madrona remodel showcases Innate-NW’s ability to manage high-complexity renovation projects in Seattle’s older homes. From kitchen additions to full structural upgrades, our team specializes in projects that require both creative design and technical expertise.`,
+      galleryDescription: `This Madrona remodel showcases Innate-NW's ability to manage high-complexity renovation projects in Seattle's older homes. From kitchen additions to full structural upgrades, our team specializes in projects that require both creative design and technical expertise.`,
       projectSlider: [
         {
           image: slider1,
@@ -597,7 +590,7 @@ const projectData = {
           "/images/project/shoreline-residence/D5_front 01_20240625_010002.webp",
       },
       description: [
-        `The interior features refinished hardwood flooring, large-format tile in the bathrooms, and a newly remodeled kitchen tailored to the family’s needs. Outdoors, a composite TimberTech deck and StruXure louvered pergola create a versatile space for year-round enjoyment, seamlessly expanding the home’s living area. Every detail—from cabinetry layout to exterior transitions—was crafted for comfort, light, and longevity.`,
+        `The interior features refinished hardwood flooring, large-format tile in the bathrooms, and a newly remodeled kitchen tailored to the family's needs. Outdoors, a composite TimberTech deck and StruXure louvered pergola create a versatile space for year-round enjoyment, seamlessly expanding the home's living area. Every detail—from cabinetry layout to exterior transitions—was crafted for comfort, light, and longevity.`,
       ],
       gallery: [
         {
@@ -613,7 +606,7 @@ const projectData = {
             "/images/project/shoreline-residence/D5_Scene 23 1_20240628_085609.webp",
         },
       ],
-      galleryDescription: `This Shoreline project exemplifies Innate-NW’s holistic approach to residential renovations, combining kitchen remodeling, outdoor design, and new construction under one cohesive plan. Whether you’re planning an addition or remodeling your current home, we bring design precision and build excellence to every square foot.`,
+      galleryDescription: `This Shoreline project exemplifies Innate-NW's holistic approach to residential renovations, combining kitchen remodeling, outdoor design, and new construction under one cohesive plan. Whether you're planning an addition or remodeling your current home, we bring design precision and build excellence to every square foot.`,
       projectSlider: [
         {
           image: slider1,
@@ -697,7 +690,7 @@ const projectData = {
           class: "col-span-3 aspect-[4/2]",
         },
       ],
-      galleryDescription: `This Capitol Hill bathroom remodel exemplifies Innate-NW’s ability to deliver high-quality renovations in tight urban settings. Whether you're updating a condo or reimagining a vintage apartment, our team delivers thoughtful, stylish solutions tailored to your space.`,
+      galleryDescription: `This Capitol Hill bathroom remodel exemplifies Innate-NW's ability to deliver high-quality renovations in tight urban settings. Whether you're updating a condo or reimagining a vintage apartment, our team delivers thoughtful, stylish solutions tailored to your space.`,
       projectSlider: [
         {
           image: slider1,
@@ -806,7 +799,7 @@ const projectData = {
           class: "col-span-3 aspect-[4/2]",
         },
       ],
-      galleryDescription: `Located in Seattle’s Fremont neighborhood, this bathroom remodel demonstrates Innate-NW’s ability to deliver complex, high-end bathrooms in tight urban footprints. For homeowners seeking to replicate the tranquility and refinement of a luxury spa, our design-build team brings vision and craftsmanship to life.`,
+      galleryDescription: `Located in Seattle's Fremont neighborhood, this bathroom remodel demonstrates Innate-NW's ability to deliver complex, high-end bathrooms in tight urban footprints. For homeowners seeking to replicate the tranquility and refinement of a luxury spa, our design-build team brings vision and craftsmanship to life.`,
       projectSlider: [
         {
           image: slider1,
@@ -836,8 +829,17 @@ const projectData = {
     },
   },
 };
-const ProjectPage = ({ params, searchParams }: ProjectPageProps) => {
-  // Get the current slug from params
+
+export async function generateStaticParams() {
+  const keys = Object.keys(projectData);
+
+  return keys.map((key) => ({
+    slug: key,
+  }));
+}
+
+export default function ProjectPage({ params }: any) {
+  // Get the current slug from params and await it
   const { slug } = params;
 
   // Check if the slug exists in projectData
@@ -855,6 +857,4 @@ const ProjectPage = ({ params, searchParams }: ProjectPageProps) => {
       <ProjectDescription projectDetails={projectDetails} />
     </div>
   );
-};
-
-export default ProjectPage;
+}
