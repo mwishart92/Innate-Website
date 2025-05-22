@@ -176,9 +176,6 @@ function Testimonials() {
                         </Text>
                       </div>
                     </div>
-                    <Text className="text-gray-400 mt-3 text-[14px] leading-[21px] font-normal">
-                      The team did a superb job
-                    </Text>
                   </div>
                 </div>
               </SwiperSlide>
@@ -216,9 +213,6 @@ function Testimonials() {
                         </Text>
                       </div>
                     </div>
-                    <Text className="text-gray-400 mt-3 text-[14px] leading-[21px] font-normal">
-                      From excavation to finishes
-                    </Text>
                   </div>
                 </div>
               </SwiperSlide>
@@ -255,9 +249,6 @@ function Testimonials() {
                         </Text>
                       </div>
                     </div>
-                    <Text className="text-gray-400 mt-3 text-[14px] leading-[21px] font-normal">
-                      Michael had a great vision
-                    </Text>
                   </div>
                 </div>
               </SwiperSlide>
