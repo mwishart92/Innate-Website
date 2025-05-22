@@ -55,9 +55,6 @@ function Testimonials() {
                 </Text>
               </div>
             </div>
-            <Text className="text-gray-400 text-sm mt-3 text-[16px]">
-              The team did a superb job
-            </Text>
           </div>
         </div>
         <div className="w-full max-w-[25%] border mob:max-w-[100%] border-[#0000001A] rounded-[10px]">
@@ -88,9 +85,6 @@ function Testimonials() {
                 <Text className="mt-1 text-gray-400">ADU Project</Text>
               </div>
             </div>
-            <Text className="text-gray-400 text-sm mt-3 text-[16px]">
-              From excavation to finishes
-            </Text>
           </div>
         </div>
         <div className="w-full max-w-[25%] border mob:max-w-[100%] border-[#0000001A] rounded-[10px]">
@@ -123,9 +117,6 @@ function Testimonials() {
                 </Text>
               </div>
             </div>
-            <Text className="text-gray-400 text-sm mt-3 text-[16px]">
-              Michael had a great vision
-            </Text>
           </div>
         </div>
       </div>
