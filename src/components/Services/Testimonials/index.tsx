@@ -40,13 +40,6 @@ function Testimonials() {
           </div>
           <div className="pl-0 py-4 pr-4">
             <div className="flex gap-[11px] items-center">
-              <Image
-                src={profile1}
-                alt=""
-                width={48}
-                height={48}
-                className="self-start"
-              />
               <div>
                 <Text className="text-[20px] leading-[28px] text-white font-normal">
                   Pellegrino Residence
@@ -95,13 +88,6 @@ function Testimonials() {
           </div>
           <div className="pl-0 py-4 pr-4">
             <div className="flex gap-[11px] items-center">
-               <Image
-                src={profile3}
-                alt=""
-                width={48}
-                height={48}
-                className="self-start"
-              />
               <div>
                 <Text className="text-[20px] leading-[28px] text-white">
                   Norman Residence
