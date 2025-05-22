@@ -148,7 +148,7 @@ const ServicesPage = () => {
     {
       question: "What's the timeline for remodeling a bathroom?",
       answer:
-        "Most bathroom remodels take 3–8 weeks, depending on the size and scope.",
+        "Most bathroom remodels take 2-4 weeks, depending on the size and scope.",
     },
     {
       question: "Do you handle permits for bathroom remodels in Seattle?",
