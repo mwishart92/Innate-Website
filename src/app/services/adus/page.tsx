@@ -36,21 +36,21 @@ const slides = [
       <Slide image="/images/services/adus/Hero/cover.webp" video={null} />
     ),
     delay: 36000,
-    projectName: "adus",
+    projectName: "ADU",
   },
   {
     component: (
       <Slide image="/images/services/adus/Hero/h1.webp" video={null} />
     ),
     delay: 36000,
-    projectName: "adus",
+    projectName: "ADU",
   },
   {
     component: (
       <Slide image="/images/services/adus/Hero/h2.webp" video={null} />
     ),
     delay: 36000,
-    projectName: "adus",
+    projectName: "ADU",
   },
 ];
 
