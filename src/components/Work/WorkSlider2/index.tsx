@@ -1,41 +1,41 @@
-'use client'
-import Image from 'next/image'
-import Link from 'next/link'
-import Text from '@/components/ui/Text'
-import arrowwhite from '@/public/images/work/Arrowwhite.png'
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react'
-import { Keyboard, Navigation, Scrollbar, Autoplay } from 'swiper/modules'
-import 'swiper/css'
-import 'swiper/css/scrollbar'
-import 'swiper/css/navigation'
+"use client";
+import Image from "next/image";
+import Link from "next/link";
+import Text from "@/components/ui/Text";
+import arrowwhite from "@/public/images/work/Arrowwhite.png";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { Keyboard, Navigation, Scrollbar, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/scrollbar";
+import "swiper/css/navigation";
 
-import '../slider.css'
-import First from '../Content/GrayBathroom/First'
-import Second from '../Content/GrayBathroom/Second'
-import Third from '../Content/GrayBathroom/Third'
-import Fourth from '../Content/GrayBathroom/Fourth'
-import Fifth from '../Content/GrayBathroom/Fifth'
-import Sixth from '../Content/GrayBathroom/Sixth'
-import Seventh from '../Content/GrayBathroom/Seventh'
-import Eight from '../Content/GrayBathroom/Eight'
+import "../slider.css";
+import First from "../Content/GrayBathroom/First";
+import Second from "../Content/GrayBathroom/Second";
+import Third from "../Content/GrayBathroom/Third";
+import Fourth from "../Content/GrayBathroom/Fourth";
+import Fifth from "../Content/GrayBathroom/Fifth";
+import Sixth from "../Content/GrayBathroom/Sixth";
+import Seventh from "../Content/GrayBathroom/Seventh";
+import Eight from "../Content/GrayBathroom/Eight";
 // import leftarrow from '@/public/images/work/Arrowleftblue.png'
-import arrow from '@/public/images/work/Arrow.png'
-import { useState } from 'react'
+import arrow from "@/public/images/work/Arrow.png";
+import { useState } from "react";
 
 function WorkSlider2() {
-  const [imageLoaded, setImageLoaded] = useState(false)
+  const [imageLoaded, setImageLoaded] = useState(false);
 
-  const swiper = useSwiper()
+  const swiper = useSwiper();
 
   const handleprevbtn = () => {
-    swiper?.slidePrev()
-    console.log('slidePrev')
-  }
+    swiper?.slidePrev();
+    console.log("slidePrev");
+  };
 
   const handleNextvbtn = () => {
-    swiper?.slideNext()
-    console.log('slideNext')
-  }
+    swiper?.slideNext();
+    console.log("slideNext");
+  };
 
   return (
     <div className="w-full h-screen flex justify-center items-center relative overflow-hidden">
@@ -53,7 +53,7 @@ function WorkSlider2() {
                 Seattle, Washington
               </Text>
               <Link
-                href="/project"
+                href="/project/gray-bathroom"
                 className="mt-8 mob:mt-6 font-normal max-w-[260px] h-[62.69px] mx-auto flex items-center justify-center text-center gap-1 text-[18px] mob:text-[12px] text-white border border-[#FFFFFF] px-[28px] py-[17.34px] mob:max-w-[140px] mob:px-[14px] mob:py-[7.33px] mob:h-[40px]"
               >
                 LEARN MORE
@@ -84,8 +84,8 @@ function WorkSlider2() {
             speed={2000}
             loop={true}
             navigation={{
-              nextEl: '.cards-custom-next2',
-              prevEl: '.cards-custom-prev2',
+              nextEl: ".cards-custom-next2",
+              prevEl: ".cards-custom-prev2",
             }}
             modules={[Keyboard, Navigation, Scrollbar, Autoplay]}
             className="w-full h-full"
@@ -126,7 +126,7 @@ function WorkSlider2() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default WorkSlider2
+export default WorkSlider2;

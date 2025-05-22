@@ -1,37 +1,37 @@
-'use client'
-import Image from 'next/image'
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react'
-import { Keyboard, Navigation, Scrollbar, Autoplay } from 'swiper/modules'
-import 'swiper/css'
-import 'swiper/css/scrollbar'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
-import Link from 'next/link'
-import Text from '@/components/ui/Text'
-import arrowwhite from '@/public/images/work/Arrowwhite.png'
-import '../slider.css'
-import First from '../Content/kungFu/First'
-import Second from '../Content/kungFu/Second'
-import Third from '../Content/kungFu/Third'
-import Fourth from '../Content/kungFu/Fourth'
-import Fifth from '../Content/kungFu/Fifth'
+"use client";
+import Image from "next/image";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { Keyboard, Navigation, Scrollbar, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/scrollbar";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import Link from "next/link";
+import Text from "@/components/ui/Text";
+import arrowwhite from "@/public/images/work/Arrowwhite.png";
+import "../slider.css";
+import First from "../Content/kungFu/First";
+import Second from "../Content/kungFu/Second";
+import Third from "../Content/kungFu/Third";
+import Fourth from "../Content/kungFu/Fourth";
+import Fifth from "../Content/kungFu/Fifth";
 // import leftarrow from '@/public/images/work/Arrowleftblue.png'
-import arrow from '@/public/images/work/Arrow.png'
-import { useState } from 'react'
+import arrow from "@/public/images/work/Arrow.png";
+import { useState } from "react";
 
 function WorkSlider3() {
-  const [imageLoaded, setImageLoaded] = useState(false)
-  const swiper = useSwiper()
+  const [imageLoaded, setImageLoaded] = useState(false);
+  const swiper = useSwiper();
 
   const handleprevbtn = () => {
-    swiper?.slidePrev()
-    console.log('slidePrev')
-  }
+    swiper?.slidePrev();
+    console.log("slidePrev");
+  };
 
   const handleNextvbtn = () => {
-    swiper?.slideNext()
-    console.log('slideNext')
-  }
+    swiper?.slideNext();
+    console.log("slideNext");
+  };
 
   return (
     <div className="w-full h-screen overflow-hidden flex justify-center items-center relative">
@@ -55,10 +55,10 @@ function WorkSlider3() {
                 Renton, Washington
               </Text>
               <Link
-                href="/project"
+                href="/project/kung-fu-tea"
                 className="mt-10 mob:mt-6 font-normal max-w-[200px] h-[62.69px] mx-auto flex items-center justify-center text-center gap-1 text-[18px] mob:text-[12px] text-white border border-[#FFFFFF] px-[3px] py-[17.34px] mob:max-w-[140px] mob:px-[7px] mob:py-[7.33px] mob:h-[40px]"
               >
-                LEARN MORE{' '}
+                LEARN MORE{" "}
                 <Image src={arrowwhite} alt="" width={18} height={18} />
               </Link>
             </div>
@@ -86,8 +86,8 @@ function WorkSlider3() {
           speed={2000}
           loop={true}
           navigation={{
-            nextEl: '.cards-custom-next5',
-            prevEl: '.cards-custom-prev5',
+            nextEl: ".cards-custom-next5",
+            prevEl: ".cards-custom-prev5",
           }}
           modules={[Keyboard, Navigation, Scrollbar, Autoplay]}
           className="mySwiper"
@@ -111,7 +111,7 @@ function WorkSlider3() {
         <div className="absolute inset-0 bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(0,0,0,0.5)] pagination-gradient z-10 pointer-events-none"></div>
       </div>
     </div>
-  )
+  );
 }
 
-export default WorkSlider3
+export default WorkSlider3;

@@ -1,40 +1,40 @@
-'use client'
-import React, { useState } from 'react'
-import Image from 'next/image'
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react'
-import { Keyboard, Navigation, Scrollbar, Autoplay } from 'swiper/modules'
-import 'swiper/css'
-import 'swiper/css/scrollbar'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
-import Link from 'next/link'
-import Text from '@/components/ui/Text'
-import arrowwhite from '@/public/images/work/Arrowwhite.png'
-import '../slider.css'
-import First from '../Content/DesertOasis/First'
-import Second from '../Content/DesertOasis/Second'
-import Third from '../Content/DesertOasis/Third'
-import Fourth from '../Content/DesertOasis/Fourth'
-import Fifth from '../Content/DesertOasis/Fifth'
-import Sixth from '../Content/DesertOasis/Sixth'
-import Seventh from '../Content/DesertOasis/Seventh'
-import Eight from '../Content/DesertOasis/Eight'
+"use client";
+import React, { useState } from "react";
+import Image from "next/image";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { Keyboard, Navigation, Scrollbar, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/scrollbar";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import Link from "next/link";
+import Text from "@/components/ui/Text";
+import arrowwhite from "@/public/images/work/Arrowwhite.png";
+import "../slider.css";
+import First from "../Content/DesertOasis/First";
+import Second from "../Content/DesertOasis/Second";
+import Third from "../Content/DesertOasis/Third";
+import Fourth from "../Content/DesertOasis/Fourth";
+import Fifth from "../Content/DesertOasis/Fifth";
+import Sixth from "../Content/DesertOasis/Sixth";
+import Seventh from "../Content/DesertOasis/Seventh";
+import Eight from "../Content/DesertOasis/Eight";
 // import leftarrow from '@/public/images/work/Arrowleftblue.png'
-import arrow from '@/public/images/work/Arrow.png'
+import arrow from "@/public/images/work/Arrow.png";
 
 function WorkSlider1() {
-  const [imageLoaded, setImageLoaded] = useState(false)
-  const swiper = useSwiper()
+  const [imageLoaded, setImageLoaded] = useState(false);
+  const swiper = useSwiper();
 
   const handleprevbtn = () => {
-    swiper?.slidePrev()
-    console.log('slidePrev')
-  }
+    swiper?.slidePrev();
+    console.log("slidePrev");
+  };
 
   const handleNextvbtn = () => {
-    swiper?.slideNext()
-    console.log('slideNext')
-  }
+    swiper?.slideNext();
+    console.log("slideNext");
+  };
 
   return (
     <div className="w-full h-screen overflow-hidden flex justify-center items-center relative">
@@ -52,7 +52,7 @@ function WorkSlider1() {
                 Palm Springs, California
               </Text>
               <Link
-                href="/project"
+                href="/project/desert-oasis"
                 className="mt-10 mob:mt-6 font-normal max-w-[200px] h-[62.69px] mx-auto flex items-center justify-center text-center gap-1 text-[18px] mob:text-[12px] text-white border border-[#FFFFFF] px-[3px] py-[17.34px] mob:max-w-[140px] mob:px-[7px] mob:py-[7.33px] mob:h-[40px] z-20 relative"
               >
                 LEARN MORE
@@ -82,8 +82,8 @@ function WorkSlider1() {
           speed={2000}
           loop={true}
           navigation={{
-            nextEl: '.cards-custom-next10',
-            prevEl: '.cards-custom-prev10',
+            nextEl: ".cards-custom-next10",
+            prevEl: ".cards-custom-prev10",
           }}
           modules={[Keyboard, Navigation, Scrollbar, Autoplay]}
           className="mySwiper"
@@ -125,7 +125,7 @@ function WorkSlider1() {
         <div className="absolute inset-0 bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(0,0,0,0.5)] pagination-gradient z-10 pointer-events-none"></div>
       </div>
     </div>
-  )
+  );
 }
 
-export default WorkSlider1
+export default WorkSlider1;

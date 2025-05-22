@@ -1,37 +1,37 @@
-'use client'
-import Image from 'next/image'
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react'
-import { Keyboard, Navigation, Scrollbar, Autoplay } from 'swiper/modules'
-import 'swiper/css'
-import 'swiper/css/scrollbar'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
-import Link from 'next/link'
-import Text from '@/components/ui/Text'
-import arrowwhite from '@/public/images/work/Arrowwhite.png'
-import '../slider.css'
-import First from '../Content/Shoreline/First'
-import Second from '../Content/Shoreline/Second'
-import Third from '../Content/Shoreline/Third'
-import Fourth from '../Content/Shoreline/Fourth'
-import Fifth from '../Content/Shoreline/Fifth'
+"use client";
+import Image from "next/image";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { Keyboard, Navigation, Scrollbar, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/scrollbar";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import Link from "next/link";
+import Text from "@/components/ui/Text";
+import arrowwhite from "@/public/images/work/Arrowwhite.png";
+import "../slider.css";
+import First from "../Content/Shoreline/First";
+import Second from "../Content/Shoreline/Second";
+import Third from "../Content/Shoreline/Third";
+import Fourth from "../Content/Shoreline/Fourth";
+import Fifth from "../Content/Shoreline/Fifth";
 // import leftarrow from '@/public/images/work/Arrowleftblue.png'
-import arrow from '@/public/images/work/Arrow.png'
-import { useState } from 'react'
+import arrow from "@/public/images/work/Arrow.png";
+import { useState } from "react";
 
 function WorkSlider3() {
-  const [imageLoaded, setImageLoaded] = useState(false)
-  const swiper = useSwiper()
+  const [imageLoaded, setImageLoaded] = useState(false);
+  const swiper = useSwiper();
 
   const handleprevbtn = () => {
-    swiper?.slidePrev()
-    console.log('slidePrev')
-  }
+    swiper?.slidePrev();
+    console.log("slidePrev");
+  };
 
   const handleNextvbtn = () => {
-    swiper?.slideNext()
-    console.log('slideNext')
-  }
+    swiper?.slideNext();
+    console.log("slideNext");
+  };
 
   return (
     <div className="w-full h-screen flex justify-center items-center relative overflow-hidden">
@@ -57,10 +57,10 @@ function WorkSlider3() {
                 Shoreline, Washington
               </Text>
               <Link
-                href="/project"
+                href="/project/shoreline-residence"
                 className="mt-10 mob:mt-6 font-normal max-w-[200px] h-[62.69px] mx-auto flex items-center justify-center text-center gap-1 text-[18px] mob:text-[12px] text-white border border-[#FFFFFF] px-[3px] py-[17.34px] mob:max-w-[140px] mob:px-[7px] mob:py-[7.33px] mob:h-[40px]"
               >
-                LEARN MORE{' '}
+                LEARN MORE{" "}
                 <Image src={arrowwhite} alt="" width={18} height={18} />
               </Link>
             </div>
@@ -89,8 +89,8 @@ function WorkSlider3() {
             speed={2000}
             loop={true}
             navigation={{
-              nextEl: '.cards-custom-next11',
-              prevEl: '.cards-custom-prev11',
+              nextEl: ".cards-custom-next11",
+              prevEl: ".cards-custom-prev11",
             }}
             modules={[Keyboard, Navigation, Scrollbar, Autoplay]}
             className="mySwiper"
@@ -115,7 +115,7 @@ function WorkSlider3() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default WorkSlider3
+export default WorkSlider3;
