@@ -161,7 +161,7 @@ const faqItems = [
   {
     question: "How long does a kitchen remodel usually take?",
     answer:
-      "A standard kitchen remodel in Seattle takes 6–12 weeks, depending on the size and materials selected.",
+      "A standard kitchen remodel in Seattle takes 3-6 weeks, depending on the size and materials selected.",
   },
   {
     question: "Can I use my kitchen during the remodel?",
