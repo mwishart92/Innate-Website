@@ -52,7 +52,7 @@ const AccordionItem = ({
   return (
     <div className=" mb-3">
       <button
-        className="w-full py-[14px] px-3 relative flex items-center justify-between text-center border border-white bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275]"
+        className="w-full py-[14px] px-3 relative flex items-center justify-between text-center border border-white"
         onClick={onClick}
       >
         <div className="w-6" />
