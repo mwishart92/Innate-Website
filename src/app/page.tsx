@@ -65,7 +65,6 @@ export default function Home() {
         <Collective />
         <Services />
         <DesignAndBuild />
-        <Philosophy />
         <ReviewsSlider />
         <Testimonials />
         <Confidence />

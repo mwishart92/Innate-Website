@@ -6,6 +6,7 @@ import Text from '@/components/ui/Text'
 import firm from '@/public/images/about/firm.jpg'
 import michael from '@/public/images/about/michael2.jpg'
 import gelberg from '@/public/images/about/rangul1.jpg'
+import andres from '@/public/images/about/andres.jpg'
 // import amin from '@/public/images/about/amin.png'
 import mary from '@/public/images/about/mary.jpg'
 // import mridul from '@/public/images/about/mridul.png'
@@ -176,7 +177,7 @@ const HeroAbout = () => {
           >
             <Image
               className="object-cover w-[266px] h-[261px] mob:w-[350px] rounded-[10px]"
-              src={userImg}
+              src={andres}
               alt=""
               fill
             />

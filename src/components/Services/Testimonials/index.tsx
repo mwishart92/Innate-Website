@@ -40,13 +40,6 @@ function Testimonials() {
           </div>
           <div className="pl-0 py-4 pr-4">
             <div className="flex gap-[11px] items-center">
-              <Image
-                src={profile1}
-                alt=""
-                width={48}
-                height={48}
-                className="self-start"
-              />
               <div>
                 <Text className="text-[20px] leading-[28px] text-white font-normal">
                   Pellegrino Residence
@@ -56,9 +49,6 @@ function Testimonials() {
                 </Text>
               </div>
             </div>
-            <Text className="text-[#D9D9D9] text-sm mt-3 text-[16px]">
-              The team did a superb job
-            </Text>
           </div>
         </div>
         <div className="w-full max-w-[25%] border mob:max-w-[100%] border-[#0000001A] rounded-[10px]">
@@ -75,13 +65,6 @@ function Testimonials() {
           </div>
           <div className="pl-0 py-4 pr-4">
             <div className="flex gap-[11px] items-center">
-              <Image
-                src={profile2}
-                alt=""
-                width={48}
-                height={48}
-                className="self-start"
-              />
               <div>
                 <Text className="text-[20px] mob:text-[18px]leading-[28px] text-white ">
                   Wedgewood ADU 950 SF
@@ -89,9 +72,6 @@ function Testimonials() {
                 <Text className="mt-1 text-[#D9D9D9]">ADU Project</Text>
               </div>
             </div>
-            <Text className="text-[#D9D9D9] text-sm mt-3 text-[16px]">
-              From excavation to finishes
-            </Text>
           </div>
         </div>
         <div className="w-full max-w-[25%] border mob:max-w-[100%] border-[#0000001A] rounded-[10px]">
@@ -108,13 +88,6 @@ function Testimonials() {
           </div>
           <div className="pl-0 py-4 pr-4">
             <div className="flex gap-[11px] items-center">
-              <Image
-                src={profile3}
-                alt=""
-                width={48}
-                height={48}
-                className="self-start"
-              />
               <div>
                 <Text className="text-[20px] leading-[28px] text-white">
                   Norman Residence
@@ -124,9 +97,6 @@ function Testimonials() {
                 </Text>
               </div>
             </div>
-            <Text className="text-[#D9D9D9] text-sm mt-3 text-[16px]">
-              Michael had a great vision
-            </Text>
           </div>
         </div>
       </div>
@@ -206,9 +176,6 @@ function Testimonials() {
                         </Text>
                       </div>
                     </div>
-                    <Text className="text-gray-400 mt-3 text-[14px] leading-[21px] font-normal">
-                      The team did a superb job
-                    </Text>
                   </div>
                 </div>
               </SwiperSlide>
@@ -246,9 +213,6 @@ function Testimonials() {
                         </Text>
                       </div>
                     </div>
-                    <Text className="text-gray-400 mt-3 text-[14px] leading-[21px] font-normal">
-                      From excavation to finishes
-                    </Text>
                   </div>
                 </div>
               </SwiperSlide>
@@ -285,9 +249,6 @@ function Testimonials() {
                         </Text>
                       </div>
                     </div>
-                    <Text className="text-gray-400 mt-3 text-[14px] leading-[21px] font-normal">
-                      Michael had a great vision
-                    </Text>
                   </div>
                 </div>
               </SwiperSlide>

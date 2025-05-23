@@ -52,7 +52,7 @@ const AccordionItem = ({
   return (
     <div className=" mb-3">
       <button
-        className="w-full py-[14px] px-3 relative flex items-center justify-between text-center border border-white bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275]"
+        className="w-full py-[14px] px-3 relative flex items-center justify-between text-center border border-white"
         onClick={onClick}
       >
         <div className="w-6" />
@@ -68,7 +68,7 @@ const AccordionItem = ({
         </div>
       </button>
       <div
-        className={`overflow-hidden transition-all duration-300 ease-in-out bg-[#4E4E4E] ${
+        className={`overflow-hidden transition-all duration-300 ease-in-out bg-[#4E4E4E] bg-opacity-25 ${
           isOpen
             ? "max-h-[500px] opacity-100 mb-6 py-7 mob:py-5 px-6 mob:px-3"
             : "max-h-0 opacity-0"
