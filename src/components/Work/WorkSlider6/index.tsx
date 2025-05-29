@@ -52,7 +52,7 @@ function WorkSlider3() {
                 Madrona Remodel
               </Text>
               <Text className="text-[28px] font-normal mob:text-[11.84px] text-[#FFFFFF] mb-3 flex items-center gap-1 text-center justify-center mob:text-[11.84px]">
-                Seattle, Colorado
+                Seattle, Washington
               </Text>
               <Link
                 href="/project/madrona-remodel"
