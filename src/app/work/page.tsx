@@ -28,19 +28,19 @@ import "./Work.css";
 
 // Define an array of WorkSlider components
 const sliders: React.ElementType[] = [
-  WorkSlider0,
   WorkSlider1,
   WorkSlider2,
   WorkSlider3,
-  WorkSlider4,
   WorkSlider5,
   WorkSlider6,
   WorkSlider7,
+  WorkSlider12,
+  WorkSlider0,
+  WorkSlider4,
   WorkSlider8,
   WorkSlider9,
   WorkSlider10,
   WorkSlider11,
-  WorkSlider12,
   WorkSlider13,
   WorkSlider14,
 ];
