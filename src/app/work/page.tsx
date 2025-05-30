@@ -8,21 +8,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 // Import WorkSlider components
 import WorkSlider from "@/components/Work/WorkSlider";
-import WorkSlider0 from "@/components/Work/WorkSlider0";
-import WorkSlider1 from "@/components/Work/WorkSlider1";
-import WorkSlider2 from "@/components/Work/WorkSlider2";
-import WorkSlider3 from "@/components/Work/WorkSlider3";
-import WorkSlider4 from "@/components/Work/WorkSlider4";
-import WorkSlider5 from "@/components/Work/WorkSlider5";
-import WorkSlider6 from "@/components/Work/WorkSlider6";
-import WorkSlider7 from "@/components/Work/WorkSlider7";
-import WorkSlider8 from "@/components/Work/WorkSlider8";
-import WorkSlider9 from "@/components/Work/WorkSlider9";
-import WorkSlider10 from "@/components/Work/WorkSlider10";
-import WorkSlider11 from "@/components/Work/WorkSlider11";
-import WorkSlider12 from "@/components/Work/WorkSlider12";
-import WorkSlider13 from "@/components/Work/WorkSLider13";
-import WorkSlider14 from "@/components/Work/WorkSlider14";
 gsap.registerPlugin(ScrollTrigger);
 
 import "./Work.css";
