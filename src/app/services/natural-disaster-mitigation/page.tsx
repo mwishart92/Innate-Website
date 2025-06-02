@@ -45,25 +45,25 @@ const slides = [
 
 const sections = [
   {
-    title: "Free Estimate",
+    title: "Consultation",
     description:
-      "We conduct a thorough structural and site assessment to determine your property's vulnerabilities and provide a custom mitigation plan.",
+      "In our initial inspection our experienced project manager arrives promptly to evaluate the damage thoroughly and take measurements of the site.",
     image: {
       src: avoidcenter,
-      alt: "Free Estimate",
+      alt: "Consultation",
       className: "w-[251.2px]  sm:w-[340.31px] z-20",
       additionalImages: [
         {
           type: "image" as const,
           src: avoidleft,
-          alt: "Free Estimate Left",
+          alt: "Consultation Left",
           className:
             "absolute left-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px]",
         },
         {
           type: "image" as const,
           src: avoidright,
-          alt: "Free Estimate Right",
+          alt: "Consultation Right",
           className:
             "absolute right-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px]",
         },
@@ -72,23 +72,23 @@ const sections = [
     layout: "right" as const,
   },
   {
-    title: "Design & Permitting",
+    title: "Claim Preparation",
     description:
-      "Our team ensures all upgrades follow FEMA, state, and local regulations, preparing architectural or engineering documents as needed.",
+      "Our claim specialist prepares a detailed estimate aimed at insurance approval. We compile a claim package with supporting photos and documentation.",
     image: {
       src: savetime,
-      alt: "Design & Permitting",
+      alt: "Claim Preparation",
       className: "w-[431.81px] mob:w-[324px] ",
     },
     layout: "left" as const,
   },
   {
-    title: "Materials Consultation",
+    title: "Claim Negotiations & Resolution",
     description:
-      "We help you select durable, space-conscious materials suited for small-space living with maximum comfort and appeal.",
+      "We conduct all negotiations transparently, advocating for your best interest to secure fair policy coverage until agreement is reached by all parties on the scope of work.",
     image: {
       src: matrialbg,
-      alt: "Materials Consultation",
+      alt: "Claim Negotiations & Resolution",
       className: "w-[430.46px]  mob:w-[260.71px]  rounded-[18px] bg-[#b6b6b6]",
       additionalImages: [
         {
@@ -105,7 +105,7 @@ const sections = [
   {
     title: "Construction",
     description:
-      "Our trained crews install retrofits and reinforcements with careful attention to your home's safety, appearance, and integrity.",
+      "Our licensed tradesmen adjust the framing, plumbing and electrical to match your new plan. From there our skilled artisans install the drywall, tile, cabinets, countertops, fixtures, trim and paint.",
     image: {
       src: track,
       alt: "Construction",
@@ -114,18 +114,18 @@ const sections = [
     layout: "left" as const,
   },
   {
-    title: "Post Construction",
+    title: "Clean Up",
     description:
-      "We walk through the upgrades with you, review all safety improvements, and provide documentation for insurance or future resale.",
+      "We carefully remove all debris and excess materials from the site. Our team does a detailed construction cleaning to remove all dust. We perform a final walkthrough with the client to address any concerns or touch-ups.",
     image: {
       src: stressbg,
-      alt: "Post Construction",
+      alt: "Clean Up",
       className:
         "w-[340.46px] h-[288.42px] mob:w-[260.71px] mob:h-[220.77px] rounded-[18px] bg-[#b6b6b6]",
       additionalImages: [
         {
           src: stresstop,
-          alt: "Post Construction Top",
+          alt: "Clean Up Top",
           className:
             "absolute top-[-70px] left-0 w-[263px] h-[98px] mob:w-[198.17px] mob:h-[73.84px] mob:top-[-60px]",
         },
