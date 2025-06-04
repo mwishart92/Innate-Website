@@ -68,7 +68,7 @@ export default function Home() {
         <ReviewsSlider />
         <Testimonials />
         <Confidence />
-        <ProjectSlider projectDetails={{ projectSlider: projectSliderData }} />
+        <ProjectSlider />
         <ContactHome />
         <OurPartners />
       </div>

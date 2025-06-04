@@ -123,7 +123,7 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
       <div className="w-full">
         <div className="w-full flex flex-col gap-20 mb-28">
           <div>
-            <ProjectSlider projectDetails={projectDetails} />
+            <ProjectSlider />
           </div>
         </div>
       </div>

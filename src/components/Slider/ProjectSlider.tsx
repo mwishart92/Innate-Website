@@ -6,7 +6,23 @@ import { Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import Link from "next/link";
-const ProjectSlider = ({ projectDetails }: { projectDetails: any }) => {
+import { slidesData } from "@/data/workSlides";
+
+const ProjectSlider = () => {
+  // Get 5 random elements from slidesData
+  const getRandomProjects = () => {
+    // First filter out projects that don't have any images
+    const projectsWithImages = slidesData.filter((project) =>
+      project.media?.some((media) => media.type === "image")
+    );
+
+    // Then get random 5 from filtered projects
+    const shuffled = [...projectsWithImages].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, 5);
+  };
+
+  const randomProjects = getRandomProjects();
+
   return (
     <>
       <Text
@@ -28,36 +44,46 @@ const ProjectSlider = ({ projectDetails }: { projectDetails: any }) => {
           modules={[Autoplay]}
           loop={true}
         >
-          {projectDetails.projectSlider.map((item: any, index: number) => (
-            <SwiperSlide key={index} className="relative !w-[1133px]">
-              <div className="w-full h-[358px]">
-                <Image
-                  src={item.image}
-                  alt={item.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-black/50">
-                <Text
-                  as="h3"
-                  className="text-white text-[35px] md:text-[74px] font-semibold text-center"
-                >
-                  {item.title}
-                </Text>
-                <Text as="p" className="text-white text-[28px]">
-                  {item.description}
-                </Text>
-                <Link href="/onboarding">
-                  <button
-                    type="button"
-                    className="w-[172.63px] h-[50px] mt-8 border border-white text-white hover:bg-white hover:text-black hover:border-black text-[16px] font-medium flex items-center justify-center gap-1"
+          {randomProjects.map((item, index) => {
+            // Find first image from media array
+            const firstImage = item.media?.find(
+              (media) => media.type === "image"
+            );
+
+            return (
+              <SwiperSlide key={index} className="relative !w-[1133px]">
+                <div className="w-full h-[358px]">
+                  <Image
+                    src={firstImage?.src || ""}
+                    alt={item.title}
+                    className="w-full h-full object-cover"
+                    fill
+                  />
+                </div>
+                <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-black/50">
+                  <Text
+                    as="h3"
+                    className="text-white text-[35px] md:text-[74px] font-semibold text-center"
                   >
-                    Learn More
-                  </button>
-                </Link>
-              </div>
-            </SwiperSlide>
-          ))}
+                    {item.title}
+                  </Text>
+                  <Text as="p" className="text-white text-[28px]">
+                    {item.location}
+                  </Text>
+                  {item.url && (
+                    <Link href={item.url}>
+                      <button
+                        type="button"
+                        className="w-[172.63px] h-[50px] mt-8 border border-white text-white hover:bg-white hover:text-black hover:border-black text-[16px] font-medium flex items-center justify-center gap-1"
+                      >
+                        Learn More
+                      </button>
+                    </Link>
+                  )}
+                </div>
+              </SwiperSlide>
+            );
+          })}
         </Swiper>
       </div>
     </>
