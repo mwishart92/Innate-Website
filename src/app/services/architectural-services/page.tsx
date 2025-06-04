@@ -65,9 +65,9 @@ const slides = [
 
 const sections = [
   {
-    title: "Free Estimate",
+    title: "Free Estimate / Site Visit",
     description:
-      "We begin with a thorough site visit and consultation to understand your project vision and outline a clear scope and budget.",
+      "After doing an in-person site visit, we will provide an accurate, comprehensive and transparent bid, broken down by trade.",
     image: {
       src: avoidcenter,
       alt: "Free Estimate",
@@ -92,23 +92,23 @@ const sections = [
     layout: "right" as const,
   },
   {
-    title: "Design & Permitting",
+    title: "Feasibility Study",
     description:
-      "Our architectural partners create drawings and structural plans, while we handle the permit application process and code compliance.",
+      "We will perform a feasibility study to assess zoning, setbacks, FAR, and site conditions to determine if your proposed project is viable and cost-effective.",
     image: {
       src: savetime,
-      alt: "Design & Permitting",
+      alt: "Feasibility Study",
       className: "w-[431.81px] mob:w-[324px] ",
     },
     layout: "left" as const,
   },
   {
-    title: "Materials Consultation",
+    title: "Schematic Design",
     description:
-      "We help you select durable, space-conscious materials suited for small-space living with maximum comfort and appeal.",
+      "We will develop initial design drawings that explore layout, size, and appearance of the project, helping you visualize the concept and ensure it fits your goals and site.",
     image: {
       src: matrialbg,
-      alt: "Materials Consultation",
+      alt: "Schematic Design",
       className: "w-[430.46px]  mob:w-[260.71px]  rounded-[18px] bg-[#b6b6b6]",
       additionalImages: [
         {
@@ -123,23 +123,63 @@ const sections = [
     layout: "right" as const,
   },
   {
-    title: "Construction",
+    title: "Design Development",
     description:
-      "Our construction team works from the approved plans to deliver your design exactly as envisioned—no compromises, no surprises.",
+      "We will refine the approved schematic design by adding detail to the layout, materials, and systems, and coordinate with consultants like the structural engineer to ensure the project is functional, buildable, and ready for permitting.",
     image: {
       src: track,
-      alt: "Construction",
+      alt: "Design Development",
       className: "w-[448px] mob:w-[324px] rounded-[18px] bg-[#b6b6b6]",
     },
     layout: "left" as const,
   },
   {
-    title: "Post Construction",
+    title: "Construction Documentation",
     description:
-      "We ensure your completed project aligns with your vision, final inspections are passed, and the space is fully ready for use.",
+      "We will create detailed construction documents—including drawings and specifications—that clearly communicate the design to contractors, while coordinating with consultants to meet all code and permitting requirements.",
     image: {
       src: stressbg,
       alt: "Post Construction",
+      className:
+        "w-[340.46px] h-[288.42px] mob:w-[260.71px] mob:h-[220.77px] rounded-[18px] bg-[#b6b6b6]",
+      additionalImages: [
+        {
+          src: stresstop,
+          alt: "Consturction Documentation",
+          className:
+            "absolute top-[-70px] left-0 w-[263px] h-[98px] mob:w-[198.17px] mob:h-[73.84px] mob:top-[-60px]",
+        },
+      ],
+    },
+    layout: "right" as const,
+  },
+    {
+    title: "Permit Management",
+    description:
+      "We will prepare and submit the necessary documents for permit review, respond to city comments, and coordinate with consultants to ensure timely approval and code compliance.",
+    image: {
+      src: stressbg,
+      alt: "Post Construction",
+      className:
+        "w-[340.46px] h-[288.42px] mob:w-[260.71px] mob:h-[220.77px] rounded-[18px] bg-[#b6b6b6]",
+      additionalImages: [
+        {
+          src: stresstop,
+          alt: "Permit Management",
+          className:
+            "absolute top-[-70px] left-0 w-[263px] h-[98px] mob:w-[198.17px] mob:h-[73.84px] mob:top-[-60px]",
+        },
+      ],
+    },
+    layout: "left" as const,
+  },
+      {
+    title: "Bidding",
+    description:
+      "As a design-build firm, we will manage the entire bidding process, providing detailed pricing based on the design and ensuring the project stays within budget while meeting all specifications.",
+    image: {
+      src: stressbg,
+      alt: "Bidding",
       className:
         "w-[340.46px] h-[288.42px] mob:w-[260.71px] mob:h-[220.77px] rounded-[18px] bg-[#b6b6b6]",
       additionalImages: [
