@@ -17,10 +17,6 @@ import "./Navbar.css";
 import { cn } from "@/libs/utils/twMerge";
 
 const services = [
-  { name: "ADU", slug: "adus" },
-  { name: "Architectural Services", slug: "architectural-services" },
-  { name: "Bathroom Remodeling", slug: "bathroom-remodeling" },
-  { name: "Decks & Patios", slug: "decks" },
   { name: "Exterior Remodeling", slug: "exterior-remodeling" },
   { name: "Kitchen Remodeling", slug: "kitchen-remodeling" },
   { name: "Bathroom Remodeling", slug: "bathroom-remodeling" },
