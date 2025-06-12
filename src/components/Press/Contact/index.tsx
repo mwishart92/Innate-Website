@@ -10,7 +10,7 @@ const Contact = () => {
     <div className="py-16 px-20 mob:px-5">
       <div className="mx-auto w-full max-w-full flex justify-bewteen lg:flex-wrap gap-[200px] lg:gap-[50px] ">
         <div className="max-w-[40%] mob:max-w-[90%]">
-          <Text as="h1" className="text-[40px] font-medium text-white">
+          <Text as="h2" className="text-[40px] font-medium text-white">
             Contact Us
           </Text>
           <Text className=" mt-4 text-[#D9D9D9]">
@@ -42,7 +42,7 @@ const Contact = () => {
         </div>
         {/* right form */}
         {/* <div className="w-full flex justify-end px-0 mx-0"> */}
-          <Form />
+        <Form />
         {/* </div> */}
       </div>
     </div>

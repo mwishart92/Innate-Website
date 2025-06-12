@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 // import Image from 'next/image'
 
-import Text from '@/components/ui/Text'
+import Text from "@/components/ui/Text";
 
 // import leftbg from '@/public/images/home/logo1.png'
 // import rightbg from '@/public/images/home/logo2.png'
-import ButtonGetStarted from '@/components/ui/ButtonGetStarted'
+import ButtonGetStarted from "@/components/ui/ButtonGetStarted";
 
 const Confidence = () => {
   return (
@@ -28,7 +28,7 @@ const Confidence = () => {
           /> */}
           <div className="pt-0">
             <Text
-              as="h1"
+              as="h2"
               className="text-[40px] text-center font-medium mob:text-[30px] mob:"
             >
               Design and Build with confidence
@@ -67,7 +67,7 @@ const Confidence = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Confidence
+export default Confidence;

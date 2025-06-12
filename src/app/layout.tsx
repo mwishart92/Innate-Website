@@ -1,52 +1,41 @@
-import type { Metadata } from 'next'
+import type { Metadata } from "next";
 import {
   Inter,
   Montserrat,
   Rajdhani,
   Inknut_Antiqua,
   Bodoni_Moda,
-} from 'next/font/google'
-import './globals.css'
+} from "next/font/google";
+import "./globals.css";
 
-import Footer from '@/components/Footer'
-import { TabProvider } from '@/context/TabContsxt'
-import MyProvider from '@/components/MyProvider'
+import Footer from "@/components/Footer";
+import { TabProvider } from "@/context/TabContsxt";
+import MyProvider from "@/components/MyProvider";
 
-import Script from 'next/script' // Import Script from next/script
+import Script from "next/script"; // Import Script from next/script
 
-export const metadata: Metadata = {
-  title: 'Innate NW | Custom Design & Construction Solutions',
-  description:
-    'Innate NW offers expert design, project management, and construction services, delivering high-quality custom spaces tailored to your unique needs.',
-  keywords:
-    'construction, architecture, engineering, roofing, construction consulting, landscaping, Innate design',
-  icons: {
-    icon: '/favicon.ico',
-  },
-}
-
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
-const monts = Montserrat({ subsets: ['latin'], variable: '--font-monts' })
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const monts = Montserrat({ subsets: ["latin"], variable: "--font-monts" });
 const rajdhani = Rajdhani({
-  weight: ['300', '400', '500', '600', '700'],
-  subsets: ['latin'],
-  variable: '--font-rajdhani',
-})
+  weight: ["300", "400", "500", "600", "700"],
+  subsets: ["latin"],
+  variable: "--font-rajdhani",
+});
 const inknut = Inknut_Antiqua({
-  weight: ['300', '400', '500', '600', '700'],
-  subsets: ['latin'],
-  variable: '--font-inknut',
-})
+  weight: ["300", "400", "500", "600", "700"],
+  subsets: ["latin"],
+  variable: "--font-inknut",
+});
 const Bodoni = Bodoni_Moda({
-  weight: ['400', '500', '600', '700'],
-  subsets: ['latin'],
-  variable: '--font-Bodoni',
-})
+  weight: ["400", "500", "600", "700"],
+  subsets: ["latin"],
+  variable: "--font-Bodoni",
+});
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
@@ -76,7 +65,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             src="https://www.googletagmanager.com/ns.html?id=GTM-KNSHDN66"
             height="0"
             width="0"
-            style={{ display: 'none', visibility: 'hidden' }}
+            style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
 
@@ -88,5 +77,5 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </MyProvider>
       </body>
     </html>
-  )
+  );
 }

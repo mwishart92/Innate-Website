@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 // import Image from "next/image";
 
-import Text from '@/components/ui/Text'
+import Text from "@/components/ui/Text";
 
 // import rightarrow from "@/public/images/press/RightArrowbue.png";
-import Form from '@/components/Contact/Form'
+import Form from "@/components/Contact/Form";
 
 const ContactHome = () => {
   return (
@@ -12,7 +12,7 @@ const ContactHome = () => {
       <div className="mx-auto w-full max-w-full flex justify-bewteen lg:flex-wrap gap-[160px] lg:gap-[50px]">
         <div className="max-w-[40%] mob:max-w-[90%]">
           <Text
-            as="h1"
+            as="h2"
             className="text-[34px] text-white font-semibold mob:text-[30px]"
           >
             Book a free consultation
@@ -27,7 +27,7 @@ const ContactHome = () => {
         <Form />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ContactHome
+export default ContactHome;

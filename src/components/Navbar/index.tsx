@@ -17,14 +17,14 @@ import "./Navbar.css";
 import { cn } from "@/libs/utils/twMerge";
 
 const services = [
-  { name: "ADU", slug: "adus" },
-  { name: "Architectural Services", slug: "architectural-services" },
-  { name: "Bathroom Remodeling", slug: "bathroom-remodeling" },
-  { name: "Decks", slug: "decks" },
   { name: "Exterior Remodeling", slug: "exterior-remodeling" },
   { name: "Kitchen Remodeling", slug: "kitchen-remodeling" },
-  { name: "Natural Disaster Mitigation", slug: "natural-disaster-mitigation" },
+  { name: "Bathroom Remodeling", slug: "bathroom-remodeling" },
+  { name: "Architectural Services", slug: "architectural-services" },
+  { name: "ADU", slug: "adus" },
   { name: "Whole Home Remodels", slug: "whole-home-remodels" },
+  { name: "Decks", slug: "decks" },
+  { name: "Natural Disaster Mitigation", slug: "natural-disaster-mitigation" },
 ].sort((a, b) => a.name.localeCompare(b.name));
 
 const Navbar = () => {
@@ -71,19 +71,19 @@ const Navbar = () => {
   const saveTabTitle = (tab: string) => {
     const tabData: Record<string, { title: string; description: string }> = {
       "/": {
-        title: "Innate NW | Custom Design & Construction Solutions",
+        title: "Bellevue Custom Design & Construction Services | Innate NW",
         description:
-          "Innovative design and construction solutions tailored to your needs.",
+          "Innate NW is collective of architects, engineers and craftsmen collaborating to create beautiful spaces and structures. Call us now on (425) 866-5206.",
       },
       "/about": {
-        title: "About INNATE | Expert Project Management Solutions & Team",
+        title: "About Us | Design & Construction Solutions | Innate NW",
         description:
-          "Discover INNATE's expertise in project management solutions, driving efficiency and innovation for businesses. Learn more about our mission, values, and team.",
+          "At Innate, we believe every client and project has unique needs—whether a small remodel or a large-scale commercial construction. Call us now (425) 866-5206.",
       },
       "/contact": {
-        title: "Contact INNATE | Get in Touch for Inquiries & Support",
+        title: "Contact Us | Design & Construction Solutions | Innate NW",
         description:
-          "Connect with INNATE's experts for custom design and construction solutions. Reach out today to discuss your unique project needs and get professional assistance",
+          "If you're looking for an architect, engineer, or builder to help with your project in Bellevue, fill out our form or call us on or all us on (425) 866-5206.",
       },
       "/services": {
         title: "Services",
@@ -95,14 +95,19 @@ const Navbar = () => {
           "Start your journey with us through our onboarding process.",
       },
       "/press": {
-        title: "INNATE Press | Company News, Media Releases & Industry Updates",
+        title: "Press & Media | Industry Updates and Tips | Innate NW",
         description:
-          "Get the latest INNATE news, press releases, and industry updates now. Stay informed with media coverage, company announcements, and insightful stories",
+          "Innate NW's press section features news, media coverage, and insights into their innovative design and construction projects, highlighting the industry impact.",
       },
       "/work": {
-        title: "INNATE Work | Cutting-Edge Projects & Proven Excellence",
+        title: "Our Expert Design and Construction Work | Innate NW",
         description:
-          "Explore INNATE's cutting-edge projects and proven excellence. Discover innovative solutions driving success across industries. Get insights now!",
+          "Innate NW specializes in custom design and construction solutions, delivering innovative and sustainable projects tailored to meet unique client needs.",
+      },
+      "/project": {
+        title: "Custom Design and Construction Projects | Innate NW",
+        description:
+          "Explore Innate NW's diverse portfolio of innovative design and projects, showcasing sustainable solutions and craftsmanship tailored to unique client needs.",
       },
       // Add more mappings as needed
     };

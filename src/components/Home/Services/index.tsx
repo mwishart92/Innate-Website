@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
 
-import frame1 from "@/public/images/services/exterior-remodeling/Projects/exterior.webp";
-import frame2 from "@/public/images/home/Frame2.png";
-import frame3 from "@/public/images/home/Frame3.png";
-import frame4 from "@/public/images/home/Frame4.png";
-import frame5 from "@/public/images/home/Frame5.png";
-import frame6 from "@/public/images/services/bathroom-remodeling/Hero/cover.webp";
-import frame7 from "@/public/images/home/Frame7.png";
-import frame8 from "@/public/images/home/NaturalDisaster.png";
+import frame1 from "@/public/images/home/s1.webp";
+import frame2 from "@/public/images/home/s2.webp";
+import frame3 from "@/public/images/home/s3.webp";
+import frame4 from "@/public/images/home/s4.webp";
+import frame5 from "@/public/images/home/s5.webp";
+import frame6 from "@/public/images/home/s6.webp";
+import frame7 from "@/public/images/home/s7.webp";
+import frame8 from "@/public/images/home/s8.webp";
 import Text from "@/components/ui/Text";
 import Button from "@/components/ui/Button";
 import roof1 from "@/public/images/home/Roof 1.png";
@@ -73,57 +73,13 @@ const Services = () => {
         </div>
 
         {/* Repeat the same for other items */}
-        <div
-          className="border-r border-t border-[#FFFFFF99] w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden mob:min-h-[390px] mob:border-b mob:border-r-0 "
-          // style={{ borderTop: '1px solid rgba(255, 255, 255, 0.6)' }}
-        >
-          <div className="overflow-hidden h-full flex justify-center items-center relative mob:aspect-[5/5]">
-            {/* Overlay */}
-            <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
-
-            <Image
-              src={frame2}
-              alt="Decks Service"
-              width={480}
-              height={484}
-              className="transition-transform absolute z-0 top-0 h-full w-full object-cover duration-300 ease-in-out transform group-hover:scale-105"
-            />
-
-            <div className="relative z-10">
-              <Image
-                className="mx-auto w-[95px] h-[95px] mob:w-[78px] mob:h-[78px]"
-                src={roof2}
-                alt=""
-              />
-              <Text className="text-[24px] font-light text-center my-4">
-                Decks & Patios
-              </Text>
-              <div className="flex justify-center w-full">
-                <Button
-                  className="w-[136px] h-[50px] mob:text-[14px] bg-transparent text-white border border-white hover:bg-white hover:text-black hover:border-black transition duration-300 mob:w-[126px] mob:h-[48px]"
-                  onClick={() => router.push("/services/decks")}
-                >
-                  Learn More
-                </Button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div
-          className="border-t border-[#FFFFFF99] w-[33.4%] min-h-[484px] tab:w-full group relative overflow-hidden mob:min-h-[390px] mob:border-0 mob:aspect-[5/5]"
-          // style={{
-          //   border: '1px solid rgba(255, 255, 255, 0.6)',
-          //   borderBottom: 'none',
-          //   borderRight: 'none',
-          // }}
-        >
+        <div className="border-t border-[#FFFFFF99] w-[33.4%] min-h-[484px] tab:w-full group relative overflow-hidden mob:min-h-[390px] mob:border-0 mob:aspect-[5/5]">
           <div className="overflow-hidden h-full flex justify-center items-center relative  ">
             {/* Overlay */}
             <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
 
             <Image
-              src={frame3}
+              src={frame2}
               alt="Kitchens & Bathrooms Service"
               width={480}
               height={484}
@@ -143,6 +99,43 @@ const Services = () => {
                 <Button
                   className="w-[136px] h-[50px] mob:text-[14px] bg-transparent text-white border border-white hover:bg-white hover:text-black hover:border-black transition duration-300 mob:w-[126px] mob:h-[48px]"
                   onClick={() => router.push("/services/kitchen-remodeling")}
+                >
+                  Learn More
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="border-b border-[#FFFFFF99] w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden aspect-[5/5] mob:min-h-[390px]"
+          // style={{
+          //   borderBottom: '1px solid rgba(255, 255, 255, 0.6)',
+          // }}
+        >
+          <div className="overflow-hidden h-full flex justify-center items-center relative mob:aspect-[5/5]">
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
+
+            <Image
+              src={frame3}
+              alt="Roofing Service"
+              width={480}
+              height={484}
+              className="transition-transform absolute z-0 top-0 h-full duration-300 ease-in-out transform group-hover:scale-105 w-full object-cover"
+            />
+            <div className="relative z-10">
+              <Image
+                className="mx-auto w-[95px] h-[95px] mob:w-[78px] mob:h-[78px]"
+                src={roof9}
+                alt=""
+              />
+              <Text className="text-[24px] font-light text-center my-4">
+                Bathroom Remodeling
+              </Text>
+              <div className="flex justify-center w-full">
+                <Button
+                  className="w-[136px] h-[50px] mob:text-[14px] bg-transparent text-white border border-white hover:bg-white hover:text-black hover:border-black transition duration-300 mob:w-[126px] mob:h-[48px]"
+                  onClick={() => router.push("/services/bathroom-remodeling")}
                 >
                   Learn More
                 </Button>
@@ -238,43 +231,6 @@ const Services = () => {
       {/*  */}
       <div className="flex flex-wrap justify-center w-full mx-auto">
         <div
-          className="border-b border-[#FFFFFF99] w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden aspect-[5/5] mob:min-h-[390px]"
-          // style={{
-          //   borderBottom: '1px solid rgba(255, 255, 255, 0.6)',
-          // }}
-        >
-          <div className="overflow-hidden h-full flex justify-center items-center relative mob:aspect-[5/5]">
-            {/* Overlay */}
-            <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
-
-            <Image
-              src={frame6}
-              alt="Roofing Service"
-              width={480}
-              height={484}
-              className="transition-transform absolute z-0 top-0 h-full duration-300 ease-in-out transform group-hover:scale-105 w-full object-cover"
-            />
-            <div className="relative z-10">
-              <Image
-                className="mx-auto w-[95px] h-[95px] mob:w-[78px] mob:h-[78px]"
-                src={roof9}
-                alt=""
-              />
-              <Text className="text-[24px] font-light text-center my-4">
-                Bathroom Remodeling
-              </Text>
-              <div className="flex justify-center w-full">
-                <Button
-                  className="w-[136px] h-[50px] mob:text-[14px] bg-transparent text-white border border-white hover:bg-white hover:text-black hover:border-black transition duration-300 mob:w-[126px] mob:h-[48px]"
-                  onClick={() => router.push("/services/bathroom-remodeling")}
-                >
-                  Learn More
-                </Button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
           className="border-x border-b border-[#FFFFFF99] w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden mob:min-h-[390px] mob:border-l-0 mob:border-r-0"
           // style={{
           //   border: '1px solid rgba(255, 255, 255, 0.6)',
@@ -286,7 +242,7 @@ const Services = () => {
             <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
 
             <Image
-              src={frame7}
+              src={frame6}
               alt="Roofing Service"
               width={480}
               height={484}
@@ -305,6 +261,39 @@ const Services = () => {
                 <Button
                   className="w-[136px] h-[50px] mob:text-[14px] bg-transparent text-white border border-white hover:bg-white hover:text-black hover:border-black transition duration-300 mob:w-[126px] mob:h-[48px]"
                   onClick={() => router.push("/services/whole-home-remodels")}
+                >
+                  Learn More
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="border-r border-t border-[#FFFFFF99] w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden mob:min-h-[390px] mob:border-b mob:border-r-0 ">
+          <div className="overflow-hidden h-full flex justify-center items-center relative mob:aspect-[5/5]">
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
+
+            <Image
+              src={frame7}
+              alt="Decks Service"
+              width={480}
+              height={484}
+              className="transition-transform absolute z-0 top-0 h-full w-full object-cover duration-300 ease-in-out transform group-hover:scale-105"
+            />
+
+            <div className="relative z-10">
+              <Image
+                className="mx-auto w-[95px] h-[95px] mob:w-[78px] mob:h-[78px]"
+                src={roof2}
+                alt=""
+              />
+              <Text className="text-[24px] font-light text-center my-4">
+                Decks & Patios
+              </Text>
+              <div className="flex justify-center w-full">
+                <Button
+                  className="w-[136px] h-[50px] mob:text-[14px] bg-transparent text-white border border-white hover:bg-white hover:text-black hover:border-black transition duration-300 mob:w-[126px] mob:h-[48px]"
+                  onClick={() => router.push("/services/decks")}
                 >
                   Learn More
                 </Button>

@@ -1,17 +1,17 @@
-import React from 'react'
-import Image from 'next/image'
+import React from "react";
+import Image from "next/image";
 
-import Text from '@/components/ui/Text'
+import Text from "@/components/ui/Text";
 
-import firm from '@/public/images/about/firm.jpg'
-import michael from '@/public/images/about/michael2.jpg'
-import gelberg from '@/public/images/about/rangul1.jpg'
-import andres from '@/public/images/about/andres.jpg'
+import firm from "@/public/images/about/firm.jpg";
+import michael from "@/public/images/about/michael2.jpg";
+import gelberg from "@/public/images/about/rangul1.jpg";
+import andres from "@/public/images/about/andres.jpg";
 // import amin from '@/public/images/about/amin.png'
-import mary from '@/public/images/about/mary.jpg'
+import mary from "@/public/images/about/mary.jpg";
 // import mridul from '@/public/images/about/mridul.png'
-import arrow from '@/public/images/about/arrow.png'
-import userImg from '@/public/images/about/user.jpg'
+import arrow from "@/public/images/about/arrow.png";
+import userImg from "@/public/images/about/user.jpg";
 const HeroAbout = () => {
   return (
     <div className="min-h-screen pt-32 px-5 mob:pt-16">
@@ -34,7 +34,7 @@ const HeroAbout = () => {
         />
         <div className="w-full max-w-1/2 tab:ms-0 ms-10">
           <Text
-            as="h1"
+            as="h2"
             className="font-inter font-light font-medium text-[40px] mob:text-[30px] mob:font-semibold"
           >
             The Firm
@@ -60,7 +60,7 @@ const HeroAbout = () => {
       >
         <div className="w-full max-w-1/3 me-10 mob:order-2 mob:me-0">
           <Text
-            as="h1"
+            as="h2"
             className="font-inter font-light font-medium text-[40px] mob:text-[30px] mob:font-semibold"
           >
             Michael Wishart
@@ -232,7 +232,7 @@ const HeroAbout = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default HeroAbout
+export default HeroAbout;
