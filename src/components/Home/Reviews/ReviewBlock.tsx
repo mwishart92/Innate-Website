@@ -13,7 +13,7 @@ interface ReviewsProps {
 
 const ReviewBlock: React.FC<ReviewsProps> = ({ text, name, title }) => {
   return (
-    <div className="pt-32 pb-20">
+    <div className="">
       <div className="w-full max-w-[1104px] mx-auto relative">
         <div className="bg-[#7A7A7A] rounded-[16px] p-[25px]">
           <div className="flex justify-between mt-10">

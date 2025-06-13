@@ -41,50 +41,53 @@ function ReviewsSlider() {
   ];
 
   return (
-    <div className="w-full overflow-hidden">
-      <div className="w-full overflow-hidden TestimonialSlider-slider-parent">
-        <Swiper
-          breakpoints={{
-            768: {
-              slidesPerView: 1,
-            },
-            1024: {
-              slidesPerView: 1,
-            },
-            1180: {
-              slidesPerView: 1,
-            },
-            1323: {
-              slidesPerView: 1,
-            },
-          }}
-          slidesPerView={1}
-          speed={4000}
-          autoplay={{
-            delay: 12000,
-            disableOnInteraction: false,
-          }}
-          loop={true}
-          navigation={{
-            nextEl: ".custom-next",
-            prevEl: ".custom-prev ",
-          }}
-          pagination={{
-            clickable: true,
-          }}
-          modules={[Keyboard, Navigation, Scrollbar, Autoplay, Pagination]}
-          className="mySwiper"
-        >
-          {reviews.map((review, index) => (
-            <SwiperSlide key={index} className="mob:px-5">
-              <Reviews
-                text={review.text}
-                name={review.name}
-                title={review.title}
-              />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+    <div className="w-full overflow-hidden pt-32">
+      <div className="px-[43px] mob:px-[16px] w-[80%] mob:w-full mx-auto">
+        <div className="w-full overflow-hidden TestimonialSlider-slider-parent">
+          <Swiper
+            spaceBetween={20}
+            breakpoints={{
+              300: {
+                slidesPerView: 1,
+              },
+              1024: {
+                slidesPerView: 2,
+              },
+              1180: {
+                slidesPerView: 2,
+              },
+              1323: {
+                slidesPerView: 3,
+              },
+            }}
+            slidesPerView={3}
+            speed={4000}
+            autoplay={{
+              delay: 12000,
+              disableOnInteraction: false,
+            }}
+            loop={true}
+            navigation={{
+              nextEl: ".custom-next",
+              prevEl: ".custom-prev ",
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Keyboard, Navigation, Scrollbar, Autoplay, Pagination]}
+            className="mySwiper"
+          >
+            {reviews.map((review, index) => (
+              <SwiperSlide key={index} className="mob:px-5">
+                <Reviews
+                  text={review.text}
+                  name={review.name}
+                  title={review.title}
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </div>
     </div>
   );
