@@ -58,7 +58,7 @@ const Services = () => {
                 alt="roofing"
               />
               <Text className="text-[24px] font-light text-center my-4">
-                Exterior Remodeling
+                Exterior Remodel
               </Text>
               <div className="flex justify-center w-full">
                 <Button
@@ -93,7 +93,7 @@ const Services = () => {
                 alt=""
               />
               <Text className="text-[24px] font-light text-center my-4">
-                Kitchen Remodeling
+                Kitchen Remodel
               </Text>
               <div className="flex justify-center w-full">
                 <Button
@@ -130,7 +130,7 @@ const Services = () => {
                 alt=""
               />
               <Text className="text-[24px] font-light text-center my-4">
-                Bathroom Remodeling
+                Bathroom Remodel
               </Text>
               <div className="flex justify-center w-full">
                 <Button
@@ -255,7 +255,7 @@ const Services = () => {
                 alt=""
               />
               <Text className="text-[24px] font-light text-center my-4">
-                Whole Home Remodeling
+                Whole Home Remodel
               </Text>
               <div className="flex justify-center w-full">
                 <Button

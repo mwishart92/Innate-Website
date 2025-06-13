@@ -17,13 +17,13 @@ import "./Navbar.css";
 import { cn } from "@/libs/utils/twMerge";
 
 const services = [
-  { name: "Exterior Remodeling", slug: "exterior-remodeling" },
-  { name: "Kitchen Remodeling", slug: "kitchen-remodeling" },
-  { name: "Bathroom Remodeling", slug: "bathroom-remodeling" },
+  { name: "Exterior Remodel", slug: "exterior-remodeling" },
+  { name: "Kitchen Remodel", slug: "kitchen-remodeling" },
+  { name: "Bathroom Remodel", slug: "bathroom-remodeling" },
   { name: "Architectural Services", slug: "architectural-services" },
   { name: "ADU", slug: "adus" },
   { name: "Whole Home Remodels", slug: "whole-home-remodels" },
-  { name: "Decks", slug: "decks" },
+  { name: "Decks & Patios", slug: "decks" },
   { name: "Natural Disaster Mitigation", slug: "natural-disaster-mitigation" },
 ].sort((a, b) => a.name.localeCompare(b.name));
 
