@@ -140,6 +140,8 @@ const ServicesPage = () => {
     () => [
       { image: "/images/services/bathroom-remodeling/Projects/p1.webp" },
       { image: "/images/services/bathroom-remodeling/Projects/p2.webp" },
+      { image: "/images/services/bathroom-remodeling/Projects/p3.webp" },
+      { image: "/images/services/bathroom-remodeling/Projects/p4.webp" },      
     ],
     []
   );

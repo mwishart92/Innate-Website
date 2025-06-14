@@ -51,16 +51,6 @@ const slides = [
     delay: 36000,
     projectName: "architectural services",
   },
-  {
-    component: (
-      <Slide
-        image="/images/services/architectural-services/Hero/h2.webp"
-        video={null}
-      />
-    ),
-    delay: 36000,
-    projectName: "architectural services",
-  },
 ];
 
 const sections = [
