@@ -18,6 +18,10 @@ import { cn } from "@/libs/utils/twMerge";
 import ProjectSlider from "@/components/Slider/ProjectSlider";
 
 const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
+  console.log(
+    "projectDetails.gallery[0]?.image >",
+    projectDetails.gallery[0]?.image
+  );
   return (
     <>
       <div className="max-w-[1203px] mx-auto">
@@ -28,17 +32,21 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
             data-aos-duration="1000"
             data-aos-delay="200"
           >
-            <div className="flex flex-col justify-center items-center">
-              <Image
-                src={firm}
-                alt=""
-                className="w-[639px]  mob:w-[400px] rounded-[10px] mt-[76px] mob:mt-[100px] mob:hidden"
-              />
-              <Image
-                src={innate}
-                alt=""
-                className="w-[180px] rounded-[10px] mt-[28px] md:hidden"
-              />
+            <div className="flex flex-col justify-center items-center w-full relative">
+              {projectDetails.gallery[0]?.image ? (
+                <Image
+                  src={projectDetails.gallery[0]?.image || ""}
+                  alt=""
+                  className="w-full mob:w-[400px] rounded-[10px] mt-[76px] mob:mt-[100px] object-cover object-top"
+                  fill
+                />
+              ) : (
+                <Image
+                  src={firm}
+                  alt=""
+                  className="w-full  mob:w-[400px] rounded-[10px] mt-[76px] mob:mt-[100px] object-cover object-top"
+                />
+              )}
             </div>
             <div className="text-end">
               <div className="mt-16 mob:mt-8">

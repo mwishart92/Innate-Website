@@ -1,40 +1,40 @@
-'use client'
-import { useState } from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
+"use client";
+import { useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import {
   Keyboard,
   Navigation,
   Scrollbar,
   Autoplay,
   Pagination,
-} from 'swiper/modules'
-import 'swiper/css'
-import 'swiper/css/scrollbar'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
+} from "swiper/modules";
+import "swiper/css";
+import "swiper/css/scrollbar";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
-import './slider.css'
-import Slide1 from '../Content/slide1'
-import Slide2 from '../Content/slide2'
-import Slide3 from '../Content/slide3'
-import Slide4 from '../Content/slide4'
-import Text from '@/components/ui/Text'
-import { useRouter } from 'next/navigation'
+import "./slider.css";
+import Slide1 from "../Content/slide1";
+import Slide2 from "../Content/slide2";
+import Slide3 from "../Content/slide3";
+import Slide4 from "../Content/slide4";
+import Text from "@/components/ui/Text";
+import { useRouter } from "next/navigation";
 
 function HomeSlider() {
-  const [currentSlide, setCurrentSlide] = useState(0)
-  const router = useRouter()
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const router = useRouter();
 
   const slides = [
-    { component: <Slide1 />, delay: 36000, projectName: 'Bosma ADU' },
-    { component: <Slide2 />, delay: 26000, projectName: 'Norman Residence' },
+    { component: <Slide1 />, delay: 36000, projectName: "Bosma ADU" },
+    { component: <Slide2 />, delay: 26000, projectName: "Norman Residence" },
     {
       component: <Slide3 />,
       delay: 42000,
-      projectName: 'Pellegrino Residence',
+      projectName: "Pellegrino Residence",
     },
-    { component: <Slide4 />, delay: 14000, projectName: 'Innate NW' },
-  ]
+    { component: <Slide4 />, delay: 14000, projectName: "Innate NW" },
+  ];
 
   // const scrollToSection = (id: string) => {
   //   const element = document.getElementById(id)
@@ -57,7 +57,7 @@ function HomeSlider() {
               </span>
               <br />
               <span className="text-[40px] mob:text-[28px] font-light">
-                It’s{' '}
+                It’s{" "}
               </span>
               <span className="italic text-[40px] mob:text-[28px]">Innate</span>
             </Text>
@@ -65,7 +65,7 @@ function HomeSlider() {
             <button
               className="mt-[20px] mb-[60px] border border-[#FFFFFF] font-normal max-w-[200px] h-[50px] text-[16px] hover:bg-white hover:text-black hover:border-black transition duration-300 bg-transparent px-[24px] py-[14px] mob:text-[14px] mob:max-w-[181px] mob:h-[48px]"
               // onClick={() => scrollToSection('contactHome')}
-              onClick={() => router.push('/onboarding')}
+              onClick={() => router.push("/onboarding")}
             >
               Book Consultation
             </button>
@@ -88,8 +88,8 @@ function HomeSlider() {
           }}
           loop={true}
           navigation={{
-            nextEl: '.custom-next',
-            prevEl: '.custom-prev',
+            nextEl: ".custom-next",
+            prevEl: ".custom-prev",
           }}
           pagination={{
             clickable: true,
@@ -97,15 +97,16 @@ function HomeSlider() {
           modules={[Keyboard, Navigation, Scrollbar, Autoplay, Pagination]}
           className="mySwiper swiper-backface-hidden"
           onSlideChange={(swiper) => {
-            setCurrentSlide(swiper.realIndex)
+            setCurrentSlide(swiper.realIndex);
 
             if (
               swiper.params.autoplay &&
-              typeof swiper.params.autoplay === 'object'
+              typeof swiper.params.autoplay === "object"
             ) {
-              const currentSlide = swiper.realIndex
-              swiper.params.autoplay.delay = slides[currentSlide]?.delay || 5000
-              swiper.autoplay.start()
+              const currentSlide = swiper.realIndex;
+              swiper.params.autoplay.delay =
+                slides[currentSlide]?.delay || 5000;
+              swiper.autoplay.start();
             }
           }}
         >
@@ -116,7 +117,7 @@ function HomeSlider() {
         <div className="absolute inset-0 bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(0,0,0,0.5)]  pagination-gradient z-10 pointer-events-none"></div>
       </div>
     </div>
-  )
+  );
 }
 
-export default HomeSlider
+export default HomeSlider;

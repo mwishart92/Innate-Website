@@ -677,10 +677,10 @@ const projectData = {
       ],
       gallery: [
         {
-          image: "/images/project/freitas-bathroom/6L1A8447-Enhanced-NR.webp",
+          image: "/images/project/freitas-bathroom/6L1A8433-Enhanced-NR.webp",
         },
         {
-          image: "/images/project/freitas-bathroom/6L1A8433-Enhanced-NR.webp",
+          image: "/images/project/freitas-bathroom/6L1A8447-Enhanced-NR.webp",
         },
         {
           image: "/images/project/freitas-bathroom/6L1A8426-Enhanced-NR.webp",
@@ -760,10 +760,10 @@ const projectData = {
       ],
       gallery: [
         {
-          image: "/images/project/knight-residence/6L1A8374.webp",
+          image: "/images/project/knight-residence/6L1A8322-Enhanced-NR.webp",
         },
         {
-          image: "/images/project/knight-residence/6L1A8322-Enhanced-NR.webp",
+          image: "/images/project/knight-residence/6L1A8374.webp",
         },
         {
           image: "/images/project/knight-residence/6L1A8371.webp",
