@@ -1,19 +1,33 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Image from "next/image";
 import Text from "@/components/ui/Text";
 import avatar from "@/public/images/home/avatarimg.png";
 import leftdot from "@/public/images/home/left“.png";
 import rightdot from "@/public/images/home/right“.png";
+import { cn } from "@/libs/utils/twMerge";
 
-interface ReviewsProps {
+interface Review {
   text: string;
   name: string;
   title: string;
 }
 
-const ReviewBlock: React.FC<ReviewsProps> = ({ text, name, title }) => {
+interface ReviewsProps {
+  text: string;
+  name: string;
+  title: string;
+  handleOpenDailog: (review: Review) => void;
+}
+
+const ReviewBlock: React.FC<ReviewsProps> = ({
+  text,
+  name,
+  title,
+  handleOpenDailog,
+}) => {
   return (
-    <div className="">
+    <div className="mb-10">
       <div className="w-full max-w-[1104px] mx-auto relative">
         <div className="bg-[#7A7A7A] rounded-[16px] p-[25px]">
           <div className="flex justify-between mt-10">
@@ -48,9 +62,24 @@ const ReviewBlock: React.FC<ReviewsProps> = ({ text, name, title }) => {
             <img src="/Star.png" className="w-[22px]" />
             <img src="/Star.png" className="w-[22px]" />
           </div>
-          <Text className="text-[16px] leading-[31.2px] text-white max-w-[879px] mob:text-[16px] mob:leading-[25.2px] mob:font-normal font-semibold">
+          <Text
+            className={cn(
+              "text-[16px] leading-[31.2px] text-white max-w-[879px] mob:text-[16px] mob:leading-[25.2px] mob:font-normal font-semibold",
+              "text-ellipsis"
+            )}
+          >
             {text}
           </Text>
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              handleOpenDailog({ text, title, name });
+            }}
+            className="text-gray-200"
+          >
+            Read more
+          </a>
         </div>
       </div>
     </div>

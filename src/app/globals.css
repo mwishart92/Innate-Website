@@ -69,3 +69,14 @@ body {
 .icon-scale {
   transform: scale(1.1);
 }
+
+.text-ellipsis {
+  line-height: 23px;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
