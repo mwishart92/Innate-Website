@@ -31,6 +31,7 @@ const MediaSlide: React.FC<MediaSlideProps> = ({
           autoPlay
           loop
           muted
+          playsInline
           onLoad={() => setImageLoaded?.(true)}
         >
           <source src={src} type="video/mp4" />

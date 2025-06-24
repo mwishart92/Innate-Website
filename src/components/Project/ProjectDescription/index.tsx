@@ -27,7 +27,7 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
       <div className="max-w-[1203px] mx-auto">
         <div className="w-full px-10 flex flex-col gap-20 mb-28">
           <div
-            className="w-full flex justify-between mob:justify-center gap-8"
+            className="w-full flex mob:flex-col justify-between mob:justify-center gap-8"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="200"
@@ -37,7 +37,7 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
                 <Image
                   src={projectDetails.gallery[0]?.image || ""}
                   alt=""
-                  className="w-full mob:w-[400px] rounded-[10px] mt-[76px] mob:mt-[100px] object-cover object-top"
+                  className="w-full mob:w-[400px] rounded-[10px] mt-[76px] mob:mt-[100px] object-cover object-top mob:!relative"
                   fill
                 />
               ) : (

@@ -14,24 +14,6 @@ gsap.registerPlugin(ScrollTrigger);
 import "./Work.css";
 import { Metadata } from "next";
 
-const sliders: React.ElementType[] = [
-  // WorkSlider1,
-  // WorkSlider2,
-  // WorkSlider4,
-  // WorkSlider5,
-  // WorkSlider6,
-  // WorkSlider7,
-  // WorkSlider12,
-  // WorkSlider0,
-  // WorkSlider3,
-  // WorkSlider8,
-  // WorkSlider9,
-  // WorkSlider10,
-  // WorkSlider11,
-  // WorkSlider13,
-  // WorkSlider14,
-];
-
 export const metadata: Metadata = {
   title: "Our Expert Design and Construction Work | Innate NW",
   description:
