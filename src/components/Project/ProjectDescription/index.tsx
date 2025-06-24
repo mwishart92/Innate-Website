@@ -160,12 +160,8 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
             <div className="flex flex-col md:items-end justify-center ">
               <div className="md:max-w-[441px]">
                 <Text className="self-center">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.
+                  My love of architecture began at a very young age. As a child growing up in Australia I would create structures with blocks and sketch my dream house. Many years later I found myself studying architecture at the Community College of Denver where I discovered the timeless art of hand drafting. Although we fully embrace the capabilities of modern technology at Innate, I believe something profound occurs when you put pencil to paper. It’s a tactile connection that brings a unique authenticity to every project we do.
+Since our inception, our philosophy has always been to enhance the quality of life of our clients. By collaborating with architects, engineers and craftsmen that share our values, I have formed a multi-disciplinary firm capable of handling the entire project from initial concept to finished construction. I believe that when design is both functional and beautiful, it can have the most impact on peoples lives.
                 </Text>
                 <Link href="/onboarding">
                   <button

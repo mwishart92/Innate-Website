@@ -7,6 +7,7 @@ import firm from "@/public/images/about/firm.jpg";
 import michael from "@/public/images/about/michael2.jpg";
 import gelberg from "@/public/images/about/rangul1.jpg";
 import andres from "@/public/images/about/andres.jpg";
+import ivan from "@/public/images/about/ivan.jpg";
 // import amin from '@/public/images/about/amin.png'
 import mary from "@/public/images/about/mary.jpg";
 // import mridul from '@/public/images/about/mridul.png'
@@ -115,14 +116,14 @@ const HeroAbout = () => {
           >
             <Image
               className="object-cover w-[266px] h-[261px] mob:w-[350px] rounded-[10px]"
-              src={gelberg}
+              src={ivan}
               alt=""
               fill
             />
           </div>
           <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
             <Text className="text-[30px] font-semibold leading-[39px] mt-5 mob:font-medium mob:text-[28px]">
-              Ran Gelberg
+              Ivan K
             </Text>
           </div>
           <div
@@ -132,7 +133,7 @@ const HeroAbout = () => {
             data-aos-delay="100"
           >
             <Text className="text-[18px] font-normal leading-[24px] mob:text-[16px]">
-              Project Manager
+              Interior Craftsman
             </Text>
             <Image className="" src={arrow} alt="" width={41} height={41} />
           </div>
