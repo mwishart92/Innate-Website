@@ -31,7 +31,7 @@ const Services = () => {
     <div className="pt-24 pb-4 mob:pt-0">
       <div className="flex flex-wrap justify-center w-full mx-auto">
         <div
-          className="border border-[#FFFFFF99] border-b-0 border-l-0 w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden aspect-[5/5] mob:min-h-[390px] mob:aspect-[5/5] mob:border-r-0"
+          className="w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden aspect-[5/5] mob:min-h-[390px] mob:aspect-[5/5] mob:border-r-0"
           // style={{
           //   border: '1px solid rgba(255, 255, 255, 0.6)',
           //   borderBottom: 'none',
@@ -73,7 +73,7 @@ const Services = () => {
         </div>
 
         {/* Repeat the same for other items */}
-        <div className="border-t border-[#FFFFFF99] w-[33.4%] min-h-[484px] tab:w-full group relative overflow-hidden mob:min-h-[390px] mob:border-0 mob:aspect-[5/5]">
+        <div className="w-[33.4%] min-h-[484px] tab:w-full group relative overflow-hidden mob:min-h-[390px] mob:border-0 mob:aspect-[5/5]">
           <div className="overflow-hidden h-full flex justify-center items-center relative  ">
             {/* Overlay */}
             <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
@@ -107,7 +107,7 @@ const Services = () => {
           </div>
         </div>
         <div
-          className="border-b border-[#FFFFFF99] w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden aspect-[5/5] mob:min-h-[390px]"
+          className="w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden aspect-[5/5] mob:min-h-[390px]"
           // style={{
           //   borderBottom: '1px solid rgba(255, 255, 255, 0.6)',
           // }}
@@ -148,7 +148,7 @@ const Services = () => {
       {/*  */}
       <div className="flex flex-wrap justify-center w-full min-h-[484px] overflow-hidden mx-auto mob:min-h-[390px]">
         <div
-          className="border-[#FFFFFF99] border-r border-t border-b w-[50%] tab:w-full relative group min-h-[484px] overflow-hidden mob:min-h-[390px] mob:border-b-0 mob:border-r-0 mob:aspect-[5/5]"
+          className="w-[50%] tab:w-full relative group min-h-[484px] overflow-hidden mob:min-h-[390px] mob:border-b-0 mob:border-r-0 mob:aspect-[5/5]"
           // style={{
           //   border: '1px solid rgba(255, 255, 255, 0.6)',
           //   borderLeft: 'none',
@@ -231,7 +231,7 @@ const Services = () => {
       {/*  */}
       <div className="flex flex-wrap justify-center w-full mx-auto">
         <div
-          className=" w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden mob:min-h-[390px] mob:border-l-0 mob:border-r-0"
+          className="w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden mob:min-h-[390px] mob:border-l-0 mob:border-r-0"
           // style={{
           //   border: '1px solid rgba(255, 255, 255, 0.6)',
           //   borderTop: 'none',
