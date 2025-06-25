@@ -56,7 +56,7 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
                       {detail.key}
                     </Text>
                     <Text className="text-[20px] font-extralight mob:text-[14px]">
-                      {detail.value}
+                      {detail.value} ..
                     </Text>
                   </div>
                 ))}
