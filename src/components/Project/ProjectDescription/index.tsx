@@ -99,7 +99,7 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
               )}
             </div>
           )}
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col gap-2">
             {projectDetails?.description.map((d: string, key: number) => (
               <Text
                 className="text-[#D9D9D9] font-normal mob:text-[14px]"
@@ -109,7 +109,7 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
               </Text>
             ))}
           </div>
-          <div className="grid grid-cols-3 gap-[18px] mob:gap-2">
+          <div className="grid grid-cols-3 gap-[10px] mob:gap-2">
             {projectDetails.gallery.map((image: any, index: any) => (
               <div key={index} className={cn(image.class)}>
                 <Image
