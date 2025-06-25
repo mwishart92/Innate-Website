@@ -156,18 +156,6 @@ export const slidesData: SlideData[] = [
     ],
   },
   {
-    title: "Wheat Ridge ADU",
-    location: "Kirkland, Washington",
-    url: "/project/wheat-ridge-adu",
-    media: [
-      { src: "/images/work/KA1.jpg", type: "image" },
-      { src: "/images/work/KA2.jpg", type: "image" },
-      { src: "/images/work/KA3.jpg", type: "image" },
-      { src: "/images/work/KA4.jpg", type: "image" },
-      { src: "/images/work/KA5.jpg", type: "image" },
-    ],
-  },
-  {
     title: "Kung Fu Tea x TKK",
     location: "Renton, Washington",
     url: "/project/kung-fu-tea",
@@ -190,6 +178,17 @@ export const slidesData: SlideData[] = [
       { src: "/images/work/MR4.png", type: "image" },
       { src: "/images/work/MR5.png", type: "image" },
       { src: "/images/work/MR6.png", type: "image" },
+    ],
+  },
+  {
+    title: "Wheat Ridge ADU",
+    location: "Kirkland, Washington",
+    media: [
+      { src: "/images/work/KA1.jpg", type: "image" },
+      { src: "/images/work/KA2.jpg", type: "image" },
+      { src: "/images/work/KA3.jpg", type: "image" },
+      { src: "/images/work/KA4.jpg", type: "image" },
+      { src: "/images/work/KA5.jpg", type: "image" },
     ],
   },
   {
