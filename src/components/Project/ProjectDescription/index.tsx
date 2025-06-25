@@ -56,7 +56,7 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
                       {detail.key}
                     </Text>
                     <Text className="text-[20px] font-extralight mob:text-[14px]">
-                      {detail.value} ..
+                      {detail.value}
                     </Text>
                   </div>
                 ))}
@@ -65,7 +65,7 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
           </div>
           <div>
             <Text className="text-[#D9D9D9] font-normal mob:text-[14px]">
-              {projectDetails.scopedescription}
+              {projectDetails.scopedescription} ..
             </Text>
             <Link href="/onboarding">
               <button
