@@ -63,9 +63,9 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="mt-8">
             <Text className="text-[#D9D9D9] font-normal mob:text-[14px]">
-              {projectDetails.scopedescription} ..
+              {projectDetails.scopedescription}
             </Text>
             <Link href="/onboarding">
               <button
