@@ -99,7 +99,7 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
               )}
             </div>
           )}
-          <div className="flex flex-col gap-10">
+          <div className="flex flex-col gap-8">
             {projectDetails?.description.map((d: string, key: number) => (
               <Text
                 className="text-[#D9D9D9] font-normal mob:text-[14px]"
