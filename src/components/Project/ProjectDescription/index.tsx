@@ -25,7 +25,7 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
   return (
     <>
       <div className="max-w-[1203px] mx-auto">
-        <div className="w-full px-10 flex flex-col gap-20 mb-28">
+        <div className="w-full px-10 flex flex-col md:gap-20 gap-4 mb-10 md:mb-28">
           <div
             className="w-full flex mob:flex-col justify-between mob:justify-center gap-8"
             data-aos="fade-up"
@@ -129,14 +129,14 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
         </div>
       </div>
       <div className="w-full">
-        <div className="w-full flex flex-col gap-20 mb-28">
+        <div className="w-full flex flex-col gap-20 mb-10 md:mb-28">
           <div>
             <ProjectSlider />
           </div>
         </div>
       </div>
       <div className="max-w-[1203px] mx-auto">
-        <div className="w-full px-10 flex flex-col gap-20 mb-28">
+        <div className="w-full px-10 flex flex-col md:gap-20 gap-4 mb-10 md:mb-28">
           <Text
             as="h2"
             className="text-[34px] mob:text-[30px] text-white font-semibold text-center"
@@ -160,8 +160,22 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
             <div className="flex flex-col md:items-end justify-center ">
               <div className="md:max-w-[441px]">
                 <Text className="self-center">
-                  My love of architecture began at a very young age. As a child growing up in Australia I would create structures with blocks and sketch my dream house. Many years later I found myself studying architecture at the Community College of Denver where I discovered the timeless art of hand drafting. Although we fully embrace the capabilities of modern technology at Innate, I believe something profound occurs when you put pencil to paper. It’s a tactile connection that brings a unique authenticity to every project we do.
-Since our inception, our philosophy has always been to enhance the quality of life of our clients. By collaborating with architects, engineers and craftsmen that share our values, I have formed a multi-disciplinary firm capable of handling the entire project from initial concept to finished construction. I believe that when design is both functional and beautiful, it can have the most impact on peoples lives.
+                  My love of architecture began at a very young age. As a child
+                  growing up in Australia I would create structures with blocks
+                  and sketch my dream house. Many years later I found myself
+                  studying architecture at the Community College of Denver where
+                  I discovered the timeless art of hand drafting. Although we
+                  fully embrace the capabilities of modern technology at Innate,
+                  I believe something profound occurs when you put pencil to
+                  paper. It’s a tactile connection that brings a unique
+                  authenticity to every project we do. Since our inception, our
+                  philosophy has always been to enhance the quality of life of
+                  our clients. By collaborating with architects, engineers and
+                  craftsmen that share our values, I have formed a
+                  multi-disciplinary firm capable of handling the entire project
+                  from initial concept to finished construction. I believe that
+                  when design is both functional and beautiful, it can have the
+                  most impact on peoples lives.
                 </Text>
                 <Link href="/onboarding">
                   <button

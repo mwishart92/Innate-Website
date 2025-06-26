@@ -57,9 +57,9 @@ function HomeSlider({ slides }: HomeSliderProps) {
 
   return (
     <div className="w-full overflow-hidden">
-      <div className="w-full overflow-hidden home-slider-parent">
-        <div className="absolute bottom-[128px] mob:bottom-[70px] left-16 p-5 z-20 bg-opacity-50 mob:left-0">
-          <div className="mb-[40px]">
+      <div className="w-full overflow-hidden home-slider-parent ">
+        <div className="absolute bottom-[128px] mob:bottom-[70px] left-16 p-5 z-30 bg-opacity-50 mob:left-0 ">
+          <div className="mb-[40px] ">
             <Text
               as="h2"
               className="my-3 text-white leading-[44px] mob:leading-[36.4px]"
@@ -123,7 +123,7 @@ function HomeSlider({ slides }: HomeSliderProps) {
             <SwiperSlide key={index}>{slide.component}</SwiperSlide>
           ))}
         </Swiper>
-        <div className="absolute inset-0 bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(0,0,0,0.5)]  pagination-gradient z-10 pointer-events-none"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(0,0,0,0.5)]  pagination-gradient z-20 pointer-events-none bg-black/40"></div>
       </div>
     </div>
   );

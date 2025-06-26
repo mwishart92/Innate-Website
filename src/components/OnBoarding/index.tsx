@@ -142,13 +142,15 @@ const OnBoarding: React.FC = () => {
 
       // Check the response success
       if (data.success) {
-        handleNext(); // Proceed to the next step
+        setTimeout(() => {
+          handleNext(); // Proceed to the next step
+        }, 5000);
         Swal.fire({
           title: "Success!",
           text: "Your request has been sent successfully.",
           icon: "success",
           showConfirmButton: false,
-          timer: 2000,
+          // timer: 2000,
         });
       } else {
         Swal.fire({
@@ -156,7 +158,7 @@ const OnBoarding: React.FC = () => {
           text: data.message,
           icon: "error",
           showConfirmButton: false,
-          timer: 2000,
+          timer: 10000,
         });
       }
     } catch (error) {
