@@ -80,7 +80,13 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+  .fp-arrow.fp-next {
+    border-width: 10px !important;
+  }
 
+  .fp-arrow.fp-prev {
+    border-width: 10px !important;
+  }
 @media (max-width: 767px) {
   .fp-arrow.fp-next {
     border-width: 10px !important;
