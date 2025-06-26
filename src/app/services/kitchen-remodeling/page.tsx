@@ -33,16 +33,7 @@ interface MediaData {
 }
 
 const slides = [
-  {
-    component: (
-      <Slide
-        image="/images/services/kitchen-remodeling/Hero/cover.webp"
-        video={null}
-      />
-    ),
-    delay: 36000,
-    projectName: "kitchen remodeling",
-  },
+
   {
     component: (
       <Slide
