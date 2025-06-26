@@ -33,7 +33,7 @@ interface MediaData {
 const slides = [
   {
     component: (
-      <Slide image="/images/services/adus/Hero/cover.webp" video={null} />
+      <Slide image="/images/services/adus/Hero/hero2.webp" video={null} />
     ),
     delay: 36000,
     projectName: "ADU",

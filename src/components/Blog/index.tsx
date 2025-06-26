@@ -90,44 +90,6 @@ const Blog: FC<ArticleProps> = ({ id }) => {
       },
       {
         id: 4,
-        title: "New construction CRM app JobSync available on apple app store",
-        publishedDate: "4 April, 2024", // Add the publication date here
-        content: [
-
-          {
-            type: "image",
-            src: frame2, // Image imported
-            alt: "Image description",
-          },
-          {
-            type: "text",
-            src: frame2,
-            text: "In the fast-paced world of construction management, efficiency and precision are paramount. That’s why we’re excited to introduce JobSync, our revolutionary proprietary software that seamlessly integrates CRM functionality with construction management software tools, all while harnessing the power of AI to predict pricing based on job type and other factors. With JobSync, we’re not just offering a one-stop solution for project management; we’re revolutionizing the way construction businesses operate, streamlining processes, and enhancing decision-making capabilities. Let’s delve into how JobSync can transform your workflow and propel your projects towards success. \n JobSync isn’t just another CRM or construction management software; it’s a comprehensive solution designed to meet the unique challenges of the construction industry. By integrating CRM features, JobSync allows you to effortlessly manage client interactions, track leads, and maintain communication channels, ensuring that no opportunity slips through the cracks. Simultaneously, its construction management tools provide a centralized platform for project planning, scheduling, and resource allocation, facilitating smooth collaboration among team members and stakeholders. What sets JobSync apart, however, is its AI-driven pricing prediction capability. Leveraging advanced algorithms and data analytics, JobSync analyzes job types, local market trends, and median incomes to provide accurate pricing estimates, empowering you to make informed decisions and stay competitive in a dynamic market landscape. \n In conclusion, JobSync represents a paradigm shift in construction management software, offering a holistic solution that combines CRM functionality, construction management tools, and AI-driven insights. By adopting JobSync, construction businesses can streamline their operations, enhance client relationships, and optimize project outcomes. Whether you’re a small contracting firm or a large construction company, JobSync provides the tools and intelligence needed to thrive in today’s competitive environment. Experience the power of JobSync and take your construction projects to new heights of efficiency and profitability.",
-          },
-        ],
-      },
-      {
-        id: 5,
-        title: "The Best CRM and Construction Project Management Software",
-        publishedDate: "1 April, 2024", // Add the publication date here
-        content: [
-
-          {
-            type: "image",
-            src: frame2, // Image imported
-            alt: "Image description",
-          },
-          {
-            type: "text",
-            src: frame2,
-            text: "In the intricate world of construction, effective management of both customer relationships and project timelines is paramount for success. Construction companies operate within a dynamic environment, navigating complex projects, tight deadlines, and diverse stakeholder interactions. Herein lies the significance of robust Customer Relationship Management (CRM) and project management software. These tools serve as the backbone of operations, facilitating seamless communication, streamlined workflows, and meticulous organization. By harnessing the power of CRM and project management software, construction companies can optimize efficiency, enhance collaboration, and ultimately deliver projects with precision and excellence. In this era of technological innovation, a new CRM and construction project manager, JobSync, is uniquely tailored to meet the distinct needs of construction companies, empowering them to excel in today’s competitive landscape. \n JobSync revolutionizes construction management by seamlessly integrating tasks, centralizing client information, generating professional estimates, and facilitating digital contract signing. With its AI-powered capabilities, JobSync even forecasts the cost of specific projects, enabling construction companies to anticipate and mitigate potential financial risks. This comprehensive platform streamlines workflows, enhances collaboration, and empowers teams to deliver projects efficiently and effectively. By consolidating essential functions into a single, intuitive interface, JobSync empowers construction professionals to focus on what they do best: building exceptional structures. \n JobSync’s AI algorithm plays a pivotal role in assisting sales teams and project managers in accurately pricing architecture and construction projects. By analyzing historical data, market trends, and project specifications, JobSync leverages AI to generate precise cost estimates tailored to each project’s unique requirements. This sophisticated algorithm empowers salesmen and project managers to make data-driven decisions, ensuring competitive yet profitable pricing strategies. With JobSync’s AI capabilities, construction professionals can navigate pricing complexities with confidence, ultimately optimizing profitability and client satisfaction. \n In essence, JobSync stands as a game-changer in the construction industry, offering unparalleled usefulness and effectiveness in project management, client relations, and pricing strategies. By streamlining tasks, centralizing information, and harnessing the power of AI, JobSync empowers construction companies to operate with unprecedented efficiency and precision. Whether it’s organizing workflows, generating estimates, or predicting project costs, JobSync revolutionizes every aspect of construction management, driving success, and profitability for businesses of all sizes. With JobSync at their fingertips, construction professionals can navigate challenges, seize opportunities, and deliver exceptional results with confidence and ease.",
-
-
-          },
-        ],
-      },
-      {
-        id: 6,
         title: "Why aren’t general contractors getting back to me?",
         publishedDate: "3 February, 2024", // Add the publication date here
         content: [
