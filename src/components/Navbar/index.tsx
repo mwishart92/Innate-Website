@@ -322,9 +322,7 @@ const Navbar = () => {
                               : "text-[#FFFFFF]"
                           }`}
                         >
-                          <li className="flex ms-5 py-[15px] list-items">
-                            About
-                          </li>
+                          <li className="flex ms-5 py-[15px] ">About</li>
                         </Link>
                         {/* <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr> */}
 
@@ -337,9 +335,7 @@ const Navbar = () => {
                               : "text-[#FFFFFF]"
                           }`}
                         >
-                          <li className="flex ms-5 py-[15px] list-items">
-                            Work
-                          </li>
+                          <li className="flex ms-5 py-[15px] ">Work</li>
                         </Link>
                         <div className="flex justify-between">
                           <div
@@ -349,7 +345,7 @@ const Navbar = () => {
                                 : "text-[#FFFFFF]"
                             }`}
                           >
-                            <span className="flex ms-5 py-[15px] list-items">
+                            <span className="flex ms-5 py-[15px] ">
                               Services
                             </span>
                           </div>
@@ -385,7 +381,7 @@ const Navbar = () => {
                                 href={`/services/${service.slug}`}
                                 className="block text-[17px] font-inter font-light leading-[25.5px] text-[#FFFFFF99] hover:text-[#2CFF06]"
                               >
-                                <li className="flex py-[10px] list-items">
+                                <li className="flex py-[10px] ">
                                   {service.name}
                                 </li>
                               </Link>
@@ -402,9 +398,7 @@ const Navbar = () => {
                               : "text-[#FFFFFF]"
                           }`}
                         >
-                          <li className="flex ms-5 py-[15px] list-items">
-                            Press
-                          </li>
+                          <li className="flex ms-5 py-[15px] ">Press</li>
                         </Link>
                         {/* <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr> */}
 
@@ -417,9 +411,7 @@ const Navbar = () => {
                               : "text-[#FFFFFF]"
                           }`}
                         >
-                          <li className="flex ms-5 py-[15px] list-items">
-                            Contact
-                          </li>
+                          <li className="flex ms-5 py-[15px] ">Contact</li>
                         </Link>
                       </ul>
                     </div>
