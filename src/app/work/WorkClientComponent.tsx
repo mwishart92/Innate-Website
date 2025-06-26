@@ -30,6 +30,7 @@ const Work: React.FC = () => {
         // Optional: you can set section colors or other options here
         scrollingSpeed={900}
         credits={{ enabled: false }}
+        responsiveWidth={767}
         render={({ state, fullpageApi }) => {
           return (
             <ReactFullpage.Wrapper>
