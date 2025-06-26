@@ -561,7 +561,7 @@ const projectData = {
       {
         component: (
           <Slide
-            image="/images/project/shoreline-residence/COVER-D5_a7 2_20240625_005152.webp"
+            image="/images/project/shoreline-residence/COVER-D5_a7-2_20240625_005152.webp"
             video={null}
           />
         ),

@@ -6,25 +6,39 @@ interface MediaSlideProps {
   setImageLoaded?: (loaded: boolean) => void;
   src: string;
   type: string;
+  fixedBackground?: boolean;
 }
 
 const MediaSlide: React.FC<MediaSlideProps> = ({
   src,
   type,
   setImageLoaded,
+  fixedBackground,
 }) => {
   return (
     <div className="relative w-full z-10 px-20 mob:px-5 mob:h-[100vh] h-screen min-h-[700px] flex justify-center items-center">
       {type === "image" ? (
-        <Image
-          className="absolute top-0 left-0 w-full h-full object-cover z-0"
-          src={src}
-          alt=""
-          fill
-          sizes="100vw"
-          priority
-          onLoad={() => setImageLoaded?.(true)}
-        />
+        fixedBackground ? (
+          <div
+            className="absolute top-0 left-0 w-full h-full object-cover z-0"
+            style={{
+              backgroundImage: `url(${src})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundAttachment: "fixed",
+            }}
+          ></div>
+        ) : (
+          <Image
+            className="absolute top-0 left-0 w-full h-full object-cover z-0"
+            src={src}
+            alt=""
+            fill
+            sizes="100vw"
+            priority
+            onLoad={() => setImageLoaded?.(true)}
+          />
+        )
       ) : (
         <video
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
