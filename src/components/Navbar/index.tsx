@@ -233,6 +233,7 @@ const Navbar = () => {
                               href={`/services/${service.slug}`}
                               className="block px-4 py-2 hover:bg-[#444444] text-sm font-light"
                               onClick={() => {
+                                handleTabChange(`/services/${service.slug}`);
                                 sessionStorage.setItem(
                                   "serviceType",
                                   service.name
@@ -360,7 +361,7 @@ const Navbar = () => {
                               alt="Dropdown arrow"
                               className={cn(
                                 "cursor-pointer hover:text-[#2CFF06] transition-transform duration-300",
-                                isServicesMobileOpen ? "rotate-0" : "rotate-180"
+                                isServicesMobileOpen ? "rotate-180" : "rotate-0"
                               )}
                               width={24}
                               height={24}
