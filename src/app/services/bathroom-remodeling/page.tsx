@@ -41,6 +41,26 @@ const slides = [
     delay: 36000,
     projectName: "bathroom remodeling",
   },
+  {
+    component: (
+      <Slide
+        image="/images/services/bathroom-remodeling/Hero/b1.webp"
+        video={null}
+      />
+    ),
+    delay: 36000,
+    projectName: "bathroom remodeling",
+  },
+  {
+    component: (
+      <Slide
+        image="/images/services/bathroom-remodeling/Hero/b2.webp"
+        video={null}
+      />
+    ),
+    delay: 36000,
+    projectName: "bathroom remodeling",
+  },    
 ];
 
 const sections = [
