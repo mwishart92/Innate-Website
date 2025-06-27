@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Text from "@/components/ui/Text";
@@ -70,6 +71,12 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
             <Link href="/onboarding">
               <button
                 type="submit"
+                onClick={() =>
+                  localStorage?.setItem(
+                    "onboardingRedirectUrl",
+                    location?.pathname
+                  )
+                }
                 className="w-[172.63px] h-[50px] mt-8 border border-white text-white hover:bg-white hover:text-black hover:border-black text-[16px] font-medium flex items-center justify-center gap-1"
               >
                 Start project
@@ -180,6 +187,12 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
                 <Link href="/onboarding">
                   <button
                     type="submit"
+                    onClick={() =>
+                      localStorage?.setItem(
+                        "onboardingRedirectUrl",
+                        location?.pathname
+                      )
+                    }
                     className="w-[172.63px] h-[50px] mt-8 border border-white text-white hover:bg-white hover:text-black hover:border-black text-[16px] font-medium flex items-center justify-center gap-1"
                   >
                     Start project

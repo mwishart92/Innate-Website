@@ -12,6 +12,7 @@ import Step7 from "./Step7";
 import Step8 from "./Step8";
 import LastStep from "./LastStep";
 import { ClipLoader } from "react-spinners";
+import { useRouter } from "next/navigation";
 // import logo from "@/public/logo-innate.png";
 // import facebook from "@/public/fbb.png";
 // import linkedin from "@/public/LinkedIn.png";
@@ -19,6 +20,7 @@ import Swal from "sweetalert2";
 // import instagaram from "@/public/Instagram.png";
 
 const OnBoarding: React.FC = () => {
+  const router = useRouter();
   // Initialize state with a function that retrieves the saved step from localStorage
   const totalSteps = 9; // Total number of steps
   const [loading, setLoading] = useState(false);
@@ -143,7 +145,10 @@ const OnBoarding: React.FC = () => {
       // Check the response success
       if (data.success) {
         setTimeout(() => {
-          handleNext(); // Proceed to the next step
+          // handleNext(); // Proceed to the next step
+          const onboardingRedirectUrl =
+            localStorage.getItem("onboardingRedirectUrl") || "";
+          if (onboardingRedirectUrl) router.push(onboardingRedirectUrl);
         }, 5000);
         Swal.fire({
           title: "Success!",

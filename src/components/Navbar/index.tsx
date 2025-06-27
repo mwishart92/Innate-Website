@@ -109,6 +109,38 @@ const Navbar = () => {
         description:
           "Explore Innate NW's diverse portfolio of innovative design and projects, showcasing sustainable solutions and craftsmanship tailored to unique client needs.",
       },
+      "/services/adus": {
+        title: "ADU | Innate NW",
+        description: "Explore our range of professional services.",
+      },
+      "/services/architectural-services": {
+        title: "Architectural Aervices | Innate NW",
+        description: "Explore our range of professional services.",
+      },
+      "/services/bathroom-remodeling": {
+        title: "Bathroom Remodeling | Innate NW",
+        description: "Explore our range of professional services.",
+      },
+      "/services/decks": {
+        title: "Decks | Innate NW",
+        description: "Explore our range of professional services.",
+      },
+      "/services/exterior-remodeling": {
+        title: "Exterior Remodeling | Innate NW",
+        description: "Explore our range of professional services.",
+      },
+      "/services/kitchen-remodeling": {
+        title: "Kitchen Remodeling | Innate NW",
+        description: "Explore our range of professional services.",
+      },
+      "/services/natural-disaster-mitigation": {
+        title: "Natural Disaster Mitigation | Innate NW",
+        description: "Explore our range of professional services.",
+      },
+      "/services/whole-home-remodels": {
+        title: "Whole Home Remodeling | Innate NW",
+        description: "Explore our range of professional services.",
+      },
       // Add more mappings as needed
     };
 

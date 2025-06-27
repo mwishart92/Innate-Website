@@ -65,7 +65,13 @@ function HomeSlider() {
             <button
               className="mt-[20px] mb-[60px] border border-[#FFFFFF] font-normal max-w-[200px] h-[50px] text-[16px] hover:bg-white hover:text-black hover:border-black transition duration-300 bg-transparent px-[24px] py-[14px] mob:text-[14px] mob:max-w-[181px] mob:h-[48px]"
               // onClick={() => scrollToSection('contactHome')}
-              onClick={() => router.push("/onboarding")}
+              onClick={() => {
+                localStorage?.setItem(
+                  "onboardingRedirectUrl",
+                  location?.pathname
+                );
+                router.push("/onboarding");
+              }}
             >
               Book Consultation
             </button>

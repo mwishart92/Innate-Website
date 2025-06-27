@@ -14,17 +14,22 @@ import "../slider.css";
 import MediaSlide from "../MediaSlide";
 // import leftarrow from '@/public/images/work/Arrowleftblue.png'
 import arrow from "@/public/images/work/Arrow.png";
+import { cn } from "@/libs/utils/twMerge";
 
 function WorkSlider({
   title,
   location,
   media,
   url,
+  className,
+  showSlider,
 }: {
   title: string;
   location: string;
   url: string;
   media: { src: string; type: "image" | "video" }[] | undefined;
+  className?: string;
+  showSlider?: boolean;
 }) {
   const [imageLoaded, setImageLoaded] = useState(false);
   const swiper = useSwiper();
@@ -40,7 +45,12 @@ function WorkSlider({
   };
 
   return (
-    <div className="w-full h-screen overflow-hidden flex justify-center items-center absolute">
+    <div
+      className={cn(
+        "w-full h-screen overflow-hidden flex justify-center items-center",
+        className
+      )}
+    >
       <div className="absolute inset-0 flex justify-center items-center z-20">
         <div className="text-center p-5 mob:p-14 w-full bg-opacity-50">
           <div>
@@ -80,30 +90,38 @@ function WorkSlider({
         />
 
         {/* Swiper Slider */}
-        {/* <Swiper
-          slidesPerView={1}
-          speed={2000}
-          loop={true}
-          navigation={{
-            nextEl: ".cards-custom-next10",
-            prevEl: ".cards-custom-prev10",
-          }}
-          modules={[Keyboard, Navigation, Scrollbar, Autoplay]}
-          className="mySwiper"
-        >
-          {media?.map((item, index) => (
-            <SwiperSlide key={index}>
-              <MediaSlide
-                src={item.src}
-                type={item.type}
-                setImageLoaded={index === 0 ? setImageLoaded : undefined}
-              />
-            </SwiperSlide>
-          ))}
-        </Swiper> */}
+        {showSlider ? (
+          <Swiper
+            slidesPerView={1}
+            speed={2000}
+            loop={true}
+            navigation={{
+              nextEl: ".cards-custom-next10",
+              prevEl: ".cards-custom-prev10",
+            }}
+            modules={[Keyboard, Navigation, Scrollbar, Autoplay]}
+            className="mySwiper"
+          >
+            {media?.map((item, index) => (
+              <SwiperSlide key={index}>
+                <MediaSlide
+                  src={item.src}
+                  type={item.type}
+                  setImageLoaded={index === 0 ? setImageLoaded : undefined}
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        ) : (
+          ""
+        )}
 
         {/* Gradient Overlay */}
-        {/* <div className="absolute inset-0 bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(0,0,0,0.5)] pagination-gradient z-10 pointer-events-none"></div> */}
+        {showSlider ? (
+          <div className="absolute inset-0 bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(0,0,0,0.5)] pagination-gradient z-10 pointer-events-none"></div>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );
