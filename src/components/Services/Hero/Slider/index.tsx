@@ -129,7 +129,7 @@ function HomeSlider({ slides }: HomeSliderProps) {
             <SwiperSlide key={index}>{slide.component}</SwiperSlide>
           ))}
         </Swiper>
-        <div className="absolute inset-0 bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(0,0,0,0.5)]  pagination-gradient z-20 pointer-events-none bg-black/40"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(0,0,0,0.5)]  pagination-gradient z-20 pointer-events-none bg-black/60"></div>
       </div>
     </div>
   );

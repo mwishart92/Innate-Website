@@ -33,24 +33,24 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
             data-aos-duration="1000"
             data-aos-delay="200"
           >
-            <div className="flex flex-col justify-center items-center w-full relative">
+            <div className="flex flex-col justify-center items-center w-full relative overflow-hidden rounded-[10px]">
               {projectDetails.gallery[0]?.image ? (
                 <Image
                   src={projectDetails.gallery[0]?.image || ""}
                   alt=""
-                  className="w-full mob:w-[400px] rounded-[10px] mt-[76px] mob:mt-[100px] object-cover object-top mob:!relative"
+                  className="w-full mob:w-[400px] rounded-[10px] mt-20 mob:mt-10 object-cover object-top mob:!relative"
                   fill
                 />
               ) : (
                 <Image
                   src={firm}
                   alt=""
-                  className="w-full  mob:w-[400px] rounded-[10px] mt-[76px] mob:mt-[100px] object-cover object-top"
+                  className="w-full  mob:w-[400px] rounded-[10px] mt-20 mob:mt-10 object-cover object-top"
                 />
               )}
             </div>
             <div className="text-end">
-              <div className="mt-16 mob:mt-8">
+              <div className="mt-20 mob:mt-4">
                 {projectDetails.projectScope.map((detail: any, index: any) => (
                   <div key={index} className="flex flex-col mb-4">
                     <Text className="font-normal text-[24px] mob:text-[16px]">
@@ -64,7 +64,7 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
               </div>
             </div>
           </div>
-          <div className="mt-8">
+          <div className="">
             <Text className="text-[#D9D9D9] font-normal mob:text-[14px]">
               {projectDetails.scopedescription}
             </Text>
@@ -116,9 +116,12 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
               </Text>
             ))}
           </div>
-          <div className="grid grid-cols-3 gap-[10px] mob:gap-2">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-[10px] mob:gap-4">
             {projectDetails.gallery.map((image: any, index: any) => (
-              <div key={index} className={cn(image.class)}>
+              <div
+                key={index}
+                className={cn(image.class, "w-full mob:col-span-3")}
+              >
                 <Image
                   src={image.image}
                   alt=""
