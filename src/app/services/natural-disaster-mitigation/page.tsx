@@ -192,7 +192,7 @@ const ServicesPage = () => {
   return (
     <div className="gradient">
       <Navbar />
-      <HomeSlider slides={slides} />
+      <HomeSlider slides={slides} overlayClass="bg-black/60" />
       <Collective
         videoSrc="https://www.loom.com/embed/71d1fdcd150c42169323bba3b424288b?autoplay=0"
         contentText="Protect your home against future disaster with Innate's mitigation services. From seismic retrofits to flood-resistant construction, we help safeguard your home and family with proactive, expert solutions tailored to your region and property."

@@ -20,6 +20,7 @@ import Slide3 from "../Content/slide3";
 import Slide4 from "../Content/slide4";
 import Text from "@/components/ui/Text";
 import { useRouter } from "next/navigation";
+import { cn } from "@/libs/utils/twMerge";
 
 interface Slide {
   component: React.ReactNode;
@@ -29,9 +30,10 @@ interface Slide {
 
 interface HomeSliderProps {
   slides?: Slide[];
+  overlayClass?: string;
 }
 
-function HomeSlider({ slides }: HomeSliderProps) {
+function HomeSlider({ slides, overlayClass }: HomeSliderProps) {
   const [currentSlide, setCurrentSlide] = useState(0);
   const router = useRouter();
 
@@ -129,7 +131,12 @@ function HomeSlider({ slides }: HomeSliderProps) {
             <SwiperSlide key={index}>{slide.component}</SwiperSlide>
           ))}
         </Swiper>
-        <div className="absolute inset-0 bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(0,0,0,0.5)]  pagination-gradient z-20 pointer-events-none bg-black/60"></div>
+        <div
+          className={cn(
+            "absolute inset-0 bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(0,0,0,0.5)]  pagination-gradient z-20 pointer-events-none bg-black/40",
+            overlayClass
+          )}
+        ></div>
       </div>
     </div>
   );
