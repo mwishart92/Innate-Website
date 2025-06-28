@@ -39,6 +39,7 @@ export async function POST(req: NextRequest) {
     //     pass: "Innate@123",
     //   },
     // });
+    console.log("data >>", data);
     const email = "info@innate-nw.com";
     const sendSmtpEmail = new brevo.SendSmtpEmail();
     sendSmtpEmail.to = [{ email }];
@@ -50,18 +51,18 @@ export async function POST(req: NextRequest) {
       step4: Array.isArray(data.step4.selectedOptions)
         ? data.step4.selectedOptions.join(", ")
         : ``,
-      step4title: !Array.isArray(data.step4.selectedOptions)
-        ? `Title: ${data.step4.selectedOptions.title}`
+      step4title: !Array.isArray(data?.step4?.selectedOptions)
+        ? `Title: ${data?.step4?.selectedOptions?.title}`
         : ``,
-      step4description: !Array.isArray(data.step4.selectedOptions)
-        ? `Description: ${data.step4.selectedOptions.description}`
+      step4description: !Array.isArray(data?.step4?.selectedOptions)
+        ? `Description: ${data?.step4?.selectedOptions?.description}`
         : ``,
-      step5title: data.step5.selectedStyle.title,
-      step5description: data.step5.selectedStyle.description,
-      step6: data.step6.address,
-      step8name: data.step8.name,
-      step8email: data.step8.email,
-      step8phone: data.step8.phone,
+      step5title: data?.step5?.selectedStyle?.title || "",
+      step5description: data?.step5?.selectedStyle?.description || "",
+      step6: data?.step6?.address || "",
+      step8name: data?.step8?.name || "",
+      step8email: data?.step8?.email || "",
+      step8phone: data?.step8?.phone || "",
     };
 
     try {
