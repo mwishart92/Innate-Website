@@ -34,7 +34,7 @@ const slides = [
   {
     component: (
       <Slide
-        image="/images/services/bathroom-remodeling/Hero/cover.webp"
+        image="/images/services/bathroom-remodeling/Hero/NamasteADU_Final-3.jpg"
         video={null}
       />
     ),
@@ -44,7 +44,7 @@ const slides = [
   {
     component: (
       <Slide
-        image="/images/services/bathroom-remodeling/Hero/b1.webp"
+        image="/images/services/bathroom-remodeling/Hero/6L1A8309-Enhanced-NR.jpeg"
         video={null}
       />
     ),
@@ -54,13 +54,13 @@ const slides = [
   {
     component: (
       <Slide
-        image="/images/services/bathroom-remodeling/Hero/b2.webp"
+        image="/images/services/bathroom-remodeling/Hero/6L1A8383-Enhanced-NR.jpeg"
         video={null}
       />
     ),
     delay: 36000,
     projectName: "bathroom remodeling",
-  },    
+  },
 ];
 
 const sections = [
@@ -159,9 +159,9 @@ const ServicesPage = () => {
   const sliderAlbum = useMemo<MediaData[]>(
     () => [
       { image: "/images/services/bathroom-remodeling/Projects/p3.webp" },
-      { image: "/images/services/bathroom-remodeling/Projects/p4.webp" },   
+      { image: "/images/services/bathroom-remodeling/Projects/p4.webp" },
       { image: "/images/services/bathroom-remodeling/Projects/p1.webp" },
-      { image: "/images/services/bathroom-remodeling/Projects/p2.webp" },   
+      { image: "/images/services/bathroom-remodeling/Projects/p2.webp" },
     ],
     []
   );

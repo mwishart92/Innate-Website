@@ -149,7 +149,7 @@ const OnBoarding: React.FC = () => {
           const onboardingRedirectUrl =
             localStorage.getItem("onboardingRedirectUrl") || "";
           if (onboardingRedirectUrl) router.push(onboardingRedirectUrl);
-        }, 5000);
+        }, 3000);
         Swal.fire({
           title: "Success!",
           text: "Your request has been sent successfully.",
