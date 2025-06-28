@@ -158,10 +158,10 @@ const sections = [
 const ServicesPage = () => {
   const sliderAlbum = useMemo<MediaData[]>(
     () => [
-      { image: "/images/services/bathroom-remodeling/Projects/p1.webp" },
-      { image: "/images/services/bathroom-remodeling/Projects/p2.webp" },
       { image: "/images/services/bathroom-remodeling/Projects/p3.webp" },
-      { image: "/images/services/bathroom-remodeling/Projects/p4.webp" },      
+      { image: "/images/services/bathroom-remodeling/Projects/p4.webp" },   
+      { image: "/images/services/bathroom-remodeling/Projects/p1.webp" },
+      { image: "/images/services/bathroom-remodeling/Projects/p2.webp" },   
     ],
     []
   );
