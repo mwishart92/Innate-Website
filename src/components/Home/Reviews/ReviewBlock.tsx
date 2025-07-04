@@ -29,7 +29,7 @@ const ReviewBlock: React.FC<ReviewsProps> = ({
   return (
     <div className="mb-10">
       <div className="w-full max-w-[1104px] mx-auto relative">
-        <div className="bg-[#7A7A7A] rounded-[16px] p-[25px]">
+        <div className="bg-[#7A7A7A]/30 rounded-[16px] p-[25px]">
           <div className="flex justify-between mt-10">
             <div className="flex gap-[34px]">
               <div className="bg-[#747373] w-[50px] h-[50px] mob:w-[56px] mob:h-[56px] text-white flex justify-center items-center text-[40px] rounded-full relative">

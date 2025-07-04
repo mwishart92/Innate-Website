@@ -111,7 +111,7 @@ const defaultProjectDetails = {
   projectSlider,
 };
 const projectData = {
-  "north-seattle-kitchen": {
+  "south-seattle-kitchen": {
     defaultSlides: [
       {
         component: (
@@ -121,7 +121,7 @@ const projectData = {
           />
         ),
         delay: 36000,
-        projectName: "North Seattle Kitchen",
+        projectName: "South Seattle Kitchen",
         projectType: "Renovation",
       },
     ],
@@ -129,11 +129,11 @@ const projectData = {
       projectScope: [
         { key: "Scope", value: "Kitchen Remodel" },
         { key: "Type", value: "Renovation" },
-        { key: "Location", value: "North Seattle" },
+        { key: "Location", value: "South Seattle" },
         { key: "Design Principle", value: "Michael Wishart" },
         { key: "General Contractor", value: "Innate-NW" },
       ],
-      scopedescription: `This North Seattle kitchen renovation highlights how thoughtful design and skilled craftsmanship can completely transform a home's most used space. Custom cabinetry from Canyon Creek was carefully tailored to fit the needs of the homeowners, with specialized compartments for spices, pans, and baking trays. Large-format tile and quartz countertops add a modern aesthetic, while a radiant heated floor ensures comfort and function through Seattle's colder months.`,
+      scopedescription: `This South Seattle kitchen renovation highlights how thoughtful design and skilled craftsmanship can completely transform a home's most used space. Custom cabinetry from Canyon Creek was carefully tailored to fit the needs of the homeowners, with specialized compartments for spices, pans, and baking trays. Large-format tile and quartz countertops add a modern aesthetic, while a radiant heated floor ensures comfort and function through Seattle's colder months.`,
       media: {
         desktop: "/images/project/seattle-kitchen/IMG_1568.webp",
       },
@@ -156,7 +156,7 @@ const projectData = {
         },
       ],
       galleryDescription:
-        "Completed in just four weeks, this North Seattle kitchen renovation showcases Innate-NW's commitment to quality, efficiency, and design excellence. Whether you're seeking a kitchen remodel in Seattle or a full-scale home renovation, our team brings deep experience and a collaborative approach to every custom project.",
+        "Completed in just four weeks, this South Seattle kitchen renovation showcases Innate-NW's commitment to quality, efficiency, and design excellence. Whether you're seeking a kitchen remodel in Seattle or a full-scale home renovation, our team brings deep experience and a collaborative approach to every custom project.",
       projectSlider,
     },
   },

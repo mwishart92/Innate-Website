@@ -14,10 +14,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import "./slider.css";
-import Slide1 from "../Content/slide1";
-import Slide2 from "../Content/slide2";
-import Slide3 from "../Content/slide3";
-import Slide4 from "../Content/slide4";
+import Slide from "../Content/slide";
 import Text from "@/components/ui/Text";
 import { useRouter } from "next/navigation";
 
@@ -26,14 +23,33 @@ function HomeSlider() {
   const router = useRouter();
 
   const slides = [
-    { component: <Slide1 />, delay: 36000, projectName: "Bosma ADU" },
-    { component: <Slide2 />, delay: 26000, projectName: "Norman Residence" },
     {
-      component: <Slide3 />,
-      delay: 42000,
-      projectName: "Pellegrino Residence",
+      component: (
+        <Slide video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/bosma-adu.mp4?alt=media&token=0c906c3e-ed25-4082-8230-f5941f54e9ce" />
+      ),
+      delay: 36000,
+      projectName: "Bosma ADU",
     },
-    { component: <Slide4 />, delay: 14000, projectName: "Innate NW" },
+    {
+      component: (
+        <Slide video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Norman-bath.mp4?alt=media&token=963a355e-149c-4735-87f2-911ad70f6445" />
+      ),
+      delay: 26000,
+      projectName: "Norman Residence",
+    },
+    {
+      component: (
+        <Slide video="/images/project/knight-residence/05.25_Innate-NW_16x9 No SpeedRamp_No Sound.mp4" />
+      ),
+      delay: 26000,
+      projectName: "Knight Residence",
+    },
+    // {
+    //   component: <Slide3 />,
+    //   delay: 42000,
+    //   projectName: "Pellegrino Residence",
+    // },
+    // { component: <Slide4 />, delay: 14000, projectName: "Innate NW" },
   ];
 
   // const scrollToSection = (id: string) => {

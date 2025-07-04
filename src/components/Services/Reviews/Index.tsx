@@ -39,9 +39,9 @@ const Reviews: React.FC<ReviewsProps> = ({ text, name, title }) => {
             <Text className="text-[24px] font-medium leading-[31.2px] text-white mob:text-[20px]">
               {name}
             </Text>
-            <Text className="text-[16px] mt-1 text-white mob:text-[14px] font-normal">
+            {/* <Text className="text-[16px] mt-1 text-white mob:text-[14px] font-normal">
               {title}
-            </Text>
+            </Text> */}
           </div>
         </div>
       </div>

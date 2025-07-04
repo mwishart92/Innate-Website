@@ -7,9 +7,9 @@ export interface SlideData {
 
 export const slidesData: SlideData[] = [
   {
-    title: "North Seattle Kitchen",
-    location: "North Seattle",
-    url: "/project/north-seattle-kitchen",
+    title: "South Seattle Kitchen",
+    location: "South Seattle",
+    url: "/project/south-seattle-kitchen",
     media: [
       { src: "/images/project/seattle-kitchen/IMG_1568.webp", type: "image" },
       { src: "/images/project/seattle-kitchen/IMG_1567.webp", type: "image" },
