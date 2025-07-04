@@ -141,6 +141,20 @@ const Navbar = () => {
         title: "Whole Home Remodeling | Innate NW",
         description: "Explore our range of professional services.",
       },
+      "/blogs/architecture-impacts-property-value": {
+        title: "How Architecture Impacts Long-Term Property Value | Innate",
+        description:
+          "Explore how architectural design boosts long-term property value. Innate integrates style, efficiency, and quality to maximize investment potential.",
+        // keywords:
+        // "architectural design, custom architectural design, boost property value, architectural design services, residential architectural services, Seattle architecture firm, design-build Seattle",
+      },
+      "/blogs/kitchen-remodel-cost-seattle": {
+        title: "How Much Does a Kitchen Remodel Cost in Seattle? | Innate",
+        description:
+          "Discover the real cost of remodeling your kitchen in Seattle, including budgeting tips and value-boosting upgrades. Brought to you by Innate.",
+        // keywords:
+        // "kitchen remodel cost Seattle, kitchen remodeling budget, kitchen renovation Seattle, design-build remodeling Seattle, custom kitchen remodel, remodeling contractor Seattle",
+      },
       // Add more mappings as needed
     };
 
@@ -148,7 +162,7 @@ const Navbar = () => {
       title: "My App",
       description: "Default description of the app.",
     };
-
+    console.log("title, description", title, description);
     // Update the document's title
     document.title = title;
 
@@ -168,7 +182,7 @@ const Navbar = () => {
 
   // Automatically set the tab title when `activeTab` changes
   useEffect(() => {
-    saveTabTitle(activeTab);
+    saveTabTitle(location.pathname);
   }, [activeTab]);
 
   return (

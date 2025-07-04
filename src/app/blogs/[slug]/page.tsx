@@ -10,8 +10,6 @@ const BlogPage = () => {
   if (!slug) {
     return <div>Invalid slug</div>;
   }
-
-  console.log("params", slug); // Check the converted number
   return (
     <>
       <Navbar />
