@@ -268,7 +268,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden mob:min-h-[390px] mob:border-b mob:border-r-0 ">
+        <div className="w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden mob:min-h-[390px]">
           <div className="overflow-hidden h-full flex justify-center items-center relative mob:aspect-[5/5]">
             {/* Overlay */}
             <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
