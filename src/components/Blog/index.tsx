@@ -27,6 +27,7 @@ import {
   Content,
   generateSlug,
 } from "@/data/blogSections";
+import Link from "next/link";
 
 interface ArticleProps {
   slug: string; // Receive `slug` as a prop instead of `id`
@@ -232,21 +233,26 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
                 className="flex flex-col items-start gap-[12px] mb-[28px] w-full"
               >
                 {imageSrc && (
-                  <div className="w-full aspect-square mob:aspect-[4/2] relative mb-2">
+                  <Link
+                    href={`/blogs/${section.slug}`}
+                    className="w-full aspect-square mob:aspect-[4/2] relative mb-2"
+                  >
                     <Image
                       className="object-cover rounded"
                       src={imageSrc}
                       fill
                       alt={thumbnailItem?.alt || section.title}
                     />
-                  </div>
+                  </Link>
                 )}
-                <button className="px-2 py-1 rounded-[50px] text-[14px] font-inter bg-[#d9d9d931] border border-[#D9D9D94D] font-normal mb-1">
+                <button className="px-2 py-1 cursor-auto rounded-[50px] text-[14px] font-inter bg-[#d9d9d931] border border-[#D9D9D94D] font-normal mb-1">
                   {tag}
                 </button>
-                <Text className="text-[14px] leading-[21px] font-semibold w-full overflow-hidden overflow-ellipsis line-clamp-2">
-                  {section.title}
-                </Text>
+                <Link href={`/blogs/${section.slug}`}>
+                  <Text className="text-[14px] leading-[21px] font-semibold w-full overflow-hidden overflow-ellipsis line-clamp-2">
+                    {section.title}
+                  </Text>
+                </Link>
               </div>
             );
           })}
