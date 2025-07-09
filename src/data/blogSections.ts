@@ -53,7 +53,7 @@ export const blogSections: ArticleSection[] = [
     content: [
       {
         type: "image",
-        src: ["/images/blog/Frame1.png"],
+        src: ["/images/blog/fram1.png"],
         alt: "Image description",
       },
       {
