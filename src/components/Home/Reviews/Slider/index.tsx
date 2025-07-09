@@ -31,17 +31,17 @@ function ReviewsSlider() {
     {
       text: "I live in Seattle and was looking to maximize the value of my property. Innate came highly recommended and they did a feasibility study to understand what the best value proposition would be. Seeing that I had a large lot, we decided to subdivide the lot and add an attached ADU and detached ADU. Innate handled the entire design and permitting process as well as the application for change of use and new addresses. Highly recommended!",
       name: "Ronald G",
-      
+      title: "",
     },
     {
       text: "I have worked with Michael on numerous projects as I manage Airbnbs and am continuously remodeling and developing properties. He is detail-oriented and communication-focused and always does a great job! I have referred him to various friends as well.",
       name: "Chris P",
-      
+      title: "",
     },
     {
       text: "Michael completed our kitchen remodel, and it was an amazing experience! We weren't exactly sure of the cabinet layout or appliance location, so Michael drew up different plans so we could choose the best layout. During construction, he was so flexible! We had some changes that were important to me during the process, and Michael and his team accommodated everything. His team was communicative and friendly, and I got the sense that everyone at the company genuinely enjoys their work and helping people. We love our new kitchen!",
       name: "Michelle M",
-      
+      title: "",
     },
   ];
 
@@ -92,6 +92,7 @@ function ReviewsSlider() {
                 <Reviews
                   text={review.text}
                   name={review.name}
+                  title={review.title}
                   handleOpenDailog={() => handleOpenDailog(review)}
                 />
               </SwiperSlide>
