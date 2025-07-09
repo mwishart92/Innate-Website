@@ -22,14 +22,17 @@ const Blog = () => {
       <div className="w-full max-w-full  flex flex-wrap justify-center gap-[24px] mb-[44px] mob:mb-[24px] px-16 md:px-20 mob:px-0">
         {blogSections.map((section) => (
           <div className="flex-grow max-w-[calc(25%-18px)] tab:max-w-[calc(50%-18px)] mob:max-w-[90%] border border-[#FFFFFF99] rounded-[10px]  flex flex-col relative">
-            <div className="h-[192px] relative w-full">
+            <Link
+              href={`/blogs/${section.slug}`}
+              className="h-[192px] relative w-full"
+            >
               <Image
                 src={section.thumbnail}
                 alt=""
                 fill
                 className="rounded-t-xl object-cover w-full h-full"
               />
-            </div>
+            </Link>
             <div className="flex flex-col justify-between flex-grow p-4">
               <Link href={`/blogs/${section.slug}`} className="">
                 <div>

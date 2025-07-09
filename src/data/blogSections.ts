@@ -132,7 +132,7 @@ export const blogSections: ArticleSection[] = [
     id: 5,
     slug: "architecture-impacts-property-value",
     title: "How Architecture Impacts Long-Term Property Value",
-    thumbnail: "/images/press/getty-images-taq_rCqMARE-unsplash.webp",
+    thumbnail: "/images/press/gabrielle-maurer-Sk1XdmnhoZ8-unsplash.webp",
     tag: "Blog",
     excerpt: `Explore how architectural design boosts long-term property
                   value. Innate integrates style, efficiency, and quality to
@@ -142,8 +142,8 @@ export const blogSections: ArticleSection[] = [
       {
         type: "image",
         src: [
-          "/images/press/getty-images-BFP6PqFc-6I-unsplash.webp",
-          "/images/press/clay-banks-1az3-tn1q7E-unsplash.webp",
+          "/images/press/andre-francois-mckenzie-XlGwDBZh_mM-unsplash.webp",
+          "/images/press/hans-isaacson-p6pfOaavscc-unsplash.webp",
         ],
         alt: "Image description",
       },
@@ -219,7 +219,7 @@ export const blogSections: ArticleSection[] = [
     id: 6,
     slug: "kitchen-remodel-cost-seattle",
     title: "How Much Does a Kitchen Remodel Cost?",
-    thumbnail: "/images/press/gabrielle-maurer-Sk1XdmnhoZ8-unsplash.webp",
+    thumbnail: "/images/press/getty-images-taq_rCqMARE-unsplash.webp",
     tag: "Blog",
     excerpt: `Explore how architectural design boosts long-term property
                   value. Innate integrates style, efficiency, and quality to
@@ -229,9 +229,10 @@ export const blogSections: ArticleSection[] = [
       {
         type: "image",
         src: [
-          "/images/press/andre-francois-mckenzie-XlGwDBZh_mM-unsplash.webp",
-          "/images/press/hans-isaacson-p6pfOaavscc-unsplash.webp",
+          "/images/press/getty-images-BFP6PqFc-6I-unsplash.webp",
+          "/images/press/clay-banks-1az3-tn1q7E-unsplash.webp",
         ],
+
         alt: "Image description",
       },
       {

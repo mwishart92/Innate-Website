@@ -44,12 +44,13 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
   const getUniqueRandomSections = useCallback(() => {
     const selected: ArticleSection[] = [];
     const usedIndices = new Set<number>();
+    const blogsData = sections.filter((s) => s.slug !== slug);
 
     while (selected.length < 4) {
-      const randomIndex = Math.floor(Math.random() * sections.length);
+      const randomIndex = Math.floor(Math.random() * blogsData.length);
       if (!usedIndices.has(randomIndex)) {
         usedIndices.add(randomIndex);
-        selected.push(sections[randomIndex]);
+        selected.push(blogsData[randomIndex]);
       }
     }
     setSelectedSections(selected);
@@ -95,11 +96,11 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
         <h2 className="text-[40px] font-medium leading-[52px] mob:text-[36px] mob:font-semibold font-inter mob:text-center tab:max-w-full  max-w-[calc(100%-400px)]">
           {section.title}
         </h2>
-        <div className="flex tab:flex-wrap tab:gap-3 justify-between mt-6 mb-4  mob:justify-center">
-          <Text className="text-[20px] text-[#D9D9D9] mob:order-3 font-normal">
+        <div className="flex tab:flex-wrap tab:gap-3 justify-between mt-6 mb-4 mob:items-center">
+          <Text className="text-[20px] text-[#D9D9D9] font-normal ">
             Published: {section.publishedDate}
           </Text>
-          <div className="flex gap-3 mob:order-2">
+          <div className="flex gap-3 ">
             {/* <Image src={share} alt="" width={32} height={32} className="opacity-60"/> */}
             <a
               href="#"
