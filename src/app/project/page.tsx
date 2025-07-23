@@ -15,7 +15,7 @@ const page = () => {
     {
       component: <Slide image="/images/home/slide1innate.png" video={null} />,
       delay: 36000,
-      projectName: "Palm Springs ADU",
+      projectName: "Design and Construction Projects in Seattle",
       projectType: "Residential",
     },
   ];

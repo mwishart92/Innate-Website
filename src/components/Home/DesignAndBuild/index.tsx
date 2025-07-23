@@ -1,26 +1,27 @@
-import Text from '@/components/ui/Text'
-import Image from 'next/image'
-import React from 'react'
-import Button from '@/components/ui/Button'
-import stressbg from '@/public/images/home/dsignbuild/avoidbg.png'
-import stresstop from '@/public/images/home/dsignbuild/avoidtop.png'
-import avoidleft from '@/public/images/home/dsignbuild/avoidleft.png'
-import avoidright from '@/public/images/home/dsignbuild/avoidright.png'
-import avoidcenter from '@/public/images/home/dsignbuild/avoidcenter.png'
-import savetime from '@/public/images/home/savetimee.png'
-import track from '@/public/images/home/cabinetry.png'
-import rightarrow from '@/public/images/press/RightArrowblue.png'
-import { useRouter } from 'next/navigation'
+import Text from "@/components/ui/Text";
+import Image from "next/image";
+import React from "react";
+import Button from "@/components/ui/Button";
+import stressbg from "@/public/images/home/dsignbuild/avoidbg.png";
+import stresstop from "@/public/images/home/dsignbuild/avoidtop.png";
+import avoidleft from "@/public/images/home/dsignbuild/avoidleft.png";
+import avoidright from "@/public/images/home/dsignbuild/avoidright.png";
+import avoidcenter from "@/public/images/home/dsignbuild/avoidcenter.png";
+import savetime from "@/public/images/home/savetimee.png";
+import track from "@/public/images/home/cabinetry.png";
+import rightarrow from "@/public/images/press/RightArrowblue.png";
+import { useRouter } from "next/navigation";
 
 const DesignAndBuild = () => {
-  const router = useRouter()
+  const router = useRouter();
   return (
     <div className="w-full h-full gradient py-16 px-5 mob:pt-5">
       <Text
         as="h1"
         className="text-center font-normal mob:text-[30px] mb-16  mob:mb-4 mob:leading-[33px] mob:px-5"
       >
-        Design and build the <span className="italic">Innate </span> way
+        {/* Design and build the <span className="italic">Innate </span> way */}
+        Design + Build Services in Seattle
       </Text>
       {/* avoid surprise */}
       <div className="flex lg:flex-wrap gap-[47px] items-center px-[43px] pt-[43px] pb-[43px] mob:px-[16px] w-[80%] mob:w-full min-h-[500px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] gradient2 justify-center mob:gap-[40px] mob:pt-[12px] mob:pb-[28px]">
@@ -60,7 +61,7 @@ const DesignAndBuild = () => {
           </Text>
           <Button
             className="max-w-[202px] mob:max-w-[116.38px] mob:h-[35.61px] h-[61px] flex justify-center items-center gap-2 mt-4 text-[19.5px] bg-transparent backdrop-blur-md mob:text-[11.21px]"
-            onClick={() => router.push('/onboarding')}
+            onClick={() => router.push("/onboarding")}
           >
             Get Started
             <Image src={rightarrow} alt="" width={18} height={18} />
@@ -80,7 +81,7 @@ const DesignAndBuild = () => {
           </Text>
           <Button
             className="max-w-[202px] mob:max-w-[116.38px] mob:h-[35.61px] h-[61px] flex justify-center items-center gap-2 mt-4 text-[19.5px] bg-transparent backdrop-blur-md mob:text-[11.21px]"
-            onClick={() => router.push('/onboarding')}
+            onClick={() => router.push("/onboarding")}
           >
             Get Started
             <Image src={rightarrow} alt="" width={18} height={18} />
@@ -129,7 +130,7 @@ const DesignAndBuild = () => {
           </Text>
           <Button
             className="max-w-[202px] mob:max-w-[116.38px] mob:h-[35.61px] h-[61px] flex justify-center items-center gap-2 mt-4 text-[19.5px] bg-transparent backdrop-blur-md mob:text-[11.21px] mob:mt-2"
-            onClick={() => router.push('/onboarding')}
+            onClick={() => router.push("/onboarding")}
           >
             Get Started
             <Image src={rightarrow} alt="" width={18} height={18} />
@@ -149,7 +150,7 @@ const DesignAndBuild = () => {
           </Text>
           <Button
             className="max-w-[202px] mob:max-w-[116.38px] mob:h-[35.61px] h-[61px] flex justify-center items-center gap-2 mt-4 text-[19.5px] bg-transparent backdrop-blur-md mob:text-[11.21px]"
-            onClick={() => router.push('/onboarding')}
+            onClick={() => router.push("/onboarding")}
           >
             Get Started
             <Image src={rightarrow} alt="" width={18} height={18} />
@@ -167,7 +168,7 @@ const DesignAndBuild = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default DesignAndBuild
+export default DesignAndBuild;

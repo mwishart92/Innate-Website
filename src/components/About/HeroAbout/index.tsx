@@ -18,6 +18,12 @@ const HeroAbout = () => {
     <div className="min-h-screen pt-32 px-5 mob:pt-16">
       <Text
         as="h1"
+        className="max-w-[971px] font-bold text-center text-[2.71vw] mob:text-[40px] leading-[70px] mob:leading-[43.2px] pt-20 mx-auto font-light font-serif"
+      >
+        About The Firm
+      </Text>
+      <Text
+        as="h2"
         className="max-w-[971px] font-bold text-center text-[2.71vw] mob:text-[40px] leading-[70px] mob:leading-[43.2px] pt-20 pb-32 mx-auto font-light font-serif mob:pb-24"
       >
         “Architecture and craftsmanship is in our DNA”

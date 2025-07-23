@@ -54,7 +54,7 @@ const Confidence = () => {
             /> */}
             <div className="">
               <Text
-                as="h1"
+                as="h2"
                 className="text-[40px] text-center font-medium mob:text-[30px]"
               >
                 Design and Build with confidence

@@ -71,19 +71,19 @@ const Navbar = () => {
   const saveTabTitle = (tab: string) => {
     const tabData: Record<string, { title: string; description: string }> = {
       "/": {
-        title: "Bellevue Custom Design & Construction Services | Innate NW",
+        title: "Custom Design & Construction Services in Seattle | Innate NW",
         description:
-          "Innate NW is collective of architects, engineers and craftsmen collaborating to create beautiful spaces and structures. Call us now on (425) 866-5206.",
+          "Innate NW is collective of architects, engineers and craftsmen collaborating to create beautiful spaces and structures in Seattle. Call us on (425) 866-5206.",
       },
       "/about": {
-        title: "About Us | Design & Construction Solutions | Innate NW",
+        title: "About Us | Design & Construction in Seattle | Innate NW",
         description:
           "At Innate, we believe every client and project has unique needs—whether a small remodel or a large-scale commercial construction. Call us now (425) 866-5206.",
       },
       "/contact": {
         title: "Contact Us | Design & Construction Solutions | Innate NW",
         description:
-          "If you're looking for an architect, engineer, or builder to help with your project in Bellevue, fill out our form or call us on or all us on (425) 866-5206.",
+          "If you're looking for an architect, engineer, or builder to help with your project in Seattle, fill out our form or call us on or all us on (425) 866-5206.",
       },
       "/services": {
         title: "Services",
@@ -102,7 +102,7 @@ const Navbar = () => {
       "/work": {
         title: "Our Expert Design and Construction Work | Innate NW",
         description:
-          "Innate NW specializes in custom design and construction solutions, delivering innovative and sustainable projects tailored to meet unique client needs.",
+          "Innate NW specializes in Seattle custom design and construction solutions. Delivering innovative and sustainable projects tailored to meet unique client needs.",
       },
       "/project": {
         title: "Custom Design and Construction Projects | Innate NW",

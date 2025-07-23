@@ -131,7 +131,7 @@ const projectData = {
         { key: "Type", value: "Renovation" },
         { key: "Location", value: "South Seattle" },
         { key: "Design Principle", value: "Michael Wishart" },
-        { key: "General Contractor", value: "Innate-NW" },
+        { key: "General Contractor", value: "Innate" },
       ],
       scopedescription: `This South Seattle kitchen renovation highlights how thoughtful design and skilled craftsmanship can completely transform a home's most used space. Custom cabinetry from Canyon Creek was carefully tailored to fit the needs of the homeowners, with specialized compartments for spices, pans, and baking trays. Large-format tile and quartz countertops add a modern aesthetic, while a radiant heated floor ensures comfort and function through Seattle's colder months.`,
       media: {
@@ -183,7 +183,7 @@ const projectData = {
           key: "Design Principle",
           value: "Michael Wishart, Owner of Innate-NW",
         },
-        { key: "General Contractor", value: "Innate-NW" },
+        { key: "General Contractor", value: "Innate" },
       ],
       scopedescription: `This modern Palm Springs new construction project was designed as a true desert oasis—blending indoor-outdoor living with smart functionality and bold architectural features. The home centers around an open-concept kitchen, living, and dining space, framed by exposed roof beams and flooded with natural light through clerestory windows and full accordion doors that open to the courtyard. The new construction design captures the spirit of the desert while maximizing modern livability.`,
       media: {
@@ -247,7 +247,7 @@ const projectData = {
           key: "Design Principle",
           value: "Michael Wishart, Owner of Innate-NW",
         },
-        { key: "General Contractor", value: "Innate-NW" },
+        { key: "General Contractor", value: "Innate" },
       ],
       scopedescription: `After a catastrophic pipe burst caused significant water damage, this Kent homeowner turned a disaster into an opportunity for a modern upgrade. Innate-NW stepped in to provide both bathroom renovation and natural disaster mitigation services, managing the insurance process and guiding the client through a streamlined four-week transformation. The result is a sophisticated, spa-inspired space that balances utility with luxury.`,
       media: {
@@ -335,7 +335,7 @@ const projectData = {
           key: "Design Principle",
           value: "Michael Wishart, Owner of Innate-NW",
         },
-        { key: "General Contractor", value: "Innate-NW" },
+        { key: "General Contractor", value: "Innate" },
       ],
       scopedescription: `This Kirkland garage conversion project showcases the power of intentional design and flexible planning. Designed and built by Innate-NW, the ADU supports the needs of a growing family, functioning as a private suite for extended family, a potential rental unit, or future housing for a college-aged child. With polished concrete floors, whole wood cabinetry, and clerestory windows, the space combines modern design with warmth and utility.`,
       media: {
@@ -423,7 +423,7 @@ const projectData = {
           key: "Design Principle",
           value: "Michael Wishart, Owner of Innate-NW",
         },
-        { key: "General Contractor", value: "Innate-NW" },
+        { key: "General Contractor", value: "Innate" },
       ],
       scopedescription: `This commercial tenant improvement project in Renton brought two beloved franchises—Kung Fu Tea and TKK Fried Chicken—under one roof. Designed by Michael Wishart and built by Innate-NW, the six-month project required precision, collaboration, and a deep understanding of franchise standards. From navigating a complex permitting process to aligning with brand-approved finishes, every detail was managed with care.`,
       media: {
@@ -503,7 +503,7 @@ const projectData = {
           key: "Design Principle",
           value: "Michael Wishart, Owner of Innate-NW",
         },
-        { key: "General Contractor", value: "Innate-NW" },
+        { key: "General Contractor", value: "Innate" },
       ],
       scopedescription: `This kitchen remodel in Seattle's historic Madrona neighborhood presented a unique set of challenges—steep slope, tight site conditions, and an aging structure that required a full seismic retrofit. Innate-NW led the design and renovation, transforming the original layout into a bright, modern kitchen with expanded square footage and improved structural integrity. The six-month kitchen renovation resulted in a functional and resilient space that seamlessly blends old and new.`,
       media: {
@@ -582,7 +582,7 @@ const projectData = {
           key: "Design Principle",
           value: "Michael Wishart, Owner of Innate-NW",
         },
-        { key: "General Contractor", value: "Innate-NW" },
+        { key: "General Contractor", value: "Innate" },
       ],
       scopedescription: `This Shoreline home renovation and addition project transformed a charming one-story residence into a spacious, multi-level family home. Designed for a young couple preparing for the next chapter of life, Innate-NW led the design and construction of a new upper floor, full kitchen remodel, and outdoor living upgrades. The result is a warm, modern space that blends everyday function with lasting quality.`,
       media: {
@@ -665,7 +665,7 @@ const projectData = {
           key: "Photographer",
           value: "Nicolai Buccino",
         },
-        { key: "General Contractor", value: "Innate-NW" },
+        { key: "General Contractor", value: "Innate" },
       ],
       scopedescription: `Tucked into the top floor of a historic Capitol Hill apartment, this bathroom remodel turned a compact, outdated space into a refined retreat. Innate-NW handled both design and construction, navigating the logistical challenges of carrying all materials up several flights while preserving the quiet character of the building. The project was completed in just two weeks with minimal disruption to neighbors.`,
       media: {
@@ -749,7 +749,7 @@ const projectData = {
           key: "Photographer",
           value: "Nicolai Buccino",
         },
-        { key: "General Contractor", value: "Innate-NW" },
+        { key: "General Contractor", value: "Innate" },
       ],
       scopedescription: `Inspired by a luxurious hotel spa they visited in Spain, the clients for this Fremont bathroom remodel came to Innate-NW with a clear vision and a high bar for detail. Over six weeks, we transformed their existing bathroom into a serene, modern retreat that balances elegance with precision. From custom cabinetry to fully integrated wall-mounted fixtures, every element was tailored to match the client's aesthetic goals.`,
       media: {

@@ -10,15 +10,6 @@ import { Metadata } from "next";
 import MediaSlide from "@/components/Work/MediaSlide";
 import { IoIosArrowBack } from "react-icons/io";
 
-export const metadata: Metadata = {
-  title: "Our Expert Design and Construction Work | Innate NW",
-  description:
-    "Innate NW specializes in custom design and construction solutions, delivering innovative and sustainable projects tailored to meet unique client needs.",
-  icons: {
-    icon: "/favicon.ico",
-  },
-};
-
 const Work: React.FC = () => {
   const [isMobile, setIsMobile] = useState(false);
 
