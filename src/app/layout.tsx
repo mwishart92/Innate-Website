@@ -41,10 +41,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/logo-innate.png" />
-      </head>
-      <body
-        className={`gradient ${inter.variable} ${monts.variable} ${rajdhani.variable} ${inknut.variable} ${Bodoni.variable} bg-[#000]`}
-      >
         {/* Google Tag Manager Script */}
         <Script
           id="google-tag-manager"
@@ -59,7 +55,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             `,
           }}
         />
-
+      </head>
+      <body
+        className={`gradient ${inter.variable} ${monts.variable} ${rajdhani.variable} ${inknut.variable} ${Bodoni.variable} bg-[#000]`}
+      >
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-KNSHDN66"
