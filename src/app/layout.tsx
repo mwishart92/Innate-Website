@@ -13,6 +13,7 @@ import { TabProvider } from "@/context/TabContsxt";
 import MyProvider from "@/components/MyProvider";
 
 import Script from "next/script"; // Import Script from next/script
+import GTMPageView from "@/components/GTMPageView";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const monts = Montserrat({ subsets: ["latin"], variable: "--font-monts" });
@@ -44,7 +45,7 @@ export default function RootLayout({
         {/* Google Tag Manager Script */}
         <Script
           id="google-tag-manager"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -70,6 +71,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         <MyProvider>
           <TabProvider>
+            <GTMPageView />
             {children}
             <Footer />
           </TabProvider>
