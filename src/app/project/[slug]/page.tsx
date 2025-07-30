@@ -862,7 +862,7 @@ const projectData = {
       ],
       scopedescription: `Innate NW completed a 5-week bathroom and exterior renovation in West Seattle featuring large-format tile, quartz counters, slate porch tile, and custom railing. See how we resolved unfinished work and delivered a high-quality transformation.`,
       media: {
-        desktop: "/images/project/knight-residence/6L1A8383-Enhanced-NR.webp",
+        desktop: "/images/project/west-seattle-residence/6L1A1087_websize.jpg",
       },
       description: [
         `
@@ -913,10 +913,6 @@ const projectData = {
         },
         {
           image: "/images/project/west-seattle-residence/6L1A1083_websize.jpg",
-        },
-        {
-          image: "/images/project/west-seattle-residence/6L1A1087_websize.jpg",
-          class: "col-span-3 aspect-[4/2]",
         },
       ],
       galleryDescription: ``,
