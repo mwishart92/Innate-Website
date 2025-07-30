@@ -107,13 +107,12 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
             </div>
           )}
           <div className="flex flex-col gap-2">
-            {projectDetails?.description.map((d: string, key: number) => (
-              <Text
+            {projectDetails?.description.map((d: any, key: number) => (
+              <div
                 className="text-[#D9D9D9] font-normal mob:text-[14px]"
                 key={key}
-              >
-                {d}
-              </Text>
+                dangerouslySetInnerHTML={{ __html: d || "" }}
+              ></div>
             ))}
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-[10px] mob:gap-4">

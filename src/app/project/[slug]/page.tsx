@@ -828,6 +828,126 @@ const projectData = {
       ],
     },
   },
+  "west-seattle-residence": {
+    defaultSlides: [
+      {
+        component: (
+          <Slide
+            image=""
+            video="/images/project/west-seattle-residence/06.25_Exterior-Bathroom_16x9.mp4"
+          />
+        ),
+        delay: 36000,
+        projectName: "West Seattle Residence",
+        projectType: "Renovation",
+      },
+    ],
+    defaultProjectDetails: {
+      projectScope: [
+        {
+          key: "Scope",
+          value: "Bathroom Remodel, Residential Design",
+        },
+        { key: "Type", value: "Renovation" },
+        { key: "Location", value: "Fremont - Seattle, Washington" },
+        {
+          key: "Design Principle",
+          value: "Michael Wishart, Owner of Innate",
+        },
+        {
+          key: "Photographer",
+          value: "Nicolai Buccino",
+        },
+        { key: "General Contractor", value: "Innate" },
+      ],
+      scopedescription: `Innate NW completed a 5-week bathroom and exterior renovation in West Seattle featuring large-format tile, quartz counters, slate porch tile, and custom railing. See how we resolved unfinished work and delivered a high-quality transformation.`,
+      media: {
+        desktop: "/images/project/knight-residence/6L1A8383-Enhanced-NR.webp",
+      },
+      description: [
+        `
+        <h2><strong><span style="font-size:17pt;font-family:Arial,sans-serif;">West Seattle Renovation</span></strong></h2> <br/>
+<p style="margin-bottom: 5px;"><strong><span style="font-size:11pt;font-family:Arial,sans-serif;">Bathroom + Exterior Remodel | General Contracting | 5-Week Turnaround</span></strong></p>
+<p style="margin-bottom: 10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">When a previous contractor left this West Seattle homeowner with an incomplete and frustrating renovation, Innate NW stepped in to finish the job with precision, professionalism, and thoughtful solutions.</span></p>
+<p style="margin-bottom: 10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">The client needed a capable general contractor who could not only pick up where things were left off but also take ownership of the full scope&mdash;from interior upgrades to exterior fixes. Over the course of five weeks, our team delivered a fully remodeled bathroom and revitalized exterior with careful attention to craftsmanship and continuity.</span></p>
+<h3><strong><span style="font-size:13pt;font-family:Arial,sans-serif;">Bathroom Remodel</span></strong></h3>
+<p style="margin-bottom: 10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We transformed the outdated bathroom into a refined, spa-like retreat. Large-format, high-grade tile sets a bold tone, complemented by a custom glass shower enclosure and sleek flat-panel cabinetry. Quartz countertops bring warmth and contrast, while a premium Toto bidet adds functionality and comfort.</span></p>
+<h3><strong><span style="font-size:13pt;font-family:Arial,sans-serif;">Exterior Remodel</span></strong></h3>
+<p style="margin-bottom: 10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Outside, the renovation continued with a reimagined front entry. We installed durable slate tile on the new porch, paired with a custom metal railing to bring clean lines and curb appeal. Repairs to the siding and fresh paint unified the home&rsquo;s aesthetic, resolving unfinished work from the previous contractor.</span></p>
+<h3><strong><span style="font-size:13pt;font-family:Arial,sans-serif;">General Contracting with Vision</span></strong></h3>
+<p style="margin-bottom: 10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">This project is a perfect example of what Innate NW does best: managing complex renovations with clear communication, elegant design, and quality execution. From uncovering issues with the original build to coordinating solutions across trades, our team ensured nothing was left behind.</span></p>
+        `,
+      ],
+      gallery: [
+        {
+          image: "/images/project/west-seattle-residence/6L1A1041_websize.jpg",
+        },
+        {
+          image: "/images/project/west-seattle-residence/6L1A1052_websize.jpg",
+        },
+        {
+          image: "/images/project/west-seattle-residence/6L1A1036_websize.jpg",
+        },
+        {
+          image: "/images/project/west-seattle-residence/6L1A1048_websize.jpg",
+          class: "col-span-3 aspect-[4/2]",
+        },
+        {
+          image: "/images/project/west-seattle-residence/6L1A1046_websize.jpg",
+        },
+        {
+          image: "/images/project/west-seattle-residence/6L1A1054_websize.jpg",
+        },
+        {
+          image: "/images/project/west-seattle-residence/6L1A1058_websize.jpg",
+        },
+        {
+          image: "/images/project/west-seattle-residence/6L1A1065_websize.jpg",
+          class: "col-span-3 aspect-[4/2]",
+        },
+        {
+          image: "/images/project/west-seattle-residence/6L1A1076_websize.jpg",
+        },
+        {
+          image: "/images/project/west-seattle-residence/6L1A1078_websize.jpg",
+        },
+        {
+          image: "/images/project/west-seattle-residence/6L1A1083_websize.jpg",
+        },
+        {
+          image: "/images/project/west-seattle-residence/6L1A1087_websize.jpg",
+          class: "col-span-3 aspect-[4/2]",
+        },
+      ],
+      galleryDescription: ``,
+      projectSlider: [
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+      ],
+    },
+  },
 };
 
 export async function generateStaticParams() {

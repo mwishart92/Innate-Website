@@ -1,164 +1,56 @@
 import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+const brevo = require("@getbrevo/brevo");
+let apiInstance = new brevo.TransactionalEmailsApi();
+let apiKey = apiInstance.authentications["apiKey"];
+apiKey.apiKey = process.env.BREVO_API_KEY;
 
 export async function POST(req: NextRequest) {
   try {
     // Parse the request body
     const data = await req.json();
-    console.log(JSON.stringify(data, null, 2))
+    // console.log(">>>", JSON.stringify(data, null, 2));
 
-    // Configure the email transport using SMTP (for example, using Gmail)
-    const transporter = nodemailer.createTransport({
-      host: "smtp.titan.email",
-      port: 465,
-      secure: true,
-      auth: {
-        user: "info@innate-nw.com",
-        pass: "Innate@123",
-      },
-    });
+    if (!process.env.BREVO_API_KEY) {
+      return NextResponse.json(
+        { error: "Server configuration error - missing API key" },
+        { status: 500 }
+      );
+    }
 
-    // Create a dynamic HTML email template
-    const emailTemplate = `
-    <div
-      style="
-        
-       
-        padding-left: 10px;
-        max-width: 900px;
-        color: black;
-        
-      "
-    >
-     
-       
-      <p style="font-size: 38.59px; font-weight: 600; margin-top: 40px;">Contact Details</p>
-      
-  
-      <div style=" ">
-        <p
-          style="
-            font-size: 22px;
-            min-width: 300px;
-            font-weight: 500;
-            color: black;
-          "
-        >
-          Created on:
-        </p>
-        <p style="font-size: 22px; font-weight: 100;">${new Date().toLocaleDateString()}</p>
-      </div>
-  
-      <div style=" ">
-        <p
-          style="
-            font-size: 22px;
-            min-width: 300px;
-            font-weight: 500;
-            color: black;
-          "
-        >
-          Name:
-        </p>
-        <p style="font-size: 22px; font-weight: 100;">${data.name}</p>
-      </div>
-  
-      <div style=" ">
-        <p
-          style="
-            font-size: 22px;
-            min-width: 300px;
-            font-weight: 500;
-            color: black;
-          "
-        >
-          Email Address:
-        </p>
-        <p style="font-size: 22px; font-weight: 100;">${data.email}</p>
-      </div>
-  
-      <div style=" ">
-  <p
-    style="
-      font-size: 22px;
-      min-width: 300px;
-      font-weight: 500;
-      color: black;
-    "
-  >
-    Phone Number:
-  </p>
-  <p style="font-size: 22px; font-weight: 100;">${data.phone}
-  </p>
-</div>
+    const email = "info@innate-nw.com";
+    const sendSmtpEmail = new brevo.SendSmtpEmail();
+    sendSmtpEmail.to = [{ email }];
 
-  
-     <div style=" ">
-        <p
-          style="
-            font-size: 22px;
-            min-width: 300px;
-            font-weight: 500;
-            color: black;
-          "
-        >
-          Project Address:
-        </p>
-        <p style="font-size: 22px; font-weight: 100;">${data.projectAddress}</p>
-      </div>
-  
-      <div style=" ">
-        <p
-          style="
-            font-size: 22px;
-            min-width: 300px;
-            font-weight: 500;
-            color: black;
-          "
-        >
-          Project Type:
-        </p>
-        <p style="font-size: 22px; font-weight: 100;">${data.projectType}</p>
-      </div>
-  
-      <div style="">
-        <p
-          style="
-            font-size: 22px;
-            min-width: 300px;
-            font-weight: 500;
-            color: black;
-          "
-        >
-         Message:
-        </p>
-        <p style="font-size: 22px; font-weight: 100;">${data.message}</p>
-      </div>
-      
-  
-      
-</div>
-
-
-    </div>
-  `;
-
-    // Set up email options
-    const mailOptions = {
-      from: "info@innate-nw.com", // Sender's email (from form submission)
-      to: "info@innate-nw.com",
-      subject: "New Form Submission",
-      html: emailTemplate,
+    sendSmtpEmail.templateId = 3; // Use the correct template ID
+    sendSmtpEmail.params = {
+      projectType: data.projectType || "",
+      projectAddress: data.projectAddress || "",
+      message: data.message || "",
+      phone: data.phone || "",
+      email: data.email || "",
+      name: data.name || "",
+      date: new Date().toLocaleDateString() || "",
     };
 
-    // Send the email
-    await transporter.sendMail(mailOptions);
-
-    // Return success response
-    return NextResponse.json({
-      success: true,
-      message: "Data received and email sent successfully",
-    });
+    try {
+      const response = await apiInstance.sendTransacEmail(sendSmtpEmail);
+      console.log("Email sent via Brevo.", response);
+      return NextResponse.json({
+        success: true,
+        message: "Data received and email sent successfully",
+      });
+    } catch (error: any) {
+      console.error("Brevo email error:", error);
+      return NextResponse.json(
+        {
+          success: false,
+          message: "Error processing request",
+          error: error.message,
+        },
+        { status: 400 }
+      );
+    }
   } catch (error: unknown) {
     // Cast error as `unknown`
     if (error instanceof Error) {

@@ -7,6 +7,29 @@ export interface SlideData {
 
 export const slidesData: SlideData[] = [
   {
+    title: "West Seattle Residence",
+    location: "Fremont - Seattle, Washington",
+    url: "/project/west-seattle-residence",
+    media: [
+      {
+        src: "/images/project/west-seattle-residence/06.25_Exterior-Bathroom_16x9.mp4",
+        type: "video",
+      },
+      {
+        src: "/images/project/west-seattle-residence/6L1A1041_websize.jpg",
+        type: "image",
+      },
+      {
+        src: "/images/project/west-seattle-residence/6L1A1052_websize.jpg",
+        type: "image",
+      },
+      {
+        src: "/images/project/west-seattle-residence/6L1A1087_websize.jpg",
+        type: "image",
+      },
+    ],
+  },
+  {
     title: "South Seattle Kitchen",
     location: "South Seattle",
     url: "/project/south-seattle-kitchen",
