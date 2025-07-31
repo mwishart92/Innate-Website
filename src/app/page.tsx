@@ -1,3 +1,4 @@
+"use client";
 import { useEffect } from "react";
 import Collective from "@/components/Home/Collective";
 import Confidence from "@/components/Home/Confidence";
