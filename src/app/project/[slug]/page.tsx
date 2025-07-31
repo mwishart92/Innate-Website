@@ -846,7 +846,7 @@ const projectData = {
       projectScope: [
         {
           key: "Scope",
-          value: "Bathroom Remodel, Residential Design",
+          value: "Bathroom Remodel, Exterior Renovation",
         },
         { key: "Type", value: "Renovation" },
         { key: "Location", value: "Fremont - Seattle, Washington" },
