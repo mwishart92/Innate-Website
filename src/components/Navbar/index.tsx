@@ -155,6 +155,11 @@ const Navbar = () => {
         // keywords:
         // "kitchen remodel cost Seattle, kitchen remodeling budget, kitchen renovation Seattle, design-build remodeling Seattle, custom kitchen remodel, remodeling contractor Seattle",
       },
+      "/project/west-seattle-residence": {
+        title:
+          "West Seattle Bathroom & Exterior Remodel | Innate NW Renovation",
+        description: `Innate NW completed a 5-week bathroom and exterior renovation in West Seattle featuring large-format tile, quartz counters, slate porch tile, and custom railing. See how we resolved unfinished work and delivered a high-quality transformation.`,
+      },
       // Add more mappings as needed
     };
 
