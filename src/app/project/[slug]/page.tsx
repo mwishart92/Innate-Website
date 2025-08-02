@@ -9,6 +9,7 @@ import slider1 from "@/public/images/project/project-slider-1.webp";
 import slider2 from "@/public/images/project/project-slider-2.webp";
 import ProjectSlider from "@/components/Project/Hero/Slider";
 import Slide from "@/components/Project/Hero/Content/slide";
+import { Metadata } from "next";
 
 const defaultSlides = [
   {
@@ -159,6 +160,10 @@ const projectData = {
         "Completed in just four weeks, this South Seattle kitchen renovation showcases Innate-NW's commitment to quality, efficiency, and design excellence. Whether you're seeking a kitchen remodel in Seattle or a full-scale home renovation, our team brings deep experience and a collaborative approach to every custom project.",
       projectSlider,
     },
+    seo: {
+      title: "South Seattle Kitchen | Innate NW Renovation",
+      description: `This South Seattle kitchen renovation highlights how thoughtful design and skilled craftsmanship can completely transform a home's most used space. Custom cabinetry from Canyon Creek was carefully tailored to fit the needs of the homeowners, with specialized compartments for spices, pans, and baking trays. Large-format tile and quartz countertops add a modern aesthetic, while a radiant heated floor ensures comfort and function through Seattle's colder months.`,
+    },
   },
   "desert-oasis": {
     defaultSlides: [
@@ -219,6 +224,10 @@ const projectData = {
       galleryDescription:
         "This Palm Springs home was fully designed in just three months, a testament to Innate-NW's efficient design process and collaborative approach. Whether you're building a new home in Palm Springs or looking to design a modern ADU, Innate-NW brings purpose, clarity, and intention to every residential project.",
       projectSlider,
+    },
+    seo: {
+      title: "Desert Oasis | Innate NW Renovation",
+      description: `This modern Palm Springs new construction project was designed as a true desert oasis—blending indoor-outdoor living with smart functionality and bold architectural features. The home centers around an open-concept kitchen, living, and dining space, framed by exposed roof beams and flooded with natural light through clerestory windows and full accordion doors that open to the courtyard. The new construction design captures the spirit of the desert while maximizing modern livability.`,
     },
   },
   "gray-bathroom": {
@@ -308,8 +317,16 @@ const projectData = {
         },
       ],
     },
+    seo: {
+      title: "Gray Bathroom | Innate NW Renovation",
+      description: `A custom kitchenette and clean-lined finishes give the interiors a refined but relaxed atmosphere. Outside, a detached ADU offers a private space for visiting family and serves as a future income opportunity, reflecting a thoughtful approach to multi-functional design. Metal roofing installation, natural light, and the open floor plan contribute to both energy efficiency and long-term flexibility for the homeownerThe new bathroom design features floor-to-ceiling large format tile, a curbless walk-in shower with custom glass, and a smart mirror that enhances both function and style. A built-in hot tub adds a premium touch, while clean lines and high-end finishes bring cohesion to the space. What began as a remediation project evolved into a total reimagining of the master bath.`,
+    },
   },
   "wheat-ridge-adu": {
+    seo: {
+      title: "Gray BathroWheat Ridge ADU | Innate NW Renovation",
+      description: `Accordion doors open the main living space to the outdoors, while quartzite counters and gold accents add elegance to the kitchen. One of the home's standout features is a custom golf simulator installed in the living room—perfectly suited to the client's passion, and cleverly concealed when not in use. Every inch of the layout was thoughtfully considered to support evolving needs over time.`,
+    },
     defaultSlides: [
       {
         component: (
@@ -398,6 +415,10 @@ const projectData = {
     },
   },
   "kung-fu-tea": {
+    seo: {
+      title: "Kung FU Tea x TKK | Innate NW Renovation",
+      description: `This commercial tenant improvement project in Renton brought two beloved franchises—Kung Fu Tea and TKK Fried Chicken—under one roof. Designed by Michael Wishart and built by Innate-NW, the six-month project required precision, collaboration, and a deep understanding of franchise standards. From navigating a complex permitting process to aligning with brand-approved finishes, every detail was managed with care.`,
+    },
     defaultSlides: [
       {
         component: (
@@ -478,6 +499,10 @@ const projectData = {
     },
   },
   "madrona-remodel": {
+    seo: {
+      title: "Madrona Remodel | Innate NW Renovation",
+      description: `This kitchen remodel in Seattle's historic Madrona neighborhood presented a unique set of challenges—steep slope, tight site conditions, and an aging structure that required a full seismic retrofit. Innate-NW led the design and renovation, transforming the original layout into a bright, modern kitchen with expanded square footage and improved structural integrity. The six-month kitchen renovation resulted in a functional and resilient space that seamlessly blends old and new.`,
+    },
     defaultSlides: [
       {
         component: (
@@ -557,6 +582,10 @@ const projectData = {
     },
   },
   "shoreline-residence": {
+    seo: {
+      title: "Shoreline Residence | Innate NW Renovation",
+      description: `This Shoreline home renovation and addition project transformed a charming one-story residence into a spacious, multi-level family home. Designed for a young couple preparing for the next chapter of life, Innate-NW led the design and construction of a new upper floor, full kitchen remodel, and outdoor living upgrades. The result is a warm, modern space that blends everyday function with lasting quality.`,
+    },
     defaultSlides: [
       {
         component: (
@@ -636,6 +665,10 @@ const projectData = {
     },
   },
   "freitas-bathroom": {
+    seo: {
+      title: "Freitas Bathroom | Innate NW Renovation",
+      description: `Tucked into the top floor of a historic Capitol Hill apartment, this bathroom remodel turned a compact, outdated space into a refined retreat. Innate-NW handled both design and construction, navigating the logistical challenges of carrying all materials up several flights while preserving the quiet character of the building. The project was completed in just two weeks with minimal disruption to neighbors.`,
+    },
     defaultSlides: [
       {
         component: (
@@ -720,6 +753,10 @@ const projectData = {
     },
   },
   "knight-residence": {
+    seo: {
+      title: "Knight Residence | Innate NW Renovation",
+      description: `Inspired by a luxurious hotel spa they visited in Spain, the clients for this Fremont bathroom remodel came to Innate-NW with a clear vision and a high bar for detail. Over six weeks, we transformed their existing bathroom into a serene, modern retreat that balances elegance with precision. From custom cabinetry to fully integrated wall-mounted fixtures, every element was tailored to match the client's aesthetic goals.`,
+    },
     defaultSlides: [
       {
         component: (
@@ -943,6 +980,10 @@ const projectData = {
         },
       ],
     },
+    seo: {
+      title: "West Seattle Bathroom & Exterior Remodel | Innate NW Renovation",
+      description: `Innate NW completed a 5-week bathroom and exterior renovation in West Seattle featuring large-format tile, quartz counters, slate porch tile, and custom railing. See how we resolved unfinished work and delivered a high-quality transformation.`,
+    },
   },
 };
 
@@ -973,4 +1014,24 @@ export default function ProjectPage({ params }: any) {
       <ProjectDescription projectDetails={projectDetails} />
     </div>
   );
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  const { slug } = params;
+
+  // Check if the slug exists in projectData
+  const projectDataForSlug = projectData[slug as keyof typeof projectData];
+
+  // Safely access seo properties with fallbacks
+  const seoTitle = (projectDataForSlug as any)?.seo?.title || "Innate NW";
+  const seoDescription = (projectDataForSlug as any)?.seo?.description || "";
+
+  return {
+    title: seoTitle,
+    description: seoDescription,
+  };
 }

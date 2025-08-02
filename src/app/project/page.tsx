@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import ProjectDescription from "@/components/Project/ProjectDescription";
 import React from "react";
+import type { Metadata } from "next";
 import p1 from "@/public/images/project/gabrielle-maurer-bSDRTDquQG8-unsplash.webp";
 import p2 from "@/public/images/project/hans-isaacson-qmTwtPQtLVg-unsplash.webp";
 import p3 from "@/public/images/project/bailey-alexander-QQ6xmTXXFZ8-unsplash.webp";
@@ -9,6 +10,12 @@ import slider1 from "@/public/images/project/project-slider-1.webp";
 import slider2 from "@/public/images/project/project-slider-2.webp";
 import ProjectSlider from "@/components/Project/Hero/Slider";
 import Slide from "@/components/Project/Hero/Content/slide";
+
+export const metadata: Metadata = {
+  title: "Custom Design and Construction Projects | Innate NW",
+  description:
+    "Explore Innate NW's diverse portfolio of innovative design and projects, showcasing sustainable solutions and craftsmanship tailored to unique client needs.",
+};
 
 const page = () => {
   const slides = [

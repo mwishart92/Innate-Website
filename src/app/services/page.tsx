@@ -10,6 +10,7 @@ import LatestProjects from "@/components/Services/LatestProjects";
 // import OurProcess from "@/components/Services/OurProcess";
 // import OurPartners from "@/components/Home/OurPartners";
 import React, { useMemo } from "react";
+import type { Metadata } from "next";
 import HomeSlider from "@/components/Services/Hero/Slider";
 import DesignAndBuild from "@/components/Services/DesignAndBuild";
 import Faq from "@/components/Services/Faq";
@@ -143,6 +144,11 @@ const faqItems = [
       "Yes, we provide comprehensive design assistance and material selection guidance to ensure your kitchen meets both your aesthetic preferences and functional needs.",
   },
 ];
+
+export const metadata: Metadata = {
+  title: "Services",
+  description: "Explore our range of professional services.",
+};
 
 const ServicesPage = () => {
   const sliderAlbum = useMemo<MediaData[]>(
