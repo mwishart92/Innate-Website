@@ -26,6 +26,7 @@ interface Slide {
   component: React.ReactNode;
   delay: number;
   projectName: string;
+  isH1?: boolean;
 }
 
 interface HomeSliderProps {
@@ -38,7 +39,12 @@ function HomeSlider({ slides, overlayClass }: HomeSliderProps) {
   const router = useRouter();
 
   const defaultSlides = [
-    { component: <Slide1 />, delay: 36000, projectName: "Bosma ADU" },
+    {
+      component: <Slide1 />,
+      delay: 36000,
+      projectName: "Bosma ADU",
+      isH1: true,
+    },
     { component: <Slide2 />, delay: 26000, projectName: "Norman Residence" },
     {
       component: <Slide3 />,
@@ -63,7 +69,7 @@ function HomeSlider({ slides, overlayClass }: HomeSliderProps) {
         <div className="absolute bottom-[128px] mob:bottom-[70px] left-16 p-5 z-30 bg-opacity-50 mob:left-0 ">
           <div className="mb-[40px] ">
             <Text
-              as="h2"
+              as={swiperSlides[currentSlide]?.isH1 ? "h1" : "h2"}
               className="my-3 text-white leading-[44px] mob:leading-[36.4px]"
             >
               <span className="text-[40px] mob:text-[28px] font-light capitalize">

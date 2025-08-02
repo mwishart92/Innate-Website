@@ -40,6 +40,7 @@ const slides = [
     ),
     delay: 36000,
     projectName: "natural disaster mitigation",
+    isH1: true,
   },
 ];
 

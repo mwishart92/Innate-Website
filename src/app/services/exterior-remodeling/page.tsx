@@ -37,6 +37,7 @@ const slides = [
     ),
     delay: 36000,
     projectName: "exterior remodeling",
+    isH1: true,
   },
 ];
 

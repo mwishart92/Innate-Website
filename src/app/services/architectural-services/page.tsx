@@ -40,6 +40,7 @@ const slides = [
     ),
     delay: 36000,
     projectName: "architectural services",
+    isH1: true,
   },
   {
     component: (
@@ -143,7 +144,7 @@ const sections = [
     },
     layout: "right" as const,
   },
-    {
+  {
     title: "Permit Management",
     description:
       "We will prepare and submit the necessary documents for permit review, respond to city comments, and coordinate with consultants to ensure timely approval and code compliance.",
@@ -163,7 +164,7 @@ const sections = [
     },
     layout: "left" as const,
   },
-      {
+  {
     title: "Bidding",
     description:
       "As a design-build firm, we will manage the entire bidding process, providing detailed pricing based on the design and ensuring the project stays within budget while meeting all specifications.",

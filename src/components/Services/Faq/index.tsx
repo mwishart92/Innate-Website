@@ -96,7 +96,7 @@ const Faq = ({
       <div className="w-full max-w-[840px] mx-auto rounded-[10px] relative flex items-center justify-center">
         <div className="w-full py-6">
           <Text
-            as="h1"
+            as="h2"
             className="text-[40px] leading-[52px] text-center font-medium max-w-[596px] mx-auto"
           >
             {title}

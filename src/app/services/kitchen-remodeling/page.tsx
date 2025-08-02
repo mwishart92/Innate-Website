@@ -33,7 +33,6 @@ interface MediaData {
 }
 
 const slides = [
-
   {
     component: (
       <Slide
@@ -43,6 +42,7 @@ const slides = [
     ),
     delay: 36000,
     projectName: "kitchen remodeling",
+    isH1: true,
   },
   {
     component: (

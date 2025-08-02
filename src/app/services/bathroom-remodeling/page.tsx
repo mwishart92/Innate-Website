@@ -40,6 +40,7 @@ const slides = [
     ),
     delay: 36000,
     projectName: "bathroom remodeling",
+    isH1: true,
   },
   {
     component: (

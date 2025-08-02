@@ -37,6 +37,7 @@ const slides = [
     ),
     delay: 36000,
     projectName: "ADU",
+    isH1: true,
   },
   {
     component: (
