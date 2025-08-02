@@ -995,9 +995,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function ProjectPage({ params }: any) {
+export default async function ProjectPage({ params }: any) {
   // Get the current slug from params and await it
-  const { slug } = params;
+  const { slug } = await params;
 
   // Check if the slug exists in projectData
   const projectDataForSlug = projectData[slug as keyof typeof projectData];
@@ -1019,9 +1019,9 @@ export default function ProjectPage({ params }: any) {
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
-  const { slug } = params;
+  const { slug } = await params;
 
   // Check if the slug exists in projectData
   const projectDataForSlug = projectData[slug as keyof typeof projectData];
