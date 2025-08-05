@@ -7,11 +7,9 @@ import {
   Bodoni_Moda,
 } from "next/font/google";
 import "./globals.css";
-
 import Footer from "@/components/Footer";
 import { TabProvider } from "@/context/TabContsxt";
 import MyProvider from "@/components/MyProvider";
-
 import { GoogleTagManager } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
