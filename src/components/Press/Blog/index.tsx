@@ -20,8 +20,11 @@ const Blog = () => {
   return (
     <div className=" pt-16">
       <div className="w-full max-w-full  flex flex-wrap justify-center gap-[24px] mb-[44px] mob:mb-[24px] px-16 md:px-20 mob:px-0">
-        {blogSections.map((section) => (
-          <div className="flex-grow max-w-[calc(25%-18px)] tab:max-w-[calc(50%-18px)] mob:max-w-[90%] border border-[#FFFFFF99] rounded-[10px]  flex flex-col relative">
+        {blogSections.map((section, key) => (
+          <div
+            className="flex-grow max-w-[calc(25%-18px)] tab:max-w-[calc(50%-18px)] mob:max-w-[90%] border border-[#FFFFFF99] rounded-[10px]  flex flex-col relative"
+            key={key}
+          >
             <Link
               href={`/blogs/${section.slug}`}
               className="h-[192px] relative w-full"

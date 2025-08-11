@@ -19,6 +19,8 @@ import { useRouter } from "next/navigation";
 import Swal from "sweetalert2";
 // import instagaram from "@/public/Instagram.png";
 
+import { trackFormSuccess, trackFormFailure } from "@/utils/gtm";
+
 const OnBoarding: React.FC = () => {
   const router = useRouter();
   // Initialize state with a function that retrieves the saved step from localStorage
@@ -144,6 +146,12 @@ const OnBoarding: React.FC = () => {
 
       // Check the response success
       if (data.success) {
+        // Track successful form submission
+        trackFormSuccess("onboarding_form", {
+          step_count: currentStep,
+          form_data_keys: Object.keys(formData),
+        });
+
         setTimeout(() => {
           // handleNext(); // Proceed to the next step
           const onboardingRedirectUrl =
@@ -158,6 +166,12 @@ const OnBoarding: React.FC = () => {
           // timer: 2000,
         });
       } else {
+        // Track failed form submission
+        trackFormFailure("onboarding_form", {
+          step_count: currentStep,
+          error_message: data.message,
+        });
+
         Swal.fire({
           title: "Error!",
           text: data.message,
@@ -167,6 +181,12 @@ const OnBoarding: React.FC = () => {
         });
       }
     } catch (error) {
+      // Track failed form submission due to error
+      trackFormFailure("onboarding_form", {
+        step_count: currentStep,
+        error_message: error instanceof Error ? error.message : "Unknown error",
+      });
+
       console.error(
         "Error calling contactFlow API:",
         error instanceof Error ? error.message : error

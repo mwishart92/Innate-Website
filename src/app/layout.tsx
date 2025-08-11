@@ -10,6 +10,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 import { TabProvider } from "@/context/TabContsxt";
 import MyProvider from "@/components/MyProvider";
+import GTMPageTracker from "@/components/GTMPageTracker";
 import { GoogleTagManager } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -45,6 +46,7 @@ export default function RootLayout({
       >
         <MyProvider>
           <TabProvider>
+            <GTMPageTracker />
             {children}
             <Footer />
           </TabProvider>

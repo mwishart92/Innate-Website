@@ -351,4 +351,191 @@ export const blogSections: ArticleSection[] = [
         "kitchen remodel cost Seattle, kitchen remodeling budget, kitchen renovation Seattle, design-build remodeling Seattle, custom kitchen remodel, remodeling contractor Seattle",
     },
   },
+  {
+    id: 7,
+    slug: "choosing-custom-home-builder",
+    title: "How to Choose the Right Custom Home Builder",
+    thumbnail: "/images/press/getty-images-taq_rCqMARE-unsplash.webp",
+    tag: "Blog",
+    excerpt: `Choosing the right custom home builder is key to bringing your vision to life. Learn what to look for and how Innate delivers a client-focused building experience.`,
+    publishedDate: "7 August, 2025",
+    content: [
+      {
+        type: "image",
+        src: [],
+        // [
+        //   "/images/press/getty-images-BFP6PqFc-6I-unsplash.webp",
+        //   "/images/press/clay-banks-1az3-tn1q7E-unsplash.webp",
+        // ],
+
+        alt: "Image description",
+      },
+      {
+        type: "text",
+        text: `
+        <p><span style="font-weight: 400;">Hiring a </span><strong>custom home builder</strong><span style="font-weight: 400;"> is one of the most important decisions you'll make when designing your dream home. The right builder will help bring your vision to life while managing budget, timelines, and expectations. The wrong one can turn a dream project into a costly, stressful experience.</span></p>
+<p><span style="font-weight: 400;">At </span><strong>Innate</strong><span style="font-weight: 400;">, we specialize in custom home building, </span><strong>custom home remodels</strong><span style="font-weight: 400;">, and design-forward construction across Seattle and the Eastside, including </span><strong>Bellevue</strong><span style="font-weight: 400;">, Redmond, and Kirkland. We&rsquo;ve helped homeowners create everything from modern new builds to </span><strong>custom kitchens</strong><span style="font-weight: 400;"> and luxury outdoor living spaces&mdash;with clarity, care, and craftsmanship.</span></p>
+<h2>&nbsp;</h2>
+<h2><strong>1. Why Experience with Custom Home Building Matters</strong></h2>
+<p><span style="font-weight: 400;">When choosing a </span><strong>custom home builder</strong><span style="font-weight: 400;">, experience matters. You want a team that understands the complexities of high-end construction and has a proven track record of delivering results. A builder that specializes in </span><strong>custom homes</strong><span style="font-weight: 400;"> will have the systems, vendors, and expertise needed to navigate zoning laws, permitting, and structural design.</span></p>
+<p><span style="font-weight: 400;">Innate has completed a wide range of custom projects, including new home construction, </span><strong>custom home remodels</strong><span style="font-weight: 400;">, and </span><strong>custom kitchen</strong><span style="font-weight: 400;"> and </span><strong>deck builds</strong><span style="font-weight: 400;"> tailored to each client&rsquo;s lifestyle. Our diverse portfolio shows what&rsquo;s possible when design and execution are aligned from the start.</span></p>
+<h2>&nbsp;</h2>
+<h2><strong>2. Verify Credentials, Licensing &amp; Insurance</strong></h2>
+<p><span style="font-weight: 400;">Every legitimate </span><strong>custom home builder in Bellevue or Seattle</strong><span style="font-weight: 400;"> should be fully licensed, bonded, and insured. These credentials aren&rsquo;t just formalities&mdash;they protect your project and your investment.</span></p>
+<p><span style="font-weight: 400;">Innate meets all Washington State licensing requirements and carries full liability insurance. We also partner with experienced, licensed subcontractors who are aligned with our standards of quality and professionalism. When you build with us, you're protected from day one.</span></p>
+<h2>&nbsp;</h2>
+<h2><strong>3. Prioritize Clear Communication with Your Builder</strong></h2>
+<p><span style="font-weight: 400;">Strong communication is the foundation of any successful </span><strong>custom home build</strong><span style="font-weight: 400;">. From the first consultation through final walkthroughs, your builder should be responsive, transparent, and proactive.</span></p>
+<p><span style="font-weight: 400;">At Innate, we pride ourselves on our collaborative, client-first process. Whether you&rsquo;re planning a </span><strong>custom home remodel</strong><span style="font-weight: 400;"> or a new </span><strong>custom home in Bellevue</strong><span style="font-weight: 400;">, we keep you informed at every stage&mdash;with detailed project updates, clear pricing, and transparent timelines.</span></p>
+<h2>&nbsp;</h2>
+<h2><strong>4. Review Past Work and Real Client Testimonials</strong></h2>
+<p><span style="font-weight: 400;">When researching a </span><strong>custom home builder</strong><span style="font-weight: 400;">, don&rsquo;t just take their word for it&mdash;look at their work. Reviewing completed projects gives you insight into their quality, design sensibility, and ability to handle similar projects.</span></p>
+<p><span style="font-weight: 400;">Visit our </span><strong>Projects page</strong><span style="font-weight: 400;"> to explore real examples of our </span><strong>custom kitchens</strong><span style="font-weight: 400;">, </span><strong>custom decks</strong><span style="font-weight: 400;">, and full-home remodels across the Seattle area. We&rsquo;re proud of our craftsmanship&mdash;and the long-term relationships we&rsquo;ve built with clients who trust us to deliver time and time again.</span></p>
+<h2>&nbsp;</h2>
+<h2><strong>5. Understand the Custom Design-Build Process</strong></h2>
+<p><span style="font-weight: 400;">One major advantage of working with a </span><strong>design-build custom home builder</strong><span style="font-weight: 400;"> is efficiency. Instead of juggling multiple vendors or architects, you work with a single team from concept through construction.</span></p>
+<p><span style="font-weight: 400;">Our </span><strong>design-build process</strong><span style="font-weight: 400;"> ensures that your vision, budget, and timeline stay aligned. Whether it&rsquo;s a new build or a </span><strong>custom home remodel</strong><span style="font-weight: 400;">, we manage everything in-house&mdash;from architectural plans to interior design, permitting, and final inspections. This eliminates delays and creates a seamless client experience.</span></p>
+<h2>&nbsp;</h2>
+<h3><strong>Frequently Asked Questions (FAQ)</strong></h3>
+<p>&nbsp;</p>
+<p><strong>Q: What makes Innate a top custom home builder in Bellevue and Seattle?</strong></p>
+<p><span style="font-weight: 400;">A: Our reputation is built on clear communication, expert craftsmanship, and a design-first approach. We specialize in </span><strong>custom homes</strong><span style="font-weight: 400;">, </span><strong>kitchen remodels</strong><span style="font-weight: 400;">, </span><strong>deck builds</strong><span style="font-weight: 400;">, and full-scale renovations tailored to your goals.</span></p>
+<p>&nbsp;</p>
+<p><strong>Q: Can you help with both new home construction and custom remodels?</strong></p>
+<p><span style="font-weight: 400;">A: Yes. We build new </span><strong>custom homes</strong><span style="font-weight: 400;"> and offer complete </span><strong>custom home remodeling</strong><span style="font-weight: 400;"> services. From expanding your living space to reimagining your kitchen, we do it all under one roof.</span></p>
+<p>&nbsp;</p>
+<p><strong>Q: Do I need an architect before working with Innate?</strong></p>
+<p><span style="font-weight: 400;">A: No. As a full-service </span><strong>design-build firm</strong><span style="font-weight: 400;">, we provide architectural planning, permitting, and construction services in-house.</span></p>
+<p>&nbsp;</p>
+<p><strong>Q: How long does a custom home project typically take?</strong></p>
+<p><span style="font-weight: 400;">A: Most </span><strong>custom home builds</strong><span style="font-weight: 400;"> take 10&ndash;16 months from design to completion. Timelines vary based on scope, permitting, and site conditions.</span></p>
+<p>&nbsp;</p>
+<p><strong>Q: What areas do you serve?</strong></p>
+<p><span style="font-weight: 400;">A: We work with clients in </span><strong>Seattle</strong><span style="font-weight: 400;">, </span><strong>Bellevue</strong><span style="font-weight: 400;">, </span><strong>Kirkland</strong><span style="font-weight: 400;">, </span><strong>Redmond</strong><span style="font-weight: 400;">, and across the Eastside.</span></p>
+<h2>&nbsp;</h2>
+<h3><strong>Start Your Custom Home Journey with Innate</strong></h3>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Choosing the right </span><strong>custom home builder</strong><span style="font-weight: 400;"> sets the tone for your entire experience. You deserve a builder who listens to your goals, brings creativity to the table, and delivers results that stand the test of time.</span></p>
+<p><span style="font-weight: 400;">At Innate, we&rsquo;re more than builders&mdash;we&rsquo;re your partners in the creative process. Whether you&rsquo;re ready to start a new </span><strong>custom home in Bellevue</strong><span style="font-weight: 400;">, upgrade your home with a </span><strong>custom kitchen remodel</strong><span style="font-weight: 400;">, or enhance outdoor living with a </span><strong>custom deck</strong><span style="font-weight: 400;">, we&rsquo;re here to help.</span></p>
+<p><strong>Schedule a consultation and let&rsquo;s build something exceptional&mdash;together.</strong></p>
+        `,
+      },
+    ],
+    seo: {
+      title: "How to Choose the Right Custom Home Builder | Innate NW",
+      description:
+        "Choosing the right custom home builder is key to bringing your vision to life. Learn what to look for and how Innate delivers a client-focused building experience.",
+      keywords:
+        "custom home builder, custom home builder Bellevue, custom kitchen builder, custom deck builder, custom home remodel",
+    },
+  },
+  {
+    id: 8,
+    slug: "seattle-neighborhood-residential-zoning",
+    title: "Seattle NR1, NR2, NR3 Zoning Explained",
+    thumbnail: "/images/press/Zoning-1.jpg",
+    tag: "Blog",
+    excerpt: `Learn how Seattle’s NR1, NR2, and NR3 zoning codes affect home remodels, additions, and DADUs—plus tips from Innate NW for navigating permits and building smart.`,
+    publishedDate: "7 August, 2025",
+    content: [
+      {
+        type: "image",
+        src: ["/images/press/Zoning-2.jpg"],
+
+        alt: "Image description",
+      },
+      {
+        type: "text",
+        text: `
+        <p><span style="font-weight: 400;">If you're a Seattle homeowner planning a remodel, addition, or new construction, understanding </span><strong>Seattle zoning NR1, NR2, and NR3</strong><span style="font-weight: 400;"> is essential. These zoning codes determine what you&rsquo;re allowed to build, where you can build it on your lot, and how much of your property can be developed.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Many homeowners are surprised to find that their older </span><strong>single family home</strong><span style="font-weight: 400;"> doesn&rsquo;t meet current </span><strong>zoning regulations</strong><span style="font-weight: 400;">&mdash;especially when they&rsquo;re looking to build an addition, finish a basement, or add a </span><strong>detached accessory dwelling unit (DADU)</strong><span style="font-weight: 400;">. Fortunately, working with a knowledgeable </span><strong>design-build</strong><span style="font-weight: 400;"> partner like </span><strong>Innate </strong><span style="font-weight: 400;">&nbsp;can make all the difference.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">In this guide, we&rsquo;ll break down </span><strong>neighborhood residential zoning in Seattle</strong><span style="font-weight: 400;">, how it impacts your project, and what to do if your home doesn&rsquo;t meet today&rsquo;s building or zoning codes.</span></p>
+<p>&nbsp;</p>
+<h2><strong>What Is Neighborhood Residential Zoning?</strong></h2>
+<p><span style="font-weight: 400;">In 2022, Seattle transitioned away from the term &ldquo;single-family zoning&rdquo; and introduced a new framework called </span><strong>Neighborhood Residential (NR) zoning</strong><span style="font-weight: 400;">. This change was made to encourage greater housing diversity and reflect modern needs, including more flexible options for multi-generational living, DADUs, and home additions.</span></p>
+<p><span style="font-weight: 400;">Today, most residential lots in Seattle fall under one of three categories:</span></p>
+<h3>&nbsp;</h3>
+<h3><span style="font-weight: 400;">NR1 &ndash; Neighborhood Residential 1</span></h3>
+<p><span style="font-weight: 400;">NR1 zones are designed for </span><strong>lower-density development</strong><span style="font-weight: 400;"> with larger minimum lot sizes, generous setbacks, and wider spacing between homes. These are often found in more suburban-feeling neighborhoods like Magnolia or Windermere.</span></p>
+<p><strong>Remodeling impact:</strong><span style="font-weight: 400;"> NR1 zones are the most restrictive, especially when it comes to lot coverage and height limits. </span><strong>Seattle home addition zoning</strong><span style="font-weight: 400;"> in these areas typically requires creative planning and, in some cases, approval for variances.</span></p>
+<h3>&nbsp;</h3>
+<h3><span style="font-weight: 400;">NR2 &ndash; Neighborhood Residential 2</span></h3>
+<p><span style="font-weight: 400;">NR2 represents a middle ground, with slightly smaller lots and moderately reduced setbacks. You&rsquo;ll find NR2 zoning in established neighborhoods like parts of Wallingford and Greenwood.</span></p>
+<p><strong>Remodeling impact:</strong><span style="font-weight: 400;"> These lots offer more flexibility for </span><strong>remodeling old homes in Seattle</strong><span style="font-weight: 400;">, but you&rsquo;ll still need to closely follow height and lot coverage limits, especially for second-story additions or garage conversions.</span></p>
+<h3>&nbsp;</h3>
+<h3><span style="font-weight: 400;">NR3 &ndash; Neighborhood Residential 3</span></h3>
+<p><span style="font-weight: 400;">NR3 zoning is the most flexible and urban. It allows the most buildable area, supports smaller lots, and reduces setback requirements.</span></p>
+<p><strong>Remodeling impact:</strong><span style="font-weight: 400;"> NR3 is ideal for </span><strong>design-build projects</strong><span style="font-weight: 400;"> involving </span><strong>DADUs</strong><span style="font-weight: 400;">, large-scale remodels, or </span><strong>energy-efficient home additions</strong><span style="font-weight: 400;">. It also makes it easier to build in tight urban spaces like Capitol Hill or Columbia City.</span></p>
+<h2>&nbsp;</h2>
+<h2><strong>Why Zoning Matters for Your Remodeling Project</strong></h2>
+<p><span style="font-weight: 400;">Zoning is more than just a classification&mdash;it dictates what you can do with your property. From </span><strong>setback requirements</strong><span style="font-weight: 400;"> and </span><strong>building height limits</strong><span style="font-weight: 400;"> to allowable lot coverage, these rules form the backbone of what&rsquo;s possible on your lot.</span></p>
+<p><span style="font-weight: 400;">Here&rsquo;s how </span><strong>Seattle residential remodel zoning</strong><span style="font-weight: 400;"> directly impacts your plans:</span></p>
+<ul>
+<li style="font-weight: 400;"><strong>Lot Coverage:</strong><span style="font-weight: 400;"> This limits the total footprint of buildings on your lot. Want to add a large </span><strong>custom kitchen extension</strong><span style="font-weight: 400;"> or garage? You&rsquo;ll need to do the math&mdash;and possibly reduce square footage elsewhere.</span></li>
+<li style="font-weight: 400;"><strong>Setbacks:</strong><span style="font-weight: 400;"> These are the required minimum distances from your home to the property lines. Many </span><strong>early 20th-century homes in Seattle</strong><span style="font-weight: 400;"> don&rsquo;t comply with current setback standards. This can restrict outward additions and require special planning.</span></li>
+<li style="font-weight: 400;"><strong>Height Limits:</strong><span style="font-weight: 400;"> Depending on your </span><strong>zoning code</strong><span style="font-weight: 400;">, there may be a cap on how tall your addition can be&mdash;especially if you&rsquo;re planning a second story or pop-top.</span></li>
+<li style="font-weight: 400;"><strong>Parking Requirements:</strong><span style="font-weight: 400;"> Adding a </span><strong>detached accessory dwelling unit</strong><span style="font-weight: 400;">? Some zones require you to add off-street parking to accommodate the extra unit.</span></li>
+<li style="font-weight: 400;"><strong>Permitting Requirements:</strong><span style="font-weight: 400;"> Your zoning designation affects how you&rsquo;ll navigate the </span><strong>permit process</strong><span style="font-weight: 400;"> and how likely your project is to require extra review or public notices.</span></li>
+</ul>
+<h2>&nbsp;</h2>
+<h2><strong>Remodeling Old Homes in Seattle: Zoning Challenges &amp; Solutions</strong></h2>
+<p><span style="font-weight: 400;">One of the biggest hurdles for Seattle homeowners is remodeling a </span><strong>nonconforming structure</strong><span style="font-weight: 400;">&mdash;a home that doesn&rsquo;t comply with current </span><strong>building codes</strong><span style="font-weight: 400;"> or zoning rules but was legal when it was built.</span></p>
+<p><span style="font-weight: 400;">Seattle is full of charming craftsman and mid-century homes that fall into this category. These homes often sit closer to property lines than current </span><strong>zoning codes</strong><span style="font-weight: 400;"> allow, or exceed height and coverage limitations.</span></p>
+<p><span style="font-weight: 400;">At </span><strong>Innate</strong><span style="font-weight: 400;">, we&rsquo;ve helped dozens of clients remodel and expand homes that technically don&rsquo;t conform to current standards. Our approach includes:</span></p>
+<ul>
+<li style="font-weight: 400;"><strong>Site-specific research:</strong><span style="font-weight: 400;"> We review your parcel&rsquo;s zoning designation, topography, existing conditions, and potential constraints.</span></li>
+<li style="font-weight: 400;"><strong>Strategic design:</strong><span style="font-weight: 400;"> We tailor the remodel to meet your goals while staying within code&mdash;or apply for a </span><strong>zoning variance</strong><span style="font-weight: 400;"> when needed.</span></li>
+<li style="font-weight: 400;"><strong>Permit application support:</strong><span style="font-weight: 400;"> We handle all documents, drawings, and submissions to the </span><strong>Seattle Department of Construction and Inspections</strong><span style="font-weight: 400;"> (SDCI).</span></li>
+</ul>
+<p><span style="font-weight: 400;">Working with a team that understands </span><strong>Seattle municipal code</strong><span style="font-weight: 400;"> and has real-world experience with the </span><strong>building permit process</strong><span style="font-weight: 400;"> is essential when dealing with older homes and complicated lots.</span></p>
+<h2>&nbsp;</h2>
+<h2><strong>Examples of Zoning-Aware Remodels in Action</strong></h2>
+<p><span style="font-weight: 400;">We&rsquo;ve completed multiple </span><strong>design-build projects</strong><span style="font-weight: 400;"> in Seattle neighborhoods with challenging </span><strong>residential zoning</strong><span style="font-weight: 400;"> constraints. Here are a few:</span></p>
+<ul>
+<li style="font-weight: 400;"><strong>West Seattle Basement ADU:</strong><span style="font-weight: 400;"> We converted an underused basement into a fully permitted ADU while staying within NR2 lot coverage limits. By utilizing existing structure and smart design, we avoided setbacks issues and maximized livable space.</span></li>
+<li style="font-weight: 400;"><strong>North Seattle Second Story Addition:</strong><span style="font-weight: 400;"> A growing family wanted more space, but their </span><strong>nonconforming home</strong><span style="font-weight: 400;"> was too close to the lot line. We worked with SDCI to secure approval and carefully designed within height limits&mdash;adding value and square footage without red tape.</span></li>
+<li style="font-weight: 400;"><strong>Queen Anne Whole-Home Remodel:</strong><span style="font-weight: 400;"> A historic home in an NR1 zone received a full interior reconfiguration and a modest bump-out that respected strict </span><strong>zoning regulations</strong><span style="font-weight: 400;"> while dramatically improving flow and natural light.</span></li>
+</ul>
+<p><span style="font-weight: 400;">Want more examples? Explore </span><strong>our projects</strong><span style="font-weight: 400;"> for real-life remodels built in compliance with Seattle zoning laws.</span></p>
+<h2>&nbsp;</h2>
+<h2><strong>Energy Efficiency, Zoning, and the Future of Building</strong></h2>
+<p><span style="font-weight: 400;">In Seattle, zoning isn&rsquo;t just about size&mdash;it&rsquo;s increasingly about sustainability. New </span><strong>building codes</strong><span style="font-weight: 400;"> require remodels and additions to meet updated energy standards, including insulation, windows, and HVAC.</span></p>
+<p><span style="font-weight: 400;">At Innate, we integrate </span><strong>energy-efficient upgrades</strong><span style="font-weight: 400;"> into every project we do&mdash;meeting both city requirements and long-term value goals. If you're planning a large-scale remodel, we can help you align with </span><strong>Built Green</strong><span style="font-weight: 400;">, LEED, or Seattle's new energy codes to future-proof your home.</span></p>
+<h2>&nbsp;</h2>
+<h2><strong>Frequently Asked Questions</strong></h2>
+<p>&nbsp;</p>
+<p><strong>Q: How do I find out my home&rsquo;s zoning designation?</strong></p>
+<p><span style="font-weight: 400;">A: Use the </span><strong>Seattle Zoning Map</strong><span style="font-weight: 400;"> or contact Innate&mdash;we&rsquo;ll research your NR1, NR2, or NR3 designation for you.</span></p>
+<p>&nbsp;</p>
+<p><strong>Q: Can I still remodel if my home doesn&rsquo;t meet current zoning rules?</strong></p>
+<p><span style="font-weight: 400;">A: Yes! Most </span><strong>nonconforming homes</strong><span style="font-weight: 400;"> can still be remodeled with careful planning and in some cases, city review. We specialize in helping clients navigate these situations.</span></p>
+<p>&nbsp;</p>
+<p><strong>Q: What&rsquo;s the first step to starting a remodel in Seattle?</strong></p>
+<p><span style="font-weight: 400;">A: The first step is a feasibility review. We&rsquo;ll assess your zoning, your goals, and your lot&mdash;and provide a clear strategy for your </span><strong>remodeling project</strong><span style="font-weight: 400;">.</span></p>
+<p>&nbsp;</p>
+<p><strong>Q: What if I want to build a DADU on my property?</strong></p>
+<p><span style="font-weight: 400;">A: NR2 and NR3 zones are generally more DADU-friendly. We can confirm if your lot qualifies and help with the full </span><strong>permit application</strong><span style="font-weight: 400;"> and build process.</span></p>
+<p>&nbsp;</p>
+<p><strong>Q: What&rsquo;s the benefit of using a design-build firm for zoning compliance?</strong></p>
+<p><span style="font-weight: 400;">A: We combine architecture, permitting, and construction under one roof&mdash;eliminating disconnects and ensuring your project aligns with city rules at every phase.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Let&rsquo;s Build Smart, Beautiful, and Within Code</strong></h2>
+<p><span style="font-weight: 400;">Zoning may seem like a barrier, but it doesn&rsquo;t have to be. With the right team, your project can stay compliant, creative, and completely aligned with your lifestyle goals.</span></p>
+<p><span style="font-weight: 400;">At </span><strong>Innate</strong><span style="font-weight: 400;">, we bring deep experience in </span><strong>Seattle home addition zoning</strong><span style="font-weight: 400;">, </span><strong>remodeling old homes in Seattle</strong><span style="font-weight: 400;">, and navigating the nuances of </span><strong>Seattle zoning NR1, NR2, NR3</strong><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">Whether you&rsquo;re ready to add a story, remodel your kitchen, or build a new DADU, we&rsquo;ll help you do it right&mdash;from concept through completion.</span></p>
+<p>&nbsp;</p>
+<p><strong>Schedule a consultation today to start planning your zoning-smart, design-forward remodel.</strong></p>
+        `,
+      },
+    ],
+    seo: {
+      title: "Seattle NR1, NR2, NR3 Zoning Explained",
+      description:
+        "Learn how Seattle’s NR1, NR2, and NR3 zoning codes affect home remodels, additions, and DADUs—plus tips from Innate NW for navigating permits and building smart.",
+      keywords:
+        "seattle zoning nr1 nr2 nr3, neighborhood residential zoning seattle, seattle residential remodel zoning, seattle home addition zoning, remodeling old homes seattle",
+    },
+  },
 ];
