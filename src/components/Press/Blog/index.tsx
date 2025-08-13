@@ -17,10 +17,22 @@ const Blog = () => {
   // const title = "1";
   // const slug = title.toLowerCase().replace(/\s+/g, "-");
 
+  // Sort blogSections by publishedDate (most recent first)
+  const sortedBlogSections = [...blogSections].sort((a, b) => {
+    if (!a.publishedDate || !b.publishedDate) return 0;
+
+    // Convert date strings to Date objects for comparison
+    const dateA = new Date(a.publishedDate);
+    const dateB = new Date(b.publishedDate);
+
+    // Sort in descending order (most recent first)
+    return dateB.getTime() - dateA.getTime();
+  });
+
   return (
     <div className=" pt-16">
       <div className="w-full max-w-full  flex flex-wrap justify-center gap-[24px] mb-[44px] mob:mb-[24px] px-16 md:px-20 mob:px-0">
-        {blogSections.map((section, key) => (
+        {sortedBlogSections.map((section, key) => (
           <div
             className="flex-grow max-w-[calc(25%-18px)] tab:max-w-[calc(50%-18px)] mob:max-w-[90%] border border-[#FFFFFF99] rounded-[10px]  flex flex-col relative"
             key={key}

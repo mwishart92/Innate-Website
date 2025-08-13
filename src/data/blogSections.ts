@@ -355,18 +355,14 @@ export const blogSections: ArticleSection[] = [
     id: 7,
     slug: "choosing-custom-home-builder",
     title: "How to Choose the Right Custom Home Builder",
-    thumbnail: "/images/press/getty-images-taq_rCqMARE-unsplash.webp",
+    thumbnail: "/images/press/Custom-Home-1.webp",
     tag: "Blog",
     excerpt: `Choosing the right custom home builder is key to bringing your vision to life. Learn what to look for and how Innate delivers a client-focused building experience.`,
     publishedDate: "7 August, 2025",
     content: [
       {
         type: "image",
-        src: [],
-        // [
-        //   "/images/press/getty-images-BFP6PqFc-6I-unsplash.webp",
-        //   "/images/press/clay-banks-1az3-tn1q7E-unsplash.webp",
-        // ],
+        src: ["/images/press/Custom-Home-2.webp"],
 
         alt: "Image description",
       },
