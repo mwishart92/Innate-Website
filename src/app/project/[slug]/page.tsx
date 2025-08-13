@@ -157,7 +157,7 @@ const projectData = {
         },
       ],
       galleryDescription:
-        "Completed in just four weeks, this South Seattle kitchen renovation showcases Innate-NW's commitment to quality, efficiency, and design excellence. Whether you're seeking a kitchen remodel in Seattle or a full-scale home renovation, our team brings deep experience and a collaborative approach to every custom project.",
+        "Completed in just four weeks, this South Seattle kitchen renovation showcases Innate's commitment to quality, efficiency, and design excellence. Whether you're seeking a kitchen remodel in Seattle or a full-scale home renovation, our team brings deep experience and a collaborative approach to every custom project.",
       projectSlider,
     },
     seo: {
