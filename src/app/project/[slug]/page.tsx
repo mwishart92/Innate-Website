@@ -762,7 +762,7 @@ const projectData = {
         component: (
           <Slide
             image=""
-            video="/images/project/knight-residence/05.25_Innate-NW_16x9 No SpeedRamp_No Sound.mp4"
+            video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/05.25_Innate-NW_16x9%20No%20SpeedRamp_No%20Sound.webm?alt=media&token=b30f1fba-154c-495e-870e-8058cebddedc"
           />
         ),
         delay: 36000,

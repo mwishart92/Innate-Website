@@ -100,7 +100,7 @@ export const slidesData: SlideData[] = [
     url: "/project/knight-residence",
     media: [
       {
-        src: "/images/project/knight-residence/05.25_Innate-NW_16x9 No SpeedRamp_No Sound.mp4",
+        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/05.25_Innate-NW_16x9%20No%20SpeedRamp_No%20Sound.webm?alt=media&token=b30f1fba-154c-495e-870e-8058cebddedc",
         type: "video",
       },
       {
