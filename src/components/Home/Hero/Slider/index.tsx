@@ -32,14 +32,14 @@ function HomeSlider() {
     },
     {
       component: (
-        <Slide video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Norman-bath.mp4?alt=media&token=963a355e-149c-4735-87f2-911ad70f6445" />
+        <Slide video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Norman-bath.webm?alt=media&token=35c5155c-f7e2-490e-940d-f864bf782980" />
       ),
       delay: 26000,
       projectName: "Norman Residence",
     },
     {
       component: (
-        <Slide video="/images/project/knight-residence/05.25_Innate-NW_16x9 No SpeedRamp_No Sound.mp4" />
+        <Slide video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/05.25_Innate-NW_16x9%20No%20SpeedRamp_No%20Sound.webm?alt=media&token=b30f1fba-154c-495e-870e-8058cebddedc" />
       ),
       delay: 26000,
       projectName: "Knight Residence",
