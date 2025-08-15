@@ -23,8 +23,8 @@ const First = () => {
         }}
       >
         <source
-          src="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/victoria%20bathroom.mp4?alt=media&token=7c9e1c15-fffa-4c74-b6fc-50b0cee6a94b"
-          type="video/mp4"
+          src="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/victoria%20bathroom.webm?alt=media&token=858f5a31-3157-4c83-91bb-6591b783a4f2"
+          type="video/webm"
         />
       </video>
       {videoLoaded && (
