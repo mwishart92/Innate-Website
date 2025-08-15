@@ -25,7 +25,7 @@ function HomeSlider() {
   const slides = [
     {
       component: (
-        <Slide video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/bosma-adu.mp4?alt=media&token=0c906c3e-ed25-4082-8230-f5941f54e9ce" />
+        <Slide video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/bosma-adu.webm?alt=media&token=b1ac720a-d1b2-4c3c-bf26-44930e7a890d" />
       ),
       delay: 36000,
       projectName: "Bosma ADU",
