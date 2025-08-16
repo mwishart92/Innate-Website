@@ -11,7 +11,13 @@ import Footer from "@/components/Footer";
 import { TabProvider } from "@/context/TabContsxt";
 import MyProvider from "@/components/MyProvider";
 import GTMPageTracker from "@/components/GTMPageTracker";
+import GTMDebug from "@/components/GTMDebug";
 import { GoogleTagManager } from "@next/third-parties/google";
+
+// Import GTM test utility for development
+if (process.env.NODE_ENV === 'development') {
+  import('@/utils/gtm-test');
+}
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const monts = Montserrat({ subsets: ["latin"], variable: "--font-monts" });
@@ -49,6 +55,7 @@ export default function RootLayout({
             <GTMPageTracker />
             {children}
             <Footer />
+            <GTMDebug />
           </TabProvider>
         </MyProvider>
         <GoogleTagManager gtmId="GTM-KNSHDN66" />

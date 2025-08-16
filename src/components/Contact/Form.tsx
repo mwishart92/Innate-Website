@@ -8,6 +8,7 @@ import facebook from '@/public/fbb.png'
 import linkedin from '@/public/LinkedIn.png'
 import instagaram from '@/public/Instagram.png'
 import { ClipLoader } from 'react-spinners'
+import { trackFormSuccess, trackFormFailure } from '@/utils/gtm'
 
 // interface LatLng {
 //   lat: number;
@@ -102,6 +103,11 @@ const Form: React.FC = () => {
       !formData.projectType ||
       !formData.message
     ) {
+      trackFormFailure('contact_form', {
+        form_type: 'contact',
+        error_message: 'Missing required fields',
+        form_data_keys: Object.keys(formData).filter(key => !formData[key as keyof typeof formData])
+      })
       Swal.fire({
         title: 'Error!',
         text: 'Please fill in all fields.',
@@ -111,6 +117,11 @@ const Form: React.FC = () => {
       })
       return
     } else if (!validateEmail(formData.email)) {
+      trackFormFailure('contact_form', {
+        form_type: 'contact',
+        error_message: 'Invalid email format',
+        email_provided: formData.email
+      })
       Swal.fire({
         title: 'Error!',
         text: 'Please Enter valid Email',
@@ -150,6 +161,11 @@ const Form: React.FC = () => {
       // Check if the response is successful
       if (!response.ok) {
         setLoading(false)
+        trackFormFailure('contact_form', {
+          form_type: 'contact',
+          error_message: `API call failed with status: ${response.status}`,
+          http_status: response.status
+        })
         throw new Error(`API call failed with status: ${response.status}`)
       }
 
@@ -159,6 +175,11 @@ const Form: React.FC = () => {
       setLoading(false)
       // Check the response success
       if (data.success) {
+        trackFormSuccess('contact_form', {
+          form_type: 'contact',
+          project_type: formData.projectType,
+          has_message: !!formData.message
+        })
         Swal.fire({
           title: 'Success!',
           icon: 'success',
@@ -174,6 +195,11 @@ const Form: React.FC = () => {
           message: '',
         })
       } else {
+        trackFormFailure('contact_form', {
+          form_type: 'contact',
+          error_message: data.message,
+          api_response: data
+        })
         Swal.fire({
           title: 'Error!',
           text: data.message,
@@ -187,6 +213,11 @@ const Form: React.FC = () => {
         'Error calling contactFlow API:',
         error instanceof Error ? error.message : error,
       )
+      trackFormFailure('contact_form', {
+        form_type: 'contact',
+        error_message: error instanceof Error ? error.message : 'Unknown error',
+        error_type: error instanceof Error ? error.constructor.name : typeof error
+      })
       Swal.fire({
         title: 'Error!',
         text: 'Something went Wrong. Please Try Again',

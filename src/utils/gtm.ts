@@ -10,6 +10,9 @@ export const pushGTMEvent = (
       event: eventName,
       ...eventData,
     });
+    console.log('GTM Event pushed:', eventName, eventData);
+  } else {
+    console.warn('GTM dataLayer not available');
   }
 };
 
@@ -86,4 +89,58 @@ export const trackTimeOnPage = (timeInSeconds: number) => {
   pushGTMEvent("time_on_page", {
     time_seconds: timeInSeconds,
   });
+};
+
+// Hook to automatically track link clicks
+export const useLinkTracking = () => {
+  const trackLink = (linkText: string, linkUrl: string, additionalData: Record<string, any> = {}) => {
+    trackLinkClick(linkText, linkUrl, {
+      link_location: 'page_content',
+      ...additionalData,
+    });
+  };
+
+  return { trackLink };
+};
+
+// Hook to automatically track button clicks
+export const useButtonTracking = () => {
+  const trackButton = (buttonName: string, additionalData: Record<string, any> = {}) => {
+    trackButtonClick(buttonName, {
+      button_location: 'page_content',
+      ...additionalData,
+    });
+  };
+
+  return { trackButton };
+};
+
+// Initialize automatic link tracking
+export const initializeLinkTracking = () => {
+  if (typeof window === "undefined") return;
+
+  const handleLinkClick = (event: MouseEvent) => {
+    const target = event.target as HTMLElement;
+    const link = target.closest('a');
+    
+    if (link) {
+      const linkText = link.textContent?.trim() || link.getAttribute('aria-label') || 'Unknown Link';
+      const linkUrl = link.href;
+      
+      // Don't track internal navigation links that use Next.js router
+      if (linkUrl && !linkUrl.startsWith('javascript:') && !linkUrl.startsWith('#')) {
+        trackLinkClick(linkText, linkUrl, {
+          link_location: 'automatic_tracking',
+          link_type: linkUrl.startsWith(window.location.origin) ? 'internal' : 'external',
+        });
+      }
+    }
+  };
+
+  document.addEventListener('click', handleLinkClick);
+  
+  // Cleanup function
+  return () => {
+    document.removeEventListener('click', handleLinkClick);
+  };
 };

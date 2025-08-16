@@ -17,6 +17,7 @@ import Form from "@/components/Contact/Form";
 import rightarrow from "@/public/images/press/RightArrowblue.png";
 import { cn } from "@/libs/utils/twMerge";
 import ProjectSlider from "@/components/Slider/ProjectSlider";
+import { trackButtonClick } from "@/utils/gtm";
 
 const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
   console.log(
@@ -71,12 +72,17 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
             <Link href="/onboarding">
               <button
                 type="submit"
-                onClick={() =>
+                onClick={() => {
+                  trackButtonClick('start_project_button', {
+                    button_location: 'project_description',
+                    project_slug: location?.pathname,
+                    button_text: 'Start project'
+                  });
                   localStorage?.setItem(
                     "onboardingRedirectUrl",
                     location?.pathname
-                  )
-                }
+                  );
+                }}
                 className="w-[172.63px] h-[50px] mt-8 border border-white text-white hover:bg-white hover:text-black hover:border-black text-[16px] font-medium flex items-center justify-center gap-1"
               >
                 Start project
