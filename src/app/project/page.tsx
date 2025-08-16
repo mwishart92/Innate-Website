@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import ProjectDescription from "@/components/Project/ProjectDescription";
+import ManualPageTracker from "@/components/ManualPageTracker";
 import React from "react";
 import type { Metadata } from "next";
 import p1 from "@/public/images/project/gabrielle-maurer-bSDRTDquQG8-unsplash.webp";
@@ -118,12 +119,19 @@ const page = () => {
     ],
   };
   return (
-    <div>
+    <>
+      <ManualPageTracker 
+        pageName="projects_page" 
+        additionalData={{
+          page_category: "portfolio",
+          page_section: "projects"
+        }}
+      />
       <Navbar />
       <ProjectSlider slides={slides} />
 
       <ProjectDescription projectDetails={projectDetails} />
-    </div>
+    </>
   );
 };
 

@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import ProjectDescription from "@/components/Project/ProjectDescription";
+import ManualPageTracker from "@/components/ManualPageTracker";
 import React from "react";
 import p1 from "@/public/images/project/gabrielle-maurer-bSDRTDquQG8-unsplash.webp";
 import p2 from "@/public/images/project/hans-isaacson-qmTwtPQtLVg-unsplash.webp";
@@ -1008,11 +1009,20 @@ export default async function ProjectPage({ params }: any) {
     projectDataForSlug?.defaultProjectDetails || defaultProjectDetails;
 
   return (
-    <div>
+    <>
+      <ManualPageTracker 
+        pageName={`project_${params.slug}`}
+        additionalData={{
+          page_category: "portfolio",
+          page_section: "project_detail",
+          project_slug: params.slug,
+          project_type: "dynamic_route"
+        }}
+      />
       <Navbar />
       <ProjectSlider slides={slides} />
       <ProjectDescription projectDetails={projectDetails} />
-    </div>
+    </>
   );
 }
 

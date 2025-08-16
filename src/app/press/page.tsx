@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Blog from "@/components/Press/Blog";
 import Contact from "@/components/Press/Contact";
 import HeroPress from "@/components/Press/HeroPress";
+import ManualPageTracker from "@/components/ManualPageTracker";
 import React from "react";
 import type { Metadata } from "next";
 
@@ -14,6 +15,13 @@ export const metadata: Metadata = {
 const PressPage = () => {
   return (
     <>
+      <ManualPageTracker 
+        pageName="press_page" 
+        additionalData={{
+          page_category: "media",
+          page_section: "press"
+        }}
+      />
       <Navbar />
       <HeroPress />
       <div className="gradient">

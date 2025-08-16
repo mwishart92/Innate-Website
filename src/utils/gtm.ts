@@ -1,15 +1,41 @@
 // GTM utility functions for tracking custom events
 
+// Initialize GTM dataLayer
+export const initializeGTM = () => {
+  if (typeof window === "undefined") return;
+
+  // Initialize dataLayer if it doesn't exist
+  if (!(window as any).dataLayer) {
+    (window as any).dataLayer = [];
+    console.log('GTM dataLayer initialized');
+  }
+
+  // Push initial GTM configuration
+  (window as any).dataLayer.push({
+    'gtm.start': new Date().getTime(),
+    event: 'gtm.js'
+  });
+
+  console.log('GTM initialized successfully');
+};
+
 // Push custom events to GTM dataLayer
 export const pushGTMEvent = (
   eventName: string,
   eventData: Record<string, any> = {}
 ) => {
-  if (typeof window !== "undefined" && (window as any).dataLayer) {
-    (window as any).dataLayer.push({
+  if (typeof window !== "undefined") {
+    // Ensure dataLayer exists
+    if (!(window as any).dataLayer) {
+      initializeGTM();
+    }
+
+    const event = {
       event: eventName,
       ...eventData,
-    });
+    };
+
+    (window as any).dataLayer.push(event);
     console.log('GTM Event pushed:', eventName, eventData);
   } else {
     console.warn('GTM dataLayer not available');
@@ -144,3 +170,11 @@ export const initializeLinkTracking = () => {
     document.removeEventListener('click', handleLinkClick);
   };
 };
+
+// Initialize GTM on module load
+if (typeof window !== "undefined") {
+  // Initialize after a short delay to ensure DOM is ready
+  setTimeout(() => {
+    initializeGTM();
+  }, 100);
+}
