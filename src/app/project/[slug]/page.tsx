@@ -805,6 +805,9 @@ From the exterior, the home combines durable Hardie siding with natural cedar sh
           image: "/images/project/wedgewood-adu/6L1A0990_websize.webp",
         },
         {
+          image: "/images/project/wedgewood-adu/6L1A0692_websize.webp",
+        },
+        {
           image: "/images/project/wedgewood-adu/6L1A0928_websize.webp",
           class: "col-span-3 aspect-[4/2]",
         },
