@@ -868,6 +868,109 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
       ],
     },
   },
+  "magnolia-bathroom": {
+    seo: {
+      title: "Magnolia Seattle Bathroom Remodel | Historic Craftsman Renovation",
+      description: `See how Innate-NW refreshed a historic Magnolia Craftsman bathroom with marble tile, custom frameless glass, and brass fixtures. This one-month bathroom remodel repaired water damage while preserving the home’s original charm.`,
+    },
+    defaultSlides: [
+      {
+        component: (
+          <Slide
+            image=""
+            video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_ADU_16x9.webm?alt=media&token=146a7881-9a11-4099-8f58-3714d7c5f98b"
+          />
+        ),
+        delay: 36000,
+        projectName: "Magnoia, Seattle",
+        projectType: "Renovation",
+      },
+    ],
+    defaultProjectDetails: {
+      projectScope: [
+        {
+          key: "Scope",
+          value: "Bathroom Remodel",
+        },
+        { key: "Type", value: "Renovation, Historic Preservation" },
+        { key: "Location", value: "Magnolia, Seattle" },
+        {
+          key: "Design Principle",
+          value: "Michael Wishart, Owner of Innate-NW",
+        },
+        {
+          key: "Photographer",
+          value: "Nicolai Buccino",
+        },
+        { key: "General Contractor", value: "Innate" },
+      ],
+      scopedescription: `This Magnolia Seattle bathroom renovation showcases how a careful balance of preservation and modernization can breathe new life into a historic Craftsman home. Tasked with refreshing a bathroom that had suffered water damage, our team’s goal was to maintain the original character of the home while updating the space with durable, timeless finishes.`,
+      media: {
+        desktop: "/images/project/knight-residence/6L1A8383-Enhanced-NR.webp",
+      },
+      description: [
+        `The renovation features marble tile, custom frameless glass, and warm brass fixtures that complement the home’s historic aesthetic. Each selection was chosen not only for its elegance but also for its ability to respect the home’s original architecture. By integrating these updates seamlessly, the bathroom feels both renewed and in harmony with the rest of the Craftsman design. This Seattle bathroom remodel also required thoughtful restoration work. Our craftsmen repaired water damage while ensuring structural integrity and moisture protection for the long term. The result is a bathroom that retains the charm of its past while offering modern function and beauty.`,
+      ],
+      gallery: [
+        {
+          image: "/images/project/wedgewood-adu/6L1A0713_websize.webp",
+        },
+        {
+          image: "/images/project/wedgewood-adu/6L1A0718_websize.webp",
+        },
+        {
+          image: "/images/project/wedgewood-adu/6L1A0727_websize.webp",
+        },
+        {
+          image: "/images/project/wedgewood-adu/6L1A0731_websize.webp",
+          class: "col-span-3 aspect-[4/2]",
+        },
+        {
+          image: "/images/project/wedgewood-adu/6L1A0738_websize.webp",
+        },
+        {
+          image: "/images/project/wedgewood-adu/6L1A0741_websize.webp",
+        },
+        {
+          image: "/images/project/wedgewood-adu/6L1A0744_websize.webp",
+        },
+        {
+          image: "/images/project/wedgewood-adu/6L1A0751_websize.webp",
+          class: "col-span-3 aspect-[4/2]",
+        },
+        {
+          image: "/images/project/wedgewood-adu/6L1A0755_websize.webp",
+        },
+      ],
+      galleryDescription: `Completed in just one month, this Magnolia bathroom renovation reflects Innate-NW’s commitment to detail, craftsmanship, and respect for the unique history of Seattle’s homes. Whether you’re updating a single bathroom or planning a whole home remodel, our team delivers thoughtful design and quality construction at every stage.`,
+      projectSlider: [
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+      ],
+    },
+  },
   "knight-residence": {
     seo: {
       title: "Knight Residence | Innate NW Renovation",
