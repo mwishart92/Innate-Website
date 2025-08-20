@@ -753,7 +753,7 @@ const projectData = {
       ],
     },
   },
-    "Wedgewood Seattle ADU": {
+  "wedgewood-adu": {
     seo: {
       title: "Wedgewood Seattle ADU | ADA-Compliant New Construction by Innate-NW",
       description: `Discover this Wedgewood Seattle ADU designed for multi-generational living and accessibility. Featuring Hardie siding, cedar shake accents, TimberTech deck, Andersen windows, custom cabinets, and ADA-compliant finishes, this 6-month new construction project blends function, beauty, and expert craftsmanship.`,
