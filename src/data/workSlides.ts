@@ -191,6 +191,17 @@ export const slidesData: SlideData[] = [
     ],
   },
   {
+    title: "Wedgewood ADU",
+    location: "North Seattle, Washington",
+    url: "/project/south-seattle-kitchen",
+    media: [
+      {
+        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_ADU_16x9.webm?alt=media&token=146a7881-9a11-4099-8f58-3714d7c5f98b",
+        type: "video",
+      },
+    ],
+  },
+  {
     title: "Madrona Remodel",
     location: "Seattle, Washington",
     url: "/project/madrona-remodel",
@@ -234,16 +245,6 @@ export const slidesData: SlideData[] = [
     media: [
       { src: "/images/work/solar2.jpg", type: "image" },
       { src: "/images/work/solar1.jpg", type: "image" },
-    ],
-  },
-  {
-    title: "Wedgewood ADU",
-    location: "North Seattle, Washington",
-    media: [
-      {
-        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/bosma-adu.mp4?alt=media&token=0c906c3e-ed25-4082-8230-f5941f54e9ce",
-        type: "video",
-      },
     ],
   },
   {
