@@ -877,12 +877,12 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
       {
         component: (
           <Slide
-            image=""
-            video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_ADU_16x9.webm?alt=media&token=146a7881-9a11-4099-8f58-3714d7c5f98b"
+            image= "/images/project/magnolia-bathroom/mag_banner.jpg"
+            video=""
           />
         ),
         delay: 36000,
-        projectName: "Magnoia, Seattle",
+        projectName: "Magnolia, Seattle",
         projectType: "Renovation",
       },
     ],
