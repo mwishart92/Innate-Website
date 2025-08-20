@@ -934,11 +934,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         },
         {
           image: "/images/project/magnolia-bathroom/6L1A0751_websize.webp",
-          class: "col-span-6 aspect-[4/2]",
-        },
-        {
-          image: "/images/project/magnolia-bathroom/6L1A0755_websize.webp",
-          class: "col-span-6 aspect-[4/2]",
+          class: "col-span-3 aspect-[4/2]",
         },
       ],
       galleryDescription: `Completed in just one month, this Magnolia bathroom renovation reflects Innate-NW’s commitment to detail, craftsmanship, and respect for the unique history of Seattle’s homes. Whether you’re updating a single bathroom or planning a whole home remodel, our team delivers thoughtful design and quality construction at every stage.`,
