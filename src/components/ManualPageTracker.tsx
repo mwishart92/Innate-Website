@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
-import { pushGTMEvent } from "@/utils/gtm";
+import { pushGTMEvent, checkGTMLoading, forceGTMLoading } from "@/utils/gtm";
 
 interface ManualPageTrackerProps {
   pageName?: string;
@@ -16,6 +16,16 @@ const ManualPageTracker: React.FC<ManualPageTrackerProps> = ({
   const pathname = usePathname();
 
   useEffect(() => {
+    // Check GTM loading status
+    const loadingStatus = checkGTMLoading();
+    console.log('ManualPageTracker - GTM Loading Status:', loadingStatus);
+    
+    // Force loading if not loaded
+    if (!loadingStatus.allLoaded) {
+      console.log('ManualPageTracker - Forcing GTM loading...');
+      forceGTMLoading();
+    }
+
     // Manual page view tracking for specific pages
     const pageViewData = {
       event: "manual_page_view",

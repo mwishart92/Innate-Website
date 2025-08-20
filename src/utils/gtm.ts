@@ -19,12 +19,76 @@ export const initializeGTM = () => {
   console.log('GTM initialized successfully');
 };
 
+// Check if GTM script is loaded
+export const checkGTMLoading = () => {
+  if (typeof window === "undefined") return false;
+
+  // Check if GTM script is in the DOM
+  const gtmScript = document.querySelector('script[src*="googletagmanager.com"]');
+  const gtmInlineScript = document.querySelector('script[innerHTML*="googletagmanager.com"]');
+  
+  // Check if dataLayer exists
+  const dataLayerExists = !!(window as any).dataLayer;
+  
+  // Check if gtag function exists
+  const gtagExists = !!(window as any).gtag;
+
+  console.log('GTM Loading Check:', {
+    gtmScript: !!gtmScript,
+    gtmInlineScript: !!gtmInlineScript,
+    dataLayerExists,
+    gtagExists,
+    dataLayerLength: dataLayerExists ? (window as any).dataLayer.length : 0
+  });
+
+  return {
+    gtmScript: !!gtmScript,
+    gtmInlineScript: !!gtmInlineScript,
+    dataLayerExists,
+    gtagExists,
+    allLoaded: !!(gtmScript || gtmInlineScript) && dataLayerExists
+  };
+};
+
+// Force GTM script loading if not present
+export const forceGTMLoading = () => {
+  if (typeof window === "undefined") return;
+
+  const loadingStatus = checkGTMLoading();
+  
+  if (!loadingStatus.allLoaded) {
+    console.log('Forcing GTM script loading...');
+    
+    // Create and inject GTM script
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-KNSHDN66';
+    script.onload = () => {
+      console.log('GTM script loaded successfully');
+      initializeGTM();
+    };
+    script.onerror = () => {
+      console.error('Failed to load GTM script');
+    };
+    
+    document.head.appendChild(script);
+  }
+};
+
 // Push custom events to GTM dataLayer
 export const pushGTMEvent = (
   eventName: string,
   eventData: Record<string, any> = {}
 ) => {
   if (typeof window !== "undefined") {
+    // Check GTM loading status
+    const loadingStatus = checkGTMLoading();
+    
+    // Force loading if not loaded
+    if (!loadingStatus.allLoaded) {
+      forceGTMLoading();
+    }
+
     // Ensure dataLayer exists
     if (!(window as any).dataLayer) {
       initializeGTM();
@@ -176,5 +240,6 @@ if (typeof window !== "undefined") {
   // Initialize after a short delay to ensure DOM is ready
   setTimeout(() => {
     initializeGTM();
+    checkGTMLoading();
   }, 100);
 }
