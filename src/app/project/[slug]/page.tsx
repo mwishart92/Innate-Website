@@ -790,13 +790,12 @@ const projectData = {
         { key: "General Contractor", value: "Innate" },
       ],
       scopedescription: `This Wedgewood Seattle ADU new construction demonstrates how thoughtful design and expert craftsmanship can create a home addition that balances beauty, function, and accessibility. Built as an attached unit for multi-generational living, this project was designed specifically with ADA and mobility needs in mind—ensuring comfort, safety, and ease of use for every family member.
-From the exterior, the home combines durable Hardie siding with natural cedar shake accents, creating a timeless yet modern look. A TimberTech deck with a custom metal railing extends living space outdoors, while Andersen A-Series windows and doors maximize natural light and energy efficiency. Inside, hardwood flooring and detailed interior/exterior trim showcase the craftsmanship that defines Innate-NW projects.`,
+From the exterior, the home combines durable Hardie siding with natural cedar shake accents, creating a timeless yet modern look.`,
       media: {
         desktop: "/images/project/knight-residence/6L1A8383-Enhanced-NR.webp",
       },
       description: [
-        `The interior layout features a custom kitchen remodel and bathroom renovation with finishes chosen for both elegance and accessibility. Custom cabinetry, widened doorways, and carefully planned layouts ensure ease of mobility, while high-quality materials bring warmth and style. Every element—from cabinet inserts to bathroom fixtures—was selected with both practicality and design in mind.
-Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innate-NW’s ability to deliver highly personalized projects that merge architectural excellence with functional living. Whether you’re considering a Seattle ADU or planning a full home remodel, our team brings expertise in design, construction, and accessibility solutions to every build.`,
+        `A TimberTech deck with a custom metal railing extends living space outdoors, while Andersen A-Series windows and doors maximize natural light and energy efficiency. Inside, hardwood flooring and detailed interior/exterior trim showcase the craftsmanship that defines Innate-NW projects.`,
       ],
       gallery: [
         {
@@ -836,7 +835,8 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
           class: "col-span-3 aspect-[4/2]",
         },
       ],
-      galleryDescription: `Located in Seattle's Fremont neighborhood, this bathroom remodel demonstrates Innate-NW's ability to deliver complex, high-end bathrooms in tight urban footprints. For homeowners seeking to replicate the tranquility and refinement of a luxury spa, our design-build team brings vision and craftsmanship to life.`,
+      galleryDescription: `The interior layout features a custom kitchen remodel and bathroom renovation with finishes chosen for both elegance and accessibility. Custom cabinetry, widened doorways, and carefully planned layouts ensure ease of mobility, while high-quality materials bring warmth and style. Every element—from cabinet inserts to bathroom fixtures—was selected with both practicality and design in mind.
+Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innate-NW’s ability to deliver highly personalized projects that merge architectural excellence with functional living. Whether you’re considering a Seattle ADU or planning a full home remodel, our team brings expertise in design, construction, and accessibility solutions to every build.`,
       projectSlider: [
         {
           image: slider1,
