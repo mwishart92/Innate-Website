@@ -41,6 +41,14 @@ export const slidesData: SlideData[] = [
     ],
   },
   {
+    title: "Magnolia Bathroom",
+    location: "Magnolia, Seattle",
+    url: "/project/magnolia-bathroom",
+    media: [
+      { src: "/images/project/magnolia-bathroom/6L1A0731_websize.webp", type: "image" },
+    ],
+  },
+  {
     title: "Shoreline Residence",
     location: "Shoreline, Washington",
     url: "/project/shoreline-residence",
