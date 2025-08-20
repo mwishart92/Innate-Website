@@ -906,40 +906,40 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
       ],
       scopedescription: `This Magnolia Seattle bathroom renovation showcases how a careful balance of preservation and modernization can breathe new life into a historic Craftsman home. Tasked with refreshing a bathroom that had suffered water damage, our team’s goal was to maintain the original character of the home while updating the space with durable, timeless finishes.`,
       media: {
-        desktop: "/images/project/knight-residence/6L1A8383-Enhanced-NR.webp",
+        desktop: "/images/project/magnolia-bathroom/6L1A0713_websize.webp",
       },
       description: [
         `The renovation features marble tile, custom frameless glass, and warm brass fixtures that complement the home’s historic aesthetic. Each selection was chosen not only for its elegance but also for its ability to respect the home’s original architecture. By integrating these updates seamlessly, the bathroom feels both renewed and in harmony with the rest of the Craftsman design. This Seattle bathroom remodel also required thoughtful restoration work. Our craftsmen repaired water damage while ensuring structural integrity and moisture protection for the long term. The result is a bathroom that retains the charm of its past while offering modern function and beauty.`,
       ],
       gallery: [
         {
-          image: "/images/project/wedgewood-adu/6L1A0713_websize.webp",
+          image: "/images/project/magnolia-bathroom/6L1A0713_websize.webp",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A0718_websize.webp",
+          image: "/images/project/magnolia-bathroom/6L1A0718_websize.webp",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A0727_websize.webp",
+          image: "/images/project/magnolia-bathroom/6L1A0727_websize.webp",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A0731_websize.webp",
+          image: "/images/project/magnolia-bathroom/6L1A0731_websize.webp",
           class: "col-span-3 aspect-[4/2]",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A0738_websize.webp",
+          image: "/images/project/magnolia-bathroom/6L1A0738_websize.webp",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A0741_websize.webp",
+          image: "/images/project/magnolia-bathroom/6L1A0741_websize.webp",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A0744_websize.webp",
+          image: "/images/project/magnolia-bathroom/6L1A0744_websize.webp",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A0751_websize.webp",
+          image: "/images/project/magnolia-bathroom/6L1A0751_websize.webp",
           class: "col-span-3 aspect-[4/2]",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A0755_websize.webp",
+          image: "/images/project/magnolia-bathroom/6L1A0755_websize.webp",
         },
       ],
       galleryDescription: `Completed in just one month, this Magnolia bathroom renovation reflects Innate-NW’s commitment to detail, craftsmanship, and respect for the unique history of Seattle’s homes. Whether you’re updating a single bathroom or planning a whole home remodel, our team delivers thoughtful design and quality construction at every stage.`,
