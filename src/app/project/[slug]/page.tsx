@@ -187,7 +187,7 @@ const projectData = {
         { key: "Location", value: "Palm Springs, California" },
         {
           key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate-NW",
+          value: "Michael Wishart, Owner of Innate",
         },
         { key: "General Contractor", value: "Innate" },
       ],
@@ -223,7 +223,7 @@ const projectData = {
         },
       ],
       galleryDescription:
-        "This Palm Springs home was fully designed in just three months, a testament to Innate-NW's efficient design process and collaborative approach. Whether you're building a new home in Palm Springs or looking to design a modern ADU, Innate-NW brings purpose, clarity, and intention to every residential project.",
+        "This Palm Springs home was fully designed in just three months, a testament to Innate's efficient design process and collaborative approach. Whether you're building a new home in Palm Springs or looking to design a modern ADU, Innate brings purpose, clarity, and intention to every residential project.",
       projectSlider,
     },
     seo: {
@@ -255,11 +255,11 @@ const projectData = {
         { key: "Location", value: "Kent, Washington" },
         {
           key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate-NW",
+          value: "Michael Wishart, Owner of Innate",
         },
         { key: "General Contractor", value: "Innate" },
       ],
-      scopedescription: `After a catastrophic pipe burst caused significant water damage, this Kent homeowner turned a disaster into an opportunity for a modern upgrade. Innate-NW stepped in to provide both bathroom renovation and natural disaster mitigation services, managing the insurance process and guiding the client through a streamlined four-week transformation. The result is a sophisticated, spa-inspired space that balances utility with luxury.`,
+      scopedescription: `After a catastrophic pipe burst caused significant water damage, this Kent homeowner turned a disaster into an opportunity for a modern upgrade. Innate stepped in to provide both bathroom renovation and natural disaster mitigation services, managing the insurance process and guiding the client through a streamlined four-week transformation. The result is a sophisticated, spa-inspired space that balances utility with luxury.`,
       media: {
         desktop: "/images/project/gray-bathroom/IMG_9334.webp",
       },
@@ -290,7 +290,7 @@ const projectData = {
           image: "/images/project/gray-bathroom/DSC00506.webp",
         },
       ],
-      galleryDescription: `Located in Kent, this bathroom remodel showcases Innate-NW's ability to turn urgent repairs into long-term value. By combining expert construction, design vision, and insurance coordination, we delivered a stunning result with minimal stress for the client.`,
+      galleryDescription: `Located in Kent, this bathroom remodel showcases Innate's ability to turn urgent repairs into long-term value. By combining expert construction, design vision, and insurance coordination, we delivered a stunning result with minimal stress for the client.`,
       projectSlider: [
         {
           image: slider1,
@@ -351,11 +351,11 @@ const projectData = {
         { key: "Location", value: "Kirkland, Washington" },
         {
           key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate-NW",
+          value: "Michael Wishart, Owner of Innate",
         },
         { key: "General Contractor", value: "Innate" },
       ],
-      scopedescription: `This Kirkland garage conversion project showcases the power of intentional design and flexible planning. Designed and built by Innate-NW, the ADU supports the needs of a growing family, functioning as a private suite for extended family, a potential rental unit, or future housing for a college-aged child. With polished concrete floors, whole wood cabinetry, and clerestory windows, the space combines modern design with warmth and utility.`,
+      scopedescription: `This Kirkland garage conversion project showcases the power of intentional design and flexible planning. Designed and built by Innate, the ADU supports the needs of a growing family, functioning as a private suite for extended family, a potential rental unit, or future housing for a college-aged child. With polished concrete floors, whole wood cabinetry, and clerestory windows, the space combines modern design with warmth and utility.`,
       media: {
         desktop: "/images/project/gray-bathroom/IMG_9334.webp",
       },
@@ -386,7 +386,7 @@ const projectData = {
           image: "/images/project/gray-bathroom/DSC00506.webp",
         },
       ],
-      galleryDescription: `Completed over the course of a year, this ADU in Kirkland reflects Innate-NW's expertise in full-service design-build projects. Whether you're planning a detached suite or a full garage conversion, our team delivers creative, high-functioning spaces that align with both lifestyle and long-term value.`,
+      galleryDescription: `Completed over the course of a year, this ADU in Kirkland reflects Innate's expertise in full-service design-build projects. Whether you're planning a detached suite or a full garage conversion, our team delivers creative, high-functioning spaces that align with both lifestyle and long-term value.`,
       projectSlider: [
         {
           image: slider1,
@@ -418,7 +418,7 @@ const projectData = {
   "kung-fu-tea": {
     seo: {
       title: "Kung FU Tea x TKK | Innate NW Renovation",
-      description: `This commercial tenant improvement project in Renton brought two beloved franchises—Kung Fu Tea and TKK Fried Chicken—under one roof. Designed by Michael Wishart and built by Innate-NW, the six-month project required precision, collaboration, and a deep understanding of franchise standards. From navigating a complex permitting process to aligning with brand-approved finishes, every detail was managed with care.`,
+      description: `This commercial tenant improvement project in Renton brought two beloved franchises—Kung Fu Tea and TKK Fried Chicken—under one roof. Designed by Michael Wishart and built by Innate, the six-month project required precision, collaboration, and a deep understanding of franchise standards. From navigating a complex permitting process to aligning with brand-approved finishes, every detail was managed with care.`,
     },
     defaultSlides: [
       {
@@ -443,11 +443,11 @@ const projectData = {
         { key: "Location", value: "Renton, Washington" },
         {
           key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate-NW",
+          value: "Michael Wishart, Owner of Innate",
         },
         { key: "General Contractor", value: "Innate" },
       ],
-      scopedescription: `This commercial tenant improvement project in Renton brought two beloved franchises—Kung Fu Tea and TKK Fried Chicken—under one roof. Designed by Michael Wishart and built by Innate-NW, the six-month project required precision, collaboration, and a deep understanding of franchise standards. From navigating a complex permitting process to aligning with brand-approved finishes, every detail was managed with care.`,
+      scopedescription: `This commercial tenant improvement project in Renton brought two beloved franchises—Kung Fu Tea and TKK Fried Chicken—under one roof. Designed by Michael Wishart and built by Innate, the six-month project required precision, collaboration, and a deep understanding of franchise standards. From navigating a complex permitting process to aligning with brand-approved finishes, every detail was managed with care.`,
       media: {
         desktop: "/images/project/kung-fu-tea/D5_Image TKK restaurant 1.webp",
       },
@@ -470,7 +470,7 @@ const projectData = {
           class: "col-span-3 aspect-[4/2]",
         },
       ],
-      galleryDescription: `Located in Renton, this commercial build-out reflects Innate-NW's expertise in restaurant and franchise tenant improvements. Whether you're opening a boutique café or a multi-unit food concept, our team ensures your space is compliant, functional, and true to your brand's identity.`,
+      galleryDescription: `Located in Renton, this commercial build-out reflects Innate's expertise in restaurant and franchise tenant improvements. Whether you're opening a boutique café or a multi-unit food concept, our team ensures your space is compliant, functional, and true to your brand's identity.`,
       projectSlider: [
         {
           image: slider1,
@@ -502,7 +502,7 @@ const projectData = {
   "madrona-remodel": {
     seo: {
       title: "Madrona Remodel | Innate NW Renovation",
-      description: `This kitchen remodel in Seattle's historic Madrona neighborhood presented a unique set of challenges—steep slope, tight site conditions, and an aging structure that required a full seismic retrofit. Innate-NW led the design and renovation, transforming the original layout into a bright, modern kitchen with expanded square footage and improved structural integrity. The six-month kitchen renovation resulted in a functional and resilient space that seamlessly blends old and new.`,
+      description: `This kitchen remodel in Seattle's historic Madrona neighborhood presented a unique set of challenges—steep slope, tight site conditions, and an aging structure that required a full seismic retrofit. Innate led the design and renovation, transforming the original layout into a bright, modern kitchen with expanded square footage and improved structural integrity. The six-month kitchen renovation resulted in a functional and resilient space that seamlessly blends old and new.`,
     },
     defaultSlides: [
       {
@@ -527,11 +527,11 @@ const projectData = {
         { key: "Location", value: "Madrona – Seattle, Washington" },
         {
           key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate-NW",
+          value: "Michael Wishart, Owner of Innate",
         },
         { key: "General Contractor", value: "Innate" },
       ],
-      scopedescription: `This kitchen remodel in Seattle's historic Madrona neighborhood presented a unique set of challenges—steep slope, tight site conditions, and an aging structure that required a full seismic retrofit. Innate-NW led the design and renovation, transforming the original layout into a bright, modern kitchen with expanded square footage and improved structural integrity. The six-month kitchen renovation resulted in a functional and resilient space that seamlessly blends old and new.`,
+      scopedescription: `This kitchen remodel in Seattle's historic Madrona neighborhood presented a unique set of challenges—steep slope, tight site conditions, and an aging structure that required a full seismic retrofit. Innate led the design and renovation, transforming the original layout into a bright, modern kitchen with expanded square footage and improved structural integrity. The six-month kitchen renovation resulted in a functional and resilient space that seamlessly blends old and new.`,
       media: {
         desktop: "/images/project/madrona-remodel/living3.webp",
       },
@@ -553,7 +553,7 @@ const projectData = {
           class: "col-span-3 aspect-[4/2]",
         },
       ],
-      galleryDescription: `This Madrona remodel showcases Innate-NW's ability to manage high-complexity renovation projects in Seattle's older homes. From kitchen additions to full structural upgrades, our team specializes in projects that require both creative design and technical expertise.`,
+      galleryDescription: `This Madrona remodel showcases Innate's ability to manage high-complexity renovation projects in Seattle's older homes. From kitchen additions to full structural upgrades, our team specializes in projects that require both creative design and technical expertise.`,
       projectSlider: [
         {
           image: slider1,
@@ -585,7 +585,7 @@ const projectData = {
   "shoreline-residence": {
     seo: {
       title: "Shoreline Residence | Innate NW Renovation",
-      description: `This Shoreline home renovation and addition project transformed a charming one-story residence into a spacious, multi-level family home. Designed for a young couple preparing for the next chapter of life, Innate-NW led the design and construction of a new upper floor, full kitchen remodel, and outdoor living upgrades. The result is a warm, modern space that blends everyday function with lasting quality.`,
+      description: `This Shoreline home renovation and addition project transformed a charming one-story residence into a spacious, multi-level family home. Designed for a young couple preparing for the next chapter of life, Innate led the design and construction of a new upper floor, full kitchen remodel, and outdoor living upgrades. The result is a warm, modern space that blends everyday function with lasting quality.`,
     },
     defaultSlides: [
       {
@@ -610,11 +610,11 @@ const projectData = {
         { key: "Location", value: "Shoreline, Washington" },
         {
           key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate-NW",
+          value: "Michael Wishart, Owner of Innate",
         },
         { key: "General Contractor", value: "Innate" },
       ],
-      scopedescription: `This Shoreline home renovation and addition project transformed a charming one-story residence into a spacious, multi-level family home. Designed for a young couple preparing for the next chapter of life, Innate-NW led the design and construction of a new upper floor, full kitchen remodel, and outdoor living upgrades. The result is a warm, modern space that blends everyday function with lasting quality.`,
+      scopedescription: `This Shoreline home renovation and addition project transformed a charming one-story residence into a spacious, multi-level family home. Designed for a young couple preparing for the next chapter of life, Innate led the design and construction of a new upper floor, full kitchen remodel, and outdoor living upgrades. The result is a warm, modern space that blends everyday function with lasting quality.`,
       media: {
         desktop:
           "/images/project/shoreline-residence/D5_front 01_20240625_010002.webp",
@@ -636,7 +636,7 @@ const projectData = {
             "/images/project/shoreline-residence/D5_Scene 23 1_20240628_085609.webp",
         },
       ],
-      galleryDescription: `This Shoreline project exemplifies Innate-NW's holistic approach to residential renovations, combining kitchen remodeling, outdoor design, and new construction under one cohesive plan. Whether you're planning an addition or remodeling your current home, we bring design precision and build excellence to every square foot.`,
+      galleryDescription: `This Shoreline project exemplifies Innate's holistic approach to residential renovations, combining kitchen remodeling, outdoor design, and new construction under one cohesive plan. Whether you're planning an addition or remodeling your current home, we bring design precision and build excellence to every square foot.`,
       projectSlider: [
         {
           image: slider1,
@@ -668,7 +668,7 @@ const projectData = {
   "freitas-bathroom": {
     seo: {
       title: "Freitas Bathroom | Innate NW Renovation",
-      description: `Tucked into the top floor of a historic Capitol Hill apartment, this bathroom remodel turned a compact, outdated space into a refined retreat. Innate-NW handled both design and construction, navigating the logistical challenges of carrying all materials up several flights while preserving the quiet character of the building. The project was completed in just two weeks with minimal disruption to neighbors.`,
+      description: `Tucked into the top floor of a historic Capitol Hill apartment, this bathroom remodel turned a compact, outdated space into a refined retreat. Innate handled both design and construction, navigating the logistical challenges of carrying all materials up several flights while preserving the quiet character of the building. The project was completed in just two weeks with minimal disruption to neighbors.`,
     },
     defaultSlides: [
       {
@@ -693,7 +693,7 @@ const projectData = {
         { key: "Location", value: "Capitol Hill – Seattle, Washington" },
         {
           key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate-NW",
+          value: "Michael Wishart, Owner of Innate",
         },
         {
           key: "Photographer",
@@ -701,7 +701,7 @@ const projectData = {
         },
         { key: "General Contractor", value: "Innate" },
       ],
-      scopedescription: `Tucked into the top floor of a historic Capitol Hill apartment, this bathroom remodel turned a compact, outdated space into a refined retreat. Innate-NW handled both design and construction, navigating the logistical challenges of carrying all materials up several flights while preserving the quiet character of the building. The project was completed in just two weeks with minimal disruption to neighbors.`,
+      scopedescription: `Tucked into the top floor of a historic Capitol Hill apartment, this bathroom remodel turned a compact, outdated space into a refined retreat. Innate handled both design and construction, navigating the logistical challenges of carrying all materials up several flights while preserving the quiet character of the building. The project was completed in just two weeks with minimal disruption to neighbors.`,
       media: {
         desktop: "/images/project/freitas-bathroom/6L1A8451-Enhanced-NR.webp",
       },
@@ -724,7 +724,7 @@ const projectData = {
           class: "col-span-3 aspect-[4/2]",
         },
       ],
-      galleryDescription: `This Capitol Hill bathroom remodel exemplifies Innate-NW's ability to deliver high-quality renovations in tight urban settings. Whether you're updating a condo or reimagining a vintage apartment, our team delivers thoughtful, stylish solutions tailored to your space.`,
+      galleryDescription: `This Capitol Hill bathroom remodel exemplifies Innate's ability to deliver high-quality renovations in tight urban settings. Whether you're updating a condo or reimagining a vintage apartment, our team delivers thoughtful, stylish solutions tailored to your space.`,
       projectSlider: [
         {
           image: slider1,
@@ -755,7 +755,7 @@ const projectData = {
   },
   "wedgewood-adu": {
     seo: {
-      title: "Wedgewood Seattle ADU | ADA-Compliant New Construction by Innate-NW",
+      title: "Wedgewood Seattle ADU | ADA-Compliant New Construction by Innate",
       description: `Discover this Wedgewood Seattle ADU designed for multi-generational living and accessibility. Featuring Hardie siding, cedar shake accents, TimberTech deck, Andersen windows, custom cabinets, and ADA-compliant finishes, this 6-month new construction project blends function, beauty, and expert craftsmanship.`,
     },
     defaultSlides: [
@@ -781,7 +781,7 @@ const projectData = {
         { key: "Location", value: "Wedgewood, Seattle" },
         {
           key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate-NW",
+          value: "Michael Wishart, Owner of Innate",
         },
         {
           key: "Photographer",
@@ -795,7 +795,7 @@ From the exterior, the home combines durable Hardie siding with natural cedar sh
         desktop: "/images/project/knight-residence/6L1A8383-Enhanced-NR.webp",
       },
       description: [
-        `A TimberTech deck with a custom metal railing extends living space outdoors, while Andersen A-Series windows and doors maximize natural light and energy efficiency. Inside, hardwood flooring and detailed interior/exterior trim showcase the craftsmanship that defines Innate-NW projects.`,
+        `A TimberTech deck with a custom metal railing extends living space outdoors, while Andersen A-Series windows and doors maximize natural light and energy efficiency. Inside, hardwood flooring and detailed interior/exterior trim showcase the craftsmanship that defines Innate projects.`,
       ],
       gallery: [
         {
@@ -839,7 +839,7 @@ From the exterior, the home combines durable Hardie siding with natural cedar sh
         },
       ],
       galleryDescription: `The interior layout features a custom kitchen remodel and bathroom renovation with finishes chosen for both elegance and accessibility. Custom cabinetry, widened doorways, and carefully planned layouts ensure ease of mobility, while high-quality materials bring warmth and style. Every element—from cabinet inserts to bathroom fixtures—was selected with both practicality and design in mind.
-Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innate-NW’s ability to deliver highly personalized projects that merge architectural excellence with functional living. Whether you’re considering a Seattle ADU or planning a full home remodel, our team brings expertise in design, construction, and accessibility solutions to every build.`,
+Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innate’s ability to deliver highly personalized projects that merge architectural excellence with functional living. Whether you’re considering a Seattle ADU or planning a full home remodel, our team brings expertise in design, construction, and accessibility solutions to every build.`,
       projectSlider: [
         {
           image: slider1,
@@ -871,7 +871,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
   "magnolia-bathroom": {
     seo: {
       title: "Magnolia Seattle Bathroom Remodel | Historic Craftsman Renovation",
-      description: `See how Innate-NW refreshed a historic Magnolia Craftsman bathroom with marble tile, custom frameless glass, and brass fixtures. This one-month bathroom remodel repaired water damage while preserving the home’s original charm.`,
+      description: `See how Innate refreshed a historic Magnolia Craftsman bathroom with marble tile, custom frameless glass, and brass fixtures. This one-month bathroom remodel repaired water damage while preserving the home’s original charm.`,
     },
     defaultSlides: [
       {
@@ -883,7 +883,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         ),
         delay: 36000,
         projectName: "Magnolia, Seattle",
-        projectType: "Renovation",
+        projectType: "Bathroom Remodel",
       },
     ],
     defaultProjectDetails: {
@@ -896,7 +896,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         { key: "Location", value: "Magnolia, Seattle" },
         {
           key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate-NW",
+          value: "Michael Wishart, Owner of Innate",
         },
         {
           key: "Photographer",
@@ -937,7 +937,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
           class: "col-span-3 aspect-[4/2]",
         },
       ],
-      galleryDescription: `Completed in just one month, this Magnolia bathroom renovation reflects Innate-NW’s commitment to detail, craftsmanship, and respect for the unique history of Seattle’s homes. Whether you’re updating a single bathroom or planning a whole home remodel, our team delivers thoughtful design and quality construction at every stage.`,
+      galleryDescription: `Completed in just one month, this Magnolia bathroom renovation reflects Innate’s commitment to detail, craftsmanship, and respect for the unique history of Seattle’s homes. Whether you’re updating a single bathroom or planning a whole home remodel, our team delivers thoughtful design and quality construction at every stage.`,
       projectSlider: [
         {
           image: slider1,
@@ -969,7 +969,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
   "knight-residence": {
     seo: {
       title: "Knight Residence | Innate NW Renovation",
-      description: `Inspired by a luxurious hotel spa they visited in Spain, the clients for this Fremont bathroom remodel came to Innate-NW with a clear vision and a high bar for detail. Over six weeks, we transformed their existing bathroom into a serene, modern retreat that balances elegance with precision. From custom cabinetry to fully integrated wall-mounted fixtures, every element was tailored to match the client's aesthetic goals.`,
+      description: `Inspired by a luxurious hotel spa they visited in Spain, the clients for this Fremont bathroom remodel came to Innate with a clear vision and a high bar for detail. Over six weeks, we transformed their existing bathroom into a serene, modern retreat that balances elegance with precision. From custom cabinetry to fully integrated wall-mounted fixtures, every element was tailored to match the client's aesthetic goals.`,
     },
     defaultSlides: [
       {
@@ -994,7 +994,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         { key: "Location", value: "Fremont – Seattle, Washington" },
         {
           key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate-NW",
+          value: "Michael Wishart, Owner of Innate NW",
         },
         {
           key: "Photographer",
@@ -1002,7 +1002,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         },
         { key: "General Contractor", value: "Innate" },
       ],
-      scopedescription: `Inspired by a luxurious hotel spa they visited in Spain, the clients for this Fremont bathroom remodel came to Innate-NW with a clear vision and a high bar for detail. Over six weeks, we transformed their existing bathroom into a serene, modern retreat that balances elegance with precision. From custom cabinetry to fully integrated wall-mounted fixtures, every element was tailored to match the client's aesthetic goals.`,
+      scopedescription: `Inspired by a luxurious hotel spa they visited in Spain, the clients for this Fremont bathroom remodel came to Innate with a clear vision and a high bar for detail. Over six weeks, we transformed their existing bathroom into a serene, modern retreat that balances elegance with precision. From custom cabinetry to fully integrated wall-mounted fixtures, every element was tailored to match the client's aesthetic goals.`,
       media: {
         desktop: "/images/project/knight-residence/6L1A8383-Enhanced-NR.webp",
       },
@@ -1050,7 +1050,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
           class: "col-span-3 aspect-[4/2]",
         },
       ],
-      galleryDescription: `Located in Seattle's Fremont neighborhood, this bathroom remodel demonstrates Innate-NW's ability to deliver complex, high-end bathrooms in tight urban footprints. For homeowners seeking to replicate the tranquility and refinement of a luxury spa, our design-build team brings vision and craftsmanship to life.`,
+      galleryDescription: `Located in Seattle's Fremont neighborhood, this bathroom remodel demonstrates Innate's ability to deliver complex, high-end bathrooms in tight urban footprints. For homeowners seeking to replicate the tranquility and refinement of a luxury spa, our design-build team brings vision and craftsmanship to life.`,
       projectSlider: [
         {
           image: slider1,
