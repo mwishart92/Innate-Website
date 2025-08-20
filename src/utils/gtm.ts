@@ -252,6 +252,37 @@ export const initializeLinkTracking = () => {
   };
 };
 
+// Initialize automatic form tracking
+export const initializeFormTracking = () => {
+  if (typeof window === "undefined") return;
+
+  const handleFormSubmit = (event: Event) => {
+    const form = event.target as HTMLFormElement;
+    
+    if (form) {
+      const formName = form.getAttribute('data-form-name') || form.id || 'unknown_form';
+      const formAction = form.action || 'unknown_action';
+      const formMethod = form.method || 'unknown_method';
+      
+      // Track form submission attempt
+      trackFormSubmission(formName, {
+        form_action: formAction,
+        form_method: formMethod,
+        form_location: 'automatic_tracking',
+        form_elements_count: form.elements.length
+      });
+    }
+  };
+
+  // Track form submissions
+  document.addEventListener('submit', handleFormSubmit);
+  
+  // Cleanup function
+  return () => {
+    document.removeEventListener('submit', handleFormSubmit);
+  };
+};
+
 // Initialize GTM on module load
 if (typeof window !== "undefined") {
   // Initialize after a short delay to ensure DOM is ready

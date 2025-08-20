@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
-import { initializeLinkTracking, initializeGTM, checkGTMLoading, forceGTMLoading } from "@/utils/gtm";
+import { initializeLinkTracking, initializeGTM, checkGTMLoading, forceGTMLoading, initializeFormTracking } from "@/utils/gtm";
 
 const GTMPageTracker = () => {
   const pathname = usePathname();
@@ -67,9 +67,15 @@ const GTMPageTracker = () => {
 
   useEffect(() => {
     // Initialize automatic link tracking
-    const cleanup = initializeLinkTracking();
+    const linkCleanup = initializeLinkTracking();
     
-    return cleanup;
+    // Initialize automatic form tracking
+    const formCleanup = initializeFormTracking();
+    
+    return () => {
+      if (linkCleanup) linkCleanup();
+      if (formCleanup) formCleanup();
+    };
   }, []);
 
   // Additional effect to ensure page view is tracked on initial load

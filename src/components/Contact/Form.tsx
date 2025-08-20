@@ -8,7 +8,7 @@ import facebook from '@/public/fbb.png'
 import linkedin from '@/public/LinkedIn.png'
 import instagaram from '@/public/Instagram.png'
 import { ClipLoader } from 'react-spinners'
-import { trackFormSuccess, trackFormFailure } from '@/utils/gtm'
+import { trackFormSuccess, trackFormFailure, trackButtonClick } from '@/utils/gtm'
 
 // interface LatLng {
 //   lat: number;
@@ -90,10 +90,17 @@ const Form: React.FC = () => {
     })
   }
 
-  const handleClick = async (
-    event: React.MouseEvent<HTMLButtonElement>,
+  const handleSubmit = async (
+    event: React.FormEvent<HTMLFormElement>,
   ): Promise<void> => {
     event.preventDefault()
+
+    // Track button click
+    trackButtonClick('contact_form_submit', {
+      button_text: 'Submit',
+      form_type: 'contact',
+      button_location: 'contact_form'
+    })
 
     if (
       !formData.name ||
@@ -236,7 +243,7 @@ const Form: React.FC = () => {
             <ClipLoader color="#007bff" size={50} />
           </div>
         )}
-        <form className="mob:flex-1 mob:flex-col max-w-[100%]  mob:max-w-[100%] w-full ">
+        <form onSubmit={handleSubmit} className="w-full max-w-[611px]">
           <div className="relative w-full">
             <input
               type="text"
@@ -442,7 +449,6 @@ const Form: React.FC = () => {
           <button
             type="submit"
             className="w-[130.63px] h-[50px] hover:bg-white hover:text-black hover:border-black transition duration-300 border border-white text-white text-[16px] font-normal flex items-center justify-center gap-1 px-[24px] py-[14px] mob:gap-2 mob:text-[14px] mob:h-[48px] mob:w-[125.63px]"
-            onClick={handleClick}
           >
             Submit
             <Image src={rightarrow} alt="" width={18} height={18} />
