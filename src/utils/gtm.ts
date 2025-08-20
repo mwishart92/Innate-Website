@@ -1,5 +1,14 @@
 // GTM utility functions for tracking custom events
 
+// Type definition for GTM loading status
+interface GTMLoadingStatus {
+  gtmScript: boolean;
+  gtmInlineScript: boolean;
+  dataLayerExists: boolean;
+  gtagExists: boolean;
+  allLoaded: boolean;
+}
+
 // Initialize GTM dataLayer
 export const initializeGTM = () => {
   if (typeof window === "undefined") return;
@@ -20,8 +29,16 @@ export const initializeGTM = () => {
 };
 
 // Check if GTM script is loaded
-export const checkGTMLoading = () => {
-  if (typeof window === "undefined") return false;
+export const checkGTMLoading = (): GTMLoadingStatus => {
+  if (typeof window === "undefined") {
+    return {
+      gtmScript: false,
+      gtmInlineScript: false,
+      dataLayerExists: false,
+      gtagExists: false,
+      allLoaded: false
+    };
+  }
 
   // Check if GTM script is in the DOM
   const gtmScript = document.querySelector('script[src*="googletagmanager.com"]');
