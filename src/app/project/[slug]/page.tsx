@@ -832,10 +832,10 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
           image: "/images/project/wedgewood-adu/6L1A0989_websize.webp",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A0990-Enhanced-NR.webp",
+          image: "/images/project/wedgewood-adu/6L1A0990_websize.webp",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A0999-Enhanced-NR.webp",
+          image: "/images/project/wedgewood-adu/6L1A0999_websize.webp",
           class: "col-span-3 aspect-[4/2]",
         },
       ],
