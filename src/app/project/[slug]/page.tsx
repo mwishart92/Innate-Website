@@ -803,39 +803,39 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
           image: "/images/project/wedgewood-adu/6L1A0896_websize.webp",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A0804_websize.webp",
+          image: "/images/project/wedgewood-adu/6L1A0904_websize.webp",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A0814_websize.webp",
+          image: "/images/project/wedgewood-adu/6L1A0914_websize.webp",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A0828_websize.webp",
+          image: "/images/project/wedgewood-adu/6L1A0928_websize.webp",
           class: "col-span-3 aspect-[4/2]",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A0848_websize.webp",
+          image: "/images/project/wedgewood-adu/6L1A0948_websize.webp",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A0862_websize.webp",
+          image: "/images/project/wedgewood-adu/6L1A0962_websize.webp",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A0870_websize.webp",
+          image: "/images/project/wedgewood-adu/6L1A0970_websize.webp",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A0874_websize.webp",
+          image: "/images/project/wedgewood-adu/6L1A0974_websize.webp",
           class: "col-span-3 aspect-[4/2]",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A0882_websize.webp",
+          image: "/images/project/wedgewood-adu/6L1A0982_websize.webp",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A0889_websize.webp",
+          image: "/images/project/wedgewood-adu/6L1A0989_websize.webp",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A8390-Enhanced-NR.webp",
+          image: "/images/project/wedgewood-adu/6L1A8990-Enhanced-NR.webp",
         },
         {
-          image: "/images/project/wedgewood-adu/6L1A8399-Enhanced-NR.webp",
+          image: "/images/project/wedgewood-adu/6L1A8999-Enhanced-NR.webp",
           class: "col-span-3 aspect-[4/2]",
         },
       ],

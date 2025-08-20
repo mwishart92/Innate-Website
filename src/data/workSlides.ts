@@ -193,7 +193,7 @@ export const slidesData: SlideData[] = [
   {
     title: "Wedgewood ADU",
     location: "North Seattle, Washington",
-    url: "/project/south-seattle-kitchen",
+    url: "/project/wedgewood-adu",
     media: [
       {
         src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_ADU_16x9.webm?alt=media&token=146a7881-9a11-4099-8f58-3714d7c5f98b",
