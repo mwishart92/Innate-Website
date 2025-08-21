@@ -9,3 +9,4 @@ node_modules
 .envpublic/images/optimized/
 *.mp4
 *.webm
+.env

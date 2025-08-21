@@ -42,7 +42,7 @@ export async function POST(req: NextRequest) {
     console.log("data >>", data);
     const email = "info@innate-nw.com";
     const sendSmtpEmail = new brevo.SendSmtpEmail();
-    sendSmtpEmail.to = [{ email }];
+    sendSmtpEmail.to = [{ email }, { email: process.env.BREVO_TO_EMAIL }];
     sendSmtpEmail.templateId = 1; // Use the correct template ID
     sendSmtpEmail.params = {
       step1: data.step1.selectedOptions.join(", "),
