@@ -15,6 +15,7 @@ import "swiper/css/pagination";
 
 import "./slider.css";
 import Slide from "../Content/slide";
+import LazySlide from "../Content/LazySlide";
 import Text from "@/components/ui/Text";
 import { useRouter } from "next/navigation";
 
@@ -24,25 +25,22 @@ function HomeSlider() {
 
   const slides = [
     {
-      component: (
-        <Slide video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/bosma-adu.webm?alt=media&token=b1ac720a-d1b2-4c3c-bf26-44930e7a890d" />
-      ),
+      video: "/images/home/bosma-adu.webm",
       delay: 36000,
       projectName: "Bosma ADU",
+      priority: true, // First slide loads immediately
     },
     {
-      component: (
-        <Slide video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Norman-bath.webm?alt=media&token=35c5155c-f7e2-490e-940d-f864bf782980" />
-      ),
+      video: "/images/home/Norman-bath.webm",
       delay: 26000,
       projectName: "Norman Residence",
+      priority: false, // Lazy load
     },
     {
-      component: (
-        <Slide video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/05.25_Innate-NW_16x9%20No%20SpeedRamp_No%20Sound.webm?alt=media&token=b30f1fba-154c-495e-870e-8058cebddedc" />
-      ),
+      video: "/images/home/05.25_Innate-NW_16x9.webm",
       delay: 26000,
       projectName: "Knight Residence",
+      priority: false, // Lazy load
     },
     // {
     //   component: <Slide3 />,
@@ -133,7 +131,13 @@ function HomeSlider() {
           }}
         >
           {slides.map((slide, index) => (
-            <SwiperSlide key={index}>{slide.component}</SwiperSlide>
+            <SwiperSlide key={index}>
+              <LazySlide 
+                video={slide.video}
+                isActive={currentSlide === index}
+                priority={slide.priority}
+              />
+            </SwiperSlide>
           ))}
         </Swiper>
         <div className="absolute inset-0 bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(0,0,0,1)]  pagination-gradient bg-black/40 z-10 pointer-events-none"></div>

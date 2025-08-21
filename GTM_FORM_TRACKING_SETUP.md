@@ -322,3 +322,4 @@ GTM Event pushed: form_submission {form_name: "contact_form", form_success: fals
    - Add additional form metrics
 
 The form tracking implementation should now capture all form submissions, button clicks, and form-related events properly in GTM.
+
