@@ -7,3 +7,5 @@ src/components/.DS_Store
 node_modules
 .next
 .envpublic/images/optimized/
+*.mp4
+*.webm
