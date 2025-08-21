@@ -6,4 +6,4 @@ public/images/.DS_Store
 src/components/.DS_Store
 node_modules
 .next
-.env
+.envpublic/images/optimized/
