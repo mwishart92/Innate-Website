@@ -33,7 +33,7 @@ const nextConfig: NextConfig = {
             })
           );
         } catch (error) {
-          console.warn('Bundle analyzer not available:', error.message);
+          console.warn('Bundle analyzer not available:', error instanceof Error ? error.message : String(error));
         }
       }
       return config;
