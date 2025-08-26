@@ -2,7 +2,7 @@
 // components/MyProvider.tsx
 import React, { ReactNode, useEffect } from 'react';
 
-import "aos/dist/aos.css"; // Import AOS CSS
+// AOS CSS is now imported in layout.tsx to prevent render blocking
 import AOS from "aos";
 interface MyProviderProps {
   children: ReactNode;

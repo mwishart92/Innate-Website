@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Press & Media | Industry Updates and Tips | Innate NW",
   description:
     "Innate NW's press section features news, media coverage, and insights into their innovative design and construction projects, highlighting the industry impact.",
+  alternates: {
+    canonical: 'https://innatenw.com/press',
+  },
   openGraph: {
     title: "Press & Media | Industry Updates and Tips | Innate NW",
     description: "Innate NW's press section features news, media coverage, and insights into their innovative design and construction projects, highlighting the industry impact.",

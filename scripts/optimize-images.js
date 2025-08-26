@@ -16,12 +16,38 @@ const IMAGES_DIR = path.join(__dirname, '../public/images');
 const QUALITY = 80;
 const MAX_WIDTH = 1920;
 const MAX_HEIGHT = 1080;
+const STRIP_METADATA = true; // Set to false if you want to preserve metadata
 
 // Supported image formats
 const SUPPORTED_FORMATS = ['.jpg', '.jpeg', '.png', '.webp'];
 
 // Skip directories that don't need optimization
 const SKIP_DIRS = ['node_modules', '.git', '.next', 'optimized'];
+
+// Function to get image metadata info
+async function getImageMetadata(imagePath) {
+  try {
+    const metadata = await sharp(imagePath).metadata();
+    return {
+      format: metadata.format,
+      width: metadata.width,
+      height: metadata.height,
+      hasProfile: metadata.hasProfile,
+      hasAlpha: metadata.hasAlpha,
+      isOpaque: metadata.isOpaque,
+      channels: metadata.channels,
+      depth: metadata.depth,
+      density: metadata.density,
+      orientation: metadata.orientation,
+      exif: metadata.exif ? 'Present' : 'None',
+      iptc: metadata.iptc ? 'Present' : 'None',
+      xmp: metadata.xmp ? 'Present' : 'None',
+      icc: metadata.icc ? 'Present' : 'None'
+    };
+  } catch (error) {
+    return null;
+  }
+}
 
 async function optimizeImage(inputPath, outputPath, options = {}) {
   try {
@@ -32,11 +58,24 @@ async function optimizeImage(inputPath, outputPath, options = {}) {
       format = 'webp'
     } = options;
 
-    await sharp(inputPath)
+    // Get original metadata if stripping is enabled
+    let originalMetadata = null;
+    if (STRIP_METADATA) {
+      originalMetadata = await getImageMetadata(inputPath);
+    }
+
+    let sharpInstance = sharp(inputPath)
       .resize(width, height, {
         fit: 'inside',
         withoutEnlargement: true
-      })
+      });
+
+    // Strip metadata if enabled
+    if (STRIP_METADATA) {
+      sharpInstance = sharpInstance.withMetadata(false);
+    }
+
+    await sharpInstance
       .webp({ quality })
       .toFile(outputPath);
 
@@ -44,7 +83,22 @@ async function optimizeImage(inputPath, outputPath, options = {}) {
     const optimizedSize = fs.statSync(outputPath).size;
     const savings = ((originalSize - optimizedSize) / originalSize * 100).toFixed(1);
 
-    console.log(`✅ ${path.basename(inputPath)} → ${path.basename(outputPath)} (${savings}% smaller)`);
+    let metadataInfo = '';
+    if (STRIP_METADATA && originalMetadata) {
+      const strippedMetadata = [];
+      if (originalMetadata.exif === 'Present') strippedMetadata.push('EXIF');
+      if (originalMetadata.iptc === 'Present') strippedMetadata.push('IPTC');
+      if (originalMetadata.xmp === 'Present') strippedMetadata.push('XMP');
+      if (originalMetadata.icc === 'Present') strippedMetadata.push('ICC');
+      
+      if (strippedMetadata.length > 0) {
+        metadataInfo = ` (stripped: ${strippedMetadata.join(', ')})`;
+      } else {
+        metadataInfo = ' (no metadata to strip)';
+      }
+    }
+    
+    console.log(`✅ ${path.basename(inputPath)} → ${path.basename(outputPath)} (${savings}% smaller${metadataInfo})`);
     
     return {
       originalSize,
@@ -133,6 +187,9 @@ async function main() {
   console.log(`   Total savings: ${result.savings.toFixed(1)}%`);
   console.log(`   Time taken: ${((endTime - startTime) / 1000).toFixed(1)}s`);
   console.log(`   Output directory: ${outputDir}`);
+  if (STRIP_METADATA) {
+    console.log(`   Metadata stripping: Enabled`);
+  }
 
   // Create a mapping file for easy reference
   const mapping = {

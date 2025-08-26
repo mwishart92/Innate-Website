@@ -8,11 +8,7 @@ import {
   Autoplay,
   Pagination,
 } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/scrollbar";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-
+// Swiper CSS is now imported centrally in layout.tsx
 import "./slider.css";
 import Text from "@/components/ui/Text";
 

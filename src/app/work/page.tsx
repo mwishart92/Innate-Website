@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Our Expert Design and Construction Work | Innate NW",
   description:
     "Innate NW specializes in Seattle custom design and construction solutions. Delivering innovative and sustainable projects tailored to meet unique client needs.",
+  alternates: {
+    canonical: 'https://innatenw.com/work',
+  },
   openGraph: {
     title: "Our Expert Design and Construction Work | Innate NW",
     description: "Innate NW specializes in Seattle custom design and construction solutions. Delivering innovative and sustainable projects tailored to meet unique client needs.",
