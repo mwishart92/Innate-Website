@@ -31,24 +31,17 @@ const Services = () => {
     <div className="pt-24 pb-4 mob:pt-0">
       <div className="flex flex-wrap justify-center w-full mx-auto">
         <div
-          className="w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden aspect-[5/5] mob:min-h-[390px] mob:aspect-[5/5] mob:border-r-0"
-          // style={{
-          //   border: '1px solid rgba(255, 255, 255, 0.6)',
-          //   borderBottom: 'none',
-          //   borderLeft: 'none',
-          // }}
+          className="w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden aspect-[5/5] mob:min-h-[390px] mob:aspect-[5/5] mob:border-r-0 transition-transform duration-300 ease-in-out hover:scale-105"
+          style={{
+            backgroundImage: `url(${frame1.src})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}
         >
           <div className="overflow-hidden h-full flex justify-center items-center relative">
             {/* Overlay */}
             <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
-
-            {/* Background Image */}
-            <Image
-              src={frame1}
-              alt="Roofing Service"
-              fill
-              className="transition-transform absolute z-0 top-0 h-full w-full object-cover duration-300 ease-in-out transform group-hover:scale-105"
-            />
 
             {/* Content */}
             <div className="relative z-10">
@@ -73,18 +66,18 @@ const Services = () => {
         </div>
 
         {/* Repeat the same for other items */}
-        <div className="w-[33.4%] min-h-[484px] tab:w-full group relative overflow-hidden mob:min-h-[390px] mob:border-0 mob:aspect-[5/5]">
-          <div className="overflow-hidden h-full flex justify-center items-center relative  ">
+        <div 
+          className="w-[33.4%] min-h-[484px] tab:w-full group relative overflow-hidden mob:min-h-[390px] mob:border-0 mob:aspect-[5/5] transition-transform duration-300 ease-in-out hover:scale-105"
+          style={{
+            backgroundImage: `url(${frame2.src})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}
+        >
+          <div className="overflow-hidden h-full flex justify-center items-center relative">
             {/* Overlay */}
             <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
-
-            <Image
-              src={frame2}
-              alt="Kitchens & Bathrooms Service"
-              width={480}
-              height={484}
-              className="transition-transform absolute z-0 top-0 h-full w-full object-cover duration-300 ease-in-out transform group-hover:scale-105"
-            />
 
             <div className="relative z-10">
               <Image
@@ -107,22 +100,18 @@ const Services = () => {
           </div>
         </div>
         <div
-          className="w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden aspect-[5/5] mob:min-h-[390px]"
-          // style={{
-          //   borderBottom: '1px solid rgba(255, 255, 255, 0.6)',
-          // }}
+          className="w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden aspect-[5/5] mob:min-h-[390px] transition-transform duration-300 ease-in-out hover:scale-105"
+          style={{
+            backgroundImage: `url(${frame3.src})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}
         >
           <div className="overflow-hidden h-full flex justify-center items-center relative mob:aspect-[5/5]">
             {/* Overlay */}
             <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
 
-            <Image
-              src={frame3}
-              alt="Roofing Service"
-              width={480}
-              height={484}
-              className="transition-transform absolute z-0 top-0 h-full duration-300 ease-in-out transform group-hover:scale-105 w-full object-cover"
-            />
             <div className="relative z-10">
               <Image
                 className="mx-auto w-[95px] h-[95px] mob:w-[78px] mob:h-[78px]"
@@ -148,23 +137,18 @@ const Services = () => {
       {/*  */}
       <div className="flex flex-wrap justify-center w-full min-h-[484px] overflow-hidden mx-auto mob:min-h-[390px]">
         <div
-          className="w-[50%] tab:w-full relative group min-h-[484px] overflow-hidden mob:min-h-[390px] mob:border-b-0 mob:border-r-0 mob:aspect-[5/5]"
-          // style={{
-          //   border: '1px solid rgba(255, 255, 255, 0.6)',
-          //   borderLeft: 'none',
-          // }}
+          className="w-[50%] tab:w-full relative group min-h-[484px] overflow-hidden mob:min-h-[390px] mob:border-b-0 mob:border-r-0 mob:aspect-[5/5] transition-transform duration-300 ease-in-out hover:scale-105"
+          style={{
+            backgroundImage: `url(${frame4.src})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}
         >
           <div className="overflow-hidden h-full flex justify-center items-center relative">
             {/* Overlay */}
             <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
 
-            <Image
-              src={frame4}
-              alt="Roofing Service"
-              width={480}
-              height={484}
-              className="transition-transform absolute z-0 top-0 h-full  duration-300 ease-in-out transform group-hover:scale-105 w-full object-cover"
-            />
             <div className="relative z-10">
               <Image
                 className="mx-auto w-[95px] h-[95px] mob:w-[78px] mob:h-[78px]"
@@ -189,24 +173,18 @@ const Services = () => {
         </div>
 
         <div
-          className="w-[50%] tab:w-full relative group min-h-[484px] overflow-hidden mob:min-h-[390px]"
-          // style={{
-          //   border: '1px solid rgba(255, 255, 255, 0.6)',
-          //   borderLeft: 'none',
-          //   borderRight: 'none',
-          // }}
+          className="w-[50%] tab:w-full relative group min-h-[484px] overflow-hidden mob:min-h-[390px] transition-transform duration-300 ease-in-out hover:scale-105"
+          style={{
+            backgroundImage: `url(${frame5.src})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}
         >
           <div className="overflow-hidden h-full flex justify-center items-center relative mob:aspect-[5/5]">
             {/* Overlay */}
             <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
 
-            <Image
-              src={frame5}
-              alt="Roofing Service"
-              width={480}
-              height={484}
-              className="transition-transform absolute z-0 top-0 h-full  duration-300 ease-in-out transform group-hover:scale-105 w-full object-cover"
-            />
             <div className="relative z-10">
               <Image
                 className="mx-auto w-[95px] h-[95px] mob:w-[78px] mob:h-[78px]"
@@ -231,23 +209,18 @@ const Services = () => {
       {/*  */}
       <div className="flex flex-wrap justify-center w-full mx-auto">
         <div
-          className="w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden mob:min-h-[390px] mob:border-l-0 mob:border-r-0"
-          // style={{
-          //   border: '1px solid rgba(255, 255, 255, 0.6)',
-          //   borderTop: 'none',
-          // }}
+          className="w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden mob:min-h-[390px] mob:border-l-0 mob:border-r-0 transition-transform duration-300 ease-in-out hover:scale-105"
+          style={{
+            backgroundImage: `url(${frame6.src})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}
         >
           <div className="overflow-hidden h-full flex justify-center items-center relative">
             {/* Overlay */}
             <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
 
-            <Image
-              src={frame6}
-              alt="Roofing Service"
-              width={480}
-              height={484}
-              className="transition-transform absolute z-0 top-0 h-full duration-300 ease-in-out transform group-hover:scale-105 w-full object-cover"
-            />
             <div className="relative z-10">
               <Image
                 className="mx-auto w-[95px] h-[95px] mob:w-[78px] mob:h-[78px]"
@@ -268,18 +241,18 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden mob:min-h-[390px]">
+        <div 
+          className="w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden mob:min-h-[390px] transition-transform duration-300 ease-in-out hover:scale-105"
+          style={{
+            backgroundImage: `url(${frame7.src})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}
+        >
           <div className="overflow-hidden h-full flex justify-center items-center relative mob:aspect-[5/5]">
             {/* Overlay */}
             <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
-
-            <Image
-              src={frame7}
-              alt="Decks Service"
-              width={480}
-              height={484}
-              className="transition-transform absolute z-0 top-0 h-full w-full object-cover duration-300 ease-in-out transform group-hover:scale-105"
-            />
 
             <div className="relative z-10">
               <Image
@@ -301,18 +274,19 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden mob:min-h-[390px] mob:aspect-[5/5]">
+        <div 
+          className="w-[33.3%] min-h-[484px] tab:w-full group relative overflow-hidden mob:min-h-[390px] mob:aspect-[5/5] transition-transform duration-300 ease-in-out hover:scale-105"
+          style={{
+            backgroundImage: `url(${frame8.src})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}
+        >
           <div className="overflow-hidden h-full flex justify-center items-center relative mob:aspect-[5/5]">
             {/* Overlay */}
             <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
 
-            <Image
-              src={frame8}
-              alt="Roofing Service"
-              width={480}
-              height={484}
-              className="transition-transform absolute z-0 top-0 h-full duration-300 ease-in-out transform group-hover:scale-105 w-full object-cover"
-            />
             <div className="relative z-10">
               <Image
                 className="mx-auto w-[95px] h-[95px] mob:w-[78px] mob:h-[78px]"
