@@ -125,15 +125,19 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
             {projectDetails.gallery.map((image: any, index: any) => (
               <div
                 key={index}
-                className={cn(image.class, "w-full mob:col-span-3")}
-              >
-                <Image
-                  src={image.image}
-                  alt=""
-                  className={cn("w-full object-cover !relative rounded-[10px]")}
-                  fill
-                />
-              </div>
+                className={cn(
+                  image.class, 
+                  "w-full mob:col-span-3 relative rounded-[10px] overflow-hidden",
+                  // Default aspect ratio for gallery items
+                  !image.class?.includes('aspect-') && "aspect-[4/3]"
+                )}
+                style={{
+                  backgroundImage: `url(${image.image})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat'
+                }}
+              />
             ))}
           </div>
           <div>
