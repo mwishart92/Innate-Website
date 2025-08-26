@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import Modal from 'react-modal';
+import Image from 'next/image';
 import Text from './Text';
 
 // Set modal app element for accessibility
@@ -38,10 +39,6 @@ const LoomVideoThumbnail: React.FC<LoomVideoThumbnailProps> = ({
 
   const cleanVideoId = getVideoId(videoId);
   const loomEmbedUrl = `https://www.loom.com/embed/${cleanVideoId}`;
-  
-  // Loom doesn't provide thumbnails via API like YouTube, so we'll use a placeholder
-  // You can replace this with an actual thumbnail image if available
-  const thumbnailUrl = `/images/loom-thumbnail-placeholder.jpg`; // You can add a custom thumbnail
 
   return (
     <>
@@ -51,29 +48,15 @@ const LoomVideoThumbnail: React.FC<LoomVideoThumbnailProps> = ({
           onClick={openModal}
         >
           {/* Thumbnail Container */}
-          <div className="relative w-[631px] h-[360px] mob:w-[354px] mob:h-[204px] bg-gray-800 rounded-lg overflow-hidden">
-            {/* Placeholder Background */}
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-purple-600 flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-20 h-20 bg-white bg-opacity-20 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                  <svg 
-                    className="w-10 h-10 text-white ml-1" 
-                    fill="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M8 5v14l11-7z"/>
-                  </svg>
-                </div>
-                <Text className="text-white text-lg font-medium">
-                  {title || "Watch Our Story"}
-                </Text>
-                {subtitle && (
-                  <Text className="text-white text-sm opacity-80 mt-2">
-                    {subtitle}
-                  </Text>
-                )}
-              </div>
-            </div>
+          <div className="relative w-[631px] h-[360px] mob:w-[354px] mob:h-[204px] rounded-lg overflow-hidden">
+            {/* Thumbnail Image */}
+            <Image
+              src="/images/home/loom_thumb.webp"
+              alt={`${title || 'Loom video'} thumbnail`}
+              width={631}
+              height={360}
+              className="w-full h-full object-cover"
+            />
             
             {/* Play Button Overlay */}
             <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 group-hover:bg-opacity-40 transition-all duration-300">
