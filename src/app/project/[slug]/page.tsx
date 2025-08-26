@@ -791,9 +791,7 @@ const projectData = {
       ],
       scopedescription: `This Wedgewood Seattle ADU new construction demonstrates how thoughtful design and expert craftsmanship can create a home addition that balances beauty, function, and accessibility. Built as an attached unit for multi-generational living, this project was designed specifically with ADA and mobility needs in mind—ensuring comfort, safety, and ease of use for every family member.
 From the exterior, the home combines durable Hardie siding with natural cedar shake accents, creating a timeless yet modern look.`,
-      media: {
-        desktop: "/images/project/knight-residence/6L1A8383-Enhanced-NR.webp",
-      },
+
       description: [
         `A TimberTech deck with a custom metal railing extends living space outdoors, while Andersen A-Series windows and doors maximize natural light and energy efficiency. Inside, hardwood flooring and detailed interior/exterior trim showcase the craftsmanship that defines Innate projects.`,
       ],
