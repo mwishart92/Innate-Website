@@ -146,8 +146,17 @@ const faqItems = [
 ];
 
 export const metadata: Metadata = {
-  title: "Services",
-  description: "Explore our range of professional services.",
+  title: "Design & Construction Services in Seattle | Innate NW",
+  description: "Explore Innate NW's comprehensive range of design and construction services in Seattle. From kitchen remodeling to ADUs, we deliver custom solutions with expert craftsmanship.",
+  openGraph: {
+    title: "Design & Construction Services in Seattle | Innate NW",
+    description: "Explore Innate NW's comprehensive range of design and construction services in Seattle. From kitchen remodeling to ADUs, we deliver custom solutions with expert craftsmanship.",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Design & Construction Services in Seattle | Innate NW",
+    description: "Explore Innate NW's comprehensive range of design and construction services in Seattle. From kitchen remodeling to ADUs, we deliver custom solutions with expert craftsmanship.",
+  },
 };
 
 const ServicesPage = () => {

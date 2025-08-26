@@ -1248,11 +1248,21 @@ export async function generateMetadata({
   const projectDataForSlug = projectData[slug as keyof typeof projectData];
 
   // Safely access seo properties with fallbacks
-  const seoTitle = (projectDataForSlug as any)?.seo?.title || "Innate NW";
-  const seoDescription = (projectDataForSlug as any)?.seo?.description || "";
+  const seoTitle = (projectDataForSlug as any)?.seo?.title || "Innate NW Project";
+  const seoDescription = (projectDataForSlug as any)?.seo?.description || "Explore this custom design and construction project by Innate NW in Seattle.";
 
   return {
     title: seoTitle,
     description: seoDescription,
+    // Add additional metadata to prevent conflicts
+    openGraph: {
+      title: seoTitle,
+      description: seoDescription,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: seoTitle,
+      description: seoDescription,
+    },
   };
 }
