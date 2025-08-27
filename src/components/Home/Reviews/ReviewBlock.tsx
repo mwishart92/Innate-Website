@@ -56,11 +56,11 @@ const ReviewBlock: React.FC<ReviewsProps> = ({
             </div>
           </div>
           <div className="flex gap-[1px] mt-4">
-            <img src="/Star.png" className="w-[22px]" />
-            <img src="/Star.png" className="w-[22px]" />
-            <img src="/Star.png" className="w-[22px]" />
-            <img src="/Star.png" className="w-[22px]" />
-            <img src="/Star.png" className="w-[22px]" />
+            <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
+            <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
+            <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
+            <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
+            <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
           </div>
           <Text
             className={cn(
