@@ -23,7 +23,7 @@ const Work: React.FC = () => {
   }, []);
 
   return (
-    <div className="gradient">
+    <div className="gradient  ">
       {/* Navbar */}
       <div className="sticky top-0 w-full z-50 bg-white shadow-md">
         <Navbar />
@@ -64,12 +64,13 @@ const Work: React.FC = () => {
             return (
               <ReactFullpage.Wrapper>
                 {slidesData.map((data, index) => (
-                  <div className="section " key={index}>
+                  <div className="section main-block" key={index}>
                     <WorkSlider
                       title={data.title}
                       location={data.location}
                       url={data.url || ""}
                       media={data.media}
+                      hover={data.hover}
                       className="absolute"
                     />
                     {data.media?.map((item, i) => (

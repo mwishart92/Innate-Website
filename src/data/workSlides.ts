@@ -3,6 +3,10 @@ export interface SlideData {
   location: string;
   url?: string;
   media?: { src: string; type: "image" | "video" }[];
+  hover?: {
+    title: string;
+    subTitle: string;
+  };
 }
 
 export const slidesData: SlideData[] = [
@@ -45,7 +49,10 @@ export const slidesData: SlideData[] = [
     location: "Magnolia, Seattle",
     url: "/project/magnolia-bathroom",
     media: [
-      { src: "/images/project/magnolia-bathroom/6L1A0731_websize.webp", type: "image" },
+      {
+        src: "/images/project/magnolia-bathroom/6L1A0731_websize.webp",
+        type: "image",
+      },
     ],
   },
   {
@@ -197,6 +204,12 @@ export const slidesData: SlideData[] = [
       { src: "/images/work/KFT2.png", type: "image" },
       { src: "/images/work/KFT1.png", type: "image" },
     ],
+    hover: {
+      title: "Kung Fu Tea x TKK | Commercial Construction & Design",
+      subTitle: `We successfully brought two franchises together, a task that demanded both a keen understanding of brand standards and navigation of a complex permitting process.
+Our dedicated team at Innate-NW managed everything from the initial design plans to the final construction stages. Added features include spacious seating, perfect for bustling crowds during peak times.
+`,
+    },
   },
   {
     title: "Wedgewood ADU",
