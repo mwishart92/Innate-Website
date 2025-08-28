@@ -16,7 +16,7 @@ export const slidesData: SlideData[] = [
     url: "/project/west-seattle-residence",
     media: [
       {
-        src: "/images/project/west-seattle-residence/06.25_Exterior-Bathroom_16x9.mp4",
+        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_Exterior-Bathroom.webm?alt=media&token=7d3e8e66-5096-4731-ac14-77755a3831c6",
         type: "video",
       },
       {

@@ -791,9 +791,7 @@ const projectData = {
       ],
       scopedescription: `This Wedgewood Seattle ADU new construction demonstrates how thoughtful design and expert craftsmanship can create a home addition that balances beauty, function, and accessibility. Built as an attached unit for multi-generational living, this project was designed specifically with ADA and mobility needs in mind—ensuring comfort, safety, and ease of use for every family member.
 From the exterior, the home combines durable Hardie siding with natural cedar shake accents, creating a timeless yet modern look.`,
-      media: {
-        desktop: "/images/project/knight-residence/6L1A8383-Enhanced-NR.webp",
-      },
+
       description: [
         `A TimberTech deck with a custom metal railing extends living space outdoors, while Andersen A-Series windows and doors maximize natural light and energy efficiency. Inside, hardwood flooring and detailed interior/exterior trim showcase the craftsmanship that defines Innate projects.`,
       ],
@@ -1085,7 +1083,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         component: (
           <Slide
             image=""
-            video="/images/project/west-seattle-residence/06.25_Exterior-Bathroom_16x9.mp4"
+            video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_Exterior-Bathroom.webm?alt=media&token=7d3e8e66-5096-4731-ac14-77755a3831c6"
           />
         ),
         delay: 36000,
@@ -1250,11 +1248,21 @@ export async function generateMetadata({
   const projectDataForSlug = projectData[slug as keyof typeof projectData];
 
   // Safely access seo properties with fallbacks
-  const seoTitle = (projectDataForSlug as any)?.seo?.title || "Innate NW";
-  const seoDescription = (projectDataForSlug as any)?.seo?.description || "";
+  const seoTitle = (projectDataForSlug as any)?.seo?.title || "Innate NW Project";
+  const seoDescription = (projectDataForSlug as any)?.seo?.description || "Explore this custom design and construction project by Innate NW in Seattle.";
 
   return {
     title: seoTitle,
     description: seoDescription,
+    // Add additional metadata to prevent conflicts
+    openGraph: {
+      title: seoTitle,
+      description: seoDescription,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: seoTitle,
+      description: seoDescription,
+    },
   };
 }

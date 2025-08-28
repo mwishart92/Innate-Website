@@ -16,6 +16,18 @@ export const metadata: Metadata = {
   title: "Custom Design and Construction Projects | Innate NW",
   description:
     "Explore Innate NW's diverse portfolio of innovative design and projects, showcasing sustainable solutions and craftsmanship tailored to unique client needs.",
+  alternates: {
+    canonical: 'https://innatenw.com/project',
+  },
+  openGraph: {
+    title: "Custom Design and Construction Projects | Innate NW",
+    description: "Explore Innate NW's diverse portfolio of innovative design and projects, showcasing sustainable solutions and craftsmanship tailored to unique client needs.",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Custom Design and Construction Projects | Innate NW",
+    description: "Explore Innate NW's diverse portfolio of innovative design and projects, showcasing sustainable solutions and craftsmanship tailored to unique client needs.",
+  },
 };
 
 const page = () => {

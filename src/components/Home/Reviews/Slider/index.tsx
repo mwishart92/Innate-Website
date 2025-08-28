@@ -135,11 +135,11 @@ function ReviewsSlider() {
                 </div>
               </div>
               <div className="flex gap-[1px] mt-4">
-                <img src="/Star.png" className="w-[22px]" />
-                <img src="/Star.png" className="w-[22px]" />
-                <img src="/Star.png" className="w-[22px]" />
-                <img src="/Star.png" className="w-[22px]" />
-                <img src="/Star.png" className="w-[22px]" />
+                <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
+                <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
+                <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
+                <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
+                <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
               </div>
               <p className="mt-2 text-sm/6 text-white/50">{content?.text}</p>
             </DialogPanel>

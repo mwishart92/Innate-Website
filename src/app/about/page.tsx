@@ -7,6 +7,18 @@ export const metadata: Metadata = {
   title: "About Us | Design & Construction in Seattle | Innate NW",
   description:
     "At Innate, we believe every client and project has unique needs—whether a small remodel or a large-scale commercial construction. Call us now (425) 866-5206.",
+  alternates: {
+    canonical: 'https://innatenw.com/about',
+  },
+  openGraph: {
+    title: "About Us | Design & Construction in Seattle | Innate NW",
+    description: "At Innate, we believe every client and project has unique needs—whether a small remodel or a large-scale commercial construction. Call us now (425) 866-5206.",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "About Us | Design & Construction in Seattle | Innate NW",
+    description: "At Innate, we believe every client and project has unique needs—whether a small remodel or a large-scale commercial construction. Call us now (425) 866-5206.",
+  },
 };
 
 const AboutPage = () => {

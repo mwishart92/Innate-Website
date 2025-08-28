@@ -212,4 +212,13 @@ export const metadata: Metadata = {
   title: "Kitchen Remodeling in Seattle | Innate NW",
   description:
     "Upgrade your kitchen with Innate NW's boutique remodeling services in Seattle. Custom design, premium materials, and expert craftsmanship for every lifestyle.",
+  openGraph: {
+    title: "Kitchen Remodeling in Seattle | Innate NW",
+    description: "Upgrade your kitchen with Innate NW's boutique remodeling services in Seattle. Custom design, premium materials, and expert craftsmanship for every lifestyle.",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Kitchen Remodeling in Seattle | Innate NW",
+    description: "Upgrade your kitchen with Innate NW's boutique remodeling services in Seattle. Custom design, premium materials, and expert craftsmanship for every lifestyle.",
+  },
 };

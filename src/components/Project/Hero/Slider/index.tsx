@@ -8,11 +8,7 @@ import {
   Autoplay,
   Pagination,
 } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/scrollbar";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-
+// Swiper CSS is now imported centrally in layout.tsx
 import "./slider.css";
 import Text from "@/components/ui/Text";
 
@@ -44,11 +40,7 @@ function ProjectSlider({ slides }: ProjectSliderProps) {
       <div className="w-full overflow-hidden home-slider-parent">
         <div className="absolute bottom-[128px] mob:bottom-[70px] left-16 p-5 z-20 bg-opacity-50 mob:left-0">
           <Text as="h1" className="mb-4 text-[28px] font-medium">
-            <span className="font-normal text-[20px]">
-              {swiperSlides[currentSlide]?.projectType}
-            </span>{" "}
-            <br />
-            {swiperSlides[currentSlide]?.projectName}
+            Design and Construction Projects in Seattle
           </Text>
         </div>
 

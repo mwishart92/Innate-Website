@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '@/components/ui/Button'
 import Text from '@/components/ui/Text'
+import LoomVideoThumbnail from '@/components/ui/LoomVideoThumbnail'
 import { useRouter } from 'next/navigation'
 import './collective.css'
 
@@ -33,14 +34,11 @@ const Collective = () => {
               Learn More
             </Button>
           </div>
-          <div className="flex justify-items-center mob:mt-8 mob:px-0">
-            <iframe
-              src="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
-              frameBorder="0"
-              allowFullScreen
-              className="mob:mr-0 w-[631px] h-[360px] mob:w-[354px] mob:h-[204px]"
-            ></iframe>
-          </div>
+          <LoomVideoThumbnail
+            videoId="edfe795cdce04589b279fefaa15b4e96"
+            title="Our Collective Story"
+            subtitle="Learn about our team and approach"
+          />
         </div>
       </div>
     </>
