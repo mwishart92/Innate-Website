@@ -211,7 +211,7 @@ const ServicesPage = () => {
       <Testimonials />
       <Consultation />
       <Faq
-        title="Architectural Services – FAQs"
+        title="Natural Disaster Mitigation Services - FAQs"
         description="We've answered some of the most common questions homeowners in the Seattle area ask before starting a project. From timelines and costs to permits and materials, our goal is to make your renovation as smooth and transparent as possible."
         faqItems={faqItems}
       />
