@@ -14,6 +14,7 @@ const Work: React.FC = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    console.log("slidesData ::", slidesData);
     const checkMobile = () => {
       setIsMobile(typeof window !== "undefined" && window.innerWidth <= 767);
     };
@@ -40,6 +41,9 @@ const Work: React.FC = () => {
                 media={data.media}
                 className="relative"
                 showSlider={true}
+                isMobile={true}
+                hover={data.hover}
+                index={index}
               />
             </div>
           ))}
@@ -72,6 +76,7 @@ const Work: React.FC = () => {
                       media={data.media}
                       hover={data.hover}
                       className="absolute"
+                      isMobile={false}
                     />
                     {data.media?.map((item, i) => (
                       <div className="slide relative" key={i}>

@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { Keyboard, Navigation, Scrollbar, Autoplay } from "swiper/modules";
@@ -24,6 +24,8 @@ function WorkSlider({
   className,
   showSlider,
   hover,
+  isMobile,
+  index,
 }: {
   title: string;
   location: string;
@@ -31,28 +33,59 @@ function WorkSlider({
   media: { src: string; type: "image" | "video" }[] | undefined;
   className?: string;
   showSlider?: boolean;
+  isMobile?: boolean;
   hover?: {
     title: string;
     subTitle: string;
   };
+  index?: number;
 }) {
   const [imageLoaded, setImageLoaded] = useState(false);
+  const [isInViewport, setIsInViewport] = useState(false);
+  const sectionRef = useRef<HTMLDivElement>(null);
   const swiper = useSwiper();
 
   const handleprevbtn = () => {
     swiper?.slidePrev();
-    console.log("slidePrev");
   };
 
   const handleNextvbtn = () => {
     swiper?.slideNext();
-    console.log("slideNext");
   };
-  console.log(" hover >", hover);
+
+  // Intersection Observer for mobile scroll effect
+  useEffect(() => {
+    if (!isMobile || !sectionRef.current) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        // Show when 90% visible, hide when below 50%
+        const ratio = entry.intersectionRatio;
+        if (ratio >= 0.9) {
+          setIsInViewport(true);
+        } else if (ratio < 0.5) {
+          setIsInViewport(false);
+        }
+      },
+      {
+        threshold: [0.5, 0.9],
+        rootMargin: "0px 0px 0px 0px",
+      }
+    );
+
+    observer.observe(sectionRef.current);
+    return () => {
+      observer.disconnect();
+    };
+  }, [isMobile]);
   return (
     <div
+      ref={sectionRef}
       className={cn(
         "w-full h-screen overflow-hidden flex justify-center items-center",
+        {
+          "section-in-viewport": isInViewport && isMobile,
+        },
         className
       )}
     >
@@ -60,7 +93,8 @@ function WorkSlider({
         <div className="text-center p-5 mob:p-14 w-full bg-opacity-50 relative max-w-[1024px]">
           <div
             className={cn({
-              "hide-on-hover": hover?.title,
+              "hide-on-hover": hover?.title && !isMobile,
+              "hide-on-scroll": hover?.title && isMobile,
             })}
           >
             <Text
@@ -84,7 +118,12 @@ function WorkSlider({
           </div>
 
           {hover?.title && (
-            <div className="show-on-hover ">
+            <div
+              className={cn({
+                "show-on-hover": !isMobile,
+                "show-on-scroll px-3": isMobile,
+              })}
+            >
               <Text
                 as="h2"
                 className="text-[54px] font-semibold text-[#FFFFFF] mob:text-[29.29px] relative"

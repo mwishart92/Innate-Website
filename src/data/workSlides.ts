@@ -16,7 +16,7 @@ export const slidesData: SlideData[] = [
     url: "/project/west-seattle-residence",
     media: [
       {
-        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_Exterior-Bathroom.webm?alt=media&token=7d3e8e66-5096-4731-ac14-77755a3831c6",
+        src: "/images/project/west-seattle-residence/06.25_Exterior-Bathroom_16x9.mp4",
         type: "video",
       },
       {
@@ -221,6 +221,11 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
         type: "video",
       },
     ],
+    hover: {
+      title: "Wedgewood ADU | North Seattle Custom ADU",
+      subTitle: `This custom ADU demonstrates our ability to deliver a unique and functional living space. We provided a complete accessory dwelling unit construction solution, from thoughtful architectural design to expert build management.
+`,
+    },
   },
   {
     title: "Madrona Remodel",
@@ -234,6 +239,10 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
       { src: "/images/work/MR5.png", type: "image" },
       { src: "/images/work/MR6.png", type: "image" },
     ],
+    hover: {
+      title: "Madrona Remodel | Seismic & Kitchen Renovation",
+      subTitle: `Our renovation turned this historic Madrona home into a space that's not just modern and functional, but also resilient. With experience in structural upgrades and kitchen remodels, Innate NW specializes in complex renovations that maintain the home's charm while enhancing its performance, especially in Seattle's older houses.`,
+    },
   },
   {
     title: "Wheat Ridge ADU",
@@ -245,6 +254,11 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
       { src: "/images/work/KA4.jpg", type: "image" },
       { src: "/images/work/KA5.jpg", type: "image" },
     ],
+    hover: {
+      title: "Wheat Ridge ADU | Kirkland Accessory Dwelling Unit",
+      subTitle: `A beautifully designed accessory dwelling unit in Kirkland, this project highlights our skill as an ADU builder. From initial architectural design to full ADU construction, we created a versatile and modern living space that adds value and functionality.
+`,
+    },
   },
   {
     title: "Modern ADU",
@@ -259,6 +273,11 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
       { src: "/images/work/MA7.jpg", type: "image" },
       { src: "/images/work/MA8.jpg", type: "image" },
     ],
+    hover: {
+      title: "Modern ADU | Bellevue Architectural Design",
+      subTitle: `This Bellevue project showcases a sleek, modern accessory dwelling unit. As an experienced accessory dwelling unit contractor, our team provided a full suite of architectural services and design to create a high-performance, contemporary space.
+`,
+    },
   },
   {
     title: "Solar Retreat",
@@ -267,6 +286,11 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
       { src: "/images/work/solar2.jpg", type: "image" },
       { src: "/images/work/solar1.jpg", type: "image" },
     ],
+    hover: {
+      title: "Solar Retreat | Rainier New House Construction",
+      subTitle: `This Rainier new construction home was designed with sustainability and functionality in mind. Our residential architectural services ensure an energy-efficient and visually stunning home that maximizes natural light and integrates with its surroundings.
+`,
+    },
   },
   {
     title: "Japandi ADU",
@@ -280,6 +304,11 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
       { src: "/images/work/JA7.jpg", type: "image" },
       { src: "/images/work/JA8.jpg", type: "image" },
     ],
+    hover: {
+      title: "Japandi ADU: Japandi ADU | Magnolia ADU Construction",
+      subTitle:
+        "This ADU construction project blends Japanese and Scandinavian design principles to create a minimalist, serene living space. Our team provided specialized architectural design services to craft a custom and tranquil accessory dwelling unit.",
+    },
   },
   {
     title: "Norman Bathroom",
@@ -294,6 +323,11 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
         type: "video",
       },
     ],
+    hover: {
+      title: "Norman Bathroom | West Seattle Bathroom Remodel",
+      subTitle:
+        "This West Seattle bathroom remodel was designed to maximize space and modern appeal. As a dedicated bathroom remodel contractor, we managed every detail, delivering a custom space with high-end finishes and seamless functionality.",
+    },
   },
   {
     title: "Pellegrino Remodel",
@@ -305,6 +339,11 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
       },
       { src: "/images/work/PR1.png", type: "image" },
     ],
+    hover: {
+      title: "Pellegrino Remodel | Denver Home Renovation",
+      subTitle:
+        "A full-scale home renovation in Denver, this project highlights our ability to transform outdated spaces into modern, functional homes. Our home architectural design and build expertise brought new life to the entire property.",
+    },
   },
   {
     title: "Pierre ADU",
@@ -313,6 +352,11 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
       { src: "/images/work/PA2.jpg", type: "image" },
       { src: "/images/work/PA1.jpg", type: "image" },
     ],
+    hover: {
+      title: "Pierre ADU | Tacoma Accessory Dwelling Unit",
+      subTitle: `Our work on this Tacoma accessory dwelling unit showcases our efficiency and collaborative approach. As a leading ADU builder, we delivered a high-quality, functional space that meets the homeowner's needs for a modern and flexible living area
+`,
+    },
   },
   {
     title: "Victoria Bathroom",
@@ -323,6 +367,11 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
         type: "video",
       },
     ],
+    hover: {
+      title: "Victoria Bathroom | Bothell Bathroom Renovation",
+      subTitle: `This Bothell bathroom remodel service was designed to create a spa-like retreat with high-end materials and expert craftsmanship. As a trusted bathroom remodel contractor, we delivered a luxurious and highly functional space tailored to the client's vision.
+`,
+    },
   },
   {
     title: "West Seattle Duplex",
@@ -332,5 +381,10 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
       { src: "/images/work/WSD1.jpg", type: "image" },
       { src: "/images/work/WSD3.jpg", type: "image" },
     ],
+    hover: {
+      title: "West Seattle Duplex | New Construction Homes",
+      subTitle: `This new construction project involved building a modern duplex that provides two distinct, beautiful homes. Our comprehensive new construction builders services ensured a cohesive design and expert execution from the ground up.
+`,
+    },
   },
 ];

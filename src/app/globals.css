@@ -132,3 +132,32 @@ body {
   opacity: 1;
   visibility: visible;
 }
+
+/* Mobile scroll effects */
+.hide-on-scroll {
+  opacity: 1;
+  visibility: visible;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.show-on-scroll {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+/* When section is in viewport (top hits viewport top) */
+.section-in-viewport .hide-on-scroll {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.section-in-viewport .show-on-scroll {
+  opacity: 1;
+  visibility: visible;
+}

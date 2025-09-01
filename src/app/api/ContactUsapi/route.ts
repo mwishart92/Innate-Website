@@ -20,6 +20,7 @@ export async function POST(req: NextRequest) {
 
     const email = "info@innate-nw.com";
     const sendSmtpEmail = new brevo.SendSmtpEmail();
+
     sendSmtpEmail.to = [{ email }, { email: process.env.BREVO_TO_EMAIL }];
 
     sendSmtpEmail.templateId = 3; // Use the correct template ID
@@ -46,7 +47,7 @@ export async function POST(req: NextRequest) {
         {
           success: false,
           message: "Error processing request",
-          error: error.message,
+          error: error,
         },
         { status: 400 }
       );
