@@ -84,7 +84,7 @@ const sections = [
   {
     title: "Design & Permitting",
     description:
-      "Our design team works closely with you to ensure the unit is functional, beautiful, and compliant with all city, zoning, and utility standards.",
+      "<a href='https://www.innate-nw.com/about' style='text-decoration: underline;'>Our design team</a> works closely with you to ensure the unit is functional, beautiful, and compliant with all city, zoning, and utility standards.",
     image: {
       src: savetime,
       alt: "Design & Permitting",
@@ -181,7 +181,7 @@ const ServicesPage = () => {
       <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
-        contentText="Innate designs and builds custom ADUs that maximize your property's value, provide rental income, or support multigenerational living. We streamline the complex permitting process and provide complete build solutions for detached or attached ADUs."
+        contentText="Innate designs and builds <a href='https://www.innate-nw.com/project/wheat-ridge-adu' style='text-decoration: underline;'>custom ADUs</a> that maximize your property's value, provide rental income, or support multigenerational living. We streamline the complex permitting process and provide complete build solutions for detached or attached ADUs."
       />
       <LatestProjects
         title="Discover Our ADU Design & Build Projects"

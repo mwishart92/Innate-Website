@@ -172,7 +172,7 @@ const ServicesPage = () => {
       <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
-        contentText="Boost curb appeal and efficiency with Innate's exterior remodeling services. We handle siding replacement, energy-efficient windows, and modern door installations with care, precision, and a keen eye for long-term value."
+        contentText="Boost curb appeal and efficiency with <a href='https://www.innate-nw.com/' style='text-decoration: underline;'>Innate's</a> exterior remodeling services. We handle siding replacement, energy-efficient windows, and modern door installations with care, precision, and a keen eye for long-term value."
       />
       <LatestProjects
         title="Explore Our Recent Exterior Remodeling Projects"

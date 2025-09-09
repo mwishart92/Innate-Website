@@ -170,7 +170,7 @@ const faqItems = [
   {
     question: "What's included in a whole home remodel?",
     answer:
-      "Our whole home remodeling service covers everything from design and planning to kitchens, bathrooms, flooring, lighting, and structural upgrades.",
+      "Our whole home remodeling service covers everything from design and planning to <a href='https://www.innate-nw.com/services/kitchen-remodeling' style='text-decoration: underline;'>kitchens</a>, <a href='https://www.innate-nw.com/services/bathroom-remodeling' style='text-decoration: underline;'>bathrooms</a>, flooring, lighting, and structural upgrades.",
   },
 ];
 
@@ -189,7 +189,7 @@ const ServicesPage = () => {
       <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
-        contentText="Innate offers comprehensive whole home remodeling services that turn your current space into the home of your dreams. From floorplan redesigns to full-scale structural upgrades, our team is committed to blending aesthetics with functionality to create spaces that are cohesive, practical, and distinctly yours."
+        contentText="Innate offers comprehensive whole home remodeling services that turn your current space into the home of your dreams. From floorplan redesigns to full-scale <a href='https://www.innate-nw.com/services/architectural-services' style='text-decoration: underline;'>structural upgrades</a>, <a href='https://www.innate-nw.com/about' style='text-decoration: underline;'>our team</a> is committed to blending aesthetics with functionality to create spaces that are cohesive, practical, and distinctly yours."
       />
       <LatestProjects
         title="See Our Full Home Renovation Projects in Seattle"

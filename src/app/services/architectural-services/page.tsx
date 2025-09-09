@@ -167,7 +167,7 @@ const sections = [
   {
     title: "Bidding",
     description:
-      "As a design-build firm, we will manage the entire bidding process, providing detailed pricing based on the design and ensuring the project stays within budget while meeting all specifications.",
+      "As a design-build firm, we will manage the entire bidding process, providing detailed pricing based on the design and ensuring the project stays within <a href='https://www.innate-nw.com/blogs/2' style='text-decoration: underline;'>budget</a> while meeting all specifications.",
     image: {
       src: stressbg,
       alt: "Bidding",
@@ -201,7 +201,7 @@ const faqItems = [
   {
     question: "What's the difference between an architect and a designer?",
     answer:
-      "An architect focuses on structural integrity and code compliance; a designer typically focuses on layout and aesthetics. Our team does both.",
+      "An architect focuses on structural integrity and code compliance; a designer typically focuses on layout and aesthetics. <a href='https://www.innate-nw.com/about' style='text-decoration: underline;'>Our team</a> does both.",
   },
   {
     question: "How long does the design phase take?",
@@ -228,7 +228,7 @@ const ServicesPage = () => {
       <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
-        contentText="Innate partners with skilled architects and structural engineers to deliver custom designs that work in harmony with your lifestyle and the unique constraints of your home. Whether you're opening up a floorplan, adding a second story, or building from scratch—we make the design process easy."
+        contentText="<a href='https://www.innate-nw.com/' style='text-decoration: underline;'>Innate</a> partners with skilled architects and structural engineers to deliver custom designs that work in harmony with your lifestyle and the unique constraints of your home. Whether you're opening up a floorplan, adding a second story, or <a href='https://www.innate-nw.com/services/adus' style='text-decoration: underline;'>building from scratch</a>—we make the design process easy."
       />
       <LatestProjects
         title="See Our Architectural Design Projects"

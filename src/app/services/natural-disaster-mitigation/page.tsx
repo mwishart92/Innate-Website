@@ -146,7 +146,7 @@ const faqItems = [
   {
     question: "What does natural disaster mitigation include?",
     answer:
-      "Our mitigation services may include seismic retrofitting, grading and drainage improvements, fire-resistant landscaping, siding upgrades, sump pump installation, and more—based on your property's specific risks.",
+      "Our mitigation services may include seismic retrofitting, grading and drainage improvements, fire-resistant landscaping, <a href='https://www.innate-nw.com/services/exterior-remodeling' style='text-decoration: underline;'>siding upgrades</a>, sump pump installation, and more—based on your <a href='https://www.innate-nw.com/project/gray-bathroom' style='text-decoration: underline;'>property's specific risks</a>.",
   },
   {
     question: "Do I need a permit for natural disaster mitigation work?",
@@ -196,7 +196,7 @@ const ServicesPage = () => {
       <HomeSlider slides={slides} overlayClass="bg-black/60" />
       <Collective
         videoSrc="https://www.loom.com/embed/71d1fdcd150c42169323bba3b424288b?autoplay=0"
-        contentText="Protect your home against future disaster with Innate's mitigation services. From seismic retrofits to flood-resistant construction, we help safeguard your home and family with proactive, expert solutions tailored to your region and property."
+        contentText="Protect your home against future disaster with Innate's mitigation services. From seismic retrofits to flood-resistant <a href='https://www.innate-nw.com/services/architectural-services' style='text-decoration: underline;'>construction</a>, we help safeguard your home and family with proactive, expert solutions tailored to your region and property."
       />
       {/* <LatestProjects
         title="See Our Full Home Renovation Projects in Seattle"

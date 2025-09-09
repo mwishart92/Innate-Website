@@ -45,7 +45,7 @@ const sections = [
   {
     title: "Free Estimate",
     description:
-      "We evaluate your yard and discuss how best to complement your home's architecture and landscape.",
+      "We evaluate your yard and discuss how best to complement your <a href='https://www.innate-nw.com/services/architectural-services' style='text-decoration: underline;'>home's architecture</a> and landscape.",
     image: {
       src: avoidcenter,
       alt: "Free Estimate",
@@ -103,7 +103,7 @@ const sections = [
   {
     title: "Construction",
     description:
-      "Our skilled craftsmen build each deck with long-term structural integrity, visual appeal, and comfort in mind.",
+      "Our <a href='https://www.innate-nw.com/about' style='text-decoration: underline;'>skilled craftsmen</a> build each deck with long-term structural integrity, visual appeal, and comfort in mind.",
     image: {
       src: track,
       alt: "Construction",
@@ -167,7 +167,7 @@ const ServicesPage = () => {
       <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
-        contentText="Transform your outdoor space with a custom-built deck designed for relaxation and connection. From classic wood to modern composites, Innate designs and constructs decks that expand your living space and elevate your lifestyle."
+        contentText="Transform your <a href='https://www.innate-nw.com/services/exterior-remodeling' style='text-decoration: underline;'>outdoor space</a> with a custom-built deck designed for relaxation and connection. From classic wood to modern composites, Innate designs and constructs decks that expand your living space and elevate your lifestyle."
       />
       <LatestProjects
         title="View Our Custom Deck Projects"

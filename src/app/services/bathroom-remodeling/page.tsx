@@ -176,7 +176,7 @@ const ServicesPage = () => {
     {
       question: "Do you handle permits for bathroom remodels in Seattle?",
       answer:
-        "Yes, we handle all necessary permitting and code compliance as part of your project.",
+        "Yes, we handle all necessary permitting and <a href='https://www.innate-nw.com/blogs/1' style='text-decoration: underline;'>code compliance</a> as part of your project.",
     },
     {
       question: "Can you remodel small or oddly shaped bathrooms?",
@@ -191,7 +191,7 @@ const ServicesPage = () => {
       <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
-        contentText="From compact powder rooms to luxurious spa-like retreats, Innate's bathroom remodel services combine elegant design with functional upgrades. We help you reimagine your bathroom into a space that brings peace, value, and utility to your daily life."
+        contentText="From compact powder rooms to luxurious spa-like retreats, Innate's bathroom remodel services combine <a href='/project/freitas-bathroom' style='text-decoration: underline;'>elegant design</a> with functional upgrades. We help you reimagine your bathroom into a space that brings peace, value, and utility to your daily life."
       />
       <LatestProjects
         title="Explore Our Bathroom Remodel Work Across Seattle"
