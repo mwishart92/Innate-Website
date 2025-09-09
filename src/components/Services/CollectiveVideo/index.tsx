@@ -27,7 +27,10 @@ const Collective = ({
               ></iframe>
             </div>
             <div className="flex flex-col">
-              <Text className="mob:text-[14px] font-normal">{contentText}</Text>
+              <p 
+                className="mob:text-[14px] font-normal text-[#D9D9D9] text-[16px] font-light leading-[24px] font-inter"
+                dangerouslySetInnerHTML={{ __html: contentText }}
+              />
             </div>
           </div>
         </div>
