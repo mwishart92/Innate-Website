@@ -181,7 +181,7 @@ const ServicesPage = () => {
       <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
-        contentText="Innate offers boutique kitchen remodel services, combining modern design with functionality in order to transform spaces into personalized havens of comfort and style. Our dedicated project management and design team ensures that there is no difference between the product you envisioned and the product that you got."
+        contentText="Innate offers boutique kitchen remodel services, combining <a href='/project/north-seattle-kitchen' style='text-decoration: underline;'>modern design</a> with functionality in order to transform spaces into personalized havens of comfort and style. Our dedicated project management and design team ensures that there is no difference between the product you envisioned and the product that you got."
       />
       <LatestProjects
         title="Check Out Some of Our Latest Kitchen Remodel Projects"
