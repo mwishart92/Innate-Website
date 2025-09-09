@@ -74,7 +74,10 @@ const AccordionItem = ({
             : "max-h-0 opacity-0"
         }`}
       >
-        <Text className="text-white">{item.answer}</Text>
+        <p 
+          className="text-white text-[#D9D9D9] text-[16px] font-light leading-[24px] font-inter"
+          dangerouslySetInnerHTML={{ __html: item.answer }}
+        />
       </div>
     </div>
   );
