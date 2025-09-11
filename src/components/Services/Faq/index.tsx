@@ -104,7 +104,10 @@ const Faq = ({
           >
             {title}
           </Text>
-          <Text className="text-[#D9D9D9] text-center mt-3">{description}</Text>
+          <Text 
+            className="text-[#D9D9D9] text-center mt-3"
+            dangerouslySetInnerHTML={{ __html: description }}
+          />
           <div className="mt-12">
             {faqItems.map((item, index) => (
               <AccordionItem
