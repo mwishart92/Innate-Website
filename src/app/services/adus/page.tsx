@@ -162,6 +162,21 @@ const faqItems = [
     answer:
       "Most ADU projects take 6 to 12 months from design to completion, including permitting.",
   },
+  {
+    question: "What is the difference between DADU vs ADU?",
+    answer:
+      "A DADU (Detached Accessory Dwelling Unit) is a separate, stand-alone structure built on your property, such as a backyard cottage or laneway house. On the other hand, the attached ADU (Accessory Dwelling Unit) is built within or connected to your existing home, such as a basement apartment or an addition with its own entrance. Both DADU and ADU designs provide extra living space, rental opportunities, or housing for growing family members, but the choice depends on your property layout, budget, and goals.",
+  },
+  {
+    question: "Can an ADU be a multi-story unit?",
+    answer:
+      "Yes, an ADU can be designed as a multi-story unit if your property and local zoning regulations allow it. Multi-level ADUs are a great solution when you want to maximize usable space on a smaller lot. They can include separate living areas, bedrooms, or even a rooftop deck. Our team ensures your ADU design complies with Seattle’s ADU requirements while creating a functional and comfortable layout.",
+  },
+  {
+    question: "Does building an ADU increase home value?",
+    answer:
+      "Yes, building an ADU typically increases property value. ADUs add functional living space and provide flexible options for rental income, guest housing, or multigenerational living. In Seattle’s competitive housing market, properties with ADUs often attract more buyers and command higher prices. ADU investment can therefore enhance both your lifestyle and your long-term property value.",
+  },
 ];
 
 const ServicesPage = () => {

@@ -208,6 +208,22 @@ const faqItems = [
     answer:
       "Design timelines range from 4 to 12 weeks depending on complexity, revisions, and city approvals.",
   },
+  {
+    question: "What is included in your architectural services?",
+    answer:
+      "Our architectural services cover every stage of the design and building process. This includes initial consultations, site analysis, concept design, planning applications, detailed drawings, and coordination with engineers and consultants. We also provide full guidance on materials, sustainability, and functionality to ensure your project meets both your vision and practical requirements. At Innate NW, with extensive building design services, we guarantee architecture that is not only beautiful but also functional and enduring.",
+  },
+  {
+    question:
+      "How do you handle changes to the project scope and potential additional fees?",
+    answer:
+      "Each project may evolve as ideas develop differently, and Innate NW is here to handle all the potential issues for you. If changes to the project scope occur, we discuss these with you upfront, outlining any adjustments to the timeline or budget. Transparency is a key part of our architectural project management services, so you will always know about any additional fees before decisions are made. Aiming for exceptional outcomes and customer satisfaction, our experts ensure that your project remains on track while still allowing flexibility for design refinements.",
+  },
+  {
+    question: "Will you stay involved during the construction phase?",
+    answer:
+      "Yes. Our custom architectural solutions extend beyond drawings and approvals, as we remain actively involved during construction at every phase for close and immediate support when needed. This includes site visits, liaising with contractors, responding to inquiries, and ensuring that the promised modern architectural design is executed to a high standard. By staying involved throughout the construction phase, Innate NW helps safeguard the quality of your project and provides peace of mind that the finished result aligns with the agreed vision.",
+  },
 ];
 
 const ServicesPage = () => {

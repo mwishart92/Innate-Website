@@ -150,6 +150,23 @@ const faqItems = [
     answer:
       "Permits are usually required for decks over 18 inches off the ground — we handle all permitting.",
   },
+  {
+    question:
+      "What kind of maintenance is required for different deck materials?",
+    answer:
+      "Deck maintenance needs greatly depend on the chosen materials. Wood decks, such as cedar or redwood, typically require regular cleaning, sealing, and occasional staining to protect against moisture and sun exposure. Composite decks, on the other hand, are low-maintenance and only need periodic washing to remove dirt and debris. PVC and other synthetic decking options offer even greater durability with minimal upkeep. At Innate NW, we help you choose the right materials for a deck that’s easy to maintain and suitable for your lifestyle.",
+  },
+  {
+    question: "What is the typical cost of a custom deck design in Seattle?",
+    answer:
+      "The cost of a custom deck design in Seattle can vary depending on the size, materials, and design complexity. On average, homeowners can expect to prepare a budget anywhere from $15,000 to $40,000 for high-quality, custom-built services from a Seattle deck builder. Premium materials like hardwood or composite may increase the price, while additional features such as built-in seating, railings, or pergolas will also raise the budget. During consultation, Innate provides a detailed estimate so you have a clear understanding of your investment before construction begins.",
+  },
+  {
+    question:
+      "How will you ensure my property is protected during the deck construction?",
+    answer:
+      "Protecting your property is an essential part of our deck construction process. We take care to minimize disruption by using protective barriers, managing debris, and ensuring safe access around your home during the build. Our Seattle deck repair specialists work with precision to avoid damage to landscaping, existing structures, and outdoor spaces. At Innate NW, we’re proud to be the leading Seattle deck contractor. Count on us to treat every property with respect, ensuring your home and yard remain safe and clean throughout the build.",
+  },
 ];
 
 const ServicesPage = () => {

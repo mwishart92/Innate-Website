@@ -172,6 +172,23 @@ const faqItems = [
     answer:
       "Our whole home remodeling service covers everything from design and planning to <a href='https://www.innate-nw.com/services/kitchen-remodeling' style='text-decoration: underline;'>kitchens</a>, <a href='https://www.innate-nw.com/services/bathroom-remodeling' style='text-decoration: underline;'>bathrooms</a>, flooring, lighting, and structural upgrades.",
   },
+  {
+    question:
+      "Do you offer design services, or do I need to hire a separate designer or architect?",
+    answer:
+      "We’re whole-house remodel contractors with included design-build services, which means you don’t need to hire a separate designer or architect. Our in-house team works with you from the concept stage through planning, design, and construction. This streamlined approach ensures your vision is carried out seamlessly, reduces miscommunication, and keeps your whole house remodel on schedule and within budget. If you already have an architect or designer, we’re happy to collaborate with them as well.",
+  },
+  {
+    question: "Is it possible to do a home remodel without permits in Seattle?",
+    answer:
+      "Usually, no, since most whole-home remodeling projects in Seattle require permits, especially when structural changes, electrical, or plumbing work is involved. With professional Seattle home remodel services, we take care of the permitting process for you, ensuring all work complies with local codes and regulations. By managing permits on your behalf, we help avoid delays and ensure your remodel is safe, legal, and up to Seattle’s building standards.",
+  },
+  {
+    question:
+      "Will I receive a detailed project timeline, and how are delays handled?",
+    answer:
+      "Yes, before construction begins, we provide a detailed project timeline so you know what to expect at each stage of your whole-home remodel. While unexpected challenges can occasionally arise, we communicate openly and adjust the schedule as needed to minimize disruptions. As one of the top Seattle home remodeling contractors, we take a proactive approach and provide clear communication to ensure you’re always informed about progress, potential delays, and updated completion dates.",
+  },
 ];
 
 const ServicesPage = () => {

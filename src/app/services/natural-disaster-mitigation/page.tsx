@@ -141,42 +141,42 @@ const faqItems = [
     question:
       "What types of natural disaster risks affect homes in the Seattle area?",
     answer:
-      "Seattle homeowners face risks from earthquakes, heavy rain and flooding, landslides, and wildfires—especially in more wooded or hillside neighborhoods.",
+      "Seattle homeowners face risks from earthquakes, heavy rain and flooding, landslides, and wildfires, especially in more wooded or hillside neighbourhoods. At Innate, we provide extensive natural disaster mitigation services, giving Seattle homeowners peace of mind by helping them prepare for and reduce risks.",
   },
   {
     question: "What does natural disaster mitigation include?",
     answer:
-      "Our mitigation services may include seismic retrofitting, grading and drainage improvements, fire-resistant landscaping, <a href='https://www.innate-nw.com/services/exterior-remodeling' style='text-decoration: underline;'>siding upgrades</a>, sump pump installation, and more—based on your <a href='https://www.innate-nw.com/project/gray-bathroom' style='text-decoration: underline;'>property's specific risks</a>.",
+      "Our natural disaster mitigation services include seismic retrofitting, grading and drainage improvements, fire-resistant landscaping, <a href='https://www.innate-nw.com/services/exterior-remodeling' style='text-decoration: underline;'>siding upgrades</a>, sump pump installation, and more—based on your <a href='https://www.innate-nw.com/project/gray-bathroom' style='text-decoration: underline;'>property's specific risks</a>.",
   },
   {
     question: "Do I need a permit for natural disaster mitigation work?",
     answer:
-      "Yes, most structural and drainage-related upgrades require permits in Seattle. We handle all permitting and ensure the work meets city codes and safety standards.",
+      "Yes, most structural and drainage-related upgrades require Seattle remodeling permits. Innate handles all permitting and ensures the work meets city codes and safety standards while staying on schedule and within budget.",
   },
   {
     question: "How do I know if my home needs earthquake retrofitting?",
     answer:
-      "Homes built before 1980 are often not bolted to their foundations and may be at risk. We offer inspections to determine if your home needs seismic reinforcement.",
+      "Homes built before 1980 are often not bolted to their foundations and may be at risk. We offer inspections to determine if your home needs seismic reinforcement and provide a detailed quote so you’re aware of your current home conditions and its earthquake retrofitting needs.",
   },
   {
     question: "Can you help protect my home from future flooding?",
     answer:
-      "Absolutely. We assess your property's grading, downspouts, foundation, and existing drainage systems to prevent water damage during Seattle's heavy rain seasons.",
+      "Absolutely. We assess your property’s grading, downspouts, foundation, and existing drainage systems to prevent water damage during Seattle’s heavy rain seasons. Providing extensive natural disaster mitigation services, Innate helps Seattle homeowners reduce their risk and prepare better for flood season.",
   },
   {
     question: "How much does natural disaster mitigation cost?",
     answer:
-      "Costs vary depending on the type of work needed. Earthquake retrofits may start around $10,000, while drainage or wildfire prevention work will depend on property size and complexity.",
+      "Detailed costs for natural disaster mitigation vary depending on the type of work needed and the Seattle contractors you work with. Earthquake retrofits may start around $10,000, while drainage or wildfire prevention work will depend on property size and complexity.",
   },
   {
     question: "Will this improve my home's resale value?",
     answer:
-      "Yes—buyers are increasingly interested in homes that are disaster-prepared. Retrofitting and mitigation improvements can boost value and provide a strong selling point.",
+      "Yes, buyers are increasingly interested in homes that are disaster-prepared. Retrofitting and mitigation improvements can boost your property value and provide a strong selling point.",
   },
   {
     question: "How long does a mitigation project usually take?",
     answer:
-      "Timelines range from a few days to a few weeks depending on the scope of work. We'll provide a detailed timeline during your estimate.",
+      "Timelines range from a few days to a few weeks, depending on the scope of work. We’ll provide a detailed timeline during your estimate. At Innate, we guarantee to bring you the expert-approved and most stable mitigation that withstands natural disasters and time.",
   },
 ];
 
@@ -211,7 +211,7 @@ const ServicesPage = () => {
       <Testimonials />
       <Consultation />
       <Faq
-        title="Natural Disaster Mitigation Services - FAQs"
+        title="Natural Disaster Mitigation - FAQs"
         description="We've answered some of the most common questions homeowners in the Seattle area ask before starting a project. From timelines and costs to permits and materials, our goal is to make your renovation as smooth and transparent as possible."
         faqItems={faqItems}
       />
