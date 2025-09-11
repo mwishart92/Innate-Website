@@ -207,7 +207,7 @@ const ServicesPage = () => {
       <Consultation />
       <Faq
         title="Bathroom Remodels – FAQs"
-        description="We've answered some of the most common questions homeowners in the Seattle area ask before starting a project. From timelines and costs to permits and materials, our goal is to make your renovation as smooth and transparent as possible."
+        description="We've answered some of the most common questions homeowners in the Seattle area ask before starting a project. From timelines and costs to permits and materials, our goal is to make <a href='https://www.innate-nw.com/services/whole-home-remodels' style='text-decoration: underline;'>your renovation</a> as smooth and transparent as possible."
         faqItems={faqItems}
       />
 

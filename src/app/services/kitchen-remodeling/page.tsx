@@ -162,7 +162,7 @@ const faqItems = [
   {
     question: "Do you help with kitchen design and material selection?",
     answer:
-      "Yes, our team handles design, material selection, and project management from start to finish.",
+      "Yes, our <a href='https://www.innate-nw.com/services/architectural-services' style='text-decoration: underline;'>team handles design</a>, material selection, and project management from start to finish.",
   },
 ];
 
