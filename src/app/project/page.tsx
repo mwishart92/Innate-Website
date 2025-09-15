@@ -17,11 +17,13 @@ export const metadata: Metadata = {
   description:
     "Explore Innate NW's diverse portfolio of innovative design and projects, showcasing sustainable solutions and craftsmanship tailored to unique client needs.",
   alternates: {
-    canonical: 'https://innatenw.com/project',
+    canonical: 'https://innate-nw.com/project',
   },
   openGraph: {
     title: "Custom Design and Construction Projects | Innate NW",
     description: "Explore Innate NW's diverse portfolio of innovative design and projects, showcasing sustainable solutions and craftsmanship tailored to unique client needs.",
+    url: 'https://innate-nw.com/project',
+    siteName: 'Innate NW',
   },
   twitter: {
     card: 'summary_large_image',

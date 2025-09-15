@@ -1254,10 +1254,14 @@ export async function generateMetadata({
   return {
     title: seoTitle,
     description: seoDescription,
-    // Add additional metadata to prevent conflicts
+    alternates: {
+      canonical: `https://innate-nw.com/project/${slug}`,
+    },
     openGraph: {
       title: seoTitle,
       description: seoDescription,
+      url: `https://innate-nw.com/project/${slug}`,
+      siteName: 'Innate NW',
     },
     twitter: {
       card: 'summary_large_image',
