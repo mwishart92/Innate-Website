@@ -93,9 +93,9 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
   return (
     <>
       <div className="w-full max-w-[90%] mob:max-w-[100%]  mx-auto mt-10 md:mt-20 lg:px-5">
-        <h2 className="text-[40px] font-medium leading-[52px] mob:text-[36px] mob:font-semibold font-inter mob:text-center tab:max-w-full  max-w-[calc(100%-400px)]">
+        <h1 className="text-[40px] font-medium leading-[52px] mob:text-[36px] mob:font-semibold font-inter mob:text-center tab:max-w-full  max-w-[calc(100%-400px)]">
           {section.title}
-        </h2>
+        </h1>
         <div className="flex tab:flex-wrap tab:gap-3 justify-between mt-6 mb-4 mob:items-center">
           <Text className="text-[20px] text-[#D9D9D9] font-normal ">
             Published: {section.publishedDate}
