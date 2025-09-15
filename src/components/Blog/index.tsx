@@ -28,6 +28,7 @@ import {
   generateSlug,
 } from "@/data/blogSections";
 import Link from "next/link";
+import BlogFaq from "./BlogFaq";
 
 interface ArticleProps {
   slug: string; // Receive `slug` as a prop instead of `id`
@@ -84,6 +85,48 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
     });
     // Filter out empty or whitespace-only headings
     return h2s.filter((t) => t && t.trim() !== "");
+  }, [section]);
+
+  // Extract FAQ data from section.content
+  const faqData = useMemo(() => {
+    if (!section) return [];
+    const faqs: { question: string; answer: string }[] = [];
+    
+    section.content.forEach((item) => {
+      if (item.text) {
+        // Look for FAQ patterns: Q: question followed by A: answer
+        const faqPattern = /<p><span[^>]*>Q:\s*([^<]+)<\/span><\/p>\s*<p><span[^>]*>A:\s*([^<]+)<\/span><\/p>/g;
+        let match;
+        while ((match = faqPattern.exec(item.text)) !== null) {
+          const question = match[1].trim();
+          const answer = match[2].trim();
+          if (question && answer) {
+            faqs.push({ question, answer });
+          }
+        }
+        
+        // Also try a simpler pattern for the specific format in the blog
+        const simplePattern = /Q:\s*([^<]+)<\/span><\/p>\s*<p><span[^>]*>A:\s*([^<]+)/g;
+        let simpleMatch;
+        while ((simpleMatch = simplePattern.exec(item.text)) !== null) {
+          const question = simpleMatch[1].trim();
+          const answer = simpleMatch[2].trim();
+          if (question && answer && !faqs.some(faq => faq.question === question)) {
+            faqs.push({ question, answer });
+          }
+        }
+      }
+    });
+    
+    return faqs;
+  }, [section]);
+
+  // Check if content contains FAQ section
+  const hasFaqSection = useMemo(() => {
+    if (!section) return false;
+    return section.content.some((item) => 
+      item.text && (item.text.includes("FAQs:") || item.text?.includes("Frequently Asked Questions"))
+    );
   }, [section]);
 
   if (!section) {
@@ -179,10 +222,14 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
 
               {item.type === "text" ? (
                 <>
-                  <div
-                    dangerouslySetInnerHTML={{ __html: item.text || "" }}
-                    className="[&_a]:text-blue-500 [&_h2]:font-bold mt-10"
-                  ></div>
+                  {hasFaqSection && item.text?.includes("FAQs:") && faqData.length > 0 ? (
+                    <BlogFaq faqItems={faqData} />
+                  ) : (
+                    <div
+                      dangerouslySetInnerHTML={{ __html: item.text || "" }}
+                      className="[&_a]:text-blue-500 [&_h2]:font-bold mt-10"
+                    ></div>
+                  )}
                 </>
               ) : null}
             </div>

@@ -895,7 +895,7 @@ export const blogSections: ArticleSection[] = [
       title:
         "Seattle Home Remodeling Cost & Timelines | Kitchens, Bathrooms, Additions 2025",
       description:
-        "Discover Seattle home remodeling cost and project timelines for kitchens, bathrooms, whole-home remodels, and additions. Learn typical costs, common delays, and ROI",
+        "Discover Seattle home remodeling cost and project timelines for kitchens, bathrooms, whole-home remodels, and additions. Learn typical costs, common delays, and ROI.",
       keywords: "",
     },
   },
