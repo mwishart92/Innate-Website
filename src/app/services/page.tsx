@@ -151,6 +151,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Design & Construction Services in Seattle | Innate NW",
     description: "Explore Innate NW's comprehensive range of design and construction services in Seattle. From kitchen remodeling to ADUs, we deliver custom solutions with expert craftsmanship.",
+    url: 'https://innate-nw.com/services',
+    siteName: 'Innate NW',
+    images: [
+      {
+        url: '/images/innate-nw.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Innate NW - Services',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',

@@ -18,6 +18,14 @@ export const metadata: Metadata = {
     description: "Innate NW's press section features news, media coverage, and insights into their innovative design and construction projects, highlighting the industry impact.",
     url: 'https://innate-nw.com/press',
     siteName: 'Innate NW',
+    images: [
+      {
+        url: '/images/innate-nw.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Innate NW - Press & Media',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',

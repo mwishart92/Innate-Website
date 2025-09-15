@@ -203,4 +203,23 @@ export const metadata: Metadata = {
   title: "Exterior Remodeling in Seattle | Siding, Windows & Doors | Innate NW",
   description:
     "Boost your home's curb appeal with exterior remodeling from Innate NW in Seattle. Expert siding, windows, and door upgrades with precision craftsmanship.",
+  openGraph: {
+    title: "Exterior Remodeling in Seattle | Siding, Windows & Doors | Innate NW",
+    description: "Boost your home's curb appeal with exterior remodeling from Innate NW in Seattle. Expert siding, windows, and door upgrades with precision craftsmanship.",
+    url: 'https://innate-nw.com/services/exterior-remodeling',
+    siteName: 'Innate NW',
+    images: [
+      {
+        url: '/images/innate-nw.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Innate NW - Exterior Remodeling',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Exterior Remodeling in Seattle | Siding, Windows & Doors | Innate NW",
+    description: "Boost your home's curb appeal with exterior remodeling from Innate NW in Seattle. Expert siding, windows, and door upgrades with precision craftsmanship.",
+  },
 };

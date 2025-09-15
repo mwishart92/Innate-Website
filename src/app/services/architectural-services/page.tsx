@@ -275,4 +275,23 @@ export const metadata: Metadata = {
   title: "Architectural Design Services in Seattle | Innate NW",
   description:
     "Innate NW offers architectural design services in Seattle. Work with expert architects to create a space tailored to your lifestyle and future vision.",
+  openGraph: {
+    title: "Architectural Design Services in Seattle | Innate NW",
+    description: "Innate NW offers architectural design services in Seattle. Work with expert architects to create a space tailored to your lifestyle and future vision.",
+    url: 'https://innate-nw.com/services/architectural-services',
+    siteName: 'Innate NW',
+    images: [
+      {
+        url: '/images/innate-nw.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Innate NW - Architectural Services',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Architectural Design Services in Seattle | Innate NW",
+    description: "Innate NW offers architectural design services in Seattle. Work with expert architects to create a space tailored to your lifestyle and future vision.",
+  },
 };

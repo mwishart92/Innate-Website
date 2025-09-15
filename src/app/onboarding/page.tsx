@@ -11,6 +11,14 @@ export const metadata: Metadata = {
     description: "Begin your design and construction journey with Innate NW. Our streamlined onboarding process helps us understand your vision and create a personalized plan for your project.",
     url: 'https://innate-nw.com/onboarding',
     siteName: 'Innate NW',
+    images: [
+      {
+        url: '/images/innate-nw.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Innate NW - Project Onboarding',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',

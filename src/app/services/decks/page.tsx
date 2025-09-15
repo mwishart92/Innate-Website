@@ -215,4 +215,23 @@ export const metadata: Metadata = {
   title: "Custom Deck Building Services in Seattle | Innate NW",
   description:
     "Expand your outdoor living space with a custom-built deck by Innate NW. Premium materials and expert design tailored to your lifestyle in Seattle.",
+  openGraph: {
+    title: "Custom Deck Building Services in Seattle | Innate NW",
+    description: "Expand your outdoor living space with a custom-built deck by Innate NW. Premium materials and expert design tailored to your lifestyle in Seattle.",
+    url: 'https://innate-nw.com/services/decks',
+    siteName: 'Innate NW',
+    images: [
+      {
+        url: '/images/innate-nw.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Innate NW - Deck Building',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Custom Deck Building Services in Seattle | Innate NW",
+    description: "Expand your outdoor living space with a custom-built deck by Innate NW. Premium materials and expert design tailored to your lifestyle in Seattle.",
+  },
 };

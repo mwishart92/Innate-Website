@@ -13,6 +13,14 @@ export const metadata: Metadata = {
     description: "Innate NW is collective of architects, engineers and craftsmen collaborating to create beautiful spaces and structures in Seattle. Call us on (425) 866-5206.",
     url: 'https://innate-nw.com/',
     siteName: 'Innate NW',
+    images: [
+      {
+        url: '/images/innate-nw.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Innate NW - Custom Design & Construction Services in Seattle',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',

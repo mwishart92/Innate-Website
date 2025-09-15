@@ -15,6 +15,14 @@ export const metadata: Metadata = {
     description: "At Innate, we believe every client and project has unique needs—whether a small remodel or a large-scale commercial construction. Call us now (425) 866-5206.",
     url: 'https://innate-nw.com/about',
     siteName: 'Innate NW',
+    images: [
+      {
+        url: '/images/innate-nw.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Innate NW - About Us',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
