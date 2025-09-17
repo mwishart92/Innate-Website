@@ -7,6 +7,7 @@ import firm from "@/public/images/about/firm.jpg";
 import michael from "@/public/images/about/michael2.jpg";
 import gelberg from "@/public/images/about/rangul1.jpg";
 import andres from "@/public/images/about/andres.jpg";
+import nayeli from "@/public/images/about/nayeli.jpg";
 import ivan from "@/public/images/about/ivan.jpg";
 // import amin from '@/public/images/about/amin.png'
 import mary from "@/public/images/about/mary.jpg";
@@ -170,7 +171,38 @@ const HeroAbout = () => {
             data-aos-delay="300"
           >
             <Text className="text-[18px] font-normal leading-[24px] mob:text-[16px]">
-              Office Manager
+               Social Media
+            </Text>
+            <Image className="" src={arrow} alt="" width={41} height={41} />
+          </div>
+        </div>
+        <div className="w-full max-w-[25%] mob:max-w-full">
+          <div
+            className="aspect-[2/2] relative overflow-hidden"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            <Image
+              className="object-cover w-[266px] h-[261px] mob:w-[350px] rounded-[10px]"
+              src={nayeli}
+              alt=""
+              fill
+            />
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+            <Text className="text-[30px] font-semibold leading-[39px] mt-5 mob:font-medium mob:text-[28px]">
+              Nayeli Flores Herbert
+            </Text>
+          </div>
+          <div
+            className="flex items-center"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <Text className="text-[18px] font-normal leading-[24px] mob:text-[16px]">
+               Office Manager
             </Text>
             <Image className="" src={arrow} alt="" width={41} height={41} />
           </div>
