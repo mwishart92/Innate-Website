@@ -113,7 +113,7 @@ const HeroAbout = () => {
         Our Team
       </Text>
 
-      <div className="w-full max-w-full px-16 mob:px-0 flex lg:flex-wrap gap-[25px] justify-center items-center pt-16 pb-16 mob:pt-12 mob:pb-24">
+      <div className="w-full max-w-full px-16 mob:px-0 flex lg:flex-wrap gap-[25px] justify-center items-start pt-16 pb-16 mob:pt-12 mob:pb-24">
         <div className="w-full max-w-[25%] mob:max-w-full">
           <div
             className="aspect-[2/2] relative overflow-hidden"
