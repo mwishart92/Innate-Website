@@ -275,6 +275,9 @@ export const metadata: Metadata = {
   title: "Architectural Design Services in Seattle | Innate NW",
   description:
     "Innate NW offers architectural design services in Seattle. Work with expert architects to create a space tailored to your lifestyle and future vision.",
+  alternates: {
+    canonical: 'https://innate-nw.com/services/architectural-services',
+  },
   openGraph: {
     title: "Architectural Design Services in Seattle | Innate NW",
     description: "Innate NW offers architectural design services in Seattle. Work with expert architects to create a space tailored to your lifestyle and future vision.",

@@ -212,6 +212,9 @@ export const metadata: Metadata = {
   title: "Kitchen Remodeling in Seattle | Innate NW",
   description:
     "Upgrade your kitchen with Innate NW's boutique remodeling services in Seattle. Custom design, premium materials, and expert craftsmanship for every lifestyle.",
+  alternates: {
+    canonical: 'https://innate-nw.com/services/kitchen-remodeling',
+  },
   openGraph: {
     title: "Kitchen Remodeling in Seattle | Innate NW",
     description: "Upgrade your kitchen with Innate NW's boutique remodeling services in Seattle. Custom design, premium materials, and expert craftsmanship for every lifestyle.",

@@ -224,7 +224,10 @@ const ServicesPage = () => {
 export default ServicesPage;
 
 export const metadata: Metadata = {
-  title: "Exterior Remodeling in Seattle | Siding, Windows & Doors | Innate NW",
+  title: "ADU Design & Build Services in Seattle | Innate NW",
   description:
-    "Boost your home's curb appeal with exterior remodeling from Innate NW in Seattle. Expert siding, windows, and door upgrades with precision craftsmanship.",
+    "Design and build custom ADUs in Seattle with Innate NW. Expert architectural services, permitting, and construction for detached and attached units.",
+  alternates: {
+    canonical: 'https://innate-nw.com/services/adus',
+  },
 };

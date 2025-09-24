@@ -203,6 +203,9 @@ export const metadata: Metadata = {
   title: "Exterior Remodeling in Seattle | Siding, Windows & Doors | Innate NW",
   description:
     "Boost your home's curb appeal with exterior remodeling from Innate NW in Seattle. Expert siding, windows, and door upgrades with precision craftsmanship.",
+  alternates: {
+    canonical: 'https://innate-nw.com/services/exterior-remodeling',
+  },
   openGraph: {
     title: "Exterior Remodeling in Seattle | Siding, Windows & Doors | Innate NW",
     description: "Boost your home's curb appeal with exterior remodeling from Innate NW in Seattle. Expert siding, windows, and door upgrades with precision craftsmanship.",

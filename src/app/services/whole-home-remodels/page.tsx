@@ -237,4 +237,7 @@ export const metadata: Metadata = {
   title: "Whole Home Remodeling Services in Seattle | Innate NW",
   description:
     "Transform your entire home with Innate NW's expert whole home remodeling services in Seattle. Personalized design, dedicated project management, and flawless execution.",
+  alternates: {
+    canonical: 'https://innate-nw.com/services/whole-home-remodels',
+  },
 };

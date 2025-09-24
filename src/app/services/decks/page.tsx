@@ -215,6 +215,9 @@ export const metadata: Metadata = {
   title: "Custom Deck Building Services in Seattle | Innate NW",
   description:
     "Expand your outdoor living space with a custom-built deck by Innate NW. Premium materials and expert design tailored to your lifestyle in Seattle.",
+  alternates: {
+    canonical: 'https://innate-nw.com/services/decks',
+  },
   openGraph: {
     title: "Custom Deck Building Services in Seattle | Innate NW",
     description: "Expand your outdoor living space with a custom-built deck by Innate NW. Premium materials and expert design tailored to your lifestyle in Seattle.",
