@@ -123,12 +123,12 @@ body {
 }
 
 /* Hover effects */
-.main-block:hover .hide-on-hover {
+.hover-effect:hover .hide-on-hover {
   opacity: 0;
   visibility: hidden;
 }
 
-.main-block:hover .show-on-hover {
+.hover-effect:hover .show-on-hover {
   opacity: 1;
   visibility: visible;
 }

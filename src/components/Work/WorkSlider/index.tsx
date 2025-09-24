@@ -90,7 +90,7 @@ function WorkSlider({
       )}
     >
       <div className="absolute inset-0 flex justify-center items-center z-20">
-        <div className="text-center p-5 mob:p-14 w-full bg-opacity-50 relative max-w-[1024px]">
+        <div className="text-center p-5 mob:p-14 w-full bg-opacity-50 relative max-w-[1024px] hover-effect">
           <div
             className={cn({
               "hide-on-hover": hover?.title && !isMobile,
