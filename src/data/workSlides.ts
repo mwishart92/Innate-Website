@@ -32,6 +32,10 @@ export const slidesData: SlideData[] = [
         type: "image",
       },
     ],
+    hover: {
+      title: "West Seattle Renovation | Bathroom + Exterior Remodel | General Contracting",
+      subTitle: `Innate NW delivered a complete transformation in just five weeks, turning the bathroom into a spa-like retreat and reimagining the home’s exterior with durable finishes, refreshed curb appeal, and thoughtful design. This West Seattle renovation showcases our expertise in general contracting, bathroom remodeling, and exterior renovations from start to finish.`,
+    },
   },
   {
     title: "South Seattle Kitchen",
