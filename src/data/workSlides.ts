@@ -47,6 +47,10 @@ export const slidesData: SlideData[] = [
       { src: "/images/project/seattle-kitchen/IMG_1570.webp", type: "image" },
       { src: "/images/project/seattle-kitchen/IMG_1572.webp", type: "image" },
     ],
+    hover: {
+      title: "South Seattle Kitchen Renovation | Custom Cabinetry & Modern Design",
+      subTitle: `This South Seattle kitchen remodel was completed in just four weeks, with every detail thoughtfully considered. Custom Canyon Creek cabinetry with built-in inserts, quartz countertops, and radiant heated floors created a space that feels both modern and personal. Our team worked closely with the homeowners to ensure the kitchen balanced beauty with daily function.`,
+    },
   },
   {
     title: "Magnolia Bathroom",
@@ -58,6 +62,10 @@ export const slidesData: SlideData[] = [
         type: "image",
       },
     ],
+    hover: {
+      title: "Magnolia Bathroom Remodel | Renovation & Historic Preservation",
+      subTitle: `This Magnolia bathroom renovation showcases how we blend historic preservation with modern design, featuring marble tile, custom frameless glass, and warm brass fixtures. Our team carefully repaired water damage and updated the space to reflect the Craftsman home’s original character while ensuring long-lasting durability.`,
+    },
   },
   {
     title: "Shoreline Residence",
@@ -81,6 +89,10 @@ export const slidesData: SlideData[] = [
         type: "image",
       },
     ],
+    hover: {
+      title: "Shoreline Home Renovation & Addition | Kitchen Remodel + Outdoor Living",
+      subTitle: `This Shoreline renovation and addition created more space and functionality for a growing family. Our team designed and built a new second story, remodeled the kitchen, and added outdoor living features like a TimberTech deck and StruXure pergola. Every element from flooring to finishes was chosen for durability, light, and warmth. `,
+    },    
   },
   {
     title: "Freitas Bathroom",
@@ -112,6 +124,10 @@ export const slidesData: SlideData[] = [
         type: "image",
       },
     ],
+    hover: {
+      title: "Freitas Bathroom Remodel | Capitol Hill - Seattle, Washington",
+      subTitle: `This bathroom remodel transformed a compact top-floor space into a refined retreat. Marble mosaic tile, a wall-mounted vanity, and curated fixtures from West Elm and Rejuvenation brought warmth and sophistication, while sliding glass doors maximized openness in a small footprint. The project was carefully managed to minimize disruption in this urban setting and completed in 2 weeks.`,
+    },
   },
   {
     title: "Knight Residence",
@@ -166,6 +182,10 @@ export const slidesData: SlideData[] = [
         type: "image",
       },
     ],
+    hover: {
+      title: "Knight Residence | Bathroom Remodel",
+      subTitle: `Inspired by a spa retreat in Spain, this Fremont bathroom remodel balances elegance with function. Floor-to-ceiling large-format tiling, a curbless shower with frameless glass, and floating cabinetry were installed. Warmth and contrast are added with oil-rubbed bronze fixtures, which give the house a boutique hospitality vibe.`,
+    },
   },
   {
     title: "Desert Oasis",
@@ -181,6 +201,10 @@ export const slidesData: SlideData[] = [
       { src: "/images/work/DS6.png", type: "image" },
       { src: "/images/work/DS7.png", type: "image" },
     ],
+    hover: {
+      title: "Modern Desert Oasis | Complete Residential Design",
+      subTitle: `This Palm Springs home was designed as a modern desert oasis, blending indoor-outdoor living with bold architectural features. Exposed beams, clerestory windows, and accordion doors fill the main living space with natural light, while a detached ADU offers privacy for guests and flexibility for the future. Completed in just three months, the home reflects a balance of design efficiency and modern livability.`,
+    },
   },
   {
     title: "Gray Bathroom",
@@ -196,6 +220,10 @@ export const slidesData: SlideData[] = [
       { src: "/images/work/GB7.jpg", type: "image" },
       { src: "/images/work/GB8.jpg", type: "image" },
     ],
+    hover: {
+      title: "Gray Bathroom | Natural Disaster Mitigation - Bathroom Remodel",
+      subTitle: `After a major pipe burst, this Kent bathroom was completely transformed into a spa-inspired retreat. Innate managed the insurance process, remediation, and full renovation, adding a curbless walk-in shower, custom glass, floor-to-ceiling tile, and a built-in hot tub, turning it into a functional and luxurious space.`,
+    },
   },
   {
     title: "Kung Fu Tea x TKK",
