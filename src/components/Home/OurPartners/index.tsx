@@ -6,7 +6,7 @@ import Marquee from './Marquee'
 
 const OurPartners = () => {
   return (
-    <div className="px-5 pt-16 mob:pt-0 mob:pb-[100px]">
+    <div className="px-5 pt-24 mob:pt-0 mob:pb-[100px]">
       <Text className="text-[24px] font-medium text-center mob:mb-[-144px] mob:font-normal mob:text-[20px]">
         Loved by Our Partners at
       </Text>

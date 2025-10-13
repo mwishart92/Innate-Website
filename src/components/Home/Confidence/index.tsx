@@ -39,7 +39,7 @@ const Confidence = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-full gradient pt-24 pb-20 px-5 mob:pt-5 sm:hidden">
+      <div className="w-full h-full gradient pt-24 pb-24 px-5 mob:pt-5 sm:hidden">
         <div className="flex lg:flex-wrap gap-[47px] items-center pt-[43px] pb-[43px] w-[350px] mob:w-full min-h-[320px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] gradient2 justify-center mob:gap-[40px] mob:pt-[0px] mob:pb-[0px]">
           <div className="w-full max-w-[1140px] mx-auto h-[300px] rounded-[10px] relative flex items-center justify-center">
             {/* <Image

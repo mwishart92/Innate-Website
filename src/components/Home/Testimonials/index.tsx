@@ -17,7 +17,7 @@ import {
 
 function Testimonials() {
   return (
-    <div className=" w-full mx-auto pt-44 pb-20 tab:px-5 mob:py-10 mob:pt-[80px]">
+    <div className=" w-full mx-auto pt-44 pb-24 tab:px-5 mob:py-10 mob:pt-[80px]">
       <div className="flex flex-wrap justify-center gap-[20px] mob:hidden mb-16 mob:mb-8">
         <div className="w-full max-w-[78%]">
           <Text as="h2" className="text-left font-normal mob:text-[30px] mob:leading-[33px] mob:px-5">

@@ -7,7 +7,7 @@ import Image from 'next/image'
 const Philosophy = () => {
   return (
     <>
-      <div className="flex justify-center items-center py-20 mob:my-12 px-14 mob:py-0 mob:px-0">
+      <div className="flex justify-center items-center py-24 mob:my-12 px-14 mob:py-0 mob:px-0">
         <div className="w-[84%] flex mob:flex-col items-center justify-between mob:w-[100%] gap-[20px] mob:gap-[80px]">
           <div className="w-[80%] mob:px-0 mob:w-[90%]">
             <Text className="text-[32px] text-white font-serif leading-[41.6px] mt-3 mb-4 mob:text-[28px] mob:leading-[36.4px] mob:text-medium">

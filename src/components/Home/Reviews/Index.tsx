@@ -13,7 +13,7 @@ interface ReviewsProps {
 
 const Reviews: React.FC<ReviewsProps> = ({ text, name, title }) => {
   return (
-    <div className="pt-32 pb-20">
+    <div className="pt-32 pb-24">
       <div className="w-full max-w-[1104px] mx-auto relative">
         <Image
           className="absolute left-0 top-[-40px] mob:top-[-40px] w-[74.95px] h-[64px] mob:w-[46.84px] mob:h-[40px] mob:bottom-[40px]"
