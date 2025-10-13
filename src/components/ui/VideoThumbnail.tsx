@@ -83,7 +83,7 @@ const VideoThumbnail: React.FC<VideoThumbnailProps> = ({
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
         </div>
         
-        <div className="pl-0 py-4 pr-4">
+        <div className="pl-0 py-4 pr-4 hidden">
           <div className="flex gap-[11px] items-center">
             <div>
               <Text className="text-[20px] leading-[28px] text-white font-normal">
