@@ -73,8 +73,7 @@ function HomeSlider() {
             </Text>
 
             <button
-              // className="mt-[20px] mb-[60px] border border-[#FFFFFF] font-normal max-w-[200px] h-[50px] text-[16px] hover:bg-white hover:text-black hover:border-black transition duration-300 bg-transparent px-[24px] py-[14px] mob:text-[14px] mob:max-w-[181px] mob:h-[48px]"
-              className="mt-[20px] mb-[60px] border border-[#ffffff] text-[#000000] background-white font-normal max-w-[200px] h-[50px] text-[16px] hover:bg-white hover:text-black hover:border-black transition duration-300 bg-transparent px-[24px] py-[14px] mob:text-[14px] mob:max-w-[181px] mob:h-[48px]"
+              className="mt-[20px] mb-[60px] border border-white bg-white text-black font-normal max-w-[200px] h-[50px] text-[16px] hover:bg-transparent hover:text-white hover:border-white transition duration-300 px-[24px] py-[14px] mob:text-[14px] mob:max-w-[181px] mob:h-[48px]"
               // onClick={() => scrollToSection('contactHome')}
               onClick={() => {
                 localStorage?.setItem(
@@ -84,7 +83,7 @@ function HomeSlider() {
                 router.push("/onboarding");
               }}
             >
-              Book Consultation
+              Let's Work Together
             </button>
           </div>
 
