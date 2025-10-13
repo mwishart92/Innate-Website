@@ -15,7 +15,7 @@ import { useRouter } from "next/navigation";
 const DesignAndBuild = () => {
   const router = useRouter();
   return (
-    <div className="w-full h-full gradient py-16 px-5 mob:pt-5">
+    <div className="w-full h-full gradient py-24 px-5 mob:pt-5">
       <Text
         as="h1"
         className="text-center font-normal mob:text-[30px] mb-16  mob:mb-4 mob:leading-[33px] mob:px-5"

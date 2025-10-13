@@ -52,6 +52,9 @@ function ReviewsSlider() {
 
   return (
     <div className="w-full overflow-hidden pt-32">
+      <Text as="h2" className="text-center font-normal mb-16 mob:mb-8 mob:text-[30px] mob:leading-[33px] mob:px-5">
+        Kind words from our clients..
+      </Text>
       <div className="px-[43px] mob:px-[16px] w-[80%] mob:w-full mx-auto">
         <div className="w-full overflow-hidden TestimonialSlider-slider-parent">
           <Swiper
