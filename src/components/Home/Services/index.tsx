@@ -43,7 +43,7 @@ const Services = () => {
           >
             <div className="overflow-hidden h-full flex justify-center items-center relative">
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
+              <div className="absolute inset-0 bg-black bg-opacity-60 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
 
               {/* Content */}
               <div className="relative z-10">
@@ -81,7 +81,7 @@ const Services = () => {
           >
             <div className="overflow-hidden h-full flex justify-center items-center relative">
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
+              <div className="absolute inset-0 bg-black bg-opacity-60 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
 
               <div className="relative z-10">
                 <Image
@@ -118,7 +118,7 @@ const Services = () => {
           >
             <div className="overflow-hidden h-full flex justify-center items-center relative mob:aspect-[5/5]">
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
+              <div className="absolute inset-0 bg-black bg-opacity-60 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
 
               <div className="relative z-10">
                 <Image
@@ -158,7 +158,7 @@ const Services = () => {
           >
             <div className="overflow-hidden h-full flex justify-center items-center relative">
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
+              <div className="absolute inset-0 bg-black bg-opacity-60 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
 
               <div className="relative z-10">
                 <Image
@@ -197,7 +197,7 @@ const Services = () => {
           >
             <div className="overflow-hidden h-full flex justify-center items-center relative mob:aspect-[5/5]">
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
+              <div className="absolute inset-0 bg-black bg-opacity-60 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
 
               <div className="relative z-10">
                 <Image
@@ -237,7 +237,7 @@ const Services = () => {
           >
             <div className="overflow-hidden h-full flex justify-center items-center relative">
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
+              <div className="absolute inset-0 bg-black bg-opacity-60 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
 
               <div className="relative z-10">
                 <Image
@@ -274,7 +274,7 @@ const Services = () => {
           >
             <div className="overflow-hidden h-full flex justify-center items-center relative mob:aspect-[5/5]">
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
+              <div className="absolute inset-0 bg-black bg-opacity-60 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
 
               <div className="relative z-10">
                 <Image
@@ -311,7 +311,7 @@ const Services = () => {
           >
             <div className="overflow-hidden h-full flex justify-center items-center relative mob:aspect-[5/5]">
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-40 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
+              <div className="absolute inset-0 bg-black bg-opacity-60 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
 
               <div className="relative z-10">
                 <Image

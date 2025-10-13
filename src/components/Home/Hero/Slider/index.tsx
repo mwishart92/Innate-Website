@@ -27,12 +27,6 @@ function HomeSlider() {
       priority: true, // First slide loads immediately
     },
     {
-      video: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Norman-bath.webm?alt=media&token=35c5155c-f7e2-490e-940d-f864bf782980",
-      delay: 26000,
-      projectName: "Norman Residence",
-      priority: false, // Lazy load
-    },
-    {
       video: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/05.25_Innate-NW_16x9%20No%20SpeedRamp_No%20Sound.webm?alt=media&token=b30f1fba-154c-495e-870e-8058cebddedc",
       delay: 26000,
       projectName: "Knight Residence",
@@ -87,12 +81,6 @@ function HomeSlider() {
             </button>
           </div>
 
-          <Text className="text-[20px] leading-[28px] mob:leading-[25px] text-[#FFFFFF] mt-5 mob:text-[18px] font-normal font-bentonMedium">
-            Project
-          </Text>
-          <Text className="text-[28px] mob:text-[24px] leading-[36.4px] mob:leading-[31.2px] text-[#FFFFFF] font-light">
-            {slides[currentSlide]?.projectName}
-          </Text>
         </div>
 
         <Swiper

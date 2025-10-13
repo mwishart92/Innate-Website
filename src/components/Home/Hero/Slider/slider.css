@@ -39,7 +39,7 @@
 }
 
 .mySwiper .swiper-pagination-bullet {
-  background-color: white;
+  background-color: #d9d9d9;
   /* Default bullet color */
   opacity: 1;
 
@@ -48,7 +48,7 @@
 
 
 .mySwiper .swiper-pagination-bullet-active {
-  background-color: #0B44A0 !important;
+  background-color: #d9d9d9 !important;
 }
 
 .mySwiper .swiper-pagination {
