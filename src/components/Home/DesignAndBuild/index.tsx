@@ -20,8 +20,7 @@ const DesignAndBuild = () => {
         as="h1"
         className="text-center font-normal mob:text-[30px] mb-16  mob:mb-4 mob:leading-[33px] mob:px-5"
       >
-        {/* Design and build the <span className="italic">Innate </span> way */}
-        Design + Build Services in Seattle
+        4 reasons to work with Innate
       </Text>
       {/* avoid surprise */}
       <div className="flex lg:flex-wrap gap-[47px] items-center px-[43px] pt-[43px] pb-[43px] mob:px-[16px] w-[80%] mob:w-full min-h-[500px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] gradient2 justify-center mob:gap-[40px] mob:pt-[12px] mob:pb-[28px]">
@@ -53,17 +52,17 @@ const DesignAndBuild = () => {
         </div>
         <div className="mob:order-1">
           <Text as="h2" className="">
-            Avoid Surprises
+            Avoid (Costly)Surprises
           </Text>
           <Text className="mt-3 mb-12 text-[22px] mob:text-[15px] text-[#FFFFFF66] leading-[30.14px] mob:leading-[20.55px] mob:mt-0">
             After doing an in-person site visit, we will provide an accurate,
             comprehensive and transparent bid, broken down by trade.
           </Text>
           <Button
-            className="max-w-[202px] mob:max-w-[116.38px] mob:h-[35.61px] h-[61px] flex justify-center items-center gap-2 mt-4 text-[19.5px] bg-transparent backdrop-blur-md mob:text-[11.21px]"
+            className="max-w-[375px] mob:max-w-[116.38px] mob:h-[35.61px] h-[61px] flex justify-center items-center gap-2 mt-4 text-[19.5px] bg-transparent backdrop-blur-md mob:text-[11.21px]"
             onClick={() => router.push("/onboarding")}
           >
-            Get Started
+            Yes, I want to avoid surprises!
             <Image src={rightarrow} alt="" width={18} height={18} />
           </Button>
         </div>
@@ -73,17 +72,17 @@ const DesignAndBuild = () => {
       <div className="flex lg:flex-wrap gap-[47px] items-center px-[43px] pt-[43px] pb-[43px] mob:px-[16px] w-[80%] mob:w-full min-h-[500px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] gradient2 justify-center mob:gap-[40px] mob:pt-[12px] mob:pb-[28px]">
         <div className="mob:order-1">
           <Text as="h2" className="">
-            Save Time
+            Save (Precious) Time          
           </Text>
           <Text className="mt-3 mb-12 text-[22px] mob:text-[15px] text-[#FFFFFF66] leading-[30.14px] mob:leading-[20.55px] mob:mt-0">
             Our network of vetted architects, engineers and craftsmen save you
             the time and hassle of putting together your own team.
           </Text>
           <Button
-            className="max-w-[202px] mob:max-w-[116.38px] mob:h-[35.61px] h-[61px] flex justify-center items-center gap-2 mt-4 text-[19.5px] bg-transparent backdrop-blur-md mob:text-[11.21px]"
+            className="max-w-[375px] mob:max-w-[116.38px] mob:h-[35.61px] h-[61px] flex justify-center items-center gap-2 mt-4 text-[19.5px] bg-transparent backdrop-blur-md mob:text-[11.21px]"
             onClick={() => router.push("/onboarding")}
           >
-            Get Started
+            Yes, I want to save time!
             <Image src={rightarrow} alt="" width={18} height={18} />
           </Button>
         </div>
@@ -121,7 +120,7 @@ const DesignAndBuild = () => {
         </div>
         <div className="mob:order-1">
           <Text as="h2" className="">
-            Avoid Stress
+            Avoid Stress (and Advil)          
           </Text>
           <Text className="mt-3 mb-12 text-[22px] mob:text-[15px] text-[#FFFFFF66] leading-[30.14px] mob:leading-[20.55px] mob:mt-0 mob:mb-6">
             Our dedicated project managers attend to every detail of your
@@ -129,10 +128,10 @@ const DesignAndBuild = () => {
             subcontractors are vetted, experienced, and highly skilled.
           </Text>
           <Button
-            className="max-w-[202px] mob:max-w-[116.38px] mob:h-[35.61px] h-[61px] flex justify-center items-center gap-2 mt-4 text-[19.5px] bg-transparent backdrop-blur-md mob:text-[11.21px] mob:mt-2"
+            className="max-w-[375px] mob:max-w-[116.38px] mob:h-[35.61px] h-[61px] flex justify-center items-center gap-2 mt-4 text-[19.5px] bg-transparent backdrop-blur-md mob:text-[11.21px] mob:mt-2"
             onClick={() => router.push("/onboarding")}
           >
-            Get Started
+            Yes, I want to avoid stress!
             <Image src={rightarrow} alt="" width={18} height={18} />
           </Button>
         </div>
@@ -142,17 +141,17 @@ const DesignAndBuild = () => {
       <div className="flex lg:flex-wrap gap-[47px] items-center px-[43px] pt-[43px] pb-[43px] mob:px-[16px] w-[80%] mob:w-full min-h-[500px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] gradient2 justify-center mob:gap-[40px] mob:pt-[16px] mob:pb-[34px]">
         <div className="mob:order-1">
           <Text as="h2" className="">
-            Track Progress
+            Track Every Step
           </Text>
           <Text className="mt-3 mb-12 text-[22px] mob:text-[15px] text-[#FFFFFF66] leading-[30.14px] mob:leading-[20.55px] mob:mt-0">
             Our proprietary software, JobSync, centralizes timeline progress,
             payments, budget, and material selections.
           </Text>
           <Button
-            className="max-w-[202px] mob:max-w-[116.38px] mob:h-[35.61px] h-[61px] flex justify-center items-center gap-2 mt-4 text-[19.5px] bg-transparent backdrop-blur-md mob:text-[11.21px]"
+            className="max-w-[375px] mob:max-w-[116.38px] mob:h-[35.61px] h-[61px] flex justify-center items-center gap-2 mt-4 text-[19.5px] bg-transparent backdrop-blur-md mob:text-[11.21px]"
             onClick={() => router.push("/onboarding")}
           >
-            Get Started
+            Yes, I was to track every step!
             <Image src={rightarrow} alt="" width={18} height={18} />
           </Button>
         </div>

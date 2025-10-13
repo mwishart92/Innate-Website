@@ -63,8 +63,8 @@ export default function HomeClientComponent() {
         <Navbar />
         <HomeSlider />
         <Collective />
-        <Services />
         <DesignAndBuild />
+        <Services />
         <ReviewsSlider />
         <Testimonials />
         <Confidence />
