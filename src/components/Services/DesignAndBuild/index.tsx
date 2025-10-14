@@ -96,18 +96,20 @@ const DesignAndBuild = ({
               </div>
               <div className="mob:order-1">
                 <Text as="h2">{section.title}</Text>
-                <Text className="mt-3 mb-12 text-[22px] mob:text-[15px] text-[#ffffffcc] leading-[30.14px] mob:leading-[20.55px] mob:mt-0">
-                  {section.description}
-                </Text>
+                <div 
+                  className="mt-3 mb-12 text-[22px] mob:text-[15px] text-[#ffffffcc] leading-[30.14px] mob:leading-[20.55px] mob:mt-0"
+                  dangerouslySetInnerHTML={{ __html: section.description }}
+                />
               </div>
             </>
           ) : (
             <>
               <div className="mob:order-1">
                 <Text as="h2">{section.title}</Text>
-                <Text className="mt-3 mb-12 text-[22px] mob:text-[15px] text-[#ffffffcc] leading-[30.14px] mob:leading-[20.55px] mob:mt-0">
-                  {section.description}
-                </Text>
+                <div 
+                  className="mt-3 mb-12 text-[22px] mob:text-[15px] text-[#ffffffcc] leading-[30.14px] mob:leading-[20.55px] mob:mt-0"
+                  dangerouslySetInnerHTML={{ __html: section.description }}
+                />
               </div>
               <div className="w-full max-w-[431.81px] flex justify-center items-center mob:order-2">
                 <Image
