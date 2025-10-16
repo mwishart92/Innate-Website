@@ -64,13 +64,13 @@ export default function HomeClientComponent() {
         <HomeSlider />
         <Collective />
         <DesignAndBuild />
-        <Services />
         <ReviewsSlider />
         <Testimonials />
+        <OurPartners />
+        <Services />
         <Confidence />
         <ProjectSlider />
         <ContactHome />
-        <OurPartners />
       </div>
     </>
   );
