@@ -54,7 +54,7 @@ function ReviewsSlider() {
   return (
     <div className="w-full overflow-hidden pt-32">
       {/* Loom Video Section */}
-      <div className="flex flex-col items-center justify-center pt-[75px] mb-[150px]">
+      <div className="flex flex-col items-center justify-center pt-[75px] pb-48">
         <Text as="h2" className="text-center font-normal mb-[50px] mob:mb-8 mob:text-[30px] mob:leading-[33px] mob:px-5">
           Watch this video to see our approach in action!
         </Text>

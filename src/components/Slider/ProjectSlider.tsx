@@ -30,7 +30,7 @@ const ProjectSlider = () => {
         className="text-[34px] pt-4 pb-4 mob:text-[30px] text-white font-semibold text-center mb-16 mob:mb-6"
       >
       Featured projects we’re proud of      </Text>
-      <div>
+      <div className="pb-36">
         <Swiper
           spaceBetween={50}
           slidesPerView={"auto"}
