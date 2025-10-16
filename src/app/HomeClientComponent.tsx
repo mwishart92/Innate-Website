@@ -68,7 +68,7 @@ export default function HomeClientComponent() {
         <Testimonials />
         <OurPartners />
         <Services />
-        <Confidence />
+        {/* <Confidence /> */}
         <ProjectSlider />
         <ContactHome />
       </div>
