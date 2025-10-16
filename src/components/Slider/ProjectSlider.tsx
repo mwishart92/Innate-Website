@@ -29,8 +29,7 @@ const ProjectSlider = () => {
         as="h2"
         className="text-[34px] mob:text-[30px] text-white font-semibold text-center mb-16 mob:mb-6"
       >
-        More Projects
-      </Text>
+      Featured projects we’re proud of      </Text>
       <div>
         <Swiper
           spaceBetween={50}
