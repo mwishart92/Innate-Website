@@ -15,6 +15,7 @@ import "swiper/css/pagination";
 import { Button, Dialog, DialogPanel, DialogTitle } from "@headlessui/react";
 import Text from "@/components/ui/Text";
 import Reviews from "../ReviewBlock";
+import LoomVideoThumbnail from "@/components/ui/LoomVideoThumbnail";
 import { useState } from "react";
 
 interface Review {
@@ -52,6 +53,22 @@ function ReviewsSlider() {
 
   return (
     <div className="w-full overflow-hidden pt-32">
+      {/* Loom Video Section */}
+      <div className="flex flex-col items-center justify-center pt-[75px] mb-[150px] bg-blue-500 min-h-[200px]">
+        <div className="bg-red-500 p-8 mb-4 text-center">
+          <h1 className="text-white text-2xl font-bold">DEBUG: VIDEO SECTION IS HERE</h1>
+          <p className="text-white">This should be visible above the reviews</p>
+        </div>
+        <Text as="h2" className="text-center font-normal mb-[50px] mob:mb-8 mob:text-[30px] mob:leading-[33px] mob:px-5 text-white">
+          Watch this video to see our approach in action!
+        </Text>
+        <LoomVideoThumbnail
+          videoId="edfe795cdce04589b279fefaa15b4e96"
+          title="Our Collective Story"
+          subtitle="Learn about our team and approach"
+        />
+      </div>
+      
       <Text as="h2" className="text-center font-normal mb-16 mob:mb-8 mob:text-[30px] mob:leading-[33px] mob:px-5">
         Kind words from our clients..
       </Text>

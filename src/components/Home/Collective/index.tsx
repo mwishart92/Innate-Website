@@ -1,7 +1,6 @@
 import React from 'react'
 import Button from '@/components/ui/Button'
 import Text from '@/components/ui/Text'
-import LoomVideoThumbnail from '@/components/ui/LoomVideoThumbnail'
 import { useRouter } from 'next/navigation'
 import './collective.css'
 
@@ -27,11 +26,6 @@ const Collective = () => {
               Let's Chat!
             </Button>
           </div>
-          {/* <LoomVideoThumbnail
-            videoId="edfe795cdce04589b279fefaa15b4e96"
-            title="Our Collective Story"
-            subtitle="Learn about our team and approach"
-          /> */}
         </div>
       </div>
     </>

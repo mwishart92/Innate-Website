@@ -97,25 +97,7 @@ const LoomVideoThumbnail: React.FC<LoomVideoThumbnailProps> = ({
             </svg>
           </button>
           
-          {/* Video Title */}
-          {title && (
-            <div className="absolute top-4 left-4 z-10">
-              <Text className="text-white text-lg font-medium drop-shadow-lg">
-                {title}
-              </Text>
-            </div>
-          )}
-          
-          {/* Loom Video Player */}
-          <div className="w-full h-full">
-            <iframe
-              src={loomEmbedUrl}
-              frameBorder="0"
-              allowFullScreen
-              className="w-full h-full"
-              title={title || "Loom video"}
-            />
-          </div>
+
         </div>
       </Modal>
     </>
