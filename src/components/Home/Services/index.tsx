@@ -31,7 +31,7 @@ const Services = () => {
     <div className="pt-24 pb-4 mob:pt-0">
       <div className="flex flex-wrap justify-center gap-[20px] mob:hidden mb-16 mob:mb-8">
         <div className="w-full max-w-[78%]">
-          <Text as="h2" className="text-left font-normal mob:text-[30px] mob:leading-[33px] mob:px-5">
+          <Text as="h2" className="text-center font-normal mob:text-[30px] mob:leading-[33px] mob:px-5">
             Services we provide
           </Text>
         </div>
