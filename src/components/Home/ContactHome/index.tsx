@@ -15,7 +15,7 @@ const ContactHome = () => {
             as="h2"
             className="text-[34px] text-white font-semibold mob:text-[30px]"
           >
-            Book a free consultation
+          Let's Talk About Your Project
           </Text>
           <Text className="text-[16px] mt-4 text-[#D9D9D9] mob:font-normal mob:text-[14px]">
             Schedule a complimentary consultation to discuss your architecture
