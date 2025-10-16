@@ -54,12 +54,8 @@ function ReviewsSlider() {
   return (
     <div className="w-full overflow-hidden pt-32">
       {/* Loom Video Section */}
-      <div className="flex flex-col items-center justify-center pt-[75px] mb-[150px] bg-blue-500 min-h-[200px]">
-        <div className="bg-red-500 p-8 mb-4 text-center">
-          <h1 className="text-white text-2xl font-bold">DEBUG: VIDEO SECTION IS HERE</h1>
-          <p className="text-white">This should be visible above the reviews</p>
-        </div>
-        <Text as="h2" className="text-center font-normal mb-[50px] mob:mb-8 mob:text-[30px] mob:leading-[33px] mob:px-5 text-white">
+      <div className="flex flex-col items-center justify-center pt-[75px] mb-[150px]">
+        <Text as="h2" className="text-center font-normal mb-[50px] mob:mb-8 mob:text-[30px] mob:leading-[33px] mob:px-5">
           Watch this video to see our approach in action!
         </Text>
         <LoomVideoThumbnail
