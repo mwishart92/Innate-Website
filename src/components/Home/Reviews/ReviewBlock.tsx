@@ -28,43 +28,11 @@ const ReviewBlock: React.FC<ReviewsProps> = ({
 }) => {
   return (
     <div className="mb-10">
-      <div className="w-full max-w-[1104px] mx-auto relative">
-        <div className="bg-[#7A7A7A]/30 rounded-[16px] p-[25px]">
-          <div className="flex justify-between mt-10">
-            <div className="flex gap-[34px]">
-              <div className="bg-[#747373] w-[50px] h-[50px] mob:w-[56px] mob:h-[56px] text-white flex justify-center items-center text-[40px] rounded-full relative">
-                {name[0]}
-                <div className=" absolute right-0 bottom-0 bg-white p-[2px] rounded-full flex justify-center items-center w-[20px] h-[20px]">
-                  <img
-                    src="/Google__G__logo.svg"
-                    alt=""
-                    className="w-[20px] h-[20px]"
-                  />
-                </div>
-              </div>
-              <div className="">
-                <Text className="text-[16px] font-medium leading-[31.2px] text-white mob:text-[16px]">
-                  {name}
-                </Text>
-                <Text className="text-[16px] mt-1 text-white mob:text-[14px] font-semibold">
-                  {title}
-                </Text>
-              </div>
-            </div>
-            <div className="w-[21px]">
-              <img src="/Approval.png" alt="" />
-            </div>
-          </div>
-          <div className="flex gap-[1px] mt-4">
-            <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
-            <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
-            <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
-            <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
-            <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
-          </div>
+      <div className="w-full mx-auto relative">
+        <div className="">
           <Text
             className={cn(
-              "text-[16px] leading-[31.2px] text-white max-w-[879px] mob:text-[16px] mob:leading-[25.2px] mob:font-normal font-semibold",
+              "text-[21px] leading-[31.2px] text-white mob:text-[16px] mob:leading-[25.2px] mob:font-normal font-light",
               "text-ellipsis"
             )}
           >
@@ -76,10 +44,23 @@ const ReviewBlock: React.FC<ReviewsProps> = ({
               e.preventDefault();
               handleOpenDailog({ text, title, name });
             }}
-            className="text-gray-200"
+            className="text-gray-200 text-[18px] mob:text-[16px]"
           >
             Read more
           </a>
+        </div>
+        <div className="flex justify-between mt-10">
+          <div className="flex gap-[34px]">
+            <div className="">
+              <Text className="text-[16px] font-normal leading-[31.2px] text-white mob:text-[16px]">
+                - {name}
+              </Text>
+              <Text className="text-[16px] mt-1 text-white mob:text-[14px] font-normal">
+                {title}
+              </Text>
+            </div>
+          </div>
+          <div className="w-[21px]"></div>
         </div>
       </div>
     </div>

@@ -55,7 +55,10 @@ function ReviewsSlider() {
     <div className="w-full overflow-hidden pt-36">
       {/* Loom Video Section */}
       <div className="flex flex-col items-center justify-center pb-48">
-        <Text as="h2" className="text-center font-normal mb-[50px] mob:mb-8 mob:text-[30px] mob:leading-[33px] mob:px-5">
+        <Text
+          as="h2"
+          className="text-center font-normal mb-[50px] mob:mb-8 mob:text-[30px] mob:leading-[33px] mob:px-5"
+        >
           Watch this video to see our approach in action!
         </Text>
         <LoomVideoThumbnail
@@ -64,8 +67,11 @@ function ReviewsSlider() {
           subtitle="Learn about our team and approach"
         />
       </div>
-      
-      <Text as="h2" className="text-center font-normal mb-16 mob:mb-8 mob:text-[30px] mob:leading-[33px] mob:px-5">
+
+      <Text
+        as="h2"
+        className="text-center font-normal mb-16 mob:mb-8 mob:text-[30px] mob:leading-[33px] mob:px-5"
+      >
         Kind words from our clients..
       </Text>
       <div className="px-[43px] mob:px-[16px] w-[80%] mob:w-full mx-auto">
@@ -77,16 +83,16 @@ function ReviewsSlider() {
                 slidesPerView: 1,
               },
               1024: {
-                slidesPerView: 2,
+                slidesPerView: 1,
               },
               1180: {
-                slidesPerView: 2,
+                slidesPerView: 1,
               },
               1323: {
-                slidesPerView: 3,
+                slidesPerView: 1,
               },
             }}
-            slidesPerView={3}
+            slidesPerView={1}
             speed={4000}
             autoplay={{
               delay: 12000,
@@ -151,11 +157,31 @@ function ReviewsSlider() {
                 </div>
               </div>
               <div className="flex gap-[1px] mt-4">
-                <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
-                <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
-                <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
-                <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
-                <img src="/Star.png" alt="Google rating star" className="w-[22px]" />
+                <img
+                  src="/Star.png"
+                  alt="Google rating star"
+                  className="w-[22px]"
+                />
+                <img
+                  src="/Star.png"
+                  alt="Google rating star"
+                  className="w-[22px]"
+                />
+                <img
+                  src="/Star.png"
+                  alt="Google rating star"
+                  className="w-[22px]"
+                />
+                <img
+                  src="/Star.png"
+                  alt="Google rating star"
+                  className="w-[22px]"
+                />
+                <img
+                  src="/Star.png"
+                  alt="Google rating star"
+                  className="w-[22px]"
+                />
               </div>
               <p className="mt-2 text-sm/6 text-white/50">{content?.text}</p>
             </DialogPanel>

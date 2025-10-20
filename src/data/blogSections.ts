@@ -899,4 +899,210 @@ export const blogSections: ArticleSection[] = [
       keywords: "",
     },
   },
+  {
+    id: 11,
+    slug: "exterior-design-for-small-homes",
+    title:
+      "Smart Exterior Design for Small Homes: Make the Most of Limited Space",
+    thumbnail: "/images/press/smart_websize.jpg",
+    tag: "Blog",
+    excerpt: `Discover smart exterior design tips that maximize space and style for small homes. See how Innate-NW provides functional and beautiful exterior remodeling.`,
+    publishedDate: "20 October, 2025",
+    content: [
+      {
+        type: "image",
+        src: ["/images/press/smart2_websize.jpg"],
+
+        alt: "Image description",
+      },
+      {
+        type: "text",
+        text: `
+        <h1><strong>Smart Exterior Design for Small Homes: Make the Most of Limited Space</strong></h1>
+<p>&nbsp;</p>
+<h2><strong>Introduction</strong></h2>
+<p><span style="font-weight: 400;">Small homes are rising in popularity for their lower cost, reduced </span><strong>greenhouse gas emissions</strong><span style="font-weight: 400;">, and easier upkeep. They also use fewer </span><strong>natural resources</strong><span style="font-weight: 400;">, which helps preserve the environment. Yet limited square footage presents a design challenge&mdash;how can a compact home still offer beauty, function, and energy efficiency?</span></p>
+<p><span style="font-weight: 400;">The answer is smart </span><strong>home exterior design</strong><span style="font-weight: 400;">. With the right plan, a small home can feel larger, stay </span><strong>environmentally friendly</strong><span style="font-weight: 400;">, and deliver curb appeal that lasts for the long term. </span><strong>Innate-NW</strong><span style="font-weight: 400;"> specializes in </span><strong>exterior remodeling</strong><span style="font-weight: 400;"> that transforms tight spaces into stylish, sustainable outdoor living areas.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Create Functional Outdoor Spaces</strong></h2>
+<p><span style="font-weight: 400;">A smart </span><strong>small home exterior design</strong><span style="font-weight: 400;"> makes every inch count. Patios, decks, and vertical gardens can turn unused corners into beautiful, multi-purpose rooms.</span></p>
+<h3><span style="font-weight: 400;">Patios and Decks</span></h3>
+<p><span style="font-weight: 400;">A well-planned deck or patio can serve as a dining area, reading nook, or mini garden. Our </span><strong>deck builds</strong><span style="font-weight: 400;"> include built-in seating and hidden planters to save space and add convenience.</span></p>
+<h3><span style="font-weight: 400;">Vertical Gardens</span></h3>
+<p><span style="font-weight: 400;">When ground space is scarce, think vertical. Living walls or stacked planters bring greenery and improve </span><strong>indoor air quality</strong><span style="font-weight: 400;"> when placed near windows or sliding doors.</span></p>
+<h3><span style="font-weight: 400;">Flexible Layouts</span></h3>
+<p><span style="font-weight: 400;">Use foldable tables and benches with storage. These cost-effective features keep a small patio neat and ready for guests or quiet evenings.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Make Space Look Bigger with Design</strong></h2>
+<p><span style="font-weight: 400;">Smart design can make a compact house feel spacious.</span></p>
+<ul>
+<li style="font-weight: 400;"><strong>Horizontal Lines and Light Colors</strong><span style="font-weight: 400;">: Horizontal siding or slatted fencing draws the eye outward. Light, reflective finishes reduce heat gain and visually enlarge the home.</span></li>
+<li style="font-weight: 400;"><strong>Streamlined Rooflines</strong><span style="font-weight: 400;">: Clean roof shapes and slim overhangs provide shade while maintaining simple, modern lines.</span></li>
+<li style="font-weight: 400;"><strong>Well-Placed Windows</strong><span style="font-weight: 400;">: Corner glazing and clerestory windows let in sunlight and help reduce reliance on artificial lighting, supporting </span><strong>energy saving</strong><span style="font-weight: 400;"> goals.</span></li>
+</ul>
+<p>&nbsp;</p>
+<h2><strong>Integrate Storage and Utility Seamlessly</strong></h2>
+<p><span style="font-weight: 400;">Storage is a frequent challenge for small homes. A thoughtful </span><strong>exterior remodeling contractor</strong><span style="font-weight: 400;"> can blend function and style.</span></p>
+<ul>
+<li style="font-weight: 400;"><strong>Compact Sheds and Bike Racks</strong><span style="font-weight: 400;">: Small but </span><strong>high quality</strong><span style="font-weight: 400;"> sheds and wall racks keep gear tidy.</span></li>
+<li style="font-weight: 400;"><strong>Built-In Seating with Storage</strong><span style="font-weight: 400;">: Benches double as storage bins for cushions or gardening tools.</span></li>
+<li style="font-weight: 400;"><strong>Concealed Bins</strong><span style="font-weight: 400;">: Custom enclosures hide garbage and recycling containers, keeping sightlines clear.</span></li>
+</ul>
+<p>&nbsp;</p>
+<h2><strong>Choose the Right Materials and Landscaping</strong></h2>
+<p><span style="font-weight: 400;">Scaled materials and layered landscaping bring harmony and depth to small spaces.</span></p>
+<ul>
+<li style="font-weight: 400;"><strong>Sustainable Building Materials</strong><span style="font-weight: 400;">: Use </span><strong>recycled materials</strong><span style="font-weight: 400;"> like composite decking or reclaimed wood to reduce </span><strong>fossil fuels</strong><span style="font-weight: 400;"> used in the </span><strong>manufacturing process</strong><span style="font-weight: 400;">.</span></li>
+<li style="font-weight: 400;"><strong>Eco Friendly Materials</strong><span style="font-weight: 400;">: Bamboo or cork are a </span><strong>renewable resource</strong><span style="font-weight: 400;"> and add warmth and texture.</span></li>
+<li style="font-weight: 400;"><strong>Layered Landscaping</strong><span style="font-weight: 400;">: Native plants of varied heights create a rich, green architecture effect while conserving water.</span></li>
+</ul>
+<p><span style="font-weight: 400;">These </span><strong>cost effective</strong><span style="font-weight: 400;"> and </span><strong>sustainably designed</strong><span style="font-weight: 400;"> choices keep maintenance low and visual impact high.</span></p>
+<h2>&nbsp;</h2>
+<h2><strong>Add Personality with Texture and Light</strong></h2>
+<p><span style="font-weight: 400;">A small exterior can still show strong character.</span></p>
+<ul>
+<li style="font-weight: 400;"><strong>Accent Walls</strong><span style="font-weight: 400;">: Reclaimed wood or stone provides striking contrast.</span></li>
+<li style="font-weight: 400;"><strong>Decorative Lighting</strong><span style="font-weight: 400;">: String lights or downlights add evening ambiance and safety.</span></li>
+<li style="font-weight: 400;"><strong>Custom Railings</strong><span style="font-weight: 400;">: Our </span><strong>railing systems</strong><span style="font-weight: 400;"> add visual interest while meeting safety codes.</span></li>
+</ul>
+<p><span style="font-weight: 400;">Details like these give your home a one-of-a-kind look.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Blend Efficiency with Curb Appeal</strong></h2>
+<p><span style="font-weight: 400;">Modern </span><strong>house exterior remodeling</strong><span style="font-weight: 400;"> balances style with performance.</span></p>
+<ul>
+<li style="font-weight: 400;"><strong>Solar Panels</strong><span style="font-weight: 400;">: Integrated solar panels generate clean power from </span><strong>renewable energy sources</strong><span style="font-weight: 400;"> without spoiling the roofline.</span></li>
+<li style="font-weight: 400;"><strong>Energy Efficiency</strong><span style="font-weight: 400;">: Advanced insulation and high-performance siding cut heating and cooling costs.</span></li>
+<li style="font-weight: 400;"><strong>Reduced Carbon Emissions</strong><span style="font-weight: 400;">: Lower energy use means less dependence on fossil fuels and fewer emissions over the long term.</span></li>
+</ul>
+<p><span style="font-weight: 400;">Innate-NW helps homeowners achieve these goals without sacrificing beauty.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Plan for Year-Round Comfort</strong></h2>
+<p><span style="font-weight: 400;">Design for every season to extend living space.</span></p>
+<ul>
+<li style="font-weight: 400;"><strong>Covered Patios or Pergolas</strong><span style="font-weight: 400;"> create shelter from rain and summer sun.</span></li>
+<li style="font-weight: 400;"><strong>Retractable Screens</strong><span style="font-weight: 400;"> provide insect protection when needed.</span></li>
+<li style="font-weight: 400;"><strong>Outdoor Heaters or Fire Features</strong><span style="font-weight: 400;"> keep patios cozy during cool months.</span></li>
+</ul>
+<p><span style="font-weight: 400;">These improvements ensure that outdoor areas stay inviting all year.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Think Long-Term and Flexible</strong></h2>
+<p><span style="font-weight: 400;">Smart </span><strong>exterior design</strong><span style="font-weight: 400;"> anticipates change. Families grow, hobbies evolve, and outdoor needs shift.</span></p>
+<p><span style="font-weight: 400;">We create spaces that adapt&mdash;modular decks that can be expanded, planters that move easily, and sheds that can become hobby rooms. Long-term thinking protects your investment and keeps your home appealing for decades.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Partner with the Right Architecture Firm</strong></h2>
+<p><span style="font-weight: 400;">A successful project starts with expertise. Innate-NW is more than a contractor&mdash;we are one of the region&rsquo;s leading </span><strong>architecture firms</strong><span style="font-weight: 400;"> focused on sustainable, space-smart solutions.</span></p>
+<p><span style="font-weight: 400;">From concept to permits to final build, our team manages every stage. We ensure that your exterior is not only beautiful and efficient but also built to last.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Conclusion &amp; Call to Action</strong></h2>
+<p><span style="font-weight: 400;">A small home can still deliver big curb appeal and strong sustainability. With </span><strong>smart exterior design</strong><span style="font-weight: 400;">, you can create welcoming outdoor spaces, add hidden storage, and improve energy performance.</span></p>
+<p><span style="font-weight: 400;">Innate-NW specializes in </span><strong>exterior remodeling services</strong><span style="font-weight: 400;"> that merge beauty with environmental care. Whether you want a complete remodel or targeted upgrades like a custom deck or vertical garden, we can help.&nbsp;</span></p>
+<p>&nbsp;</p>
+<h3><strong>Contact Innate-NW to design an exterior that saves energy, reduces emissions, and enhances your home for the long term.</strong></h3>
+        `,
+      },
+    ],
+    seo: {
+      title:
+        "Smart Exterior Design for Small Homes: Make the Most of Limited Space",
+      description:
+        "Discover smart exterior design tips that maximize space and style for small homes. See how Innate-NW provides functional and beautiful exterior remodeling.",
+      keywords: "",
+    },
+  },
+  {
+    id: 12,
+    slug: "sustainable-architecture-guide",
+    title:
+      "Sustainable Architecture: Eco-friendly features that don't diminish style",
+    thumbnail: "/images/press/sustainable1.jpg",
+    tag: "Blog",
+    excerpt: `Discover how sustainable architecture can be both stylish and eco-friendly. Learn the benefits of energy-efficient spaces without compromising on design.`,
+    publishedDate: "20 October, 2025",
+    content: [
+      {
+        type: "image",
+        src: ["/images/press/sustainable2.jpg"],
+
+        alt: "Image description",
+      },
+      {
+        type: "text",
+        text: `
+        <h1><strong>Sustainable Architecture: Eco-Friendly Features That Don&rsquo;t Diminish Style</strong></h1>
+<p>&nbsp;</p>
+<h2><strong>Introduction</strong></h2>
+<p><span style="font-weight: 400;">Sustainable architecture is now a standard in modern home design. More homeowners want to cut energy use and protect natural resources. At the same time, they want spaces that feel warm, open, and beautiful.</span></p>
+<p><span style="font-weight: 400;">Many people worry that eco-friendly choices mean plain or industrial-looking homes. At </span><strong>Innate-NW</strong><span style="font-weight: 400;">, we prove that isn&rsquo;t true. Our </span><strong>whole home remodels</strong><span style="font-weight: 400;"> and new builds combine energy savings with timeless style. We create homes that are efficient, durable, and inviting.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Energy-Efficient Design Without an Industrial Look</strong></h2>
+<p><span style="font-weight: 400;">Energy efficiency doesn&rsquo;t have to look mechanical. We blend smart technology with clean design so your home is stylish and efficient.</span></p>
+<p><span style="font-weight: 400;">We install </span><strong>solar panels</strong><span style="font-weight: 400;"> that sit flush with the roofline. They supply power but remain subtle. </span><strong>High-performance windows</strong><span style="font-weight: 400;"> and advanced insulation keep indoor temperatures steady year-round. Smart thermostats and zoned heating or cooling reduce energy use without drawing attention.</span></p>
+<p><span style="font-weight: 400;">Even complex systems like energy recovery ventilation are hidden inside walls or ceilings. The result is lower utility bills and quiet, consistent comfort in every season.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Sustainable Materials That Add Natural Beauty</strong></h2>
+<p><span style="font-weight: 400;">Choosing </span><strong>sustainable architecture materials</strong><span style="font-weight: 400;"> is about more than saving resources. The right materials also bring rich color and texture.</span></p>
+<ul>
+<li style="font-weight: 400;"><strong>Reclaimed wood</strong><span style="font-weight: 400;"> offers character and history for floors, beams, and accent walls.</span></li>
+<li style="font-weight: 400;"><strong>Bamboo</strong><span style="font-weight: 400;">, a rapidly renewable resource, delivers warmth and a clean grain.</span></li>
+<li style="font-weight: 400;"><strong>Recycled steel</strong><span style="font-weight: 400;"> provides sharp, modern lines and lasting strength.</span></li>
+</ul>
+<p><span style="font-weight: 400;">To protect indoor air, we recommend </span><strong>low-VOC paints and natural finishes</strong><span style="font-weight: 400;">. They release fewer chemicals and help everyone breathe easier. These finishes are standard in our </span><strong>kitchen remodels</strong><span style="font-weight: 400;"> and </span><strong>bathroom remodels</strong><span style="font-weight: 400;">. They prove that eco-friendly products can also be elegant.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Passive Design That Works with Nature</strong></h2>
+<p><span style="font-weight: 400;">Some of the smartest sustainable solutions are centuries old. </span><strong>Passive design</strong><span style="font-weight: 400;"> uses the sun, wind, and shade to keep homes comfortable.</span></p>
+<p><span style="font-weight: 400;">We orient rooms to capture daylight and cool breezes. Deep roof overhangs block harsh summer sun but welcome winter light. Clerestory windows and operable skylights pull warm air upward and out, reducing the need for mechanical cooling.</span></p>
+<p><span style="font-weight: 400;">Our </span><strong>architectural services</strong><span style="font-weight: 400;"> team uses digital modeling to balance light and shade. This keeps spaces bright and comfortable with minimal energy use. Every detail&mdash;window size, roof pitch, room placement&mdash;is planned for efficiency and beauty.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Outdoor Spaces That Conserve Water</strong></h2>
+<p><span style="font-weight: 400;">A sustainable home extends beyond its walls. Thoughtful landscaping saves water and supports local ecosystems while adding visual appeal.</span></p>
+<p><span style="font-weight: 400;">Native plants thrive in the Pacific Northwest with little irrigation. </span><strong>Green roofs</strong><span style="font-weight: 400;"> and living walls provide insulation and attract pollinators. </span><strong>Rainwater harvesting systems</strong><span style="font-weight: 400;"> and </span><strong>permeable patios</strong><span style="font-weight: 400;"> collect and filter water instead of letting it run off.</span></p>
+<p><span style="font-weight: 400;">These outdoor features often complement our </span><strong>deck builds</strong><span style="font-weight: 400;"> and </span><strong>ADU projects</strong><span style="font-weight: 400;">. Together, they create outdoor living areas that feel like natural extensions of the home.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Smart Technology for Everyday Efficiency</strong></h2>
+<p><span style="font-weight: 400;">Modern technology makes sustainability simple. Smart home systems show real-time data on energy and water use, helping you track and adjust.</span></p>
+<p><span style="font-weight: 400;">Automated lighting dims when rooms are empty or daylight is strong. Intelligent irrigation uses weather forecasts to avoid unnecessary watering. These quiet tools save money and resources while keeping your home stylish and clutter-free.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Comfort and Health Inside the Home</strong></h2>
+<p><span style="font-weight: 400;">True sustainability includes healthy indoor spaces. Clean air, natural light, and balanced humidity are essential.</span></p>
+<p><span style="font-weight: 400;">We design layouts that encourage natural airflow and daylight. We specify finishes with low chemical emissions and use materials that help control humidity. The result is a home that supports well-being as well as beauty.</span></p>
+<p>&nbsp;</p>
+<h2><strong>What Is Sustainable Architecture?</strong></h2>
+<p><span style="font-weight: 400;">People often ask, </span><em><span style="font-weight: 400;">what is sustainable architecture</span></em><span style="font-weight: 400;">? It is a way of building that respects natural resources and creates homes that last.</span></p>
+<p><span style="font-weight: 400;">Key parts include:</span></p>
+<ul>
+<li style="font-weight: 400;"><strong>Eco friendly materials</strong><span style="font-weight: 400;"> that are renewable or recycled.</span></li>
+<li style="font-weight: 400;"><strong>Energy-smart systems</strong><span style="font-weight: 400;"> that lower power and water use.</span></li>
+<li style="font-weight: 400;"><strong>Design strategies</strong><span style="font-weight: 400;"> that work with climate and light.</span></li>
+</ul>
+<p><span style="font-weight: 400;">At Innate-NW, these principles guide every </span><strong>whole home remodel</strong><span style="font-weight: 400;"> and every new home we design.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Style and Sustainability Go Hand in Hand</strong></h2>
+<p><span style="font-weight: 400;">Eco-conscious choices expand design possibilities. Warm reclaimed wood, sleek bamboo, and bold recycled steel all add striking detail. Solar roofs, smart windows, and light-filled spaces become standout features.</span></p>
+<p><span style="font-weight: 400;">Many clients are surprised by how these solutions increase visual appeal. A sustainable home can be rich in color, texture, and light. Comfort, efficiency, and style all grow together.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Planning Your Own Sustainable Home</strong></h2>
+<p><span style="font-weight: 400;">Thinking about your own project? Here are a few ways to begin:</span></p>
+<ol>
+<li style="font-weight: 400;"><strong>Schedule a design consultation.</strong><span style="font-weight: 400;"> Our </span><strong>architectural services</strong><span style="font-weight: 400;"> team can assess your site, lifestyle, and goals.</span></li>
+<li style="font-weight: 400;"><strong>Explore a whole home remodel.</strong><span style="font-weight: 400;"> We can add eco-friendly upgrades throughout your house.</span></li>
+<li style="font-weight: 400;"><strong>Focus on key rooms.</strong><span style="font-weight: 400;"> Kitchens and baths benefit most from efficient layouts and fixtures.</span></li>
+<li style="font-weight: 400;"><strong>Include smart outdoor features.</strong><span style="font-weight: 400;"> Decks, ADUs, and water-wise landscaping complete the picture.</span></li>
+</ol>
+<p><span style="font-weight: 400;">Every project starts with a conversation and ends with a home that matches your vision and values.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Conclusion and Next Steps</strong></h2>
+<p><span style="font-weight: 400;">At Innate-NW, we believe sustainable architecture is about more than energy savings. It is about creating homes that are healthy, efficient, and beautiful. Our projects prove that comfort and design excellence can thrive together.</span></p>
+<p>&nbsp;</p>
+<h3><strong>Ready to begin? Connect with Innate-NW to start designing a home that is elegant, efficient, and built for the future.</strong></h3>
+        `,
+      },
+    ],
+    seo: {
+      title:
+        "Sustainable Architecture: Eco-friendly features that don't diminish style",
+      description:
+        "Discover how sustainable architecture can be both stylish and eco-friendly. Learn the benefits of energy-efficient spaces without compromising on design.",
+      keywords: "",
+    },
+  },
 ];

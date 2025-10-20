@@ -71,9 +71,9 @@ body {
 }
 
 .text-ellipsis {
-  line-height: 23px;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
+  line-height: 29px;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   box-orient: vertical;
