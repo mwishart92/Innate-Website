@@ -23,7 +23,7 @@ const DesignAndBuild = () => {
         4 reasons to work with Innate
       </Text>
       {/* avoid surprise */}
-      <div className="flex lg:flex-wrap gap-[47px] items-center px-[43px] pt-[43px] pb-[43px] mob:px-[16px] w-[80%] mob:w-full min-h-[500px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] gradient2 justify-center mob:gap-[40px] mob:pt-[12px] mob:pb-[28px]">
+      <div className="flex lg:flex-wrap gap-[47px] mb-24 items-center px-[43px] pt-[43px] pb-[43px] mob:px-[16px] w-[80%] mob:w-full min-h-[500px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] gradient2 justify-center mob:gap-[40px] mob:pt-[12px] mob:pb-[28px]">
         <div className="w-full max-w-[437.84px] relative flex justify-center items-center mob:order-2">
           <Image
             data-aos="zoom-in"
@@ -69,7 +69,7 @@ const DesignAndBuild = () => {
       </div>
 
       {/* Save Time */}
-      <div className="flex lg:flex-wrap gap-[47px] items-center px-[43px] pt-[43px] pb-[43px] mob:px-[16px] w-[80%] mob:w-full min-h-[500px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] gradient2 justify-center mob:gap-[40px] mob:pt-[12px] mob:pb-[28px]">
+      <div className="flex lg:flex-wrap gap-[47px] mb-24 items-center px-[43px] pt-[43px] pb-[43px] mob:px-[16px] w-[80%] mob:w-full min-h-[500px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] gradient2 justify-center mob:gap-[40px] mob:pt-[12px] mob:pb-[28px]">
         <div className="mob:order-1">
           <Text as="h2" className="">
             Save (Precious) Time          
@@ -99,7 +99,7 @@ const DesignAndBuild = () => {
       </div>
 
       {/* Avoid Stress */}
-      <div className="flex lg:flex-wrap gap-[47px] items-center px-[43px] pt-[43px] pb-[43px] mob:px-[16px] w-[80%] mob:w-full min-h-[500px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] gradient2 justify-center mob:gap-[40px] mob:pt-[12px] mob:pb-[28px]">
+      <div className="flex lg:flex-wrap gap-[47px] mb-24 items-center px-[43px] pt-[43px] pb-[43px] mob:px-[16px] w-[80%] mob:w-full min-h-[500px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] gradient2 justify-center mob:gap-[40px] mob:pt-[12px] mob:pb-[28px]">
         <div className="w-full max-w-[430px] flex justify-end items-end relative mob:mt-12 mob:order-2">
           <Image
             data-aos="fade-right"
@@ -138,7 +138,7 @@ const DesignAndBuild = () => {
       </div>
 
       {/* Track Progress */}
-      <div className="flex lg:flex-wrap gap-[47px] items-center px-[43px] pt-[43px] pb-[43px] mob:px-[16px] w-[80%] mob:w-full min-h-[500px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] gradient2 justify-center mob:gap-[40px] mob:pt-[16px] mob:pb-[34px]">
+      <div className="flex lg:flex-wrap gap-[47px] mb-24 items-center px-[43px] pt-[43px] pb-[43px] mob:px-[16px] w-[80%] mob:w-full min-h-[500px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] gradient2 justify-center mob:gap-[40px] mob:pt-[16px] mob:pb-[34px]">
         <div className="mob:order-1">
           <Text as="h2" className="">
             Track Every Step

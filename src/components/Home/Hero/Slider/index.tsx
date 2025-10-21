@@ -56,14 +56,18 @@ function HomeSlider() {
               as="h2"
               className="my-3 text-white leading-[44px] mob:leading-[36.4px]"
             >
-              <span className="text-[40px] mob:text-[28px] font-light">
-                Design+ Build
+              <span className="text-[22px] mob:text-[22px] font-light font-inter">
+                Seattle Design+ Build
               </span>
               <br />
               <span className="text-[40px] mob:text-[28px] font-light">
-                It’s{" "}
+                It's{" "}
               </span>
               <span className="italic text-[40px] mob:text-[28px]">Innate</span>
+            </Text>
+            <Text className="text-[22px] mob:text-[22px] font-light font-inter mt-6 mb-4">
+              Design. Engineering. Construction.<br />
+              We manage every piece, so you don't have to.
             </Text>
 
             <button
