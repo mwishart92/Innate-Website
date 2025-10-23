@@ -31,7 +31,10 @@ const Services = () => {
     <div className="pt-24 pb-36 mob:pt-0">
       <div className="flex flex-wrap justify-center gap-[20px] mob:hidden mb-16 mob:mb-8">
         <div className="w-full max-w-[78%]">
-          <Text as="h2" className="text-center font-normal mob:text-[30px] mob:leading-[33px] mob:px-5">
+          <Text
+            as="h2"
+            className="text-center font-normal mob:text-[30px] mob:leading-[33px] mob:px-5"
+          >
             Services we provide
           </Text>
         </div>
@@ -43,14 +46,14 @@ const Services = () => {
             className="w-full h-full transition-transform duration-300 ease-in-out group-hover:scale-105"
             style={{
               backgroundImage: `url(${frame1.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat'
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           >
             <div className="overflow-hidden h-full flex justify-center items-center relative">
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-60 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
+              <div className="absolute inset-0 bg-black bg-opacity-65 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-60"></div>
 
               {/* Content */}
               <div className="relative z-10">
@@ -81,14 +84,14 @@ const Services = () => {
             className="w-full h-full transition-transform duration-300 ease-in-out group-hover:scale-105"
             style={{
               backgroundImage: `url(${frame2.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat'
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           >
             <div className="overflow-hidden h-full flex justify-center items-center relative">
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-60 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
+              <div className="absolute inset-0 bg-black bg-opacity-65 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-60"></div>
 
               <div className="relative z-10">
                 <Image
@@ -118,14 +121,14 @@ const Services = () => {
             className="w-full h-full transition-transform duration-300 ease-in-out group-hover:scale-105"
             style={{
               backgroundImage: `url(${frame3.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat'
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           >
             <div className="overflow-hidden h-full flex justify-center items-center relative mob:aspect-[5/5]">
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-60 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
+              <div className="absolute inset-0 bg-black bg-opacity-65 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-60"></div>
 
               <div className="relative z-10">
                 <Image
@@ -158,14 +161,14 @@ const Services = () => {
             className="w-full h-full transition-transform duration-300 ease-in-out group-hover:scale-105"
             style={{
               backgroundImage: `url(${frame4.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat'
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           >
             <div className="overflow-hidden h-full flex justify-center items-center relative">
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-60 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
+              <div className="absolute inset-0 bg-black bg-opacity-65 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-60"></div>
 
               <div className="relative z-10">
                 <Image
@@ -197,14 +200,14 @@ const Services = () => {
             className="w-full h-full transition-transform duration-300 ease-in-out group-hover:scale-105"
             style={{
               backgroundImage: `url(${frame5.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat'
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           >
             <div className="overflow-hidden h-full flex justify-center items-center relative mob:aspect-[5/5]">
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-60 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
+              <div className="absolute inset-0 bg-black bg-opacity-65 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-60"></div>
 
               <div className="relative z-10">
                 <Image
@@ -237,14 +240,14 @@ const Services = () => {
             className="w-full h-full transition-transform duration-300 ease-in-out group-hover:scale-105"
             style={{
               backgroundImage: `url(${frame6.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat'
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           >
             <div className="overflow-hidden h-full flex justify-center items-center relative">
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-60 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
+              <div className="absolute inset-0 bg-black bg-opacity-65 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-60"></div>
 
               <div className="relative z-10">
                 <Image
@@ -274,14 +277,14 @@ const Services = () => {
             className="w-full h-full transition-transform duration-300 ease-in-out group-hover:scale-105"
             style={{
               backgroundImage: `url(${frame7.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat'
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           >
             <div className="overflow-hidden h-full flex justify-center items-center relative mob:aspect-[5/5]">
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-60 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
+              <div className="absolute inset-0 bg-black bg-opacity-65 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-60"></div>
 
               <div className="relative z-10">
                 <Image
@@ -311,14 +314,14 @@ const Services = () => {
             className="w-full h-full transition-transform duration-300 ease-in-out group-hover:scale-105"
             style={{
               backgroundImage: `url(${frame8.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat'
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           >
             <div className="overflow-hidden h-full flex justify-center items-center relative mob:aspect-[5/5]">
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-60 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-0"></div>
+              <div className="absolute inset-0 bg-black bg-opacity-65 z-10 transition-opacity duration-300 ease-in-out group-hover:opacity-60"></div>
 
               <div className="relative z-10">
                 <Image
