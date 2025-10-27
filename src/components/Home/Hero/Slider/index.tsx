@@ -66,7 +66,7 @@ function HomeSlider() {
               <span className="italic text-[40px] mob:text-[28px]">Innate</span>
             </Text>
             <Text className="text-[22px] mob:text-[22px] font-light font-inter mt-6 mb-4">
-              Design. Engineering. Construction.<br />
+              
               We manage every piece, so you don't have to.
             </Text>
 

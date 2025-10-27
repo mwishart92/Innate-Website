@@ -18,25 +18,17 @@ const Contact = () => {
               as="h1"
               className="text-[34px] mob:text-[30px] text-white font-semibold"
             >
-              Contact Us
+              Fill out this form and<br/>
+              we will be in touch<br/>
+              within 24 hours
             </Text>
             <Text className="mt-4 text-[#D9D9D9] font-normal mob:text-[14px]">
-              If you’re looking for an architect, engineer, or builder to help
-              with your project, this form is the best way to reach us. We are
-              based in Bellevue, Washington, but are open to working with
-              clients both near and far.
+            Every great project starts with a conversation. If you’re looking for an architect, engineer, or builder, use this form to schedule a complimentary 30-minute consultation and see if we’re a good fit. 
             </Text>
             <Text className="mt-4 text-[#D9D9D9] font-normal mob:text-[14px]">
-              To determine whether your project might be a good fit for us,
-              please briefly describe the scope, timing, location, and other
-              relevant details in the form, and we’ll be in touch shortly to
-              review your project in detail.
+            If it’s a match, we’ll move forward with an in-person site visit. If not, we’ll gladly connect you with a better resource.
             </Text>
-            <Text className="mt-4 text-[#D9D9D9] font-normal mob:text-[14px]">
-              Alternatively, if you are only interested in getting a rough
-              estimate, follow the link below and fill in your project details
-              to receive a rough AI-generated estimate.
-            </Text>
+            
             <Link href="/onboarding">
               <button
                 type="submit"

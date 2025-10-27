@@ -52,7 +52,7 @@ const DesignAndBuild = () => {
         </div>
         <div className="mob:order-1">
           <Text as="h2" className="">
-            Avoid (Costly)Surprises
+            Avoid (Costly) Surprises
           </Text>
           <Text className="mt-3 mb-12 text-[22px] mob:text-[15px] text-[#FFFFFF66] leading-[30.14px] mob:leading-[20.55px] mob:mt-0">
             After doing an in-person site visit, we will provide an accurate,
