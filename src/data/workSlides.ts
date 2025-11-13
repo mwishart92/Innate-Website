@@ -293,25 +293,6 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
     },
   },
   {
-    title: "Modern ADU",
-    location: "Bellevue, Washington",
-    media: [
-      { src: "/images/work/MA1.jpg", type: "image" },
-      { src: "/images/work/MA2.jpg", type: "image" },
-      { src: "/images/work/MA3.jpg", type: "image" },
-      { src: "/images/work/MA4.jpg", type: "image" },
-      { src: "/images/work/MA5.jpg", type: "image" },
-      { src: "/images/work/MA6.jpg", type: "image" },
-      { src: "/images/work/MA7.jpg", type: "image" },
-      { src: "/images/work/MA8.jpg", type: "image" },
-    ],
-    hover: {
-      title: "Modern ADU | Bellevue Architectural Design",
-      subTitle: `This Bellevue project showcases a sleek, modern accessory dwelling unit. As an experienced accessory dwelling unit contractor, our team provided a full suite of architectural services and design to create a high-performance, contemporary space.
-`,
-    },
-  },
-  {
     title: "Solar Retreat",
     location: "Rainier, Washington",
     media: [
@@ -322,24 +303,6 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
       title: "Solar Retreat | Rainier New House Construction",
       subTitle: `This Rainier new construction home was designed with sustainability and functionality in mind. Our residential architectural services ensure an energy-efficient and visually stunning home that maximizes natural light and integrates with its surroundings.
 `,
-    },
-  },
-  {
-    title: "Japandi ADU",
-    location: "Magnolia, Washington",
-    media: [
-      { src: "/images/work/JA1.jpg", type: "image" },
-      { src: "/images/work/JA2.jpg", type: "image" },
-      { src: "/images/work/JA4.jpg", type: "image" },
-      { src: "/images/work/JA5.jpg", type: "image" },
-      { src: "/images/work/JA6.jpg", type: "image" },
-      { src: "/images/work/JA7.jpg", type: "image" },
-      { src: "/images/work/JA8.jpg", type: "image" },
-    ],
-    hover: {
-      title: "Japandi ADU: Japandi ADU | Magnolia ADU Construction",
-      subTitle:
-        "This ADU construction project blends Japanese and Scandinavian design principles to create a minimalist, serene living space. Our team provided specialized architectural design services to craft a custom and tranquil accessory dwelling unit.",
     },
   },
   {
@@ -375,19 +338,6 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
       title: "Pellegrino Remodel | Denver Home Renovation",
       subTitle:
         "A full-scale home renovation in Denver, this project highlights our ability to transform outdated spaces into modern, functional homes. Our home architectural design and build expertise brought new life to the entire property.",
-    },
-  },
-  {
-    title: "Pierre ADU",
-    location: "Tacoma, Washington",
-    media: [
-      { src: "/images/work/PA2.jpg", type: "image" },
-      { src: "/images/work/PA1.jpg", type: "image" },
-    ],
-    hover: {
-      title: "Pierre ADU | Tacoma Accessory Dwelling Unit",
-      subTitle: `Our work on this Tacoma accessory dwelling unit showcases our efficiency and collaborative approach. As a leading ADU builder, we delivered a high-quality, functional space that meets the homeowner's needs for a modern and flexible living area
-`,
     },
   },
   {
