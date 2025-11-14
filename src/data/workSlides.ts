@@ -11,6 +11,21 @@ export interface SlideData {
 
 export const slidesData: SlideData[] = [
   {
+    title: "Bellevue Bathroom Remodel",
+    location: "Bellevue, Washington",
+    media: [
+      {
+        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/05.25_Innate-NW_16x9%20No%20SpeedRamp_No%20Sound.webm?alt=media&token=b30f1fba-154c-495e-870e-8058cebddedc",
+        type: "video",
+      },
+    ],
+    hover: {
+      title:
+        "Bellevue Bathroom Remodel | Minimalist European Modern Renovation",
+      subTitle: `Discover how Innate-NW transformed a Bellevue home with a European-inspired modern refresh. Originally a single-bath remodel, the project expanded to update all bathrooms with minimalist design, refined finishes, and water damage restoration—all completed in just two months.`,
+    },
+  },
+  {
     title: "West Seattle Residence",
     location: "Fremont - Seattle, Washington",
     url: "/project/west-seattle-residence",
@@ -33,7 +48,8 @@ export const slidesData: SlideData[] = [
       },
     ],
     hover: {
-      title: "West Seattle Renovation | Bathroom + Exterior Remodel | General Contracting",
+      title:
+        "West Seattle Renovation | Bathroom + Exterior Remodel | General Contracting",
       subTitle: `Innate NW delivered a complete transformation in just five weeks, turning the bathroom into a spa-like retreat and reimagining the home’s exterior with durable finishes, refreshed curb appeal, and thoughtful design. This West Seattle renovation showcases our expertise in general contracting, bathroom remodeling, and exterior renovations from start to finish.`,
     },
   },
@@ -48,7 +64,8 @@ export const slidesData: SlideData[] = [
       { src: "/images/project/seattle-kitchen/IMG_1572.webp", type: "image" },
     ],
     hover: {
-      title: "South Seattle Kitchen Renovation | Custom Cabinetry & Modern Design",
+      title:
+        "South Seattle Kitchen Renovation | Custom Cabinetry & Modern Design",
       subTitle: `This South Seattle kitchen remodel was completed in just four weeks, with every detail thoughtfully considered. Custom Canyon Creek cabinetry with built-in inserts, quartz countertops, and radiant heated floors created a space that feels both modern and personal. Our team worked closely with the homeowners to ensure the kitchen balanced beauty with daily function.`,
     },
   },
@@ -90,9 +107,10 @@ export const slidesData: SlideData[] = [
       },
     ],
     hover: {
-      title: "Shoreline Home Renovation & Addition | Kitchen Remodel + Outdoor Living",
+      title:
+        "Shoreline Home Renovation & Addition | Kitchen Remodel + Outdoor Living",
       subTitle: `This Shoreline renovation and addition created more space and functionality for a growing family. Our team designed and built a new second story, remodeled the kitchen, and added outdoor living features like a TimberTech deck and StruXure pergola. Every element from flooring to finishes was chosen for durability, light, and warmth. `,
-    },    
+    },
   },
   {
     title: "Freitas Bathroom",

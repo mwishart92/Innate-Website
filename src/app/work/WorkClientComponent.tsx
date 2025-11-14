@@ -14,7 +14,6 @@ const Work: React.FC = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    console.log("slidesData ::", slidesData);
     const checkMobile = () => {
       setIsMobile(typeof window !== "undefined" && window.innerWidth <= 767);
     };
