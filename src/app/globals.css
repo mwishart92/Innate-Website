@@ -122,24 +122,13 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-/* Hover effects */
-.hover-effect:hover .hide-on-hover {
-  opacity: 0;
-  visibility: hidden;
-}
-
-.hover-effect:hover .show-on-hover {
-  opacity: 1;
-  visibility: visible;
-}
-
 /* Mobile: Always show hover text and hide initial text when hover exists */
 @media (max-width: 767px) {
   .hover-effect .hide-on-hover {
     opacity: 0;
     visibility: hidden;
   }
-  
+
   .hover-effect .show-on-hover {
     opacity: 1;
     visibility: visible;
