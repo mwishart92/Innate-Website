@@ -93,7 +93,7 @@ function WorkSlider({
         <div className="text-center p-5 mob:p-14 w-full bg-opacity-50 relative max-w-[1024px] hover-effect">
           <div
             className={cn({
-              "hide-on-hover": hover?.title,
+              "hide-on-hover": hover?.title && !isMobile,
             })}
           >
             <Text
@@ -116,7 +116,7 @@ function WorkSlider({
             )}
           </div>
 
-          {hover?.title && (
+          {hover?.title && !isMobile && (
             <div
               className={cn({
                 "show-on-hover": true,
