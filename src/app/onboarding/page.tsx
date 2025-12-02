@@ -5,10 +5,10 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Start Your Project | Project Onboarding | Innate NW",
-  description: "Explore Innate NW's comprehensive range of design and construction services in Seattle. From remodeling to ADUs, book custom solutions with expert craftsmanship.",
+  description: "Begin your design and construction journey with Innate NW. Our streamlined onboarding process helps us understand your vision and create a personalized plan.",
   openGraph: {
     title: "Start Your Project | Project Onboarding | Innate NW",
-    description: "Explore Innate NW's comprehensive range of design and construction services in Seattle. From remodeling to ADUs, book custom solutions with expert craftsmanship.",
+    description: "Begin your design and construction journey with Innate NW. Our streamlined onboarding process helps us understand your vision and create a personalized plan.",
     url: 'https://innate-nw.com/onboarding',
     siteName: 'Innate NW',
     images: [
