@@ -95,9 +95,18 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
     section.content.forEach((item) => {
       if (item.text) {
         // Look for FAQ patterns: Q: question followed by A: answer
+        // Pattern matches: <p><span...>Q: question</span></p> followed by <p><span...>A: answer</span></p>
+        // Use multiline flag and handle whitespace/newlines
         const faqPattern = /<p><span[^>]*>Q:\s*([^<]+)<\/span><\/p>\s*<p><span[^>]*>A:\s*([^<]+)<\/span><\/p>/g;
         let match;
+        let lastIndex = 0;
         while ((match = faqPattern.exec(item.text)) !== null) {
+          // Avoid infinite loops with zero-length matches
+          if (match.index === lastIndex) {
+            break;
+          }
+          lastIndex = match.index;
+          
           const question = match[1].trim();
           const answer = match[2].trim();
           if (question && answer) {
@@ -105,14 +114,28 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
           }
         }
         
-        // Also try a simpler pattern for the specific format in the blog
-        const simplePattern = /Q:\s*([^<]+)<\/span><\/p>\s*<p><span[^>]*>A:\s*([^<]+)/g;
-        let simpleMatch;
-        while ((simpleMatch = simplePattern.exec(item.text)) !== null) {
-          const question = simpleMatch[1].trim();
-          const answer = simpleMatch[2].trim();
-          if (question && answer && !faqs.some(faq => faq.question === question)) {
-            faqs.push({ question, answer });
+        // If no FAQs found with first pattern, try a more flexible pattern
+        if (faqs.length === 0) {
+          const flexiblePattern = /Q:\s*([^<]+?)(?=<\/span>)/g;
+          const answerPattern = /A:\s*([^<]+?)(?=<\/span>)/g;
+          const questions: string[] = [];
+          const answers: string[] = [];
+          
+          let qMatch;
+          while ((qMatch = flexiblePattern.exec(item.text)) !== null) {
+            questions.push(qMatch[1].trim());
+          }
+          
+          let aMatch;
+          while ((aMatch = answerPattern.exec(item.text)) !== null) {
+            answers.push(aMatch[1].trim());
+          }
+          
+          // Pair questions with answers
+          for (let i = 0; i < Math.min(questions.length, answers.length); i++) {
+            if (questions[i] && answers[i]) {
+              faqs.push({ question: questions[i], answer: answers[i] });
+            }
           }
         }
       }
@@ -222,14 +245,52 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
 
               {item.type === "text" ? (
                 <>
-                  {hasFaqSection && item.text?.includes("FAQs:") && faqData.length > 0 ? (
-                    <BlogFaq faqItems={faqData} />
-                  ) : (
-                    <div
-                      dangerouslySetInnerHTML={{ __html: item.text || "" }}
-                      className="[&_a]:text-blue-500 [&_h2]:font-bold mt-10"
-                    ></div>
-                  )}
+                  {(() => {
+                    // If FAQs are successfully extracted, remove FAQ section from text and show both
+                    if (hasFaqSection && item.text?.includes("FAQs:") && faqData.length > 0) {
+                      // Find the FAQ section and split content around it
+                      const faqHeadingIndex = item.text.indexOf("FAQs:");
+                      if (faqHeadingIndex !== -1) {
+                        // Find the start of the FAQ heading (go back to find <h2)
+                        let faqSectionStart = item.text.lastIndexOf("<h2", faqHeadingIndex);
+                        if (faqSectionStart === -1) {
+                          faqSectionStart = faqHeadingIndex;
+                        }
+                        
+                        // Find where FAQ section ends (next <h2 or end of text)
+                        const nextH2Index = item.text.indexOf("<h2", faqSectionStart + 1);
+                        const faqSectionEnd = nextH2Index !== -1 ? nextH2Index : item.text.length;
+                        
+                        const textBeforeFaq = item.text.substring(0, faqSectionStart).trim();
+                        const textAfterFaq = item.text.substring(faqSectionEnd).trim();
+                        
+                        return (
+                          <>
+                            {textBeforeFaq && (
+                              <div
+                                dangerouslySetInnerHTML={{ __html: textBeforeFaq }}
+                                className="[&_a]:text-blue-500 [&_h2]:font-bold mt-10"
+                              ></div>
+                            )}
+                            <BlogFaq faqItems={faqData} />
+                            {textAfterFaq && (
+                              <div
+                                dangerouslySetInnerHTML={{ __html: textAfterFaq }}
+                                className="[&_a]:text-blue-500 [&_h2]:font-bold mt-10"
+                              ></div>
+                            )}
+                          </>
+                        );
+                      }
+                    }
+                    // No FAQs extracted or no FAQ section, show all content
+                    return (
+                      <div
+                        dangerouslySetInnerHTML={{ __html: item.text || "" }}
+                        className="[&_a]:text-blue-500 [&_h2]:font-bold mt-10"
+                      ></div>
+                    );
+                  })()}
                 </>
               ) : null}
             </div>
