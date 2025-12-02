@@ -15,6 +15,12 @@ const MediaSlide: React.FC<MediaSlideProps> = ({
   setImageLoaded,
   fixedBackground,
 }) => {
+  const getVideoMimeType = (source: string) => {
+    if (source.endsWith(".webm")) return "video/webm";
+    if (source.endsWith(".ogg")) return "video/ogg";
+    return "video/mp4";
+  };
+
   return (
     <div className="relative w-full z-10 px-20 mob:px-5 mob:h-[100vh] h-screen min-h-[700px] flex justify-center items-center">
       {type === "image" ? (
@@ -49,7 +55,7 @@ const MediaSlide: React.FC<MediaSlideProps> = ({
             playsInline
             onLoad={() => setImageLoaded?.(true)}
           >
-            <source src={src} type="video/mp4" />
+            <source src={src} type={getVideoMimeType(src)} />
           </video>
         </>
       )}
