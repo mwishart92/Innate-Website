@@ -43,12 +43,10 @@ export const blogSections: ArticleSection[] = [
     id: 1,
     slug: "soils-report-civil-engineer-bellevue",
     title:
-      "Do you need a soils report or civil engineer for an addition in Bellevue?",
+      "Do you need a soils report or civil engineer in Bellevue?",
     thumbnail: "/images/press/approvedblog.png",
     tag: "Blog",
-    excerpt: `When planning to build an addition in Bellevue, Washington,
-                  understanding the city's zoning regulations is essential for a
-                  smooth and compliant construction process. Bellevue's zoning`,
+    excerpt: `When planning to build an addition in Bellevue, understanding the city's zoning regulations is essential for a smooth and compliant construction process.`,
     publishedDate: "17 August, 2024",
     content: [
       {
@@ -381,7 +379,7 @@ export const blogSections: ArticleSection[] = [
 <p><span style="font-weight: 400;">Innate meets all Washington State licensing requirements and carries full liability insurance. We also partner with experienced, licensed subcontractors who are aligned with our standards of quality and professionalism. When you build with us, you're protected from day one.</span></p>
 <h2>&nbsp;</h2>
 <h2><strong>3. Prioritize Clear Communication with Your Builder</strong></h2>
-<p><span style="font-weight: 400;">Strong communication is the foundation of any successful </span><strong>custom home build</strong><span style="font-weight: 400;">. From the first consultation through final walkthroughs, your builder should be responsive, transparent, and proactive.</span></p>
+<p><span style="font-weight: 400;">Strong communication is the foundation of any successful </span><strong>custom home build</strong><span style="font-weight: 400;">. From the first consultation through final walkthroughs, your builder should be <a href="/blogs/contractors-not-responding">responsive</a>, transparent, and proactive.</span></p>
 <p><span style="font-weight: 400;">At Innate, we pride ourselves on our collaborative, client-first process. Whether you&rsquo;re planning a </span><strong>custom home remodel</strong><span style="font-weight: 400;"> or a new </span><strong>custom home in Bellevue</strong><span style="font-weight: 400;">, we keep you informed at every stage&mdash;with detailed project updates, clear pricing, and transparent timelines.</span></p>
 <h2>&nbsp;</h2>
 <h2><strong>4. Review Past Work and Real Client Testimonials</strong></h2>
@@ -420,7 +418,7 @@ export const blogSections: ArticleSection[] = [
     seo: {
       title: "How to Choose the Right Custom Home Builder | Innate NW",
       description:
-        "Choosing the right custom home builder is key to bringing your vision to life. Learn what to look for and how Innate delivers a client-focused building experience.",
+        "Choosing the right custom home builder is key to bringing your vision to life. Learn what to look for and how we deliver a client-focused building experience.",
       keywords:
         "custom home builder, custom home builder Bellevue, custom kitchen builder, custom deck builder, custom home remodel",
     },
@@ -529,7 +527,7 @@ export const blogSections: ArticleSection[] = [
     seo: {
       title: "Seattle NR1, NR2, NR3 Zoning Explained",
       description:
-        "Learn how Seattle’s NR1, NR2, and NR3 zoning codes affect home remodels, additions, and DADUs—plus tips from Innate NW for navigating permits and building smart.",
+        "Learn how Seattle’s NR1, NR2, and NR3 zoning codes affect home remodels, additions, and DADUs—plus tips from Innate for navigating permits and building smart.",
       keywords:
         "seattle zoning nr1 nr2 nr3, neighborhood residential zoning seattle, seattle residential remodel zoning, seattle home addition zoning, remodeling old homes seattle",
     },
@@ -1105,4 +1103,5 @@ export const blogSections: ArticleSection[] = [
       keywords: "",
     },
   },
+  
 ];
