@@ -18,7 +18,7 @@ const ContactHome = () => {
           Let's Talk About Your Project
           </Text>
           <Text className="text-[16px] mt-4 text-[#D9D9D9] mob:font-normal mob:text-[14px]">
-            Schedule a complimentary 30-minute consultation to discuss your architecture or construction project and determine if we're the right fit. If we are, we'll book an in-person site visit; if not, we'll point you to a better resource.
+            Schedule a complimentary <a href="/onboarding">30-minute consultation</a> to discuss your architecture or construction project and determine if we're the right fit. If we are, we'll book an in-person site visit; if not, we'll point you to a better resource.
           </Text>
         </div>
         {/* right form */}

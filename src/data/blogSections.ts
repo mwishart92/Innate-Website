@@ -376,7 +376,7 @@ export const blogSections: ArticleSection[] = [
 <h2>&nbsp;</h2>
 <h2><strong>2. Verify Credentials, Licensing &amp; Insurance</strong></h2>
 <p><span style="font-weight: 400;">Every legitimate </span><strong>custom home builder in Bellevue or Seattle</strong><span style="font-weight: 400;"> should be fully licensed, bonded, and insured. These credentials aren&rsquo;t just formalities&mdash;they protect your project and your investment.</span></p>
-<p><span style="font-weight: 400;">Innate meets all Washington State licensing requirements and carries full liability insurance. We also partner with experienced, licensed subcontractors who are aligned with our standards of quality and professionalism. When you build with us, you're protected from day one.</span></p>
+<p><span style="font-weight: 400;">Innate meets all Washington State licensing requirements and carries full liability insurance. We also partner with experienced, <a href="/blogs/contractors-not-responding">licensed subcontractors</a> who are aligned with our standards of quality and professionalism. When you build with us, you're protected from day one.</span></p>
 <h2>&nbsp;</h2>
 <h2><strong>3. Prioritize Clear Communication with Your Builder</strong></h2>
 <p><span style="font-weight: 400;">Strong communication is the foundation of any successful </span><strong>custom home build</strong><span style="font-weight: 400;">. From the first consultation through final walkthroughs, your builder should be <a href="/blogs/contractors-not-responding">responsive</a>, transparent, and proactive.</span></p>
@@ -731,7 +731,7 @@ export const blogSections: ArticleSection[] = [
 </ol>
 <h2>&nbsp;</h2>
 <p><strong>Kitchen Remodel Timelines</strong></p>
-<p><strong>Direct Answer:</strong><span style="font-weight: 400;"> A </span><a href="https://www.innate-nw.com/services/kitchen-remodeling"><strong>Seattle kitchen remodel</strong></a><strong> cost timeline</strong><span style="font-weight: 400;"> averages </span><strong>10&ndash;16 weeks</strong><span style="font-weight: 400;">.</span></p>
+<p><strong>Direct Answer:</strong><span style="font-weight: 400;"> A </span><a href="/blogs/kitchen-remodel-cost-seattle"><strong>Seattle kitchen remodel</strong></a><strong> cost timeline</strong><span style="font-weight: 400;"> averages </span><strong>10&ndash;16 weeks</strong><span style="font-weight: 400;">.</span></p>
 <h3><strong>Breakdown</strong></h3>
 <ul>
 <li style="font-weight: 400;"><strong>Planning &amp; design:</strong><span style="font-weight: 400;"> 4&ndash;6 weeks</span><span style="font-weight: 400;"><br /><br /></span></li>
