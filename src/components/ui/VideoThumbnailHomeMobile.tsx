@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import YouTube from 'react-youtube';
 import Modal from 'react-modal';
 import Text from './Text';
@@ -25,9 +25,20 @@ const VideoThumbnailHomeMobile: React.FC<VideoThumbnailHomeMobileProps> = ({
   className = "" 
 }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const playerRef = useRef<any>(null);
 
   const openModal = () => setIsModalOpen(true);
-  const closeModal = () => setIsModalOpen(false);
+  const closeModal = () => {
+    // Pause video when closing modal
+    if (playerRef.current) {
+      try {
+        playerRef.current.pauseVideo();
+      } catch (e) {
+        console.error('Error pausing video:', e);
+      }
+    }
+    setIsModalOpen(false);
+  };
 
   // YouTube player options
   const opts = {
@@ -37,7 +48,19 @@ const VideoThumbnailHomeMobile: React.FC<VideoThumbnailHomeMobileProps> = ({
       autoplay: 1,
       rel: 0,
       modestbranding: 1,
+      playsinline: 1,
     },
+  };
+
+  // Handle when YouTube player is ready
+  const handleReady = (event: any) => {
+    playerRef.current = event.target;
+    // Explicitly play the video when ready
+    try {
+      event.target.playVideo();
+    } catch (e) {
+      console.error('Error playing video:', e);
+    }
   };
 
   // Extract video ID from full URL if needed
@@ -134,14 +157,18 @@ const VideoThumbnailHomeMobile: React.FC<VideoThumbnailHomeMobileProps> = ({
           </div>
           
           {/* YouTube Player */}
-          <div className="w-full h-full">
-            <YouTube
-              videoId={cleanVideoId}
-              opts={opts}
-              className="w-full h-full"
-              onEnd={closeModal}
-            />
-          </div>
+          {isModalOpen && (
+            <div className="w-full h-full">
+              <YouTube
+                key={cleanVideoId}
+                videoId={cleanVideoId}
+                opts={opts}
+                className="w-full h-full"
+                onReady={handleReady}
+                onEnd={closeModal}
+              />
+            </div>
+          )}
         </div>
       </Modal>
     </>
