@@ -580,10 +580,10 @@ export const blogSections: ArticleSection[] = [
         text: `
         <h2><span style="font-weight: 400;">Why a 2025 Cost Guide Matters</span></h2>
 <p><span style="font-weight: 400;">Seattle homeowners are asking the same questions every year: How much does it cost to build a custom home in Seattle in 2025? Is it cheaper to remodel or build new?</span></p>
-<p><span style="font-weight: 400;">The truth: costs vary by project type, finishes, and location. Rising construction costs, strict building codes, and long permitting timelines all play a role. Without a clear cost estimate, projects can spiral.</span></p>
+<p><span style="font-weight: 400;">The truth: costs vary by project type, finishes, and location. Rising construction costs, <a href="/blogs/seattle-neighborhood-residential-zoning">strict building codes</a>, and long permitting timelines all play a role. Without a clear cost estimate, projects can spiral.</span></p>
 <p><span style="font-weight: 400;">That&rsquo;s why we built this guide&mdash;so homeowners across Seattle, Bellevue, and the Eastside can make informed choices.</span></p>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">At</span><a href="https://www.innate-nw.com/?utm_source=chatgpt.com"><span style="font-weight: 400;"> Innate-NW</span></a><span style="font-weight: 400;">, our team of architects, designers, and project managers specializes in custom designed homes, remodels, and additions that bring your vision to life from start to finish.</span></p>
+<p><span style="font-weight: 400;">At</span><a href="https://www.innate-nw.com/"><span style="font-weight: 400;"> Innate-NW</span></a><span style="font-weight: 400;">, our team of architects, designers, and project managers specializes in custom designed homes, remodels, and additions that bring your vision to life from start to finish.</span></p>
 <h2>&nbsp;</h2>
 <h2><span style="font-weight: 400;">Seattle Custom Home Cost</span></h2>
 <p><span style="font-weight: 400;">A custom home offers freedom to design exactly what you want. But costs add up quickly in Seattle.</span></p>
@@ -690,7 +690,7 @@ export const blogSections: ArticleSection[] = [
 <h2><span style="font-weight: 400;">Bring Your Vision to Life with Innate</span></h2>
 <p><span style="font-weight: 400;">Whether you&rsquo;re exploring a Seattle custom home cost, a home remodel in Kirkland, or a Mercer Island home addition, knowing the numbers helps you plan with confidence.</span></p>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">At</span><a href="https://www.innate-nw.com/?utm_source=chatgpt.com"><span style="font-weight: 400;"> Innate</span></a><span style="font-weight: 400;">, we provide design and build services that move projects from concept to completion&mdash;on time and on budget.</span></p>
+<p><span style="font-weight: 400;">At</span><a href="https://www.innate-nw.com"><span style="font-weight: 400;"> Innate</span></a><span style="font-weight: 400;">, we provide design and build services that move projects from concept to completion&mdash;on time and on budget.</span></p>
 <h1>&nbsp;</h1>
 <h1><span style="font-weight: 400;">Ready to start? </span><a href="https://www.innate-nw.com/contact"><span style="font-weight: 400;">Contact Innate</span></a><span style="font-weight: 400;"> today for your cost estimate.</span></h1>
         `,
@@ -725,7 +725,7 @@ export const blogSections: ArticleSection[] = [
         <h2><strong>Why Timelines Matter in Seattle Remodeling</strong></h2>
 <p><span style="font-weight: 400;">One of the most common homeowner questions is: </span><em><span style="font-weight: 400;">&ldquo;How long will my remodel take in Seattle?&rdquo;</span></em></p>
 <p><span style="font-weight: 400;">The truth is that timelines vary based on scope, <a href="/blogs/soils-report-civil-engineer-bellevue">permits</a>, and whether you live in an older home. </span><strong>Seattle&rsquo;s building code</strong><span style="font-weight: 400;">, material delays, and skilled labor shortages all impact schedules. And because </span><strong>construction costs</strong><span style="font-weight: 400;"> keep rising in the region, even a few weeks of delay can add thousands.</span></p>
-<p><span style="font-weight: 400;">At</span><a href="https://www.innate-nw.com/?utm_source=chatgpt.com"> <span style="font-weight: 400;">Innate-NW</span></a><span style="font-weight: 400;">, a dedicated </span><strong>project manager</strong><span style="font-weight: 400;"> guides your remodel from </span><strong>start to finish</strong><span style="font-weight: 400;">&mdash;so you have a realistic timeline and cost estimate. Whether it&rsquo;s a </span><strong>home remodel Seattle</strong><span style="font-weight: 400;"> project or a full addition, we help bring your vision to life without surprises.</span></p>
+<p><span style="font-weight: 400;">At</span><a href="https://www.innate-nw.com/"> <span style="font-weight: 400;">Innate-NW</span></a><span style="font-weight: 400;">, a dedicated </span><strong>project manager</strong><span style="font-weight: 400;"> guides your remodel from </span><strong>start to finish</strong><span style="font-weight: 400;">&mdash;so you have a realistic timeline and cost estimate. Whether it&rsquo;s a </span><strong>home remodel Seattle</strong><span style="font-weight: 400;"> project or a full addition, we help bring your vision to life without surprises.</span></p>
 <p>&nbsp;</p>
 <h2><strong>The 5 Phases of a Remodel</strong></h2>
 <p><span style="font-weight: 400;">Every remodel has five major stages:</span></p>
@@ -912,7 +912,7 @@ export const blogSections: ArticleSection[] = [
 <p>&nbsp;</p>
 <p><strong>Plan Your Remodel with Confidence</strong></p>
 <p><span style="font-weight: 400;">Whether you&rsquo;re planning a </span><strong>home addition Seattle</strong><span style="font-weight: 400;">, a kitchen update, or a whole-home remodel, timelines and costs are critical to success.</span></p>
-<p><span style="font-weight: 400;">At</span><a href="https://www.innate-nw.com/?utm_source=chatgpt.com"> <span style="font-weight: 400;">Innate-NW</span></a><span style="font-weight: 400;">, we provide full </span><strong>design and build</strong><span style="font-weight: 400;"> services to make your remodel seamless. From concept to completion, we handle every detail&mdash;so your home is </span><strong>custom designed</strong><span style="font-weight: 400;">, delivered on time, and crafted to bring your vision to life.</span></p>
+<p><span style="font-weight: 400;">At</span><a href="https://www.innate-nw.com/"> <span style="font-weight: 400;">Innate-NW</span></a><span style="font-weight: 400;">, we provide full </span><strong>design and build</strong><span style="font-weight: 400;"> services to make your remodel seamless. From concept to completion, we handle every detail&mdash;so your home is </span><strong>custom designed</strong><span style="font-weight: 400;">, delivered on time, and crafted to bring your vision to life.</span></p>
 <p><strong>Ready to start? </strong><a href="https://www.innate-nw.com/contact"><strong>Contact Innate-NW</strong></a><strong> today for your remodel cost estimate and project timeline.</strong></p>
         `,
       },
@@ -1057,7 +1057,7 @@ export const blogSections: ArticleSection[] = [
         <h1><strong>Sustainable Architecture: Eco-Friendly Features That Don&rsquo;t Diminish Style</strong></h1>
 <p>&nbsp;</p>
 <h2><strong>Introduction</strong></h2>
-<p><span style="font-weight: 400;">Sustainable architecture is now a standard in modern home design. More homeowners want to cut energy use and protect natural resources. At the same time, they want spaces that feel warm, open, and beautiful.</span></p>
+<p><span style="font-weight: 400;">Sustainable architecture is now a standard in modern <a href="/blogs/architecture-impacts-property-value">home design</a>. More homeowners want to cut energy use and protect natural resources. At the same time, they want spaces that feel warm, open, and beautiful.</span></p>
 <p><span style="font-weight: 400;">Many people worry that eco-friendly choices mean plain or industrial-looking homes. At </span><strong>Innate-NW</strong><span style="font-weight: 400;">, we prove that isn&rsquo;t true. Our </span><strong>whole home remodels</strong><span style="font-weight: 400;"> and new builds combine energy savings with timeless style. We create homes that are efficient, durable, and inviting.</span></p>
 <p>&nbsp;</p>
 <h2><strong>Energy-Efficient Design Without an Industrial Look</strong></h2>
@@ -1086,7 +1086,7 @@ export const blogSections: ArticleSection[] = [
 <p>&nbsp;</p>
 <h2><strong>Smart Technology for Everyday Efficiency</strong></h2>
 <p><span style="font-weight: 400;">Modern technology makes sustainability simple. Smart home systems show real-time data on energy and water use, helping you track and adjust.</span></p>
-<p><span style="font-weight: 400;">Automated lighting dims when rooms are empty or daylight is strong. Intelligent irrigation uses weather forecasts to avoid unnecessary watering. These quiet tools save money and resources while keeping your home stylish and clutter-free.</span></p>
+<p><span style="font-weight: 400;">Automated lighting dims when rooms are empty or daylight is strong. Intelligent irrigation uses weather forecasts to avoid unnecessary watering. These quiet tools <a href="/blogs/cost-of-architecture">save money</a> and resources while keeping your home stylish and clutter-free.</span></p>
 <p>&nbsp;</p>
 <h2><strong>Comfort and Health Inside the Home</strong></h2>
 <p><span style="font-weight: 400;">True sustainability includes healthy indoor spaces. Clean air, natural light, and balanced humidity are essential.</span></p>
