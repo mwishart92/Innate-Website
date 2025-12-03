@@ -38,7 +38,7 @@ const LoomVideoThumbnail: React.FC<LoomVideoThumbnailProps> = ({
   };
 
   const cleanVideoId = getVideoId(videoId);
-  const loomEmbedUrl = `https://www.loom.com/embed/${cleanVideoId}`;
+  const loomEmbedUrl = `https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96`;
 
   return (
     <>
@@ -97,7 +97,25 @@ const LoomVideoThumbnail: React.FC<LoomVideoThumbnailProps> = ({
             </svg>
           </button>
           
-
+          {/* Video Title */}
+          {title && (
+            <div className="absolute top-4 left-4 z-10">
+              <Text className="text-white text-lg font-medium drop-shadow-lg">
+                {title}
+              </Text>
+            </div>
+          )}
+          
+          {/* Loom Video Embed */}
+          {isModalOpen && (
+            <iframe
+              src={loomEmbedUrl}
+              frameBorder="0"
+              allowFullScreen
+              className="w-full h-full"
+              allow="autoplay; encrypted-media"
+            />
+          )}
         </div>
       </Modal>
     </>
