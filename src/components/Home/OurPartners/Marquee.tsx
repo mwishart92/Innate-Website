@@ -12,7 +12,7 @@ import dunn from '@/public/images/home/dunn.png'
 import gaf from '@/public/images/home/gaf.png'
 import ch from '@/public/images/home/ch.png'
 import JH from '@/public/images/home/JH.png'
-import js from '@/public/images/home/js.png'
+import builtGreen from '@/public/images/home/Built_Green_Logo_RGB.png'
 import lic from '@/public/images/home/lic.png'
 import marvin from '@/public/images/home/marvin.png'
 import mg from '@/public/images/home/mg.png'
@@ -101,8 +101,8 @@ const Marquee = () => {
           height={200} // You can modify height independently if needed
         />
         <Image
-          src={js}
-          alt="abc"
+          src={builtGreen}
+          alt="Built Green"
           className={cn('mx-10 mob:mx-4 mb-4')}
           width={200}
           height={200} // You can modify height independently if needed
