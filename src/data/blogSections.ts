@@ -42,8 +42,7 @@ export const blogSections: ArticleSection[] = [
   {
     id: 1,
     slug: "soils-report-civil-engineer-bellevue",
-    title:
-      "Do you need a soils report or civil engineer in Bellevue?",
+    title: "Do you need a soils report or civil engineer in Bellevue?",
     thumbnail: "/images/press/approvedblog.png",
     tag: "Blog",
     excerpt: `When planning to build an addition in Bellevue, understanding the city's zoning regulations is essential for a smooth and compliant construction process.`,
@@ -1061,7 +1060,7 @@ export const blogSections: ArticleSection[] = [
     thumbnail: "/images/press/sustainable1.jpg",
     tag: "Blog",
     excerpt: `Discover how sustainable architecture can be both stylish and eco-friendly. Learn the benefits of energy-efficient spaces without compromising on design.`,
-    publishedDate: "20 October, 2025",
+    publishedDate: "21 October, 2025 2025 00:00:01",
     content: [
       {
         type: "image",
@@ -1149,5 +1148,185 @@ export const blogSections: ArticleSection[] = [
       keywords: "",
     },
   },
-  
+  {
+    id: 13,
+    slug: "whole-home-remodeling-strategies",
+    title: "Seamless Integration: Strategies for Whole Home Remodeling",
+    thumbnail: "/images/press/6L1A0999_websize.jpg",
+    tag: "Blog",
+    excerpt: `Discover how sustainable architecture can be both stylish and eco-friendly. Learn the benefits of energy-efficient spaces without compromising on design.`,
+    publishedDate: "9 December, 2025",
+    content: [
+      {
+        type: "image",
+        src: ["/images/press/6L1A0970_websize.jpg"],
+
+        alt: "Image description",
+      },
+      {
+        type: "text",
+        text: `
+        <p><span style="font-weight: 400;">Tired of a home that feels like a hand-me-down from a past decade, where the kitchen is cramped, and the layout fights your daily routine? Consider a </span><a href="https://www.innate-nw.com/services/whole-home-remodels"><span style="font-weight: 400;">whole home remodel</span></a><span style="font-weight: 400;"> project. More than an update, it can be the key to unlocking your home&rsquo;s full potential.</span></p>
+<p><span style="font-weight: 400;">A true whole home remodel is far more than changing paint colors or swapping out old furniture. It&rsquo;s a deep dive into how you live, resulting in a cohesive, functional, and deeply personal space. But for it to be successful, a whole home renovation requires careful planning, intentional design, and knowledge of building regulations.&nbsp;</span></p>
+<p>&nbsp;</p>
+<h2><strong>Designing for Cohesion</strong></h2>
+<p><span style="font-weight: 400;">Start your home remodeling project with a unified design concept. Surely, with subtle variations, each space maintains its unique personality. However, you still need consistent color schemes, materials, and finishes to create harmony between rooms.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Also, maximize the use of natural materials like metal, stone, or wood. These are frequently used in homes to guide the eye to the best features and maintain coherence between spaces. Using the same metal finish (like brushed brass or matte black) across all rooms for hardware and lighting, for example, is a simple, powerful trick that ensures a seamless, high-end feel as you move from the entryway to the primary suite.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Achieving Functional Flow and Layout</strong></h2>
+<p><span style="font-weight: 400;">Rethinking layouts to optimize flow and space is a common step in a complete home renovation. You&rsquo;re no longer bound by 1950s floor plans. For instance, you can have a room where cooking, dining, and conversation effortlessly coexist. Opening up structural walls or relocating a cramped kitchen is less about aesthetics and more about adapting the house to the rhythm of your modern life.</span></p>
+<p><span style="font-weight: 400;">A competent home remodeling architect can help you balance safety and aesthetics. They can ensure that knocking down the dividing wall doesn&rsquo;t compromise structural integrity, and you can achieve a safe, code-compliant, and beautiful renovated property.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Integrating Old and New</strong></h2>
+<p><span style="font-weight: 400;">What&rsquo;s the secret to designing a home that feels both new and classic? Incorporate contemporary updates while maintaining features that define the home&rsquo;s character.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Original </span><a href="https://www.innate-nw.com/blogs/architecture-impacts-property-value"><span style="font-weight: 400;">architectural details</span></a><span style="font-weight: 400;">, such as exposed beams or mouldings, can be paired with contemporary finishes to achieve a harmonious balance. For example, imagine restoring the original plaster crown mouldings in an older home and pairing them with sleek, minimalist kitchen cabinets and top-tier induction appliances. This careful blending elevates the functionality and design while letting the house retain its story.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Adding Modern Systems and Sustainable Solutions</strong></h2>
+<p><span style="font-weight: 400;">A fully integrated home incorporates both design and technology. Modern HVAC systems, water-saving fixtures, and energy-efficient lighting enhance daily life while reducing their negative effects on the environment. Consider </span><a href="https://www.cnet.com/home/smart-home/best-smart-home-devices/"><span style="font-weight: 400;">smart home features</span></a><span style="font-weight: 400;">, too. Through integrated lighting, security, and climate control, you can create a comfortable, convenient, and efficient living space. Including these considerations early in the planning process ensures compliance with safety codes and energy regulations.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Planning Your Budget</strong></h2>
+<p><span style="font-weight: 400;">Realistic expectations and well-informed decision-making are possible when you truly understand the home remodeling costs early on. Keep in mind that factors such as material selection, structural modifications, and custom finishes impact the total investment. You also need to prioritize durable materials and a timeless design to ensure your home remains functional and visually appealing for years to come.</span></p>
+<p><span style="font-weight: 400;">Pro tip: Always budget for a 15-20% contingency fund. When renovating an older home, unexpected costs&mdash;like hidden asbestos or outdated electrical systems&mdash;almost always surface once the walls are opened.</span></p>
+<p>&nbsp;</p>
+<h2><strong>The Innate Approach</strong></h2>
+<p><span style="font-weight: 400;">At Innate NW, we view a whole home remodel as an opportunity to unify every aspect of your living space. From spatial planning and cabinetry selection to lighting design and finishing details, every decision contributes to a cohesive, functional, and enduring home. We also focus on long-term value, durability, and seamless integration. So, count on our team to collaborate closely with architects, designers, and contractors to deliver a visually stunning project while adhering to applicable building codes and regulations.</span></p>
+<p><span style="font-weight: 400;">A well-executed whole home renovation creates a space that adapts to how you live today and grows with you into the future. With </span><a href="https://www.innate-nw.com/blogs/sustainable-architecture-guide"><span style="font-weight: 400;">thoughtful design</span></a><span style="font-weight: 400;">, expert planning, and attention to aesthetics and regulations, your remodeled home can be beautiful and enduring.</span></p>
+<p>&nbsp;</p>
+<h3><strong>Ready to explore your whole home remodel?</strong></h3>
+<p><a href="https://www.innate-nw.com/contact"><span style="font-weight: 400;">Contact Innate NW</span></a><span style="font-weight: 400;"> to discuss design strategies, material selection, and planning for a fully integrated renovation.</span></p>
+        `,
+      },
+    ],
+    seo: {
+      title: "Seamless Strategies for Whole Home Remodeling | Innate NW",
+      description:
+        "Discover strategies for a seamless whole home remodel. Learn how to expertly create a timeless and fully integrated home renovation experience with Innate NW.",
+      keywords:
+        "whole home remodel, home remodeling, whole home renovation, home remodeling cost, home remodeling services, home remodeling architect",
+    },
+  },
+  {
+    id: 14,
+    slug: "permitting-and-construction-for-kitchen-remodeling",
+    title:
+      "Remodeling Reality: Navigating Permitting and Construction Timelines for Your Kitchen Renovation",
+    thumbnail: "/images/press/6L1A0692_websize.jpg",
+    tag: "Blog",
+    excerpt: `Discover how sustainable architecture can be both stylish and eco-friendly. Learn the benefits of energy-efficient spaces without compromising on design.`,
+    publishedDate: "9 December, 2025 00:00:02",
+    content: [
+      {
+        type: "image",
+        src: ["/images/press/6L1A0965_websize.jpg"],
+
+        alt: "Image description",
+      },
+      {
+        type: "text",
+        text: `
+        <p><span style="font-weight: 400;">Planning a kitchen remodel from the start in Seattle without a clue? The process is now made easy with this Innate&rsquo;s thorough guide. Whether you&rsquo;re upgrading a dated space, changing your home&rsquo;s layout, or adding value to your property, we&rsquo;re here to walk you through the permitting process and construction timelines. We hope this guide can save you time, money, and unnecessary headaches.</span></p>
+<h2>&nbsp;</h2>
+<h2><strong>Understanding Permits for Kitchen Remodeling in Seattle</strong></h2>
+<p><span style="font-weight: 400;">A city permit is necessary for any </span><a href="https://www.innate-nw.com/services/kitchen-remodeling"><span style="font-weight: 400;">kitchen remodeling project</span></a><span style="font-weight: 400;"> in Seattle that includes structural work, electrical wiring, plumbing, or ventilation modifications. Approval may also be needed for small improvements like rewiring lighting fixtures or moving a sink.</span></p>
+<p><span style="font-weight: 400;">Common permits include a building permit for layout or wall changes, a plumbing permit for new or relocated sinks and dishwashers, an electrical permit for updated circuits and outlets, and a mechanical permit for range hoods or ventilation systems.</span></p>
+<p><span style="font-weight: 400;">Skipping permits may seem an easy shortcut, but it can lead to fines, failed inspections, and costly problems when you sell your property later. According to Seattle&rsquo;s municipal regulations, most construction and alteration work must be approved before starting. Homeowners can apply for permits directly through the city&rsquo;s online portal, </span><a href="http://mybuildingpermit.com"><span style="font-weight: 400;">MyBuildingPermit.com</span></a><span style="font-weight: 400;">.</span></p>
+<p>&nbsp;</p>
+<h3><strong>What Doesn&rsquo;t Require a Permit</strong></h3>
+<p><span style="font-weight: 400;">Not every kitchen renovation requires a permit. You can usually update your cabinets, countertops, backsplash, or flooring without one, as long as you&rsquo;re not moving or installing plumbing or electrical fixtures. Cosmetic improvements like painting or tiling are also generally exempt.</span></p>
+<p><span style="font-weight: 400;">When in doubt, it&rsquo;s best to consult Seattle&rsquo;s Development Services Department before moving forward. Ask if your project is considered minor work and does not contravene any building codes.</span></p>
+<p>&nbsp;</p>
+<h3><strong>How Long Does the Permitting Process Take?</strong></h3>
+<p><span style="font-weight: 400;">The complexity of the project essentially determines how long it takes for permits to be approved in Seattle. Within a week or two, simple renovations that don&rsquo;t involve electrical or plumbing work might be approved. Three to six weeks may be needed for more involved projects that include rearranging the layout or moving utilities. Planning for large structural renovations? Allow up to ten weeks for full review.</span></p>
+<p><span style="font-weight: 400;">The process can be sped up by submitting accurate and comprehensive documents, such as electrical diagrams, floor plans, and contractor details. Delays can also be avoided by working with a </span><a href="https://www.innate-nw.com/blogs/choosing-custom-home-builder"><span style="font-weight: 400;">skilled designer or builder</span></a><span style="font-weight: 400;"> who is aware of local codes.</span></p>
+<p>&nbsp;</p>
+<h3><strong>Zoning and Design Compliance in Seattle</strong></h3>
+<p><span style="font-weight: 400;">Examine the zoning classification of your property before deciding on your kitchen remodeling plans. </span><a href="https://www.innate-nw.com/blogs/seattle-home-remodeling-cost-and-timelines"><span style="font-weight: 400;">Zoning laws in every Seattle neighborhood</span></a><span style="font-weight: 400;"> specify the use of buildings, setbacks, and structural restrictions. Knowing these guidelines is beneficial, particularly if your renovation includes changing external walls, adding windows, or enlarging your kitchen.</span></p>
+<p><span style="font-weight: 400;">To help homeowners like you confirm compliance before submitting your plans, the city&rsquo;s website provides zoning maps and land use data.</span></p>
+<h2>&nbsp;</h2>
+<h2><strong>The Construction Timeline</strong></h2>
+<p><span style="font-weight: 400;">Once permits are approved, construction can begin. The duration of a kitchen renovation depends on scope, materials, and contractor availability. Demolition and preparation typically take about a week. Plumbing, electrical, and framing work may take two to three weeks, followed by inspections from city officials.</span></p>
+<p><span style="font-weight: 400;">Finishing stages such as drywall, painting, flooring, and cabinetry installation usually take another four to six weeks. For smaller spaces or partial remodels, the entire process can often be completed in four to six weeks.</span></p>
+<h3>&nbsp;</h3>
+<h3><strong>Renovating on a Budget</strong></h3>
+<p><span style="font-weight: 400;">If you&rsquo;re planning a kitchen renovation on a budget, proper permitting remains vital. It protects you from unexpected costs, code violations, or unsafe construction. To keep things affordable, consult with the city to determine whether your remodel qualifies for simplified review options, such as the &ldquo;No Plan Review&rdquo; permit.</span></p>
+<p><span style="font-weight: 400;">You can also save time and fees by bundling related work, like plumbing and electrical, under one permit application. It&rsquo;s advisable to hire a licensed professional familiar with Seattle&rsquo;s system who ensures your paperwork is accurate and approved efficiently.</span></p>
+<h3>&nbsp;</h3>
+<h3><strong>Hiring Licensed Professionals in Washington</strong></h3>
+<p><span style="font-weight: 400;">All contractors in Washington State must be licensed, bonded, and insured. You can verify contractor credentials through the Washington State Department of Labour &amp; Industries. Even if your contractor handles the permit application, homeowners are responsible for ensuring all necessary permits are obtained and inspections completed.</span></p>
+<h3>&nbsp;</h3>
+<h3><strong>Final Inspections and Project Completion</strong></h3>
+<p><span style="font-weight: 400;">After construction is complete, Seattle&rsquo;s inspectors will review your project to confirm it meets building, electrical, and plumbing codes. Passing these inspections provides final approval and legal documentation for your renovation, which is essential if you plan to refinance or sell your home in the future. From the start to the end, always keep all inspection reports and permits in your records for review and later legal processes.</span></p>
+<h2>&nbsp;</h2>
+<h2><strong>The Innate NW Kitchen Design Philosophy</strong></h2>
+<p><span style="font-weight: 400;">The heart of every home is the kitchen, a space that nurtures connection, creativity, and comfort. A long-lasting kitchen doesn&rsquo;t just rely on durable, high-quality materials.&nbsp; Thoughtful design decisions can also help transform it into a space that feels as good as it looks.</span></p>
+<p><span style="font-weight: 400;">Your kitchen should be more than just a place to cook; it should be a harmonious blend of form, function, and everyday comfort. By prioritizing thoughtful design, durable materials, and ease of maintenance, you can create a timeless, beautiful space that will serve your family for years to come. </span><a href="https://www.innate-nw.com/contact"><span style="font-weight: 400;">Contact Innate NW today</span></a><span style="font-weight: 400;"> to begin your journey towards a space designed to last a lifetime.</span></p>
+        `,
+      },
+    ],
+    seo: {
+      title: "Permitting & Process of a Kitchen Renovation | Innate NW",
+      description:
+        "Discover the process of a kitchen remodelling project and how intelligent layouts, smart storage, and quality materials create a timeless, functional kitchen.",
+      keywords:
+        "whole home remodel, home remodeling, whole home renovation, home remodeling cost, home remodeling services, home remodeling architect, kitchen remodel, kitchen remodeling, kitchen renovation, kitchen renovation idea, kitchen remodeling designs, kitchen remodel ideas for small kitchen, small space kitchen renovation",
+    },
+  },
+  {
+    id: 15,
+    slug: "materials-for-family-bathrooms",
+    title:
+      "Remodeling Reality: Navigating Permitting and Construction Timelines for Your Kitchen Renovation",
+    thumbnail: "/images/press/6L1A9019_websize.jpg",
+    tag: "Blog",
+    excerpt: `Discover how sustainable architecture can be both stylish and eco-friendly. Learn the benefits of energy-efficient spaces without compromising on design.`,
+    publishedDate: "9 December, 2025 00:00:03",
+    content: [
+      {
+        type: "image",
+        src: ["/images/press/6L1A8383-Enhanced-NR_websize.jpg"],
+
+        alt: "Image description",
+      },
+      {
+        type: "text",
+        text: `
+        <p><span style="font-weight: 400;">The family bathroom isn't just a room; it's a high-traffic, multi-purpose zone that sees everything from hurried morning routines and bathtime splashes to toothpaste explosions and muddy handprints. This means that when </span><a href="https://www.innate-nw.com/services/bathroom-remodeling"><span style="font-weight: 400;">renovating or building your bathroom</span></a><span style="font-weight: 400;">, you need materials that are beautiful and, most importantly, built to last.</span></p>
+<p><span style="font-weight: 400;">At Innate NW, we believe you should never have to compromise on style for resilience. The key is strategic material selection for your next </span><a href="https://www.innate-nw.com/project/magnolia-bathroom"><span style="font-weight: 400;">bathroom project</span></a><span style="font-weight: 400;">. Here's our guide to choosing durable, design-forward materials that can handle the reality of a busy family home.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Flooring: Where Safety Meets Style</strong></h2>
+<p><span style="font-weight: 400;">Bathroom flooring must be both slip-resistant and waterproof. A little standing water from a splashy bath or a hurried shower is unavoidable, so here, safety is pre-eminent.</span></p>
+<p><strong>Porcelain Tiles:</strong><span style="font-weight: 400;"> Our number one recommendation. Modern porcelain tiles are very non-porous, phenomenally hard-wearing, and come in an almost endless range of styles that can convincingly mimic the look of wood, natural stone, or even concrete. For good traction, even in wet conditions, select porcelain tiles with a high slip rating.</span></p>
+<p><strong>Natural Stone-Honed:</strong><span style="font-weight: 400;"> Natural stones, such as marble or granite, are great-looking but porous and, more often than not, need periodic sealing to resist stains and water. If you choose a stone, make sure it has a honed (matte) finish and not a polished one, since a polished surface may be dangerously slippery.</span></p>
+<p><strong>Luxury Vinyl Plank (LVP): </strong><span style="font-weight: 400;">Outstanding in terms of affordability and durability. LVP is 100% waterproof and highly resistant to scratches and dents, making it perfect for bathrooms used by small children and pets.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Vanity Countertops: Scratch and Stain-Resistant</strong></h2>
+<p><span style="font-weight: 400;">Your vanity top has to put up with spilled makeup, harsh cleansers, and the occasional dropped item. Non-porous material means a much easier time keeping it clean.</span></p>
+<p><strong>Engineered Quartz: </strong><span style="font-weight: 400;">The ultimate family-friendly countertop! Composed of natural quartz particles and polymer resins, it is non-porous, highly resistant to stains, and incredibly durable. It never needs sealing and can be cleaned with simple soap and water. Plus, it offers a uniform, consistent look.</span></p>
+<p><strong>Ceramic or Porcelain Integrated Tops:</strong><span style="font-weight: 400;"> Many vanities come with ceramic or porcelain tops where the basin is molded seamlessly into the counter. These are non-porous, very easy to wipe down, and the lack of a rim around the sink prevents grime build-up.</span></p>
+<p><strong>Solid Surface: </strong><span style="font-weight: 400;">Materials such as Corian (a type of solid surface) are manufactured from acrylic resin and appear seamless, with an integrated sink. They are non-porous, and&mdash;unique among countertop options&mdash;minor damage often can be buffed out, which makes them extremely practical for heavy use.</span></p>
+<p>&nbsp;</p>
+<h2><strong>Walls and Showers: Minimizing Grout and Maximizing Cleanliness</strong></h2>
+<p><span style="font-weight: 400;">Where walls are concerned, particularly in the shower area, less grout means less cleaning. Water resistance is a given, but ease of maintenance is what really defines a family-proof wall surface.</span></p>
+<p><strong>Large-Format Porcelain Slabs:</strong><span style="font-weight: 400;"> Using large-format tiles, or even porcelain slabs, for walls, particularly those around the shower area, considerably reduces grout lines. This reduces the possibility of mold and mildew, while making cleaning easier and leaving the area with a seamless, modern appearance.</span></p>
+<p><strong>Extensive Tiling:</strong><span style="font-weight: 400;"> Consider extending your tilework beyond the normal shower area. Tiling to at least 1200mm behind the toilet and vanity is a smart way to protect drywall from splashes and is much easier to wipe clean.</span></p>
+<p><strong>Durable Paint: </strong><span style="font-weight: 400;">For untiled walls, use a semi-gloss or high-gloss </span><a href="https://www.thespruce.com/best-paint-for-bathrooms-4686977"><span style="font-weight: 400;">paint designed for humid environments</span></a><span style="font-weight: 400;">. The smoother finish is far easier to wipe down than a matte finish, helping prevent mold and mildew.</span></p>
+<p>&nbsp;</p>
+<h2><strong>The Innate Design Philosophy</strong></h2>
+<p><span style="font-weight: 400;">The foundation of a long-lasting family bathroom is indeed durable, high-quality material selection, but it is the clever design details that make the space truly functional:</span></p>
+<p><strong>Wall-Mounted Fixtures: </strong><span style="font-weight: 400;">A wall-mounted vanity or toilet creates a modern, floating appearance and makes for quick cleaning of the floor area underneath.&nbsp;</span></p>
+<p><strong>Ample, Hidden Storage: </strong><span style="font-weight: 400;">Employ mirrored shaving cabinets and vanity drawers to keep benchtops clutter-free. Less clutter equals less to clean around. Matte or brushed finishes tend to be more forgiving than an ultra-shiny finish of chrome. For example, matte black or brushed nickel/brass tapware shows fewer water spots and fingerprints.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Your family bathroom should be a space of serenity and efficiency for all. Focusing on durability, water resistance, and ease of cleaning when selecting your material will help you create a beautiful, luxurious design that will endure years of family life.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Ready to design a resilient and beautiful family bathroom? </span><a href="https://www.innate-nw.com/contact"><span style="font-weight: 400;">Contact Innate NW today</span></a><span style="font-weight: 400;"> to discuss your material selection and bathroom renovation needs.</span></p>
+        `,
+      },
+    ],
+    seo: {
+      title:
+        "Durability and Design: Selecting the Right Materials to Handle Family Bathrooms",
+      description:
+        "When renovating or building your bathroom, you need materials that are beautiful but-most importantly-built to last. Find out more from the remodel experts. ",
+      keywords:
+        "seattle bathroom remodel, family bathroom size, family bathroom design, bathroom renovation contractors, best material for bathroom countertops, bathroom flooring options",
+    },
+  },
 ];
