@@ -52,7 +52,7 @@ function ReviewsSlider() {
   }
 
   return (
-    <div className="w-full overflow-hidden pt-36">
+    <div className="w-full overflow-hidden pt-[72px]">
       {/* Loom Video Section */}
       <div className="flex flex-col items-center justify-center pb-48">
         <Text

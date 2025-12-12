@@ -13,19 +13,22 @@ const Contact = () => {
     <>
       <div className="gradient min-h-screen py-44 flex flex-col justify-center px-20 mob:px-5">
         <div className="mx-auto w-full max-w-full flex justify-bewteen lg:flex-wrap gap-[200px] lg:gap-[50px]">
-          <div className="fmax-w-[40%] mob:max-w-[100%] ">
+          <div className="w-[95%] mob:max-w-[100%] ">
             <Text
               as="h1"
               className="text-[34px] mob:text-[30px] text-white font-semibold"
             >
               Fill out this form and we will be in touch within 24 hours
             </Text>
+            <div className="w-[95%] mob:max-w-[100%]">
             <Text className="mt-4 text-[#D9D9D9] font-normal mob:text-[14px]">
             Every great project starts with a conversation. If you’re looking for an architect, engineer, or builder, use this form to schedule a complimentary 30-minute consultation and see if we’re a good fit. 
             </Text>
             <Text className="mt-4 text-[#D9D9D9] font-normal mob:text-[14px]">
             If it’s a match, we’ll move forward with an in-person site visit. If not, we’ll gladly connect you with a better resource.
             </Text>
+            </div>
+
             
             <Link href="/onboarding">
               <button

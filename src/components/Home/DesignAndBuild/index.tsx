@@ -138,7 +138,7 @@ const DesignAndBuild = () => {
       </div>
 
       {/* Track Progress */}
-      <div className="flex lg:flex-wrap gap-[47px] mb-24 items-center px-[43px] pt-[43px] pb-[43px] mob:px-[16px] w-[80%] mob:w-full min-h-[500px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] gradient2 justify-center mob:gap-[40px] mob:pt-[16px] mob:pb-[34px]">
+      <div className="flex lg:flex-wrap gap-[47px] mb-12 items-center px-[43px] pt-[43px] pb-[43px] mob:px-[16px] w-[80%] mob:w-full min-h-[500px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] gradient2 justify-center mob:gap-[40px] mob:pt-[16px] mob:pb-[34px]">
         <div className="mob:order-1">
           <Text as="h2" className="">
             Track Every Step
