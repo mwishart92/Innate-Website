@@ -15,6 +15,7 @@ import Image from "next/image";
 import { useTabContext } from "@/context/TabContsxt";
 import "./Navbar.css";
 import { cn } from "@/libs/utils/twMerge";
+import AlertBanner from "../AlertBanner";
 
 const services = [
   { name: "Exterior Remodel", slug: "exterior-remodeling" },
@@ -72,6 +73,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="absolute min-h-[134px] z-50 w-full px-16 md:px-20 mob:px-5 ">
+        <AlertBanner />
         <div className="flex justify-center items-center w-full min-h-[134px] ">
           <div className="min-h-[134px] w-full flex flex-wrap items-center justify-between mx-auto pb-[24px] mob:pb-[50px]">
             <div className="flex justify-between w-full pb-4">

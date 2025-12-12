@@ -9,6 +9,7 @@ import Drawer from "../ui/Drawer";
 import logo from "@/public/logo-innate.png";
 import Image from "next/image";
 import { useTabContext } from "@/context/TabContsxt";
+import AlertBanner from "../AlertBanner";
 
 const NavbarOther = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -47,6 +48,7 @@ const NavbarOther = () => {
   return (
     <>
       <nav className=" absolute  min-h-[134px] z-50  w-full px-20 mob:px-5 ">
+        <AlertBanner />
         <div className="flex justify-center items-center w-full min-h-[134px] ">
           <div className=" max-w-[1200px] min-h-[134px] w-full flex flex-wrap items-center justify-between mx-auto py-4">
             <div className="flex    justify-between w-full    pb-4">
