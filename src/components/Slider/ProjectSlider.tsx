@@ -8,20 +8,35 @@ import "swiper/css/effect-fade";
 import Link from "next/link";
 import { slidesData } from "@/data/workSlides";
 
-const ProjectSlider = () => {
-  // Get 5 random elements from slidesData
-  const getRandomProjects = () => {
-    // First filter out projects that don't have any images
-    const projectsWithImages = slidesData.filter((project) =>
-      project.media?.some((media) => media.type === "image")
-    );
+// Configure which projects to feature in the carousel
+// Add or remove project titles from this array to control what's displayed
+// Projects will be displayed in the order listed here
+const FEATURED_PROJECT_TITLES = [
+  "West Seattle Residence",
+  "Magnolia Bathroom",
+  "Knight Residence",
+  "Madrona Remodel",
+  "Wedgewood ADU",
+];
 
-    // Then get random 5 from filtered projects
-    const shuffled = [...projectsWithImages].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, 5);
+const ProjectSlider = () => {
+  // Get featured projects based on configuration
+  const getFeaturedProjects = () => {
+    // Filter to only projects that:
+    // 1. Are in the FEATURED_PROJECT_TITLES array
+    // 2. Have at least one image in their media array
+    const featuredProjects = FEATURED_PROJECT_TITLES.map((title) => {
+      return slidesData.find(
+        (project) =>
+          project.title === title &&
+          project.media?.some((media) => media.type === "image")
+      );
+    }).filter((project): project is NonNullable<typeof project> => project !== undefined);
+
+    return featuredProjects;
   };
 
-  const randomProjects = getRandomProjects();
+  const featuredProjects = getFeaturedProjects();
 
   return (
     <>
@@ -43,7 +58,7 @@ const ProjectSlider = () => {
           modules={[Autoplay]}
           loop={true}
         >
-          {randomProjects.map((item, index) => {
+          {featuredProjects.map((item, index) => {
             // Find first image from media array
             const firstImage = item.media?.find(
               (media) => media.type === "image"
