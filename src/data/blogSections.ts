@@ -601,7 +601,7 @@ export const blogSections: ArticleSection[] = [
 <p><span style="font-weight: 400;">The truth: costs vary by project type, finishes, and location. Rising construction costs, <a href="/blogs/seattle-neighborhood-residential-zoning">strict building codes</a>, and long permitting timelines all play a role. Without a clear cost estimate, projects can spiral.</span></p>
 <p><span style="font-weight: 400;">That&rsquo;s why we built this guide&mdash;so homeowners across Seattle, Bellevue, and the Eastside can make informed choices.</span></p>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">At</span><a href="https://www.innate-nw.com/"><span style="font-weight: 400;"> Innate-NW</span></a><span style="font-weight: 400;">, our team of architects, designers, and project managers specializes in custom designed homes, remodels, and additions that bring your vision to life from start to finish.</span></p>
+<p><span style="font-weight: 400;">At</span><a href="https://www.innate-nw.com/"><span style="font-weight: 400;"> Innate</span></a><span style="font-weight: 400;">, our team of architects, designers, and project managers specializes in custom designed homes, remodels, and additions that bring your vision to life from start to finish.</span></p>
 <h2>&nbsp;</h2>
 <h2><span style="font-weight: 400;">Seattle Custom Home Cost</span></h2>
 <p><span style="font-weight: 400;">A custom home offers freedom to design exactly what you want. But costs add up quickly in Seattle.</span></p>
@@ -931,7 +931,7 @@ export const blogSections: ArticleSection[] = [
 <p><strong>Plan Your Remodel with Confidence</strong></p>
 <p><span style="font-weight: 400;">Whether you&rsquo;re planning a </span><strong>home addition Seattle</strong><span style="font-weight: 400;">, a kitchen update, or a whole-home remodel, timelines and costs are critical to success.</span></p>
 <p><span style="font-weight: 400;">At</span><a href="https://www.innate-nw.com/"> <span style="font-weight: 400;">Innate-NW</span></a><span style="font-weight: 400;">, we provide full </span><strong>design and build</strong><span style="font-weight: 400;"> services to make your remodel seamless. From concept to completion, we handle every detail&mdash;so your home is </span><strong>custom designed</strong><span style="font-weight: 400;">, delivered on time, and crafted to bring your vision to life.</span></p>
-<p><strong>Ready to start? </strong><a href="https://www.innate-nw.com/contact"><strong>Contact Innate-NW</strong></a><strong> today for your remodel cost estimate and project timeline.</strong></p>
+<p><strong>Ready to start? </strong><a href="https://www.innate-nw.com/contact"><strong>Contact Innate</strong></a><strong> today for your remodel cost estimate and project timeline.</strong></p>
         `,
       },
     ],
@@ -950,7 +950,7 @@ export const blogSections: ArticleSection[] = [
       "Smart Exterior Design for Small Homes: Make the Most of Limited Space",
     thumbnail: "/images/press/smart_websize.jpg",
     tag: "Blog",
-    excerpt: `Discover smart exterior design tips that maximize space and style for small homes. See how Innate-NW provides functional and beautiful exterior remodeling.`,
+    excerpt: `Discover smart exterior design tips that maximize space and style for small homes. See how Innate provides functional and beautiful exterior remodeling.`,
     publishedDate: "20 October, 2025",
     content: [
       {
@@ -1034,14 +1034,14 @@ export const blogSections: ArticleSection[] = [
 <p><span style="font-weight: 400;">We create spaces that adapt&mdash;modular decks that can be expanded, planters that move easily, and sheds that can become hobby rooms. Long-term thinking protects your investment and keeps your home appealing for decades.</span></p>
 <p>&nbsp;</p>
 <h2><strong>Partner with the Right Architecture Firm</strong></h2>
-<p><span style="font-weight: 400;">A successful project starts with expertise. Innate-NW is more than a contractor&mdash;we are one of the region&rsquo;s leading </span><strong>architecture firms</strong><span style="font-weight: 400;"> focused on sustainable, space-smart solutions.</span></p>
+<p><span style="font-weight: 400;">A successful project starts with expertise. Innate is more than a contractor&mdash;we are one of the region&rsquo;s leading </span><strong>architecture firms</strong><span style="font-weight: 400;"> focused on sustainable, space-smart solutions.</span></p>
 <p><span style="font-weight: 400;">From concept to permits to final build, our team manages every stage. We ensure that your exterior is not only beautiful and efficient but also built to last.</span></p>
 <p>&nbsp;</p>
 <h2><strong>Conclusion &amp; Call to Action</strong></h2>
 <p><span style="font-weight: 400;">A small home can still deliver big curb appeal and strong sustainability. With </span><strong>smart exterior design</strong><span style="font-weight: 400;">, you can create welcoming outdoor spaces, add hidden storage, and improve energy performance.</span></p>
 <p><span style="font-weight: 400;">Innate-NW specializes in </span><strong>exterior remodeling services</strong><span style="font-weight: 400;"> that merge beauty with environmental care. Whether you want a complete remodel or targeted upgrades like a custom deck or vertical garden, we can help.&nbsp;</span></p>
 <p>&nbsp;</p>
-<h3><strong>Contact Innate-NW to design an exterior that saves energy, reduces emissions, and enhances your home for the long term.</strong></h3>
+<h3><strong>Contact Innate to design an exterior that saves energy, reduces emissions, and enhances your home for the long term.</strong></h3>
         `,
       },
     ],
@@ -1049,7 +1049,7 @@ export const blogSections: ArticleSection[] = [
       title:
         "Smart Exterior Design for Small Homes: Make the Most of Limited Space",
       description:
-        "Discover smart exterior design tips that maximize space and style for small homes. See how Innate-NW provides functional and beautiful exterior remodeling.",
+        "Discover smart exterior design tips that maximize space and style for small homes. See how Innate provides functional and beautiful exterior remodeling.",
       keywords: "",
     },
   },
@@ -1118,7 +1118,7 @@ export const blogSections: ArticleSection[] = [
 <li style="font-weight: 400;"><strong>Energy-smart systems</strong><span style="font-weight: 400;"> that lower power and water use.</span></li>
 <li style="font-weight: 400;"><strong>Design strategies</strong><span style="font-weight: 400;"> that work with climate and light.</span></li>
 </ul>
-<p><span style="font-weight: 400;">At Innate-NW, these principles guide every </span><strong>whole home remodel</strong><span style="font-weight: 400;"> and every new home we design.</span></p>
+<p><span style="font-weight: 400;">At Innate, these principles guide every </span><strong>whole home remodel</strong><span style="font-weight: 400;"> and every new home we design.</span></p>
 <p>&nbsp;</p>
 <h2><strong>Style and Sustainability Go Hand in Hand</strong></h2>
 <p><span style="font-weight: 400;">Eco-conscious choices expand design possibilities. Warm reclaimed wood, sleek bamboo, and bold recycled steel all add striking detail. Solar roofs, smart windows, and light-filled spaces become standout features.</span></p>
@@ -1135,9 +1135,9 @@ export const blogSections: ArticleSection[] = [
 <p><span style="font-weight: 400;">Every project starts with a conversation and ends with a home that matches your vision and values.</span></p>
 <p>&nbsp;</p>
 <h2><strong>Conclusion and Next Steps</strong></h2>
-<p><span style="font-weight: 400;">At Innate-NW, we believe sustainable architecture is about more than energy savings. It is about creating homes that are healthy, efficient, and beautiful. Our projects prove that comfort and design excellence can thrive together.</span></p>
+<p><span style="font-weight: 400;">At Innate, we believe sustainable architecture is about more than energy savings. It is about creating homes that are healthy, efficient, and beautiful. Our projects prove that comfort and design excellence can thrive together.</span></p>
 <p>&nbsp;</p>
-<h3><strong>Ready to begin? Connect with Innate-NW to start designing a home that is elegant, efficient, and built for the future.</strong></h3>
+<h3><strong>Ready to begin? Connect with Innate to start designing a home that is elegant, efficient, and built for the future.</strong></h3>
         `,
       },
     ],
