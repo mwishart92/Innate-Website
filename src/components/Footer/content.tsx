@@ -70,7 +70,7 @@ const FooterContent = () => {
               </a>
             </div>
             <Text className="text-[#D9D9D9] mt-3 font-normal mob:text-[14px]">
-              © Innate NW, LLC
+              © Innate AEC LLC
             </Text>
           </div>
         </div>
