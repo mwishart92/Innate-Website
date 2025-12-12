@@ -6,7 +6,9 @@ import giftIcon from "@/public/images/home/gift.svg";
 const AlertBanner = () => {
   const [isVisible, setIsVisible] = useState(true);
 
-  const handleDismiss = () => {
+  const handleDismiss = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
     setIsVisible(false);
   };
 
@@ -15,14 +17,18 @@ const AlertBanner = () => {
       className="w-screen -mx-[64px] md:-mx-[80px] mob:-mx-[20px] flex justify-center"
       style={{ marginTop: "10px", marginBottom: "10px" }}
     >
-      <div
-        className={`flex items-center justify-between px-[15px] py-[15px] rounded-[5px] overflow-hidden transition-all duration-500 ease-in-out ${
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSfELfZCnkEWcXoQLFu102cyphWDxlLi3bv9kLH6l3wzwpsmGw/viewform"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`flex items-center justify-between px-[15px] py-[15px] rounded-[5px] overflow-hidden transition-all duration-500 ease-in-out cursor-pointer hover:opacity-90 ${
           isVisible ? "max-h-[100px] opacity-100" : "max-h-0 opacity-0 py-0"
         }`}
         style={{ 
           backgroundColor: "#DDFE24",
           width: "calc(100vw - 20px)",
-          maxWidth: "calc(100vw - 20px)"
+          maxWidth: "calc(100vw - 20px)",
+          textDecoration: "none"
         }}
       >
         <div className="flex items-center gap-2 flex-1 min-w-0">
@@ -44,7 +50,7 @@ const AlertBanner = () => {
         >
           DISMISS X
         </button>
-      </div>
+      </a>
     </div>
   );
 };
