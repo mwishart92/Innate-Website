@@ -18,9 +18,7 @@ const Contact = () => {
               as="h1"
               className="text-[34px] mob:text-[30px] text-white font-semibold"
             >
-              Fill out this form and<br/>
-              we will be in touch<br/>
-              within 24 hours
+              Fill out this form and we will be in touch within 24 hours
             </Text>
             <Text className="mt-4 text-[#D9D9D9] font-normal mob:text-[14px]">
             Every great project starts with a conversation. If you’re looking for an architect, engineer, or builder, use this form to schedule a complimentary 30-minute consultation and see if we’re a good fit. 
