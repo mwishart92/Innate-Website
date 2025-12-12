@@ -13,6 +13,7 @@ import AlertBanner from "../AlertBanner";
 
 const NavbarOther = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const { activeTab, setActiveTab } = useTabContext();
   // const onClose = () => setIsOpen(false);
   const onOpen = () => setIsOpen(true);
@@ -25,6 +26,20 @@ const NavbarOther = () => {
   const handleTabChange = (tab: string) => {
     setActiveTab(tab); // Update context
   };
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      setIsScrolled(scrollPosition > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Check initial scroll position
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   useEffect(() => {
     if (isOpen) {
       // Select all list items
@@ -47,7 +62,10 @@ const NavbarOther = () => {
 
   return (
     <>
-      <nav className=" absolute  min-h-[134px] z-50  w-full px-20 mob:px-5 ">
+      <nav 
+        className="fixed top-0 min-h-[134px] z-50 w-full px-20 mob:px-5 transition-all duration-300"
+        style={{ backgroundColor: isScrolled ? "rgba(0,0,0,0.4)" : "rgba(0,0,0,0)" }}
+      >
         <AlertBanner />
         <div className="flex justify-center items-center w-full min-h-[134px] ">
           <div className=" max-w-[1200px] min-h-[134px] w-full flex flex-wrap items-center justify-between mx-auto py-4">
