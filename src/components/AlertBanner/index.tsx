@@ -40,7 +40,7 @@ const AlertBanner = () => {
             className="flex-shrink-0"
           />
           <span className="text-sm font-medium uppercase mob:text-xs text-[#000]">
-            HOLIDAY GIVEAWAY: YES, REALLY. WE'RE GIVING AWAY A FREE BATHROOM REMODEL!
+            HOLIDAY GIVEAWAY: YES, REALLY. WE'RE GIVING AWAY A FREE BATHROOM REMODEL! Click here to learn more!
           </span>
         </div>
         <button
