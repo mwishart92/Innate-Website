@@ -58,7 +58,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/logo-innate.png" />
-        <meta name="google-site-verification" content="T7ZHr0DyuChgFqqjvqmmCbJ5Y9KtuuvE7lEA36EQUQw" />
         <GoogleTagManager gtmId="GTM-KNSHDN66" />
         {/* Critical CSS for above-the-fold content */}
         <style
@@ -84,6 +83,7 @@ export default function RootLayout({
           `,
           }}
         />
+        <meta name="google-site-verification" content="T7ZHr0DyuChgFqqjvqmmCbJ5Y9KtuuvE7lEA36EQUQw" />
       </head>
       <body
         className={`gradient ${inter.variable} ${monts.variable} ${rajdhani.variable} ${inknut.variable} ${Bodoni.variable} bg-[#000] loading`}
