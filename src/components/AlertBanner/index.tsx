@@ -4,7 +4,7 @@ import Image from "next/image";
 import giftIcon from "@/public/images/home/gift.svg";
 
 const AlertBanner = () => {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
 
   const handleDismiss = (e: React.MouseEvent) => {
     e.preventDefault();
