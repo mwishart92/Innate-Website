@@ -35,7 +35,7 @@ const FooterContent = () => {
           <div className="max-w-[20%] mob:max-w-full mob:text-center mob:mt-10"></div>
           <div className="mob:flex mob:flex-col mob:justify-center text-center mob:mt-10 mob:mx-auto">
             <div className="flex gap-4 ml-3 mob:justify-center">
-              <a href="https://www.instagram.com/innate_nw/" target="_blank">
+              <a href="https://www.instagram.com/innate_aec/" target="_blank">
                 <Image
                   src={insta}
                   alt="Instagram"
