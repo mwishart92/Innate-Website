@@ -41,7 +41,7 @@ export const slidesData: SlideData[] = [
       {
         src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_Exterior-Bathroom.webm?alt=media&token=7d3e8e66-5096-4731-ac14-77755a3831c6",
         type: "video",
-         mobilePlaceholder: "/images/project/west-seattle-residence/ws_mob.jpg",
+        mobilePlaceholder: "/images/project/west-seattle-residence/ws_mob.jpg",
       },
       {
         src: "/images/project/west-seattle-residence/6L1A1041_websize.jpg",
@@ -278,6 +278,7 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
       {
         src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_ADU_16x9.webm?alt=media&token=146a7881-9a11-4099-8f58-3714d7c5f98b",
         type: "video",
+        mobilePlaceholder: "/images/project/wedgewood-adu/wwadu_mob.jpg"
       },
     ],
     hover: {

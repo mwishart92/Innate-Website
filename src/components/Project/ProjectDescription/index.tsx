@@ -66,9 +66,10 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
             </div>
           </div>
           <div className="">
-            <Text className="text-[#D9D9D9] font-normal mob:text-[14px]">
-              {projectDetails.scopedescription}
-            </Text>
+            <div
+              className="text-[#D9D9D9] font-normal mob:text-[14px]"
+              dangerouslySetInnerHTML={{ __html: projectDetails.scopedescription || "" }}
+            ></div>
             <Link href="/onboarding">
               <button
                 type="submit"
@@ -141,9 +142,10 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
             ))}
           </div>
           <div>
-            <Text className="text-[#D9D9D9] font-normal mob:text-[14px] ">
-              {projectDetails.galleryDescription}
-            </Text>
+            <div
+              className="text-[#D9D9D9] font-normal mob:text-[14px]"
+              dangerouslySetInnerHTML={{ __html: projectDetails.galleryDescription || "" }}
+            ></div>
           </div>
         </div>
       </div>
