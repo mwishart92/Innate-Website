@@ -23,7 +23,7 @@ export const slidesData: SlideData[] = [
       {
         src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/10.15_Innate%20Bathroom%20Remodel%20Finished%20Work_16x9.webm?alt=media&token=bb8b82d5-a81d-4c31-9693-8e6ccea5f00b",
         type: "video",
-        mobilePlaceholder: "/images/work/bellevue-mob.jpg"
+        mobilePlaceholder: "/images/work/bellevue_mob.jpg"
       },
     ],
     hover: {
