@@ -190,7 +190,7 @@ const HeroAbout = () => {
             data-aos-delay="900"
           >
             <Text className="text-[18px] font-normal leading-[24px] mob:text-[16px]">
-              Project Manager
+              Superintendent
             </Text>
             <Image className="" src={arrow} alt="" width={41} height={41} />
           </div>

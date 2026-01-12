@@ -1,8 +1,14 @@
+export interface MediaItem {
+  src: string;
+  type: "image" | "video";
+  mobilePlaceholder?: string;
+}
+
 export interface SlideData {
   title: string;
   location: string;
   url?: string;
-  media?: { src: string; type: "image" | "video"; mobilePlaceholder?: string }[];
+  media?: MediaItem[];
   hover?: {
     title: string;
     subTitle: string;
@@ -34,6 +40,7 @@ export const slidesData: SlideData[] = [
       {
         src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_Exterior-Bathroom.webm?alt=media&token=7d3e8e66-5096-4731-ac14-77755a3831c6",
         type: "video",
+         mobilePlaceholder: "/images/project/west-seattle-residence/ws_mob.jpg",
       },
       {
         src: "/images/project/west-seattle-residence/6L1A1041_websize.jpg",

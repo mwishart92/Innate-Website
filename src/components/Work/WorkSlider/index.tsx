@@ -15,6 +15,7 @@ import MediaSlide from "../MediaSlide";
 // import leftarrow from '@/public/images/work/Arrowleftblue.png'
 import arrow from "@/public/images/work/Arrow.png";
 import { cn } from "@/libs/utils/twMerge";
+import { MediaItem } from "@/data/workSlides";
 
 function WorkSlider({
   title,
@@ -30,7 +31,7 @@ function WorkSlider({
   title: string;
   location: string;
   url: string;
-  media: { src: string; type: "image" | "video" }[] | undefined;
+  media: MediaItem[] | undefined;
   className?: string;
   showSlider?: boolean;
   isMobile?: boolean;
