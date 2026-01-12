@@ -392,7 +392,7 @@ const projectData = {
           image: "/images/project/bellevue-bathroom/bb5.jpg",
         },
         {
-          image: "/images/project/bellevue-bathroom/bb6.jpg",
+          image: "/images/project/bellevue-bathroom/bb11.jpg",
         },
         {
           image: "/images/project/bellevue-bathroom/bb9.jpg",
