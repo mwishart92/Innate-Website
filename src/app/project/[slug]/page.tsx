@@ -392,10 +392,10 @@ const projectData = {
           image: "/images/project/bellevue-bathroom/bb5.jpg",
         },
         {
-          image: "/images/project/bellevue-bathroom/bb6.jpgp",
+          image: "/images/project/bellevue-bathroom/bb6.jpg",
         },
         {
-          image: "/images/project/bellevue-bathroom/bb7.jpg",
+          image: "/images/project/bellevue-bathroom/bb9.jpg",
         },
       ],
       galleryDescription: `The result is a cohesive series of bathrooms that feel timeless, intentional, and refined. Completed within two months, this Bellevue remodel reflects Innate-NW’s ability to collaborate closely with discerning clients, translating vision into modern craftsmanship that enhances both daily living and long-term value.`,
