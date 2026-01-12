@@ -369,10 +369,10 @@ const projectData = {
       ],
       scopedescription: `This Bellevue bathroom renovation exemplifies how simplicity and precision can redefine a home’s atmosphere. Originally planned as a single-bathroom remodel, the project quickly grew to encompass every bathroom in the house after our team’s initial transformation impressed the homeowner—an architect with a distinct vision for clean, European-inspired design.`,
       media: {
-        desktop: "/images/project/gray-bathroom/IMG_9334.webp",
+        desktop: "/images/project/bellevue-bathroom/bb8.jpg",
       },
       description: [
-        `The renovation focused on creating a modern, minimalist aesthetic defined by sleek lines, neutral tones, and high-quality materials. Each space was carefully planned to feel open, serene, and effortlessly functional, showcasing the balance between form and purpose that defines European design philosophy.`,
+        `The renovation focused on creating a modern, minimalist aesthetic defined by sleek lines, neutral tones, and high-quality materials. Each space was carefully planned to feel open, serene, and effortlessly functional, showcasing the balance between form and purpose that defines European design philosophy. During construction, our team also addressed existing water damage, reinforcing structural integrity and implementing modern waterproofing solutions to ensure longevity. Every detail—from fixture placement to material transitions—was executed with the precision demanded by architectural standards.`,
       ],
       gallery: [
         {
@@ -398,9 +398,7 @@ const projectData = {
           image: "/images/project/bellevue-bathroom/bb7.jpg",
         },
       ],
-      galleryDescription: `Located in Kent, this bathroom remodel showcases Innate's ability to turn urgent repairs into long-term valueDuring construction, our team also addressed existing water damage, reinforcing structural integrity and implementing modern waterproofing solutions to ensure longevity. Every detail—from fixture placement to material transitions—was executed with the precision demanded by architectural standards.
-The result is a cohesive series of bathrooms that feel timeless, intentional, and refined. Completed within two months, this Bellevue remodel reflects Innate-NW’s ability to collaborate closely with discerning clients, translating vision into modern craftsmanship that enhances both daily living and long-term value.
-. By combining expert construction, design vision, and insurance coordination, we delivered a stunning result with minimal stress for the client.`,
+      galleryDescription: `The result is a cohesive series of bathrooms that feel timeless, intentional, and refined. Completed within two months, this Bellevue remodel reflects Innate-NW’s ability to collaborate closely with discerning clients, translating vision into modern craftsmanship that enhances both daily living and long-term value.`,
       projectSlider: [  
         {
           image: slider1,
