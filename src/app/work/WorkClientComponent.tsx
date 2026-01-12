@@ -83,6 +83,8 @@ const Work: React.FC = () => {
                           src={item.src}
                           type={item.type}
                           fixedBackground={true}
+                          mobilePlaceholder={item.mobilePlaceholder}
+                          isMobile={false}
                         />
                         <div className="absolute inset-0 bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(0,0,0,0.5)] pagination-gradient z-10 pointer-events-none"></div>
                       </div>

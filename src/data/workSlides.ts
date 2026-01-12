@@ -2,7 +2,7 @@ export interface SlideData {
   title: string;
   location: string;
   url?: string;
-  media?: { src: string; type: "image" | "video" }[];
+  media?: { src: string; type: "image" | "video"; mobilePlaceholder?: string }[];
   hover?: {
     title: string;
     subTitle: string;
@@ -17,6 +17,7 @@ export const slidesData: SlideData[] = [
       {
         src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/10.15_Innate%20Bathroom%20Remodel%20Finished%20Work_16x9.webm?alt=media&token=bb8b82d5-a81d-4c31-9693-8e6ccea5f00b",
         type: "video",
+        mobilePlaceholder: "/images/work/bellevue-mob.jpg"
       },
     ],
     hover: {

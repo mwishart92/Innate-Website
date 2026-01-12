@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 
 interface MediaSlideProps {
@@ -7,6 +7,8 @@ interface MediaSlideProps {
   src: string;
   type: string;
   fixedBackground?: boolean;
+  mobilePlaceholder?: string;
+  isMobile?: boolean;
 }
 
 const MediaSlide: React.FC<MediaSlideProps> = ({
@@ -14,11 +16,35 @@ const MediaSlide: React.FC<MediaSlideProps> = ({
   type,
   setImageLoaded,
   fixedBackground,
+  mobilePlaceholder,
+  isMobile,
 }) => {
+  const [videoLoaded, setVideoLoaded] = useState(false);
+  const [isMobileDevice, setIsMobileDevice] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobileDevice(
+        typeof window !== "undefined" && window.innerWidth <= 767
+      );
+    };
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
   const getVideoMimeType = (source: string) => {
     if (source.endsWith(".webm")) return "video/webm";
     if (source.endsWith(".ogg")) return "video/ogg";
     return "video/mp4";
+  };
+
+  const shouldShowPlaceholder =
+    (isMobile || isMobileDevice) && mobilePlaceholder && !videoLoaded;
+
+  const handleVideoLoaded = () => {
+    setVideoLoaded(true);
+    setImageLoaded?.(true);
   };
 
   return (
@@ -47,13 +73,27 @@ const MediaSlide: React.FC<MediaSlideProps> = ({
         )
       ) : (
         <>
+          {/* Mobile Placeholder Image */}
+          {shouldShowPlaceholder && (
+            <Image
+              className="absolute top-0 left-0 w-full h-full object-cover z-0"
+              src={mobilePlaceholder}
+              alt=""
+              fill
+              sizes="100vw"
+              priority
+            />
+          )}
           <video
-            className="absolute top-0 left-0 w-full h-full object-cover z-0"
+            className={`absolute top-0 left-0 w-full h-full object-cover z-0 ${
+              shouldShowPlaceholder ? "opacity-0" : "opacity-100"
+            } transition-opacity duration-300`}
             autoPlay
             loop
             muted
             playsInline
-            onLoad={() => setImageLoaded?.(true)}
+            onLoadedData={handleVideoLoaded}
+            onCanPlay={handleVideoLoaded}
           >
             <source src={src} type={getVideoMimeType(src)} />
           </video>

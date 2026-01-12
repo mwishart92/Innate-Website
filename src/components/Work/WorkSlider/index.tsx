@@ -178,6 +178,8 @@ function WorkSlider({
                   src={item.src}
                   type={item.type}
                   setImageLoaded={index === 0 ? setImageLoaded : undefined}
+                  mobilePlaceholder={item.mobilePlaceholder}
+                  isMobile={isMobile}
                 />
               </SwiperSlide>
             ))}
