@@ -323,6 +323,116 @@ const projectData = {
       description: `A custom kitchenette and clean-lined finishes give the interiors a refined but relaxed atmosphere. Outside, a detached ADU offers a private space for visiting family and serves as a future income opportunity, reflecting a thoughtful approach to multi-functional design. Metal roofing installation, natural light, and the open floor plan contribute to both energy efficiency and long-term flexibility for the homeownerThe new bathroom design features floor-to-ceiling large format tile, a curbless walk-in shower with custom glass, and a smart mirror that enhances both function and style. A built-in hot tub adds a premium touch, while clean lines and high-end finishes bring cohesion to the space. What began as a remediation project evolved into a total reimagining of the master bath.`,
     },
   },
+  "bellevue-bathroom": {
+    defaultSlides: [
+      {
+        component: (
+          <Slide
+            image="/images/project/bellevue-bathroom/bellevue_main.jpg"
+            video={null}
+          />
+        ),
+        delay: 36000,
+        projectName: "Bellevue Bathroom Remodel",
+        projectType: "Renovation",
+      },
+    ],
+    defaultProjectDetails: {
+      projectScope: [
+        {
+          key: "Scope",
+          value: "Full Bathroom Remodel (All Bathrooms)",
+        },
+        { key: "Type", value: "Renovation, Modern Minimalist Design" },
+        { key: "Location", value: "Bellevue, Washington" },
+        {
+          key: "Client",
+          value: "Architect Homeowner",
+        },
+        {
+          key: "Design Style",
+          value: "European-Inspired, Minimalist",
+        },
+        {
+          key: "Timeline",
+          value: "2 Months",
+        },
+        {
+          key: "Photographer",
+          value: "Nicolai Buccino",
+        },
+        {
+          key: "General Contractor",
+          value: "Innate",
+        },
+        
+      ],
+      scopedescription: `This Bellevue bathroom renovation exemplifies how simplicity and precision can redefine a home’s atmosphere. Originally planned as a single-bathroom remodel, the project quickly grew to encompass every bathroom in the house after our team’s initial transformation impressed the homeowner—an architect with a distinct vision for clean, European-inspired design.`,
+      media: {
+        desktop: "/images/project/gray-bathroom/IMG_9334.webp",
+      },
+      description: [
+        `The renovation focused on creating a modern, minimalist aesthetic defined by sleek lines, neutral tones, and high-quality materials. Each space was carefully planned to feel open, serene, and effortlessly functional, showcasing the balance between form and purpose that defines European design philosophy.`,
+      ],
+      gallery: [
+        {
+          image: "/images/project/bellevue-bathroom/bb1.jpg",
+        },
+        {
+          image: "/images/project/bellevue-bathroom/bb2.jpg",
+        },
+        {
+          image: "/images/project/bellevue-bathroom/bb3.jpg",
+        },
+        {
+          image: "/images/project/bellevue-bathroom/bb4.jpg",
+          class: "col-span-3 aspect-[4/2]",
+        },
+        {
+          image: "/images/project/bellevue-bathroom/bb5.jpg",
+        },
+        {
+          image: "/images/project/bellevue-bathroom/bb6.jpgp",
+        },
+        {
+          image: "/images/project/bellevue-bathroom/bb7.jpg",
+        },
+      ],
+      galleryDescription: `Located in Kent, this bathroom remodel showcases Innate's ability to turn urgent repairs into long-term valueDuring construction, our team also addressed existing water damage, reinforcing structural integrity and implementing modern waterproofing solutions to ensure longevity. Every detail—from fixture placement to material transitions—was executed with the precision demanded by architectural standards.
+The result is a cohesive series of bathrooms that feel timeless, intentional, and refined. Completed within two months, this Bellevue remodel reflects Innate-NW’s ability to collaborate closely with discerning clients, translating vision into modern craftsmanship that enhances both daily living and long-term value.
+. By combining expert construction, design vision, and insurance coordination, we delivered a stunning result with minimal stress for the client.`,
+      projectSlider: [  
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+      ],
+    },
+    seo: {
+      title: "Bellevue Bathroom Remodel | Minimalist European Modern Renovation",
+      description: `Discover how Innate-NW transformed a Bellevue home with a European-inspired modern refresh. Originally a single-bath remodel, the project expanded to update all bathrooms with minimalist design, refined finishes, and water damage restoration—all completed in just two months.`,
+    },
+  },
   "wheat-ridge-adu": {
     seo: {
       title: "Gray BathroWheat Ridge ADU | Innate NW Renovation",
