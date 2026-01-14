@@ -21,9 +21,10 @@ interface Slide {
 
 interface ProjectSliderProps {
   slides?: Slide[];
+  title?: string;
 }
 
-function ProjectSlider({ slides }: ProjectSliderProps) {
+function ProjectSlider({ slides, title }: ProjectSliderProps) {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const swiperSlides = slides?.length ? slides : [];
@@ -40,7 +41,7 @@ function ProjectSlider({ slides }: ProjectSliderProps) {
       <div className="w-full overflow-hidden home-slider-parent">
         <div className="absolute bottom-[128px] mob:bottom-[70px] left-16 p-5 z-20 bg-opacity-50 mob:left-0">
           <Text as="h1" className="mb-4 text-[28px] font-medium">
-            Design and Construction Projects in Seattle
+            {title ? title : "Design and Construction Projects in Seattle"}
           </Text>
         </div>
 

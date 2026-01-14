@@ -127,6 +127,7 @@ const projectData = {
         projectType: "Renovation",
       },
     ],
+    title: "",
     defaultProjectDetails: {
       projectScope: [
         { key: "Scope", value: "Kitchen Remodel" },
@@ -180,6 +181,7 @@ const projectData = {
         projectType: "New Construction",
       },
     ],
+    title: "",
     defaultProjectDetails: {
       projectScope: [
         { key: "Scope", value: "Residential Design" },
@@ -245,6 +247,7 @@ const projectData = {
         projectType: "Renovation",
       },
     ],
+    title: "",
     defaultProjectDetails: {
       projectScope: [
         {
@@ -337,6 +340,7 @@ const projectData = {
         projectType: "Renovation",
       },
     ],
+    title: "",
     defaultProjectDetails: {
       projectScope: [
         {
@@ -365,7 +369,6 @@ const projectData = {
           key: "General Contractor",
           value: "Innate",
         },
-        
       ],
       scopedescription: `This Bellevue bathroom renovation exemplifies how simplicity and precision can redefine a home’s atmosphere. Originally planned as a single-bathroom remodel, the project quickly grew to encompass every bathroom in the house after our team’s initial transformation impressed the homeowner—an architect with a distinct vision for clean, European-inspired design.`,
       media: {
@@ -399,7 +402,7 @@ const projectData = {
         },
       ],
       galleryDescription: `The result is a cohesive series of bathrooms that feel timeless, intentional, and refined. Completed within two months, this Bellevue remodel reflects Innate-NW’s ability to collaborate closely with discerning clients, translating vision into modern craftsmanship that enhances both daily living and long-term value.`,
-      projectSlider: [  
+      projectSlider: [
         {
           image: slider1,
           title: "Modern Musa Spa",
@@ -427,7 +430,8 @@ const projectData = {
       ],
     },
     seo: {
-      title: "Bellevue Bathroom Remodel | Minimalist European Modern Renovation",
+      title:
+        "Bellevue Bathroom Remodel | Minimalist European Modern Renovation",
       description: `Discover how Innate-NW transformed a Bellevue home with a European-inspired modern refresh. Originally a single-bath remodel, the project expanded to update all bathrooms with minimalist design, refined finishes, and water damage restoration—all completed in just two months.`,
     },
   },
@@ -449,6 +453,7 @@ const projectData = {
         projectType: "Design-Build",
       },
     ],
+    title: "",
     defaultProjectDetails: {
       projectScope: [
         {
@@ -541,6 +546,7 @@ const projectData = {
         projectType: "Commercial",
       },
     ],
+    title: "",
     defaultProjectDetails: {
       projectScope: [
         {
@@ -625,6 +631,7 @@ const projectData = {
         projectType: "Renovation",
       },
     ],
+    title: "",
     defaultProjectDetails: {
       projectScope: [
         {
@@ -708,6 +715,7 @@ const projectData = {
         projectType: "Renovation",
       },
     ],
+    title: "",
     defaultProjectDetails: {
       projectScope: [
         {
@@ -791,6 +799,7 @@ const projectData = {
         projectType: "Renovation",
       },
     ],
+    title: "",
     defaultProjectDetails: {
       projectScope: [
         {
@@ -861,6 +870,96 @@ const projectData = {
       ],
     },
   },
+  "freitas-kitchen": {
+    seo: {
+      title:
+        "Capitol Hill Bathroom Remodel & Kitchen Renovation | Innate-NW Seattle",
+      description: `A top-floor Capitol Hill bathroom and kitchen remodel in Seattle featuring marble mosaic tile, a wall-mounted vanity, gold fixtures, and space-saving design. Completed by Innate-NW.`,
+    },
+    title: "Freitas Bathroom & Kitchen Remodel – Capitol Hill, Seattle",
+    defaultSlides: [
+      {
+        component: (
+          <Slide
+            image="/images/project/freitas-kitchen/6L1A1603_websize.jpg"
+            video=""
+          />
+        ),
+        delay: 36000,
+        projectName: "Freitas Bathroom",
+        projectType: "Renovation",
+      },
+    ],
+    defaultProjectDetails: {
+      projectScope: [
+        {
+          key: "Scope",
+          value: "Bathroom Remodel, Kitchen Remodel, Residential Design",
+        },
+        { key: "Type", value: "Renovation" },
+        { key: "Location", value: "Capitol Hill – Seattle, Washington" },
+        {
+          key: "Design Principle",
+          value: "Michael Wishart, Owner of Innate-NW",
+        },
+        {
+          key: "Photographer",
+          value: "Nicolai Buccino",
+        },
+        { key: "General Contractor", value: "Innate-NW" },
+      ],
+      scopedescription: `Located on the top floor of a historic Capitol Hill apartment, this full renovation included a bathroom remodel, kitchen updates, and residential design work, transforming a small, aging space into a refined and functional urban retreat. Innate-NW led both the design and construction, carefully navigating the challenges of a vintage building—including carrying all materials up multiple flights of stairs—while maintaining respect for the building and its neighbors.`,
+      media: {
+        desktop: "/images/project/freitas-kitchen/6L1A1563_websize.jpg",
+      },
+      description: [
+        `The bathroom remodel features marble mosaic tile, a wall-mounted vanity, and a sliding glass shower door designed to conserve space without sacrificing style. Matching gold trim and thoughtfully selected fixtures from West Elm and Rejuvenation bring warmth, cohesion, and a modern sensibility to the compact footprint. Every detail was intentionally chosen to maximize light, openness, and efficiency.
+`,
+      ],
+      gallery: [
+        {
+          image: "/images/project/freitas-kitchen/6L1A1556_websize.jpg",
+        },
+        {
+          image: "/images/project/freitas-kitchen/6L1A1562_websize.jpg",
+        },
+        {
+          image: "/images/project/freitas-kitchen/6L1A1577_websize.jpg",
+        },
+        {
+          image: "/images/project/freitas-kitchen/6L1A1603_websize.jpg",
+          class: "col-span-3 aspect-[4/2]",
+        },
+      ],
+      galleryDescription: `This Capitol Hill renovation showcases Innate-NW’s ability to deliver high-quality bathroom and kitchen remodels in tight urban settings. Whether working within a small condo or a historic apartment, our team brings thoughtful design, precision execution, and elevated finishes to every project.`,
+      projectSlider: [
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+      ],
+    },
+  },
   "wedgewood-adu": {
     seo: {
       title: "Wedgewood Seattle ADU | ADA-Compliant New Construction by Innate",
@@ -879,6 +978,7 @@ const projectData = {
         projectType: "ADU",
       },
     ],
+    title: "",
     defaultProjectDetails: {
       projectScope: [
         {
@@ -976,14 +1076,15 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
   },
   "magnolia-bathroom": {
     seo: {
-      title: "Magnolia Seattle Bathroom Remodel | Historic Craftsman Renovation",
+      title:
+        "Magnolia Seattle Bathroom Remodel | Historic Craftsman Renovation",
       description: `See how Innate refreshed a historic Magnolia Craftsman bathroom with marble tile, custom frameless glass, and brass fixtures. This one-month bathroom remodel repaired water damage while preserving the home’s original charm.`,
     },
     defaultSlides: [
       {
         component: (
           <Slide
-            image= "/images/project/magnolia-bathroom/mag_banner.jpg"
+            image="/images/project/magnolia-bathroom/mag_banner.jpg"
             video=""
           />
         ),
@@ -992,6 +1093,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         projectType: "Bathroom Remodel",
       },
     ],
+    title: "",
     defaultProjectDetails: {
       projectScope: [
         {
@@ -1011,7 +1113,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         { key: "General Contractor", value: "Innate" },
       ],
       scopedescription: `This Magnolia Seattle bathroom renovation showcases how a careful balance of preservation and modernization can breathe new life into a historic Craftsman home. Tasked with refreshing a bathroom that had suffered water damage, our team’s goal was to maintain the original character of the home while updating the space with durable, timeless finishes.`,
-     
+
       description: [
         `The renovation features marble tile, custom frameless glass, and warm brass fixtures that complement the home’s historic aesthetic. Each selection was chosen not only for its elegance but also for its ability to respect the home’s original architecture. By integrating these updates seamlessly, the bathroom feels both renewed and in harmony with the rest of the Craftsman design. This Seattle bathroom remodel also required thoughtful restoration work. Our craftsmen repaired water damage while ensuring structural integrity and moisture protection for the long term. The result is a bathroom that retains the charm of its past while offering modern function and beauty.`,
       ],
@@ -1090,6 +1192,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         projectType: "Renovation",
       },
     ],
+    title: "",
     defaultProjectDetails: {
       projectScope: [
         {
@@ -1199,6 +1302,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         projectType: "Renovation",
       },
     ],
+    title: "",
     defaultProjectDetails: {
       projectScope: [
         {
@@ -1305,6 +1409,335 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
       description: `Innate NW completed a 5-week bathroom and exterior renovation in West Seattle featuring large-format tile, quartz counters, slate porch tile, and custom railing. See how we resolved unfinished work and delivered a high-quality transformation.`,
     },
   },
+  "enumclaw-full-home-remodel": {
+    seo: {
+      title:
+        "Enumclaw Full Home Remodel & Renovation | Design-Build by Innate-NW",
+      description: `A full home remodel in Enumclaw featuring a craftsman-inspired design, redesigned kitchen, living spaces, and custom finishes after water damage. Completed by Innate-NW.`,
+    },
+    defaultSlides: [
+      {
+        component: (
+          <Slide
+            image=""
+            video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/enumclaw.webm?alt=media&token=0477f2bb-4bb9-4df4-94b5-130347b7fd4c"
+          />
+        ),
+        delay: 36000,
+        projectName: "Freitas Bathroom",
+        projectType: "Renovation",
+      },
+    ],
+    title: "",
+    defaultProjectDetails: {
+      projectScope: [
+        {
+          key: "Scope",
+          value: "Full Home Remodel, Design-Build",
+        },
+        { key: "Type", value: "Renovation" },
+        { key: "Location", value: "Enumclaw, Washington" },
+        {
+          key: "Style",
+          value: "Craftsman / Classic",
+        },
+        {
+          key: "Timeline",
+          value: "3 Months",
+        },
+        { key: "General Contractor & Designer", value: "Innate-NW" },
+        { key: "Photographer", value: "Akiha Marketing" },
+      ],
+      scopedescription: `After extensive water damage destroyed the home’s bathrooms, this Enumclaw full home remodel became an opportunity to thoughtfully reimagine a house that had never been renovated in over 30 years. Innate-NW led the project as a design-build partner, guiding the client through a complete transformation of her first—and only—home.`,
+      media: {
+        desktop:
+          "/images/project/enumclaw-full-home-remodel/6L1A1657_websize.jpg",
+      },
+      description: [
+        `The renovation included a full redesign of the kitchen, entryway, living room, and dining room, bringing cohesion, warmth, and functionality to the entire home. Inspired by craftsman and classic design principles, the remodel introduced all new doors, trim, lighting, paint, and finishes, creating a timeless aesthetic that respects the home’s character while elevating it for modern living.
+`,
+      ],
+      gallery: [
+        {
+          image:
+            "/images/project/enumclaw-full-home-remodel/6L1A1641_websize.jpg",
+        },
+        {
+          image:
+            "/images/project/enumclaw-full-home-remodel/6L1A1633_websize.jpg",
+        },
+        {
+          image:
+            "/images/project/enumclaw-full-home-remodel/6L1A1677_websize.jpg",
+        },
+        {
+          image:
+            "/images/project/enumclaw-full-home-remodel/6L1A1627_websize.jpg",
+          class: "col-span-3 aspect-[4/2]",
+        },
+        {
+          image:
+            "/images/project/enumclaw-full-home-remodel/6L1A1681_websize.jpg",
+        },
+        {
+          image:
+            "/images/project/enumclaw-full-home-remodel/6L1A1687_websize.jpg",
+        },
+        {
+          image:
+            "/images/project/enumclaw-full-home-remodel/6L1A1694_websize.jpg",
+        },
+      ],
+      galleryDescription: `Completed over the course of three months, this project reflects Innate-NW’s commitment to craftsmanship, care, and client trust—especially when renovating a home filled with decades of personal history. The result is a beautifully renewed space designed to support the next chapter of living with comfort and pride.`,
+      projectSlider: [
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+      ],
+    },
+  },
+  "woodinville-primary-and-guest-bathroom": {
+    seo: {
+      title:
+        "Woodinville Bathroom Remodel | Primary & Guest Bath Renovation by Innate-NW",
+      description: `A Woodinville bathroom remodel featuring a redesigned primary bath with curbless shower, slate tile, freestanding tub, and high-end Rejuvenation fixtures.`,
+    },
+    defaultSlides: [
+      {
+        component: (
+          <Slide
+            image=""
+            video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Woodinville_bathroom.webm?alt=media&token=ba204823-d94b-4239-bcb2-0919b702ca40"
+          />
+        ),
+        delay: 36000,
+        projectName: "Freitas Bathroom",
+        projectType: "Renovation",
+      },
+    ],
+    title: "",
+    defaultProjectDetails: {
+      projectScope: [
+        {
+          key: "Scope",
+          value:
+            "Primary Bathroom Remodel, Guest Bathroom Remodel, Design-Build",
+        },
+        { key: "Type", value: "Renovation" },
+        { key: "Location", value: "Woodinville, Washington" },
+        {
+          key: "Features",
+          value:
+            "Curbless Shower, Slate Tile, Freestanding Tub, Frameless Glass, Wall-Mounted Fixtures",
+        },
+        {
+          key: "Design & Construction",
+          value: "Innate-NW",
+        },
+        { key: "Photographer", value: "Akiha Marketing" },
+      ],
+      scopedescription: `This Woodinville bathroom remodel included the renovation of both the primary (master) bathroom and a guest bath, elevating the home with a refined, spa-like feel and significantly improved functionality. Innate-NW served as the design-build partner, guiding the project from concept through construction.
+`,
+      media: {
+        desktop:
+          "/images/project/enumclaw-full-home-remodel/6L1A1198_websize.jpg",
+      },
+      description: [
+        `The primary bathroom was fully reimagined with a smarter layout designed to improve flow, openness, and everyday use. Key features include a curbless shower, slate tile flooring, frameless glass, and wall-mounted fixtures that create a clean, modern aesthetic. A freestanding tub anchors the space, adding a sense of calm and luxury.
+`,
+      ],
+      gallery: [
+        {
+          image:
+            "/images/project/enumclaw-full-home-remodel/6L1A1218_websize.jpg",
+        },
+        {
+          image:
+            "/images/project/enumclaw-full-home-remodel/6L1A1214_websize.jpg",
+        },
+        {
+          image:
+            "/images/project/enumclaw-full-home-remodel/6L1A1217_websize.jpg",
+        },
+        {
+          image:
+            "/images/project/enumclaw-full-home-remodel/6L1A1232_websize.jpg",
+          class: "col-span-3 aspect-[4/2]",
+        },
+        {
+          image:
+            "/images/project/enumclaw-full-home-remodel/6L1A1241_websize.jpg",
+        },
+        {
+          image:
+            "/images/project/enumclaw-full-home-remodel/6L1A1247_websize.jpg",
+        },
+        {
+          image:
+            "/images/project/enumclaw-full-home-remodel/6L1A1255_websize.jpg",
+        },
+        {
+          image:
+            "/images/project/enumclaw-full-home-remodel/6L1A1252_websize.jpg",
+          class: "col-span-3 aspect-[4/2]",
+        },
+      ],
+      galleryDescription: `Both bathrooms feature high-end finishes and fixtures from Rejuvenation, reinforcing a cohesive, timeless design throughout the home. The result is a thoughtful renovation that balances elevated materials with practical design—tailored to how the homeowners live.
+`,
+      projectSlider: [
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+      ],
+    },
+  },
+  "kenmore-bathroom": {
+    seo: {
+      title:
+        "Kenmore Bathroom & Laundry Remodel | Design-Build Renovation by Innate-NW",
+      description: `A Kenmore renovation featuring two bathroom remodels, two closet upgrades, and a redesigned laundry to support an ADU—maximizing space without changing the home’s footprint.`,
+    },
+    defaultSlides: [
+      {
+        component: (
+          <Slide
+            image="/images/project/kenmore-bathroom/6L1A1295_websize.jpg"
+            video=""
+          />
+        ),
+        delay: 36000,
+        projectName: "Freitas Bathroom",
+        projectType: "Renovation",
+      },
+    ],
+    title: "",
+    defaultProjectDetails: {
+      projectScope: [
+        {
+          key: "Scope",
+          value:
+            "Bathroom Remodels (2), Closet Remodels (2), Laundry Remodel, ADU-Oriented Reconfiguration",
+        },
+        { key: "Type", value: "Renovation" },
+        { key: "Location", value: "Kenmore, Washington" },
+        {
+          key: "Approach",
+          value: "Design-Build",
+        },
+        {
+          key: "Focus",
+          value: "Space Optimization, Modernization, Rental Readiness",
+        },
+        { key: "Design & Construction", value: "Innate-NW" },
+        { key: "Photographer", value: "Akiha Marketing" },
+      ],
+      scopedescription: `This Kenmore renovation focused on maximizing space, functionality, and long-term flexibility—without changing the footprint of the home. Innate-NW led the project as a design-build partner, coordinating two bathroom remodels, two closet remodels, and a full laundry reconfiguration to support a future ADU rental opportunity.
+`,
+      media: {
+        desktop: "/images/project/kenmore-bathroom/6L1A1307_websize.jpg",
+      },
+      description: [
+        `Through thoughtful planning and spatial reorganization, the primary bathroom was redesigned to feel more open and spacious, while the laundry was relocated to a more functional area that better served the household and the downstairs ADU layout. By reclaiming underutilized space, the team was able to increase the size of the walk-in closet, improving everyday usability without adding square footage.
+`,
+      ],
+      gallery: [
+        {
+          image: "/images/project/kenmore-bathroom/6L1A1317_websize.jpg",
+        },
+        {
+          image: "/images/project/kenmore-bathroom/6L1A1319_websize.jpg",
+        },
+        {
+          image: "/images/project/kenmore-bathroom/6L1A1304_websize.jpg",
+        },
+        {
+          image: "/images/project/kenmore-bathroom/6L1A1290_websize.jpg",
+          class: "col-span-3 aspect-[4/2]",
+        },
+        {
+          image: "/images/project/kenmore-bathroom/6L1A1280_websize.jpg",
+        },
+        // {
+        //   image:
+        //     "/images/project/kenmore-bathroom/6L1A1687_websize.jpg",
+        // },
+        // {
+        //   image:
+        //     "/images/project/kenmore-bathroom/6L1A1694_websize.jpg",
+        // },
+      ],
+      galleryDescription: `Both bathrooms were fully modernized with updated fixtures, finishes, and layouts, bringing a clean, contemporary feel throughout the home. This project highlights Innate-NW’s strength in smart renovation strategy—unlocking more value, comfort, and flexibility from the space clients already have.
+`,
+      projectSlider: [
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+      ],
+    },
+  },
 };
 
 export async function generateStaticParams() {
@@ -1329,17 +1762,17 @@ export default async function ProjectPage({ params }: any) {
 
   return (
     <>
-      <ManualPageTracker 
+      <ManualPageTracker
         pageName={`project_${params.slug}`}
         additionalData={{
           page_category: "portfolio",
           page_section: "project_detail",
           project_slug: params.slug,
-          project_type: "dynamic_route"
+          project_type: "dynamic_route",
         }}
       />
       <Navbar />
-      <ProjectSlider slides={slides} />
+      <ProjectSlider slides={slides} title={projectDataForSlug?.title || ""} />
       <ProjectDescription projectDetails={projectDetails} />
     </>
   );
@@ -1356,8 +1789,11 @@ export async function generateMetadata({
   const projectDataForSlug = projectData[slug as keyof typeof projectData];
 
   // Safely access seo properties with fallbacks
-  const seoTitle = (projectDataForSlug as any)?.seo?.title || "Innate NW Project";
-  const seoDescription = (projectDataForSlug as any)?.seo?.description || "Explore this custom design and construction project by Innate NW in Seattle.";
+  const seoTitle =
+    (projectDataForSlug as any)?.seo?.title || "Innate NW Project";
+  const seoDescription =
+    (projectDataForSlug as any)?.seo?.description ||
+    "Explore this custom design and construction project by Innate NW in Seattle.";
 
   return {
     title: seoTitle,
@@ -1369,10 +1805,10 @@ export async function generateMetadata({
       title: seoTitle,
       description: seoDescription,
       url: `https://innate-nw.com/project/${slug}`,
-      siteName: 'Innate NW',
+      siteName: "Innate NW",
       images: [
         {
-          url: '/images/innate-nw.jpg',
+          url: "/images/innate-nw.jpg",
           width: 1200,
           height: 630,
           alt: seoTitle,
@@ -1380,7 +1816,7 @@ export async function generateMetadata({
       ],
     },
     twitter: {
-      card: 'summary_large_image',
+      card: "summary_large_image",
       title: seoTitle,
       description: seoDescription,
     },
