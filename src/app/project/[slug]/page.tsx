@@ -432,7 +432,7 @@ const projectData = {
     seo: {
       title:
         "Bellevue Bathroom Remodel | Minimalist European Modern Renovation",
-      description: `Discover how Innate-NW transformed a Bellevue home with a European-inspired modern refresh. Originally a single-bath remodel, the project expanded to update all bathrooms with minimalist design, refined finishes, and water damage restoration—all completed in just two months.`,
+      description: `Discover how Innate transformed a Bellevue home with a European-inspired modern refresh. Originally a single-bath remodel, the project expanded to update all bathrooms with minimalist design, refined finishes, and water damage restoration—all completed in just two months.`,
     },
   },
   "wheat-ridge-adu": {
@@ -873,8 +873,8 @@ const projectData = {
   "freitas-kitchen": {
     seo: {
       title:
-        "Capitol Hill Bathroom Remodel & Kitchen Renovation | Innate-NW Seattle",
-      description: `A top-floor Capitol Hill bathroom and kitchen remodel in Seattle featuring marble mosaic tile, a wall-mounted vanity, gold fixtures, and space-saving design. Completed by Innate-NW.`,
+        "Capitol Hill Bathroom Remodel & Kitchen Renovation | Innate Seattle",
+      description: `A top-floor Capitol Hill bathroom and kitchen remodel in Seattle featuring marble mosaic tile, a wall-mounted vanity, gold fixtures, and space-saving design. Completed by Innate.`,
     },
     title: "Freitas Bathroom & Kitchen Remodel – Capitol Hill, Seattle",
     defaultSlides: [
@@ -900,15 +900,15 @@ const projectData = {
         { key: "Location", value: "Capitol Hill – Seattle, Washington" },
         {
           key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate-NW",
+          value: "Michael Wishart, Owner of Innate",
         },
         {
           key: "Photographer",
           value: "Nicolai Buccino",
         },
-        { key: "General Contractor", value: "Innate-NW" },
+        { key: "General Contractor", value: "Innate" },
       ],
-      scopedescription: `Located on the top floor of a historic Capitol Hill apartment, this full renovation included a bathroom remodel, kitchen updates, and residential design work, transforming a small, aging space into a refined and functional urban retreat. Innate-NW led both the design and construction, carefully navigating the challenges of a vintage building—including carrying all materials up multiple flights of stairs—while maintaining respect for the building and its neighbors.`,
+      scopedescription: `Located on the top floor of a historic Capitol Hill apartment, this full renovation included a bathroom remodel, kitchen updates, and residential design work, transforming a small, aging space into a refined and functional urban retreat. Innate led both the design and construction, carefully navigating the challenges of a vintage building—including carrying all materials up multiple flights of stairs—while maintaining respect for the building and its neighbors.`,
       media: {
         desktop: "/images/project/freitas-kitchen/6L1A1563_websize.jpg",
       },
@@ -931,7 +931,7 @@ const projectData = {
           class: "col-span-3 aspect-[4/2]",
         },
       ],
-      galleryDescription: `This Capitol Hill renovation showcases Innate-NW’s ability to deliver high-quality bathroom and kitchen remodels in tight urban settings. Whether working within a small condo or a historic apartment, our team brings thoughtful design, precision execution, and elevated finishes to every project.`,
+      galleryDescription: `This Capitol Hill renovation showcases Innate’s ability to deliver high-quality bathroom and kitchen remodels in tight urban settings. Whether working within a small condo or a historic apartment, our team brings thoughtful design, precision execution, and elevated finishes to every project.`,
       projectSlider: [
         {
           image: slider1,
@@ -1412,8 +1412,8 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
   "enumclaw-full-home-remodel": {
     seo: {
       title:
-        "Enumclaw Full Home Remodel & Renovation | Design-Build by Innate-NW",
-      description: `A full home remodel in Enumclaw featuring a craftsman-inspired design, redesigned kitchen, living spaces, and custom finishes after water damage. Completed by Innate-NW.`,
+        "Enumclaw Full Home Remodel & Renovation | Design-Build by Innate",
+      description: `A full home remodel in Enumclaw featuring a craftsman-inspired design, redesigned kitchen, living spaces, and custom finishes after water damage. Completed by Innate.`,
     },
     defaultSlides: [
       {
@@ -1445,10 +1445,10 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
           key: "Timeline",
           value: "3 Months",
         },
-        { key: "General Contractor & Designer", value: "Innate-NW" },
+        { key: "General Contractor & Designer", value: "Innate" },
         { key: "Photographer", value: "Akiha Marketing" },
       ],
-      scopedescription: `After extensive water damage destroyed the home’s bathrooms, this Enumclaw full home remodel became an opportunity to thoughtfully reimagine a house that had never been renovated in over 30 years. Innate-NW led the project as a design-build partner, guiding the client through a complete transformation of her first—and only—home.`,
+      scopedescription: `After extensive water damage destroyed the home’s bathrooms, this Enumclaw full home remodel became an opportunity to thoughtfully reimagine a house that had never been renovated in over 30 years. Innate led the project as a design-build partner, guiding the client through a complete transformation of her first—and only—home.`,
       media: {
         desktop:
           "/images/project/enumclaw-full-home-remodel/6L1A1657_websize.jpg",
@@ -1488,7 +1488,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
             "/images/project/enumclaw-full-home-remodel/6L1A1694_websize.jpg",
         },
       ],
-      galleryDescription: `Completed over the course of three months, this project reflects Innate-NW’s commitment to craftsmanship, care, and client trust—especially when renovating a home filled with decades of personal history. The result is a beautifully renewed space designed to support the next chapter of living with comfort and pride.`,
+      galleryDescription: `Completed over the course of three months, this project reflects Innate’s commitment to craftsmanship, care, and client trust—especially when renovating a home filled with decades of personal history. The result is a beautifully renewed space designed to support the next chapter of living with comfort and pride.`,
       projectSlider: [
         {
           image: slider1,
@@ -1520,7 +1520,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
   "woodinville-primary-and-guest-bathroom": {
     seo: {
       title:
-        "Woodinville Bathroom Remodel | Primary & Guest Bath Renovation by Innate-NW",
+        "Woodinville Bathroom Remodel | Primary & Guest Bath Renovation by Innate",
       description: `A Woodinville bathroom remodel featuring a redesigned primary bath with curbless shower, slate tile, freestanding tub, and high-end Rejuvenation fixtures.`,
     },
     defaultSlides: [
@@ -1553,11 +1553,11 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         },
         {
           key: "Design & Construction",
-          value: "Innate-NW",
+          value: "Innate",
         },
         { key: "Photographer", value: "Akiha Marketing" },
       ],
-      scopedescription: `This Woodinville bathroom remodel included the renovation of both the primary (master) bathroom and a guest bath, elevating the home with a refined, spa-like feel and significantly improved functionality. Innate-NW served as the design-build partner, guiding the project from concept through construction.
+      scopedescription: `This Woodinville bathroom remodel included the renovation of both the primary (master) bathroom and a guest bath, elevating the home with a refined, spa-like feel and significantly improved functionality. Innate served as the design-build partner, guiding the project from concept through construction.
 `,
       media: {
         desktop: "/images/project/woodinville/6L1A1198_websize.jpg",
@@ -1627,7 +1627,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
   "kenmore-bathroom": {
     seo: {
       title:
-        "Kenmore Bathroom & Laundry Remodel | Design-Build Renovation by Innate-NW",
+        "Kenmore Bathroom & Laundry Remodel | Design-Build Renovation by Innate",
       description: `A Kenmore renovation featuring two bathroom remodels, two closet upgrades, and a redesigned laundry to support an ADU—maximizing space without changing the home’s footprint.`,
     },
     defaultSlides: [
@@ -1661,10 +1661,10 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
           key: "Focus",
           value: "Space Optimization, Modernization, Rental Readiness",
         },
-        { key: "Design & Construction", value: "Innate-NW" },
+        { key: "Design & Construction", value: "Innate" },
         { key: "Photographer", value: "Akiha Marketing" },
       ],
-      scopedescription: `This Kenmore renovation focused on maximizing space, functionality, and long-term flexibility—without changing the footprint of the home. Innate-NW led the project as a design-build partner, coordinating two bathroom remodels, two closet remodels, and a full laundry reconfiguration to support a future ADU rental opportunity.
+      scopedescription: `This Kenmore renovation focused on maximizing space, functionality, and long-term flexibility—without changing the footprint of the home. Innate led the project as a design-build partner, coordinating two bathroom remodels, two closet remodels, and a full laundry reconfiguration to support a future ADU rental opportunity.
 `,
       media: {
         desktop: "/images/project/kenmore-bathroom/6L1A1307_websize.jpg",
@@ -1699,7 +1699,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         //     "/images/project/kenmore-bathroom/6L1A1694_websize.jpg",
         // },
       ],
-      galleryDescription: `Both bathrooms were fully modernized with updated fixtures, finishes, and layouts, bringing a clean, contemporary feel throughout the home. This project highlights Innate-NW’s strength in smart renovation strategy—unlocking more value, comfort, and flexibility from the space clients already have.
+      galleryDescription: `Both bathrooms were fully modernized with updated fixtures, finishes, and layouts, bringing a clean, contemporary feel throughout the home. This project highlights Innate’s strength in smart renovation strategy—unlocking more value, comfort, and flexibility from the space clients already have.
 `,
       projectSlider: [
         {
