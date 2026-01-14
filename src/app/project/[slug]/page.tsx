@@ -1560,8 +1560,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
       scopedescription: `This Woodinville bathroom remodel included the renovation of both the primary (master) bathroom and a guest bath, elevating the home with a refined, spa-like feel and significantly improved functionality. Innate-NW served as the design-build partner, guiding the project from concept through construction.
 `,
       media: {
-        desktop:
-          "/images/project/enumclaw-full-home-remodel/6L1A1198_websize.jpg",
+        desktop: "/images/project/woodinville/6L1A1198_websize.jpg",
       },
       description: [
         `The primary bathroom was fully reimagined with a smarter layout designed to improve flow, openness, and everyday use. Key features include a curbless shower, slate tile flooring, frameless glass, and wall-mounted fixtures that create a clean, modern aesthetic. A freestanding tub anchors the space, adding a sense of calm and luxury.
@@ -1569,37 +1568,29 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
       ],
       gallery: [
         {
-          image:
-            "/images/project/enumclaw-full-home-remodel/6L1A1218_websize.jpg",
+          image: "/images/project/woodinville/6L1A1218_websize.jpg",
         },
         {
-          image:
-            "/images/project/enumclaw-full-home-remodel/6L1A1214_websize.jpg",
+          image: "/images/project/woodinville/6L1A1214_websize.jpg",
         },
         {
-          image:
-            "/images/project/enumclaw-full-home-remodel/6L1A1217_websize.jpg",
+          image: "/images/project/woodinville/6L1A1217_websize.jpg",
         },
         {
-          image:
-            "/images/project/enumclaw-full-home-remodel/6L1A1232_websize.jpg",
+          image: "/images/project/woodinville/6L1A1232_websize.jpg",
           class: "col-span-3 aspect-[4/2]",
         },
         {
-          image:
-            "/images/project/enumclaw-full-home-remodel/6L1A1241_websize.jpg",
+          image: "/images/project/woodinville/6L1A1241_websize.jpg",
         },
         {
-          image:
-            "/images/project/enumclaw-full-home-remodel/6L1A1247_websize.jpg",
+          image: "/images/project/woodinville/6L1A1247_websize.jpg",
         },
         {
-          image:
-            "/images/project/enumclaw-full-home-remodel/6L1A1255_websize.jpg",
+          image: "/images/project/woodinville/6L1A1255_websize.jpg",
         },
         {
-          image:
-            "/images/project/enumclaw-full-home-remodel/6L1A1252_websize.jpg",
+          image: "/images/project/woodinville/6L1A1252_websize.jpg",
           class: "col-span-3 aspect-[4/2]",
         },
       ],
