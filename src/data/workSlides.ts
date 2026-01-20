@@ -51,7 +51,7 @@ export const slidesData: SlideData[] = [
     location: "Woodinville, Washington",
     url: "/project/woodinville-primary-and-guest-bathroom",
     media: [
-      { src: "/images/project/woodinville/6L1A1295_websize.jpg", type: "image" },
+      { src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Woodinville_bathroom.webm?alt=media&token=ba204823-d94b-4239-bcb2-0919b702ca40", type: "video" },
     ],
     hover: {
       title:
