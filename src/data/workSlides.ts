@@ -74,6 +74,20 @@ export const slidesData: SlideData[] = [
     },
   },
   {
+    title: "Freitas Kitchen & Bathroom Remodel",
+    location: "Seattle, Washington",
+    url: "/project/freitas-kitchen",
+    media: [
+      { 
+        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Freitas%20Kitchen.webm?alt=media&token=49c036c5-9b2f-4f7c-adfb-b88ea4d16195", type: "video" },
+    ],
+    hover: {
+      title:
+        "Freitas Kitchen & BathroomRemodel | Design-Build Renovation by Innate",
+      subTitle: `This Capitol Hill kitchen remodel was completed in just four weeks, with every detail thoughtfully considered. Custom Canyon Creek cabinetry with built-in inserts, quartz countertops, and radiant heated floors created a space that feels both modern and personal. Our team worked closely with the homeowners to ensure the kitchen balanced beauty with daily function.`,
+    },
+  },
+  {
     title: "West Seattle Residence",
     location: "Fremont - Seattle, Washington",
     url: "/project/west-seattle-residence",
