@@ -34,6 +34,32 @@ export const slidesData: SlideData[] = [
     },
   },
   {
+    title: "Kenmore Modern Bathroom",
+    location: "Kenmore, Washington",
+    url: "/project/kenmore-modern-bathroom",
+    media: [
+      { src: "/images/project/kenmore-modern-bathroom/6L1A1295_websize.jpg", type: "image" },
+    ],
+    hover: {
+      title:
+        "Kenmore Bathroom & Laundry Remodel | Design-Build Renovation by Innate",
+      subTitle: `A Kenmore renovation featuring two bathroom remodels, two closet upgrades, and a redesigned laundry to support an ADU—maximizing space without changing the home’s footprint.`,
+    },
+  },
+  {
+    title: "Woodinville Primary and Guest Bathroom Remodel",
+    location: "Woodinville, Washington",
+    url: "/project/woodinville-primary-and-guest-bathroom",
+    media: [
+      { src: "/images/project/woodinville-primary-and-guest-bathroom/6L1A1295_websize.jpg", type: "image" },
+    ],
+    hover: {
+      title:
+        "Woodinville Primary and Guest Bathroom Remodel | Design-Build Renovation by Innate",
+      subTitle: `A Woodinville renovation featuring a redesigned primary bath with curbless shower, slate tile, freestanding tub, and high-end Rejuvenation fixtures.`,
+    },
+  },
+  {
     title: "West Seattle Residence",
     location: "Fremont - Seattle, Washington",
     url: "/project/west-seattle-residence",
