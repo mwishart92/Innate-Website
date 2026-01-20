@@ -60,6 +60,20 @@ export const slidesData: SlideData[] = [
     },
   },
   {
+    title: "Enumclaw Full Home Remodel",
+    location: "Enumclaw, Washington",
+    url: "/project/enumclaw-full-home-remodel",
+    media: [
+      { 
+        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/enumclaw.webm?alt=media&amp;token=0477f2bb-4bb9-4df4-94b5-130347b7fd4c", type: "video" },
+    ],
+    hover: {
+      title:
+        "Enumclaw Full Home Remodel | Design-Build Renovation by Innate",
+      subTitle: `After extensive water damage destroyed the home’s bathrooms, this Enumclaw full home remodel became an opportunity to thoughtfully reimagine a house that had never been renovated in over 30 years. Innate led the project as a design-build partner, guiding the client through a complete transformation of her first—and only—home.`,
+    },
+  },
+  {
     title: "West Seattle Residence",
     location: "Fremont - Seattle, Washington",
     url: "/project/west-seattle-residence",
