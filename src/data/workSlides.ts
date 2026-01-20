@@ -36,9 +36,9 @@ export const slidesData: SlideData[] = [
   {
     title: "Kenmore Modern Bathroom",
     location: "Kenmore, Washington",
-    url: "/project/kenmore-modern-bathroom",
+    url: "/project/kenmore-bathroom",
     media: [
-      { src: "/images/project/kenmore-modern-bathroom/6L1A1295_websize.jpg", type: "image" },
+      { src: "/images/project/kenmore-bathroom/6L1A1295_websize.jpg", type: "image" },
     ],
     hover: {
       title:
@@ -51,7 +51,7 @@ export const slidesData: SlideData[] = [
     location: "Woodinville, Washington",
     url: "/project/woodinville-primary-and-guest-bathroom",
     media: [
-      { src: "/images/project/woodinville-primary-and-guest-bathroom/6L1A1295_websize.jpg", type: "image" },
+      { src: "/images/project/woodinville/6L1A1295_websize.jpg", type: "image" },
     ],
     hover: {
       title:
