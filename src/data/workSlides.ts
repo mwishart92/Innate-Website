@@ -65,7 +65,7 @@ export const slidesData: SlideData[] = [
     url: "/project/enumclaw-full-home-remodel",
     media: [
       { 
-        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/enumclaw.webm?alt=media&amp;token=0477f2bb-4bb9-4df4-94b5-130347b7fd4c", type: "video" },
+        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/enumclaw.webm?alt=media&token=0477f2bb-4bb9-4df4-94b5-130347b7fd4c", type: "video" },
     ],
     hover: {
       title:
