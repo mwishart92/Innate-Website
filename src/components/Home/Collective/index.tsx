@@ -20,7 +20,7 @@ const Collective = () => {
             </div>
             <div className="flex-1 mob:w-full flex flex-col">
               <Text className="mob:text-[14px] font-light">
-                Innate is a boutique design-build firm that partners with licensed architects and engineers to support the permitting process, allowing us to guide your project from feasibility to final build. Our approach focuses on quality design and construction that will stand the test of time. To accomplish this, we handpick consultants, licensed architects, craftsmen and subcontractors who share our values. Detailed, beautiful and durable work is often expensive, but this cost guarantees the lasting satisfaction of a quality build.
+                Innate is a design, engineering and construction firm capable of handling the entire project from permit to build. We handpick consultants, craftsman and subcontractors who share our values. Detailed, beautiful and durable work is often expensive, but the cost guarantees the lasting satisfaction of a quality build.
               </Text>
               <Button
                 className="max-w-[137px] h-[50px] text-[16px] px-[24px] py-[14px] font-normal mt-7 mob:max-w-[126px] mob:h-[48px] mob:text-[14px] mob:mt-10"
