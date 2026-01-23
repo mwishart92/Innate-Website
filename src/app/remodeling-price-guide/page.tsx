@@ -1,5 +1,4 @@
 import Navbar from "@/components/Navbar";
-import Text from "@/components/ui/Text";
 import HeroPress from "@/components/remodeling/HeroPress";
 import Form from "@/components/remodeling/Form";
 import ManualPageTracker from "@/components/ManualPageTracker";
@@ -9,14 +8,14 @@ import remodelingPhoto from "@/public/images/remodeling/remodeling-price-guide.w
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Press & Media | Industry Updates and Tips | Innate NW",
+  title: "Remodeling Cost Guide | Innate NW",
   description:
     "Innate NW's press section features news, media coverage, and insights into their innovative design and construction projects, highlighting the industry impact.",
   alternates: {
     canonical: "https://innate-nw.com/press",
   },
   openGraph: {
-    title: "Press & Media | Industry Updates and Tips | Innate NW",
+    title: "Remodeling Cost Guide | Innate NW",
     description:
       "Innate NW's press section features news, media coverage, and insights into their innovative design and construction projects, highlighting the industry impact.",
     url: "https://innate-nw.com/press",
@@ -32,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Press & Media | Industry Updates and Tips | Innate NW",
+    title: "Remodeling Cost Guide | Innate NW",
     description:
       "Innate NW's press section features news, media coverage, and insights into their innovative design and construction projects, highlighting the industry impact.",
   },

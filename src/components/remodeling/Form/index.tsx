@@ -104,12 +104,12 @@ const Form: React.FC = () => {
     event: React.FormEvent<HTMLFormElement>
   ): Promise<void> => {
     event.preventDefault();
-    return;
+
     // Track button click
     trackButtonClick("contact_form_submit", {
       button_text: "Submit",
-      form_type: "contact",
-      button_location: "contact_form",
+      form_type: "remodeling",
+      button_location: "remodeling_form",
     });
 
     if (
@@ -119,8 +119,8 @@ const Form: React.FC = () => {
       !formData.projectAddress ||
       !formData.projectType
     ) {
-      trackFormFailure("contact_form", {
-        form_type: "contact",
+      trackFormFailure("remodeling_form", {
+        form_type: "remodeling",
         error_message: "Missing required fields",
         form_data_keys: Object.keys(formData).filter(
           (key) => !formData[key as keyof typeof formData]
@@ -135,8 +135,8 @@ const Form: React.FC = () => {
       });
       return;
     } else if (!validateEmail(formData.email)) {
-      trackFormFailure("contact_form", {
-        form_type: "contact",
+      trackFormFailure("remodeling_form", {
+        form_type: "remodeling",
         error_message: "Invalid email format",
         email_provided: formData.email,
       });
@@ -150,7 +150,7 @@ const Form: React.FC = () => {
       return;
     }
 
-    const apiEndpoint = "/api/ContactUsapi"; // Replace with your actual API URL
+    const apiEndpoint = "/api/remodeling"; // Replace with your actual API URL
 
     try {
       setLoading(true);
@@ -226,11 +226,11 @@ const Form: React.FC = () => {
       }
     } catch (error: any) {
       console.error(
-        "Error calling contactFlow API:",
+        "Error calling remodelingFlow API:",
         error instanceof Error ? error.message : error
       );
-      trackFormFailure("contact_form", {
-        form_type: "contact",
+      trackFormFailure("remodeling_form", {
+        form_type: "remodeling",
         error_message: error instanceof Error ? error.message : "Unknown error",
         error_type:
           error instanceof Error ? error.constructor.name : typeof error,
