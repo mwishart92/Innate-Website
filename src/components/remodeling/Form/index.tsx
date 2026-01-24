@@ -197,6 +197,10 @@ const Form: React.FC = () => {
           form_type: "contact",
           project_type: formData.projectType,
         });
+
+        // DOWNLOAD PDF HERE
+        downloadCostGuide();
+
         Swal.fire({
           title: "Success!",
           icon: "success",
@@ -245,6 +249,16 @@ const Form: React.FC = () => {
       setLoading(false);
     }
   };
+
+  const downloadCostGuide = () => {
+    const link = document.createElement("a");
+    link.href = "/Cost-Guide.pdf";
+    link.download = "Cost-Guide.pdf"; // forces download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <>
       <div className="w-full mb-28 mob:px-5">
