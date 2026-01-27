@@ -21,19 +21,19 @@ function HomeSlider() {
   const slides = [
     {
       image: "/images/home/innate-hero_1--web.jpg",
-      delay: 3000,
+      delay: 5000,
       projectName: "Innate NW",
       priority: false,
     },
     {
       image: "/images/home/innate-hero_2--web.jpg",
-      delay: 3000,
+      delay: 5000,
       projectName: "Innate NW",
       priority: false,
     },
     {
       image: "/images/home/innate-hero_3--web.jpg",
-      delay: 3000,
+      delay: 5000,
       projectName: "Innate NW",
       priority: false,
     },
@@ -91,7 +91,7 @@ function HomeSlider() {
           slidesPerView={1}
           speed={2000}
           autoplay={{
-            delay: 3000,
+            delay: 5000,
             disableOnInteraction: false,
           }}
           loop={true}
@@ -114,7 +114,7 @@ function HomeSlider() {
             ) {
               const currentSlide = swiper.realIndex;
               swiper.params.autoplay.delay =
-                slides[currentSlide]?.delay || 3000;
+                slides[currentSlide]?.delay || 5000;
               swiper.autoplay.start();
             }
           }}
