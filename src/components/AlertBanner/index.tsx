@@ -1,10 +1,13 @@
 "use client";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 import Image from "next/image";
-import giftIcon from "@/public/images/home/gift.svg";
+import starsIcon from "@/public/stars.svg";
 
 const AlertBanner = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const pathname = usePathname();
+  const [isVisible, setIsVisible] = useState(true);
+  const shouldShow = isVisible && pathname !== "/cost-guide";
 
   const handleDismiss = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -12,17 +15,17 @@ const AlertBanner = () => {
     setIsVisible(false);
   };
 
+  if (!shouldShow) {
+    return null;
+  }
+
   return (
     <div 
-      className={`w-screen -mx-[64px] md:-mx-[80px] mob:-mx-[20px] flex justify-center transition-all duration-500 ease-in-out overflow-hidden ${
-        isVisible ? "max-h-[120px] opacity-100" : "max-h-0 opacity-0"
-      }`}
-      style={{ marginTop: isVisible ? "10px" : "0", marginBottom: isVisible ? "10px" : "0" }}
+      className="w-screen -mx-[64px] md:-mx-[80px] mob:-mx-[20px] flex justify-center transition-all duration-500 ease-in-out overflow-hidden max-h-[120px] opacity-100"
+      style={{ marginTop: "10px", marginBottom: "10px" }}
     >
       <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSfELfZCnkEWcXoQLFu102cyphWDxlLi3bv9kLH6l3wzwpsmGw/viewform"
-        target="_blank"
-        rel="noopener noreferrer"
+        href="/cost-guide"
         className="flex items-center justify-between px-[15px] py-[15px] rounded-[5px] cursor-pointer hover:opacity-90"
         style={{ 
           backgroundColor: "#DDFE24",
@@ -33,14 +36,14 @@ const AlertBanner = () => {
       >
         <div className="flex items-center gap-2 flex-1 min-w-0">
           <Image
-            src={giftIcon}
-            alt="Gift icon"
+            src={starsIcon}
+            alt="Stars icon"
             width={18}
             height={18}
             className="flex-shrink-0"
           />
           <span className="text-sm font-medium uppercase mob:text-xs text-[#000]">
-            HOLIDAY GIVEAWAY: YES, REALLY. WE'RE GIVING AWAY A FREE BATHROOM REMODEL! Click here to learn more!
+            CHECK OUT OUR NEW ULTIMATE REMODELING COST GUIDE PDF!
           </span>
         </div>
         <button
