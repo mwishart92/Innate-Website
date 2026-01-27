@@ -10,10 +10,9 @@ import {
 } from "swiper/modules";
 // Swiper CSS is now imported centrally in layout.tsx
 import "./slider.css";
-import Slide from "../Content/slide";
-import LazySlide from "../Content/LazySlide";
 import Text from "@/components/ui/Text";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 function HomeSlider() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -21,23 +20,23 @@ function HomeSlider() {
 
   const slides = [
     {
-      video: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/bosma-adu.webm?alt=media&token=b1ac720a-d1b2-4c3c-bf26-44930e7a890d",
-      delay: 36000,
-      projectName: "Bosma ADU",
-      priority: true, // First slide loads immediately
+      image: "/images/home/innate-hero_1--web.jpg",
+      delay: 3000,
+      projectName: "Innate NW",
+      priority: false,
     },
     {
-      video: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/05.25_Innate-NW_16x9%20No%20SpeedRamp_No%20Sound.webm?alt=media&token=b30f1fba-154c-495e-870e-8058cebddedc",
-      delay: 26000,
-      projectName: "Knight Residence",
-      priority: false, // Lazy load
+      image: "/images/home/innate-hero_2--web.jpg",
+      delay: 3000,
+      projectName: "Innate NW",
+      priority: false,
     },
-    // {
-    //   component: <Slide3 />,
-    //   delay: 42000,
-    //   projectName: "Pellegrino Residence",
-    // },
-    // { component: <Slide4 />, delay: 14000, projectName: "Innate NW" },
+    {
+      image: "/images/home/innate-hero_3--web.jpg",
+      delay: 3000,
+      projectName: "Innate NW",
+      priority: false,
+    },
   ];
 
   // const scrollToSection = (id: string) => {
@@ -71,7 +70,7 @@ function HomeSlider() {
             </Text>
 
             <button
-              className="mt-[20px] mb-[60px] border border-white bg-white text-black font-normal max-w-[200px] h-[50px] text-[16px] hover:bg-transparent hover:text-white hover:border-white transition duration-300 px-[24px] py-[14px] mob:text-[14px] mob:max-w-[181px] mob:h-[48px]"
+              className="mt-[20px] mb-[20px] border border-white bg-white text-black font-normal max-w-[200px] h-[50px] text-[16px] hover:bg-transparent hover:text-white hover:border-white transition duration-300 px-[24px] py-[14px] mob:text-[14px] mob:max-w-[181px] mob:h-[48px]"
               // onClick={() => scrollToSection('contactHome')}
               onClick={() => {
                 localStorage?.setItem(
@@ -83,6 +82,7 @@ function HomeSlider() {
             >
               Let's Work Together
             </button>
+            <div className="home-hero-pagination"></div>
           </div>
 
         </div>
@@ -91,7 +91,7 @@ function HomeSlider() {
           slidesPerView={1}
           speed={2000}
           autoplay={{
-            delay: 5000,
+            delay: 3000,
             disableOnInteraction: false,
           }}
           loop={true}
@@ -101,6 +101,7 @@ function HomeSlider() {
           }}
           pagination={{
             clickable: true,
+            el: ".home-hero-pagination",
           }}
           modules={[Keyboard, Navigation, Scrollbar, Autoplay, Pagination]}
           className="mySwiper swiper-backface-hidden"
@@ -113,18 +114,23 @@ function HomeSlider() {
             ) {
               const currentSlide = swiper.realIndex;
               swiper.params.autoplay.delay =
-                slides[currentSlide]?.delay || 5000;
+                slides[currentSlide]?.delay || 3000;
               swiper.autoplay.start();
             }
           }}
         >
           {slides.map((slide, index) => (
             <SwiperSlide key={index}>
-              <LazySlide 
-                video={slide.video}
-                isActive={currentSlide === index}
-                priority={slide.priority}
-              />
+              <div className="relative h-screen mob:h-full min-h-[784px] w-full">
+                <Image
+                  src={slide.image}
+                  alt={slide.projectName}
+                  fill
+                  style={{ objectFit: "cover" }}
+                  priority={slide.priority}
+                  sizes="100vw"
+                />
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>
