@@ -42,7 +42,7 @@ const AlertBanner = () => {
             height={18}
             className="flex-shrink-0"
           />
-          <span className="text-sm font-medium uppercase mob:text-xs text-[#000]">
+          <span className="text-sm font-medium mob:text-xs text-[#000]">
           LIMITED TIME OFFER: Download our free ultimate remodeling cost guide PDF!
           </span>
         </div>
