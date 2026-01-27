@@ -43,7 +43,7 @@ const AlertBanner = () => {
             className="flex-shrink-0"
           />
           <span className="text-sm font-medium uppercase mob:text-xs text-[#000]">
-            CHECK OUT OUR NEW ULTIMATE REMODELING COST GUIDE PDF!
+          LIMITED TIME OFFER: Download our free ultimate remodeling cost guide PDF!
           </span>
         </div>
         <button
