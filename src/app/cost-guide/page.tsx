@@ -12,13 +12,13 @@ export const metadata: Metadata = {
   description:
     "Innate NW's press section features news, media coverage, and insights into their innovative design and construction projects, highlighting the industry impact.",
   alternates: {
-    canonical: "https://innate-nw.com/press",
+    canonical: "https://innate-nw.com/cost-guide",
   },
   openGraph: {
     title: "Remodeling Cost Guide | Innate NW",
     description:
       "Innate NW's press section features news, media coverage, and insights into their innovative design and construction projects, highlighting the industry impact.",
-    url: "https://innate-nw.com/press",
+    url: "https://innate-nw.com/cost-guide",
     siteName: "Innate NW",
     images: [
       {
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 const RemodelingPriceGuide = () => {
   return (
     <>
-      <ManualPageTracker pageName="remodeling-price-guide_page" />
+      <ManualPageTracker pageName="cost-guide_page" />
       <Navbar />
       <HeroPress />
       <div className="gradient">
