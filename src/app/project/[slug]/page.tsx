@@ -960,6 +960,131 @@ const projectData = {
       ],
     },
   },
+  "freitas-kitchen-bathroom": {
+    seo: {
+      title:
+        "Capitol Hill Bathroom Remodel & Kitchen Renovation | Innate Seattle",
+      description: `A top-floor Capitol Hill bathroom and kitchen remodel in Seattle featuring marble mosaic tile, a wall-mounted vanity, gold fixtures, and space-saving design. Completed by Innate.`,
+    },
+    title: "Freitas Bathroom & Kitchen Remodel – Capitol Hill, Seattle",
+    defaultSlides: [
+      {
+        component: (
+          <Slide
+            image="/images/project/freitas-kitchen/6L1A1603_websize.jpg"
+            video=""
+          />
+        ),
+        delay: 36000,
+        projectName: "Freitas Bathroom",
+        projectType: "Renovation",
+      },
+      {
+        component: (
+          <Slide
+            image="/images/project/freitas-bathroom/6L1A8442-Enhanced-NR.webp"
+            video={null}
+          />
+        ),
+        delay: 36000,
+        projectName: "Freitas Bathroom",
+        projectType: "Renovation",
+      },
+      {
+        component: (
+          <Slide
+            image="/images/project/freitas-bathroom/6L1A8451-Enhanced-NR.webp"
+            video={null}
+          />
+        ),
+        delay: 36000,
+        projectName: "Freitas Bathroom",
+        projectType: "Renovation",
+      },
+    ],
+    defaultProjectDetails: {
+      projectScope: [
+        {
+          key: "Scope",
+          value: "Bathroom Remodel, Kitchen Remodel, Residential Design",
+        },
+        { key: "Type", value: "Renovation" },
+        { key: "Location", value: "Capitol Hill – Seattle, Washington" },
+        {
+          key: "Design Principle",
+          value: "Michael Wishart, Owner of Innate",
+        },
+        {
+          key: "Photographer",
+          value: "Nicolai Buccino",
+        },
+        { key: "General Contractor", value: "Innate" },
+      ],
+      scopedescription: `Located on the top floor of a historic Capitol Hill apartment, this full renovation included a bathroom remodel, kitchen updates, and residential design work, transforming a small, aging space into a refined and functional urban retreat. Innate led both the design and construction, carefully navigating the challenges of a vintage building—including carrying all materials up multiple flights of stairs—while maintaining respect for the building and its neighbors.`,
+      media: {
+        desktop: "/images/project/freitas-kitchen/6L1A1563_websize.jpg",
+      },
+      description: [
+        `The bathroom remodel features marble mosaic tile, a wall-mounted vanity, and a sliding glass shower door designed to conserve space without sacrificing style. Matching gold trim and thoughtfully selected fixtures from West Elm and Rejuvenation bring warmth, cohesion, and a modern sensibility to the compact footprint. Every detail was intentionally chosen to maximize light, openness, and efficiency.
+`,
+      ],
+      gallery: [
+        {
+          image: "/images/project/freitas-kitchen/6L1A1556_websize.jpg",
+        },
+        {
+          image: "/images/project/freitas-kitchen/6L1A1562_websize.jpg",
+        },
+        {
+          image: "/images/project/freitas-kitchen/6L1A1577_websize.jpg",
+        },
+        {
+          image: "/images/project/freitas-kitchen/6L1A1603_websize.jpg",
+          class: "col-span-3 aspect-[4/2]",
+        },
+        {
+          image: "/images/project/freitas-bathroom/6L1A8433-Enhanced-NR.webp",
+        },
+        {
+          image: "/images/project/freitas-bathroom/6L1A8447-Enhanced-NR.webp",
+        },
+        {
+          image: "/images/project/freitas-bathroom/6L1A8426-Enhanced-NR.webp",
+        },
+        {
+          image: "/images/project/freitas-bathroom/6L1A8431-Enhanced-NR.webp",
+          class: "col-span-3 aspect-[4/2]",
+        },
+      ],
+      galleryDescription: `This Capitol Hill renovation showcases Innate’s ability to deliver high-quality bathroom and kitchen remodels in tight urban settings. Whether working within a small condo or a historic apartment, our team brings thoughtful design, precision execution, and elevated finishes to every project.`,
+      projectSlider: [
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+      ],
+    },
+  },
   "wedgewood-adu": {
     seo: {
       title: "Wedgewood Seattle ADU | ADA-Compliant New Construction by Innate",
@@ -1411,8 +1536,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
   },
   "enumclaw-full-home-remodel": {
     seo: {
-      title:
-        "Enumclaw Full Home Remodel & Renovation | Design-Build by Innate",
+      title: "Enumclaw Full Home Remodel & Renovation | Design-Build by Innate",
       description: `A full home remodel in Enumclaw featuring a craftsman-inspired design, redesigned kitchen, living spaces, and custom finishes after water damage. Completed by Innate.`,
     },
     defaultSlides: [
@@ -1739,9 +1863,15 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function ProjectPage({ params }: any) {
+interface ProjectPageProps {
+  params: Promise<{ slug: string }>;
+}
+
+export default async function ProjectPage({ params }: ProjectPageProps) {
   // Get the current slug from params and await it
-  const { slug } = await params;
+  // Await params first
+  const awaitedParams = await params;
+  const { slug } = awaitedParams;
 
   // Check if the slug exists in projectData
   const projectDataForSlug = projectData[slug as keyof typeof projectData];
@@ -1754,11 +1884,11 @@ export default async function ProjectPage({ params }: any) {
   return (
     <>
       <ManualPageTracker
-        pageName={`project_${params.slug}`}
+        pageName={`project_${slug}`}
         additionalData={{
           page_category: "portfolio",
           page_section: "project_detail",
-          project_slug: params.slug,
+          project_slug: slug,
           project_type: "dynamic_route",
         }}
       />

@@ -24,7 +24,7 @@ export const slidesData: SlideData[] = [
       {
         src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/10.15_Innate%20Bathroom%20Remodel%20Finished%20Work_16x9.webm?alt=media&token=bb8b82d5-a81d-4c31-9693-8e6ccea5f00b",
         type: "video",
-        mobilePlaceholder: "/images/work/bellevue_mob.jpg"
+        mobilePlaceholder: "/images/work/bellevue_mob.jpg",
       },
     ],
     hover: {
@@ -38,7 +38,10 @@ export const slidesData: SlideData[] = [
     location: "Kenmore, Washington",
     url: "/project/kenmore-bathroom",
     media: [
-      { src: "/images/project/kenmore-bathroom/6L1A1295_websize.jpg", type: "image" },
+      {
+        src: "/images/project/kenmore-bathroom/6L1A1295_websize.jpg",
+        type: "image",
+      },
     ],
     hover: {
       title:
@@ -51,7 +54,10 @@ export const slidesData: SlideData[] = [
     location: "Woodinville, Washington",
     url: "/project/woodinville-primary-and-guest-bathroom",
     media: [
-      { src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Woodinville_bathroom.webm?alt=media&token=ba204823-d94b-4239-bcb2-0919b702ca40", type: "video" },
+      {
+        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Woodinville_bathroom.webm?alt=media&token=ba204823-d94b-4239-bcb2-0919b702ca40",
+        type: "video",
+      },
     ],
     hover: {
       title:
@@ -64,22 +70,25 @@ export const slidesData: SlideData[] = [
     location: "Enumclaw, Washington",
     url: "/project/enumclaw-full-home-remodel",
     media: [
-      { 
-        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/enumclaw.webm?alt=media&token=0477f2bb-4bb9-4df4-94b5-130347b7fd4c", type: "video" },
+      {
+        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/enumclaw.webm?alt=media&token=0477f2bb-4bb9-4df4-94b5-130347b7fd4c",
+        type: "video",
+      },
     ],
     hover: {
-      title:
-        "Enumclaw Full Home Remodel | Design-Build Renovation by Innate",
+      title: "Enumclaw Full Home Remodel | Design-Build Renovation by Innate",
       subTitle: `After extensive water damage destroyed the home’s bathrooms, this Enumclaw full home remodel became an opportunity to thoughtfully reimagine a house that had never been renovated in over 30 years. Innate led the project as a design-build partner, guiding the client through a complete transformation of her first—and only—home.`,
     },
   },
   {
     title: "Freitas Kitchen & Bathroom Remodel",
     location: "Seattle, Washington",
-    url: "/project/freitas-kitchen",
+    url: "/project/freitas-kitchen-bathroom",
     media: [
-      { 
-        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Freitas%20Kitchen.webm?alt=media&token=49c036c5-9b2f-4f7c-adfb-b88ea4d16195", type: "video" },
+      {
+        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Freitas%20Kitchen.webm?alt=media&token=49c036c5-9b2f-4f7c-adfb-b88ea4d16195",
+        type: "video",
+      },
     ],
     hover: {
       title:
@@ -178,7 +187,7 @@ export const slidesData: SlideData[] = [
   {
     title: "Freitas Bathroom",
     location: "Capitol Hill – Seattle, Washington",
-    url: "/project/freitas-bathroom",
+    url: "/project/freitas-kitchen-bathroom",
     media: [
       {
         src: "/images/project/freitas-bathroom/6L1A8442-Enhanced-NR.webp",
@@ -218,7 +227,7 @@ export const slidesData: SlideData[] = [
       {
         src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/05.25_Innate-NW_16x9%20No%20SpeedRamp_No%20Sound.webm?alt=media&token=b30f1fba-154c-495e-870e-8058cebddedc",
         type: "video",
-        mobilePlaceholder: "/images/project/knight-residence/knight_mob.jpg"
+        mobilePlaceholder: "/images/project/knight-residence/knight_mob.jpg",
       },
       {
         src: "/images/project/knight-residence/6L1A8383-Enhanced-NR.webp",
@@ -333,7 +342,7 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
       {
         src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_ADU_16x9.webm?alt=media&token=146a7881-9a11-4099-8f58-3714d7c5f98b",
         type: "video",
-        mobilePlaceholder: "/images/project/wedgewood-adu/wwadu_mob.jpg"
+        mobilePlaceholder: "/images/project/wedgewood-adu/wwadu_mob.jpg",
       },
     ],
     hover: {
