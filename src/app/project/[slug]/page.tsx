@@ -709,10 +709,6 @@ const projectData = {
         },
         { key: "Type", value: "Renovation / New Construction" },
         { key: "Location", value: "Shoreline, Washington" },
-        {
-          key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate",
-        },
         { key: "General Contractor", value: "Innate" },
       ],
       scopedescription: `This Shoreline home renovation and addition project transformed a charming one-story residence into a spacious, multi-level family home. Designed for a young couple preparing for the next chapter of life, Innate led the design and construction of a new upper floor, full kitchen remodel, and outdoor living upgrades. The result is a warm, modern space that blends everyday function with lasting quality.`,
