@@ -187,10 +187,7 @@ const projectData = {
         { key: "Scope", value: "Residential Design" },
         { key: "Type", value: "New Construction" },
         { key: "Location", value: "Palm Springs, California" },
-        {
-          key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate",
-        },
+        
         { key: "General Contractor", value: "Innate" },
       ],
       scopedescription: `This modern Palm Springs new construction project was designed as a true desert oasis—blending indoor-outdoor living with smart functionality and bold architectural features. The home centers around an open-concept kitchen, living, and dining space, framed by exposed roof beams and flooded with natural light through clerestory windows and full accordion doors that open to the courtyard. The new construction design captures the spirit of the desert while maximizing modern livability.`,
@@ -256,10 +253,6 @@ const projectData = {
         },
         { key: "Type", value: "Renovation" },
         { key: "Location", value: "Kent, Washington" },
-        {
-          key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate",
-        },
         { key: "General Contractor", value: "Innate" },
       ],
       scopedescription: `After a catastrophic pipe burst caused significant water damage, this Kent homeowner turned a disaster into an opportunity for a modern upgrade. Innate stepped in to provide both bathroom renovation and natural disaster mitigation services, managing the insurance process and guiding the client through a streamlined four-week transformation. The result is a sophisticated, spa-inspired space that balances utility with luxury.`,
@@ -340,7 +333,7 @@ const projectData = {
         projectType: "Renovation",
       },
     ],
-    title: "",
+    title: "Design and Construction Projects in Bellevue",
     defaultProjectDetails: {
       projectScope: [
         {
@@ -555,10 +548,6 @@ const projectData = {
         },
         { key: "Type", value: "New Construction – Tenant Improvement" },
         { key: "Location", value: "Renton, Washington" },
-        {
-          key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate",
-        },
         { key: "General Contractor", value: "Innate" },
       ],
       scopedescription: `This commercial tenant improvement project in Renton brought two beloved franchises—Kung Fu Tea and TKK Fried Chicken—under one roof. Designed by Michael Wishart and built by Innate, the six-month project required precision, collaboration, and a deep understanding of franchise standards. From navigating a complex permitting process to aligning with brand-approved finishes, every detail was managed with care.`,
@@ -640,10 +629,6 @@ const projectData = {
         },
         { key: "Type", value: "Renovation" },
         { key: "Location", value: "Madrona – Seattle, Washington" },
-        {
-          key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate",
-        },
         { key: "General Contractor", value: "Innate" },
       ],
       scopedescription: `This kitchen remodel in Seattle's historic Madrona neighborhood presented a unique set of challenges—steep slope, tight site conditions, and an aging structure that required a full seismic retrofit. Innate led the design and renovation, transforming the original layout into a bright, modern kitchen with expanded square footage and improved structural integrity. The six-month kitchen renovation resulted in a functional and resilient space that seamlessly blends old and new.`,
@@ -808,10 +793,6 @@ const projectData = {
         },
         { key: "Type", value: "Renovation" },
         { key: "Location", value: "Capitol Hill – Seattle, Washington" },
-        {
-          key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate",
-        },
         {
           key: "Photographer",
           value: "Nicolai Buccino",
@@ -1010,10 +991,6 @@ const projectData = {
         },
         { key: "Type", value: "Renovation" },
         { key: "Location", value: "Capitol Hill – Seattle, Washington" },
-        {
-          key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate",
-        },
         {
           key: "Photographer",
           value: "Nicolai Buccino",
@@ -1228,10 +1205,6 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         { key: "Type", value: "Renovation, Historic Preservation" },
         { key: "Location", value: "Magnolia, Seattle" },
         {
-          key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate",
-        },
-        {
           key: "Photographer",
           value: "Nicolai Buccino",
         },
@@ -1326,10 +1299,6 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         },
         { key: "Type", value: "Renovation" },
         { key: "Location", value: "Fremont – Seattle, Washington" },
-        {
-          key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate NW",
-        },
         {
           key: "Photographer",
           value: "Nicolai Buccino",
@@ -1436,10 +1405,6 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         },
         { key: "Type", value: "Renovation" },
         { key: "Location", value: "Fremont - Seattle, Washington" },
-        {
-          key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate",
-        },
         {
           key: "Photographer",
           value: "Nicolai Buccino",
@@ -1552,7 +1517,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         projectType: "Renovation",
       },
     ],
-    title: "",
+    title: "Design and Construction Projects in Enumclaw",
     defaultProjectDetails: {
       projectScope: [
         {
@@ -1660,7 +1625,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         projectType: "Renovation",
       },
     ],
-    title: "",
+    title: "Design and Construction Projects in Woodinville",
     defaultProjectDetails: {
       projectScope: [
         {
@@ -1767,7 +1732,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         projectType: "Renovation",
       },
     ],
-    title: "",
+    title: "Design and Construction Projects in Kenmore",
     defaultProjectDetails: {
       projectScope: [
         {
