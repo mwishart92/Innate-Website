@@ -1090,10 +1090,6 @@ const projectData = {
         { key: "Type", value: "Attached, ADA-Compliant" },
         { key: "Location", value: "Wedgewood, Seattle" },
         {
-          key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate",
-        },
-        {
           key: "Photographer",
           value: "Nicolai Buccino",
         },
