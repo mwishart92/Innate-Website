@@ -762,181 +762,7 @@ const projectData = {
       ],
     },
   },
-  "freitas-bathroom": {
-    seo: {
-      title: "Freitas Bathroom | Innate NW Renovation",
-      description: `Tucked into the top floor of a historic Capitol Hill apartment, this bathroom remodel turned a compact, outdated space into a refined retreat. Innate handled both design and construction, navigating the logistical challenges of carrying all materials up several flights while preserving the quiet character of the building. The project was completed in just two weeks with minimal disruption to neighbors.`,
-    },
-    defaultSlides: [
-      {
-        component: (
-          <Slide
-            image="/images/project/freitas-bathroom/6L1A8442-Enhanced-NR.webp"
-            video={null}
-          />
-        ),
-        delay: 36000,
-        projectName: "Freitas Bathroom",
-        projectType: "Renovation",
-      },
-    ],
-    title: "",
-    defaultProjectDetails: {
-      projectScope: [
-        {
-          key: "Scope",
-          value: "Bathroom Remodel, Residential Design",
-        },
-        { key: "Type", value: "Renovation" },
-        { key: "Location", value: "Capitol Hill – Seattle, Washington" },
-        {
-          key: "Photographer",
-          value: "Nicolai Buccino",
-        },
-        { key: "General Contractor", value: "Innate" },
-      ],
-      scopedescription: `Tucked into the top floor of a historic Capitol Hill apartment, this bathroom remodel turned a compact, outdated space into a refined retreat. Innate handled both design and construction, navigating the logistical challenges of carrying all materials up several flights while preserving the quiet character of the building. The project was completed in just two weeks with minimal disruption to neighbors.`,
-      media: {
-        desktop: "/images/project/freitas-bathroom/6L1A8451-Enhanced-NR.webp",
-      },
-      description: [
-        `Featuring marble mosaic tile, a wall-mounted vanity, and curated fixtures from West Elm and Rejuvenation, the new bathroom design brings warmth and sophistication to a small footprint. Sliding glass shower doors and gold trim maximize both form and function, creating a sense of openness while preserving valuable space.
-`,
-      ],
-      gallery: [
-        {
-          image: "/images/project/freitas-bathroom/6L1A8433-Enhanced-NR.webp",
-        },
-        {
-          image: "/images/project/freitas-bathroom/6L1A8447-Enhanced-NR.webp",
-        },
-        {
-          image: "/images/project/freitas-bathroom/6L1A8426-Enhanced-NR.webp",
-        },
-        {
-          image: "/images/project/freitas-bathroom/6L1A8431-Enhanced-NR.webp",
-          class: "col-span-3 aspect-[4/2]",
-        },
-      ],
-      galleryDescription: `This Capitol Hill bathroom remodel exemplifies Innate's ability to deliver high-quality renovations in tight urban settings. Whether you're updating a condo or reimagining a vintage apartment, our team delivers thoughtful, stylish solutions tailored to your space.`,
-      projectSlider: [
-        {
-          image: slider1,
-          title: "Modern Musa Spa",
-          description: "Denver Coloredo",
-          url: "#",
-        },
-        {
-          image: slider2,
-          title: "Modern Musa Spa",
-          description: "Denver Coloredo",
-          url: "#",
-        },
-        {
-          image: slider1,
-          title: "Modern Musa Spa",
-          description: "Denver Coloredo",
-          url: "#",
-        },
-        {
-          image: slider2,
-          title: "Modern Musa Spa",
-          description: "Denver Coloredo",
-          url: "#",
-        },
-      ],
-    },
-  },
-  "freitas-kitchen": {
-    seo: {
-      title:
-        "Capitol Hill Bathroom Remodel & Kitchen Renovation | Innate Seattle",
-      description: `A top-floor Capitol Hill bathroom and kitchen remodel in Seattle featuring marble mosaic tile, a wall-mounted vanity, gold fixtures, and space-saving design. Completed by Innate.`,
-    },
-    title: "Freitas Bathroom & Kitchen Remodel – Capitol Hill, Seattle",
-    defaultSlides: [
-      {
-        component: (
-          <Slide
-            image="/images/project/freitas-kitchen/6L1A1603_websize.jpg"
-            video=""
-          />
-        ),
-        delay: 36000,
-        projectName: "Freitas Bathroom",
-        projectType: "Renovation",
-      },
-    ],
-    defaultProjectDetails: {
-      projectScope: [
-        {
-          key: "Scope",
-          value: "Bathroom Remodel, Kitchen Remodel, Residential Design",
-        },
-        { key: "Type", value: "Renovation" },
-        { key: "Location", value: "Capitol Hill – Seattle, Washington" },
-        {
-          key: "Design Principle",
-          value: "Michael Wishart, Owner of Innate",
-        },
-        {
-          key: "Photographer",
-          value: "Nicolai Buccino",
-        },
-        { key: "General Contractor", value: "Innate" },
-      ],
-      scopedescription: `Located on the top floor of a historic Capitol Hill apartment, this full renovation included a bathroom remodel, kitchen updates, and residential design work, transforming a small, aging space into a refined and functional urban retreat. Innate led both the design and construction, carefully navigating the challenges of a vintage building—including carrying all materials up multiple flights of stairs—while maintaining respect for the building and its neighbors.`,
-      media: {
-        desktop: "/images/project/freitas-kitchen/6L1A1563_websize.jpg",
-      },
-      description: [
-        `The bathroom remodel features marble mosaic tile, a wall-mounted vanity, and a sliding glass shower door designed to conserve space without sacrificing style. Matching gold trim and thoughtfully selected fixtures from West Elm and Rejuvenation bring warmth, cohesion, and a modern sensibility to the compact footprint. Every detail was intentionally chosen to maximize light, openness, and efficiency.
-`,
-      ],
-      gallery: [
-        {
-          image: "/images/project/freitas-kitchen/6L1A1556_websize.jpg",
-        },
-        {
-          image: "/images/project/freitas-kitchen/6L1A1562_websize.jpg",
-        },
-        {
-          image: "/images/project/freitas-kitchen/6L1A1577_websize.jpg",
-        },
-        {
-          image: "/images/project/freitas-kitchen/6L1A1603_websize.jpg",
-          class: "col-span-3 aspect-[4/2]",
-        },
-      ],
-      galleryDescription: `This Capitol Hill renovation showcases Innate’s ability to deliver high-quality bathroom and kitchen remodels in tight urban settings. Whether working within a small condo or a historic apartment, our team brings thoughtful design, precision execution, and elevated finishes to every project.`,
-      projectSlider: [
-        {
-          image: slider1,
-          title: "Modern Musa Spa",
-          description: "Denver Coloredo",
-          url: "#",
-        },
-        {
-          image: slider2,
-          title: "Modern Musa Spa",
-          description: "Denver Coloredo",
-          url: "#",
-        },
-        {
-          image: slider1,
-          title: "Modern Musa Spa",
-          description: "Denver Coloredo",
-          url: "#",
-        },
-        {
-          image: slider2,
-          title: "Modern Musa Spa",
-          description: "Denver Coloredo",
-          url: "#",
-        },
-      ],
-    },
-  },
+  
   "freitas-kitchen-bathroom": {
     seo: {
       title:
@@ -948,7 +774,7 @@ const projectData = {
       {
         component: (
           <Slide
-            image="/images/project/freitas-kitchen/6L1A1603_websize.jpg"
+            image="/images/project/freitas-kitchen/freitas_hero.jpg"
             video=""
           />
         ),
@@ -1553,7 +1379,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         },
         {
           image:
-            "/images/project/enumclaw-full-home-remodel/6L1A1627_websize.jpg",
+            "/images/project/enumclaw-full-home-remodel/enumclaw2.jpg",
           class: "col-span-3 aspect-[4/2]",
         },
         {
