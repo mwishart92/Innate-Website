@@ -1009,41 +1009,47 @@ export const blogSections: ArticleSection[] = [
         type: "text",
         text: `
         
-<p>Small homes are rising in popularity for their lower cost, reduced <strong>greenhouse gas emissions</strong>, and easier upkeep. They also use fewer <strong>natural resources</strong>, which helps preserve the environment. Yet limited square footage presents a design challenge&mdash;how can a compact home still offer beauty, function, and energy efficiency?</p>
+<p>Small homes are rising in popularity for their lower cost, reduced <strong>greenhouse gas emissions</strong>, and easier upkeep. They also use fewer <strong>natural resources</strong>, which helps preserve the environment. Yet limited square footage presents a design challenge&mdash;how can a compact home still offer beauty, function, and energy efficiency?</p><br/>
 <p>The answer is smart <strong>home exterior design</strong>. With the right plan, a small home can feel larger, stay <strong>environmentally friendly</strong>, and deliver curb appeal that lasts for the long term. <strong>Innate-NW</strong> specializes in <strong>exterior remodeling</strong> that transforms tight spaces into stylish, sustainable outdoor living areas.</p>
 <p>&nbsp;</p>
 <h2>Create Functional Outdoor Spaces</h2>
-<p>A smart <strong>small home exterior design</strong> makes every inch count. Patios, decks, and vertical gardens can turn unused corners into beautiful, multi-purpose rooms.</p>
+<p>A smart <strong>small home exterior design</strong> makes every inch count. Patios, decks, and vertical gardens can turn unused corners into beautiful, multi-purpose rooms.</p><br/>
+<div class="pl-4">
 <h3>Patios and Decks</h3>
-<p>A well-planned deck or patio can serve as a dining area, reading nook, or mini garden. Our <strong>deck builds</strong> include built-in seating and hidden planters to save space and add convenience.</p>
+<p>A well-planned deck or patio can serve as a dining area, reading nook, or mini garden. Our <strong>deck builds</strong> include built-in seating and hidden planters to save space and add convenience.</p><br/>
 <h3>Vertical Gardens</h3>
-<p>When ground space is scarce, think vertical. Living walls or stacked planters bring greenery and improve <strong>indoor air quality</strong> when placed near windows or sliding doors.</p>
+<p>When ground space is scarce, think vertical. Living walls or stacked planters bring greenery and improve <strong>indoor air quality</strong> when placed near windows or sliding doors.</p><br/>
 <h3>Flexible Layouts</h3>
-<p>Use foldable tables and benches with storage. These cost-effective features keep a small patio neat and ready for guests or quiet evenings.</p>
-<p>&nbsp;</p>
+<p>Use foldable tables and benches with storage. These cost-effective features keep a small patio neat and ready for guests or quiet evenings.</p><br/>
+</div>
 <h2>Make Space Look Bigger with Design</h2>
-<p>Smart design can make a compact house feel spacious.</p>
+<p>Smart design can make a compact house feel spacious.</p><br/>
+<div class="pl-4">
 <ul>
-<li style="font-weight: 400;"><strong>Horizontal Lines and Light Colors</strong>: Horizontal siding or slatted fencing draws the eye outward. Light, reflective finishes reduce heat gain and visually enlarge the home.</li>
-<li style="font-weight: 400;"><strong>Streamlined Rooflines</strong>: Clean roof shapes and slim overhangs provide shade while maintaining simple, modern lines.</li>
-<li style="font-weight: 400;"><strong>Well-Placed Windows</strong>: Corner glazing and clerestory windows let in sunlight and help reduce reliance on artificial lighting, supporting <strong>energy saving</strong> goals.</li>
+<li style="font-weight: 400;"><strong>Horizontal Lines and Light Colors</strong>: Horizontal siding or slatted fencing draws the eye outward. Light, reflective finishes reduce heat gain and visually enlarge the home.</li><br/>
+<li style="font-weight: 400;"><strong>Streamlined Rooflines</strong>: Clean roof shapes and slim overhangs provide shade while maintaining simple, modern lines.</li><br/>
+<li style="font-weight: 400;"><strong>Well-Placed Windows</strong>: Corner glazing and clerestory windows let in sunlight and help reduce reliance on artificial lighting, supporting <strong>energy saving</strong> goals.</li><br/> 
 </ul>
-<p>&nbsp;</p>
+</div>
 <h2>Integrate Storage and Utility Seamlessly</h2>
-<p>Storage is a frequent challenge for small homes. A thoughtful <strong>exterior remodeling contractor</strong> can blend function and style.</p>
+<p>Storage is a frequent challenge for small homes. A thoughtful <strong>exterior remodeling contractor</strong> can blend function and style.</p><br/>
+<div class="pl-4">
 <ul>
-<li style="font-weight: 400;"><strong>Compact Sheds and Bike Racks</strong>: Small but <strong>high quality</strong> sheds and wall racks keep gear tidy.</li>
-<li style="font-weight: 400;"><strong>Built-In Seating with Storage</strong>: Benches double as storage bins for cushions or gardening tools.</li>
-<li style="font-weight: 400;"><strong>Concealed Bins</strong>: Custom enclosures hide garbage and recycling containers, keeping sightlines clear.</li>
+<li style="font-weight: 400;"><strong>Compact Sheds and Bike Racks</strong>: Small but <strong>high quality</strong> sheds and wall racks keep gear tidy.</li><br/>
+<li style="font-weight: 400;"><strong>Built-In Seating with Storage</strong>: Benches double as storage bins for cushions or gardening tools.</li><br/>
+<li style="font-weight: 400;"><strong>Concealed Bins</strong>: Custom enclosures hide garbage and recycling containers, keeping sightlines clear.</li><br/>
 </ul>
-<p>&nbsp;</p>
+</div>
+<br/>
 <h2>Choose the Right Materials and Landscaping</h2>
-<p>Scaled materials and layered landscaping bring harmony and depth to small spaces.</p>
+<p>Scaled materials and layered landscaping bring harmony and depth to small spaces.</p><br/>
+<div class="pl-4">
 <ul>
-<li style="font-weight: 400;"><strong>Sustainable Building Materials</strong>: Use <strong>recycled materials</strong> like composite decking or reclaimed wood to reduce <strong>fossil fuels</strong> used in the <strong>manufacturing process</strong>.</li>
-<li style="font-weight: 400;"><strong>Eco Friendly Materials</strong>: Bamboo or cork are a <strong>renewable resource</strong> and add warmth and texture.</li>
-<li style="font-weight: 400;"><strong>Layered Landscaping</strong>: Native plants of varied heights create a rich, green architecture effect while conserving water.</li>
+<li style="font-weight: 400;"><strong>Sustainable Building Materials</strong>: Use <strong>recycled materials</strong> like composite decking or reclaimed wood to reduce <strong>fossil fuels</strong> used in the <strong>manufacturing process</strong>.</li><br/>
+<li style="font-weight: 400;"><strong>Eco Friendly Materials</strong>: Bamboo or cork are a <strong>renewable resource</strong> and add warmth and texture.</li><br/>
+<li style="font-weight: 400;"><strong>Layered Landscaping</strong>: Native plants of varied heights create a rich, green architecture effect while conserving water.</li><br/>
 </ul>
+</div>
 <p>These <strong>cost effective</strong> and <strong>sustainably designed</strong> choices keep maintenance low and visual impact high.</p>
         `,
       },
@@ -1057,42 +1063,50 @@ export const blogSections: ArticleSection[] = [
         text: `
 <h2>&nbsp;</h2>
 <h2>Add Personality with Texture and Light</h2>
-<p>A small exterior can still show strong character.</p>
+<p>A small exterior can still show strong character.</p><br/>
+<div class="pl-4">
 <ul>
-<li style="font-weight: 400;"><strong>Accent Walls</strong>: Reclaimed wood or stone provides striking contrast.</li>
-<li style="font-weight: 400;"><strong>Decorative Lighting</strong>: String lights or downlights add evening ambiance and safety.</li>
-<li style="font-weight: 400;"><strong>Custom Railings</strong>: Our <strong>railing systems</strong> add visual interest while meeting safety codes.</li>
+<li style="font-weight: 400;"><strong>Accent Walls</strong>: Reclaimed wood or stone provides striking contrast.</li><br/>  
+<li style="font-weight: 400;"><strong>Decorative Lighting</strong>: String lights or downlights add evening ambiance and safety.</li><br/>  
+<li style="font-weight: 400;"><strong>Custom Railings</strong>: Our <strong>railing systems</strong> add visual interest while meeting safety codes.</li><br/>  
 </ul>
+</div>
 <p>Details like these give your home a one-of-a-kind look.</p>
 <p>&nbsp;</p>
 <h2>Blend Efficiency with Curb Appeal</h2>
-<p>Modern <strong>house exterior remodeling</strong> balances style with performance.</p>
+<p>Modern <strong>house exterior remodeling</strong> balances style with performance.</p><br/>
+<div class="pl-4">
 <ul>
-<li style="font-weight: 400;"><strong>Solar Panels</strong>: Integrated solar panels generate clean power from <strong>renewable energy sources</strong> without spoiling the roofline.</li>
-<li style="font-weight: 400;"><strong>Energy Efficiency</strong>: Advanced insulation and high-performance siding cut heating and cooling costs.</li>
-<li style="font-weight: 400;"><strong>Reduced Carbon Emissions</strong>: Lower energy use means less dependence on fossil fuels and fewer emissions over the long term.</li>
+<li style="font-weight: 400;"><strong>Solar Panels</strong>: Integrated solar panels generate clean power from <strong>renewable energy sources</strong> without spoiling the roofline.</li><br/>  
+<li style="font-weight: 400;"><strong>Energy Efficiency</strong>: Advanced insulation and high-performance siding cut heating and cooling costs.</li><br/>  
+<li style="font-weight: 400;"><strong>Reduced Carbon Emissions</strong>: Lower energy use means less dependence on fossil fuels and fewer emissions over the long term.</li><br/>  
 </ul>
+</div>
 <p>Innate-NW helps homeowners achieve these goals without sacrificing beauty.</p>
 <p>&nbsp;</p>
 <h2>Plan for Year-Round Comfort</h2>
-<p>Design for every season to extend living space.</p>
+<p>Design for every season to extend living space.</p><br/>
+<div class="pl-4">
 <ul>
-<li style="font-weight: 400;"><strong>Covered Patios or Pergolas</strong> create shelter from rain and summer sun.</li>
-<li style="font-weight: 400;"><strong>Retractable Screens</strong> provide insect protection when needed.</li>
-<li style="font-weight: 400;"><strong>Outdoor Heaters or Fire Features</strong> keep patios cozy during cool months.</li>
+<li style="font-weight: 400;"><strong>Covered Patios or Pergolas</strong> create shelter from rain and summer sun.</li><br/>  
+<li style="font-weight: 400;"><strong>Retractable Screens</strong> provide insect protection when needed.</li><br/>  
+<li style="font-weight: 400;"><strong>Outdoor Heaters or Fire Features</strong> keep patios cozy during cool months.</li><br/>  
 </ul>
+</div>
 <p>These improvements ensure that outdoor areas stay inviting all year.</p>
 <p>&nbsp;</p>
 <h2>Think Long-Term and Flexible</h2>
-<p>Smart <strong>exterior design</strong> anticipates change. Families grow, hobbies evolve, and outdoor needs shift.</p>
-<p>We create spaces that adapt&mdash;modular decks that can be expanded, planters that move easily, and sheds that can become hobby rooms. Long-term thinking protects your investment and keeps your home appealing for decades.</p>
+<p>Smart <strong>exterior design</strong> anticipates change. Families grow, hobbies evolve, and outdoor needs shift.</p><br/>
+
+<p>We create spaces that adapt&mdash;modular decks that can be expanded, planters that move easily, and sheds that can become hobby rooms. Long-term thinking protects your investment and keeps your home appealing for decades.</p><br/>
+
 <p>&nbsp;</p>
 <h2>Partner with the Right Architecture Firm</h2>
 <p>A successful project starts with expertise. Innate is more than a contractor&mdash;we are one of the region&rsquo;s leading <strong>architecture firms</strong> focused on sustainable, space-smart solutions.</p>
 <p>From concept to permits to final build, our team manages every stage. We ensure that your exterior is not only beautiful and efficient but also built to last.</p>
 <p>&nbsp;</p>
 <h2>Conclusion &amp; Call to Action</h2>
-<p>A small home can still deliver big curb appeal and strong sustainability. With <strong>smart exterior design</strong>, you can create welcoming outdoor spaces, add hidden storage, and improve energy performance.</p>
+<p>A small home can still deliver big curb appeal and strong sustainability. With <strong>smart exterior design</strong>, you can create welcoming outdoor spaces, add hidden storage, and improve energy performance.</p><br/>
 <p>Innate-NW specializes in <strong>exterior remodeling services</strong> that merge beauty with environmental care. Whether you want a complete remodel or targeted upgrades like a custom deck or vertical garden, we can help.&nbsp;</p>
 <p>&nbsp;</p>
 <h3><strong>Contact Innate to design an exterior that saves energy, reduces emissions, and enhances your home for the long term.</strong></h3>
@@ -1120,24 +1134,26 @@ export const blogSections: ArticleSection[] = [
       {
         type: "text",
         text: `
-        <h1><strong>Sustainable Architecture: Eco-Friendly Features That Don&rsquo;t Diminish Style</strong></h1>
+        
 <p>&nbsp;</p>
-<h2>Introduction</h2>
-<p>Sustainable architecture is now a standard in modern <a href="/blogs/architecture-impacts-property-value">home design</a>. More homeowners want to cut energy use and protect natural resources. At the same time, they want spaces that feel warm, open, and beautiful.</p>
+
+<p>Sustainable architecture is now a standard in modern <a href="/blogs/architecture-impacts-property-value">home design</a>. More homeowners want to cut energy use and protect natural resources. At the same time, they want spaces that feel warm, open, and beautiful.</p><br/>
 <p>Many people worry that eco-friendly choices mean plain or industrial-looking homes. At <strong>Innate-NW</strong>, we prove that isn&rsquo;t true. Our <strong>whole home remodels</strong> and new builds combine energy savings with timeless style. We create homes that are efficient, durable, and inviting.</p>
 <p>&nbsp;</p>
 <h2>Energy-Efficient Design Without an Industrial Look</h2>
-<p>Energy efficiency doesn&rsquo;t have to look mechanical. We blend smart technology with clean design so your home is stylish and efficient.</p>
-<p>We install <strong>solar panels</strong> that sit flush with the roofline. They supply power but remain subtle. <strong>High-performance windows</strong> and advanced insulation keep indoor temperatures steady year-round. Smart thermostats and zoned heating or cooling reduce energy use without drawing attention.</p>
-<p>Even complex systems like energy recovery ventilation are hidden inside walls or ceilings. The result is lower utility bills and quiet, consistent comfort in every season.</p>
+<p>Energy efficiency doesn&rsquo;t have to look mechanical. We blend smart technology with clean design so your home is stylish and efficient.</p><br/>
+<p>We install <strong>solar panels</strong> that sit flush with the roofline. They supply power but remain subtle. <strong>High-performance windows</strong> and advanced insulation keep indoor temperatures steady year-round. Smart thermostats and zoned heating or cooling reduce energy use without drawing attention.</p><br/>
+<p>Even complex systems like energy recovery ventilation are hidden inside walls or ceilings. The result is lower utility bills and quiet, consistent comfort in every season.</p><br/>
 <p>&nbsp;</p>
 <h2>Sustainable Materials That Add Natural Beauty</h2>
-<p>Choosing <strong>sustainable architecture materials</strong> is about more than saving resources. The right materials also bring rich color and texture.</p>
+<p>Choosing <strong>sustainable architecture materials</strong> is about more than saving resources. The right materials also bring rich color and texture.</p><br/>
+<div class="pl-4">
 <ul>
 <li style="font-weight: 400;"><strong>Reclaimed wood</strong> offers character and history for floors, beams, and accent walls.</li>
-<li style="font-weight: 400;"><strong>Bamboo</strong>, a rapidly renewable resource, delivers warmth and a clean grain.</li>
-<li style="font-weight: 400;"><strong>Recycled steel</strong> provides sharp, modern lines and lasting strength.</li>
+<li style="font-weight: 400;"><strong>Bamboo</strong>, a rapidly renewable resource, delivers warmth and a clean grain.</li><br/>  
+<li style="font-weight: 400;"><strong>Recycled steel</strong> provides sharp, modern lines and lasting strength.</li><br/>  
 </ul>
+</div>
 <p>To protect indoor air, we recommend <strong>low-VOC paints and natural finishes</strong>. They release fewer chemicals and help everyone breathe easier. These finishes are standard in our <strong>kitchen remodels</strong> and <strong>bathroom remodels</strong>. They prove that eco-friendly products can also be elegant.</p>
 <p>&nbsp;</p>
         `,
@@ -1152,45 +1168,50 @@ export const blogSections: ArticleSection[] = [
         type: "text",
         text: `
 <h2>Passive Design That Works with Nature</h2>
-<p>Some of the smartest sustainable solutions are centuries old. <strong>Passive design</strong> uses the sun, wind, and shade to keep homes comfortable.</p>
-<p>We orient rooms to capture daylight and cool breezes. Deep roof overhangs block harsh summer sun but welcome winter light. Clerestory windows and operable skylights pull warm air upward and out, reducing the need for mechanical cooling.</p>
-<p>Our <strong>architectural services</strong> team uses digital modeling to balance light and shade. This keeps spaces bright and comfortable with minimal energy use. Every detail&mdash;window size, roof pitch, room placement&mdash;is planned for efficiency and beauty.</p>
+<p>Some of the smartest sustainable solutions are centuries old. <strong>Passive design</strong> uses the sun, wind, and shade to keep homes comfortable.</p><br/>
+<p>We orient rooms to capture daylight and cool breezes. Deep roof overhangs block harsh summer sun but welcome winter light. Clerestory windows and operable skylights pull warm air upward and out, reducing the need for mechanical cooling.</p><br/>
+<p>Our <strong>architectural services</strong> team uses digital modeling to balance light and shade. This keeps spaces bright and comfortable with minimal energy use. Every detail&mdash;window size, roof pitch, room placement&mdash;is planned for efficiency and beauty.</p><br/>
 <p>&nbsp;</p>
 <h2>Outdoor Spaces That Conserve Water</h2>
-<p>A sustainable home extends beyond its walls. Thoughtful landscaping saves water and supports local ecosystems while adding visual appeal.</p>
-<p>Native plants thrive in the Pacific Northwest with little irrigation. <strong>Green roofs</strong> and living walls provide insulation and attract pollinators. <strong>Rainwater harvesting systems</strong> and <strong>permeable patios</strong> collect and filter water instead of letting it run off.</p>
-<p>These outdoor features often complement our <strong>deck builds</strong> and <strong>ADU projects</strong>. Together, they create outdoor living areas that feel like natural extensions of the home.</p>
+<p>A sustainable home extends beyond its walls. Thoughtful landscaping saves water and supports local ecosystems while adding visual appeal.</p><br/>
+<p>Native plants thrive in the Pacific Northwest with little irrigation. <strong>Green roofs</strong> and living walls provide insulation and attract pollinators. <strong>Rainwater harvesting systems</strong> and <strong>permeable patios</strong> collect and filter water instead of letting it run off.</p><br/>  
+<p>These outdoor features often complement our <strong>deck builds</strong> and <strong>ADU projects</strong>. Together, they create outdoor living areas that feel like natural extensions of the home.</p><br/>
 <p>&nbsp;</p>
 <h2>Smart Technology for Everyday Efficiency</h2>
-<p>Modern technology makes sustainability simple. Smart home systems show real-time data on energy and water use, helping you track and adjust.</p>
-<p>Automated lighting dims when rooms are empty or daylight is strong. Intelligent irrigation uses weather forecasts to avoid unnecessary watering. These quiet tools <a href="/blogs/cost-of-architecture">save money</a> and resources while keeping your home stylish and clutter-free.</p>
+<p>Modern technology makes sustainability simple. Smart home systems show real-time data on energy and water use, helping you track and adjust.</p><br/>
+<p>Automated lighting dims when rooms are empty or daylight is strong. Intelligent irrigation uses weather forecasts to avoid unnecessary watering. These quiet tools <a href="/blogs/cost-of-architecture">save money</a> and resources while keeping your home stylish and clutter-free.</p><br/>
 <p>&nbsp;</p>
 <h2>Comfort and Health Inside the Home</h2>
-<p>True sustainability includes healthy indoor spaces. Clean air, natural light, and balanced humidity are essential.</p>
-<p>We design layouts that encourage natural airflow and daylight. We specify finishes with low chemical emissions and use materials that help control humidity. The result is a home that supports well-being as well as beauty.</p>
+<p>True sustainability includes healthy indoor spaces. Clean air, natural light, and balanced humidity are essential.</p><br/>  
+<p>We design layouts that encourage natural airflow and daylight. We specify finishes with low chemical emissions and use materials that help control humidity. The result is a home that supports well-being as well as beauty.</p><br/>  
 <p>&nbsp;</p>
 <h2>What Is Sustainable Architecture?</h2>
-<p>People often ask, <em>what is sustainable architecture</em>? It is a way of building that respects natural resources and creates homes that last.</p>
+<p>People often ask, <em>what is sustainable architecture</em>? It is a way of building that respects natural resources and creates homes that last.</p><br/>  
+
 <p>Key parts include:</p>
+<div class="pl-4">
 <ul>
 <li style="font-weight: 400;"><strong>Eco friendly materials</strong> that are renewable or recycled.</li>
 <li style="font-weight: 400;"><strong>Energy-smart systems</strong> that lower power and water use.</li>
-<li style="font-weight: 400;"><strong>Design strategies</strong> that work with climate and light.</li>
+<li style="font-weight: 400;"><strong>Design strategies</strong> that work with climate and light.</li><br/>
 </ul>
-<p>At Innate, these principles guide every <strong>whole home remodel</strong> and every new home we design.</p>
+</div>
+<p>At Innate, these principles guide every <strong>whole home remodel</strong> and every new home we design.</p><br/>  
 <p>&nbsp;</p>
 <h2>Style and Sustainability Go Hand in Hand</h2>
-<p>Eco-conscious choices expand design possibilities. Warm reclaimed wood, sleek bamboo, and bold recycled steel all add striking detail. Solar roofs, smart windows, and light-filled spaces become standout features.</p>
+<p>Eco-conscious choices expand design possibilities. Warm reclaimed wood, sleek bamboo, and bold recycled steel all add striking detail. Solar roofs, smart windows, and light-filled spaces become standout features.</p><br/>
 <p>Many clients are surprised by how these solutions increase visual appeal. A sustainable home can be rich in color, texture, and light. Comfort, efficiency, and style all grow together.</p>
 <p>&nbsp;</p>
 <h2>Planning Your Own Sustainable Home</h2>
-<p>Thinking about your own project? Here are a few ways to begin:</p>
+<p>Thinking about your own project? Here are a few ways to begin:</p><br/>
+<div class="pl-4">
 <ol>
 <li style="font-weight: 400;"><strong>Schedule a design consultation.</strong> Our <strong>architectural services</strong> team can assess your site, lifestyle, and goals.</li>
 <li style="font-weight: 400;"><strong>Explore a whole home remodel.</strong> We can add eco-friendly upgrades throughout your house.</li>
 <li style="font-weight: 400;"><strong>Focus on key rooms.</strong> Kitchens and baths benefit most from efficient layouts and fixtures.</li>
-<li style="font-weight: 400;"><strong>Include smart outdoor features.</strong> Decks, ADUs, and water-wise landscaping complete the picture.</li>
+<li style="font-weight: 400;"><strong>Include smart outdoor features.</strong> Decks, ADUs, and water-wise landscaping complete the picture.</li><br/>  
 </ol>
+</div>
 <p>Every project starts with a conversation and ends with a home that matches your vision and values.</p>
 <p>&nbsp;</p>
 <h2>Conclusion and Next Steps</h2>
@@ -1280,7 +1301,7 @@ export const blogSections: ArticleSection[] = [
       {
         type: "text",
         text: `
-        <p>You scroll through various bathroom renovation photos and see beautiful tile, elegant fixtures, and perfect lighting. But what you miss out on seeing is what&rsquo;s hidden behind those surfaces: professional waterproofing that will protect your bathroom.</p>
+        <p>You scroll through various bathroom renovation photos and see beautiful tile, elegant fixtures, and perfect lighting. But what you miss out on seeing is what&rsquo;s hidden behind those surfaces: professional waterproofing that will protect your bathroom.</p><br/>
 <p>Yes, waterproofing is the least exciting part of a bathroom renovation. But it&rsquo;s also a vital factor that can impact whether your remodel lasts five years or fifty. In Seattle&rsquo;s damp climate, where moisture never stops, proper waterproofing isn&rsquo;t optional. It&rsquo;s the beginning of every successful bathroom remodeling project.<br /><br /></p>
 <h2>Why Waterproofing Deserves Your Money</h2>
 <p>Here&rsquo;s an uncomfortable truth about bathroom renovations: most catastrophic failures were from waterproofing shortcuts during the initial remodel. When water gets behind the tile, it doesn&rsquo;t just sit there politely; it works into framing, ruins subfloors, grows mold, and causes structural damage that costs far more to fix than it would have cost to prevent.</p><br/>
@@ -1288,7 +1309,7 @@ export const blogSections: ArticleSection[] = [
 <p>The irony? When waterproofing is done right, you&rsquo;ll never think about it. You won&rsquo;t see it. You won&rsquo;t appreciate it until years later, when your bathroom still works perfectly while others deal with expensive repairs. It&rsquo;s the ultimate &ldquo;invisible&rdquo; bathroom remodel investment.<br /><br /></p>
 <h2>What Real Waterproofing Actually Involves</h2>
 <p>Don&rsquo;t be fooled: &ldquo;water-resistant&rdquo; isn&rsquo;t the same as waterproof. The practice of waterproofing requires a systematic, layered approach that covers every possible entry point for moisture, from the shower pan to the walls to the spots where different wall surfaces meet.</p><br/>
-<p><strong>Substrate Preparation:</strong> Before any waterproofing work starts, the underlying surfaces must be structurally sound, level, and clean. This may mean reinforcing floor joists, replacing damaged subflooring, or ensuring walls are properly framed and covered.</p>
+<p><strong>Substrate Preparation:</strong> Before any waterproofing work starts, the underlying surfaces must be structurally sound, level, and clean. This may mean reinforcing floor joists, replacing damaged subflooring, or ensuring walls are properly framed and covered.</p><br/>
 <p><strong>The Waterproofing Membrane System:</strong> In a professional Seattle bathroom remodel, this usually involves the use of liquid-applied membranes, sheet membranes, or both, depending on the specific application. These systems create a continuous barrier that stops water from reaching the structural parts of your home.</p><br/>
 <p><strong>Critical Detail Areas:</strong> Corners, changes in plane, holes for plumbing fixtures, and transitions between wet and dry areas all need special attention. Each represents a potential weak point where water could sneak in if not properly detailed. Experienced bathroom remodel contractors in Seattle employ specific techniques and products designed for these vulnerable spots. They can ensure the waterproofing system is seamless and works for the long term.<br /><br /></p>
 <h2>The Shower: Where Most Problems Start</h2>
@@ -1310,10 +1331,10 @@ export const blogSections: ArticleSection[] = [
 <p>Ventilation also plays a big supporting role in bathroom waterproofing. Even the best waterproofing system can be overwhelmed if moisture builds up in the air with nowhere to go. Properly sized <a href="https://www.consumerreports.org/home-garden/bathroom/best-bathroom-exhaust-fans-of-the-year-a3069728798/">exhaust fans</a>, ideally ducted to the exterior (not just into the attic), help remove humid air before it can condense on surfaces or work into wall cavities.</p><br/>
 <p>In a <a href="https://www.innate-aec.com/services/whole-home-remodels">whole-home remodel</a> that includes bathroom work, coordinating waterproofing with other building systems becomes important. A qualified home remodeling architect can make sure HVAC adjustments account for bathroom ventilation needs and verify that electrical work doesn&rsquo;t compromise waterproofing membranes.&nbsp;<br /><br /></p>
 <h2>Materials Matter: Picking the Right Systems</h2>
-<p>Not all waterproofing systems perform equally. Selecting appropriate materials for Seattle&rsquo;s climate is crucial.</p>
+<p>Not all waterproofing systems perform equally. Selecting appropriate materials for Seattle&rsquo;s climate is crucial.</p><br/>
 <p><strong>Liquid-Applied Membranes:</strong> These offer excellent coverage and can be easily detailed around complex shapes and penetrations. They&rsquo;re particularly useful for tricky corners and transitions.</p>
 <p><strong>Sheet Membranes:</strong> These options provide robust, consistent thickness and work particularly well on larger flat surfaces like shower floors and walls.</p><br/>
-<p>Certain products are designed for different substrate types. Some stick better to concrete, others to cement board or foam insulation boards. Using incompatible materials or skipping manufacturer-recommended primers and prep steps can compromise the entire system, regardless of the quality of individual parts.</p>
+<p>Certain products are designed for different substrate types. Some stick better to concrete, others to cement board or foam insulation boards. Using incompatible materials or skipping manufacturer-recommended primers and prep steps can compromise the entire system, regardless of the quality of individual parts.</p><br/>
 <p>Working with bathroom renovation contractors who understand these details and follow manufacturer specs helps ensure your waterproofing system performs as designed.&nbsp;<br /><br /></p>
 <h2>The Cost-Benefit Math</h2>
 <p>Professional waterproofing adds to upfront bathroom remodeling costs, typically representing 10-15% of the total project budget. This might include premium membrane systems, proper drainage solutions, quality substrates, and the labor to install everything right.</p><br/>
@@ -1348,14 +1369,17 @@ export const blogSections: ArticleSection[] = [
         text: `
         <p>Struggling with a small kitchen that feels congested, no matter how much you declutter? You&rsquo;re not alone, and you&rsquo;re probably struggling with the layout and storage approach rather than the actual square footage problem. But the good news is that small kitchens can function well when every design decision works towards creating an open usable space.<br /><br />Whether you&rsquo;re planning a kitchen remodel to improve function, update an outdated space, or add value to your Seattle home, we&rsquo;re here to walk you through the creative storage solutions and layout changes that make small kitchens work.<br /><br /></p>
 <h2>Why Small Kitchens Feel Cramped</h2>
-<p>Before jumping into kitchen remodel ideas for small kitchen spaces, let&rsquo;s understand the problem. The visual clutter, like the collection of hardware, appliances, open shelving, and other surfaces, creates a messy feel that makes spaces seem smaller than they actually are. The easy solution is to reduce visual interruptions. This doesn&rsquo;t mean giving up your appliances or kitchen materials, but it means being intentional about what stays visible.<br /><br /></p>
+<p>Before jumping into kitchen remodel ideas for small kitchen spaces, let&rsquo;s understand the problem. The visual clutter, like the collection of hardware, appliances, open shelving, and other surfaces, creates a messy feel that makes spaces seem smaller than they actually are. The easy solution is to reduce visual interruptions. This doesn&rsquo;t mean giving up your appliances or kitchen materials, but it means being intentional about what stays visible.</p><br/>
 <h2>Handle-Free Cabinets for a Cleaner Look</h2>
-<p>Nowadays, the handle-free cabinets, also called push-to-open or integrated-grip designs, have become popular in <a href="https://www.innate-aec.com/services/kitchen-remodeling">kitchen remodeling</a>. By getting rid of that hardware, they create clean, uninterrupted surfaces that make spaces feel larger.</p>
-<p>There are two main types to consider:<br /><br /><strong>Push-to-Open Mechanisms:</strong> These work well in modern designs and offer completely smooth surfaces.&nbsp;</p>
+<p>Nowadays, the handle-free cabinets, also called push-to-open or integrated-grip designs, have become popular in <a href="https://www.innate-aec.com/services/kitchen-remodeling">kitchen remodeling</a>. By getting rid of that hardware, they create clean, uninterrupted surfaces that make spaces feel larger.</p><br/>
+<h3>There are two main types to consider:<br /></h3>
+<p><strong>Push-to-Open Mechanisms:</strong> These work well in modern designs and offer completely smooth surfaces.&nbsp;</p><br/>
 <p><strong>Integrated Grip Systems:</strong> These feature a channel built into the cabinet edge.&nbsp;<br /><br /></p>
 <h2>Creative Storage Solutions That Actually Work</h2>
-<p>In a small kitchen, every inch counts&mdash;but standard cabinets are notorious for wasting it. Between those &ldquo;dead&rdquo; corners that swallow your cookware and the vertical space left empty above the shelves, you&rsquo;re losing more room than you think. Customizing these gaps is the only way to make a compact kitchen truly functional.&nbsp;</p>
-<p>Here are proven storage solutions tailored to small-space kitchen renovation projects:<br /><br /><strong>Pull-Out Systems</strong>: These transform deep cabinets into accessible storage where everything stays visible and reachable. <br /><br /><strong>Corner Carousels</strong>: Also called lazy Susans or magic corner systems, these make previously wasted <a href="https://www.bhg.com/kitchen/storage/organization/corner-cabinet-storage/">corner areas</a> functional and easy to access.<br /><br /><strong>Floor-to-Ceiling Cabinets</strong>: Tall cabinets that extend all the way up capture storage space that would otherwise sit empty. <br /><br /><strong>Custom Drawer Dividers</strong>: Keep utensils, spices, and cooking tools organised without wasting space.<br /><br /><strong>Toe-Kick Drawers</strong>: These capture the space typically wasted under base cabinets.<br /><br /></p>
+<p>In a small kitchen, every inch counts&mdash;but standard cabinets are notorious for wasting it. Between those &ldquo;dead&rdquo; corners that swallow your cookware and the vertical space left empty above the shelves, you&rsquo;re losing more room than you think. Customizing these gaps is the only way to make a compact kitchen truly functional.&nbsp;</p><br/>
+<h3>Here are proven storage solutions tailored to small-space kitchen renovation projects:</h3>
+<p><strong>Pull-Out Systems</strong>: These transform deep cabinets into accessible storage where everything stays visible and reachable.</p><br />
+<p><strong>Corner Carousels</strong>: Also called lazy Susans or magic corner systems, these make previously wasted <a href="https://www.bhg.com/kitchen/storage/organization/corner-cabinet-storage/">corner areas</a> functional and easy to access.<br /><br /><strong>Floor-to-Ceiling Cabinets</strong>: Tall cabinets that extend all the way up capture storage space that would otherwise sit empty. <br /><br /><strong>Custom Drawer Dividers</strong>: Keep utensils, spices, and cooking tools organised without wasting space.<br /><br /><strong>Toe-Kick Drawers</strong>: These capture the space typically wasted under base cabinets.<br /><br /></p>
         `,
       },
       {
