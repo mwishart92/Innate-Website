@@ -269,14 +269,14 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
                             {textBeforeFaq && (
                               <div
                                 dangerouslySetInnerHTML={{ __html: textBeforeFaq }}
-                                className="[&_a]:text-blue-500 [&_h2]:font-bold mt-10"
+                                className="[&_a]:text-blue-500 [&_h2]:font-bold [&_h2]:text-[22px] mt-10"
                               ></div>
                             )}
                             <BlogFaq faqItems={faqData} />
                             {textAfterFaq && (
                               <div
                                 dangerouslySetInnerHTML={{ __html: textAfterFaq }}
-                                className="[&_a]:text-blue-500 [&_h2]:font-bold mt-10"
+                                className="[&_a]:text-blue-500 [&_h2]:font-bold [&_h2]:text-[22px] mt-10"
                               ></div>
                             )}
                           </>
@@ -287,7 +287,7 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
                     return (
                       <div
                         dangerouslySetInnerHTML={{ __html: item.text || "" }}
-                        className="[&_a]:text-blue-500 [&_h2]:font-bold mt-10"
+                        className="[&_a]:text-blue-500 [&_h2]:font-bold [&_h2]:text-[22px] mt-10"
                       ></div>
                     );
                   })()}

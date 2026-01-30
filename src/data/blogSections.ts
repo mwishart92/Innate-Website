@@ -1158,12 +1158,6 @@ export const blogSections: ArticleSection[] = [
     publishedDate: "27 January, 2026",
     content: [
       {
-        type: "image",
-        src: ["/images/press/pexels-photo-19309671.webp"],
-
-        alt: "Image description",
-      },
-      {
         type: "text",
         text: `
         <p><span style="font-weight: 400;">There is a unique charm to a mid-century Seattle home, from its iconic clean lines to light-filled rooms. But it was built for a different era. By upgrading the classic single-pane windows and vintage kitchen, you aren&rsquo;t just fixing leaks&mdash;you&rsquo;re also perfecting the Seattle lifestyle. And the real question isn&rsquo;t whether to update, but how to do it without destroying what makes your home special. We&rsquo;re here to help you preserve the bright, airy feel you love while leaving behind the drafts and rattles typical of the &lsquo;40s through the &lsquo;70s.<br /><br /></span></p>
@@ -1178,6 +1172,16 @@ export const blogSections: ArticleSection[] = [
 <p><span style="font-weight: 400;">When planning to expand the kitchen, you have to work with a </span><a href="https://www.innate-aec.com/services/architectural-services"><span style="font-weight: 400;">home remodeling architect</span></a><span style="font-weight: 400;"> who knows post-and-beam construction. While remodeling changes the structure, we need to respect how these homes were built. We can&rsquo;t just knock out walls without knowing what&rsquo;s holding things up. The goal is to create a space where cooking, dining, and entertaining flow naturally without hurting the structure or the design that makes the kitchen worth remodeling.<br /><br /></span></p>
 <h2><strong>Fixing What&rsquo;s Behind the Walls</strong></h2>
 <p><span style="font-weight: 400;">Peek behind the walls of a classic mid-century home and you&rsquo;ll find a time capsule of outdated tech. Think of these &ldquo;invisible&rdquo; upgrades&mdash;like replacing old wiring or adding high-performance insulation&mdash;as the home&rsquo;s new foundation. Addressing these hidden layers isn&rsquo;t just about safety; it&rsquo;s also about ensuring your vintage gem provides 21st-century comfort and long-term value without completely changing how the house looks.&nbsp;<br /><br /></span></p>
+        `,
+      },
+      {
+        type: "image",
+        src: ["/images/press/pexels-photo-19309671.webp"],
+        alt: "Image description",
+      },
+      {
+        type: "text",
+        text: `
 <h2><strong>Saving Original Materials</strong></h2>
 <p><span style="font-weight: 400;">Mid-century modern homes often have materials that have aged well. For example, warm wood paneling, terrazzo floors, brick fireplaces, and natural stone accents. Before deciding to remove or cover these, check whether they can be restored or integrated into your updated design.</span></p>
 <p><span style="font-weight: 400;">When bringing new materials, pick options that work with existing finishes instead of fighting them. For instance, pair original wood paneling with new cabinets to balance old and new and keep the warmth while evolving for the way you live today.<br /><br /></span></p>
@@ -1214,12 +1218,6 @@ export const blogSections: ArticleSection[] = [
     publishedDate: "27 January, 2026",
     content: [
       {
-        type: "image",
-        src: ["/images/press/pexels-curtis-adams-1694007-19227341.webp"],
-
-        alt: "Image description",
-      },
-      {
         type: "text",
         text: `
         <p><span style="font-weight: 400;">You scroll through various bathroom renovation photos and see beautiful tile, elegant fixtures, and perfect lighting. But what you miss out on seeing is what&rsquo;s hidden behind those surfaces: professional waterproofing that will protect your bathroom.</span></p>
@@ -1237,21 +1235,31 @@ export const blogSections: ArticleSection[] = [
 <p><span style="font-weight: 400;">If there&rsquo;s one area in the bathroom where waterproofing matters most, it&rsquo;s the shower. Water flows directly onto surfaces, pools in corners, and tests every seam and transition every single day. A properly waterproofed shower area is one of the more complex parts of bathroom renovation or construction.</span></p>
 <p><span style="font-weight: 400;">The shower pan or base needs a waterproof barrier that extends up the walls at least six inches (and often higher, depending on the design). Walls in the shower need continuous waterproofing from the floor to a point above the highest spray of water. Curbs, benches, and niches each need careful detailing to ensure water can&rsquo;t migrate behind surfaces.</span></p>
 <p><span style="font-weight: 400;">Modern waterproof shower systems often use pre-sloped shower pans with built-in drains and waterproofing that ties directly into the wall membrane system.&nbsp;<br /><br /></span></p>
+        `,
+      },
+      {
+        type: "image",
+        src: ["/images/press/pexels-curtis-adams-1694007-19227341.webp"],
+        alt: "Image description",
+      },
+      {
+        type: "text",
+        text: `
 <h2><strong>Beyond the Shower: Whole-Bathroom Needs</strong></h2>
-<p><span style="font-weight: 400;">While the shower demands the most rigorous waterproofing, the rest of the bathroom needs attention, too. Areas around the bathtub, particularly the tub deck and surrounding walls, need proper waterproofing. The floor in front of the shower and around the toilet should be protected against water that splashes or spills during normal use.</span></p>
-<p><span style="font-weight: 400;">Ventilation also plays a big supporting role in bathroom waterproofing. Even the best waterproofing system can be overwhelmed if moisture builds up in the air with nowhere to go. Properly sized </span><a href="https://www.consumerreports.org/home-garden/bathroom/best-bathroom-exhaust-fans-of-the-year-a3069728798/"><span style="font-weight: 400;">exhaust fans</span></a><span style="font-weight: 400;">, ideally ducted to the exterior (not just into the attic), help remove humid air before it can condense on surfaces or work into wall cavities.</span></p>
+<p><span style="font-weight: 400;">While the shower demands the most rigorous waterproofing, the rest of the bathroom needs attention, too. Areas around the bathtub, particularly the tub deck and surrounding walls, need proper waterproofing. The floor in front of the shower and around the toilet should be protected against water that splashes or spills during normal use.</span></p><br/>
+<p><span style="font-weight: 400;">Ventilation also plays a big supporting role in bathroom waterproofing. Even the best waterproofing system can be overwhelmed if moisture builds up in the air with nowhere to go. Properly sized </span><a href="https://www.consumerreports.org/home-garden/bathroom/best-bathroom-exhaust-fans-of-the-year-a3069728798/"><span style="font-weight: 400;">exhaust fans</span></a><span style="font-weight: 400;">, ideally ducted to the exterior (not just into the attic), help remove humid air before it can condense on surfaces or work into wall cavities.</span></p><br/>
 <p><span style="font-weight: 400;">In a </span><a href="https://www.innate-aec.com/services/whole-home-remodels"><span style="font-weight: 400;">whole-home remodel</span></a><span style="font-weight: 400;"> that includes bathroom work, coordinating waterproofing with other building systems becomes important. A qualified home remodeling architect can make sure HVAC adjustments account for bathroom ventilation needs and verify that electrical work doesn&rsquo;t compromise waterproofing membranes.&nbsp;<br /><br /></span></p>
 <h2><strong>Materials Matter: Picking the Right Systems</strong></h2>
 <p><span style="font-weight: 400;">Not all waterproofing systems perform equally. Selecting appropriate materials for Seattle&rsquo;s climate is crucial.</span></p>
 <p><strong>Liquid-Applied Membranes:</strong><span style="font-weight: 400;"> These offer excellent coverage and can be easily detailed around complex shapes and penetrations. They&rsquo;re particularly useful for tricky corners and transitions.</span></p>
-<p><strong>Sheet Membranes:</strong><span style="font-weight: 400;"> These options provide robust, consistent thickness and work particularly well on larger flat surfaces like shower floors and walls.</span></p>
+<p><strong>Sheet Membranes:</strong><span style="font-weight: 400;"> These options provide robust, consistent thickness and work particularly well on larger flat surfaces like shower floors and walls.</span></p><br/><br/>
 <p><span style="font-weight: 400;">Certain products are designed for different substrate types. Some stick better to concrete, others to cement board or foam insulation boards. Using incompatible materials or skipping manufacturer-recommended primers and prep steps can compromise the entire system, regardless of the quality of individual parts.</span></p>
 <p><span style="font-weight: 400;">Working with bathroom renovation contractors who understand these details and follow manufacturer specs helps ensure your waterproofing system performs as designed.</span><span style="font-weight: 400;">&nbsp;<br /><br /></span></p>
 <h2><strong>The Cost-Benefit Math</strong></h2>
-<p><span style="font-weight: 400;">Professional waterproofing adds to upfront bathroom remodeling costs, typically representing 10-15% of the total project budget. This might include premium membrane systems, proper drainage solutions, quality substrates, and the labor to install everything right.</span></p>
+<p><span style="font-weight: 400;">Professional waterproofing adds to upfront bathroom remodeling costs, typically representing 10-15% of the total project budget. This might include premium membrane systems, proper drainage solutions, quality substrates, and the labor to install everything right.</span></p><br/>
 <p><span style="font-weight: 400;">But consider the other option. Repairing water damage often means demolishing and rebuilding the entire bathroom&mdash;essentially paying for the remodel twice, plus fixing structural damage, mold remediation, and potential damage to adjacent spaces. The cost of proper waterproofing from the start is tiny compared to the expense of correcting waterproofing failures later.<br /><br /></span></p>
 <h2><strong>The Innate NW Approach</strong></h2>
-<p><span style="font-weight: 400;">At Innate NW, we treat waterproofing with the seriousness it deserves. Every Seattle bathroom remodel we do begins with a complete waterproofing strategy tailored to the specific conditions of your home and bathroom layout. We use professional membrane systems, follow the manufacturer&rsquo;s instructions precisely, and pay close attention to the details that separate adequate waterproofing from exceptional protection.</span></p>
+<p><span style="font-weight: 400;">At Innate NW, we treat waterproofing with the seriousness it deserves. Every Seattle bathroom remodel we do begins with a complete waterproofing strategy tailored to the specific conditions of your home and bathroom layout. We use professional membrane systems, follow the manufacturer&rsquo;s instructions precisely, and pay close attention to the details that separate adequate waterproofing from exceptional protection.</span></p><br/>
 <p><span style="font-weight: 400;">A waterproof bathroom remodel from Innate NW means you can enjoy your updated space with complete confidence, knowing that behind those beautiful tiles and elegant fixtures lies a robust barrier protecting your home from moisture damage for years to come.<br /><br /></span></p>
 <h2><strong>Ready to Invest in a Bathroom Remodel That&rsquo;s Built to Last?</strong></h2>
 <p><a href="https://www.innate-aec.com/contact"><span style="font-weight: 400;">Contact Innate NW</span></a><span style="font-weight: 400;"> to discuss professional waterproofing strategies and create a bathroom that combines beauty with long-term strength and protection.</span></p>
