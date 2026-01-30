@@ -49,11 +49,6 @@ export const blogSections: ArticleSection[] = [
     publishedDate: "17 August, 2024",
     content: [
       {
-        type: "image",
-        src: ["/images/blog/fram1.png"],
-        alt: "Image description",
-      },
-      {
         type: "text",
         text: `
           <p>
@@ -68,6 +63,16 @@ export const blogSections: ArticleSection[] = [
           Once the waiver request is submitted, Bellevue's plan review team will assess its validity based on various factors, including the project's address, scope, and complexity. The review team will determine whether the requested waiver is reasonable, given the specifics of the site and the proposed construction. If the waiver is approved, the homeowner can proceed without submitting the waived documents, streamlining the permit process. However, if the review team deems the waiver inappropriate, the standard documentation will still be required to ensure the project meets all city regulations and standards.<br/><br/> 
           Similarly, a geotechnical report, which provides an <a href="/blogs/soils-report-civil-engineer-bellevue">analysis of the soil</a> and subsurface conditions of a construction site, is not automatically required for every home addition in Bellevue. However, the necessity of this report is often determined during the plan review process, based on the specific details of the project. The plan reviewer will assess the scope, location, site conditions, and complexity of the proposed work to determine if a geotechnical report is needed. For example, if the addition involves significant excavation, is located on a steep slope, or is in an area with known soil stability issues, the plan reviewer may require a geotechnical report to ensure the safety and stability of the structure. This report, typically prepared by a licensed geotechnical engineer, would provide critical information on the soil's bearing capacity, potential for landslides, or other geotechnical factors that could impact the project. If the plan reviewer decides that a geotechnical report is necessary, the homeowner must obtain and submit it as part of the permit application. This determination is made to ensure that all potential risks are addressed, and that the construction is safe and compliant with Bellevue's regulations. <br/><br/> 
           </p>
+        `,
+      },
+      {
+        type: "image",
+        src: ["/images/blog/fram1.png"],
+        alt: "Image description",
+      },
+      {
+        type: "text",
+        text: `
           <h2>Minimizing Risks with Planning</h2>
           <p>
           Determining whether a project will be a straightforward architectural endeavor or a more complex one involving multiple consultants is a crucial consideration for homeowners. The complexity of the project can greatly influence the overall cost, potentially escalating from $10-15K to $20-30K or more, depending on the scope. Factors such as site conditions, zoning regulations, and the specific requirements of Bellevue's building codes play a significant role in this determination. An architect is the best person to guide clients through this process. With their expertise, architects can help homeowners navigate the intricate zoning and building codes of Bellevue and provide a clear understanding of what the project will entail. By evaluating the project's scope, the architect can anticipate the need for additional consultants, such as civil engineers, geotechnical engineers, or landscape architects, and explain how these requirements might impact both the complexity and <a href="/blogs/seattle-home-remodeling-cost-and-timelines">cost of the project</a>. <br/><br/>
@@ -89,11 +94,6 @@ export const blogSections: ArticleSection[] = [
     publishedDate: "27 April, 2024",
     content: [
       {
-        type: "image",
-        src: ["/images/blog/Frame2.png"],
-        alt: "Image description",
-      },
-      {
         type: "text",
         text: `
         <p>The cost of architecture is a contentious topic and a difficult one to find a consensus on. The American Institute of Architects suggests that design fees for remodels are generally around 15% of the eventual construction cost, while for new construction projects, it's around 10%. However you can also find designers who will charge only a few thousand dollars for a complete set of drawings.</p>
@@ -109,6 +109,17 @@ export const blogSections: ArticleSection[] = [
           <br/><br/>
             3. Time: Throughout any project, there are numerous pivotal moments before and during construction when your architect's immediate availability is crucial. These include meeting deadlines set by building departments, providing on-the-spot clarifications to builders regarding construction techniques, addressing client concerns or anxieties about budget estimates, dealing with inspectors requesting costly but unnecessary additions, or assisting clients in making significant decisions during moments of stress or uncertainty. On countless occasions, I've had to prioritize my clients' projects over personal commitments, sacrificing leisure time, and even family moments to ensure that urgent project needs are met promptly. I view it as renting out my expertise, always on standby to assist whenever needed. Moreover, architects remain available even during times when clients do not require immediate assistance. Despite potential lulls in project activity, architects must keep their businesses operational and maintain readiness for crucial tasks, much like surgeons who remain on standby in the ER, ready to act when required.
           <br/><br/>
+        `,
+      },
+      {
+        type: "image",
+        src: ["/images/blog/Frame2.png"],
+        alt: "Image description",
+      },
+      {
+        type: "text",
+        text: `
+        <p>
             4. Coordination: Your architect serves as the central coordinator for all parties involved in bringing your building project to fruition. They possess comprehensive understanding of technical details from builders, product suppliers, building departments, and engineers, amalgamating this information into a cohesive set of documents essential for your project team. The architect oversees the collaboration of various professionals including surveyors, structural engineers, mechanical engineers, electrical engineers, plumbing engineers, geotechnical engineers, civil engineers, builders, building departments, inspectors, arborists, ecologists, biologists, landscape architects, lighting designers, smart home technology providers, real estate agents, archaeologists, historians, neighborhood groups, and numerous material suppliers.
           <br/><br/>
             5. Assurance: By engaging an architect, you secure the confidence that your building will function effectively, remaining leak-free, tailored to your requirements, comfortable, and safe. Optimal performance is ensured when the architect remains involved throughout the entire project, including the construction phase. Fragmented commissioning, akin to assembling only the bread for a sandwich, yields subpar results. To achieve optimal outcomes, the architect must oversee the entire process.
@@ -132,13 +143,17 @@ export const blogSections: ArticleSection[] = [
     publishedDate: "17 April, 2024",
     content: [
       {
+        type: "text",
+        text: "Are you feeling the weight of uncertainty after filing a water damage claim with your insurance company? Have you ever wondered if the estimate you received truly reflects the extent of the damages to your home? It's a troubling reality that many homeowners face – the nagging suspicion that they might be getting shortchanged by their insurance provider. As you navigate the aftermath of water damage, it's crucial to pause and scrutinize the estimate provided by your insurer. Is it comprehensive enough? Or are you being taken advantage of? Let's delve into this together and unravel the mysteries of insurance estimates, ensuring that you're not just compensated, but fairly so, for the damages incurred in your home. \n Consider the case of Sarah, whose home suffered extensive water damage due to a burst pipe. After filing a claim with her insurance company, she received an estimate that seemed reasonable at first glance. However, upon further inspection and consultation with contractors, it became evident that the estimate fell far short of covering the actual costs of repair. Despite Sarah's efforts to find a contractor willing to work within the confines of the insurer's check, she faced disappointment after disappointment. Contractors either declined the job outright or offered to do only a fraction of the necessary repairs for the amount specified. Frustrated and feeling trapped, Sarah realized she was stuck between a rock and a hard place – forced to either accept subpar repairs or dip into her own pockets to cover the shortfall. \n ",
+      },
+      {
         type: "image",
         src: ["/images/blog/Frame2.png"],
         alt: "Image description",
       },
       {
         type: "text",
-        text: "Are you feeling the weight of uncertainty after filing a water damage claim with your insurance company? Have you ever wondered if the estimate you received truly reflects the extent of the damages to your home? It's a troubling reality that many homeowners face – the nagging suspicion that they might be getting shortchanged by their insurance provider. As you navigate the aftermath of water damage, it's crucial to pause and scrutinize the estimate provided by your insurer. Is it comprehensive enough? Or are you being taken advantage of? Let's delve into this together and unravel the mysteries of insurance estimates, ensuring that you're not just compensated, but fairly so, for the damages incurred in your home. \n Consider the case of Sarah, whose home suffered extensive water damage due to a burst pipe. After filing a claim with her insurance company, she received an estimate that seemed reasonable at first glance. However, upon further inspection and consultation with contractors, it became evident that the estimate fell far short of covering the actual costs of repair. Despite Sarah's efforts to find a contractor willing to work within the confines of the insurer's check, she faced disappointment after disappointment. Contractors either declined the job outright or offered to do only a fraction of the necessary repairs for the amount specified. Frustrated and feeling trapped, Sarah realized she was stuck between a rock and a hard place – forced to either accept subpar repairs or dip into her own pockets to cover the shortfall. \n This is where the expertise and advocacy of a seasoned general contractor can make all the difference. A contractor with ample experience and knowledge in handling insurance claims can serve as a powerful ally for the homeowner. With a thorough understanding of construction costs and industry standards, a skilled contractor can scrutinize the initial estimate provided by the insurance company, identifying areas where the assessment may have fallen short. Armed with evidence and a detailed understanding of the necessary repairs, the contractor can then engage in negotiations with the insurance company on behalf of the homeowner. By advocating for a supplement estimate that accurately reflects the true extent of the damages, the contractor puts pressure on the insurer to reassess the claim and provide adequate compensation. This proactive approach not only ensures that the homeowner receives fair treatment but also alleviates the burden of navigating the complexities of insurance claims alone. \n Before embarking on this journey, it's important for the homeowner to understand that aligning with a general contractor in this capacity typically involves signing a contingency form. This document solidifies the contractor as the homeowner's chosen representative throughout the claims process. By signing this agreement, the homeowner authorizes the contractor to advocate on their behalf, negotiate with the insurance company, and handle all aspects of the repair process. Once this partnership is established, the general contractor employs a full arsenal of tools and tactics to apply pressure on the insurance company. From leveraging industry expertise and documentation of damages to utilizing legal channels if necessary, the contractor leaves no stone unturned in ensuring that the insurance provider fulfills its obligations and provides a fair and comprehensive estimate for the damages incurred. This strategic collaboration between homeowner and contractor forms a powerful force, compelling the insurance company to do the right thing and deliver the compensation deserved. \n Innate AEC stands out as the premier choice for handling insurance claims across a spectrum of damages, from burst pipes to leaking roofs and beyond. What sets Innate AEC apart is not only its professionalism but also its relentless commitment to advocating for the client's best interests. With a team boasting years of combined experience in architecture, engineering, and construction, Innate AEC possesses the expertise needed to navigate the intricate complexities of insurance claims with finesse. Their ability to apply pressure on insurance companies while upholding the highest standards of professionalism ensures that clients receive the compensation they rightfully deserve. Whether faced with a burst pipe in the kitchen, fire damage, or a leaking roof, Innate AEC's dedication to excellence and unwavering advocacy make them the ultimate partner in the pursuit of fair and comprehensive insurance settlements.",
+        text: "This is where the expertise and advocacy of a seasoned general contractor can make all the difference. A contractor with ample experience and knowledge in handling insurance claims can serve as a powerful ally for the homeowner. With a thorough understanding of construction costs and industry standards, a skilled contractor can scrutinize the initial estimate provided by the insurance company, identifying areas where the assessment may have fallen short. Armed with evidence and a detailed understanding of the necessary repairs, the contractor can then engage in negotiations with the insurance company on behalf of the homeowner. By advocating for a supplement estimate that accurately reflects the true extent of the damages, the contractor puts pressure on the insurer to reassess the claim and provide adequate compensation. This proactive approach not only ensures that the homeowner receives fair treatment but also alleviates the burden of navigating the complexities of insurance claims alone. \n Before embarking on this journey, it's important for the homeowner to understand that aligning with a general contractor in this capacity typically involves signing a contingency form. This document solidifies the contractor as the homeowner's chosen representative throughout the claims process. By signing this agreement, the homeowner authorizes the contractor to advocate on their behalf, negotiate with the insurance company, and handle all aspects of the repair process. Once this partnership is established, the general contractor employs a full arsenal of tools and tactics to apply pressure on the insurance company. From leveraging industry expertise and documentation of damages to utilizing legal channels if necessary, the contractor leaves no stone unturned in ensuring that the insurance provider fulfills its obligations and provides a fair and comprehensive estimate for the damages incurred. This strategic collaboration between homeowner and contractor forms a powerful force, compelling the insurance company to do the right thing and deliver the compensation deserved. \n Innate AEC stands out as the premier choice for handling insurance claims across a spectrum of damages, from burst pipes to leaking roofs and beyond. What sets Innate AEC apart is not only its professionalism but also its relentless commitment to advocating for the client's best interests. With a team boasting years of combined experience in architecture, engineering, and construction, Innate AEC possesses the expertise needed to navigate the intricate complexities of insurance claims with finesse. Their ability to apply pressure on insurance companies while upholding the highest standards of professionalism ensures that clients receive the compensation they rightfully deserve. Whether faced with a burst pipe in the kitchen, fire damage, or a leaking roof, Innate AEC's dedication to excellence and unwavering advocacy make them the ultimate partner in the pursuit of fair and comprehensive insurance settlements.",
       },
     ],
   },
@@ -154,6 +169,15 @@ export const blogSections: ArticleSection[] = [
     publishedDate: "3 February, 2024",
     content: [
       {
+        type: "text",
+        text: `
+          <p>When getting bids for construction, it can be quite a daunting process. When you reach out to a general contractor and ask for a bid, you may not hear back for several weeks, if at all. What is the builder doing during this time? Why won't they just send you an estimate like you want?</p>
+          <p>There are many reasons that the builder is not as responsive as you would hope. The most common reason is that the builder is devoting more time to a currant project rather than speculating on yours. Estimates are typically free, but they can take time and energy to write, especially if the project is complex. We need to predict the costs of all materials both rough and finish, the cost of up to 10 different trades without even speaking with them, and judge the overall complexity, timeline and contingency of a project based on a brief walk-through. So while the builder may have the best intentions, writing estimates is something we often do at 10pm once the day is over, the kitchen is clean and the kids are in bed, and this means it is usually a last priority.</p><br/>
+          <p>Another reason is that they simply don't want to do your project. Maybe the work is unappealing or unfeasible at the price the client wants.</p>
+          <p>Finally, many bids are difficult to put together. When a builder reaches out to suppliers for the price of materials, they often don't respond for days or even weeks. And when they reach out to sub contractors for say, the price of plumbing on this job, they often take a long time to respond and put their numbers together.</p>
+        `,
+      },
+      {
         type: "image",
         src: ["/images/blog/Frame2.png"],
         alt: "Image description",
@@ -161,11 +185,7 @@ export const blogSections: ArticleSection[] = [
       {
         type: "text",
         text: `
-          <p>When getting bids for construction, it can be quite a daunting process. When you reach out to a general contractor and ask for a bid, you may not hear back for several weeks, if at all. What is the builder doing during this time? Why won't they just send you an estimate like you want?</p>
-          <p>There are many reasons that the builder is not as responsive as you would hope. The most common reason is that the builder is devoting more time to a currant project rather than speculating on yours. Estimates are typically free, but they can take time and energy to write, especially if the project is complex. We need to predict the costs of all materials both rough and finish, the cost of up to 10 different trades without even speaking with them, and judge the overall complexity, timeline and contingency of a project based on a brief walk-through. So while the builder may have the best intentions, writing estimates is something we often do at 10pm once the day is over, the kitchen is clean and the kids are in bed, and this means it is usually a last priority.</p>
-          <p>Another reason is that they simply don't want to do your project. Maybe the work is unappealing or unfeasible at the price the client wants.</p>
-          <p>Finally, many bids are difficult to put together. When a builder reaches out to suppliers for the price of materials, they often don't respond for days or even weeks. And when they reach out to sub contractors for say, the price of plumbing on this job, they often take a long time to respond and put their numbers together.</p>
-          <p>Upon receiving a bid from <a href="/blogs/choosing-custom-home-builder">your builder</a>, you might encounter a lack of responsiveness, often due to various reasons. This suggests that your project holds less urgency compared to the active construction. Another factor contributing to the builder's lack of responsiveness may be their recent submission of five bids to other clients. They await responses to determine if any projects were accepted. Typically, out of these bids, two projects may not materialize, while one could be awarded to a different builder. The remaining two projects might be awarded to the builder you're considering, leading them to prioritize those clients over you. When there are an excess of projects and not enough builders, general contractors hold the power and can not respond, drive the prices up and generally pick and choose their projects. Conversely, when there are not enough jobs and too many builders, the client has the power to bargain the price down and dictate terms. In Seattle for example, during the summer, there are an excess of decks, roofing and siding projects that need to be done due to the prior 6 months of rain, and you might find yourself in a situation where you simply cannot find a general contractor to do your job in your budget or on your timeline.</p> 
+          <p>Upon receiving a bid from <a href="/blogs/choosing-custom-home-builder">your builder</a>, you might encounter a lack of responsiveness, often due to various reasons. This suggests that your project holds less urgency compared to the active construction. Another factor contributing to the builder's lack of responsiveness may be their recent submission of five bids to other clients. They await responses to determine if any projects were accepted. Typically, out of these bids, two projects may not materialize, while one could be awarded to a different builder. The remaining two projects might be awarded to the builder you're considering, leading them to prioritize those clients over you. When there are an excess of projects and not enough builders, general contractors hold the power and can not respond, drive the prices up and generally pick and choose their projects. Conversely, when there are not enough jobs and too many builders, the client has the power to bargain the price down and dictate terms. In Seattle for example, during the summer, there are an excess of decks, roofing and siding projects that need to be done due to the prior 6 months of rain, and you might find yourself in a situation where you simply cannot find a general contractor to do your job in your budget or on your timeline.</p> <br/>
           <p>In the end, it falls upon the builder to discern the most favorable opportunity. Factors such as profitability, logistical convenience (e.g., parking, storage space), and proximity to their base are evaluated. Additionally, the builder assesses the prospective client relationship, considering potential challenges (basically, are you going to be a giant pain in their ass?). These elements collectively influence the builder's decision to engage with a specific project. Ultimately, your significance to them may not align with your perception. </p>
         `,
       },
@@ -183,6 +203,34 @@ export const blogSections: ArticleSection[] = [
     publishedDate: "3 February, 2024",
     content: [
       {
+        type: "text",
+        text: `
+       <h1 ><strong>How Design Impacts Long-Term Property Value</strong></h1>
+<p style=""><strong><br></strong></p>
+<p style="">When we think about real estate value, location, square footage, and school districts often come to mind first. But one of the most overlooked factors is architectural design. Great architecture isn&apos;t just about aesthetics; it&apos;s a strategic investment that enhances functionality, energy efficiency, and long-term desirability.</p>
+<p style=""><br></p>
+<p style="">In the Seattle area, where real estate is competitive and buyers are discerning, homes and buildings designed with intention tend to appreciate more consistently and command higher resale values. At Innate, we combine thoughtful&nbsp;<a href="https://www.innate-nw.com/services/architectural-services">architectural design</a>, sustainable materials, and expert craftsmanship to help homeowners and developers boost long-term property value.</p>
+
+<h2>1. Curb Appeal and First Impressions</h2>
+<p style="">Your property only has one chance to make a first impression. High-quality residential design that enhances curb appeal can elevate a home from standard to standout. Features such as modern facades, balanced proportions, and complementary landscaping contribute to the overall value of a property. In Seattle&apos;s residential neighborhoods like Queen Anne, Ballard, or West Seattle, curb appeal is a key differentiator for homebuyers.</p>
+<p style=""><br></p>
+<p style="">Curb appeal also creates emotional resonance. Buyers form instant opinions based on exterior impressions, which can influence not just perceived value, but offer amounts and time on market. A home that &ldquo;looks right&rdquo; often sells faster and for more.</p>
+<p style=""><br></p>
+<h2>2. Functional Space Planning</h2>
+<p style="">Design that makes use of every square foot adds daily value to a homeowner&rsquo;s life. Open layouts, smart flow, and multipurpose rooms make a home more livable and marketable. Seattle buyers often look for floor plans that support flexible living&mdash;from remote workspaces to in-law suites.</p>
+<p style=""><br></p>
+<p style="">Our team at Innate specializes in custom spatial planning that aligns with our clients&apos; unique lifestyle needs and maximizes usability. We ensure that no square foot is wasted and every space is intentional. Our process blends architectural insight with lived experience, asking: How will people actually use this space? What will make it easier, more joyful, or more efficient?</p>
+<p style=""><br></p>
+<h2>3. Energy Efficiency and Sustainability</h2>
+<p style="">Energy-efficient homes are no longer a luxury&mdash;they&rsquo;re expected. Seattle&apos;s climate and progressive policies have made sustainable building practices a priority.</p>
+<p style=""><br></p>
+<p style="">Well-thought-out structures consider orientation, window placement, insulation, and HVAC integration. These design choices lead to lower energy bills and increased property value. Innate &nbsp;incorporates eco-friendly construction into every residential and commercial project, ensuring sustainable value over time. With certifications like LEED or Built Green often boosting resale, efficiency is as good for the wallet as it is for the planet.</p>
+<p style=""><br></p>
+<p style="">Buyers are increasingly aware of green features like solar readiness, water-saving fixtures, and low-VOC finishes. These can help homes stand out in listings, appeal to eco-conscious buyers, and reduce long-term operating costs.</p>
+<p style=""><br></p>
+        `,
+      },
+      {
         type: "image",
         src: [
           "/images/press/andre-francois-mckenzie-XlGwDBZh_mM-unsplash.webp",
@@ -193,49 +241,26 @@ export const blogSections: ArticleSection[] = [
       {
         type: "text",
         text: `
-       <h1 ><strong>How Design Impacts Long-Term Property Value</strong></h1>
-<p style=""><strong><br></strong></p>
-<p style="">When we think about real estate value, location, square footage, and school districts often come to mind first. But one of the most overlooked factors is architectural design. Great architecture isn&apos;t just about aesthetics; it&apos;s a strategic investment that enhances functionality, energy efficiency, and long-term desirability.</p>
-<p style=""><br></p>
-<p style="">In the Seattle area, where real estate is competitive and buyers are discerning, homes and buildings designed with intention tend to appreciate more consistently and command higher resale values. At Innate, we combine thoughtful&nbsp;<a href="https://www.innate-nw.com/services/architectural-services">architectural design</a>, sustainable materials, and expert craftsmanship to help homeowners and developers boost long-term property value.</p>
-
-<h2><strong>1. Curb Appeal and First Impressions</strong></h2>
-<p style="">Your property only has one chance to make a first impression. High-quality residential design that enhances curb appeal can elevate a home from standard to standout. Features such as modern facades, balanced proportions, and complementary landscaping contribute to the overall value of a property. In Seattle&apos;s residential neighborhoods like Queen Anne, Ballard, or West Seattle, curb appeal is a key differentiator for homebuyers.</p>
-<p style=""><br></p>
-<p style="">Curb appeal also creates emotional resonance. Buyers form instant opinions based on exterior impressions, which can influence not just perceived value, but offer amounts and time on market. A home that &ldquo;looks right&rdquo; often sells faster and for more.</p>
-<p style=""><br></p>
-<h2><strong>2. Functional Space Planning</strong></h2>
-<p style="">Design that makes use of every square foot adds daily value to a homeowner&rsquo;s life. Open layouts, smart flow, and multipurpose rooms make a home more livable and marketable. Seattle buyers often look for floor plans that support flexible living&mdash;from remote workspaces to in-law suites.</p>
-<p style=""><br></p>
-<p style="">Our team at Innate specializes in custom spatial planning that aligns with our clients&apos; unique lifestyle needs and maximizes usability. We ensure that no square foot is wasted and every space is intentional. Our process blends architectural insight with lived experience, asking: How will people actually use this space? What will make it easier, more joyful, or more efficient?</p>
-<p style=""><br></p>
-<h2><strong>3. Energy Efficiency and Sustainability</strong></h2>
-<p style="">Energy-efficient homes are no longer a luxury&mdash;they&rsquo;re expected. Seattle&apos;s climate and progressive policies have made sustainable building practices a priority.</p>
-<p style=""><br></p>
-<p style="">Well-thought-out structures consider orientation, window placement, insulation, and HVAC integration. These design choices lead to lower energy bills and increased property value. Innate &nbsp;incorporates eco-friendly construction into every residential and commercial project, ensuring sustainable value over time. With certifications like LEED or Built Green often boosting resale, efficiency is as good for the wallet as it is for the planet.</p>
-<p style=""><br></p>
-<p style="">Buyers are increasingly aware of green features like solar readiness, water-saving fixtures, and low-VOC finishes. These can help homes stand out in listings, appeal to eco-conscious buyers, and reduce long-term operating costs.</p>
-<p style=""><br></p>
-<h2><strong>4. Adaptability for Future Use</strong></h2>
+<h2>4. Adaptability for Future Use</h2>
 <p style="">Long-term value lies in flexibility. Designs that allow for easy renovation, expansion, or change of use hold value longer. Whether it&rsquo;s aging in place, creating a rentable ADU, or modernizing a space over time, adaptable layouts mean the property can evolve with its owner.</p>
 <p style=""><br></p>
 <p style="">Innate anticipates future lifestyle shifts, building homes and spaces that grow alongside the people who live in them. This means fewer costly overhauls in the future and more opportunities to leverage your property as your needs change. A home that adapts is a home that lasts.</p>
 
-<h2><strong>5. Material Quality and Craftsmanship</strong></h2>
+<h2>5. Material Quality and Craftsmanship</h2>
 <p style="">It&rsquo;s not just what you build&mdash;it&rsquo;s how you build it. High-quality materials and expert craftsmanship ensure your investment stands the test of time. In Seattle&rsquo;s wet climate, durable exteriors and smart drainage are crucial.</p>
 <p style=""><br></p>
 <p style="">We use only the best materials and trusted vendors, ensuring&nbsp;<a href="https://www.innate-nw.com/work">our projects</a> don&rsquo;t just look good&mdash;they last. From siding to structural framing, every detail matters when it comes to long-term value. This commitment also means fewer repairs, lower maintenance costs, and better performance year after year.</p>
 <p style=""><br></p>
 <p style="">Our clients often tell us that what sets their Innate home apart is not just the look, but how it feels&mdash;solid, seamless, dependable. That kind of intangible quality adds to resale and pride of ownership.</p>
 <p style=""><br></p>
-<h2><strong>6. Neighborhood Harmony and Visual Impact</strong></h2>
+<h2>6. Neighborhood Harmony and Visual Impact</h2>
 <p style="">While bold design can be beautiful, it must also complement the surrounding environment. In areas like Capitol Hill or Fremont, homes that respect the neighborhood aesthetic while adding modern value tend to attract more interest and better offers.</p>
 <p style=""><br></p>
 <p style="">Innate&apos;s approach includes a deep dive into neighborhood context, zoning, and community character. We believe design should enhance&mdash;not disrupt&mdash;the visual identity of the community. Homes that reflect local character while offering upgraded functionality see stronger buyer demand.</p>
 <p style=""><br></p>
 <p style="">Homes that clash with their surroundings often require price reductions or sit longer on the market. We help our clients avoid that scenario through collaborative design rooted in local knowledge.</p>
 <p style=""><br></p>
-<h2><strong>7. Return on Investment</strong></h2>
+<h2>7. Return on Investment</h2>
 <p style="">According to industry studies, quality design services can add 5&ndash;15% to a home&rsquo;s value depending on the project scope and level of execution. For Seattle homeowners considering remodeling or rebuilding, investing in a strategic design plan is a smart move.</p>
 <p style=""><br></p>
 <p style="">From&nbsp;<a href="https://www.innate-nw.com/services/kitchen-remodeling">custom kitchens</a> to&nbsp;<a href="https://www.innate-nw.com/services/whole-home-remodels">complete home rebuilds</a>, the return isn&rsquo;t just in dollars&mdash;it&rsquo;s in lifestyle, efficiency, and long-term peace of mind. A well-designed home is more marketable, more livable, and more resilient to market shifts.</p>
@@ -270,103 +295,107 @@ export const blogSections: ArticleSection[] = [
     publishedDate: "3 February, 2024",
     content: [
       {
+        type: "text",
+        text: `
+        <p><strong>How Much Does a Kitchen Remodel Cost in Seattle?</strong></p>
+<p>&nbsp;</p>
+<p>For many Seattle homeowners, the kitchen is the heart of the home. It&rsquo;s where meals are made, coffee is brewed, and conversations flow. But if your kitchen is outdated, poorly laid out, or lacking functionality, a kitchen renovation can transform your daily life&mdash;and your property value.</p>
+<p>&nbsp;</p>
+<p>So how much does a kitchen remodel cost in Seattle? The answer depends on your goals, kitchen size, material choices, and the remodeling contractor you partner with. Let&rsquo;s break it down.</p>
+<p>&nbsp;</p>
+<h2>1. Average Kitchen Remodel Cost in Seattle</h2>
+<p>&nbsp;</p>
+<p>As of 2024, the average kitchen remodel cost in Seattle ranges from <strong>$45,000 to $100,000+</strong>. Here&rsquo;s a breakdown by project scope:</p>
+<ul>
+<li style="font-weight: 400;"><strong>Basic Kitchen Remodel:</strong> $30,000&ndash;$50,000</li>
+<li style="font-weight: 400;"><strong>Mid-Range Kitchen Remodel:</strong> $50,000&ndash;$80,000</li>
+<li style="font-weight: 400;"><strong>High-End Kitchen Renovation:</strong> $80,000&ndash;$150,000+</li>
+</ul>
+<p>&nbsp;</p>
+<p>These figures include design services, materials, labor, permits, and general contracting. Choosing a reliable design-build remodeling contractor in Seattle helps ensure your kitchen renovation stays on budget and on schedule.</p>
+<p>&nbsp;</p>
+<h2>2. What Influences the Cost of a Kitchen Remodel?</h2>
+<p>&nbsp;</p>
+<p>Several factors influence your total kitchen remodeling budget:</p>
+<ul>
+<li style="font-weight: 400;"><strong>Size of Your Kitchen:</strong> Larger spaces require more flooring, cabinetry, and labor.</li>
+<li style="font-weight: 400;"><strong>Scope of Work:</strong> Reconfiguring the layout adds more cost than surface-level updates.</li>
+<li style="font-weight: 400;"><strong>Custom Finishes:</strong> High-end countertops, custom cabinets, and premium appliances increase the investment.</li>
+<li style="font-weight: 400;"><strong>Plumbing and Electrical:</strong> Moving sinks or adding lighting can require code upgrades.</li>
+<li style="font-weight: 400;"><strong>Structural Modifications:</strong> Removing walls or adding windows often requires engineering and permits.</li>
+</ul>
+<p>&nbsp;</p>
+<p>We help clients make smart, value-driven decisions to keep their kitchen remodel aligned with both function and budget.</p>
+<h2>&nbsp;</h2>
+<h2>3. Kitchen Design Fees and Planning Costs</h2>
+<p>&nbsp;</p>
+<p>Design services are a critical part of any successful kitchen remodel in Seattle. At Innate, we offer full-service<a href="https://www.innate-nw.com/services/kitchen-remodeling"> design-build kitchen remodeling</a>. Our team provides layout planning, material selection, 3D renderings, and construction documentation.</p>
+<p>&nbsp;</p>
+<p>Typical design fees range from <strong>$3,000 to $10,000</strong>, depending on complexity. Our integrated process reduces costly mistakes and delays by starting with a solid plan.</p>
+<p>&nbsp;</p>
+<p>Design services include:</p>
+<ul>
+<li style="font-weight: 400;">Optimized layout and flow</li>
+<li style="font-weight: 400;">Finish and fixture selection</li>
+<li style="font-weight: 400;">Cabinet configuration and lighting design</li>
+<li style="font-weight: 400;">Clear construction documentation</li>
+</ul>
+        `,
+      },
+      {
         type: "image",
         src: [
           "/images/press/getty-images-BFP6PqFc-6I-unsplash.webp",
           "/images/press/clay-banks-1az3-tn1q7E-unsplash.webp",
         ],
-
         alt: "Image description",
       },
       {
         type: "text",
         text: `
-        <p><strong>How Much Does a Kitchen Remodel Cost in Seattle?</strong></p>
+<h2>&nbsp;</h2>
+<h2>4. Budgeting Tips for Your Seattle Kitchen Remodel</h2>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">For many Seattle homeowners, the kitchen is the heart of the home. It&rsquo;s where meals are made, coffee is brewed, and conversations flow. But if your kitchen is outdated, poorly laid out, or lacking functionality, a kitchen renovation can transform your daily life&mdash;and your property value.</span></p>
-<p>&nbsp;</p>
-<p><span style="font-weight: 400;">So how much does a kitchen remodel cost in Seattle? The answer depends on your goals, kitchen size, material choices, and the remodeling contractor you partner with. Let&rsquo;s break it down.</span></p>
-<p>&nbsp;</p>
-<h2>1. Average Kitchen Remodel Cost in Seattle</h2>
-<p>&nbsp;</p>
-<p><span style="font-weight: 400;">As of 2024, the average kitchen remodel cost in Seattle ranges from </span><strong>$45,000 to $100,000+</strong><span style="font-weight: 400;">. Here&rsquo;s a breakdown by project scope:</span></p>
+<p>Use these budgeting tips to stay on track:</p>
 <ul>
-<li style="font-weight: 400;"><strong>Basic Kitchen Remodel:</strong><span style="font-weight: 400;"> $30,000&ndash;$50,000</span></li>
-<li style="font-weight: 400;"><strong>Mid-Range Kitchen Remodel:</strong><span style="font-weight: 400;"> $50,000&ndash;$80,000</span></li>
-<li style="font-weight: 400;"><strong>High-End Kitchen Renovation:</strong><span style="font-weight: 400;"> $80,000&ndash;$150,000+</span></li>
+<li style="font-weight: 400;"><strong>Define Your Priorities:</strong> Focus on must-haves that deliver lasting value.</li>
+<li style="font-weight: 400;"><strong>Set a Realistic Remodeling Budget:</strong> Always allow for 10&ndash;20% contingency.</li>
+<li style="font-weight: 400;"><strong>Partner with a Design-Build Firm:</strong> A single team reduces miscommunication and delays.</li>
+<li style="font-weight: 400;"><strong>Upgrade Infrastructure:</strong> Invest in electrical, plumbing, and HVAC where needed.</li>
 </ul>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">These figures include design services, materials, labor, permits, and general contracting. Choosing a reliable design-build remodeling contractor in Seattle helps ensure your kitchen renovation stays on budget and on schedule.</span></p>
+<p>By clearly outlining your goals, you can make informed choices that keep your kitchen remodel cost-effective and impactful.</p>
+<h2>&nbsp;</h2>
+<h2>5. High-ROI Kitchen Upgrades for Seattle Homes</h2>
 <p>&nbsp;</p>
-<h2><span style="font-weight: 400;">2. What Influences the Cost of a Kitchen Remodel?</span></h2>
-<p>&nbsp;</p>
-<p><span style="font-weight: 400;">Several factors influence your total kitchen remodeling budget:</span></p>
+<p>Not all upgrades deliver the same return. Focus on value-boosting elements like:</p>
 <ul>
-<li style="font-weight: 400;"><strong>Size of Your Kitchen:</strong><span style="font-weight: 400;"> Larger spaces require more flooring, cabinetry, and labor.</span></li>
-<li style="font-weight: 400;"><strong>Scope of Work:</strong><span style="font-weight: 400;"> Reconfiguring the layout adds more cost than surface-level updates.</span></li>
-<li style="font-weight: 400;"><strong>Custom Finishes:</strong><span style="font-weight: 400;"> High-end countertops, custom cabinets, and premium appliances increase the investment.</span></li>
-<li style="font-weight: 400;"><strong>Plumbing and Electrical:</strong><span style="font-weight: 400;"> Moving sinks or adding lighting can require code upgrades.</span></li>
-<li style="font-weight: 400;"><strong>Structural Modifications:</strong><span style="font-weight: 400;"> Removing walls or adding windows often requires engineering and permits.</span></li>
+<li style="font-weight: 400;"><strong>Custom Soft-Close Cabinetry:</strong> Boosts usability and aesthetics</li>
+<li style="font-weight: 400;"><strong>Quartz or Granite Countertops:</strong> Timeless and durable</li>
+<li style="font-weight: 400;"><strong>Energy-Efficient Appliances:</strong> Lower utility bills and appeal to eco-conscious buyers</li>
+<li style="font-weight: 400;"><strong>Under-Cabinet Lighting:</strong> Adds function and visual appeal</li>
+<li style="font-weight: 400;"><strong>Open Concept Layouts:</strong> Improves flow and marketability</li>
 </ul>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">We help clients make smart, value-driven decisions to keep their kitchen remodel aligned with both function and budget.</span></p>
+<p>A kitchen remodel in Seattle typically recoups <strong>60&ndash;80%</strong> of its cost at resale, especially when targeting functional, high-demand features.</p>
+<p>&nbsp;</p>
+<p>Take a look at our<a href="https://www.innate-nw.com/project/north-seattle-kitchen"> North Seattle Kitchen project</a> to see how we helped one family completely reimagine their kitchen with a thoughtful layout and elevated finishes.</p>
 <h2>&nbsp;</h2>
-<h2><span style="font-weight: 400;">3. Kitchen Design Fees and Planning Costs</span></h2>
+<h2>6. Kitchen Remodeling Timelines in Seattle</h2>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">Design services are a critical part of any successful kitchen remodel in Seattle. At Innate, we offer full-service</span><a href="https://www.innate-nw.com/services/kitchen-remodeling"> <span style="font-weight: 400;">design-build kitchen remodeling</span></a><span style="font-weight: 400;">. Our team provides layout planning, material selection, 3D renderings, and construction documentation.</span></p>
+<p>A typical kitchen renovation in Seattle takes <strong>8 to 14 weeks</strong> after demolition. Allow an additional <strong>4 to 6 weeks</strong> for design, permitting, and ordering materials. Working with an experienced remodeling contractor ensures your project stays on schedule.</p>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">Typical design fees range from </span><strong>$3,000 to $10,000</strong><span style="font-weight: 400;">, depending on complexity. Our integrated process reduces costly mistakes and delays by starting with a solid plan.</span></p>
-<p>&nbsp;</p>
-<p><span style="font-weight: 400;">Design services include:</span></p>
-<ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Optimized layout and flow</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Finish and fixture selection</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Cabinet configuration and lighting design</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Clear construction documentation</span></li>
-</ul>
+<p>We build realistic timelines and communicate milestones, so you&rsquo;re never in the dark about what&rsquo;s next.</p>
 <h2>&nbsp;</h2>
-<h2><span style="font-weight: 400;">4. Budgeting Tips for Your Seattle Kitchen Remodel</span></h2>
+<h2>7. Permits for Kitchen Renovations in Seattle</h2>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">Use these budgeting tips to stay on track:</span></p>
-<ul>
-<li style="font-weight: 400;"><strong>Define Your Priorities:</strong><span style="font-weight: 400;"> Focus on must-haves that deliver lasting value.</span></li>
-<li style="font-weight: 400;"><strong>Set a Realistic Remodeling Budget:</strong><span style="font-weight: 400;"> Always allow for 10&ndash;20% contingency.</span></li>
-<li style="font-weight: 400;"><strong>Partner with a Design-Build Firm:</strong><span style="font-weight: 400;"> A single team reduces miscommunication and delays.</span></li>
-<li style="font-weight: 400;"><strong>Upgrade Infrastructure:</strong><span style="font-weight: 400;"> Invest in electrical, plumbing, and HVAC where needed.</span></li>
-</ul>
+<p>Most kitchen remodeling projects in Seattle require permits, especially if you&rsquo;re altering plumbing, electrical, or structural elements. Permits ensure safety and help with future resale.</p>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">By clearly outlining your goals, you can make informed choices that keep your kitchen remodel cost-effective and impactful.</span></p>
+<p>At Innate, we handle all permitting. Our team works directly with Seattle&rsquo;s permitting office to meet code requirements and avoid delays.</p>
 <h2>&nbsp;</h2>
-<h2><span style="font-weight: 400;">5. High-ROI Kitchen Upgrades for Seattle Homes</span></h2>
+<h2>8. Choosing the Right Remodeling Contractor in Seattle</h2>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">Not all upgrades deliver the same return. Focus on value-boosting elements like:</span></p>
-<ul>
-<li style="font-weight: 400;"><strong>Custom Soft-Close Cabinetry:</strong><span style="font-weight: 400;"> Boosts usability and aesthetics</span></li>
-<li style="font-weight: 400;"><strong>Quartz or Granite Countertops:</strong><span style="font-weight: 400;"> Timeless and durable</span></li>
-<li style="font-weight: 400;"><strong>Energy-Efficient Appliances:</strong><span style="font-weight: 400;"> Lower utility bills and appeal to eco-conscious buyers</span></li>
-<li style="font-weight: 400;"><strong>Under-Cabinet Lighting:</strong><span style="font-weight: 400;"> Adds function and visual appeal</span></li>
-<li style="font-weight: 400;"><strong>Open Concept Layouts:</strong><span style="font-weight: 400;"> Improves flow and marketability</span></li>
-</ul>
-<p>&nbsp;</p>
-<p><span style="font-weight: 400;">A kitchen remodel in Seattle typically recoups </span><strong>60&ndash;80%</strong><span style="font-weight: 400;"> of its cost at resale, especially when targeting functional, high-demand features.</span></p>
-<p>&nbsp;</p>
-<p><span style="font-weight: 400;">Take a look at our</span><a href="https://www.innate-nw.com/project/north-seattle-kitchen"> <span style="font-weight: 400;">North Seattle Kitchen project</span></a><span style="font-weight: 400;"> to see how we helped one family completely reimagine their kitchen with a thoughtful layout and elevated finishes.</span></p>
-<h2>&nbsp;</h2>
-<h2><span style="font-weight: 400;">6. Kitchen Remodeling Timelines in Seattle</span></h2>
-<p>&nbsp;</p>
-<p><span style="font-weight: 400;">A typical kitchen renovation in Seattle takes </span><strong>8 to 14 weeks</strong><span style="font-weight: 400;"> after demolition. Allow an additional </span><strong>4 to 6 weeks</strong><span style="font-weight: 400;"> for design, permitting, and ordering materials. Working with an experienced remodeling contractor ensures your project stays on schedule.</span></p>
-<p>&nbsp;</p>
-<p><span style="font-weight: 400;">We build realistic timelines and communicate milestones, so you&rsquo;re never in the dark about what&rsquo;s next.</span></p>
-<h2>&nbsp;</h2>
-<h2><span style="font-weight: 400;">7. Permits for Kitchen Renovations in Seattle</span></h2>
-<p>&nbsp;</p>
-<p><span style="font-weight: 400;">Most kitchen remodeling projects in Seattle require permits, especially if you&rsquo;re altering plumbing, electrical, or structural elements. Permits ensure safety and help with future resale.</span></p>
-<p>&nbsp;</p>
-<p><span style="font-weight: 400;">At Innate, we handle all permitting. Our team works directly with Seattle&rsquo;s permitting office to meet code requirements and avoid delays.</span></p>
-<h2>&nbsp;</h2>
-<h2><span style="font-weight: 400;">8. Choosing the Right Remodeling Contractor in Seattle</span></h2>
-<p>&nbsp;</p>
-<p><span style="font-weight: 400;">The contractor you choose will make or break your kitchen renovation experience. Look for:</span></p>
+<p>The contractor you choose will make or break your kitchen renovation experience. Look for:</p>
 <ul>
 <li style="font-weight: 400;"><strong>Proven Seattle Remodeling Experience</strong></li>
 <li style="font-weight: 400;"><strong>Transparent Pricing and Estimates</strong></li>
@@ -374,15 +403,15 @@ export const blogSections: ArticleSection[] = [
 <li style="font-weight: 400;"><strong>Proper Licensing, Insurance, and References</strong></li>
 </ul>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">Innate offers a streamlined process and expert guidance from concept to completion. We specialize in custom kitchen remodels that combine design-forward thinking with efficient execution.</span></p>
+<p>Innate offers a streamlined process and expert guidance from concept to completion. We specialize in custom kitchen remodels that combine design-forward thinking with efficient execution.</p>
 <h2>&nbsp;</h2>
-<p><span style="font-weight: 400;">Start Your Kitchen Remodel with Innate</span></p>
+<p>Start Your Kitchen Remodel with Innate</p>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">Remodeling your kitchen is one of the most rewarding upgrades you can make. With the right remodeling contractor, it can be an enjoyable, inspiring process that transforms your daily routine.</span></p>
+<p>Remodeling your kitchen is one of the most rewarding upgrades you can make. With the right remodeling contractor, it can be an enjoyable, inspiring process that transforms your daily routine.</p>
 <p>&nbsp;</p>
-<p><strong>Explore our</strong><a href="https://www.innate-nw.com/services/kitchen-remodeling"> <strong>kitchen remodeling services</strong></a><span style="font-weight: 400;"> or schedule a consultation to get a custom quote for your Seattle home.</span></p>
+<p><strong>Explore our</strong><a href="https://www.innate-nw.com/services/kitchen-remodeling"> <strong>kitchen remodeling services</strong></a> or schedule a consultation to get a custom quote for your Seattle home.</p>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">Whether you&rsquo;re budgeting for a mid-range kitchen remodel or ready to invest in a full kitchen renovation, we&rsquo;re here to help bring your vision to life.</span></p>
+<p>Whether you&rsquo;re budgeting for a mid-range kitchen remodel or ready to invest in a full kitchen renovation, we&rsquo;re here to help bring your vision to life.</p>
         `,
       },
     ],
@@ -404,6 +433,26 @@ export const blogSections: ArticleSection[] = [
     publishedDate: "7 August, 2025",
     content: [
       {
+        type: "text",
+        text: `
+        <p>Hiring a <strong>custom home builder</strong> is one of the most important decisions you'll make when designing your dream home. The right builder will help bring your vision to life while managing budget, timelines, and expectations. The wrong one can turn a dream project into a costly, stressful experience.</p><br/>
+<p>At <strong>Innate</strong>, we specialize in custom home building, <strong>custom home remodels</strong>, and design-forward construction across Seattle and the Eastside, including <strong>Bellevue</strong>, Redmond, and Kirkland. We&rsquo;ve helped homeowners create everything from modern new builds to <strong>custom kitchens</strong> and luxury outdoor living spaces&mdash;with clarity, care, and craftsmanship.</p>
+<br/>
+<h2>1. Why Experience with Custom Home Building Matters</h2>
+<p>When choosing a <strong>custom home builder</strong>, experience matters. You want a team that understands the complexities of high-end construction and has a proven track record of delivering results. A builder that specializes in <strong>custom homes</strong> will have the systems, vendors, and expertise needed to navigate zoning laws, permitting, and structural design.</p>
+<p>Innate has completed a wide range of custom projects, including new home construction, <strong>custom home remodels</strong>, and <strong>custom kitchen</strong> and <strong>deck builds</strong> tailored to each client&rsquo;s lifestyle. Our diverse portfolio shows what&rsquo;s possible when design and execution are aligned from the start.</p><br/>
+
+<h2>2. Verify Credentials, Licensing &amp; Insurance</h2>
+<p>Every legitimate <strong>custom home builder in Bellevue or Seattle</strong> should be fully licensed, bonded, and insured. These credentials aren&rsquo;t just formalities&mdash;they protect your project and your investment.</p>
+<p>Innate meets all Washington State licensing requirements and carries full liability insurance. We also partner with experienced, <a href="/blogs/contractors-not-responding">licensed subcontractors</a> who are aligned with our standards of quality and professionalism. When you build with us, you're protected from day one.</p><br/>
+
+<h2>3. Prioritize Clear Communication with Your Builder</h2>
+<p>Strong communication is the foundation of any successful <strong>custom home build</strong>. From the first consultation through final walkthroughs, your builder should be <a href="/blogs/contractors-not-responding">responsive</a>, transparent, and proactive.</p>
+<p>At Innate, we pride ourselves on our collaborative, client-first process. Whether you&rsquo;re planning a <strong>custom home remodel</strong> or a new <strong>custom home in Bellevue</strong>, we keep you informed at every stage&mdash;with detailed project updates, clear pricing, and transparent timelines.</p>
+
+        `,
+      },
+      {
         type: "image",
         src: ["/images/press/Custom-Home-2.webp"],
 
@@ -412,51 +461,36 @@ export const blogSections: ArticleSection[] = [
       {
         type: "text",
         text: `
-        <p><span style="font-weight: 400;">Hiring a </span><strong>custom home builder</strong><span style="font-weight: 400;"> is one of the most important decisions you'll make when designing your dream home. The right builder will help bring your vision to life while managing budget, timelines, and expectations. The wrong one can turn a dream project into a costly, stressful experience.</span></p>
-<p><span style="font-weight: 400;">At </span><strong>Innate</strong><span style="font-weight: 400;">, we specialize in custom home building, </span><strong>custom home remodels</strong><span style="font-weight: 400;">, and design-forward construction across Seattle and the Eastside, including </span><strong>Bellevue</strong><span style="font-weight: 400;">, Redmond, and Kirkland. We&rsquo;ve helped homeowners create everything from modern new builds to </span><strong>custom kitchens</strong><span style="font-weight: 400;"> and luxury outdoor living spaces&mdash;with clarity, care, and craftsmanship.</span></p>
+<h2>4. Review Past Work and Real Client Testimonials</h2>
+<p>When researching a <strong>custom home builder</strong>, don&rsquo;t just take their word for it&mdash;look at their work. Reviewing completed projects gives you insight into their quality, design sensibility, and ability to handle similar projects.</p>
+<p>Visit our <strong>Projects page</strong> to explore real examples of our <strong>custom kitchens</strong>, <strong>custom decks</strong>, and full-home remodels across the Seattle area. We&rsquo;re proud of our craftsmanship&mdash;and the long-term relationships we&rsquo;ve built with clients who trust us to deliver time and time again.</p>
 <h2>&nbsp;</h2>
-<h2><strong>1. Why Experience with Custom Home Building Matters</strong></h2>
-<p><span style="font-weight: 400;">When choosing a </span><strong>custom home builder</strong><span style="font-weight: 400;">, experience matters. You want a team that understands the complexities of high-end construction and has a proven track record of delivering results. A builder that specializes in </span><strong>custom homes</strong><span style="font-weight: 400;"> will have the systems, vendors, and expertise needed to navigate zoning laws, permitting, and structural design.</span></p>
-<p><span style="font-weight: 400;">Innate has completed a wide range of custom projects, including new home construction, </span><strong>custom home remodels</strong><span style="font-weight: 400;">, and </span><strong>custom kitchen</strong><span style="font-weight: 400;"> and </span><strong>deck builds</strong><span style="font-weight: 400;"> tailored to each client&rsquo;s lifestyle. Our diverse portfolio shows what&rsquo;s possible when design and execution are aligned from the start.</span></p>
-<h2>&nbsp;</h2>
-<h2><strong>2. Verify Credentials, Licensing &amp; Insurance</strong></h2>
-<p><span style="font-weight: 400;">Every legitimate </span><strong>custom home builder in Bellevue or Seattle</strong><span style="font-weight: 400;"> should be fully licensed, bonded, and insured. These credentials aren&rsquo;t just formalities&mdash;they protect your project and your investment.</span></p>
-<p><span style="font-weight: 400;">Innate meets all Washington State licensing requirements and carries full liability insurance. We also partner with experienced, <a href="/blogs/contractors-not-responding">licensed subcontractors</a> who are aligned with our standards of quality and professionalism. When you build with us, you're protected from day one.</span></p>
-<h2>&nbsp;</h2>
-<h2><strong>3. Prioritize Clear Communication with Your Builder</strong></h2>
-<p><span style="font-weight: 400;">Strong communication is the foundation of any successful </span><strong>custom home build</strong><span style="font-weight: 400;">. From the first consultation through final walkthroughs, your builder should be <a href="/blogs/contractors-not-responding">responsive</a>, transparent, and proactive.</span></p>
-<p><span style="font-weight: 400;">At Innate, we pride ourselves on our collaborative, client-first process. Whether you&rsquo;re planning a </span><strong>custom home remodel</strong><span style="font-weight: 400;"> or a new </span><strong>custom home in Bellevue</strong><span style="font-weight: 400;">, we keep you informed at every stage&mdash;with detailed project updates, clear pricing, and transparent timelines.</span></p>
-<h2>&nbsp;</h2>
-<h2><strong>4. Review Past Work and Real Client Testimonials</strong></h2>
-<p><span style="font-weight: 400;">When researching a </span><strong>custom home builder</strong><span style="font-weight: 400;">, don&rsquo;t just take their word for it&mdash;look at their work. Reviewing completed projects gives you insight into their quality, design sensibility, and ability to handle similar projects.</span></p>
-<p><span style="font-weight: 400;">Visit our </span><strong>Projects page</strong><span style="font-weight: 400;"> to explore real examples of our </span><strong>custom kitchens</strong><span style="font-weight: 400;">, </span><strong>custom decks</strong><span style="font-weight: 400;">, and full-home remodels across the Seattle area. We&rsquo;re proud of our craftsmanship&mdash;and the long-term relationships we&rsquo;ve built with clients who trust us to deliver time and time again.</span></p>
-<h2>&nbsp;</h2>
-<h2><strong>5. Understand the Custom Design-Build Process</strong></h2>
-<p><span style="font-weight: 400;">One major advantage of working with a </span><strong>design-build custom home builder</strong><span style="font-weight: 400;"> is efficiency. Instead of juggling multiple vendors or architects, you work with a single team from concept through construction.</span></p>
-<p><span style="font-weight: 400;">Our </span><strong>design-build process</strong><span style="font-weight: 400;"> ensures that your vision, budget, and timeline stay aligned. Whether it&rsquo;s a new build or a </span><strong>custom home remodel</strong><span style="font-weight: 400;">, we manage everything in-house&mdash;from architectural plans to interior design, permitting, and final inspections. This eliminates delays and creates a seamless client experience.</span></p>
+<h2>5. Understand the Custom Design-Build Process</h2>
+<p>One major advantage of working with a <strong>design-build custom home builder</strong> is efficiency. Instead of juggling multiple vendors or architects, you work with a single team from concept through construction.</p>
+<p>Our <strong>design-build process</strong> ensures that your vision, budget, and timeline stay aligned. Whether it&rsquo;s a new build or a <strong>custom home remodel</strong>, we manage everything in-house&mdash;from architectural plans to interior design, permitting, and final inspections. This eliminates delays and creates a seamless client experience.</p>
 <h2>&nbsp;</h2>
 <h3><strong>Frequently Asked Questions (FAQ)</strong></h3>
 <p>&nbsp;</p>
 <p><strong>Q: What makes Innate a top custom home builder in Bellevue and Seattle?</strong></p>
-<p><span style="font-weight: 400;">A: Our reputation is built on clear communication, expert craftsmanship, and a design-first approach. We specialize in </span><strong>custom homes</strong><span style="font-weight: 400;">, </span><strong>kitchen remodels</strong><span style="font-weight: 400;">, </span><strong>deck builds</strong><span style="font-weight: 400;">, and full-scale renovations tailored to your goals.</span></p>
+<p>A: Our reputation is built on clear communication, expert craftsmanship, and a design-first approach. We specialize in <strong>custom homes</strong>, <strong>kitchen remodels</strong>, <strong>deck builds</strong>, and full-scale renovations tailored to your goals.</p>
 <p>&nbsp;</p>
 <p><strong>Q: Can you help with both new home construction and custom remodels?</strong></p>
-<p><span style="font-weight: 400;">A: Yes. We build new </span><strong>custom homes</strong><span style="font-weight: 400;"> and offer complete </span><strong>custom home remodeling</strong><span style="font-weight: 400;"> services. From expanding your living space to reimagining your kitchen, we do it all under one roof.</span></p>
+<p>A: Yes. We build new <strong>custom homes</strong> and offer complete <strong>custom home remodeling</strong> services. From expanding your living space to reimagining your kitchen, we do it all under one roof.</p>
 <p>&nbsp;</p>
 <p><strong>Q: Do I need an architect before working with Innate?</strong></p>
-<p><span style="font-weight: 400;">A: No. As a full-service </span><strong>design-build firm</strong><span style="font-weight: 400;">, we provide architectural planning, permitting, and construction services in-house.</span></p>
+<p>A: No. As a full-service <strong>design-build firm</strong>, we provide architectural planning, permitting, and construction services in-house.</p>
 <p>&nbsp;</p>
 <p><strong>Q: How long does a custom home project typically take?</strong></p>
-<p><span style="font-weight: 400;">A: Most </span><strong>custom home builds</strong><span style="font-weight: 400;"> take 10&ndash;16 months from design to completion. Timelines vary based on scope, permitting, and site conditions.</span></p>
+<p>A: Most <strong>custom home builds</strong> take 10&ndash;16 months from design to completion. Timelines vary based on scope, permitting, and site conditions.</p>
 <p>&nbsp;</p>
 <p><strong>Q: What areas do you serve?</strong></p>
-<p><span style="font-weight: 400;">A: We work with clients in </span><strong>Seattle</strong><span style="font-weight: 400;">, </span><strong>Bellevue</strong><span style="font-weight: 400;">, </span><strong>Kirkland</strong><span style="font-weight: 400;">, </span><strong>Redmond</strong><span style="font-weight: 400;">, and across the Eastside.</span></p>
+<p>A: We work with clients in <strong>Seattle</strong>, <strong>Bellevue</strong>, <strong>Kirkland</strong>, <strong>Redmond</strong>, and across the Eastside.</p>
 <h2>&nbsp;</h2>
 <h3><strong>Start Your Custom Home Journey with Innate</strong></h3>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">Choosing the right </span><strong>custom home builder</strong><span style="font-weight: 400;"> sets the tone for your entire experience. You deserve a builder who listens to your goals, brings creativity to the table, and delivers results that stand the test of time.</span></p>
-<p><span style="font-weight: 400;">At Innate, we&rsquo;re more than builders&mdash;we&rsquo;re your partners in the creative process. Whether you&rsquo;re ready to start a new </span><strong>custom home in Bellevue</strong><span style="font-weight: 400;">, upgrade your home with a </span><strong>custom kitchen remodel</strong><span style="font-weight: 400;">, or enhance outdoor living with a </span><strong>custom deck</strong><span style="font-weight: 400;">, we&rsquo;re here to help.</span></p>
-<p><strong>Schedule a consultation and let&rsquo;s build something exceptional&mdash;together.</strong></p>
+<p>Choosing the right <strong>custom home builder</strong> sets the tone for your entire experience. You deserve a builder who listens to your goals, brings creativity to the table, and delivers results that stand the test of time.</p><br/>
+<p>At Innate, we&rsquo;re more than builders&mdash;we&rsquo;re your partners in the creative process. Whether you&rsquo;re ready to start a new <strong>custom home in Bellevue</strong>, upgrade your home with a <strong>custom kitchen remodel</strong>, or enhance outdoor living with a <strong>custom deck</strong>, we&rsquo;re here to help.</p><br/>
+<p><strong>Schedule a consultation and let&rsquo;s build something exceptional&mdash;together.</strong></p><br/>
         `,
       },
     ],
@@ -478,6 +512,33 @@ export const blogSections: ArticleSection[] = [
     publishedDate: "7 August, 2025",
     content: [
       {
+        type: "text",
+        text: `
+        <p>If you're a Seattle homeowner planning a remodel, addition, or new construction, understanding <strong>Seattle zoning NR1, NR2, and NR3</strong> is essential. These zoning codes determine what you&rsquo;re allowed to build, where you can build it on your lot, and how much of your property can be developed.</p>
+<p>&nbsp;</p>
+<p>Many homeowners are surprised to find that their older <strong>single family home</strong> doesn&rsquo;t meet current <strong>zoning regulations</strong>&mdash;especially when they&rsquo;re looking to build an addition, finish a basement, or add a <strong>detached accessory dwelling unit (DADU)</strong>. Fortunately, working with a knowledgeable <strong>design-build</strong> partner like <strong>Innate </strong>&nbsp;can make all the difference.</p>
+<p>&nbsp;</p>
+<p>In this guide, we&rsquo;ll break down <strong>neighborhood residential zoning in Seattle</strong>, how it impacts your project, and what to do if your home doesn&rsquo;t meet today&rsquo;s building or zoning codes.</p>
+<p>&nbsp;</p>
+<h2>What Is Neighborhood Residential Zoning?</h2>
+<p>In 2022, Seattle transitioned away from the term &ldquo;single-family zoning&rdquo; and introduced a new framework called <strong>Neighborhood Residential (NR) zoning</strong>. This change was made to encourage greater housing diversity and reflect modern needs, including more flexible options for multi-generational living, DADUs, and home additions.</p>
+<p>Today, most residential lots in Seattle fall under one of three categories:</p>
+<h3>&nbsp;</h3>
+<h3>NR1 &ndash; Neighborhood Residential 1</h3>
+<p>NR1 zones are designed for <strong>lower-density development</strong> with larger minimum lot sizes, generous setbacks, and wider spacing between homes. These are often found in more suburban-feeling neighborhoods like Magnolia or Windermere.</p>
+<p><strong>Remodeling impact:</strong> NR1 zones are the most restrictive, especially when it comes to lot coverage and height limits. <strong>Seattle home addition zoning</strong> in these areas typically requires creative planning and, in some cases, approval for variances.</p>
+<h3>&nbsp;</h3>
+<h3>NR2 &ndash; Neighborhood Residential 2</h3>
+<p>NR2 represents a middle ground, with slightly smaller lots and moderately reduced setbacks. You&rsquo;ll find NR2 zoning in established neighborhoods like parts of Wallingford and Greenwood.</p>
+<p><strong>Remodeling impact:</strong> These lots offer more flexibility for <strong>remodeling old homes in Seattle</strong>, but you&rsquo;ll still need to closely follow height and lot coverage limits, especially for second-story additions or garage conversions.</p>
+<h3>&nbsp;</h3>
+<h3>NR3 &ndash; Neighborhood Residential 3</h3>
+<p>NR3 zoning is the most flexible and urban. It allows the most buildable area, supports smaller lots, and reduces setback requirements.</p>
+<p><strong>Remodeling impact:</strong> NR3 is ideal for <strong>design-build projects</strong> involving <strong>DADUs</strong>, large-scale remodels, or <strong>energy-efficient home additions</strong>. It also makes it easier to build in tight urban spaces like Capitol Hill or Columbia City.</p>
+<h2>&nbsp;</h2>
+        `,
+      },
+      {
         type: "image",
         src: ["/images/press/Zoning-2.jpg"],
 
@@ -486,86 +547,69 @@ export const blogSections: ArticleSection[] = [
       {
         type: "text",
         text: `
-        <p><span style="font-weight: 400;">If you're a Seattle homeowner planning a remodel, addition, or new construction, understanding </span><strong>Seattle zoning NR1, NR2, and NR3</strong><span style="font-weight: 400;"> is essential. These zoning codes determine what you&rsquo;re allowed to build, where you can build it on your lot, and how much of your property can be developed.</span></p>
-<p>&nbsp;</p>
-<p><span style="font-weight: 400;">Many homeowners are surprised to find that their older </span><strong>single family home</strong><span style="font-weight: 400;"> doesn&rsquo;t meet current </span><strong>zoning regulations</strong><span style="font-weight: 400;">&mdash;especially when they&rsquo;re looking to build an addition, finish a basement, or add a </span><strong>detached accessory dwelling unit (DADU)</strong><span style="font-weight: 400;">. Fortunately, working with a knowledgeable </span><strong>design-build</strong><span style="font-weight: 400;"> partner like </span><strong>Innate </strong><span style="font-weight: 400;">&nbsp;can make all the difference.</span></p>
-<p>&nbsp;</p>
-<p><span style="font-weight: 400;">In this guide, we&rsquo;ll break down </span><strong>neighborhood residential zoning in Seattle</strong><span style="font-weight: 400;">, how it impacts your project, and what to do if your home doesn&rsquo;t meet today&rsquo;s building or zoning codes.</span></p>
-<p>&nbsp;</p>
-<h2><strong>What Is Neighborhood Residential Zoning?</strong></h2>
-<p><span style="font-weight: 400;">In 2022, Seattle transitioned away from the term &ldquo;single-family zoning&rdquo; and introduced a new framework called </span><strong>Neighborhood Residential (NR) zoning</strong><span style="font-weight: 400;">. This change was made to encourage greater housing diversity and reflect modern needs, including more flexible options for multi-generational living, DADUs, and home additions.</span></p>
-<p><span style="font-weight: 400;">Today, most residential lots in Seattle fall under one of three categories:</span></p>
-<h3>&nbsp;</h3>
-<h3><span style="font-weight: 400;">NR1 &ndash; Neighborhood Residential 1</span></h3>
-<p><span style="font-weight: 400;">NR1 zones are designed for </span><strong>lower-density development</strong><span style="font-weight: 400;"> with larger minimum lot sizes, generous setbacks, and wider spacing between homes. These are often found in more suburban-feeling neighborhoods like Magnolia or Windermere.</span></p>
-<p><strong>Remodeling impact:</strong><span style="font-weight: 400;"> NR1 zones are the most restrictive, especially when it comes to lot coverage and height limits. </span><strong>Seattle home addition zoning</strong><span style="font-weight: 400;"> in these areas typically requires creative planning and, in some cases, approval for variances.</span></p>
-<h3>&nbsp;</h3>
-<h3><span style="font-weight: 400;">NR2 &ndash; Neighborhood Residential 2</span></h3>
-<p><span style="font-weight: 400;">NR2 represents a middle ground, with slightly smaller lots and moderately reduced setbacks. You&rsquo;ll find NR2 zoning in established neighborhoods like parts of Wallingford and Greenwood.</span></p>
-<p><strong>Remodeling impact:</strong><span style="font-weight: 400;"> These lots offer more flexibility for </span><strong>remodeling old homes in Seattle</strong><span style="font-weight: 400;">, but you&rsquo;ll still need to closely follow height and lot coverage limits, especially for second-story additions or garage conversions.</span></p>
-<h3>&nbsp;</h3>
-<h3><span style="font-weight: 400;">NR3 &ndash; Neighborhood Residential 3</span></h3>
-<p><span style="font-weight: 400;">NR3 zoning is the most flexible and urban. It allows the most buildable area, supports smaller lots, and reduces setback requirements.</span></p>
-<p><strong>Remodeling impact:</strong><span style="font-weight: 400;"> NR3 is ideal for </span><strong>design-build projects</strong><span style="font-weight: 400;"> involving </span><strong>DADUs</strong><span style="font-weight: 400;">, large-scale remodels, or </span><strong>energy-efficient home additions</strong><span style="font-weight: 400;">. It also makes it easier to build in tight urban spaces like Capitol Hill or Columbia City.</span></p>
+<h2>Why Zoning Matters for Your Remodeling Project</h2>
+<p>Zoning is more than just a classification&mdash;it dictates what you can do with your property. From <strong>setback requirements</strong> and <strong>building height limits</strong> to allowable lot coverage, these rules form the backbone of what&rsquo;s possible on your lot.</p><br/>
+<p>Here&rsquo;s how <strong>Seattle residential remodel zoning</strong> directly impacts your plans:</p><br/>
+
+<div class="pl-4">
+<p><strong>Lot Coverage:</strong> This limits the total footprint of buildings on your lot. Want to add a large custom kitchen extension or garage? You&rsquo;ll need to do the math&mdash;and possibly reduce square footage elsewhere.</p><br/>
+<p><strong>Setbacks:</strong> These are the required minimum distances from your home to the property lines. Many <strong>early 20th-century homes in Seattle</strong> don&rsquo;t comply with current setback standards. This can restrict outward additions and require special planning.</p><br/>
+<p><strong>Height Limits:</strong> Depending on your <strong>zoning code</strong>, there may be a cap on how tall your addition can be&mdash;especially if you&rsquo;re planning a second story or pop-top.</p><br/>
+<strong>Parking Requirements:</strong> Adding a <strong>detached accessory dwelling unit</strong>? Some zones require you to add off-street parking to accommodate the extra unit.</strong><br/>
+</div>
+
 <h2>&nbsp;</h2>
-<h2><strong>Why Zoning Matters for Your Remodeling Project</strong></h2>
-<p><span style="font-weight: 400;">Zoning is more than just a classification&mdash;it dictates what you can do with your property. From </span><strong>setback requirements</strong><span style="font-weight: 400;"> and </span><strong>building height limits</strong><span style="font-weight: 400;"> to allowable lot coverage, these rules form the backbone of what&rsquo;s possible on your lot.</span></p>
-<p><span style="font-weight: 400;">Here&rsquo;s how </span><strong>Seattle residential remodel zoning</strong><span style="font-weight: 400;"> directly impacts your plans:</span></p>
+<h2>Remodeling Old Homes in Seattle: Zoning Challenges &amp; Solutions</h2>
+<p>One of the biggest hurdles for Seattle homeowners is remodeling a <strong>nonconforming structure</strong>&mdash;a home that doesn&rsquo;t comply with current <strong>building codes</strong> or zoning rules but was legal when it was built.</p><br/>
+<p>Seattle is full of charming craftsman and mid-century homes that fall into this category. These homes often sit closer to property lines than current <strong>zoning codes</strong> allow, or exceed height and coverage limitations.</p><br/>
+<p>At <strong>Innate</strong>, we&rsquo;ve helped dozens of clients remodel and expand homes that technically don&rsquo;t conform to current standards. Our approach includes:</p><br/>
+
+<div class="pl-4">
+<p><strong>Site-specific research:</strong> We review your parcel&rsquo;s zoning designation, topography, existing conditions, and potential constraints.</p><br/>
+<p><strong>Strategic design:</strong> We tailor the remodel to meet your goals while staying within code&mdash;or apply for a <strong>zoning variance</strong> when needed.</p><br/>
+<p><strong>Permit application support:</strong> We handle all documents, drawings, and submissions to the <strong>Seattle Department of Construction and Inspections</strong> (SDCI).</p><br/>
+</div>
+
+<p>Working with a team that understands <strong>Seattle municipal code</strong> and has real-world experience with the <strong>building permit process</strong> is essential when dealing with older homes and complicated lots.</p>
+<h2>&nbsp;</h2>
+<h2>Examples of Zoning-Aware Remodels in Action</h2>
+<p>We&rsquo;ve completed multiple <strong>design-build projects</strong> in Seattle neighborhoods with challenging <strong>residential zoning</strong> constraints. Here are a few:</p><br/>
+<div class="pl-4">
 <ul>
-<li style="font-weight: 400;"><strong>Lot Coverage:</strong><span style="font-weight: 400;"> This limits the total footprint of buildings on your lot. Want to add a large </span><strong>custom kitchen extension</strong><span style="font-weight: 400;"> or garage? You&rsquo;ll need to do the math&mdash;and possibly reduce square footage elsewhere.</span></li>
-<li style="font-weight: 400;"><strong>Setbacks:</strong><span style="font-weight: 400;"> These are the required minimum distances from your home to the property lines. Many </span><strong>early 20th-century homes in Seattle</strong><span style="font-weight: 400;"> don&rsquo;t comply with current setback standards. This can restrict outward additions and require special planning.</span></li>
-<li style="font-weight: 400;"><strong>Height Limits:</strong><span style="font-weight: 400;"> Depending on your </span><strong>zoning code</strong><span style="font-weight: 400;">, there may be a cap on how tall your addition can be&mdash;especially if you&rsquo;re planning a second story or pop-top.</span></li>
-<li style="font-weight: 400;"><strong>Parking Requirements:</strong><span style="font-weight: 400;"> Adding a </span><strong>detached accessory dwelling unit</strong><span style="font-weight: 400;">? Some zones require you to add off-street parking to accommodate the extra unit.</span></li>
-<li style="font-weight: 400;"><strong>Permitting Requirements:</strong><span style="font-weight: 400;"> Your zoning designation affects how you&rsquo;ll navigate the </span><strong>permit process</strong><span style="font-weight: 400;"> and how likely your project is to require extra review or public notices.</span></li>
+<li ><strong>West Seattle Basement ADU:</strong> We converted an underused basement into a fully permitted ADU while staying within NR2 lot coverage limits. By utilizing existing structure and smart design, we avoided setbacks issues and maximized livable space.</li><br/>  
+<li ><strong>North Seattle Second Story Addition:</strong> A growing family wanted more space, but their <strong>nonconforming home</strong> was too close to the lot line. We worked with SDCI to secure approval and carefully designed within height limits&mdash;adding value and square footage without red tape.</li><br/>    
+<li ><strong>Queen Anne Whole-Home Remodel:</strong> A historic home in an NR1 zone received a full interior reconfiguration and a modest bump-out that respected strict <strong>zoning regulations</strong> while dramatically improving flow and natural light.</li><br/>  
 </ul>
+</div>
+<p>Want more examples? Explore <strong>our projects</strong> for real-life remodels built in compliance with Seattle zoning laws.</p>
 <h2>&nbsp;</h2>
-<h2><strong>Remodeling Old Homes in Seattle: Zoning Challenges &amp; Solutions</strong></h2>
-<p><span style="font-weight: 400;">One of the biggest hurdles for Seattle homeowners is remodeling a </span><strong>nonconforming structure</strong><span style="font-weight: 400;">&mdash;a home that doesn&rsquo;t comply with current </span><strong>building codes</strong><span style="font-weight: 400;"> or zoning rules but was legal when it was built.</span></p>
-<p><span style="font-weight: 400;">Seattle is full of charming craftsman and mid-century homes that fall into this category. These homes often sit closer to property lines than current </span><strong>zoning codes</strong><span style="font-weight: 400;"> allow, or exceed height and coverage limitations.</span></p>
-<p><span style="font-weight: 400;">At </span><strong>Innate</strong><span style="font-weight: 400;">, we&rsquo;ve helped dozens of clients remodel and expand homes that technically don&rsquo;t conform to current standards. Our approach includes:</span></p>
-<ul>
-<li style="font-weight: 400;"><strong>Site-specific research:</strong><span style="font-weight: 400;"> We review your parcel&rsquo;s zoning designation, topography, existing conditions, and potential constraints.</span></li>
-<li style="font-weight: 400;"><strong>Strategic design:</strong><span style="font-weight: 400;"> We tailor the remodel to meet your goals while staying within code&mdash;or apply for a </span><strong>zoning variance</strong><span style="font-weight: 400;"> when needed.</span></li>
-<li style="font-weight: 400;"><strong>Permit application support:</strong><span style="font-weight: 400;"> We handle all documents, drawings, and submissions to the </span><strong>Seattle Department of Construction and Inspections</strong><span style="font-weight: 400;"> (SDCI).</span></li>
-</ul>
-<p><span style="font-weight: 400;">Working with a team that understands </span><strong>Seattle municipal code</strong><span style="font-weight: 400;"> and has real-world experience with the </span><strong>building permit process</strong><span style="font-weight: 400;"> is essential when dealing with older homes and complicated lots.</span></p>
+<h2>Energy Efficiency, Zoning, and the Future of Building</h2>
+<p>In Seattle, zoning isn&rsquo;t just about size&mdash;it&rsquo;s increasingly about sustainability. New <strong>building codes</strong> require remodels and additions to meet updated energy standards, including insulation, windows, and HVAC.</p><br/>
+<p>At Innate, we integrate <strong>energy-efficient upgrades</strong> into every project we do&mdash;meeting both city requirements and long-term value goals. If you're planning a large-scale remodel, we can help you align with <strong>Built Green</strong>, LEED, or Seattle's new energy codes to future-proof your home.</p>
 <h2>&nbsp;</h2>
-<h2><strong>Examples of Zoning-Aware Remodels in Action</strong></h2>
-<p><span style="font-weight: 400;">We&rsquo;ve completed multiple </span><strong>design-build projects</strong><span style="font-weight: 400;"> in Seattle neighborhoods with challenging </span><strong>residential zoning</strong><span style="font-weight: 400;"> constraints. Here are a few:</span></p>
-<ul>
-<li style="font-weight: 400;"><strong>West Seattle Basement ADU:</strong><span style="font-weight: 400;"> We converted an underused basement into a fully permitted ADU while staying within NR2 lot coverage limits. By utilizing existing structure and smart design, we avoided setbacks issues and maximized livable space.</span></li>
-<li style="font-weight: 400;"><strong>North Seattle Second Story Addition:</strong><span style="font-weight: 400;"> A growing family wanted more space, but their </span><strong>nonconforming home</strong><span style="font-weight: 400;"> was too close to the lot line. We worked with SDCI to secure approval and carefully designed within height limits&mdash;adding value and square footage without red tape.</span></li>
-<li style="font-weight: 400;"><strong>Queen Anne Whole-Home Remodel:</strong><span style="font-weight: 400;"> A historic home in an NR1 zone received a full interior reconfiguration and a modest bump-out that respected strict </span><strong>zoning regulations</strong><span style="font-weight: 400;"> while dramatically improving flow and natural light.</span></li>
-</ul>
-<p><span style="font-weight: 400;">Want more examples? Explore </span><strong>our projects</strong><span style="font-weight: 400;"> for real-life remodels built in compliance with Seattle zoning laws.</span></p>
-<h2>&nbsp;</h2>
-<h2><strong>Energy Efficiency, Zoning, and the Future of Building</strong></h2>
-<p><span style="font-weight: 400;">In Seattle, zoning isn&rsquo;t just about size&mdash;it&rsquo;s increasingly about sustainability. New </span><strong>building codes</strong><span style="font-weight: 400;"> require remodels and additions to meet updated energy standards, including insulation, windows, and HVAC.</span></p>
-<p><span style="font-weight: 400;">At Innate, we integrate </span><strong>energy-efficient upgrades</strong><span style="font-weight: 400;"> into every project we do&mdash;meeting both city requirements and long-term value goals. If you're planning a large-scale remodel, we can help you align with </span><strong>Built Green</strong><span style="font-weight: 400;">, LEED, or Seattle's new energy codes to future-proof your home.</span></p>
-<h2>&nbsp;</h2>
-<h2><strong>Frequently Asked Questions</strong></h2>
+<h2>Frequently Asked Questions</h2>
 <p>&nbsp;</p>
 <p><strong>Q: How do I find out my home&rsquo;s zoning designation?</strong></p>
-<p><span style="font-weight: 400;">A: Use the </span><strong>Seattle Zoning Map</strong><span style="font-weight: 400;"> or contact Innate&mdash;we&rsquo;ll research your NR1, NR2, or NR3 designation for you.</span></p>
+<p>A: Use the <strong>Seattle Zoning Map</strong> or contact Innate&mdash;we&rsquo;ll research your NR1, NR2, or NR3 designation for you.</p>
 <p>&nbsp;</p>
 <p><strong>Q: Can I still remodel if my home doesn&rsquo;t meet current zoning rules?</strong></p>
-<p><span style="font-weight: 400;">A: Yes! Most </span><strong>nonconforming homes</strong><span style="font-weight: 400;"> can still be remodeled with careful planning and in some cases, city review. We specialize in helping clients navigate these situations.</span></p>
+<p>A: Yes! Most <strong>nonconforming homes</strong> can still be remodeled with careful planning and in some cases, city review. We specialize in helping clients navigate these situations.</p>
 <p>&nbsp;</p>
 <p><strong>Q: What&rsquo;s the first step to starting a remodel in Seattle?</strong></p>
-<p><span style="font-weight: 400;">A: The first step is a feasibility review. We&rsquo;ll assess your zoning, your goals, and your lot&mdash;and provide a clear strategy for your </span><strong>remodeling project</strong><span style="font-weight: 400;">.</span></p>
+<p>A: The first step is a feasibility review. We&rsquo;ll assess your zoning, your goals, and your lot&mdash;and provide a clear strategy for your <strong>remodeling project</strong>.</p>
 <p>&nbsp;</p>
 <p><strong>Q: What if I want to build a DADU on my property?</strong></p>
-<p><span style="font-weight: 400;">A: NR2 and NR3 zones are generally more DADU-friendly. We can confirm if your lot qualifies and help with the full </span><strong>permit application</strong><span style="font-weight: 400;"> and build process.</span></p>
+<p>A: NR2 and NR3 zones are generally more DADU-friendly. We can confirm if your lot qualifies and help with the full <strong>permit application</strong> and build process.</p>
 <p>&nbsp;</p>
 <p><strong>Q: What&rsquo;s the benefit of using a design-build firm for zoning compliance?</strong></p>
-<p><span style="font-weight: 400;">A: We combine architecture, permitting, and construction under one roof&mdash;eliminating disconnects and ensuring your project aligns with city rules at every phase.</span></p>
+<p>A: We combine architecture, permitting, and construction under one roof&mdash;eliminating disconnects and ensuring your project aligns with city rules at every phase.</p>
 <p>&nbsp;</p>
-<h2><strong>Let&rsquo;s Build Smart, Beautiful, and Within Code</strong></h2>
-<p><span style="font-weight: 400;">Zoning may seem like a barrier, but it doesn&rsquo;t have to be. With the right team, your project can stay compliant, creative, and completely aligned with your lifestyle goals.</span></p>
-<p><span style="font-weight: 400;">At </span><strong>Innate</strong><span style="font-weight: 400;">, we bring deep experience in </span><strong>Seattle home addition zoning</strong><span style="font-weight: 400;">, </span><strong>remodeling old homes in Seattle</strong><span style="font-weight: 400;">, and navigating the nuances of </span><strong>Seattle zoning NR1, NR2, NR3</strong><span style="font-weight: 400;">.</span></p>
-<p><span style="font-weight: 400;">Whether you&rsquo;re ready to add a story, remodel your kitchen, or build a new DADU, we&rsquo;ll help you do it right&mdash;from concept through completion.</span></p>
+<h2>Let&rsquo;s Build Smart, Beautiful, and Within Code</h2>
+<p>Zoning may seem like a barrier, but it doesn&rsquo;t have to be. With the right team, your project can stay compliant, creative, and completely aligned with your lifestyle goals.</p><br/>
+<p>At <strong>Innate</strong>, we bring deep experience in <strong>Seattle home addition zoning</strong>, <strong>remodeling old homes in Seattle</strong>, and navigating the nuances of <strong>Seattle zoning NR1, NR2, NR3</strong>.</p><br/>
+<p>Whether you&rsquo;re ready to add a story, remodel your kitchen, or build a new DADU, we&rsquo;ll help you do it right&mdash;from concept through completion.</p><br/>
 <p>&nbsp;</p>
-<p><strong>Schedule a consultation today to start planning your zoning-smart, design-forward remodel.</strong></p>
+<p><strong>Schedule a consultation today to start planning your zoning-smart, design-forward remodel.</strong></p><br/>
         `,
       },
     ],
@@ -587,6 +631,37 @@ export const blogSections: ArticleSection[] = [
     publishedDate: "11 September, 2025",
     content: [
       {
+        type: "text",
+        text: `
+        <h2>Why a 2025 Cost Guide Matters</h2>
+<p>Seattle homeowners are asking the same questions every year: How much does it cost to build a custom home in Seattle in 2025? Is it cheaper to remodel or build new?</p>
+<p>The truth: costs vary by project type, finishes, and location. Rising construction costs, <a href="/blogs/seattle-neighborhood-residential-zoning">strict building codes</a>, and long permitting timelines all play a role. Without a clear cost estimate, projects can spiral.</p>
+<p>That&rsquo;s why we built this guide&mdash;so homeowners across Seattle, Bellevue, and the Eastside can make informed choices.</p>
+<p>&nbsp;</p>
+<p>At<a href="https://www.innate-nw.com/"> Innate</a>, our team of architects, designers, and project managers specializes in custom designed homes, remodels, and additions that bring your vision to life from start to finish.</p>
+<h2>&nbsp;</h2>
+<h2>Seattle Custom Home Cost</h2>
+<p>A custom home offers freedom to design exactly what you want. But costs add up quickly in Seattle.</p>
+<h3>Average Cost Per Square Foot</h3>
+<ul>
+<li style="font-weight: 400;">Mid-range builds: $325&ndash;$450 per sq. ft.</li>
+<li style="font-weight: 400;">High-end finishes: $450&ndash;$650 per sq. ft.</li>
+<li style="font-weight: 400;">Luxury custom designed homes: $650+ per sq. ft.</li>
+</ul>
+<p>That means a 3,000 sq. ft. house ranges from $975,000 to nearly $2M.</p>
+<p>&nbsp;</p>
+<h3>Factors Influencing Cost</h3>
+<ul>
+<li style="font-weight: 400;">Land acquisition: Bellevue and Mercer Island lots command premiums.</li>
+<li style="font-weight: 400;">Site preparation: Sloped, wooded, or waterfront lots raise costs.</li>
+<li style="font-weight: 400;">Design &amp; engineering fees: Usually 8&ndash;15% of the build.</li>
+<li style="font-weight: 400;">Permits &amp; building code compliance: Typical cost $20K&ndash;$40K in Seattle.</li>
+<li style="font-weight: 400;">Labor &amp; materials: Older homes require more demo, while high end finishes raise budgets.</li>
+</ul>
+<p>&nbsp;</p>
+        `,
+      },
+      {
         type: "image",
         src: ["/images/press/yevhenii-deshko-xmDQ33itnmY-unsplash.webp"],
 
@@ -595,121 +670,95 @@ export const blogSections: ArticleSection[] = [
       {
         type: "text",
         text: `
-        <h2><span style="font-weight: 400;">Why a 2025 Cost Guide Matters</span></h2>
-<p><span style="font-weight: 400;">Seattle homeowners are asking the same questions every year: How much does it cost to build a custom home in Seattle in 2025? Is it cheaper to remodel or build new?</span></p>
-<p><span style="font-weight: 400;">The truth: costs vary by project type, finishes, and location. Rising construction costs, <a href="/blogs/seattle-neighborhood-residential-zoning">strict building codes</a>, and long permitting timelines all play a role. Without a clear cost estimate, projects can spiral.</span></p>
-<p><span style="font-weight: 400;">That&rsquo;s why we built this guide&mdash;so homeowners across Seattle, Bellevue, and the Eastside can make informed choices.</span></p>
+<h2>Seattle Home Remodeling Cost</h2>
+<p>Remodeling is often more cost effective than starting over.</p>
+<h3>Typical Costs</h3>
+<ul>
+<li style="font-weight: 400;">Seattle <a href="https://www.innate-nw.com/services/kitchen-remodeling">kitchen remodel</a> cost: $75K&ndash;$150K+</li>
+<li style="font-weight: 400;">Seattle <a href="https://www.innate-nw.com/services/bathroom-remodeling">bathroom remodel</a> cost: $35K&ndash;$80K+</li>
+<li style="font-weight: 400;">Seattle <a href="https://www.innate-nw.com/services/whole-home-remodels">whole home remodel</a> cost: $250K&ndash;$750K+</li>
+</ul>
+<h3>What Impacts Remodeling Costs</h3>
+<ul>
+<li style="font-weight: 400;">Scope of work: Structural vs cosmetic updates.</li>
+<li style="font-weight: 400;">Older homes: May need rewiring, plumbing, asbestos removal.</li>
+<li style="font-weight: 400;">General contractor fees: Typically 10&ndash;20% of total.</li>
+<li style="font-weight: 400;">Permit requirements: Essential for systems and layout changes.</li>
+</ul>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">At</span><a href="https://www.innate-nw.com/"><span style="font-weight: 400;"> Innate</span></a><span style="font-weight: 400;">, our team of architects, designers, and project managers specializes in custom designed homes, remodels, and additions that bring your vision to life from start to finish.</span></p>
+<p>Value Insight: A home remodel in Seattle often recoups 65&ndash;75% ROI, making it one of the most reliable investments for resale.</p>
 <h2>&nbsp;</h2>
-<h2><span style="font-weight: 400;">Seattle Custom Home Cost</span></h2>
-<p><span style="font-weight: 400;">A custom home offers freedom to design exactly what you want. But costs add up quickly in Seattle.</span></p>
-<h3><span style="font-weight: 400;">Average Cost Per Square Foot</span></h3>
+<h2>Seattle Home Addition Cost</h2>
+<p>For families who love their neighborhood but need more room, home additions in Seattle are a smart move.</p>
+<h3>Average Addition Costs</h3>
 <ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Mid-range builds: $325&ndash;$450 per sq. ft.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">High-end finishes: $450&ndash;$650 per sq. ft.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Luxury custom designed homes: $650+ per sq. ft.</span></li>
+<li style="font-weight: 400;">Single-room addition: $100K&ndash;$175K</li>
+<li style="font-weight: 400;">Second story addition: $250K&ndash;$500K+</li>
+<li style="font-weight: 400;">Seattle ADU / DADU cost: $300K&ndash;$450K</li>
 </ul>
-<p><span style="font-weight: 400;">That means a 3,000 sq. ft. house ranges from $975,000 to nearly $2M.</span></p>
-<p>&nbsp;</p>
-<h3><span style="font-weight: 400;">Factors Influencing Cost</span></h3>
-<ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Land acquisition: Bellevue and Mercer Island lots command premiums.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Site preparation: Sloped, wooded, or waterfront lots raise costs.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Design &amp; engineering fees: Usually 8&ndash;15% of the build.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Permits &amp; building code compliance: Typical cost $20K&ndash;$40K in Seattle.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Labor &amp; materials: Older homes require more demo, while high end finishes raise budgets.</span></li>
-</ul>
-<p>&nbsp;</p>
-<h2><span style="font-weight: 400;">Seattle Home Remodeling Cost</span></h2>
-<p><span style="font-weight: 400;">Remodeling is often more cost effective than starting over.</span></p>
-<h3><span style="font-weight: 400;">Typical Costs</span></h3>
-<ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Seattle </span><a href="https://www.innate-nw.com/services/kitchen-remodeling"><span style="font-weight: 400;">kitchen remodel</span></a><span style="font-weight: 400;"> cost: $75K&ndash;$150K+</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Seattle </span><a href="https://www.innate-nw.com/services/bathroom-remodeling"><span style="font-weight: 400;">bathroom remodel</span></a><span style="font-weight: 400;"> cost: $35K&ndash;$80K+</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Seattle </span><a href="https://www.innate-nw.com/services/whole-home-remodels"><span style="font-weight: 400;">whole home remodel</span></a><span style="font-weight: 400;"> cost: $250K&ndash;$750K+</span></li>
-</ul>
-<h3><span style="font-weight: 400;">What Impacts Remodeling Costs</span></h3>
-<ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Scope of work: Structural vs cosmetic updates.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Older homes: May need rewiring, plumbing, asbestos removal.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">General contractor fees: Typically 10&ndash;20% of total.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Permit requirements: Essential for systems and layout changes.</span></li>
-</ul>
-<p>&nbsp;</p>
-<p><span style="font-weight: 400;">Value Insight: A home remodel in Seattle often recoups 65&ndash;75% ROI, making it one of the most reliable investments for resale.</span></p>
-<h2>&nbsp;</h2>
-<h2><span style="font-weight: 400;">Seattle Home Addition Cost</span></h2>
-<p><span style="font-weight: 400;">For families who love their neighborhood but need more room, home additions in Seattle are a smart move.</span></p>
-<h3><span style="font-weight: 400;">Average Addition Costs</span></h3>
-<ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Single-room addition: $100K&ndash;$175K</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Second story addition: $250K&ndash;$500K+</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Seattle ADU / DADU cost: $300K&ndash;$450K</span></li>
-</ul>
-<h3><span style="font-weight: 400;">Eastside Home Addition Costs (2025 Snapshot)</span></h3>
+<h3>Eastside Home Addition Costs (2025 Snapshot)</h3>
 <ul>
 <li style="font-weight: 400;"></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Mercer Island home additions: Higher due to strict codes and premium finishes.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Kirkland home remodeling with additions: Often includes basement or second story expansion.</span></li>
+<li style="font-weight: 400;">Mercer Island home additions: Higher due to strict codes and premium finishes.</li>
+<li style="font-weight: 400;">Kirkland home remodeling with additions: Often includes basement or second story expansion.</li>
 <li style="font-weight: 400;"></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Bellevue custom home builders report higher demand for</span><a href="https://www.innate-nw.com/services/adus"><span style="font-weight: 400;"> ADU</span></a><span style="font-weight: 400;">s, especially for multigenerational living.</span></li>
+<li style="font-weight: 400;">Bellevue custom home builders report higher demand for<a href="https://www.innate-nw.com/services/adus"> ADU</a>s, especially for multigenerational living.</li>
 </ul>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">Future Flexibility: Accessory dwelling units (ADUs) provide long-term rental income, while also boosting property value.</span></p>
+<p>Future Flexibility: Accessory dwelling units (ADUs) provide long-term rental income, while also boosting property value.</p>
 <h2>&nbsp;</h2>
-<h2><span style="font-weight: 400;">Eastside Home Construction: City-by-City</span></h2>
-<p><span style="font-weight: 400;">Different Eastside communities bring different budgets:</span></p>
+<h2>Eastside Home Construction: City-by-City</h2>
+<p>Different Eastside communities bring different budgets:</p>
 <ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Bellevue custom home builders often deliver high-end homes starting at $500 per sq. ft.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Kirkland home remodeling projects average $350K+ for whole-home updates.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Mercer Island remodel contractors regularly manage second story additions and full-house upgrades over $500K.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Redmond custom home builders see a mix of mid range projects and luxury builds.</span></li>
+<li style="font-weight: 400;">Bellevue custom home builders often deliver high-end homes starting at $500 per sq. ft.</li>
+<li style="font-weight: 400;">Kirkland home remodeling projects average $350K+ for whole-home updates.</li>
+<li style="font-weight: 400;">Mercer Island remodel contractors regularly manage second story additions and full-house upgrades over $500K.</li>
+<li style="font-weight: 400;">Redmond custom home builders see a mix of mid range projects and luxury builds.</li>
 </ul>
 <p><br /><br /></p>
-<p><span style="font-weight: 400;">Cost Comparison Table</span></p>
-<p><span style="font-weight: 400;">Project TypeAvg. Cost (2025)Best ForROI PotentialCustom Home$325&ndash;$650+ / sq. ft.Building a new home from scratchHigh (lifestyle + value)Whole-Home Remodel$250K&ndash;$750K+Updating older homes65&ndash;75% ROI (typical)Home Addition$100K&ndash;$500K+Expanding without movingHigh (esp. with ADUs)</span></p>
+<p>Cost Comparison Table</p>
+<p>Project TypeAvg. Cost (2025)Best ForROI PotentialCustom Home$325&ndash;$650+ / sq. ft.Building a new home from scratchHigh (lifestyle + value)Whole-Home Remodel$250K&ndash;$750K+Updating older homes65&ndash;75% ROI (typical)Home Addition$100K&ndash;$500K+Expanding without movingHigh (esp. with ADUs)</p>
 <h2>&nbsp;</h2>
-<h2><span style="font-weight: 400;">Financing &amp; Cost Planning</span></h2>
+<h2>Financing &amp; Cost Planning</h2>
 <ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Construction loans: Common for building a new home.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">HELOCs or home equity loans: Best for remodels and additions.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Cash-out refinancing: Useful in Seattle&rsquo;s appreciating market.</span></li>
+<li style="font-weight: 400;">Construction loans: Common for building a new home.</li>
+<li style="font-weight: 400;">HELOCs or home equity loans: Best for remodels and additions.</li>
+<li style="font-weight: 400;">Cash-out refinancing: Useful in Seattle&rsquo;s appreciating market.</li>
 </ul>
-<p><span style="font-weight: 400;">Always budget a 10&ndash;15% contingency to cover unexpected costs.</span></p>
+<p>Always budget a 10&ndash;15% contingency to cover unexpected costs.</p>
 <h2>&nbsp;</h2>
-<h2><span style="font-weight: 400;">Timelines You Should Expect</span></h2>
+<h2>Timelines You Should Expect</h2>
 <ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Custom homes: 12&ndash;18 months.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Whole-home remodels: 6&ndash;12 months.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Additions: 4&ndash;9 months.</span></li>
+<li style="font-weight: 400;">Custom homes: 12&ndash;18 months.</li>
+<li style="font-weight: 400;">Whole-home remodels: 6&ndash;12 months.</li>
+<li style="font-weight: 400;">Additions: 4&ndash;9 months.</li>
 </ul>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">&nbsp;Key Point: Permitting and building code reviews in Seattle can delay projects&mdash;work with a project manager who knows the system.</span></p>
+<p>&nbsp;Key Point: Permitting and building code reviews in Seattle can delay projects&mdash;work with a project manager who knows the system.</p>
 <h2>&nbsp;</h2>
-<h2><span style="font-weight: 400;">ROI &amp; Resale Value</span></h2>
+<h2>ROI &amp; Resale Value</h2>
 <ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Seattle home renovation ROI is strongest for kitchens and bathrooms.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Second-story additions often bring the biggest boost in livable square footage.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">ADU building costs in Seattle Eastside are steep, but rental income offsets expenses long-term.</span></li>
+<li style="font-weight: 400;">Seattle home renovation ROI is strongest for kitchens and bathrooms.</li>
+<li style="font-weight: 400;">Second-story additions often bring the biggest boost in livable square footage.</li>
+<li style="font-weight: 400;">ADU building costs in Seattle Eastside are steep, but rental income offsets expenses long-term.</li>
 </ul>
 <h2>&nbsp;</h2>
-<h2><span style="font-weight: 400;">FAQs: Seattle Home Costs</span></h2>
-<p><span style="font-weight: 400;">Q: How much does it cost to build a custom home in Seattle in 2025?</span></p>
-<p><span style="font-weight: 400;">A: Most custom homes range from $325&ndash;$650+ per sq. ft. depending on finishes.</span></p>
-<p><span style="font-weight: 400;">Q: Is it cheaper to remodel or build new in Seattle?</span></p>
-<p><span style="font-weight: 400;">A: Remodeling is usually more cost effective, unless the home has major structural issues.</span></p>
-<p><span style="font-weight: 400;">Q: How much does a second story addition cost in Seattle?</span></p>
-<p><span style="font-weight: 400;">A: Typically $250K&ndash;$500K+, depending on structural tie-ins.</span></p>
-<p><span style="font-weight: 400;">Q: How long does it take to build a custom home in Seattle?</span></p>
-<p><span style="font-weight: 400;">A: Most projects take 12&ndash;18 months from design to completion.</span></p>
+<h2>FAQs: Seattle Home Costs</h2>
+<p>Q: How much does it cost to build a custom home in Seattle in 2025?</p>
+<p>A: Most custom homes range from $325&ndash;$650+ per sq. ft. depending on finishes.</p>
+<p>Q: Is it cheaper to remodel or build new in Seattle?</p>
+<p>A: Remodeling is usually more cost effective, unless the home has major structural issues.</p>
+<p>Q: How much does a second story addition cost in Seattle?</p>
+<p>A: Typically $250K&ndash;$500K+, depending on structural tie-ins.</p>
+<p>Q: How long does it take to build a custom home in Seattle?</p>
+<p>A: Most projects take 12&ndash;18 months from design to completion.</p>
 <h2>&nbsp;</h2>
-<h2><span style="font-weight: 400;">Bring Your Vision to Life with Innate</span></h2>
-<p><span style="font-weight: 400;">Whether you&rsquo;re exploring a Seattle custom home cost, a home remodel in Kirkland, or a Mercer Island home addition, knowing the numbers helps you plan with confidence.</span></p>
+<h2>Bring Your Vision to Life with Innate</h2>
+<p>Whether you&rsquo;re exploring a Seattle custom home cost, a home remodel in Kirkland, or a Mercer Island home addition, knowing the numbers helps you plan with confidence.</p>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">At</span><a href="https://www.innate-nw.com"><span style="font-weight: 400;"> Innate</span></a><span style="font-weight: 400;">, we provide design and build services that move projects from concept to completion&mdash;on time and on budget.</span></p>
+<p>At<a href="https://www.innate-nw.com"> Innate</a>, we provide design and build services that move projects from concept to completion&mdash;on time and on budget.</p>
 <h1>&nbsp;</h1>
-<h1><span style="font-weight: 400;">Ready to start? </span><a href="https://www.innate-nw.com/contact"><span style="font-weight: 400;">Contact Innate</span></a><span style="font-weight: 400;"> today for your cost estimate.</span></h1>
+<h1>Ready to start? <a href="https://www.innate-nw.com/contact">Contact Innate</a> today for your cost estimate.</h1>
         `,
       },
     ],
@@ -731,6 +780,81 @@ export const blogSections: ArticleSection[] = [
     publishedDate: "11 September, 2025",
     content: [
       {
+        type: "text",
+        text: `
+        <h2>Why Timelines Matter in Seattle Remodeling</h2>
+<p>One of the most common homeowner questions is: <em>&ldquo;How long will my remodel take in Seattle?&rdquo;</em></p>
+<p>The truth is that timelines vary based on scope, <a href="/blogs/soils-report-civil-engineer-bellevue">permits</a>, and whether you live in an older home. <strong>Seattle&rsquo;s building code</strong>, material delays, and skilled labor shortages all impact schedules. And because <strong>construction costs</strong> keep rising in the region, even a few weeks of delay can add thousands.</p><br/>
+<p>At<a href="https://www.innate-nw.com/"> Innate-NW</a>, a dedicated <strong>project manager</strong> guides your remodel from <strong>start to finish</strong>&mdash;so you have a realistic timeline and cost estimate. Whether it&rsquo;s a <strong>home remodel Seattle</strong> project or a full addition, we help bring your vision to life without surprises.</p>
+<p>&nbsp;</p>
+<h2>The 5 Phases of a Remodel</h2>
+<p>Every remodel has five major stages:</p><br/>
+<strong>Planning &amp; Design (4&ndash;12 weeks)</strong>
+
+<ul>
+<li>Initial consultation, budgeting, and conceptual drawings</li>
+<li>Material and fixture selection</li>
+<li>Permit application submitted to the city</li>
+</ul><br/>
+<strong>Permits &amp; Approvals (3&ndash;8 weeks)</strong>
+<ul>
+<li>Required for structural, plumbing, or electrical work</li>
+<li>Timelines vary&mdash;<strong>typical cost</strong> permits in Seattle often run longer than those in smaller Eastside cities</li>
+</ul><br/>
+<strong>Demolition &amp; Prep (1&ndash;2 weeks)</strong>
+<ul>
+<li>Tear-out of walls, cabinets, or flooring</li>
+<li>Reinforcement of framing in <strong>older homes</strong></li>
+</ul><br/>
+<strong>Construction (varies by project)</strong>
+<ul>
+<li>Structural work, plumbing, electrical, drywall, and finishes</li>
+<li><strong>Factors influencing</strong> timelines include inspection scheduling and material delays</li>
+</ul><br/>
+<strong>Final Inspection &amp; Walkthrough (1&ndash;2 weeks)</strong>
+<ul>
+<li>Punch-list completion</li>
+<li>City inspection sign-offs</li>
+</ul>
+
+<h2>&nbsp;</h2>
+<p><strong>Kitchen Remodel Timelines</strong></p>
+<p><strong>Direct Answer:</strong> A <a href="/blogs/kitchen-remodel-cost-seattle"><strong>Seattle kitchen remodel</strong></a><strong> cost timeline</strong> averages <strong>10&ndash;16 weeks</strong>.</p>
+<h3><strong>Breakdown</strong></h3>
+<ul>
+<li><strong>Planning &amp; design:</strong> 4&ndash;6 weeks</li>
+<li><strong>Permits:</strong> 2&ndash;6 weeks</li>
+<li><strong>Construction:</strong> 6&ndash;10 weeks</li>
+</ul><br/>
+<h3><strong>Delays to Expect</strong></h3>
+<ul>
+<li><strong>Custom designed cabinets</strong> (6&ndash;8 week lead time)</li>
+<li>Electrical or plumbing upgrades to meet modern <strong>building code</strong></li>
+<li>Back-ordered appliances or high end finishes</li>
+</ul><br/>
+<p><strong>Pro Tip:</strong> Order cabinetry and appliances early&mdash;this single step can shorten your project by weeks.</p>
+<p><a href="https://www.innate-nw.com/services/kitchen-remodeling">Learn more about our kitchen remodeling services</a>.</p>
+<h2>&nbsp;</h2>
+<p><strong>Bathroom Remodel Timelines</strong></p>
+<p><strong>Direct Answer:</strong> A <a href="https://www.innate-nw.com/services/bathroom-remodeling"><strong>Seattle bathroom remodel</strong></a><strong> cost timeline</strong> averages <strong>6&ndash;10 weeks</strong>.</p><br/>
+<h3><strong>Breakdown</strong></h3>
+<ul>
+<li><strong>Planning &amp; design:</strong> 3&ndash;4 weeks</li>
+<li><strong>Permits:</strong> 2&ndash;4 weeks</li>
+<li><strong>Construction:</strong> 4&ndash;6 weeks</li>
+</ul><br/>
+<h3><strong>Delays to Expect</strong></h3>
+<ul>
+<li>Water damage or mold hidden behind tile</li>
+<li>Custom stone or tile fabrication delays</li>
+<li>Ventilation upgrades required by Seattle&rsquo;s <strong>general contractor</strong> codes</li>
+</ul><br/>
+<p><strong>Pro Tip:</strong> Stick with standard fixtures and tile sizes if you want to finish faster.</p>
+<p><a href="https://www.innate-nw.com/services/bathroom-remodeling">See our bathroom remodeling services</a>.</p>
+<h2>&nbsp;</h2>
+        `,
+      },
+      {
         type: "image",
         src: ["/images/press/anand-kumar-AgHJm3uKr4U-unsplash.webp"],
 
@@ -739,111 +863,41 @@ export const blogSections: ArticleSection[] = [
       {
         type: "text",
         text: `
-        <h2><strong>Why Timelines Matter in Seattle Remodeling</strong></h2>
-<p><span style="font-weight: 400;">One of the most common homeowner questions is: </span><em><span style="font-weight: 400;">&ldquo;How long will my remodel take in Seattle?&rdquo;</span></em></p>
-<p><span style="font-weight: 400;">The truth is that timelines vary based on scope, <a href="/blogs/soils-report-civil-engineer-bellevue">permits</a>, and whether you live in an older home. </span><strong>Seattle&rsquo;s building code</strong><span style="font-weight: 400;">, material delays, and skilled labor shortages all impact schedules. And because </span><strong>construction costs</strong><span style="font-weight: 400;"> keep rising in the region, even a few weeks of delay can add thousands.</span></p>
-<p><span style="font-weight: 400;">At</span><a href="https://www.innate-nw.com/"> <span style="font-weight: 400;">Innate-NW</span></a><span style="font-weight: 400;">, a dedicated </span><strong>project manager</strong><span style="font-weight: 400;"> guides your remodel from </span><strong>start to finish</strong><span style="font-weight: 400;">&mdash;so you have a realistic timeline and cost estimate. Whether it&rsquo;s a </span><strong>home remodel Seattle</strong><span style="font-weight: 400;"> project or a full addition, we help bring your vision to life without surprises.</span></p>
-<p>&nbsp;</p>
-<h2><strong>The 5 Phases of a Remodel</strong></h2>
-<p><span style="font-weight: 400;">Every remodel has five major stages:</span></p>
-<ol>
-<li style="font-weight: 400;"><strong>Planning &amp; Design (4&ndash;12 weeks)</strong><strong><br /><br /></strong></li>
-<ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Initial consultation, budgeting, and conceptual drawings</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Material and fixture selection</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Permit application submitted to the city</span><span style="font-weight: 400;"><br /><br /></span></li>
-</ul>
-<li style="font-weight: 400;"><strong>Permits &amp; Approvals (3&ndash;8 weeks)</strong><strong><br /><br /></strong></li>
-<ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Required for structural, plumbing, or electrical work</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Timelines vary&mdash;</span><strong>typical cost</strong><span style="font-weight: 400;"> permits in Seattle often run longer than those in smaller Eastside cities</span><span style="font-weight: 400;"><br /><br /></span></li>
-</ul>
-<li style="font-weight: 400;"><strong>Demolition &amp; Prep (1&ndash;2 weeks)</strong><strong><br /><br /></strong></li>
-<ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Tear-out of walls, cabinets, or flooring</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Reinforcement of framing in </span><strong>older homes</strong><strong><br /><br /></strong></li>
-</ul>
-<li style="font-weight: 400;"><strong>Construction (varies by project)</strong><strong><br /><br /></strong></li>
-<ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Structural work, plumbing, electrical, drywall, and finishes</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><strong>Factors influencing</strong><span style="font-weight: 400;"> timelines include inspection scheduling and material delays</span><span style="font-weight: 400;"><br /><br /></span></li>
-</ul>
-<li style="font-weight: 400;"><strong>Final Inspection &amp; Walkthrough (1&ndash;2 weeks)</strong><strong><br /><br /></strong></li>
-<ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Punch-list completion</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">City inspection sign-offs</span><span style="font-weight: 400;"><br /><br /></span></li>
-</ul>
-</ol>
-<h2>&nbsp;</h2>
-<p><strong>Kitchen Remodel Timelines</strong></p>
-<p><strong>Direct Answer:</strong><span style="font-weight: 400;"> A </span><a href="/blogs/kitchen-remodel-cost-seattle"><strong>Seattle kitchen remodel</strong></a><strong> cost timeline</strong><span style="font-weight: 400;"> averages </span><strong>10&ndash;16 weeks</strong><span style="font-weight: 400;">.</span></p>
-<h3><strong>Breakdown</strong></h3>
-<ul>
-<li style="font-weight: 400;"><strong>Planning &amp; design:</strong><span style="font-weight: 400;"> 4&ndash;6 weeks</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><strong>Permits:</strong><span style="font-weight: 400;"> 2&ndash;6 weeks</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><strong>Construction:</strong><span style="font-weight: 400;"> 6&ndash;10 weeks</span><span style="font-weight: 400;"><br /><br /></span></li>
-</ul>
-<h3><strong>Delays to Expect</strong></h3>
-<ul>
-<li style="font-weight: 400;"><strong>Custom designed cabinets</strong><span style="font-weight: 400;"> (6&ndash;8 week lead time)</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Electrical or plumbing upgrades to meet modern </span><strong>building code</strong><strong><br /><br /></strong></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Back-ordered appliances or high end finishes</span><span style="font-weight: 400;"><br /><br /></span></li>
-</ul>
-<p><strong>Pro Tip:</strong><span style="font-weight: 400;"> Order cabinetry and appliances early&mdash;this single step can shorten your project by weeks.</span></p>
-<p><a href="https://www.innate-nw.com/services/kitchen-remodeling"><span style="font-weight: 400;">Learn more about our kitchen remodeling services</span></a><span style="font-weight: 400;">.</span></p>
-<h2>&nbsp;</h2>
-<p><strong>Bathroom Remodel Timelines</strong></p>
-<p><strong>Direct Answer:</strong><span style="font-weight: 400;"> A </span><a href="https://www.innate-nw.com/services/bathroom-remodeling"><strong>Seattle bathroom remodel</strong></a><strong> cost timeline</strong><span style="font-weight: 400;"> averages </span><strong>6&ndash;10 weeks</strong><span style="font-weight: 400;">.</span></p>
-<h3><strong>Breakdown</strong></h3>
-<ul>
-<li style="font-weight: 400;"><strong>Planning &amp; design:</strong><span style="font-weight: 400;"> 3&ndash;4 weeks</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><strong>Permits:</strong><span style="font-weight: 400;"> 2&ndash;4 weeks</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><strong>Construction:</strong><span style="font-weight: 400;"> 4&ndash;6 weeks</span><span style="font-weight: 400;"><br /><br /></span></li>
-</ul>
-<h3><strong>Delays to Expect</strong></h3>
-<ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Water damage or mold hidden behind tile</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Custom stone or tile fabrication delays</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Ventilation upgrades required by Seattle&rsquo;s </span><strong>general contractor</strong><span style="font-weight: 400;"> codes</span><span style="font-weight: 400;"><br /><br /></span></li>
-</ul>
-<p><strong>Pro Tip:</strong><span style="font-weight: 400;"> Stick with standard fixtures and tile sizes if you want to finish faster.</span></p>
-<p><a href="https://www.innate-nw.com/services/bathroom-remodeling"><span style="font-weight: 400;">See our bathroom remodeling services</span></a><span style="font-weight: 400;">.</span></p>
-<h2>&nbsp;</h2>
 <p><strong>Whole-Home Remodel Timelines</strong></p>
-<p><strong>Direct Answer:</strong><span style="font-weight: 400;"> A </span><a href="https://www.innate-nw.com/services/whole-home-remodels"><strong>Seattle whole home remodel</strong></a><strong> cost</strong><span style="font-weight: 400;"> project can take </span><strong>6&ndash;12 months</strong><span style="font-weight: 400;">.</span></p>
+<p><strong>Direct Answer:</strong> A <a href="https://www.innate-nw.com/services/whole-home-remodels"><strong>Seattle whole home remodel</strong></a><strong> cost</strong> project can take <strong>6&ndash;12 months</strong>.</p><br/>
 <h3><strong>Breakdown</strong></h3>
 <ul>
-<li style="font-weight: 400;"><strong>Planning &amp; design:</strong><span style="font-weight: 400;"> 8&ndash;12 weeks</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><strong>Permits:</strong><span style="font-weight: 400;"> 8&ndash;12 weeks</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><strong>Construction:</strong><span style="font-weight: 400;"> 5&ndash;9 months</span><span style="font-weight: 400;"><br /><br /></span></li>
-</ul>
+<li><strong>Planning &amp; design:</strong> 8&ndash;12 weeks</li>
+<li><strong>Permits:</strong> 8&ndash;12 weeks</li>
+<li><strong>Construction:</strong> 5&ndash;9 months</li>
+</ul><br/>
 <h3><strong>Delays to Expect</strong></h3>
 <ul>
-<li style="font-weight: 400;"><strong>Older homes</strong><span style="font-weight: 400;"> often require structural reinforcement or seismic upgrades</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Long lead times for windows and doors</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Mid project scope changes</span><span style="font-weight: 400;"><br /><br /></span></li>
-</ul>
-<p><strong>Pro Tip:</strong><span style="font-weight: 400;"> Large remodels are often as complex as </span><strong>building a new home</strong><span style="font-weight: 400;">. Budget extra time and money for contingencies.</span></p>
-<p><a href="https://www.innate-nw.com/services/whole-home-remodels"><span style="font-weight: 400;">Explore our whole-home remodeling services</span></a><span style="font-weight: 400;">.</span></p>
+<li><strong>Older homes</strong> often require structural reinforcement or seismic upgrades</li>
+<li>Long lead times for windows and doors</li>
+<li>Mid project scope changes</li>
+</ul><br/>
+<p><strong>Pro Tip:</strong> Large remodels are often as complex as <strong>building a new home</strong>. Budget extra time and money for contingencies.</p>
+<p><a href="https://www.innate-nw.com/services/whole-home-remodels">Explore our whole-home remodeling services</a>.</p>
 <h2>&nbsp;</h2>
 <p><strong>Home Addition Timelines</strong></p>
-<p><strong>Direct Answer:</strong><span style="font-weight: 400;"> A </span><a href="https://www.innate-nw.com/services/whole-home-remodels"><strong>Seattle home addition</strong></a><strong> cost timeline</strong><span style="font-weight: 400;"> runs </span><strong>4&ndash;9 months</strong><span style="font-weight: 400;"> on average.</span></p>
+<p><strong>Direct Answer:</strong> A <a href="https://www.innate-nw.com/services/whole-home-remodels"><strong>Seattle home addition</strong></a><strong> cost timeline</strong> runs <strong>4&ndash;9 months</strong> on average.</p>
 <h3><strong>Breakdown</strong></h3>
 <ul>
-<li style="font-weight: 400;"><strong>Planning &amp; design:</strong><span style="font-weight: 400;"> 8&ndash;10 weeks</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><strong>Permits:</strong><span style="font-weight: 400;"> 8&ndash;12 weeks</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><strong>Construction:</strong><span style="font-weight: 400;"> 3&ndash;6 months</span><span style="font-weight: 400;"><br /><br /></span></li>
-</ul>
+<li><strong>Planning &amp; design:</strong> 8&ndash;10 weeks</li>
+<li><strong>Permits:</strong> 8&ndash;12 weeks</li>
+<li><strong>Construction:</strong> 3&ndash;6 months</li>
+</ul><br/>
 <h3><strong>Delays to Expect</strong></h3>
 <ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Foundation reinforcement for </span><strong>story addition</strong><span style="font-weight: 400;"> projects</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Zoning and setback reviews in Bellevue, Kirkland, and Mercer Island</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Utility extensions for plumbing, HVAC, and electrical</span><span style="font-weight: 400;"><br /><br /></span></li>
-</ul>
-<p><span style="font-weight: 400;">&nbsp;</span><strong>Pro Tip:</strong> <strong>Accessory dwelling units (ADUs)</strong><span style="font-weight: 400;"> are a </span><strong>cost effective</strong><span style="font-weight: 400;"> way to expand space while generating income.</span></p>
-<p><a href="https://www.innate-nw.com/services/adus"><span style="font-weight: 400;">Check out our home addition services</span></a><span style="font-weight: 400;">.</span></p>
+<li>Foundation reinforcement for <strong>story addition</strong> projects</li>
+<li>Zoning and setback reviews in Bellevue, Kirkland, and Mercer Island</li>
+<li>Utility extensions for plumbing, HVAC, and electrical</li>
+</ul><br/>
+<p>&nbsp;<strong>Pro Tip:</strong> <strong>Accessory dwelling units (ADUs)</strong> are a <strong>cost effective</strong> way to expand space while generating income.</p>
+<p><a href="https://www.innate-nw.com/services/adus">Check out our home addition services</a>.</p>
 <h2>&nbsp;</h2>
-<h2><strong>Quick Reference Timeline Chart</strong></h2>
+<h2>Quick Reference Timeline Chart</h2>
 <table>
 <tbody>
 <tr>
@@ -862,10 +916,10 @@ export const blogSections: ArticleSection[] = [
 <p><strong>Kitchen remodel</strong></p>
 </td>
 <td>
-<p><span style="font-weight: 400;">10&ndash;16 weeks</span></p>
+<p>10&ndash;16 weeks</p>
 </td>
 <td>
-<p><span style="font-weight: 400;">Custom cabinets, permits, plumbing updates</span></p>
+<p>Custom cabinets, permits, plumbing updates</p>
 </td>
 </tr>
 <tr>
@@ -873,10 +927,10 @@ export const blogSections: ArticleSection[] = [
 <p><strong>Bathroom remodel</strong></p>
 </td>
 <td>
-<p><span style="font-weight: 400;">6&ndash;10 weeks</span></p>
+<p>6&ndash;10 weeks</p>
 </td>
 <td>
-<p><span style="font-weight: 400;">Tile fabrication, mold, ventilation</span></p>
+<p>Tile fabrication, mold, ventilation</p>
 </td>
 </tr>
 <tr>
@@ -884,10 +938,10 @@ export const blogSections: ArticleSection[] = [
 <p><strong>Whole-home remodel</strong></p>
 </td>
 <td>
-<p><span style="font-weight: 400;">6&ndash;12 months</span></p>
+<p>6&ndash;12 months</p>
 </td>
 <td>
-<p><span style="font-weight: 400;">Structural issues, permits, older homes</span></p>
+<p>Structural issues, permits, older homes</p>
 </td>
 </tr>
 <tr>
@@ -895,41 +949,40 @@ export const blogSections: ArticleSection[] = [
 <p><strong>Home addition</strong></p>
 </td>
 <td>
-<p><span style="font-weight: 400;">4&ndash;9 months</span></p>
+<p>4&ndash;9 months</p>
 </td>
 <td>
-<p><span style="font-weight: 400;">Foundation, zoning, utilities</span></p>
+<p>Foundation, zoning, utilities</p>
 </td>
 </tr>
 </tbody>
 </table>
-<h2>&nbsp;</h2>
-<h2><strong>FAQs About Seattle Remodel Timelines</strong></h2>
+<h2>FAQs About Seattle Remodel Timelines</h2>
 <br/>
-<p><strong>Q: How much does it cost to build a custom home in Seattle 2025?</strong><strong><br /></strong><span style="font-weight: 400;"> A: A </span><strong>seattle custom home cost</strong><span style="font-weight: 400;"> averages $325&ndash;$650+ per square foot, with total timelines of 12&ndash;18 months.</span></p>
-<p><strong>Q: Is it cheaper to remodel or build new in Seattle?</strong><strong><br /></strong><span style="font-weight: 400;"> A: In most cases, a </span><strong>home remodel Seattle</strong><span style="font-weight: 400;"> project is more cost effective than new construction&mdash;unless the home has major structural issues.</span></p>
-<p><strong>Q: How much does a second story addition cost in Seattle?</strong><strong><br /></strong><span style="font-weight: 400;"> A: A second story typically adds $250K&ndash;$500K, with timelines of 6&ndash;9 months.</span></p>
-<p><strong>Q: What is the average cost per square foot for a custom home in Seattle?</strong><strong><br /></strong><span style="font-weight: 400;"> A: Most </span><strong>custom home builders Seattle</strong><span style="font-weight: 400;"> charge $325&ndash;$650+ per square foot, depending on finishes.</span></p>
-<p><strong>Q: How long does it take to build a custom home in Seattle?</strong><strong><br /></strong><span style="font-weight: 400;"> A: The average timeline is 12&ndash;18 months from design to final inspection.</span></p>
-<p><strong>Q: What is the ROI of remodeling in Seattle?</strong><strong><br /></strong><span style="font-weight: 400;"> A: </span><strong>Seattle home renovation ROI</strong><span style="font-weight: 400;"> is strongest for kitchens and bathrooms, which return 65&ndash;75% of costs at resale.</span></p>
-<p><strong>Q: What about ADU building costs Seattle Eastside?</strong><strong><br /></strong><span style="font-weight: 400;"> A: </span><strong>Seattle adu / dadu cost</strong><span style="font-weight: 400;"> ranges $300K&ndash;$450K, with most </span><strong>adu building costs Seattle Eastside</strong><span style="font-weight: 400;"> projects finishing in 5&ndash;9 months.</span></p>
+<p><strong>Q: How much does it cost to build a custom home in Seattle 2025?</strong><strong><br /></strong> A: A <strong>seattle custom home cost</strong> averages $325&ndash;$650+ per square foot, with total timelines of 12&ndash;18 months.</p><br/>
+<p><strong>Q: Is it cheaper to remodel or build new in Seattle?</strong><strong><br /></strong> A: In most cases, a <strong>home remodel Seattle</strong> project is more cost effective than new construction&mdash;unless the home has major structural issues.</p><br/>
+<p><strong>Q: How much does a second story addition cost in Seattle?</strong><strong><br /></strong> A: A second story typically adds $250K&ndash;$500K, with timelines of 6&ndash;9 months.</p><br/>
+<p><strong>Q: What is the average cost per square foot for a custom home in Seattle?</strong><strong><br /></strong> A: Most <strong>custom home builders Seattle</strong> charge $325&ndash;$650+ per square foot, depending on finishes.</p><br/>
+<p><strong>Q: How long does it take to build a custom home in Seattle?</strong><strong><br /></strong> A: The average timeline is 12&ndash;18 months from design to final inspection.</p><br/>
+<p><strong>Q: What is the ROI of remodeling in Seattle?</strong><strong><br /></strong> A: <strong>Seattle home renovation ROI</strong> is strongest for kitchens and bathrooms, which return 65&ndash;75% of costs at resale.</p><br/>
+<p><strong>Q: What about ADU building costs Seattle Eastside?</strong><strong><br /></strong> A: <strong>Seattle adu / dadu cost</strong> ranges $300K&ndash;$450K, with most <strong>adu building costs Seattle Eastside</strong> projects finishing in 5&ndash;9 months.</p>
 <h2>&nbsp;</h2>
 <p><strong>Eastside City Insights</strong></p>
-<p><span style="font-weight: 400;">Remodeling timelines also shift based on city regulations:</span></p>
+<p>Remodeling timelines also shift based on city regulations:</p>
 <ul>
-<li style="font-weight: 400;"><strong>Bellevue custom home builders</strong><span style="font-weight: 400;"> report luxury kitchen remodels running 14&ndash;20 weeks due to imported finishes.</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><strong>Kirkland home remodeling</strong><span style="font-weight: 400;"> averages 4&ndash;8 months, especially when basements are included.</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><strong>Mercer Island home additions</strong><span style="font-weight: 400;"> often require complex structural tie-ins, stretching to 9 months.</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">A </span><strong>mercer island remodel contractor</strong><span style="font-weight: 400;"> often advises adding buffer time for zoning reviews.</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><strong>Home builder Bellevue WA</strong><span style="font-weight: 400;"> projects can be extended by stricter permit processes.</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><strong>Home remodeling Kirkland WA</strong><span style="font-weight: 400;"> frequently involves phased remodels to allow families to stay in the home.</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><strong>Eastside home addition costs</strong><span style="font-weight: 400;"> vary, but projects average $200K&ndash;$450K depending on complexity.</span><span style="font-weight: 400;"><br /><br /></span></li>
-<li style="font-weight: 400;"><strong>Redmond custom home builders</strong><span style="font-weight: 400;"> see strong demand for </span><strong>mid range</strong><span style="font-weight: 400;"> remodels that finish in under 6 months.</span><span style="font-weight: 400;"><br /><br /></span></li>
+<li><strong>Bellevue custom home builders</strong> report luxury kitchen remodels running 14&ndash;20 weeks due to imported finishes.</li>
+<li><strong>Kirkland home remodeling</strong> averages 4&ndash;8 months, especially when basements are included.</li>
+<li><strong>Mercer Island home additions</strong> often require complex structural tie-ins, stretching to 9 months.</li>
+<li>A <strong>mercer island remodel contractor</strong> often advises adding buffer time for zoning reviews.</li>
+<li><strong>Home builder Bellevue WA</strong> projects can be extended by stricter permit processes.</li>
+<li><strong>Home remodeling Kirkland WA</strong> frequently involves phased remodels to allow families to stay in the home.</li>
+<li><strong>Eastside home addition costs</strong> vary, but projects average $200K&ndash;$450K depending on complexity.</li>
+<li><strong>Redmond custom home builders</strong> see strong demand for <strong>mid range</strong> remodels that finish in under 6 months.</li>
 </ul>
 <p>&nbsp;</p>
 <p><strong>Plan Your Remodel with Confidence</strong></p>
-<p><span style="font-weight: 400;">Whether you&rsquo;re planning a </span><strong>home addition Seattle</strong><span style="font-weight: 400;">, a kitchen update, or a whole-home remodel, timelines and costs are critical to success.</span></p>
-<p><span style="font-weight: 400;">At</span><a href="https://www.innate-nw.com/"> <span style="font-weight: 400;">Innate-NW</span></a><span style="font-weight: 400;">, we provide full </span><strong>design and build</strong><span style="font-weight: 400;"> services to make your remodel seamless. From concept to completion, we handle every detail&mdash;so your home is </span><strong>custom designed</strong><span style="font-weight: 400;">, delivered on time, and crafted to bring your vision to life.</span></p>
+<p>Whether you&rsquo;re planning a <strong>home addition Seattle</strong>, a kitchen update, or a whole-home remodel, timelines and costs are critical to success.</p>
+<p>At<a href="https://www.innate-nw.com/"> Innate-NW</a>, we provide full <strong>design and build</strong> services to make your remodel seamless. From concept to completion, we handle every detail&mdash;so your home is <strong>custom designed</strong>, delivered on time, and crafted to bring your vision to life.</p><br/>
 <p><strong>Ready to start? </strong><a href="https://www.innate-nw.com/contact"><strong>Contact Innate</strong></a><strong> today for your remodel cost estimate and project timeline.</strong></p>
         `,
       },
@@ -953,92 +1006,94 @@ export const blogSections: ArticleSection[] = [
     publishedDate: "20 October, 2025",
     content: [
       {
+        type: "text",
+        text: `
+        
+<p>Small homes are rising in popularity for their lower cost, reduced <strong>greenhouse gas emissions</strong>, and easier upkeep. They also use fewer <strong>natural resources</strong>, which helps preserve the environment. Yet limited square footage presents a design challenge&mdash;how can a compact home still offer beauty, function, and energy efficiency?</p>
+<p>The answer is smart <strong>home exterior design</strong>. With the right plan, a small home can feel larger, stay <strong>environmentally friendly</strong>, and deliver curb appeal that lasts for the long term. <strong>Innate-NW</strong> specializes in <strong>exterior remodeling</strong> that transforms tight spaces into stylish, sustainable outdoor living areas.</p>
+<p>&nbsp;</p>
+<h2>Create Functional Outdoor Spaces</h2>
+<p>A smart <strong>small home exterior design</strong> makes every inch count. Patios, decks, and vertical gardens can turn unused corners into beautiful, multi-purpose rooms.</p>
+<h3>Patios and Decks</h3>
+<p>A well-planned deck or patio can serve as a dining area, reading nook, or mini garden. Our <strong>deck builds</strong> include built-in seating and hidden planters to save space and add convenience.</p>
+<h3>Vertical Gardens</h3>
+<p>When ground space is scarce, think vertical. Living walls or stacked planters bring greenery and improve <strong>indoor air quality</strong> when placed near windows or sliding doors.</p>
+<h3>Flexible Layouts</h3>
+<p>Use foldable tables and benches with storage. These cost-effective features keep a small patio neat and ready for guests or quiet evenings.</p>
+<p>&nbsp;</p>
+<h2>Make Space Look Bigger with Design</h2>
+<p>Smart design can make a compact house feel spacious.</p>
+<ul>
+<li style="font-weight: 400;"><strong>Horizontal Lines and Light Colors</strong>: Horizontal siding or slatted fencing draws the eye outward. Light, reflective finishes reduce heat gain and visually enlarge the home.</li>
+<li style="font-weight: 400;"><strong>Streamlined Rooflines</strong>: Clean roof shapes and slim overhangs provide shade while maintaining simple, modern lines.</li>
+<li style="font-weight: 400;"><strong>Well-Placed Windows</strong>: Corner glazing and clerestory windows let in sunlight and help reduce reliance on artificial lighting, supporting <strong>energy saving</strong> goals.</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Integrate Storage and Utility Seamlessly</h2>
+<p>Storage is a frequent challenge for small homes. A thoughtful <strong>exterior remodeling contractor</strong> can blend function and style.</p>
+<ul>
+<li style="font-weight: 400;"><strong>Compact Sheds and Bike Racks</strong>: Small but <strong>high quality</strong> sheds and wall racks keep gear tidy.</li>
+<li style="font-weight: 400;"><strong>Built-In Seating with Storage</strong>: Benches double as storage bins for cushions or gardening tools.</li>
+<li style="font-weight: 400;"><strong>Concealed Bins</strong>: Custom enclosures hide garbage and recycling containers, keeping sightlines clear.</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Choose the Right Materials and Landscaping</h2>
+<p>Scaled materials and layered landscaping bring harmony and depth to small spaces.</p>
+<ul>
+<li style="font-weight: 400;"><strong>Sustainable Building Materials</strong>: Use <strong>recycled materials</strong> like composite decking or reclaimed wood to reduce <strong>fossil fuels</strong> used in the <strong>manufacturing process</strong>.</li>
+<li style="font-weight: 400;"><strong>Eco Friendly Materials</strong>: Bamboo or cork are a <strong>renewable resource</strong> and add warmth and texture.</li>
+<li style="font-weight: 400;"><strong>Layered Landscaping</strong>: Native plants of varied heights create a rich, green architecture effect while conserving water.</li>
+</ul>
+<p>These <strong>cost effective</strong> and <strong>sustainably designed</strong> choices keep maintenance low and visual impact high.</p>
+        `,
+      },
+      {
         type: "image",
         src: ["/images/press/smart2_websize.jpg"],
-
         alt: "Image description",
       },
       {
         type: "text",
         text: `
-        <h1><strong>Smart Exterior Design for Small Homes: Make the Most of Limited Space</strong></h1>
-<p>&nbsp;</p>
-<h2><strong>Introduction</strong></h2>
-<p><span style="font-weight: 400;">Small homes are rising in popularity for their lower cost, reduced </span><strong>greenhouse gas emissions</strong><span style="font-weight: 400;">, and easier upkeep. They also use fewer </span><strong>natural resources</strong><span style="font-weight: 400;">, which helps preserve the environment. Yet limited square footage presents a design challenge&mdash;how can a compact home still offer beauty, function, and energy efficiency?</span></p>
-<p><span style="font-weight: 400;">The answer is smart </span><strong>home exterior design</strong><span style="font-weight: 400;">. With the right plan, a small home can feel larger, stay </span><strong>environmentally friendly</strong><span style="font-weight: 400;">, and deliver curb appeal that lasts for the long term. </span><strong>Innate-NW</strong><span style="font-weight: 400;"> specializes in </span><strong>exterior remodeling</strong><span style="font-weight: 400;"> that transforms tight spaces into stylish, sustainable outdoor living areas.</span></p>
-<p>&nbsp;</p>
-<h2><strong>Create Functional Outdoor Spaces</strong></h2>
-<p><span style="font-weight: 400;">A smart </span><strong>small home exterior design</strong><span style="font-weight: 400;"> makes every inch count. Patios, decks, and vertical gardens can turn unused corners into beautiful, multi-purpose rooms.</span></p>
-<h3><span style="font-weight: 400;">Patios and Decks</span></h3>
-<p><span style="font-weight: 400;">A well-planned deck or patio can serve as a dining area, reading nook, or mini garden. Our </span><strong>deck builds</strong><span style="font-weight: 400;"> include built-in seating and hidden planters to save space and add convenience.</span></p>
-<h3><span style="font-weight: 400;">Vertical Gardens</span></h3>
-<p><span style="font-weight: 400;">When ground space is scarce, think vertical. Living walls or stacked planters bring greenery and improve </span><strong>indoor air quality</strong><span style="font-weight: 400;"> when placed near windows or sliding doors.</span></p>
-<h3><span style="font-weight: 400;">Flexible Layouts</span></h3>
-<p><span style="font-weight: 400;">Use foldable tables and benches with storage. These cost-effective features keep a small patio neat and ready for guests or quiet evenings.</span></p>
-<p>&nbsp;</p>
-<h2><strong>Make Space Look Bigger with Design</strong></h2>
-<p><span style="font-weight: 400;">Smart design can make a compact house feel spacious.</span></p>
-<ul>
-<li style="font-weight: 400;"><strong>Horizontal Lines and Light Colors</strong><span style="font-weight: 400;">: Horizontal siding or slatted fencing draws the eye outward. Light, reflective finishes reduce heat gain and visually enlarge the home.</span></li>
-<li style="font-weight: 400;"><strong>Streamlined Rooflines</strong><span style="font-weight: 400;">: Clean roof shapes and slim overhangs provide shade while maintaining simple, modern lines.</span></li>
-<li style="font-weight: 400;"><strong>Well-Placed Windows</strong><span style="font-weight: 400;">: Corner glazing and clerestory windows let in sunlight and help reduce reliance on artificial lighting, supporting </span><strong>energy saving</strong><span style="font-weight: 400;"> goals.</span></li>
-</ul>
-<p>&nbsp;</p>
-<h2><strong>Integrate Storage and Utility Seamlessly</strong></h2>
-<p><span style="font-weight: 400;">Storage is a frequent challenge for small homes. A thoughtful </span><strong>exterior remodeling contractor</strong><span style="font-weight: 400;"> can blend function and style.</span></p>
-<ul>
-<li style="font-weight: 400;"><strong>Compact Sheds and Bike Racks</strong><span style="font-weight: 400;">: Small but </span><strong>high quality</strong><span style="font-weight: 400;"> sheds and wall racks keep gear tidy.</span></li>
-<li style="font-weight: 400;"><strong>Built-In Seating with Storage</strong><span style="font-weight: 400;">: Benches double as storage bins for cushions or gardening tools.</span></li>
-<li style="font-weight: 400;"><strong>Concealed Bins</strong><span style="font-weight: 400;">: Custom enclosures hide garbage and recycling containers, keeping sightlines clear.</span></li>
-</ul>
-<p>&nbsp;</p>
-<h2><strong>Choose the Right Materials and Landscaping</strong></h2>
-<p><span style="font-weight: 400;">Scaled materials and layered landscaping bring harmony and depth to small spaces.</span></p>
-<ul>
-<li style="font-weight: 400;"><strong>Sustainable Building Materials</strong><span style="font-weight: 400;">: Use </span><strong>recycled materials</strong><span style="font-weight: 400;"> like composite decking or reclaimed wood to reduce </span><strong>fossil fuels</strong><span style="font-weight: 400;"> used in the </span><strong>manufacturing process</strong><span style="font-weight: 400;">.</span></li>
-<li style="font-weight: 400;"><strong>Eco Friendly Materials</strong><span style="font-weight: 400;">: Bamboo or cork are a </span><strong>renewable resource</strong><span style="font-weight: 400;"> and add warmth and texture.</span></li>
-<li style="font-weight: 400;"><strong>Layered Landscaping</strong><span style="font-weight: 400;">: Native plants of varied heights create a rich, green architecture effect while conserving water.</span></li>
-</ul>
-<p><span style="font-weight: 400;">These </span><strong>cost effective</strong><span style="font-weight: 400;"> and </span><strong>sustainably designed</strong><span style="font-weight: 400;"> choices keep maintenance low and visual impact high.</span></p>
 <h2>&nbsp;</h2>
-<h2><strong>Add Personality with Texture and Light</strong></h2>
-<p><span style="font-weight: 400;">A small exterior can still show strong character.</span></p>
+<h2>Add Personality with Texture and Light</h2>
+<p>A small exterior can still show strong character.</p>
 <ul>
-<li style="font-weight: 400;"><strong>Accent Walls</strong><span style="font-weight: 400;">: Reclaimed wood or stone provides striking contrast.</span></li>
-<li style="font-weight: 400;"><strong>Decorative Lighting</strong><span style="font-weight: 400;">: String lights or downlights add evening ambiance and safety.</span></li>
-<li style="font-weight: 400;"><strong>Custom Railings</strong><span style="font-weight: 400;">: Our </span><strong>railing systems</strong><span style="font-weight: 400;"> add visual interest while meeting safety codes.</span></li>
+<li style="font-weight: 400;"><strong>Accent Walls</strong>: Reclaimed wood or stone provides striking contrast.</li>
+<li style="font-weight: 400;"><strong>Decorative Lighting</strong>: String lights or downlights add evening ambiance and safety.</li>
+<li style="font-weight: 400;"><strong>Custom Railings</strong>: Our <strong>railing systems</strong> add visual interest while meeting safety codes.</li>
 </ul>
-<p><span style="font-weight: 400;">Details like these give your home a one-of-a-kind look.</span></p>
+<p>Details like these give your home a one-of-a-kind look.</p>
 <p>&nbsp;</p>
-<h2><strong>Blend Efficiency with Curb Appeal</strong></h2>
-<p><span style="font-weight: 400;">Modern </span><strong>house exterior remodeling</strong><span style="font-weight: 400;"> balances style with performance.</span></p>
+<h2>Blend Efficiency with Curb Appeal</h2>
+<p>Modern <strong>house exterior remodeling</strong> balances style with performance.</p>
 <ul>
-<li style="font-weight: 400;"><strong>Solar Panels</strong><span style="font-weight: 400;">: Integrated solar panels generate clean power from </span><strong>renewable energy sources</strong><span style="font-weight: 400;"> without spoiling the roofline.</span></li>
-<li style="font-weight: 400;"><strong>Energy Efficiency</strong><span style="font-weight: 400;">: Advanced insulation and high-performance siding cut heating and cooling costs.</span></li>
-<li style="font-weight: 400;"><strong>Reduced Carbon Emissions</strong><span style="font-weight: 400;">: Lower energy use means less dependence on fossil fuels and fewer emissions over the long term.</span></li>
+<li style="font-weight: 400;"><strong>Solar Panels</strong>: Integrated solar panels generate clean power from <strong>renewable energy sources</strong> without spoiling the roofline.</li>
+<li style="font-weight: 400;"><strong>Energy Efficiency</strong>: Advanced insulation and high-performance siding cut heating and cooling costs.</li>
+<li style="font-weight: 400;"><strong>Reduced Carbon Emissions</strong>: Lower energy use means less dependence on fossil fuels and fewer emissions over the long term.</li>
 </ul>
-<p><span style="font-weight: 400;">Innate-NW helps homeowners achieve these goals without sacrificing beauty.</span></p>
+<p>Innate-NW helps homeowners achieve these goals without sacrificing beauty.</p>
 <p>&nbsp;</p>
-<h2><strong>Plan for Year-Round Comfort</strong></h2>
-<p><span style="font-weight: 400;">Design for every season to extend living space.</span></p>
+<h2>Plan for Year-Round Comfort</h2>
+<p>Design for every season to extend living space.</p>
 <ul>
-<li style="font-weight: 400;"><strong>Covered Patios or Pergolas</strong><span style="font-weight: 400;"> create shelter from rain and summer sun.</span></li>
-<li style="font-weight: 400;"><strong>Retractable Screens</strong><span style="font-weight: 400;"> provide insect protection when needed.</span></li>
-<li style="font-weight: 400;"><strong>Outdoor Heaters or Fire Features</strong><span style="font-weight: 400;"> keep patios cozy during cool months.</span></li>
+<li style="font-weight: 400;"><strong>Covered Patios or Pergolas</strong> create shelter from rain and summer sun.</li>
+<li style="font-weight: 400;"><strong>Retractable Screens</strong> provide insect protection when needed.</li>
+<li style="font-weight: 400;"><strong>Outdoor Heaters or Fire Features</strong> keep patios cozy during cool months.</li>
 </ul>
-<p><span style="font-weight: 400;">These improvements ensure that outdoor areas stay inviting all year.</span></p>
+<p>These improvements ensure that outdoor areas stay inviting all year.</p>
 <p>&nbsp;</p>
-<h2><strong>Think Long-Term and Flexible</strong></h2>
-<p><span style="font-weight: 400;">Smart </span><strong>exterior design</strong><span style="font-weight: 400;"> anticipates change. Families grow, hobbies evolve, and outdoor needs shift.</span></p>
-<p><span style="font-weight: 400;">We create spaces that adapt&mdash;modular decks that can be expanded, planters that move easily, and sheds that can become hobby rooms. Long-term thinking protects your investment and keeps your home appealing for decades.</span></p>
+<h2>Think Long-Term and Flexible</h2>
+<p>Smart <strong>exterior design</strong> anticipates change. Families grow, hobbies evolve, and outdoor needs shift.</p>
+<p>We create spaces that adapt&mdash;modular decks that can be expanded, planters that move easily, and sheds that can become hobby rooms. Long-term thinking protects your investment and keeps your home appealing for decades.</p>
 <p>&nbsp;</p>
-<h2><strong>Partner with the Right Architecture Firm</strong></h2>
-<p><span style="font-weight: 400;">A successful project starts with expertise. Innate is more than a contractor&mdash;we are one of the region&rsquo;s leading </span><strong>architecture firms</strong><span style="font-weight: 400;"> focused on sustainable, space-smart solutions.</span></p>
-<p><span style="font-weight: 400;">From concept to permits to final build, our team manages every stage. We ensure that your exterior is not only beautiful and efficient but also built to last.</span></p>
+<h2>Partner with the Right Architecture Firm</h2>
+<p>A successful project starts with expertise. Innate is more than a contractor&mdash;we are one of the region&rsquo;s leading <strong>architecture firms</strong> focused on sustainable, space-smart solutions.</p>
+<p>From concept to permits to final build, our team manages every stage. We ensure that your exterior is not only beautiful and efficient but also built to last.</p>
 <p>&nbsp;</p>
-<h2><strong>Conclusion &amp; Call to Action</strong></h2>
-<p><span style="font-weight: 400;">A small home can still deliver big curb appeal and strong sustainability. With </span><strong>smart exterior design</strong><span style="font-weight: 400;">, you can create welcoming outdoor spaces, add hidden storage, and improve energy performance.</span></p>
-<p><span style="font-weight: 400;">Innate-NW specializes in </span><strong>exterior remodeling services</strong><span style="font-weight: 400;"> that merge beauty with environmental care. Whether you want a complete remodel or targeted upgrades like a custom deck or vertical garden, we can help.&nbsp;</span></p>
+<h2>Conclusion &amp; Call to Action</h2>
+<p>A small home can still deliver big curb appeal and strong sustainability. With <strong>smart exterior design</strong>, you can create welcoming outdoor spaces, add hidden storage, and improve energy performance.</p>
+<p>Innate-NW specializes in <strong>exterior remodeling services</strong> that merge beauty with environmental care. Whether you want a complete remodel or targeted upgrades like a custom deck or vertical garden, we can help.&nbsp;</p>
 <p>&nbsp;</p>
 <h3><strong>Contact Innate to design an exterior that saves energy, reduces emissions, and enhances your home for the long term.</strong></h3>
         `,
@@ -1063,6 +1118,31 @@ export const blogSections: ArticleSection[] = [
     publishedDate: "20 October, 2025",
     content: [
       {
+        type: "text",
+        text: `
+        <h1><strong>Sustainable Architecture: Eco-Friendly Features That Don&rsquo;t Diminish Style</strong></h1>
+<p>&nbsp;</p>
+<h2>Introduction</h2>
+<p>Sustainable architecture is now a standard in modern <a href="/blogs/architecture-impacts-property-value">home design</a>. More homeowners want to cut energy use and protect natural resources. At the same time, they want spaces that feel warm, open, and beautiful.</p>
+<p>Many people worry that eco-friendly choices mean plain or industrial-looking homes. At <strong>Innate-NW</strong>, we prove that isn&rsquo;t true. Our <strong>whole home remodels</strong> and new builds combine energy savings with timeless style. We create homes that are efficient, durable, and inviting.</p>
+<p>&nbsp;</p>
+<h2>Energy-Efficient Design Without an Industrial Look</h2>
+<p>Energy efficiency doesn&rsquo;t have to look mechanical. We blend smart technology with clean design so your home is stylish and efficient.</p>
+<p>We install <strong>solar panels</strong> that sit flush with the roofline. They supply power but remain subtle. <strong>High-performance windows</strong> and advanced insulation keep indoor temperatures steady year-round. Smart thermostats and zoned heating or cooling reduce energy use without drawing attention.</p>
+<p>Even complex systems like energy recovery ventilation are hidden inside walls or ceilings. The result is lower utility bills and quiet, consistent comfort in every season.</p>
+<p>&nbsp;</p>
+<h2>Sustainable Materials That Add Natural Beauty</h2>
+<p>Choosing <strong>sustainable architecture materials</strong> is about more than saving resources. The right materials also bring rich color and texture.</p>
+<ul>
+<li style="font-weight: 400;"><strong>Reclaimed wood</strong> offers character and history for floors, beams, and accent walls.</li>
+<li style="font-weight: 400;"><strong>Bamboo</strong>, a rapidly renewable resource, delivers warmth and a clean grain.</li>
+<li style="font-weight: 400;"><strong>Recycled steel</strong> provides sharp, modern lines and lasting strength.</li>
+</ul>
+<p>To protect indoor air, we recommend <strong>low-VOC paints and natural finishes</strong>. They release fewer chemicals and help everyone breathe easier. These finishes are standard in our <strong>kitchen remodels</strong> and <strong>bathroom remodels</strong>. They prove that eco-friendly products can also be elegant.</p>
+<p>&nbsp;</p>
+        `,
+      },
+      {
         type: "image",
         src: ["/images/press/sustainable2.jpg"],
 
@@ -1071,70 +1151,50 @@ export const blogSections: ArticleSection[] = [
       {
         type: "text",
         text: `
-        <h1><strong>Sustainable Architecture: Eco-Friendly Features That Don&rsquo;t Diminish Style</strong></h1>
+<h2>Passive Design That Works with Nature</h2>
+<p>Some of the smartest sustainable solutions are centuries old. <strong>Passive design</strong> uses the sun, wind, and shade to keep homes comfortable.</p>
+<p>We orient rooms to capture daylight and cool breezes. Deep roof overhangs block harsh summer sun but welcome winter light. Clerestory windows and operable skylights pull warm air upward and out, reducing the need for mechanical cooling.</p>
+<p>Our <strong>architectural services</strong> team uses digital modeling to balance light and shade. This keeps spaces bright and comfortable with minimal energy use. Every detail&mdash;window size, roof pitch, room placement&mdash;is planned for efficiency and beauty.</p>
 <p>&nbsp;</p>
-<h2><strong>Introduction</strong></h2>
-<p><span style="font-weight: 400;">Sustainable architecture is now a standard in modern <a href="/blogs/architecture-impacts-property-value">home design</a>. More homeowners want to cut energy use and protect natural resources. At the same time, they want spaces that feel warm, open, and beautiful.</span></p>
-<p><span style="font-weight: 400;">Many people worry that eco-friendly choices mean plain or industrial-looking homes. At </span><strong>Innate-NW</strong><span style="font-weight: 400;">, we prove that isn&rsquo;t true. Our </span><strong>whole home remodels</strong><span style="font-weight: 400;"> and new builds combine energy savings with timeless style. We create homes that are efficient, durable, and inviting.</span></p>
+<h2>Outdoor Spaces That Conserve Water</h2>
+<p>A sustainable home extends beyond its walls. Thoughtful landscaping saves water and supports local ecosystems while adding visual appeal.</p>
+<p>Native plants thrive in the Pacific Northwest with little irrigation. <strong>Green roofs</strong> and living walls provide insulation and attract pollinators. <strong>Rainwater harvesting systems</strong> and <strong>permeable patios</strong> collect and filter water instead of letting it run off.</p>
+<p>These outdoor features often complement our <strong>deck builds</strong> and <strong>ADU projects</strong>. Together, they create outdoor living areas that feel like natural extensions of the home.</p>
 <p>&nbsp;</p>
-<h2><strong>Energy-Efficient Design Without an Industrial Look</strong></h2>
-<p><span style="font-weight: 400;">Energy efficiency doesn&rsquo;t have to look mechanical. We blend smart technology with clean design so your home is stylish and efficient.</span></p>
-<p><span style="font-weight: 400;">We install </span><strong>solar panels</strong><span style="font-weight: 400;"> that sit flush with the roofline. They supply power but remain subtle. </span><strong>High-performance windows</strong><span style="font-weight: 400;"> and advanced insulation keep indoor temperatures steady year-round. Smart thermostats and zoned heating or cooling reduce energy use without drawing attention.</span></p>
-<p><span style="font-weight: 400;">Even complex systems like energy recovery ventilation are hidden inside walls or ceilings. The result is lower utility bills and quiet, consistent comfort in every season.</span></p>
+<h2>Smart Technology for Everyday Efficiency</h2>
+<p>Modern technology makes sustainability simple. Smart home systems show real-time data on energy and water use, helping you track and adjust.</p>
+<p>Automated lighting dims when rooms are empty or daylight is strong. Intelligent irrigation uses weather forecasts to avoid unnecessary watering. These quiet tools <a href="/blogs/cost-of-architecture">save money</a> and resources while keeping your home stylish and clutter-free.</p>
 <p>&nbsp;</p>
-<h2><strong>Sustainable Materials That Add Natural Beauty</strong></h2>
-<p><span style="font-weight: 400;">Choosing </span><strong>sustainable architecture materials</strong><span style="font-weight: 400;"> is about more than saving resources. The right materials also bring rich color and texture.</span></p>
+<h2>Comfort and Health Inside the Home</h2>
+<p>True sustainability includes healthy indoor spaces. Clean air, natural light, and balanced humidity are essential.</p>
+<p>We design layouts that encourage natural airflow and daylight. We specify finishes with low chemical emissions and use materials that help control humidity. The result is a home that supports well-being as well as beauty.</p>
+<p>&nbsp;</p>
+<h2>What Is Sustainable Architecture?</h2>
+<p>People often ask, <em>what is sustainable architecture</em>? It is a way of building that respects natural resources and creates homes that last.</p>
+<p>Key parts include:</p>
 <ul>
-<li style="font-weight: 400;"><strong>Reclaimed wood</strong><span style="font-weight: 400;"> offers character and history for floors, beams, and accent walls.</span></li>
-<li style="font-weight: 400;"><strong>Bamboo</strong><span style="font-weight: 400;">, a rapidly renewable resource, delivers warmth and a clean grain.</span></li>
-<li style="font-weight: 400;"><strong>Recycled steel</strong><span style="font-weight: 400;"> provides sharp, modern lines and lasting strength.</span></li>
+<li style="font-weight: 400;"><strong>Eco friendly materials</strong> that are renewable or recycled.</li>
+<li style="font-weight: 400;"><strong>Energy-smart systems</strong> that lower power and water use.</li>
+<li style="font-weight: 400;"><strong>Design strategies</strong> that work with climate and light.</li>
 </ul>
-<p><span style="font-weight: 400;">To protect indoor air, we recommend </span><strong>low-VOC paints and natural finishes</strong><span style="font-weight: 400;">. They release fewer chemicals and help everyone breathe easier. These finishes are standard in our </span><strong>kitchen remodels</strong><span style="font-weight: 400;"> and </span><strong>bathroom remodels</strong><span style="font-weight: 400;">. They prove that eco-friendly products can also be elegant.</span></p>
+<p>At Innate, these principles guide every <strong>whole home remodel</strong> and every new home we design.</p>
 <p>&nbsp;</p>
-<h2><strong>Passive Design That Works with Nature</strong></h2>
-<p><span style="font-weight: 400;">Some of the smartest sustainable solutions are centuries old. </span><strong>Passive design</strong><span style="font-weight: 400;"> uses the sun, wind, and shade to keep homes comfortable.</span></p>
-<p><span style="font-weight: 400;">We orient rooms to capture daylight and cool breezes. Deep roof overhangs block harsh summer sun but welcome winter light. Clerestory windows and operable skylights pull warm air upward and out, reducing the need for mechanical cooling.</span></p>
-<p><span style="font-weight: 400;">Our </span><strong>architectural services</strong><span style="font-weight: 400;"> team uses digital modeling to balance light and shade. This keeps spaces bright and comfortable with minimal energy use. Every detail&mdash;window size, roof pitch, room placement&mdash;is planned for efficiency and beauty.</span></p>
+<h2>Style and Sustainability Go Hand in Hand</h2>
+<p>Eco-conscious choices expand design possibilities. Warm reclaimed wood, sleek bamboo, and bold recycled steel all add striking detail. Solar roofs, smart windows, and light-filled spaces become standout features.</p>
+<p>Many clients are surprised by how these solutions increase visual appeal. A sustainable home can be rich in color, texture, and light. Comfort, efficiency, and style all grow together.</p>
 <p>&nbsp;</p>
-<h2><strong>Outdoor Spaces That Conserve Water</strong></h2>
-<p><span style="font-weight: 400;">A sustainable home extends beyond its walls. Thoughtful landscaping saves water and supports local ecosystems while adding visual appeal.</span></p>
-<p><span style="font-weight: 400;">Native plants thrive in the Pacific Northwest with little irrigation. </span><strong>Green roofs</strong><span style="font-weight: 400;"> and living walls provide insulation and attract pollinators. </span><strong>Rainwater harvesting systems</strong><span style="font-weight: 400;"> and </span><strong>permeable patios</strong><span style="font-weight: 400;"> collect and filter water instead of letting it run off.</span></p>
-<p><span style="font-weight: 400;">These outdoor features often complement our </span><strong>deck builds</strong><span style="font-weight: 400;"> and </span><strong>ADU projects</strong><span style="font-weight: 400;">. Together, they create outdoor living areas that feel like natural extensions of the home.</span></p>
-<p>&nbsp;</p>
-<h2><strong>Smart Technology for Everyday Efficiency</strong></h2>
-<p><span style="font-weight: 400;">Modern technology makes sustainability simple. Smart home systems show real-time data on energy and water use, helping you track and adjust.</span></p>
-<p><span style="font-weight: 400;">Automated lighting dims when rooms are empty or daylight is strong. Intelligent irrigation uses weather forecasts to avoid unnecessary watering. These quiet tools <a href="/blogs/cost-of-architecture">save money</a> and resources while keeping your home stylish and clutter-free.</span></p>
-<p>&nbsp;</p>
-<h2><strong>Comfort and Health Inside the Home</strong></h2>
-<p><span style="font-weight: 400;">True sustainability includes healthy indoor spaces. Clean air, natural light, and balanced humidity are essential.</span></p>
-<p><span style="font-weight: 400;">We design layouts that encourage natural airflow and daylight. We specify finishes with low chemical emissions and use materials that help control humidity. The result is a home that supports well-being as well as beauty.</span></p>
-<p>&nbsp;</p>
-<h2><strong>What Is Sustainable Architecture?</strong></h2>
-<p><span style="font-weight: 400;">People often ask, </span><em><span style="font-weight: 400;">what is sustainable architecture</span></em><span style="font-weight: 400;">? It is a way of building that respects natural resources and creates homes that last.</span></p>
-<p><span style="font-weight: 400;">Key parts include:</span></p>
-<ul>
-<li style="font-weight: 400;"><strong>Eco friendly materials</strong><span style="font-weight: 400;"> that are renewable or recycled.</span></li>
-<li style="font-weight: 400;"><strong>Energy-smart systems</strong><span style="font-weight: 400;"> that lower power and water use.</span></li>
-<li style="font-weight: 400;"><strong>Design strategies</strong><span style="font-weight: 400;"> that work with climate and light.</span></li>
-</ul>
-<p><span style="font-weight: 400;">At Innate, these principles guide every </span><strong>whole home remodel</strong><span style="font-weight: 400;"> and every new home we design.</span></p>
-<p>&nbsp;</p>
-<h2><strong>Style and Sustainability Go Hand in Hand</strong></h2>
-<p><span style="font-weight: 400;">Eco-conscious choices expand design possibilities. Warm reclaimed wood, sleek bamboo, and bold recycled steel all add striking detail. Solar roofs, smart windows, and light-filled spaces become standout features.</span></p>
-<p><span style="font-weight: 400;">Many clients are surprised by how these solutions increase visual appeal. A sustainable home can be rich in color, texture, and light. Comfort, efficiency, and style all grow together.</span></p>
-<p>&nbsp;</p>
-<h2><strong>Planning Your Own Sustainable Home</strong></h2>
-<p><span style="font-weight: 400;">Thinking about your own project? Here are a few ways to begin:</span></p>
+<h2>Planning Your Own Sustainable Home</h2>
+<p>Thinking about your own project? Here are a few ways to begin:</p>
 <ol>
-<li style="font-weight: 400;"><strong>Schedule a design consultation.</strong><span style="font-weight: 400;"> Our </span><strong>architectural services</strong><span style="font-weight: 400;"> team can assess your site, lifestyle, and goals.</span></li>
-<li style="font-weight: 400;"><strong>Explore a whole home remodel.</strong><span style="font-weight: 400;"> We can add eco-friendly upgrades throughout your house.</span></li>
-<li style="font-weight: 400;"><strong>Focus on key rooms.</strong><span style="font-weight: 400;"> Kitchens and baths benefit most from efficient layouts and fixtures.</span></li>
-<li style="font-weight: 400;"><strong>Include smart outdoor features.</strong><span style="font-weight: 400;"> Decks, ADUs, and water-wise landscaping complete the picture.</span></li>
+<li style="font-weight: 400;"><strong>Schedule a design consultation.</strong> Our <strong>architectural services</strong> team can assess your site, lifestyle, and goals.</li>
+<li style="font-weight: 400;"><strong>Explore a whole home remodel.</strong> We can add eco-friendly upgrades throughout your house.</li>
+<li style="font-weight: 400;"><strong>Focus on key rooms.</strong> Kitchens and baths benefit most from efficient layouts and fixtures.</li>
+<li style="font-weight: 400;"><strong>Include smart outdoor features.</strong> Decks, ADUs, and water-wise landscaping complete the picture.</li>
 </ol>
-<p><span style="font-weight: 400;">Every project starts with a conversation and ends with a home that matches your vision and values.</span></p>
+<p>Every project starts with a conversation and ends with a home that matches your vision and values.</p>
 <p>&nbsp;</p>
-<h2><strong>Conclusion and Next Steps</strong></h2>
-<p><span style="font-weight: 400;">At Innate, we believe sustainable architecture is about more than energy savings. It is about creating homes that are healthy, efficient, and beautiful. Our projects prove that comfort and design excellence can thrive together.</span></p>
+<h2>Conclusion and Next Steps</h2>
+<p>At Innate, we believe sustainable architecture is about more than energy savings. It is about creating homes that are healthy, efficient, and beautiful. Our projects prove that comfort and design excellence can thrive together.</p>
 <p>&nbsp;</p>
 <h3><strong>Ready to begin? Connect with Innate to start designing a home that is elegant, efficient, and built for the future.</strong></h3>
         `,
@@ -1160,18 +1220,18 @@ export const blogSections: ArticleSection[] = [
       {
         type: "text",
         text: `
-        <p><span style="font-weight: 400;">There is a unique charm to a mid-century Seattle home, from its iconic clean lines to light-filled rooms. But it was built for a different era. By upgrading the classic single-pane windows and vintage kitchen, you aren&rsquo;t just fixing leaks&mdash;you&rsquo;re also perfecting the Seattle lifestyle. And the real question isn&rsquo;t whether to update, but how to do it without destroying what makes your home special. We&rsquo;re here to help you preserve the bright, airy feel you love while leaving behind the drafts and rattles typical of the &lsquo;40s through the &lsquo;70s.<br /><br /></span></p>
-<h2><strong>What Makes Mid-Century Design Special</strong></h2>
-<p><span style="font-weight: 400;">In the mid-century, the homes had distinct features, including post-and-beam construction, big windows, open floor plans, and strong ties between indoor and outdoor spaces. Natural materials were everywhere&mdash;wood paneling, exposed brick, and stone. Clean lines and simplicity were also the focus for these </span><a href="https://www.architecturaldigest.com/story/sexiest-midcentury-celeb-homes-in-ad-open-door"><span style="font-weight: 400;">homes born from post-war optimism</span></a><span style="font-weight: 400;">.</span></p>
-<p><span style="font-weight: 400;">While mid-century homes were ahead of their time, they predate today&rsquo;s building codes and family lifestyles. Renovating a classic doesn&rsquo;t mean erasing its history. It means upgrading the &ldquo;behind-the-scenes&rdquo; tech&mdash;like insulation and efficiency&mdash;so the iconic design you love can shine for another fifty years.<br /><br /></span></p>
-<h2><strong>Better Windows That Still Look Right</strong></h2>
-<p><span style="font-weight: 400;">Floor-to-ceiling windows are the soul of mid-century homes. They dissolve the line between inside and outside&mdash;perfect for the Pacific Northwest. But original single-pane glass can be a thermal leak. Also, you shouldn&rsquo;t have to pick between a great view and a warm house. Upgrading those windows allows you to keep the vista while locking out Seattle&rsquo;s wet, cold winters.</span></p>
-<p><span style="font-weight: 400;">The fix isn&rsquo;t only removing the glass. You need to upgrade it strategically. Modern double- or triple-pane windows with low-E coatings can match original profiles while keeping heat inside. Custom millwork can recreate those thin mid-century frames. Updated windows don&rsquo;t change the look. They can retain the iconic outdoor connection while delivering comfort and better energy use year-round.<br /><br /></span></p>
-<h2><strong>Kitchens That Work for Real Life</strong></h2>
-<p><span style="font-weight: 400;">Back then, mid-century kitchens were small and had enclosed spaces&mdash;galleys or tight U-shapes hidden from main living areas. This reflected the era&rsquo;s view of cooking as solo work. It doesn&rsquo;t suit how families live now.</span></p>
-<p><span style="font-weight: 400;">When planning to expand the kitchen, you have to work with a </span><a href="https://www.innate-aec.com/services/architectural-services"><span style="font-weight: 400;">home remodeling architect</span></a><span style="font-weight: 400;"> who knows post-and-beam construction. While remodeling changes the structure, we need to respect how these homes were built. We can&rsquo;t just knock out walls without knowing what&rsquo;s holding things up. The goal is to create a space where cooking, dining, and entertaining flow naturally without hurting the structure or the design that makes the kitchen worth remodeling.<br /><br /></span></p>
-<h2><strong>Fixing What&rsquo;s Behind the Walls</strong></h2>
-<p><span style="font-weight: 400;">Peek behind the walls of a classic mid-century home and you&rsquo;ll find a time capsule of outdated tech. Think of these &ldquo;invisible&rdquo; upgrades&mdash;like replacing old wiring or adding high-performance insulation&mdash;as the home&rsquo;s new foundation. Addressing these hidden layers isn&rsquo;t just about safety; it&rsquo;s also about ensuring your vintage gem provides 21st-century comfort and long-term value without completely changing how the house looks.&nbsp;<br /><br /></span></p>
+        <p>There is a unique charm to a mid-century Seattle home, from its iconic clean lines to light-filled rooms. But it was built for a different era. By upgrading the classic single-pane windows and vintage kitchen, you aren&rsquo;t just fixing leaks&mdash;you&rsquo;re also perfecting the Seattle lifestyle. And the real question isn&rsquo;t whether to update, but how to do it without destroying what makes your home special. We&rsquo;re here to help you preserve the bright, airy feel you love while leaving behind the drafts and rattles typical of the &lsquo;40s through the &lsquo;70s.<br /><br /></p>
+<h2>What Makes Mid-Century Design Special</h2>
+<p>In the mid-century, the homes had distinct features, including post-and-beam construction, big windows, open floor plans, and strong ties between indoor and outdoor spaces. Natural materials were everywhere&mdash;wood paneling, exposed brick, and stone. Clean lines and simplicity were also the focus for these <a href="https://www.architecturaldigest.com/story/sexiest-midcentury-celeb-homes-in-ad-open-door">homes born from post-war optimism.</a></p><br/>
+<p>While mid-century homes were ahead of their time, they predate today&rsquo;s building codes and family lifestyles. Renovating a classic doesn&rsquo;t mean erasing its history. It means upgrading the &ldquo;behind-the-scenes&rdquo; tech&mdash;like insulation and efficiency&mdash;so the iconic design you love can shine for another fifty years.<br /><br /></p>
+<h2>Better Windows That Still Look Right</h2>
+<p>Floor-to-ceiling windows are the soul of mid-century homes. They dissolve the line between inside and outside&mdash;perfect for the Pacific Northwest. But original single-pane glass can be a thermal leak. Also, you shouldn&rsquo;t have to pick between a great view and a warm house. Upgrading those windows allows you to keep the vista while locking out Seattle&rsquo;s wet, cold winters.</p><br/>
+<p>The fix isn&rsquo;t only removing the glass. You need to upgrade it strategically. Modern double- or triple-pane windows with low-E coatings can match original profiles while keeping heat inside. Custom millwork can recreate those thin mid-century frames. Updated windows don&rsquo;t change the look. They can retain the iconic outdoor connection while delivering comfort and better energy use year-round.<br /><br /></p>
+<h2>Kitchens That Work for Real Life</h2>
+<p>Back then, mid-century kitchens were small and had enclosed spaces&mdash;galleys or tight U-shapes hidden from main living areas. This reflected the era&rsquo;s view of cooking as solo work. It doesn&rsquo;t suit how families live now.</p><br/>
+<p>When planning to expand the kitchen, you have to work with a <a href="https://www.innate-aec.com/services/architectural-services">home remodeling architect</a> who knows post-and-beam construction. While remodeling changes the structure, we need to respect how these homes were built. We can&rsquo;t just knock out walls without knowing what&rsquo;s holding things up. The goal is to create a space where cooking, dining, and entertaining flow naturally without hurting the structure or the design that makes the kitchen worth remodeling.<br /><br /></p>
+<h2>Fixing What&rsquo;s Behind the Walls</h2>
+<p>Peek behind the walls of a classic mid-century home and you&rsquo;ll find a time capsule of outdated tech. Think of these &ldquo;invisible&rdquo; upgrades&mdash;like replacing old wiring or adding high-performance insulation&mdash;as the home&rsquo;s new foundation. Addressing these hidden layers isn&rsquo;t just about safety; it&rsquo;s also about ensuring your vintage gem provides 21st-century comfort and long-term value without completely changing how the house looks.&nbsp;<br /><br /></p>
         `,
       },
       {
@@ -1182,21 +1242,21 @@ export const blogSections: ArticleSection[] = [
       {
         type: "text",
         text: `
-<h2><strong>Saving Original Materials</strong></h2>
-<p><span style="font-weight: 400;">Mid-century modern homes often have materials that have aged well. For example, warm wood paneling, terrazzo floors, brick fireplaces, and natural stone accents. Before deciding to remove or cover these, check whether they can be restored or integrated into your updated design.</span></p>
-<p><span style="font-weight: 400;">When bringing new materials, pick options that work with existing finishes instead of fighting them. For instance, pair original wood paneling with new cabinets to balance old and new and keep the warmth while evolving for the way you live today.<br /><br /></span></p>
-<h2><strong>Strengthening the Indoor-Outdoor Link</strong></h2>
-<p><span style="font-weight: 400;">Mid-century architects understood the connection between indoor space and nature&mdash;especially relevant in the Pacific Northwest, where you can use outdoor space most of the year. Keep and improve this connection by updating or expanding decks, patios, and door systems.</span></p>
-<p><span style="font-weight: 400;">Modern multi-slide or lift-and-slide door systems work better and create larger openings compared to original sliding glass doors. This strengthens the relationship between inside and outside spaces. Think about sight lines from inside, and design outdoor areas as extensions of interior rooms instead of separate zones.<br /><br /></span></p>
-<h2><strong>Planning What You&rsquo;ll Spend</strong></h2>
-<p><span style="font-weight: 400;">Doing preplanning and knowing the </span><a href="https://www.innate-aec.com/services/whole-home-remodels"><span style="font-weight: 400;">whole home remodel</span></a><span style="font-weight: 400;"> costs early helps set realistic expectations and make smart choices. Usually, custom millwork to match original details costs more than standard replacements. Structural changes mean engineering costs and permitting fees you need to budget upfront.</span></p>
-<p><span style="font-weight: 400;">Focus first on updates for safety, structure, and daily function. For instance, electrical and HVAC upgrades, window replacements, and structural repairs should be done before other cosmetic changes.</span></p>
-<p><span style="font-weight: 400;">Keep a 15-20% backup fund for what you&rsquo;ll discover once walls open up. Mid-century homes almost always hide surprises&mdash;old wiring or even water damage. You need to prepare financially, so these expenses don&rsquo;t stop the whole project.<br /><br /></span></p>
-<h2><strong>The Innate NW Approach</strong></h2>
-<p><span style="font-weight: 400;">At Innate NW, we know that updating mid-century Seattle homes means balancing preservation with progress. We start our work with a full assessment of what makes your home unique, from identifying original features worth saving to areas where updates will most improve function and efficiency.</span></p>
-<p><span style="font-weight: 400;">Innate NW works with architects, designers, and craftspeople who have great knowledge and understanding of mid-century construction and whose work feels authentic to the original design. We&rsquo;ll take care of everything, from window replacements that are in the right proportions to </span><a href="https://www.innate-aec.com/services/kitchen-remodeling"><span style="font-weight: 400;">kitchen remodels</span></a><span style="font-weight: 400;"> that keep mid-century design while addressing your family&rsquo;s modern needs.<br /><br /></span></p>
-<h2><strong>Ready to Modernize Your Mid-Century Seattle Home?</strong></h2>
-<p><a href="https://www.innate-aec.com/contact"><span style="font-weight: 400;">Contact Innate NW</span></a><span style="font-weight: 400;"> to discuss strategies for preserving older themes while upgrading efficiency, function, and comfort in your PNW home.&nbsp;</span></p>
+<h2>Saving Original Materials</h2>
+<p>Mid-century modern homes often have materials that have aged well. For example, warm wood paneling, terrazzo floors, brick fireplaces, and natural stone accents. Before deciding to remove or cover these, check whether they can be restored or integrated into your updated design.</p><br/>
+<p>When bringing new materials, pick options that work with existing finishes instead of fighting them. For instance, pair original wood paneling with new cabinets to balance old and new and keep the warmth while evolving for the way you live today.<br /><br /></p>
+<h2>Strengthening the Indoor-Outdoor Link</h2>
+<p>Mid-century architects understood the connection between indoor space and nature&mdash;especially relevant in the Pacific Northwest, where you can use outdoor space most of the year. Keep and improve this connection by updating or expanding decks, patios, and door systems.</p><br/>
+<p>Modern multi-slide or lift-and-slide door systems work better and create larger openings compared to original sliding glass doors. This strengthens the relationship between inside and outside spaces. Think about sight lines from inside, and design outdoor areas as extensions of interior rooms instead of separate zones.<br /><br /></p>
+<h2>Planning What You&rsquo;ll Spend</h2>
+<p>Doing preplanning and knowing the <a href="https://www.innate-aec.com/services/whole-home-remodels">whole home remodel</a> costs early helps set realistic expectations and make smart choices. Usually, custom millwork to match original details costs more than standard replacements. Structural changes mean engineering costs and permitting fees you need to budget upfront.</p><br/>
+<p>Focus first on updates for safety, structure, and daily function. For instance, electrical and HVAC upgrades, window replacements, and structural repairs should be done before other cosmetic changes.</p><br/>
+<p>Keep a 15-20% backup fund for what you&rsquo;ll discover once walls open up. Mid-century homes almost always hide surprises&mdash;old wiring or even water damage. You need to prepare financially, so these expenses don&rsquo;t stop the whole project.<br /><br /></p>
+<h2>The Innate NW Approach</h2>
+<p>At Innate NW, we know that updating mid-century Seattle homes means balancing preservation with progress. We start our work with a full assessment of what makes your home unique, from identifying original features worth saving to areas where updates will most improve function and efficiency.</p><br/>
+<p>Innate NW works with architects, designers, and craftspeople who have great knowledge and understanding of mid-century construction and whose work feels authentic to the original design. We&rsquo;ll take care of everything, from window replacements that are in the right proportions to <a href="https://www.innate-aec.com/services/kitchen-remodeling">kitchen remodels</a> that keep mid-century design while addressing your family&rsquo;s modern needs.<br /><br /></p>
+<h2>Ready to Modernize Your Mid-Century Seattle Home?</h2>
+<p><a href="https://www.innate-aec.com/contact">Contact Innate NW</a> to discuss strategies for preserving older themes while upgrading efficiency, function, and comfort in your PNW home.&nbsp;</p>
         `,
       },
     ],
@@ -1220,21 +1280,21 @@ export const blogSections: ArticleSection[] = [
       {
         type: "text",
         text: `
-        <p><span style="font-weight: 400;">You scroll through various bathroom renovation photos and see beautiful tile, elegant fixtures, and perfect lighting. But what you miss out on seeing is what&rsquo;s hidden behind those surfaces: professional waterproofing that will protect your bathroom.</span></p>
-<p><span style="font-weight: 400;">Yes, waterproofing is the least exciting part of a bathroom renovation. But it&rsquo;s also a vital factor that can impact whether your remodel lasts five years or fifty. In Seattle&rsquo;s damp climate, where moisture never stops, proper waterproofing isn&rsquo;t optional. It&rsquo;s the beginning of every successful bathroom remodeling project.<br /><br /></span></p>
-<h2><strong>Why Waterproofing Deserves Your Money</strong></h2>
-<p><span style="font-weight: 400;">Here&rsquo;s an uncomfortable truth about bathroom renovations: most catastrophic failures were from waterproofing shortcuts during the initial remodel. When water gets behind the tile, it doesn&rsquo;t just sit there politely; it works into framing, ruins subfloors, grows mold, and causes structural damage that costs far more to fix than it would have cost to prevent.</span></p>
-<p><span style="font-weight: 400;">When it rains for nine months of the year, your bathroom never truly gets a break. In the PNW, what happens behind the tile is just as important as the tile itself. Without rigorous waterproofing practices for </span><a href="https://www.innate-aec.com/services/bathroom-remodeling"><span style="font-weight: 400;">bathroom remodeling</span></a><span style="font-weight: 400;">, trapped moisture stays put, causing constant, invisible damage that can turn a dream remodel into a headache down the road.</span></p>
-<p><span style="font-weight: 400;">The irony? When waterproofing is done right, you&rsquo;ll never think about it. You won&rsquo;t see it. You won&rsquo;t appreciate it until years later, when your bathroom still works perfectly while others deal with expensive repairs. It&rsquo;s the ultimate &ldquo;invisible&rdquo; bathroom remodel investment.<br /><br /></span></p>
-<h2><strong>What Real Waterproofing Actually Involves</strong></h2>
-<p><span style="font-weight: 400;">Don&rsquo;t be fooled: &ldquo;water-resistant&rdquo; isn&rsquo;t the same as waterproof. The practice of waterproofing requires a systematic, layered approach that covers every possible entry point for moisture, from the shower pan to the walls to the spots where different wall surfaces meet.</span></p>
-<p><strong>Substrate Preparation:</strong><span style="font-weight: 400;"> Before any waterproofing work starts, the underlying surfaces must be structurally sound, level, and clean. This may mean reinforcing floor joists, replacing damaged subflooring, or ensuring walls are properly framed and covered.</span></p>
-<p><strong>The Waterproofing Membrane System:</strong><span style="font-weight: 400;"> In a professional Seattle bathroom remodel, this usually involves the use of liquid-applied membranes, sheet membranes, or both, depending on the specific application. These systems create a continuous barrier that stops water from reaching the structural parts of your home.</span></p>
-<p><strong>Critical Detail Areas:</strong><span style="font-weight: 400;"> Corners, changes in plane, holes for plumbing fixtures, and transitions between wet and dry areas all need special attention. Each represents a potential weak point where water could sneak in if not properly detailed. Experienced bathroom remodel contractors in Seattle employ specific techniques and products designed for these vulnerable spots. They can ensure the waterproofing system is seamless and works for the long term.<br /><br /></span></p>
-<h2><strong>The Shower: Where Most Problems Start</strong></h2>
-<p><span style="font-weight: 400;">If there&rsquo;s one area in the bathroom where waterproofing matters most, it&rsquo;s the shower. Water flows directly onto surfaces, pools in corners, and tests every seam and transition every single day. A properly waterproofed shower area is one of the more complex parts of bathroom renovation or construction.</span></p>
-<p><span style="font-weight: 400;">The shower pan or base needs a waterproof barrier that extends up the walls at least six inches (and often higher, depending on the design). Walls in the shower need continuous waterproofing from the floor to a point above the highest spray of water. Curbs, benches, and niches each need careful detailing to ensure water can&rsquo;t migrate behind surfaces.</span></p>
-<p><span style="font-weight: 400;">Modern waterproof shower systems often use pre-sloped shower pans with built-in drains and waterproofing that ties directly into the wall membrane system.&nbsp;<br /><br /></span></p>
+        <p>You scroll through various bathroom renovation photos and see beautiful tile, elegant fixtures, and perfect lighting. But what you miss out on seeing is what&rsquo;s hidden behind those surfaces: professional waterproofing that will protect your bathroom.</p>
+<p>Yes, waterproofing is the least exciting part of a bathroom renovation. But it&rsquo;s also a vital factor that can impact whether your remodel lasts five years or fifty. In Seattle&rsquo;s damp climate, where moisture never stops, proper waterproofing isn&rsquo;t optional. It&rsquo;s the beginning of every successful bathroom remodeling project.<br /><br /></p>
+<h2>Why Waterproofing Deserves Your Money</h2>
+<p>Here&rsquo;s an uncomfortable truth about bathroom renovations: most catastrophic failures were from waterproofing shortcuts during the initial remodel. When water gets behind the tile, it doesn&rsquo;t just sit there politely; it works into framing, ruins subfloors, grows mold, and causes structural damage that costs far more to fix than it would have cost to prevent.</p><br/>
+<p>When it rains for nine months of the year, your bathroom never truly gets a break. In the PNW, what happens behind the tile is just as important as the tile itself. Without rigorous waterproofing practices for <a href="https://www.innate-aec.com/services/bathroom-remodeling">bathroom remodeling</a>, trapped moisture stays put, causing constant, invisible damage that can turn a dream remodel into a headache down the road.</p><br/>
+<p>The irony? When waterproofing is done right, you&rsquo;ll never think about it. You won&rsquo;t see it. You won&rsquo;t appreciate it until years later, when your bathroom still works perfectly while others deal with expensive repairs. It&rsquo;s the ultimate &ldquo;invisible&rdquo; bathroom remodel investment.<br /><br /></p>
+<h2>What Real Waterproofing Actually Involves</h2>
+<p>Don&rsquo;t be fooled: &ldquo;water-resistant&rdquo; isn&rsquo;t the same as waterproof. The practice of waterproofing requires a systematic, layered approach that covers every possible entry point for moisture, from the shower pan to the walls to the spots where different wall surfaces meet.</p><br/>
+<p><strong>Substrate Preparation:</strong> Before any waterproofing work starts, the underlying surfaces must be structurally sound, level, and clean. This may mean reinforcing floor joists, replacing damaged subflooring, or ensuring walls are properly framed and covered.</p>
+<p><strong>The Waterproofing Membrane System:</strong> In a professional Seattle bathroom remodel, this usually involves the use of liquid-applied membranes, sheet membranes, or both, depending on the specific application. These systems create a continuous barrier that stops water from reaching the structural parts of your home.</p><br/>
+<p><strong>Critical Detail Areas:</strong> Corners, changes in plane, holes for plumbing fixtures, and transitions between wet and dry areas all need special attention. Each represents a potential weak point where water could sneak in if not properly detailed. Experienced bathroom remodel contractors in Seattle employ specific techniques and products designed for these vulnerable spots. They can ensure the waterproofing system is seamless and works for the long term.<br /><br /></p>
+<h2>The Shower: Where Most Problems Start</h2>
+<p>If there&rsquo;s one area in the bathroom where waterproofing matters most, it&rsquo;s the shower. Water flows directly onto surfaces, pools in corners, and tests every seam and transition every single day. A properly waterproofed shower area is one of the more complex parts of bathroom renovation or construction.</p><br/>
+<p>The shower pan or base needs a waterproof barrier that extends up the walls at least six inches (and often higher, depending on the design). Walls in the shower need continuous waterproofing from the floor to a point above the highest spray of water. Curbs, benches, and niches each need careful detailing to ensure water can&rsquo;t migrate behind surfaces.</p><br/>
+<p>Modern waterproof shower systems often use pre-sloped shower pans with built-in drains and waterproofing that ties directly into the wall membrane system.&nbsp;<br /><br /></p>
         `,
       },
       {
@@ -1245,24 +1305,24 @@ export const blogSections: ArticleSection[] = [
       {
         type: "text",
         text: `
-<h2><strong>Beyond the Shower: Whole-Bathroom Needs</strong></h2>
-<p><span style="font-weight: 400;">While the shower demands the most rigorous waterproofing, the rest of the bathroom needs attention, too. Areas around the bathtub, particularly the tub deck and surrounding walls, need proper waterproofing. The floor in front of the shower and around the toilet should be protected against water that splashes or spills during normal use.</span></p><br/>
-<p><span style="font-weight: 400;">Ventilation also plays a big supporting role in bathroom waterproofing. Even the best waterproofing system can be overwhelmed if moisture builds up in the air with nowhere to go. Properly sized </span><a href="https://www.consumerreports.org/home-garden/bathroom/best-bathroom-exhaust-fans-of-the-year-a3069728798/"><span style="font-weight: 400;">exhaust fans</span></a><span style="font-weight: 400;">, ideally ducted to the exterior (not just into the attic), help remove humid air before it can condense on surfaces or work into wall cavities.</span></p><br/>
-<p><span style="font-weight: 400;">In a </span><a href="https://www.innate-aec.com/services/whole-home-remodels"><span style="font-weight: 400;">whole-home remodel</span></a><span style="font-weight: 400;"> that includes bathroom work, coordinating waterproofing with other building systems becomes important. A qualified home remodeling architect can make sure HVAC adjustments account for bathroom ventilation needs and verify that electrical work doesn&rsquo;t compromise waterproofing membranes.&nbsp;<br /><br /></span></p>
-<h2><strong>Materials Matter: Picking the Right Systems</strong></h2>
-<p><span style="font-weight: 400;">Not all waterproofing systems perform equally. Selecting appropriate materials for Seattle&rsquo;s climate is crucial.</span></p>
-<p><strong>Liquid-Applied Membranes:</strong><span style="font-weight: 400;"> These offer excellent coverage and can be easily detailed around complex shapes and penetrations. They&rsquo;re particularly useful for tricky corners and transitions.</span></p>
-<p><strong>Sheet Membranes:</strong><span style="font-weight: 400;"> These options provide robust, consistent thickness and work particularly well on larger flat surfaces like shower floors and walls.</span></p><br/><br/>
-<p><span style="font-weight: 400;">Certain products are designed for different substrate types. Some stick better to concrete, others to cement board or foam insulation boards. Using incompatible materials or skipping manufacturer-recommended primers and prep steps can compromise the entire system, regardless of the quality of individual parts.</span></p>
-<p><span style="font-weight: 400;">Working with bathroom renovation contractors who understand these details and follow manufacturer specs helps ensure your waterproofing system performs as designed.</span><span style="font-weight: 400;">&nbsp;<br /><br /></span></p>
-<h2><strong>The Cost-Benefit Math</strong></h2>
-<p><span style="font-weight: 400;">Professional waterproofing adds to upfront bathroom remodeling costs, typically representing 10-15% of the total project budget. This might include premium membrane systems, proper drainage solutions, quality substrates, and the labor to install everything right.</span></p><br/>
-<p><span style="font-weight: 400;">But consider the other option. Repairing water damage often means demolishing and rebuilding the entire bathroom&mdash;essentially paying for the remodel twice, plus fixing structural damage, mold remediation, and potential damage to adjacent spaces. The cost of proper waterproofing from the start is tiny compared to the expense of correcting waterproofing failures later.<br /><br /></span></p>
-<h2><strong>The Innate NW Approach</strong></h2>
-<p><span style="font-weight: 400;">At Innate NW, we treat waterproofing with the seriousness it deserves. Every Seattle bathroom remodel we do begins with a complete waterproofing strategy tailored to the specific conditions of your home and bathroom layout. We use professional membrane systems, follow the manufacturer&rsquo;s instructions precisely, and pay close attention to the details that separate adequate waterproofing from exceptional protection.</span></p><br/>
-<p><span style="font-weight: 400;">A waterproof bathroom remodel from Innate NW means you can enjoy your updated space with complete confidence, knowing that behind those beautiful tiles and elegant fixtures lies a robust barrier protecting your home from moisture damage for years to come.<br /><br /></span></p>
-<h2><strong>Ready to Invest in a Bathroom Remodel That&rsquo;s Built to Last?</strong></h2>
-<p><a href="https://www.innate-aec.com/contact"><span style="font-weight: 400;">Contact Innate NW</span></a><span style="font-weight: 400;"> to discuss professional waterproofing strategies and create a bathroom that combines beauty with long-term strength and protection.</span></p>
+<h2>Beyond the Shower: Whole-Bathroom Needs</h2>
+<p>While the shower demands the most rigorous waterproofing, the rest of the bathroom needs attention, too. Areas around the bathtub, particularly the tub deck and surrounding walls, need proper waterproofing. The floor in front of the shower and around the toilet should be protected against water that splashes or spills during normal use.</p><br/>
+<p>Ventilation also plays a big supporting role in bathroom waterproofing. Even the best waterproofing system can be overwhelmed if moisture builds up in the air with nowhere to go. Properly sized <a href="https://www.consumerreports.org/home-garden/bathroom/best-bathroom-exhaust-fans-of-the-year-a3069728798/">exhaust fans</a>, ideally ducted to the exterior (not just into the attic), help remove humid air before it can condense on surfaces or work into wall cavities.</p><br/>
+<p>In a <a href="https://www.innate-aec.com/services/whole-home-remodels">whole-home remodel</a> that includes bathroom work, coordinating waterproofing with other building systems becomes important. A qualified home remodeling architect can make sure HVAC adjustments account for bathroom ventilation needs and verify that electrical work doesn&rsquo;t compromise waterproofing membranes.&nbsp;<br /><br /></p>
+<h2>Materials Matter: Picking the Right Systems</h2>
+<p>Not all waterproofing systems perform equally. Selecting appropriate materials for Seattle&rsquo;s climate is crucial.</p>
+<p><strong>Liquid-Applied Membranes:</strong> These offer excellent coverage and can be easily detailed around complex shapes and penetrations. They&rsquo;re particularly useful for tricky corners and transitions.</p>
+<p><strong>Sheet Membranes:</strong> These options provide robust, consistent thickness and work particularly well on larger flat surfaces like shower floors and walls.</p><br/>
+<p>Certain products are designed for different substrate types. Some stick better to concrete, others to cement board or foam insulation boards. Using incompatible materials or skipping manufacturer-recommended primers and prep steps can compromise the entire system, regardless of the quality of individual parts.</p>
+<p>Working with bathroom renovation contractors who understand these details and follow manufacturer specs helps ensure your waterproofing system performs as designed.&nbsp;<br /><br /></p>
+<h2>The Cost-Benefit Math</h2>
+<p>Professional waterproofing adds to upfront bathroom remodeling costs, typically representing 10-15% of the total project budget. This might include premium membrane systems, proper drainage solutions, quality substrates, and the labor to install everything right.</p><br/>
+<p>But consider the other option. Repairing water damage often means demolishing and rebuilding the entire bathroom&mdash;essentially paying for the remodel twice, plus fixing structural damage, mold remediation, and potential damage to adjacent spaces. The cost of proper waterproofing from the start is tiny compared to the expense of correcting waterproofing failures later.<br /><br /></p>
+<h2>The Innate NW Approach</h2>
+<p>At Innate NW, we treat waterproofing with the seriousness it deserves. Every Seattle bathroom remodel we do begins with a complete waterproofing strategy tailored to the specific conditions of your home and bathroom layout. We use professional membrane systems, follow the manufacturer&rsquo;s instructions precisely, and pay close attention to the details that separate adequate waterproofing from exceptional protection.</p><br/>
+<p>A waterproof bathroom remodel from Innate NW means you can enjoy your updated space with complete confidence, knowing that behind those beautiful tiles and elegant fixtures lies a robust barrier protecting your home from moisture damage for years to come.<br /><br /></p>
+<h2>Ready to Invest in a Bathroom Remodel That&rsquo;s Built to Last?</h2>
+<p><a href="https://www.innate-aec.com/contact">Contact Innate NW</a> to discuss professional waterproofing strategies and create a bathroom that combines beauty with long-term strength and protection.</p>
         `,
       },
     ],
@@ -1284,33 +1344,37 @@ export const blogSections: ArticleSection[] = [
     publishedDate: "27 January, 2026",
     content: [
       {
+        type: "text",
+        text: `
+        <p>Struggling with a small kitchen that feels congested, no matter how much you declutter? You&rsquo;re not alone, and you&rsquo;re probably struggling with the layout and storage approach rather than the actual square footage problem. But the good news is that small kitchens can function well when every design decision works towards creating an open usable space.<br /><br />Whether you&rsquo;re planning a kitchen remodel to improve function, update an outdated space, or add value to your Seattle home, we&rsquo;re here to walk you through the creative storage solutions and layout changes that make small kitchens work.<br /><br /></p>
+<h2>Why Small Kitchens Feel Cramped</h2>
+<p>Before jumping into kitchen remodel ideas for small kitchen spaces, let&rsquo;s understand the problem. The visual clutter, like the collection of hardware, appliances, open shelving, and other surfaces, creates a messy feel that makes spaces seem smaller than they actually are. The easy solution is to reduce visual interruptions. This doesn&rsquo;t mean giving up your appliances or kitchen materials, but it means being intentional about what stays visible.<br /><br /></p>
+<h2>Handle-Free Cabinets for a Cleaner Look</h2>
+<p>Nowadays, the handle-free cabinets, also called push-to-open or integrated-grip designs, have become popular in <a href="https://www.innate-aec.com/services/kitchen-remodeling">kitchen remodeling</a>. By getting rid of that hardware, they create clean, uninterrupted surfaces that make spaces feel larger.</p>
+<p>There are two main types to consider:<br /><br /><strong>Push-to-Open Mechanisms:</strong> These work well in modern designs and offer completely smooth surfaces.&nbsp;</p>
+<p><strong>Integrated Grip Systems:</strong> These feature a channel built into the cabinet edge.&nbsp;<br /><br /></p>
+<h2>Creative Storage Solutions That Actually Work</h2>
+<p>In a small kitchen, every inch counts&mdash;but standard cabinets are notorious for wasting it. Between those &ldquo;dead&rdquo; corners that swallow your cookware and the vertical space left empty above the shelves, you&rsquo;re losing more room than you think. Customizing these gaps is the only way to make a compact kitchen truly functional.&nbsp;</p>
+<p>Here are proven storage solutions tailored to small-space kitchen renovation projects:<br /><br /><strong>Pull-Out Systems</strong>: These transform deep cabinets into accessible storage where everything stays visible and reachable. <br /><br /><strong>Corner Carousels</strong>: Also called lazy Susans or magic corner systems, these make previously wasted <a href="https://www.bhg.com/kitchen/storage/organization/corner-cabinet-storage/">corner areas</a> functional and easy to access.<br /><br /><strong>Floor-to-Ceiling Cabinets</strong>: Tall cabinets that extend all the way up capture storage space that would otherwise sit empty. <br /><br /><strong>Custom Drawer Dividers</strong>: Keep utensils, spices, and cooking tools organised without wasting space.<br /><br /><strong>Toe-Kick Drawers</strong>: These capture the space typically wasted under base cabinets.<br /><br /></p>
+        `,
+      },
+      {
         type: "image",
         src: ["/images/press/stock-photo-cozy-kitchen.jpeg"],
-
         alt: "Image description",
       },
       {
         type: "text",
         text: `
-        <p><span style="font-weight: 400;">Struggling with a small kitchen that feels congested, no matter how much you declutter? You&rsquo;re not alone, and you&rsquo;re probably struggling with the layout and storage approach rather than the actual square footage problem. But the good news is that small kitchens can function well when every design decision works towards creating an open usable space.</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">Whether you&rsquo;re planning a kitchen remodel to improve function, update an outdated space, or add value to your Seattle home, we&rsquo;re here to walk you through the creative storage solutions and layout changes that make small kitchens work.<br /><br /></span></p>
-<h2><strong>Why Small Kitchens Feel Cramped</strong></h2>
-<p><span style="font-weight: 400;">Before jumping into kitchen remodel ideas for small kitchen spaces, let&rsquo;s understand the problem. The visual clutter, like the collection of hardware, appliances, open shelving, and other surfaces, creates a messy feel that makes spaces seem smaller than they actually are. The easy solution is to reduce visual interruptions. This doesn&rsquo;t mean giving up your appliances or kitchen materials, but it means being intentional about what stays visible.<br /><br /></span></p>
-<h2><strong>Handle-Free Cabinets for a Cleaner Look</strong></h2>
-<p><span style="font-weight: 400;">Nowadays, the handle-free cabinets, also called push-to-open or integrated-grip designs, have become popular in </span><a href="https://www.innate-aec.com/services/kitchen-remodeling"><span style="font-weight: 400;">kitchen remodeling</span></a><span style="font-weight: 400;">. By getting rid of that hardware, they create clean, uninterrupted surfaces that make spaces feel larger.</span></p>
-<p><span style="font-weight: 400;">There are two main types to consider:</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><strong>Push-to-Open Mechanisms:</strong><span style="font-weight: 400;"> These work well in modern designs and offer completely smooth surfaces.&nbsp;</span></p>
-<p><strong>Integrated Grip Systems:</strong><span style="font-weight: 400;"> These feature a channel built into the cabinet edge.&nbsp;<br /><br /></span></p>
-<h2><strong>Creative Storage Solutions That Actually Work</strong></h2>
-<p><span style="font-weight: 400;">In a small kitchen, every inch counts&mdash;but standard cabinets are notorious for wasting it. Between those &ldquo;dead&rdquo; corners that swallow your cookware and the vertical space left empty above the shelves, you&rsquo;re losing more room than you think. Customizing these gaps is the only way to make a compact kitchen truly functional.&nbsp;</span></p>
-<p><span style="font-weight: 400;">Here are proven storage solutions tailored to small-space kitchen renovation projects:</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><strong>Pull-Out Systems</strong><span style="font-weight: 400;">: These transform deep cabinets into accessible storage where everything stays visible and reachable. </span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><strong>Corner Carousels</strong><span style="font-weight: 400;">: Also called lazy Susans or magic corner systems, these make previously wasted </span><a href="https://www.bhg.com/kitchen/storage/organization/corner-cabinet-storage/"><span style="font-weight: 400;">corner areas</span></a><span style="font-weight: 400;"> functional and easy to access.</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><strong>Floor-to-Ceiling Cabinets</strong><span style="font-weight: 400;">: Tall cabinets that extend all the way up capture storage space that would otherwise sit empty. </span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><strong>Custom Drawer Dividers</strong><span style="font-weight: 400;">: Keep utensils, spices, and cooking tools organised without wasting space.</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><strong>Toe-Kick Drawers</strong><span style="font-weight: 400;">: These capture the space typically wasted under base cabinets.<br /><br /></span></p>
-<h2><strong>Deciding When to Change the Kitchen Layout</strong></h2>
-<p><span style="font-weight: 400;">Sometimes, making the most of small kitchens means rethinking the basic layout. Moving a wall by even a foot can make a surprising difference in how the space works. Opening the kitchen to a dining or living area can make both spaces feel larger while improving traffic flow.</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">But not every layout change improves a small kitchen. It&rsquo;s smart to work with a </span><a href="https://www.innate-aec.com/services/architectural-services"><span style="font-weight: 400;">home remodeling architect</span></a><span style="font-weight: 400;"> who can evaluate structural possibilities while keeping the space functional.&nbsp;</span></p>
-<p><span style="font-weight: 400;">Here are the most common layouts for small kitchens:</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><strong>Galley Kitchens:</strong><span style="font-weight: 400;"> Often underrated, galley layouts can be efficient when designed well. The tight work triangle reduces steps between key areas, and the parallel walls provide plenty of storage and counter space.</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><strong>L-Shaped Kitchens:</strong><span style="font-weight: 400;"> These work well in small spaces by keeping everything within easy reach while leaving one side open to the rest of the home. They&rsquo;re great for creating a natural work triangle.</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><strong>U-Shaped Layouts:</strong><span style="font-weight: 400;"> These provide maximum storage and counter space but only work when the room is wide enough. If the U is too narrow, the space can feel tunnel-like and cramped.<br /><br /></span></p>
-<h2><strong>Should You Open Up Your Kitchen?</strong></h2>
-<p><span style="font-weight: 400;">Many Seattle homeowners considering a kitchen renovation wonder whether to keep the kitchen as a separate room. A wide opening or partial wall removal can connect the kitchen to a dining or living area without losing all boundaries. This will create an open space while preventing kitchen mess from taking over your entire home.<br /><br /></span></p>
-<h2><strong>The Innate NW Approach to Small Kitchen Design</strong></h2>
-<p><span style="font-weight: 400;">At Innate NW, our kitchen remodeling designs focus on smart storage solutions, handle-free cabinetry, and integrated appliances that make small spaces feel generous and well-designed.</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">Innate NW works closely with clients to understand exactly how they use their kitchens and coordinates every detail, from cabinet mechanisms to lighting placement to material selections, making sure your finished kitchen feels cohesive and intentional.&nbsp;<br /><br /></span></p>
-<h2><strong>Ready to Transform Your Small Kitchen?</strong></h2>
-<p><a href="https://www.innate-aec.com/contact"><span style="font-weight: 400;">Contact Innate NW</span></a><span style="font-weight: 400;"> today to discuss creative storage solutions, layout changes, and design strategies.</span></p>
+<h2>Deciding When to Change the Kitchen Layout</h2>
+<p>Sometimes, making the most of small kitchens means rethinking the basic layout. Moving a wall by even a foot can make a surprising difference in how the space works. Opening the kitchen to a dining or living area can make both spaces feel larger while improving traffic flow.<br /><br />But not every layout change improves a small kitchen. It&rsquo;s smart to work with a <a href="https://www.innate-aec.com/services/architectural-services">home remodeling architect</a> who can evaluate structural possibilities while keeping the space functional.&nbsp;</p>
+<p>Here are the most common layouts for small kitchens:<br /><br /><strong>Galley Kitchens:</strong> Often underrated, galley layouts can be efficient when designed well. The tight work triangle reduces steps between key areas, and the parallel walls provide plenty of storage and counter space.<br /><br /><strong>L-Shaped Kitchens:</strong> These work well in small spaces by keeping everything within easy reach while leaving one side open to the rest of the home. They&rsquo;re great for creating a natural work triangle.<br /><br /><strong>U-Shaped Layouts:</strong> These provide maximum storage and counter space but only work when the room is wide enough. If the U is too narrow, the space can feel tunnel-like and cramped.<br /><br /></p>
+<h2>Should You Open Up Your Kitchen?</h2>
+<p>Many Seattle homeowners considering a kitchen renovation wonder whether to keep the kitchen as a separate room. A wide opening or partial wall removal can connect the kitchen to a dining or living area without losing all boundaries. This will create an open space while preventing kitchen mess from taking over your entire home.<br /><br /></p>
+<h2>The Innate NW Approach to Small Kitchen Design</h2>
+<p>At Innate NW, our kitchen remodeling designs focus on smart storage solutions, handle-free cabinetry, and integrated appliances that make small spaces feel generous and well-designed.<br /><br />Innate NW works closely with clients to understand exactly how they use their kitchens and coordinates every detail, from cabinet mechanisms to lighting placement to material selections, making sure your finished kitchen feels cohesive and intentional.&nbsp;<br /><br /></p>
+<h2>Ready to Transform Your Small Kitchen?</h2>
+<p><a href="https://www.innate-aec.com/contact">Contact Innate NW</a> today to discuss creative storage solutions, layout changes, and design strategies.</p>
         `,
       },
     ],

@@ -156,6 +156,13 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
     return <p>Section not found!</p>; // Handle if the section with the given slug is not found
   }
 
+  const contentBaseClass =
+    "[&_a]:text-blue-500 [&_h2]:font-bold [&_h2]:text-[22px] [&_h3]:font-bold mt-10";
+  const contentClassName =
+    slug === "seattle-home-remodeling-cost-and-timelines"
+      ? `${contentBaseClass} [&_li]:ml-[15px]`
+      : contentBaseClass;
+
   return (
     <>
       <div className="w-full max-w-[90%] mob:max-w-[100%]  mx-auto mt-10 md:mt-20 lg:px-5">
@@ -269,14 +276,14 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
                             {textBeforeFaq && (
                               <div
                                 dangerouslySetInnerHTML={{ __html: textBeforeFaq }}
-                                className="[&_a]:text-blue-500 [&_h2]:font-bold [&_h2]:text-[22px] mt-10"
+                                className={contentClassName}
                               ></div>
                             )}
                             <BlogFaq faqItems={faqData} />
                             {textAfterFaq && (
                               <div
                                 dangerouslySetInnerHTML={{ __html: textAfterFaq }}
-                                className="[&_a]:text-blue-500 [&_h2]:font-bold [&_h2]:text-[22px] mt-10"
+                                className={contentClassName}
                               ></div>
                             )}
                           </>
@@ -287,7 +294,7 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
                     return (
                       <div
                         dangerouslySetInnerHTML={{ __html: item.text || "" }}
-                        className="[&_a]:text-blue-500 [&_h2]:font-bold [&_h2]:text-[22px] mt-10"
+                        className={contentClassName}
                       ></div>
                     );
                   })()}
