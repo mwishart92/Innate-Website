@@ -1581,22 +1581,31 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
 `,
       ],
       gallery: [
-        {
-          image: "/images/project/kenmore-bathroom/6L1A1317_websize.jpg",
-        },
-        {
-          image: "/images/project/kenmore-bathroom/6L1A1319_websize.jpg",
-        },
+
         {
           image: "/images/project/kenmore-bathroom/6L1A1304_websize.jpg",
         },
+        {
+          image: "/images/project/kenmore-bathroom/kb2.jpg",
+        },
+        {
+          image: "/images/project/kenmore-bathroom/kb3.jpg",
+        },
+
         {
           image: "/images/project/kenmore-bathroom/6L1A1290_websize.jpg",
           class: "col-span-3 aspect-[4/2]",
         },
         {
+          image: "/images/project/kenmore-bathroom/kl2.jpg",
+        },
+        {
           image: "/images/project/kenmore-bathroom/6L1A1280_websize.jpg",
         },
+        {
+          image: "/images/project/kenmore-bathroom/6L1A1319_websize.jpg",
+        },
+
         // {
         //   image:
         //     "/images/project/kenmore-bathroom/6L1A1687_websize.jpg",
