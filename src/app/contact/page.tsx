@@ -34,7 +34,9 @@ export const metadata: Metadata = {
 const ContactPage = () => {
   return (
     <>
-      <Navbar />
+      <div style={{ paddingBottom: 10 }}>
+        <Navbar />
+      </div>
       <Contact />
     </>
   );
