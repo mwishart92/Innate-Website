@@ -1440,7 +1440,7 @@ export const blogSections: ArticleSection[] = [
 </ul>
 </div>
 <br/><br/>
-<p>This is where experience in storm damage remediation and <a href="https://www.innate-aec.com/">residential construction</a> truly matters.</p><br/>
+<p>This is where experience in storm damage remediation and <a href="https://www.innate-aec.com/services/whole-home-remodels">residential construction</a> truly matters.</p><br/>
 <h2>Common Water & Storm Damage We See in Seattle Homes</h2>
 <p>Based on recent storm damage restoration projects across Seattle, the most common issues include:</p>
 <div class="pl-4">  
