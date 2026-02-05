@@ -13,17 +13,19 @@ export async function generateMetadata({
   const blogSection = blogSections.find(section => section.slug === slug);
   
   if (blogSection) {
+    const metaTitle = blogSection.seo?.title ?? `${blogSection.title} | Innate NW Blog`;
+    const metaDescription = blogSection.seo?.description ?? blogSection.excerpt ?? "Read our latest articles and insights about design and construction.";
     return {
-      title: `${blogSection.title} | Innate NW Blog`,
-      description: blogSection.excerpt || "Read our latest articles and insights about design and construction.",
+      title: metaTitle,
+      description: metaDescription,
       openGraph: {
-        title: `${blogSection.title} | Innate NW Blog`,
-        description: blogSection.excerpt || "Read our latest articles and insights about design and construction.",
+        title: metaTitle,
+        description: metaDescription,
       },
       twitter: {
         card: 'summary_large_image',
-        title: `${blogSection.title} | Innate NW Blog`,
-        description: blogSection.excerpt || "Read our latest articles and insights about design and construction.",
+        title: metaTitle,
+        description: metaDescription,
       },
     };
   }
