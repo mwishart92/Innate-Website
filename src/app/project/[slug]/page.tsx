@@ -774,7 +774,7 @@ const projectData = {
       {
         component: (
           <Slide
-            image="/images/project/freitas-kitchen/freitas_hero.jpg"
+            image="/images/project/freitas-kitchen/freitas-kitchen_hero.webp"
             video=""
           />
         ),
