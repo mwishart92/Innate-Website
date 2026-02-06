@@ -1467,7 +1467,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
       scopedescription: `This Woodinville bathroom remodel included the renovation of both the primary (master) bathroom and a guest bath, elevating the home with a refined, spa-like feel and significantly improved functionality. Innate served as the design-build partner, guiding the project from concept through construction.
 `,
       media: {
-        desktop: "/images/project/woodinville/6L1A1198_websize.jpg",
+        desktop: "/images/project/woodinville/6L1A1198_websize2.webp",
       },
       description: [
         `The primary bathroom was fully reimagined with a smarter layout designed to improve flow, openness, and everyday use. Key features include a curbless shower, slate tile flooring, frameless glass, and wall-mounted fixtures that create a clean, modern aesthetic. A freestanding tub anchors the space, adding a sense of calm and luxury.
