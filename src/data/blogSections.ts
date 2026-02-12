@@ -1414,7 +1414,7 @@ export const blogSections: ArticleSection[] = [
     id: 16,
     slug: "seattle-water-storm-damage-repair",
     title: "Rebuilding After Water & Storm Damage in Seattle — Insurance-Backed Repairs Done Right",
-    thumbnail: "/images/press/flodd_damage1_web.jpg",
+    thumbnail: "/images/press/flood_hero.jpg",
     tag: "Blog",
     excerpt: "Dealing with Seattle water damage or storm repairs? Innate provides flood restoration, insurance-backed rebuilds, and design-build solutions. Contact us",
     publishedDate: "4 February, 2026",
