@@ -26,18 +26,42 @@ import { StaticImageData } from "next/image";
 import { Metadata } from "next";
 
 import Slide from "@/components/Services/Hero/Content/slide";
+import ThreeCardDesign from "@/components/Services/ThreeCardDesign";
+import ProcessBlock from "@/components/Services/ProcessBlock";
+import SingleCard from "@/components/Services/SingleCard";
+import ProjectSlider from "@/components/Slider/ProjectSlider";
+import WhyChoose from "@/components/Services/WhyChoose";
+import Text from "@/components/ui/Text";
+import ExploreService from "@/components/Services/ExploreService";
+import ButtonGetStarted from "@/components/ui/ButtonGetStarted";
 interface MediaData {
   image: string | StaticImageData;
 }
-
 const slides = [
   {
     component: (
-      <Slide image="/images/services/Decks/Hero/cover.webp" video={null} />
+      <Slide image="/images/services/Decks/Hero/h1.webp" video={null} />
     ),
     delay: 36000,
-    projectName: "decks",
+    projectName: "",
+    subtitle: "Deck Construction in Seattle and Surrounding Areas",
     isH1: true,
+  },
+  {
+    component: (
+      <Slide image="/images/services/Decks/Hero/h2.webp" video={null} />
+    ),
+    delay: 36000,
+    projectName: "",
+    subtitle: "Deck Construction in Seattle and Surrounding Areas",
+  },
+  {
+    component: (
+      <Slide image="/images/services/Decks/Hero/h3.webp" video={null} />
+    ),
+    delay: 36000,
+    projectName: "",
+    subtitle: "Deck Construction in Seattle and Surrounding Areas",
   },
 ];
 
@@ -45,7 +69,7 @@ const sections = [
   {
     title: "Free Estimate",
     description:
-      "We evaluate your yard and discuss how best to complement your <a href='https://www.innate-nw.com/services/architectural-services' style='text-decoration: underline;'>home's architecture</a> and landscape.",
+      "After doing an in-person site visit, we will provide an accurate, comprehensive and transparent bid, broken down by trade.",
     image: {
       src: avoidcenter,
       alt: "Free Estimate",
@@ -56,14 +80,14 @@ const sections = [
           src: avoidleft,
           alt: "Free Estimate Left",
           className:
-            "absolute left-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px]",
+            "absolute left-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px] bg-[#262626]",
         },
         {
           type: "image" as const,
           src: avoidright,
           alt: "Free Estimate Right",
           className:
-            "absolute right-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px]",
+            "absolute right-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px] bg-[#262626]",
         },
       ],
     },
@@ -72,7 +96,7 @@ const sections = [
   {
     title: "Design & Permitting",
     description:
-      "We create a deck design tailored to your needs, and secure any necessary local permits for safety and compliance.",
+      "If needed, our network of vetted architects, engineers and interior designers save you the time and hassle of putting together your own team.",
     image: {
       src: savetime,
       alt: "Design & Permitting",
@@ -83,47 +107,49 @@ const sections = [
   {
     title: "Materials Consultation",
     description:
-      "We help you select durable, space-conscious materials suited for small-space living with maximum comfort and appeal.",
+      "Our industry connections, exclusive suppliers and contractor discounts mean you have access to the best materials at the best price.",
     image: {
-      src: matrialbg,
+      src: stressbg,
       alt: "Materials Consultation",
-      className: "w-[430.46px]  mob:w-[260.71px]  rounded-[18px] bg-[#b6b6b6]",
+      className:
+        "w-[340.46px] h-[288.42px] mob:w-[260.71px] mob:h-[220.77px] rounded-[18px] ",
       additionalImages: [
         {
-          type: "heading" as const,
-          src: matrialicon,
-          alt: "Innate's Material Hub",
+          src: stresstop,
+          alt: "Materials Consultation Top",
           className:
-            "flex items-center gap-2 text-white text-[24px] font-bold leading-[24px] font-inter absolute top-0 left-0 px-3 pt-4",
+            "absolute top-[-70px] left-0 w-[263px] h-[98px] mob:w-[198.17px] mob:h-[73.84px] mob:top-[-60px]",
         },
       ],
     },
+
+    //
     layout: "right" as const,
   },
   {
     title: "Construction",
     description:
-      "Our <a href='https://www.innate-nw.com/about' style='text-decoration: underline;'>skilled craftsmen</a> build each deck with long-term structural integrity, visual appeal, and comfort in mind.",
+      "Our dedicated project managers attend to every detail of your project to make sure it get done right, on time and on budget. Our subcontractors are vetted, experienced and highly skilled.",
     image: {
       src: track,
       alt: "Construction",
-      className: "w-[448px] mob:w-[324px] rounded-[18px] bg-[#b6b6b6]",
+      className: "w-[448px] mob:w-[324px] rounded-[18px] ",
     },
     layout: "left" as const,
   },
   {
     title: "Post Construction",
     description:
-      "We complete the finishing touches, clean the site, and ensure your new outdoor space is ready for relaxing, entertaining, or anything in between.",
+      "Our job is not complete until all the details are double checked, punch-list items are addressed, and the job site has been cleaned of all mess and debris.",
     image: {
       src: stressbg,
-      alt: "Post Construction",
+      alt: "Materials Consultation",
       className:
-        "w-[340.46px] h-[288.42px] mob:w-[260.71px] mob:h-[220.77px] rounded-[18px] bg-[#b6b6b6]",
+        "w-[340.46px] h-[288.42px] mob:w-[260.71px] mob:h-[220.77px] rounded-[18px] ",
       additionalImages: [
         {
           src: stresstop,
-          alt: "Post Construction Top",
+          alt: "Materials Consultation Top",
           className:
             "absolute top-[-70px] left-0 w-[263px] h-[98px] mob:w-[198.17px] mob:h-[73.84px] mob:top-[-60px]",
         },
@@ -132,40 +158,269 @@ const sections = [
     layout: "right" as const,
   },
 ];
+const threeCardDesignSections = [
+  {
+    title: "Client-Centric Design Process",
+    description:
+      "We begin by understanding how you want to live outdoors. Your goals shape every decision—from layout and style to lighting and material.",
+    image: {
+      src: "/images/services/Decks/r1.webp",
+      alt: "",
+      className: "",
+    },
+  },
+  {
+    title: "Integrated Design-Build Services",
+    description:
+      "As a full-service team of custom deck builders, we handle everything in-house: design, engineering, permits, and construction.",
+    image: {
+      src: "/images/services/Decks/r2.webp",
+      alt: "",
+      className: "",
+    },
+  },
+  {
+    title: "Attention to Detail",
+    description:
+      "We obsess over the small things—board pattern, railing height, fastener visibility—so the final product exceeds expectations.",
+    image: {
+      src: "/images/services/Decks/r3.webp",
+      alt: "",
+      className: "",
+    },
+  },
+];
+const processBlockSections = [
+  {
+    title: "Initial Consultation",
+    description:
+      "We visit your home to evaluate the space, understand your lifestyle, and offer recommendations for optimal deck construction.",
+  },
+  {
+    title: "Design Development",
+    description:
+      "Our custom deck design experts draft plans that reflect your home’s architecture, grade, and sun exposure—ensuring seamless indoor-outdoor flow.",
+  },
+  {
+    title: "Material Selection",
+    description:
+      "Choose from natural woods like cedar or composite decking for low-maintenance luxury. We walk you through every option for form and function.",
+  },
+  {
+    title: "Construction and Installation",
+    description:
+      "Our licensed deck construction contractors build with precision and care—managing every detail of your custom deck installation.",
+  },
+  {
+    title: "Final Walkthrough",
+    description:
+      "We inspect your finished deck with you to guarantee satisfaction, safety, and durability.",
+  },
+];
 
-const faqTitle = "Decks – FAQs";
+const whyChooseSections = [
+  {
+    title: "Experienced Team",
+    description:
+      "Our skilled custom deck contractors bring years of experience in Seattle’s climate, codes, and construction techniques.",
+  },
+  {
+    title: "Customized Solutions",
+    description:
+      "Every deck is unique. We offer fully tailored custom deck designs to match your home, terrain, and vision.",
+  },
+  {
+    title: "Quality Craftsmanship",
+    description:
+      "We use premium materials and proven practices to ensure each custom deck construction project is built to last.",
+  },
+  {
+    title: "Seamless Project Management",
+    description:
+      "With one team managing everything—from plans to permits—you enjoy a stress-free experience from day one.",
+  },
+];
+const threeBlockSections = [
+  {
+    link: "#",
+    thumbnail: {
+      src: "/images/services/r10.webp",
+      alt: "",
+    },
+    userdata: {
+      src: "/images/services/profile3.png",
+      name: "Pellegrino Remodel",
+      role: "CEO at TechCorp",
+      info: "This service is amazing!",
+    },
+  },
+  {
+    link: "#",
+    thumbnail: {
+      src: "/images/services/r11.webp",
+      alt: "",
+    },
+    userdata: {
+      src: "/images/services/profile2.png",
+      name: "Norman Remodel",
+      role: "CEO at TechCorp",
+      info: "This service is amazing!",
+    },
+  },
+  {
+    link: "#",
+    thumbnail: {
+      src: "/images/services/r10.webp",
+      alt: "",
+    },
+    userdata: {
+      src: "/images/services/profile1.png",
+      name: "Eleanor Pena",
+      role: "CEO at TechCorp",
+      info: "This service is amazing!",
+    },
+  },
+];
+const fourBlockSections = [
+  {
+    title: "Traditional Wood Decks",
+    description:
+      "Natural beauty with options like cedar, redwood, or pressure-treated lumber.",
+    link: "/",
+    thumbnail: {
+      src: "/images/services/Decks/r5.webp",
+      alt: "",
+    },
+  },
+  {
+    title: "Composite Decks",
+    description:
+      "Long-lasting, low-maintenance solutions with a clean, modern look.",
+    link: "/",
+    thumbnail: {
+      src: "/images/services/Decks/r6.webp",
+      alt: "",
+    },
+  },
+  {
+    title: "Multi-Level Decks",
+    description:
+      "Covered Decks & PergolasIdeal for sloped lots or larger backyards—create separate zones for dining, relaxing, and entertaining.",
+    link: "/",
+    thumbnail: {
+      src: "/images/services/Decks/r7.webp",
+      alt: "",
+    },
+  },
+  {
+    title: "Covered Decks & Pergolas",
+    description:
+      "Add shade and year-round use with structures that enhance your custom deck construction project.",
+    link: "/",
+    thumbnail: {
+      src: "/images/services/Decks/r8.webp",
+      alt: "",
+    },
+  },
+];
+
 const faqItems = [
   {
-    question: "What materials do you use for deck construction?",
+    question: "How long does a kitchen remodel usually take?",
     answer:
-      "We work with wood, composite, and PVC materials, helping you choose what fits your aesthetic and maintenance goals.",
+      "Most kitchen remodel projects take 4–8 weeks, depending on the scope and permitting. We'll give you a detailed timeline during your consultation.",
   },
   {
-    question: "Do you design custom decks?",
+    question: "Can I use my kitchen during the remodel?",
     answer:
-      "Yes, every deck is custom-designed to complement your home and outdoor lifestyle.",
+      "In most cases, your kitchen will be out of commission during construction. We work efficiently to minimize downtime and always keep you informed.",
   },
   {
-    question: "Do I need a permit to build a deck in Seattle?",
+    question: "Do you help with kitchen design and materials?",
     answer:
-      "Permits are usually required for decks over 18 inches off the ground — we handle all permitting.",
+      "Yes! Our team handles everything from kitchen remodel design to finish selection—so your remodel feels effortless and aligned with your style.",
   },
   {
-    question:
-      "What kind of maintenance is required for different deck materials?",
+    question: "Do you offer luxury kitchen remodels?",
     answer:
-      "Deck maintenance needs greatly depend on the chosen materials. Wood decks, such as cedar or redwood, typically require regular cleaning, sealing, and occasional staining to protect against moisture and sun exposure. Composite decks, on the other hand, are low-maintenance and only need periodic washing to remove dirt and debris. PVC and other synthetic decking options offer even greater durability with minimal upkeep. At Innate NW, we help you choose the right materials for a deck that’s easy to maintain and suitable for your lifestyle.",
+      "Absolutely. We specialize in luxury kitchen remodel services with premium finishes, high-end appliances, and thoughtful, custom layouts.",
   },
   {
-    question: "What is the typical cost of a custom deck design in Seattle?",
+    question: "What if I just need a partial remodel?",
     answer:
-      "The cost of a custom deck design in Seattle can vary depending on the size, materials, and design complexity. On average, homeowners can expect to prepare a budget anywhere from $15,000 to $40,000 for high-quality, custom-built services from a Seattle deck builder. Premium materials like hardwood or composite may increase the price, while additional features such as built-in seating, railings, or pergolas will also raise the budget. During consultation, Innate provides a detailed estimate so you have a clear understanding of your investment before construction begins.",
+      "We offer both full and partial kitchen remodel services—whether that means upgrading your cabinetry, reconfiguring lighting, or replacing surfaces.",
+  },
+];
+
+const portfolio = [
+  {
+    title: "Madrona Remodel",
+    location: "",
+    description:
+      "A warm, character-rich remodel that blends original charm with updated function—featuring natural wood tones, refined finishes, and thoughtful spatial flow.",
+    url: "",
+    media: [
+      {
+        src: "/images/services/Decks/r9.webp",
+        type: "image",
+      },
+    ],
   },
   {
-    question:
-      "How will you ensure my property is protected during the deck construction?",
-    answer:
-      "Protecting your property is an essential part of our deck construction process. We take care to minimize disruption by using protective barriers, managing debris, and ensuring safe access around your home during the build. Our Seattle deck repair specialists work with precision to avoid damage to landscaping, existing structures, and outdoor spaces. At Innate NW, we’re proud to be the leading Seattle deck contractor. Count on us to treat every property with respect, ensuring your home and yard remain safe and clean throughout the build.",
+    title: "North Seattle Kitchen",
+    location: "",
+    description:
+      "A bright, functional kitchen remodel with improved flow, custom cabinetry, and timeless finishes—designed to anchor daily life with ease and style.",
+    url: "",
+    media: [
+      {
+        src: "/images/services/Decks/r9.webp",
+        type: "image",
+      },
+    ],
+  },
+];
+
+const exploreData = [
+  {
+    title: "Architectural Services",
+    description:
+      "Bring your vision to life with architectural design and permitting services that blend creativity with code compliance.",
+    link: "",
+    thumbnail: {
+      src: "/images/services/Decks/r9.webp",
+      alt: "",
+    },
+  },
+  {
+    title: "Whole Home Remodeling",
+    description:
+      "Transform your entire home with cohesive design, structural updates, and personalized finishes tailored to your lifestyle.",
+    link: "",
+    thumbnail: {
+      src: "/images/services/Decks/r10.webp",
+      alt: "",
+    },
+  },
+  {
+    title: "Accessory Dwelling Units (ADUs)",
+    description:
+      "Add space and value to your property with custom-built ADUs designed for rental income, multigenerational living, or flexible use.",
+    link: "",
+    thumbnail: {
+      src: "/images/services/Decks/r11.webp",
+      alt: "",
+    },
+  },
+  {
+    title: "Exterior Remodeling",
+    description:
+      "Upgrade your curb appeal and energy efficiency with expert siding, window, and door replacements.",
+    link: "",
+    thumbnail: {
+      src: "/images/services/Decks/r12.webp",
+      alt: "",
+    },
   },
 ];
 
@@ -174,8 +429,9 @@ const ServicesPage = () => {
     () => [
       { image: "/images/services/Decks/Projects/p1.webp" },
       { image: "/images/services/Decks/Projects/p2.webp" },
+      { image: "/images/services/Decks/Projects/p3.webp" },
     ],
-    []
+    [],
   );
 
   return (
@@ -184,25 +440,122 @@ const ServicesPage = () => {
       <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
-        contentText="Transform your <a href='https://www.innate-nw.com/services/exterior-remodeling' style='text-decoration: underline;'>outdoor space</a> with a custom-built deck designed for relaxation and connection. From classic wood to modern composites, Innate designs and constructs decks that expand your living space and elevate your lifestyle."
+        contentText="Expand your living space, elevate your lifestyle, and enjoy the outdoors year-round with expert deck construction from Innate. Whether you're hosting a summer BBQ or enjoying quiet mornings outside, our custom deck solutions are designed for beauty, functionality, and durability.
+
+We provide custom deck services across Seattle and the Eastside, offering end-to-end support—from concept to completion. Let us turn your outdoor area into a stunning, usable extension of your home.
+
+"
       />
       <LatestProjects
-        title="View Our Custom Deck Projects"
-        content="This gallery features some of our custom deck builds for clients in Seattle and surrounding areas. Discover how we design and construct beautiful, durable outdoor spaces perfect for relaxing and entertaining."
+        title="Quality Craftsmanship, Built to Last"
+        content="Every deck we build reflects our commitment to structural excellence, premium materials, and stunning custom deck design. We specialize in weather-resilient solutions that perform beautifully through the seasons."
         sliderAlbum={sliderAlbum}
       />
+      <ThreeCardDesign
+        title="Our Approach to Deck Construction"
+        sections={threeCardDesignSections}
+      />
       <DesignAndBuild
-        title="Design and Build the Innate Way"
+        title="Design and Build the <i>Innate</i> Way"
         sections={sections}
       />
-      <ReviewsSlider />
-      <Testimonials />
-      <Consultation />
-      <Faq
-        title={faqTitle}
-        description="We've answered some of the most common questions homeowners in the Seattle area ask before starting a project. From timelines and costs to permits and materials, our goal is to make your renovation as smooth and transparent as possible."
-        faqItems={faqItems}
+      <ProcessBlock
+        title="Our Deck Construction Process"
+        bgImage={{
+          src: "/images/services/Decks/r4.webp",
+          alt: "Our Deck Construction Process",
+        }}
+        sections={processBlockSections}
       />
+
+      <SingleCard
+        title="Types of Decks We Build"
+        sections={fourBlockSections}
+      />
+
+      <WhyChoose title="Why Choose Innate?" sections={whyChooseSections} />
+
+      <div className="w-full py-16 px-5 mob:pt-5">
+        <div className="max-w-[1203px] xl:px-8 mx-auto">
+          <Text
+            as="h2"
+            className="text-center font-normal mob:text-[30px] mb-16  mob:mb-4 mob:leading-[33px] mob:px-5"
+          >
+            What our clients say about us
+          </Text>
+          <div className=" text-[32px] mob:text-[16px] text-[#fff] leading-[30.14px] mob:leading-[20.55px] mob:mt-0 font-light font-inter mb-20 mob:mb-10">
+            “I found Michael because he came highly recommended as both a
+            designer and a builder. I wanted to update the style of my kitchen
+            and bathroom but being unfamiliar with the construction process, I
+            needed a contractor who could walk me through the process and help
+            me with material selections!”
+          </div>
+          <p>- Katerin Currea</p>
+          <small>Kitchen Remodel, Madison Park</small>
+        </div>
+      </div>
+
+      <SingleCard title="" type="video_content" sections={threeBlockSections} />
+
+      <Consultation
+        title="Get Started with Your Custom Deck"
+        description="Looking for deck construction near me or a team of trusted custom deck builders in Seattle? Innate is your one-stop partner for custom deck services that deliver elegance, safety, and long-term value."
+        subHeading="Serving Seattle, Bellevue, Redmond, and the surrounding areas"
+        mainClass="pt-0"
+      />
+      <Faq title="Deck Construction - FAQ" description="" faqItems={faqItems} />
+
+      <ExploreService
+        title="Explore Our Other Services"
+        sections={exploreData}
+      />
+
+      <div className="w-full py-16 px-5 mob:pt-5">
+        <div className="max-w-[1264px] xl:px-8 mx-auto">
+          <div className="gradient2 rounded-[15px] py-6 mob:py-3 px-8 mob:px-4 flex mob:flex-col gap-8 mob:gap-2 ">
+            <div className="md:w-[50%]">
+              <Text
+                as="h2"
+                className="text-[40px] text-center leading-[44px] text-[#FFFFFF] mt-2 mob:text-[20px] font-semibold mb-3 md:mb-7"
+              >
+                Explore Our Projects
+              </Text>
+              <div className="mt-3 md:mb-12 text-center text-[16px] mob:text-[15px] text-[#fff]/[0.6] leading-[30.14px] mob:leading-[20.55px] mob:mt-0 font-light font-inter">
+                See how Innate brings design and craftsmanship together in
+                full-home transformations, renovations, and outdoor builds
+                across Seattle.
+              </div>
+              <div className="flex justify-center mt-12">
+                <ButtonGetStarted
+                  text="Free Estimate"
+                  className="bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] hover:from-[#616275] hover:to-[#4b4b4b] hover:text-white"
+                />
+              </div>
+            </div>
+            <div className="md:w-[50%]">
+              <Text
+                as="h2"
+                className="text-[40px] text-center leading-[44px] text-[#FFFFFF] mt-2 mob:text-[20px] font-semibold mb-3 md:mb-7"
+              >
+                Meet Our Team
+              </Text>
+              <div className="mt-3 md:mb-12 text-center text-[16px] mob:text-[15px] text-[#fff]/[0.6] leading-[30.14px] mob:leading-[20.55px] mob:mt-0 font-light font-inter">
+                Get to know the designers, builders, and project leads who bring
+                expertise, creativity, and care to every remodel.
+              </div>
+              <div className="flex justify-center mt-12">
+                <ButtonGetStarted
+                  text="Free Estimate"
+                  className="bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] hover:from-[#616275] hover:to-[#4b4b4b] hover:text-white"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <ReviewsSlider /> */}
+      {/* <Testimonials /> */}
 
       {/* <OurPartners /> */}
     </div>
@@ -216,25 +569,27 @@ export const metadata: Metadata = {
   description:
     "Expand your outdoor living space with a custom-built deck by Innate NW. Premium materials and expert design tailored to your lifestyle in Seattle.",
   alternates: {
-    canonical: 'https://innate-nw.com/services/decks',
+    canonical: "https://innate-nw.com/services/decks",
   },
   openGraph: {
     title: "Custom Deck Building Services in Seattle | Innate NW",
-    description: "Expand your outdoor living space with a custom-built deck by Innate NW. Premium materials and expert design tailored to your lifestyle in Seattle.",
-    url: 'https://innate-nw.com/services/decks',
-    siteName: 'Innate NW',
+    description:
+      "Expand your outdoor living space with a custom-built deck by Innate NW. Premium materials and expert design tailored to your lifestyle in Seattle.",
+    url: "https://innate-nw.com/services/decks",
+    siteName: "Innate NW",
     images: [
       {
-        url: '/images/innate-nw.jpg',
+        url: "/images/innate-nw.jpg",
         width: 1200,
         height: 630,
-        alt: 'Innate NW - Deck Building',
+        alt: "Innate NW - Deck Building",
       },
     ],
   },
   twitter: {
-    card: 'summary_large_image',
+    card: "summary_large_image",
     title: "Custom Deck Building Services in Seattle | Innate NW",
-    description: "Expand your outdoor living space with a custom-built deck by Innate NW. Premium materials and expert design tailored to your lifestyle in Seattle.",
+    description:
+      "Expand your outdoor living space with a custom-built deck by Innate NW. Premium materials and expert design tailored to your lifestyle in Seattle.",
   },
 };

@@ -26,6 +26,14 @@ import { StaticImageData } from "next/image";
 import { Metadata } from "next";
 
 import Slide from "@/components/Services/Hero/Content/slide";
+import ThreeCardDesign from "@/components/Services/ThreeCardDesign";
+import ProcessBlock from "@/components/Services/ProcessBlock";
+import SingleCard from "@/components/Services/SingleCard";
+import ProjectSlider from "@/components/Slider/ProjectSlider";
+import WhyChoose from "@/components/Services/WhyChoose";
+import Text from "@/components/ui/Text";
+import ExploreService from "@/components/Services/ExploreService";
+import ButtonGetStarted from "@/components/ui/ButtonGetStarted";
 interface MediaData {
   image: string | StaticImageData;
 }
@@ -39,7 +47,8 @@ const slides = [
       />
     ),
     delay: 36000,
-    projectName: "architectural services",
+    projectName: "",
+    subtitle: "Expert Kitchen Remodeling in Bellevue and Seattle",
     isH1: true,
   },
   {
@@ -50,13 +59,25 @@ const slides = [
       />
     ),
     delay: 36000,
-    projectName: "architectural services",
+    projectName: "",
+    subtitle: "Expert Kitchen Remodeling in Bellevue and Seattle",
+  },
+  {
+    component: (
+      <Slide
+        image="/images/services/architectural-services/Hero/p1 1.webp"
+        video={null}
+      />
+    ),
+    delay: 36000,
+    projectName: "",
+    subtitle: "Expert Kitchen Remodeling in Bellevue and Seattle",
   },
 ];
 
 const sections = [
   {
-    title: "Free Estimate / Site Visit",
+    title: "Free Estimate",
     description:
       "After doing an in-person site visit, we will provide an accurate, comprehensive and transparent bid, broken down by trade.",
     image: {
@@ -69,114 +90,76 @@ const sections = [
           src: avoidleft,
           alt: "Free Estimate Left",
           className:
-            "absolute left-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px]",
+            "absolute left-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px] bg-[#262626]",
         },
         {
           type: "image" as const,
           src: avoidright,
           alt: "Free Estimate Right",
           className:
-            "absolute right-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px]",
+            "absolute right-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px] bg-[#262626]",
         },
       ],
     },
     layout: "right" as const,
   },
   {
-    title: "Feasibility Study",
+    title: "Design & Permitting",
     description:
-      "We will perform a feasibility study to assess zoning, setbacks, FAR, and site conditions to determine if your proposed project is viable and cost-effective.",
+      "If needed, our network of vetted architects, engineers and interior designers save you the time and hassle of putting together your own team.",
     image: {
       src: savetime,
-      alt: "Feasibility Study",
+      alt: "Design & Permitting",
       className: "w-[431.81px] mob:w-[324px] ",
     },
     layout: "left" as const,
   },
   {
-    title: "Schematic Design",
+    title: "Materials Consultation",
     description:
-      "We will develop initial design drawings that explore layout, size, and appearance of the project, helping you visualize the concept and ensure it fits your goals and site.",
+      "Our industry connections, exclusive suppliers and contractor discounts mean you have access to the best materials at the best price.",
     image: {
-      src: matrialbg,
-      alt: "Schematic Design",
-      className: "w-[430.46px]  mob:w-[260.71px]  rounded-[18px] bg-[#b6b6b6]",
+      src: stressbg,
+      alt: "Materials Consultation",
+      className:
+        "w-[340.46px] h-[288.42px] mob:w-[260.71px] mob:h-[220.77px] rounded-[18px] ",
       additionalImages: [
         {
-          type: "heading" as const,
-          src: matrialicon,
-          alt: "Innate's Material Hub",
+          src: stresstop,
+          alt: "Materials Consultation Top",
           className:
-            "flex items-center gap-2 text-white text-[24px] font-bold leading-[24px] font-inter absolute top-0 left-0 px-3 pt-4",
+            "absolute top-[-70px] left-0 w-[263px] h-[98px] mob:w-[198.17px] mob:h-[73.84px] mob:top-[-60px]",
         },
       ],
     },
+
+    //
     layout: "right" as const,
   },
   {
-    title: "Design Development",
+    title: "Construction",
     description:
-      "We will refine the approved schematic design by adding detail to the layout, materials, and systems, and coordinate with consultants like the structural engineer to ensure the project is functional, buildable, and ready for permitting.",
+      "Our dedicated project managers attend to every detail of your project to make sure it get done right, on time and on budget. Our subcontractors are vetted, experienced and highly skilled.",
     image: {
       src: track,
-      alt: "Design Development",
-      className: "w-[448px] mob:w-[324px] rounded-[18px] bg-[#b6b6b6]",
+      alt: "Construction",
+      className: "w-[448px] mob:w-[324px] rounded-[18px] ",
     },
     layout: "left" as const,
   },
   {
-    title: "Construction Documentation",
+    title: "Post Construction",
     description:
-      "We will create detailed construction documents—including drawings and specifications—that clearly communicate the design to contractors, while coordinating with consultants to meet all code and permitting requirements.",
+      "Our job is not complete until all the details are double checked, punch-list items are addressed, and the job site has been cleaned of all mess and debris.",
     image: {
       src: stressbg,
-      alt: "Post Construction",
+      alt: "Materials Consultation",
       className:
-        "w-[340.46px] h-[288.42px] mob:w-[260.71px] mob:h-[220.77px] rounded-[18px] bg-[#b6b6b6]",
+        "w-[340.46px] h-[288.42px] mob:w-[260.71px] mob:h-[220.77px] rounded-[18px] ",
       additionalImages: [
         {
           src: stresstop,
-          alt: "Consturction Documentation",
-          className:
-            "absolute top-[-70px] left-0 w-[263px] h-[98px] mob:w-[198.17px] mob:h-[73.84px] mob:top-[-60px]",
-        },
-      ],
-    },
-    layout: "right" as const,
-  },
-  {
-    title: "Permit Management",
-    description:
-      "We will prepare and submit the necessary documents for permit review, respond to city comments, and coordinate with consultants to ensure timely approval and code compliance.",
-    image: {
-      src: stressbg,
-      alt: "Post Construction",
-      className:
-        "w-[340.46px] h-[288.42px] mob:w-[260.71px] mob:h-[220.77px] rounded-[18px] bg-[#b6b6b6]",
-      additionalImages: [
-        {
-          src: stresstop,
-          alt: "Permit Management",
-          className:
-            "absolute top-[-70px] left-0 w-[263px] h-[98px] mob:w-[198.17px] mob:h-[73.84px] mob:top-[-60px]",
-        },
-      ],
-    },
-    layout: "left" as const,
-  },
-  {
-    title: "Bidding",
-    description:
-      "As a design-build firm, we will manage the entire bidding process, providing detailed pricing based on the design and ensuring the project stays within <a href='https://www.innate-nw.com/blogs/2' style='text-decoration: underline;'>budget</a> while meeting all specifications.",
-    image: {
-      src: stressbg,
-      alt: "Bidding",
-      className:
-        "w-[340.46px] h-[288.42px] mob:w-[260.71px] mob:h-[220.77px] rounded-[18px] bg-[#b6b6b6]",
-      additionalImages: [
-        {
-          src: stresstop,
-          alt: "Post Construction Top",
+          alt: "Materials Consultation Top",
           className:
             "absolute top-[-70px] left-0 w-[263px] h-[98px] mob:w-[198.17px] mob:h-[73.84px] mob:top-[-60px]",
         },
@@ -185,57 +168,275 @@ const sections = [
     layout: "right" as const,
   },
 ];
+const threeCardDesignSections = [
+  {
+    title: "Integrated Services",
+    description:
+      "With our design-build model, you get a single team managing both architectural design and construction—ensuring alignment, cost efficiency, and continuity.",
+    image: {
+      src: "/images/services/architectural-services/r1.webp",
+      alt: "Integrated Services",
+      className: "",
+    },
+  },
+  {
+    title: "Client-Centric Approach",
+    description:
+      "Our process centers on communication, clarity, and transparency. We honor your input and advocate for your vision.",
+    image: {
+      src: "/images/services/architectural-services/r2.webp",
+      alt: "Client-Centric Approach",
+      className: "",
+    },
+  },
+  {
+    title: "Quality and Craftsmanship",
+    description:
+      "Our design documents reflect the same care and excellence as our builds. Every detail supports a thoughtful, long-lasting result.",
+    image: {
+      src: "/images/services/architectural-services/r3.webp",
+      alt: "Quality and Craftsmanship",
+      className: "",
+    },
+  },
+];
+const processBlockSections = [
+  {
+    title: "Initial Consultation",
+    description:
+      "We begin with a site visit and deep conversation to understand your goals, constraints, and dreams.",
+  },
+  {
+    title: "Design Development",
+    description:
+      "We explore layout, form, and functionality—applying modern architectural design principles, environmental efficiency, and your personal style.",
+  },
+  {
+    title: "Collaboration and Feedback",
+    description:
+      "We believe design should be co-created. Your feedback shapes the result at every step.",
+  },
+  {
+    title: "Finalization and Documentation",
+    description:
+      "We produce construction-ready drawings and technical specs, guiding your project into the building phase with clarity and precision.",
+  },
+];
+
+const whyChooseSections = [
+  {
+    title: "Experienced Team",
+    description:
+      "Our team brings deep experience in kitchen remodel services, including high-end finishes and complex spatial redesigns.",
+  },
+  {
+    title: "Customized Solutions",
+    description:
+      "Every remodel is tailored—no cookie-cutter solutions. We design for your space, your goals, and your life.",
+  },
+  {
+    title: "Quality Craftsmanship",
+    description:
+      "From framing to finish, our builds reflect expert-level care and long-term durability.",
+  },
+  {
+    title: "Seamless Project Management",
+    description:
+      "With integrated design and build teams, your remodel stays on schedule, on budget, and stress-free.",
+  },
+];
+const threeBlockSections = [
+  {
+    link: "#",
+    thumbnail: {
+      src: "/images/services/r10.webp",
+      alt: "",
+    },
+    userdata: {
+      src: "/images/services/profile3.png",
+      name: "Pellegrino Remodel",
+      role: "CEO at TechCorp",
+      info: "This service is amazing!",
+    },
+  },
+  {
+    link: "#",
+    thumbnail: {
+      src: "/images/services/r11.webp",
+      alt: "",
+    },
+    userdata: {
+      src: "/images/services/profile2.png",
+      name: "Norman Remodel",
+      role: "CEO at TechCorp",
+      info: "This service is amazing!",
+    },
+  },
+  {
+    link: "#",
+    thumbnail: {
+      src: "/images/services/r10.webp",
+      alt: "",
+    },
+    userdata: {
+      src: "/images/services/profile1.png",
+      name: "Eleanor Pena",
+      role: "CEO at TechCorp",
+      info: "This service is amazing!",
+    },
+  },
+];
+const fourBlockSections = [
+  {
+    title: "Custom Residential Design",
+    description:
+      "Our residential architectural services focus on unique, highly functional homes tailored to your lifestyle. Whether you're planning a renovation, new construction, or an addition, our team brings clarity, creativity, and code-compliant solutions",
+    link: "/",
+    thumbnail: {
+      src: "/images/services/architectural-services/r5.webp",
+      alt: "",
+    },
+  },
+  {
+    title: "Commercial Architecture",
+    description:
+      "From small retail spaces to multi-use layouts, our architectural services include commercial applications that maximize usability and reflect brand identity.",
+    link: "/",
+    thumbnail: {
+      src: "/images/services/architectural-services/r8.webp",
+      alt: "",
+    },
+  },
+  {
+    title: "Interior Architecture",
+    description:
+      "We specialize in interior architectural design that balances spatial flow, finishes, and structure. From custom cabinetry layouts to architectural design lighting, every detail is considered with care.",
+    link: "/",
+    thumbnail: {
+      src: "/images/services/architectural-services/r7.webp",
+      alt: "",
+    },
+  },
+  {
+    title: "Permitting and Code Compliance",
+    description:
+      "As experienced architectural design consultants, we handle all zoning, site planning, and building code coordination—saving you time and minimizing friction during review.",
+    link: "/",
+    thumbnail: {
+      src: "/images/services/architectural-services/r6.webp",
+      alt: "",
+    },
+  },
+];
 
 const faqItems = [
   {
-    question: "Do you offer architectural plans for permits?",
+    question: "How long does a kitchen remodel usually take?",
     answer:
-      "Yes, our architectural team prepares plans suitable for Seattle permitting and construction.",
+      "Most kitchen remodel projects take 4–8 weeks, depending on the scope and permitting. We'll give you a detailed timeline during your consultation.",
   },
   {
-    question:
-      "Can I work with your architect even if I already have a builder?",
+    question: "Can I use my kitchen during the remodel?",
     answer:
-      "Absolutely. Our architectural services can be provided independently or alongside your preferred contractor.",
+      "In most cases, your kitchen will be out of commission during construction. We work efficiently to minimize downtime and always keep you informed.",
   },
   {
-    question: "What's the difference between an architect and a designer?",
+    question: "Do you help with kitchen design and materials?",
     answer:
-      "An architect focuses on structural integrity and code compliance; a designer typically focuses on layout and aesthetics. <a href='https://www.innate-nw.com/about' style='text-decoration: underline;'>Our team</a> does both.",
+      "Yes! Our team handles everything from kitchen remodel design to finish selection—so your remodel feels effortless and aligned with your style.",
   },
   {
-    question: "How long does the design phase take?",
+    question: "Do you offer luxury kitchen remodels?",
     answer:
-      "Design timelines range from 4 to 12 weeks depending on complexity, revisions, and city approvals.",
+      "Absolutely. We specialize in luxury kitchen remodel services with premium finishes, high-end appliances, and thoughtful, custom layouts.",
   },
   {
-    question: "What is included in your architectural services?",
+    question: "What if I just need a partial remodel?",
     answer:
-      "Our architectural services cover every stage of the design and building process. This includes initial consultations, site analysis, concept design, planning applications, detailed drawings, and coordination with engineers and consultants. We also provide full guidance on materials, sustainability, and functionality to ensure your project meets both your vision and practical requirements. At Innate NW, with extensive building design services, we guarantee architecture that is not only beautiful but also functional and enduring.",
+      "We offer both full and partial kitchen remodel services—whether that means upgrading your cabinetry, reconfiguring lighting, or replacing surfaces.",
+  },
+];
+
+const portfolio = [
+  {
+    title: "Wedgewood ADU ",
+    location: "",
+    description:
+      "A highly functional architectural design residential project featuring smart use of space, natural lighting, and structural elegance.",
+    url: "",
+    media: [
+      {
+        src: "/images/services/architectural-services/r9.webp",
+        type: "image",
+      },
+    ],
   },
   {
-    question:
-      "How do you handle changes to the project scope and potential additional fees?",
-    answer:
-      "Each project may evolve as ideas develop differently, and Innate NW is here to handle all the potential issues for you. If changes to the project scope occur, we discuss these with you upfront, outlining any adjustments to the timeline or budget. Transparency is a key part of our architectural project management services, so you will always know about any additional fees before decisions are made. Aiming for exceptional outcomes and customer satisfaction, our experts ensure that your project remains on track while still allowing flexibility for design refinements.",
+    title: "Freitas Bathroom",
+    location: "",
+    description:
+      " A renovation that fused sustainable architectural design with contemporary materials and lighting precision.",
+    url: "",
+    media: [
+      {
+        src: "/images/services/architectural-services/r10.webp",
+        type: "image",
+      },
+    ],
+  },
+];
+
+const exploreData = [
+  {
+    title: "Architectural Services",
+    description:
+      "Bring your vision to life with architectural design and permitting services that blend creativity with code compliance.",
+    link: "",
+    thumbnail: {
+      src: "/images/services/image 94.webp",
+      alt: "",
+    },
   },
   {
-    question: "Will you stay involved during the construction phase?",
-    answer:
-      "Yes. Our custom architectural solutions extend beyond drawings and approvals, as we remain actively involved during construction at every phase for close and immediate support when needed. This includes site visits, liaising with contractors, responding to inquiries, and ensuring that the promised modern architectural design is executed to a high standard. By staying involved throughout the construction phase, Innate NW helps safeguard the quality of your project and provides peace of mind that the finished result aligns with the agreed vision.",
+    title: "Decks",
+    description:
+      "Expand your outdoor living area with a custom deck built for comfort, durability, and year-round enjoyment.",
+    link: "",
+    thumbnail: {
+      src: "/images/services/image 95.webp",
+      alt: "",
+    },
+  },
+  {
+    title: "Bathroom Remodeling",
+    description:
+      " Create a spa-like retreat with modern bathroom upgrades, elegant fixtures, and optimized comfort.",
+    link: "",
+    thumbnail: {
+      src: "/images/services/image 93.webp",
+      alt: "",
+    },
+  },
+  {
+    title: "Exterior Remodeling",
+    description:
+      "Upgrade your curb appeal and energy efficiency with expert siding, window, and door replacements.",
+    link: "",
+    thumbnail: {
+      src: "/images/services/image 96.webp",
+      alt: "",
+    },
   },
 ];
 
 const ServicesPage = () => {
   const sliderAlbum = useMemo<MediaData[]>(
     () => [
-      { image: "/images/services/architectural-services/Projects/p1.webp" },
-      { image: "/images/services/architectural-services/Projects/p2.webp" },
-      { image: "/images/services/architectural-services/Projects/p3.webp" },
-      { image: "/images/services/architectural-services/Projects/p4.webp" },
-      { image: "/images/services/architectural-services/Projects/p5.webp" },
+      { image: "/images/services/architectural-services/Projects/p6.webp" },
+      { image: "/images/services/architectural-services/Projects/p7.webp" },
+      { image: "/images/services/architectural-services/Projects/p8.webp" },
     ],
-    []
+    [],
   );
 
   return (
@@ -244,25 +445,126 @@ const ServicesPage = () => {
       <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
-        contentText="<a href='https://www.innate-nw.com/' style='text-decoration: underline;'>Innate</a> partners with skilled architects and structural engineers to deliver custom designs that work in harmony with your lifestyle and the unique constraints of your home. Whether you're opening up a floorplan, adding a second story, or <a href='https://www.innate-nw.com/services/adus' style='text-decoration: underline;'>building from scratch</a>—we make the design process easy."
+        contentText="Design your dream space with a team that brings creativity, functionality, and construction expertise under one roof. At Innate, our architectural design services are a combination of beauty and quality and we have the expertise to elevate the way you live and work."
       />
       <LatestProjects
-        title="See Our Architectural Design Projects"
-        content="Explore examples of architectural design work completed for homeowners in Seattle, Washington. Our architectural services help bring your vision to life with innovative, functional, and beautiful design solutions."
+        title="Holistic Design-Build Philosophy"
+        content="We believe the best architecture begins with a clear vision and ends in flawless execution. That’s why we offer fully integrated architectural design and building services—streamlining your project from initial sketches to final construction.
+<br /><br />
+With every design, we consider aesthetics, structure, energy flow, and sustainability, delivering more than drawings—we deliver a foundation for lasting impact."
         sliderAlbum={sliderAlbum}
       />
+      <ThreeCardDesign
+        title="Our Approach to Architecture"
+        sections={threeCardDesignSections}
+      />
       <DesignAndBuild
-        title="Design and Build the Innate Way"
+        title="Design and Build the <i>Innate</i> Way"
         sections={sections}
       />
-      <ReviewsSlider />
-      <Testimonials />
-      <Consultation />
-      <Faq
-        title="Architectural Services – FAQs"
-        description="We've answered some of the most common questions homeowners in the Seattle area ask before starting a project. From timelines and costs to permits and materials, our goal is to make your renovation as smooth and transparent as possible."
-        faqItems={faqItems}
+      <ProcessBlock
+        title="Our Architectural Design Process"
+        bgImage={{
+          src: "/images/services/architectural-services/r4.webp",
+          alt: "Our Architectural Design Process",
+        }}
+        sections={processBlockSections}
       />
+
+      <SingleCard
+        title="Our Architectural Services"
+        sections={fourBlockSections}
+      />
+
+      <ProjectSlider
+        title="Portfolio Highlights"
+        sections={portfolio}
+        mainClass="h-[562px]"
+      />
+
+      <WhyChoose title="Why Choose Innate?" sections={whyChooseSections} />
+
+      <div className="w-full py-16 px-5 mob:pt-5">
+        <div className="max-w-[1203px] xl:px-8 mx-auto">
+          <Text
+            as="h2"
+            className="text-center font-normal mob:text-[30px] mb-16  mob:mb-4 mob:leading-[33px] mob:px-5"
+          >
+            What our clients say about us
+          </Text>
+          <div className=" text-[32px] mob:text-[16px] text-[#fff] leading-[30.14px] mob:leading-[20.55px] mob:mt-0 font-light font-inter mb-20 mob:mb-10">
+            “I found Michael because he came highly recommended as both a
+            designer and a builder. I wanted to update the style of my kitchen
+            and bathroom but being unfamiliar with the construction process, I
+            needed a contractor who could walk me through the process and help
+            me with material selections!”
+          </div>
+          <p>- Katerin Currea</p>
+          <small>Kitchen Remodel, Madison Park</small>
+        </div>
+      </div>
+
+      <SingleCard title="" type="video_content" sections={threeBlockSections} />
+
+      <Consultation
+        title="Get Started with Your Kitchen Remodel"
+        description="Looking for a trusted kitchen remodel company in Seattle? Whether you want a modern kitchen remodel, a classic refresh, or a full transformation, Innate offers premium kitchen remodel services that bring your vision to life."
+        subHeading="Serving Seattle, Bellevue, Redmond, and the surrounding areas"
+        mainClass="pt-0"
+      />
+      <Faq title="Kitchen Remodels – FAQs" description="" faqItems={faqItems} />
+
+      <ExploreService
+        title="Get Started with Your Kitchen Remodel"
+        sections={exploreData}
+      />
+
+      <div className="w-full py-16 px-5 mob:pt-5">
+        <div className="max-w-[1264px] xl:px-8 mx-auto">
+          <div className="gradient2 rounded-[15px] py-6 mob:py-3 px-8 mob:px-4 flex mob:flex-col gap-8 mob:gap-2 ">
+            <div className="md:w-[50%]">
+              <Text
+                as="h2"
+                className="text-[40px] text-center leading-[44px] text-[#FFFFFF] mt-2 mob:text-[20px] font-semibold mb-3 md:mb-7"
+              >
+                Explore Our Projects
+              </Text>
+              <div className="mt-3 md:mb-12 text-center text-[16px] mob:text-[15px] text-[#fff]/[0.6] leading-[30.14px] mob:leading-[20.55px] mob:mt-0 font-light font-inter">
+                See how Innate brings design and craftsmanship together in
+                full-home transformations, renovations, and outdoor builds
+                across Seattle.
+              </div>
+              <div className="flex justify-center mt-12">
+                <ButtonGetStarted
+                  text="Free Estimate"
+                  className="bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] hover:from-[#616275] hover:to-[#4b4b4b] hover:text-white"
+                />
+              </div>
+            </div>
+            <div className="md:w-[50%]">
+              <Text
+                as="h2"
+                className="text-[40px] text-center leading-[44px] text-[#FFFFFF] mt-2 mob:text-[20px] font-semibold mb-3 md:mb-7"
+              >
+                Meet Our Team
+              </Text>
+              <div className="mt-3 md:mb-12 text-center text-[16px] mob:text-[15px] text-[#fff]/[0.6] leading-[30.14px] mob:leading-[20.55px] mob:mt-0 font-light font-inter">
+                Get to know the designers, builders, and project leads who bring
+                expertise, creativity, and care to every remodel.
+              </div>
+              <div className="flex justify-center mt-12">
+                <ButtonGetStarted
+                  text="Free Estimate"
+                  className="bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] hover:from-[#616275] hover:to-[#4b4b4b] hover:text-white"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <ReviewsSlider /> */}
+      {/* <Testimonials /> */}
 
       {/* <OurPartners /> */}
     </div>
@@ -276,25 +578,27 @@ export const metadata: Metadata = {
   description:
     "Innate NW offers architectural design services in Seattle. Work with expert architects to create a space tailored to your lifestyle and future vision.",
   alternates: {
-    canonical: 'https://innate-nw.com/services/architectural-services',
+    canonical: "https://innate-nw.com/services/architectural-services",
   },
   openGraph: {
     title: "Architectural Design Services in Seattle | Innate NW",
-    description: "Innate NW offers architectural design services in Seattle. Work with expert architects to create a space tailored to your lifestyle and future vision.",
-    url: 'https://innate-nw.com/services/architectural-services',
-    siteName: 'Innate NW',
+    description:
+      "Innate NW offers architectural design services in Seattle. Work with expert architects to create a space tailored to your lifestyle and future vision.",
+    url: "https://innate-nw.com/services/architectural-services",
+    siteName: "Innate NW",
     images: [
       {
-        url: '/images/innate-nw.jpg',
+        url: "/images/innate-nw.jpg",
         width: 1200,
         height: 630,
-        alt: 'Innate NW - Architectural Services',
+        alt: "Innate NW - Architectural Services",
       },
     ],
   },
   twitter: {
-    card: 'summary_large_image',
+    card: "summary_large_image",
     title: "Architectural Design Services in Seattle | Innate NW",
-    description: "Innate NW offers architectural design services in Seattle. Work with expert architects to create a space tailored to your lifestyle and future vision.",
+    description:
+      "Innate NW offers architectural design services in Seattle. Work with expert architects to create a space tailored to your lifestyle and future vision.",
   },
 };

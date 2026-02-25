@@ -26,6 +26,14 @@ import { StaticImageData } from "next/image";
 import { Metadata } from "next";
 
 import Slide from "@/components/Services/Hero/Content/slide";
+import ThreeCardDesign from "@/components/Services/ThreeCardDesign";
+import ProcessBlock from "@/components/Services/ProcessBlock";
+import SingleCard from "@/components/Services/SingleCard";
+import ProjectSlider from "@/components/Slider/ProjectSlider";
+import WhyChoose from "@/components/Services/WhyChoose";
+import Text from "@/components/ui/Text";
+import ExploreService from "@/components/Services/ExploreService";
+import ButtonGetStarted from "@/components/ui/ButtonGetStarted";
 interface MediaData {
   image: string | StaticImageData;
 }
@@ -34,33 +42,36 @@ const slides = [
   {
     component: (
       <Slide
-        image="/images/services/bathroom-remodeling/Hero/NamasteADU_Final-3.jpg"
+        image="/images/services/bathroom-remodeling/Hero/h1.webp"
         video={null}
       />
     ),
     delay: 36000,
-    projectName: "bathroom remodeling",
+    projectName: "",
+    subtitle: "Bathroom Remodeling in Seattle",
     isH1: true,
   },
   {
     component: (
       <Slide
-        image="/images/services/bathroom-remodeling/Hero/6L1A8309-Enhanced-NR.jpeg"
+        image="/images/services/bathroom-remodeling/Hero/h2.webp"
         video={null}
       />
     ),
     delay: 36000,
-    projectName: "bathroom remodeling",
+    projectName: "",
+    subtitle: "Bathroom Remodeling in Seattle",
   },
   {
     component: (
       <Slide
-        image="/images/services/bathroom-remodeling/Hero/6L1A8383-Enhanced-NR.jpeg"
+        image="/images/services/bathroom-remodeling/Hero/h3.webp"
         video={null}
       />
     ),
     delay: 36000,
-    projectName: "bathroom remodeling",
+    projectName: "",
+    subtitle: "Bathroom Remodeling in Seattle",
   },
 ];
 
@@ -68,7 +79,7 @@ const sections = [
   {
     title: "Free Estimate",
     description:
-      "We assess your current bathroom and provide a full-scope bid that reflects the specific layout, plumbing, and finish choices.",
+      "After an in-person consultation, we provide a detailed and transparent bid tailored to your kitchen's needs—down to each cabinet and fixture.",
     image: {
       src: avoidcenter,
       alt: "Free Estimate",
@@ -79,14 +90,14 @@ const sections = [
           src: avoidleft,
           alt: "Free Estimate Left",
           className:
-            "absolute left-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px]",
+            "absolute left-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px] bg-[#262626]",
         },
         {
           type: "image" as const,
           src: avoidright,
           alt: "Free Estimate Right",
           className:
-            "absolute right-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px]",
+            "absolute right-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px] bg-[#262626]",
         },
       ],
     },
@@ -95,7 +106,7 @@ const sections = [
   {
     title: "Design & Permitting",
     description:
-      "Whether it's adding a walk-in shower or reworking plumbing for dual sinks, we design functional, stylish solutions and take care of permit applications.",
+      "If needed, our network of vetted architects, engineers and interior designers save you the time and hassle of putting together your own team.",
     image: {
       src: savetime,
       alt: "Design & Permitting",
@@ -106,47 +117,49 @@ const sections = [
   {
     title: "Materials Consultation",
     description:
-      "We help you select durable, space-conscious materials suited for small-space living with maximum comfort and appeal.",
+      "Our industry connections, exclusive suppliers and contractor discounts mean you have access to the best materials at the best price.",
     image: {
-      src: matrialbg,
+      src: stressbg,
       alt: "Materials Consultation",
-      className: "w-[430.46px]  mob:w-[260.71px]  rounded-[18px] bg-[#b6b6b6]",
+      className:
+        "w-[340.46px] h-[288.42px] mob:w-[260.71px] mob:h-[220.77px] rounded-[18px] ",
       additionalImages: [
         {
-          type: "heading" as const,
-          src: matrialicon,
-          alt: "Innate's Material Hub",
+          src: stresstop,
+          alt: "Materials Consultation Top",
           className:
-            "flex items-center gap-2 text-white text-[24px] font-bold leading-[24px] font-inter absolute top-0 left-0 px-3 pt-4",
+            "absolute top-[-70px] left-0 w-[263px] h-[98px] mob:w-[198.17px] mob:h-[73.84px] mob:top-[-60px]",
         },
       ],
     },
+
+    //
     layout: "right" as const,
   },
   {
     title: "Construction",
     description:
-      "Our experienced crews work swiftly to transform your bathroom while ensuring meticulous waterproofing, tile work, and fixture installation.",
+      "Our dedicated project managers attend to every detail of your project to make sure it get done right, on time and on budget. Our subcontractors are vetted, experienced and highly skilled.",
     image: {
       src: track,
       alt: "Construction",
-      className: "w-[448px] mob:w-[324px] rounded-[18px] bg-[#b6b6b6]",
+      className: "w-[448px] mob:w-[324px] rounded-[18px] ",
     },
     layout: "left" as const,
   },
   {
     title: "Post Construction",
     description:
-      "After final inspections and touch-ups, your bathroom will be sparkling clean and ready to use immediately.",
+      "Our job is not complete until all the details are double checked, punch-list items are addressed, and the job site has been cleaned of all mess and debris.",
     image: {
       src: stressbg,
-      alt: "Post Construction",
+      alt: "Materials Consultation",
       className:
-        "w-[340.46px] h-[288.42px] mob:w-[260.71px] mob:h-[220.77px] rounded-[18px] bg-[#b6b6b6]",
+        "w-[340.46px] h-[288.42px] mob:w-[260.71px] mob:h-[220.77px] rounded-[18px] ",
       additionalImages: [
         {
           src: stresstop,
-          alt: "Post Construction Top",
+          alt: "Materials Consultation Top",
           className:
             "absolute top-[-70px] left-0 w-[263px] h-[98px] mob:w-[198.17px] mob:h-[73.84px] mob:top-[-60px]",
         },
@@ -155,33 +168,312 @@ const sections = [
     layout: "right" as const,
   },
 ];
+const threeCardDesignSections = [
+  {
+    title: "Client-Centric Design Process",
+    description:
+      "We listen first. Your lifestyle, preferences, and needs shape every decision we make. Our tailored bathroom remodel designs ensure your new space is functional, beautiful, and truly yours.",
+    image: {
+      src: "/images/services/bathroom-remodeling/r1.webp",
+      alt: "Client-Centric Design Process",
+      className: "",
+    },
+  },
+  {
+    title: "Integrated Design-Build Services",
+    description:
+      "With in-house designers and experienced bathroom remodel contractors, we manage your entire project from start to finish—ensuring seamless communication, efficient workflows, and high-quality results.",
+    image: {
+      src: "/images/services/bathroom-remodeling/r2.webp",
+      alt: "Integrated Design-Build Services",
+      className: "",
+    },
+  },
+  {
+    title: "Attention to Detail",
+    description:
+      "From waterproofing and tile layout to fixture alignment and lighting, we treat every element with the highest level of care. It’s how we deliver durable, cohesive, and luxurious results.",
+    image: {
+      src: "/images/services/bathroom-remodeling/r3.webp",
+      alt: "Attention to Detail",
+      className: "",
+    },
+  },
+];
+const processBlockSections = [
+  {
+    title: "Initial Consultation",
+    description:
+      "We assess your current layout, understand your goals, and provide insights into what’s possible for your home bathroom remodel.",
+  },
+  {
+    title: "Design Development",
+    description:
+      "Our team creates detailed plans, including layout updates, fixture placement, and modern bathroom remodel aesthetics tailored to your space.",
+  },
+  {
+    title: "Material Selection",
+    description:
+      "You’ll get support choosing vanities, tile, lighting, and finishes that combine durability with style. We prioritize materials ideal for high-moisture environments.",
+  },
+  {
+    title: "Construction and Installation",
+    description:
+      "Our professional bathroom remodel contractors handle all construction with careful project management—keeping your remodel on time and on budget.",
+  },
+  {
+    title: "Final Walkthrough",
+    description:
+      "We inspect every corner, polish the details, and ensure your space is flawless before handoff.",
+  },
+];
+
+const whyChooseSections = [
+  {
+    title: "Experienced Team",
+    description:
+      "Our expert designers and bathroom remodel contractors bring years of hands-on experience to every project.",
+  },
+  {
+    title: "Customized Solutions",
+    description:
+      "From space-saving ideas in small bathroom remodel projects to luxurious full bathroom remodel transformations, we build what works for you.",
+  },
+  {
+    title: "Quality Craftsmanship",
+    description:
+      "FWe use moisture-resistant materials and proven building practices that stand the test of time.",
+  },
+  {
+    title: "Seamless Project Management",
+    description:
+      "You’ll always know what to expect, who’s doing what, and when it’s happening—with one team guiding you from day one.",
+  },
+];
+const threeBlockSections = [
+  {
+    link: "#",
+    thumbnail: {
+      src: "/images/services/r10.webp",
+      alt: "",
+    },
+    userdata: {
+      src: "/images/services/profile3.png",
+      name: "Pellegrino Remodel",
+      role: "CEO at TechCorp",
+      info: "This service is amazing!",
+    },
+  },
+  {
+    link: "#",
+    thumbnail: {
+      src: "/images/services/r11.webp",
+      alt: "",
+    },
+    userdata: {
+      src: "/images/services/profile2.png",
+      name: "Norman Remodel",
+      role: "CEO at TechCorp",
+      info: "This service is amazing!",
+    },
+  },
+  {
+    link: "#",
+    thumbnail: {
+      src: "/images/services/r10.webp",
+      alt: "",
+    },
+    userdata: {
+      src: "/images/services/profile1.png",
+      name: "Eleanor Pena",
+      role: "CEO at TechCorp",
+      info: "This service is amazing!",
+    },
+  },
+];
+const fourBlockSections = [
+  {
+    title: "Master Bathroom Renovations",
+    description:
+      "Spacious layouts, luxury finishes, and spa-style features like freestanding tubs and walk-in showers.",
+    link: "/",
+    thumbnail: {
+      src: "/images/services/bathroom-remodeling/r5.webp",
+      alt: "",
+    },
+  },
+  {
+    title: "Guest Bathroom Updates",
+    description:
+      "Elegant and functional upgrades for your secondary bathrooms.",
+    link: "/",
+    thumbnail: {
+      src: "/images/services/bathroom-remodeling/r6.webp",
+      alt: "",
+    },
+  },
+  {
+    title: "Powder Room Makeovers",
+    description: "Bold design statements in compact spaces.",
+    link: "/",
+    thumbnail: {
+      src: "/images/services/bathroom-remodeling/r14.webp",
+      alt: "",
+    },
+  },
+  {
+    title: "Accessibility Upgrades",
+    description:
+      "Walk-in tubs, grab bars, curbless showers, and ADA-compliant layouts—done with style and dignity.",
+    link: "/",
+    thumbnail: {
+      src: "/images/services/bathroom-remodeling/r7.webp",
+      alt: "",
+    },
+  },
+];
+
+const faqItems = [
+  {
+    question: "How long does a kitchen remodel usually take?",
+    answer:
+      "Most kitchen remodel projects take 4–8 weeks, depending on the scope and permitting. We'll give you a detailed timeline during your consultation.",
+  },
+  {
+    question: "Can I use my kitchen during the remodel?",
+    answer:
+      "In most cases, your kitchen will be out of commission during construction. We work efficiently to minimize downtime and always keep you informed.",
+  },
+  {
+    question: "Do you help with kitchen design and materials?",
+    answer:
+      "Yes! Our team handles everything from kitchen remodel design to finish selection—so your remodel feels effortless and aligned with your style.",
+  },
+  {
+    question: "Do you offer luxury kitchen remodels?",
+    answer:
+      "Absolutely. We specialize in luxury kitchen remodel services with premium finishes, high-end appliances, and thoughtful, custom layouts.",
+  },
+  {
+    question: "What if I just need a partial remodel?",
+    answer:
+      "We offer both full and partial kitchen remodel services—whether that means upgrading your cabinetry, reconfiguring lighting, or replacing surfaces.",
+  },
+];
+
+const portfolio = [
+  {
+    title: "Gray Bathroom",
+    location: "",
+    description:
+      "A serene, modern bathroom upgrade with soft gray tones, clean lines, and custom storage—designed for calm, comfort, and everyday ease.",
+    url: "",
+    media: [
+      {
+        src: "/images/services/bathroom-remodeling/r8.webp",
+        type: "image",
+      },
+    ],
+  },
+  {
+    title: "Knight Residence",
+    location: "",
+    description:
+      "A full interior transformation featuring open-concept living, expanded natural light, and custom finishes—designed for flow, warmth, and modern simplicity.",
+    url: "",
+    media: [
+      {
+        src: "/images/services/bathroom-remodeling/r9.webp",
+        type: "image",
+      },
+    ],
+  },
+];
+
+const exploreData = [
+  {
+    title: "Architectural Services",
+    description:
+      "Bring your vision to life with architectural design and permitting services that blend creativity with code compliance.",
+    link: "",
+    thumbnail: {
+      src: "/images/services/bathroom-remodeling/r10.webp",
+      alt: "",
+    },
+  },
+  {
+    title: "Accessory Dwelling Units (ADUs)",
+    description:
+      " Add space and value to your property with custom-built ADUs designed for rental income, multigenerational living, or flexible use.",
+    link: "",
+    thumbnail: {
+      src: "/images/services/bathroom-remodeling/r11.webp",
+      alt: "",
+    },
+  },
+  {
+    title: "Natural Disaster Mitigation",
+    description:
+      "Safeguard your home with seismic retrofits, flood-resistant construction, and storm-ready upgrades.",
+    link: "",
+    thumbnail: {
+      src: "/images/services/bathroom-remodeling/r12.webp",
+      alt: "",
+    },
+  },
+  {
+    title: "Exterior Remodeling",
+    description:
+      "Upgrade your curb appeal and energy efficiency with expert siding, window, and door replacements.",
+    link: "",
+    thumbnail: {
+      src: "/images/services/bathroom-remodeling/r13.webp",
+      alt: "",
+    },
+  },
+];
 
 const ServicesPage = () => {
   const sliderAlbum = useMemo<MediaData[]>(
     () => [
-      { image: "/images/services/bathroom-remodeling/Projects/p3.webp" },
-      { image: "/images/services/bathroom-remodeling/Projects/p4.webp" },
       { image: "/images/services/bathroom-remodeling/Projects/p1.webp" },
       { image: "/images/services/bathroom-remodeling/Projects/p2.webp" },
+      { image: "/images/services/bathroom-remodeling/Projects/p3.webp" },
+      { image: "/images/services/bathroom-remodeling/Projects/p4.webp" },
     ],
-    []
+    [],
   );
 
   const faqItems = [
     {
-      question: "What's the timeline for remodeling a bathroom?",
+      question: "How long does a full bathroom remodel take?",
       answer:
-        "Most bathroom remodels take 2-4 weeks, depending on the size and scope.",
+        "Most full bathroom remodel projects take 4–6 weeks, depending on complexity, material availability, and permit requirements.",
     },
     {
-      question: "Do you handle permits for bathroom remodels in Seattle?",
+      question: "Can you help with small bathroom remodels?",
       answer:
-        "Yes, we handle all necessary permitting and <a href='https://www.innate-nw.com/blogs/1' style='text-decoration: underline;'>code compliance</a> as part of your project.",
+        "Yes! We love solving space challenges with smart layouts, built-in storage, and space-saving fixtures in small bathroom remodel projects.",
     },
     {
-      question: "Can you remodel small or oddly shaped bathrooms?",
+      question: "Do you offer affordable bathroom remodel options?",
       answer:
-        "Absolutely. We specialize in transforming tight spaces into stylish, functional bathrooms.",
+        "Absolutely. We can tailor your bathroom remodel service to your budget with cost-effective materials and phased project plans—without cutting corners.",
+    },
+    {
+      question: "Are permits required for bathroom remodels in Seattle?",
+      answer:
+        "Yes. Our team handles all required permits and inspections for your home bathroom remodel, so you don't have to worry about red tape.",
+    },
+    {
+      question: "Do you design as well as build?",
+      answer:
+        "Yes—we offer both bathroom remodel designs and construction in-house. This integrated approach ensures quality and consistency from start to finish.",
+    },
+    {
+      question: "Can I request a custom bathroom remodel with unique features?",
+      answer:
+        "Of course! Every custom bathroom remodel we deliver is tailored to your exact needs, whether that's heated floors, specialty lighting, or high-end finishes.",
     },
   ];
 
@@ -191,25 +483,110 @@ const ServicesPage = () => {
       <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
-        contentText="From compact powder rooms to luxurious spa-like retreats, Innate's bathroom remodel services combine <a href='/project/freitas-bathroom' style='text-decoration: underline;'>elegant design</a> with functional upgrades. We help you reimagine your bathroom into a space that brings peace, value, and utility to your daily life."
+        contentText="Your bathroom should be more than just a utility—it should be a space of comfort, calm, and beauty. At Innate, we specialize in full-service bathroom remodel solutions that elevate everyday living."
       />
       <LatestProjects
-        title="Explore Our Bathroom Remodel Work Across Seattle"
-        content="See how we've transformed outdated bathrooms into high-style sanctuaries of comfort and efficiency."
+        title="Bring Your Bathroom Vision to Life"
+        content="We are here to support you in whatever remodel you desire: custom bathroom remodel, planning a small bathroom remodel, or preparing for a complete bathroom remodel."
         sliderAlbum={sliderAlbum}
       />
+      <ThreeCardDesign
+        title="Our Approach to Bathroom Remodeling"
+        sections={threeCardDesignSections}
+      />
       <DesignAndBuild
-        title="Design and Build the Innate Way"
+        title="Design and Build the <i>Innate</i> Way"
         sections={sections}
       />
-      <ReviewsSlider />
-      <Testimonials />
-      <Consultation />
-      <Faq
-        title="Bathroom Remodels – FAQs"
-        description="We've answered some of the most common questions homeowners in the Seattle area ask before starting a project. From timelines and costs to permits and materials, our goal is to make <a href='https://www.innate-nw.com/services/whole-home-remodels' style='text-decoration: underline;'>your renovation</a> as smooth and transparent as possible."
-        faqItems={faqItems}
+      <ProcessBlock
+        title="Our Bathroom Remodeling Process"
+        bgImage={{
+          src: "/images/services/bathroom-remodeling/r4.webp",
+          alt: "Our Bathroom Remodeling Process",
+        }}
+        sections={processBlockSections}
       />
+
+      <SingleCard
+        title="Types of Bathroom Remodels We Offer"
+        sections={fourBlockSections}
+      />
+
+      <ProjectSlider
+        title="Portfolio Highlights"
+        sections={portfolio}
+        mainClass="h-[562px]"
+      />
+
+      <WhyChoose title="Why Choose Innate?" sections={whyChooseSections} />
+
+      <SingleCard
+        title="What our clients say about us"
+        type="video_content"
+        sections={threeBlockSections}
+      />
+
+      <Consultation
+        title="Get Started with Your Bathroom Remodel in Bellevue"
+        description="Looking for an affordable bathroom remodel without sacrificing quality? Or maybe you’re ready for a high-end transformation with spa-like finishes?
+At Innate, we specialize in bathroom remodel services tailored to your lifestyle, timeline, and taste.
+"
+        subHeading="Serving Seattle, Bellevue, Redmond, and the surrounding areas"
+        mainClass="pt-0"
+      />
+      <Faq title="Bathroom Remodels - FAQ" description="" faqItems={faqItems} />
+
+      <ExploreService
+        title="Explore Our Other Services"
+        sections={exploreData}
+      />
+
+      <div className="w-full py-16 px-5 mob:pt-5">
+        <div className="max-w-[1264px] xl:px-8 mx-auto">
+          <div className="gradient2 rounded-[15px] py-6 mob:py-3 px-8 mob:px-4 flex mob:flex-col gap-8 mob:gap-2 ">
+            <div className="md:w-[50%]">
+              <Text
+                as="h2"
+                className="text-[40px] text-center leading-[44px] text-[#FFFFFF] mt-2 mob:text-[20px] font-semibold mb-3 md:mb-7"
+              >
+                Explore Our Projects
+              </Text>
+              <div className="mt-3 md:mb-12 text-center text-[16px] mob:text-[15px] text-[#fff]/[0.6] leading-[30.14px] mob:leading-[20.55px] mob:mt-0 font-light font-inter">
+                See how Innate brings design and craftsmanship together in
+                full-home transformations, renovations, and outdoor builds
+                across Seattle.
+              </div>
+              <div className="flex justify-center mt-12">
+                <ButtonGetStarted
+                  text="Free Estimate"
+                  className="bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] hover:from-[#616275] hover:to-[#4b4b4b] hover:text-white"
+                />
+              </div>
+            </div>
+            <div className="md:w-[50%]">
+              <Text
+                as="h2"
+                className="text-[40px] text-center leading-[44px] text-[#FFFFFF] mt-2 mob:text-[20px] font-semibold mb-3 md:mb-7"
+              >
+                Meet Our Team
+              </Text>
+              <div className="mt-3 md:mb-12 text-center text-[16px] mob:text-[15px] text-[#fff]/[0.6] leading-[30.14px] mob:leading-[20.55px] mob:mt-0 font-light font-inter">
+                Get to know the designers, builders, and project leads who bring
+                expertise, creativity, and care to every remodel.
+              </div>
+              <div className="flex justify-center mt-12">
+                <ButtonGetStarted
+                  text="Free Estimate"
+                  className="bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] hover:from-[#616275] hover:to-[#4b4b4b] hover:text-white"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <ReviewsSlider /> */}
+      {/* <Testimonials /> */}
 
       {/* <OurPartners /> */}
     </div>
@@ -223,6 +600,6 @@ export const metadata: Metadata = {
   description:
     "Create a spa-like bathroom retreat with Innate NW's remodeling services in Seattle. Tailored design, moisture-resistant materials, and expert construction.",
   alternates: {
-    canonical: 'https://innate-nw.com/services/bathroom-remodeling',
+    canonical: "https://innate-nw.com/services/bathroom-remodeling",
   },
 };

@@ -7,6 +7,7 @@ export interface MediaItem {
 export interface SlideData {
   title: string;
   location: string;
+  description?: string;
   url?: string;
   media?: MediaItem[];
   hover?: {
@@ -41,7 +42,8 @@ export const slidesData: SlideData[] = [
       {
         src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/kenmore.webm?alt=media&token=6c9d916f-0ee6-42c5-bb74-1afa028482cf",
         type: "video",
-        mobilePlaceholder: "/images/project/kenmore-bathroom/6L1A1295_websize.jpg",
+        mobilePlaceholder:
+          "/images/project/kenmore-bathroom/6L1A1295_websize.jpg",
       },
     ],
     hover: {

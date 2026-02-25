@@ -26,6 +26,7 @@ interface Slide {
   component: React.ReactNode;
   delay: number;
   projectName: string;
+  subtitle?: string;
   isH1?: boolean;
 }
 
@@ -38,7 +39,7 @@ function HomeSlider({ slides, overlayClass }: HomeSliderProps) {
   const [currentSlide, setCurrentSlide] = useState(0);
   const router = useRouter();
 
-  const defaultSlides = [
+  const defaultSlides: Slide[] = [
     {
       component: <Slide1 />,
       delay: 36000,
@@ -77,7 +78,7 @@ function HomeSlider({ slides, overlayClass }: HomeSliderProps) {
               </span>
             </Text>
 
-            <button
+            {/* <button
               className="mt-[20px] mb-[60px] border border-[#FFFFFF] font-normal max-w-[200px] h-[50px] text-[16px] hover:bg-white hover:text-black hover:border-black transition duration-300 bg-transparent px-[24px] py-[14px] mob:text-[14px] mob:max-w-[181px] mob:h-[48px]"
               // onClick={() => scrollToSection('contactHome')}
               onClick={() => {
@@ -89,17 +90,15 @@ function HomeSlider({ slides, overlayClass }: HomeSliderProps) {
               }}
             >
               Book Consultation
-            </button>
+            </button> */}
           </div>
 
-          {/* <Text className="text-[20px] leading-[28px] mob:leading-[25px] text-[#FFFFFF] mt-5 mob:text-[18px] font-normal font-bentonMedium">
+          <Text className="text-[20px] leading-[28px] mob:leading-[25px] text-[#FFFFFF] mt-5 mob:text-[18px] font-normal font-bentonMedium">
             Project
-          </Text> */}
-          <Text className="text-[28px] mob:text-[24px] leading-[36.4px] mob:leading-[31.2px] text-[#FFFFFF] font-light">
-            Design+ Build
           </Text>
-          <span className="text-[40px] mob:text-[28px] font-light">It's </span>
-          <span className="italic text-[40px] mob:text-[28px]">Innate</span>
+          <Text className="text-[28px] leading-[34px] mob:leading-[340px] text-[#FFFFFF] mt-2 mob:text-[18px] font-thin font-bentonMedium max-w-[370px]">
+            {swiperSlides[currentSlide]?.subtitle}
+          </Text>
         </div>
 
         <Swiper
@@ -140,7 +139,7 @@ function HomeSlider({ slides, overlayClass }: HomeSliderProps) {
         <div
           className={cn(
             "absolute inset-0 bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(0,0,0,0.5)]  pagination-gradient z-20 pointer-events-none bg-black/40",
-            overlayClass
+            overlayClass,
           )}
         ></div>
       </div>

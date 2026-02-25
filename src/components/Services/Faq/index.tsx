@@ -52,7 +52,7 @@ const AccordionItem = ({
   return (
     <div className=" mb-3">
       <button
-        className="w-full py-[14px] px-3 relative flex items-center justify-between text-center border border-white"
+        className="w-full py-[14px] px-3 relative flex items-center justify-between text-center border border-white bg-[#4E4E4E]"
         onClick={onClick}
       >
         <div className="w-6" />
@@ -74,7 +74,7 @@ const AccordionItem = ({
             : "max-h-0 opacity-0"
         }`}
       >
-        <p 
+        <p
           className="text-white text-[#D9D9D9] text-[16px] font-light leading-[24px] font-inter"
           dangerouslySetInnerHTML={{ __html: item.answer }}
         />
@@ -104,7 +104,7 @@ const Faq = ({
           >
             {title}
           </Text>
-          <div 
+          <div
             className="text-[#D9D9D9] text-center mt-3"
             dangerouslySetInnerHTML={{ __html: description }}
           />

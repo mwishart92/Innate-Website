@@ -32,7 +32,7 @@ const LatestProjects = ({
               </Text>
             )}
             <Text className="text-white mt-4 tab:text-center w-full">
-              {content}
+              <span dangerouslySetInnerHTML={{ __html: content }} />
             </Text>
           </div>
           {/*  */}

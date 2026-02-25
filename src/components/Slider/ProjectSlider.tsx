@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import Link from "next/link";
 import { slidesData } from "@/data/workSlides";
+import clsx from "clsx";
 
 // Configure which projects to feature in the carousel
 // Add or remove project titles from this array to control what's displayed
@@ -19,7 +20,31 @@ const FEATURED_PROJECT_TITLES = [
   "Wedgewood ADU",
 ];
 
-const ProjectSlider = () => {
+interface Media {
+  src: any;
+  type: string;
+}
+interface Section {
+  title: string;
+  location: string;
+  description?: string;
+  url: string;
+  media: Media[];
+}
+
+interface SingleCardProps {
+  title?: string | null;
+  subTitle?: string | null;
+  mainClass?: string | null;
+  sections?: Section[];
+}
+
+const ProjectSlider = ({
+  title = null,
+  subTitle = null,
+  sections = [],
+  mainClass,
+}: SingleCardProps) => {
   // Get featured projects based on configuration
   const getFeaturedProjects = () => {
     // Filter to only projects that:
@@ -29,23 +54,36 @@ const ProjectSlider = () => {
       return slidesData.find(
         (project) =>
           project.title === title &&
-          project.media?.some((media) => media.type === "image")
+          project.media?.some((media) => media.type === "image"),
       );
-    }).filter((project): project is NonNullable<typeof project> => project !== undefined);
+    }).filter(
+      (project): project is NonNullable<typeof project> =>
+        project !== undefined,
+    );
 
     return featuredProjects;
   };
 
   const featuredProjects = getFeaturedProjects();
+  const featuredProjectsData = sections?.length ? sections : featuredProjects;
 
   return (
     <>
       <Text
         as="h2"
-        className="text-[34px] pt-4 pb-4 mob:text-[30px] text-white font-semibold text-center mb-16 mob:mb-6"
+        className="text-[34px] pt-4  mob:text-[30px] text-white font-semibold text-center mb-6 "
       >
-      Featured projects we’re proud of      </Text>
-      <div className="pb-36">
+        {title ? title : "Featured projects we’re proud of"}
+      </Text>
+      {subTitle && (
+        <Text
+          as="p"
+          className="text-[16px] pb-4  text-white font-normal text-center mb-16 mob:mb-6 max-w-[774px] mx-auto px-4"
+        >
+          <span dangerouslySetInnerHTML={{ __html: subTitle }} />{" "}
+        </Text>
+      )}
+      <div className={sections?.length ? "" : "pb-36"}>
         <Swiper
           spaceBetween={50}
           slidesPerView={"auto"}
@@ -58,15 +96,18 @@ const ProjectSlider = () => {
           modules={[Autoplay]}
           loop={true}
         >
-          {featuredProjects.map((item, index) => {
+          {featuredProjectsData.map((item, index) => {
             // Find first image from media array
             const firstImage = item.media?.find(
-              (media) => media.type === "image"
+              (media) => media.type === "image",
             );
 
             return (
-              <SwiperSlide key={index} className="relative !w-[1133px]">
-                <div className="w-full h-[358px]">
+              <SwiperSlide
+                key={index}
+                className="relative !w-[1133px] mob:!max-w-full"
+              >
+                <div className={clsx("w-full h-[358px]", mainClass)}>
                   <Image
                     src={firstImage?.src || ""}
                     alt={item.title}
@@ -81,9 +122,19 @@ const ProjectSlider = () => {
                   >
                     {item.title}
                   </Text>
-                  <Text as="p" className="text-white text-[28px]">
-                    {item.location}
-                  </Text>
+                  {item.location && (
+                    <Text as="p" className="text-white text-[28px]">
+                      {item.location}
+                    </Text>
+                  )}
+                  {item.description && (
+                    <Text
+                      as="p"
+                      className="text-white text-[28px] mob:text-[18px] mob:text-center font-normal max-w-[767px] w-full px-4"
+                    >
+                      {item.description}
+                    </Text>
+                  )}
                   {item.url && (
                     <Link href={item.url}>
                       <button
