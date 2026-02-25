@@ -36,6 +36,8 @@ interface Section {
 interface SingleCardProps {
   title?: string;
   type?: string;
+  containerClass?: string;
+  columnClass?: string;
   sections?: Section[];
 }
 
@@ -43,6 +45,8 @@ const SingleCard = ({
   title = "Design and build the Innate way",
   sections = [],
   type,
+  containerClass,
+  columnClass,
 }: SingleCardProps) => {
   const router = useRouter();
   return (
@@ -55,7 +59,7 @@ const SingleCard = ({
           <span dangerouslySetInnerHTML={{ __html: title }} />
         </Text>
       )}
-      <div className="max-w-[1203px]  mx-auto ">
+      <div className={clsx("max-w-[1203px]  mx-auto ", containerClass)}>
         <div className="w-full max-w-full flex flex-wrap justify-center gap-[24px] mb-[44px] mob:mb-[24px] px-16 md:px-20 mob:px-0">
           {sections.map((section, key) => (
             <div
@@ -65,6 +69,7 @@ const SingleCard = ({
                   "border-none  max-w-[calc(33.333%-18px)]":
                     type === "video_content",
                 },
+                columnClass,
               )}
               key={key}
             >

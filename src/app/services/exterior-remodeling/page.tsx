@@ -91,14 +91,14 @@ const sections = [
           src: avoidleft,
           alt: "Free Estimate Left",
           className:
-            "absolute left-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px] bg-[#262626]",
+            "absolute left-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] rounded-[18px]",
         },
         {
           type: "image" as const,
           src: avoidright,
           alt: "Free Estimate Right",
           className:
-            "absolute right-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] bg-[#b8b8b8] rounded-[18px] bg-[#262626]",
+            "absolute right-0 z-0 w-[137.99px] h-[180.68px] sm:w-[186.54px] sm:h-[244.25px] rounded-[18px]",
         },
       ],
     },
@@ -492,6 +492,8 @@ If you're replacing siding or windows, planning a full exterior home remodeling 
       <SingleCard
         title="Types of Exterior Remodeling Services We Offer"
         sections={fourBlockSections}
+        columnClass="max-w-[calc(18%)] tab:max-w-[calc(50%-18px)] xl:max-w-[calc(33.333%-18px)]"
+        containerClass="max-w-full "
       />
 
       <WhyChoose title="Why Choose Innate?" sections={whyChooseSections} />
