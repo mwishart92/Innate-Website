@@ -429,7 +429,7 @@ const ServicesPage = () => {
       <ProcessBlock
         title="Our Kitchen Remodeling Process"
         bgImage={{
-          src: "/images/services/kitchen-remodeling/r4.webp",
+          src: "/images/services/kitchen-remodeling/kitchen_remodeling26.jpg",
           alt: "Our Kitchen Remodeling Process",
         }}
         sections={processBlockSections}

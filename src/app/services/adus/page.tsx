@@ -389,7 +389,7 @@ const ServicesPage = () => {
         title="Our ADU Construction Process"
         subTitle="At Innate, we make building an accessory dwelling unit simple and stress-free:"
         bgImage={{
-          src: "/images/services/kitchen-remodeling/r4.webp",
+          src: "/images/services/kitchen-remodeling/kitchen_remodeling26.jpg",
           alt: "Our ADU Construction Process",
         }}
         sections={processBlockSections}
