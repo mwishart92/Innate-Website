@@ -251,47 +251,6 @@ const whyChooseSections = [
       "You’ll have one experienced team from design through final walkthrough—no handoffs, no surprises.",
   },
 ];
-const threeBlockSections = [
-  {
-    link: "#",
-    thumbnail: {
-      src: "/images/services/r10.webp",
-      alt: "",
-    },
-    userdata: {
-      src: "/images/services/profile3.png",
-      name: "Pellegrino Remodel",
-      role: "CEO at TechCorp",
-      info: "This service is amazing!",
-    },
-  },
-  {
-    link: "#",
-    thumbnail: {
-      src: "/images/services/r11.webp",
-      alt: "",
-    },
-    userdata: {
-      src: "/images/services/profile2.png",
-      name: "Norman Remodel",
-      role: "CEO at TechCorp",
-      info: "This service is amazing!",
-    },
-  },
-  {
-    link: "#",
-    thumbnail: {
-      src: "/images/services/r10.webp",
-      alt: "",
-    },
-    userdata: {
-      src: "/images/services/profile1.png",
-      name: "Eleanor Pena",
-      role: "CEO at TechCorp",
-      info: "This service is amazing!",
-    },
-  },
-];
 const fourBlockSections = [
   {
     title: "Siding Replacement and Upgrades",
@@ -498,11 +457,7 @@ If you're replacing siding or windows, planning a full exterior home remodeling 
 
       <WhyChoose title="Why Choose Innate?" sections={whyChooseSections} />
 
-      <SingleCard
-        title="What our clients say about us"
-        type="video_content"
-        sections={threeBlockSections}
-      />
+      <Testimonials />
 
       <Consultation
         title="Get Started with Your Exterior Remodel"

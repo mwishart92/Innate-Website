@@ -250,47 +250,6 @@ const whyChooseSections = [
       "We coordinate your remodel from start to finish—ensuring timelines are met and communication is constant.",
   },
 ];
-const threeBlockSections = [
-  {
-    link: "#",
-    thumbnail: {
-      src: "/images/services/r10.webp",
-      alt: "",
-    },
-    userdata: {
-      src: "/images/services/profile3.png",
-      name: "Pellegrino Remodel",
-      role: "CEO at TechCorp",
-      info: "This service is amazing!",
-    },
-  },
-  {
-    link: "#",
-    thumbnail: {
-      src: "/images/services/r11.webp",
-      alt: "",
-    },
-    userdata: {
-      src: "/images/services/profile2.png",
-      name: "Norman Remodel",
-      role: "CEO at TechCorp",
-      info: "This service is amazing!",
-    },
-  },
-  {
-    link: "#",
-    thumbnail: {
-      src: "/images/services/r10.webp",
-      alt: "",
-    },
-    userdata: {
-      src: "/images/services/profile1.png",
-      name: "Eleanor Pena",
-      role: "CEO at TechCorp",
-      info: "This service is amazing!",
-    },
-  },
-];
 const fourBlockSections = [
   {
     title: "Kitchen Renovations",
@@ -502,11 +461,7 @@ From rethinking floorplans to executing structural upgrades, our integrated team
 
       <WhyChoose title="Why Choose Innate?" sections={whyChooseSections} />
 
-      <SingleCard
-        title="What our clients say about us"
-        type="video_content"
-        sections={threeBlockSections}
-      />
+      <Testimonials />
 
       <Consultation
         title="Get Started with Your Whole Home Remodel"

@@ -250,47 +250,6 @@ const whyChooseSections = [
       "You’ll always know what to expect, who’s doing what, and when it’s happening—with one team guiding you from day one.",
   },
 ];
-const threeBlockSections = [
-  {
-    link: "#",
-    thumbnail: {
-      src: "/images/services/r10.webp",
-      alt: "",
-    },
-    userdata: {
-      src: "/images/services/profile3.png",
-      name: "Pellegrino Remodel",
-      role: "CEO at TechCorp",
-      info: "This service is amazing!",
-    },
-  },
-  {
-    link: "#",
-    thumbnail: {
-      src: "/images/services/r11.webp",
-      alt: "",
-    },
-    userdata: {
-      src: "/images/services/profile2.png",
-      name: "Norman Remodel",
-      role: "CEO at TechCorp",
-      info: "This service is amazing!",
-    },
-  },
-  {
-    link: "#",
-    thumbnail: {
-      src: "/images/services/r10.webp",
-      alt: "",
-    },
-    userdata: {
-      src: "/images/services/profile1.png",
-      name: "Eleanor Pena",
-      role: "CEO at TechCorp",
-      info: "This service is amazing!",
-    },
-  },
-];
 const fourBlockSections = [
   {
     title: "Master Bathroom Renovations",
@@ -520,11 +479,7 @@ const ServicesPage = () => {
 
       <WhyChoose title="Why Choose Innate?" sections={whyChooseSections} />
 
-      <SingleCard
-        title="What our clients say about us"
-        type="video_content"
-        sections={threeBlockSections}
-      />
+      <Testimonials />
 
       <Consultation
         title="Get Started with Your Bathroom Remodel in Bellevue"

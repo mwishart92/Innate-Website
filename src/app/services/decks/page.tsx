@@ -240,47 +240,6 @@ const whyChooseSections = [
       "With one team managing everything—from plans to permits—you enjoy a stress-free experience from day one.",
   },
 ];
-const threeBlockSections = [
-  {
-    link: "#",
-    thumbnail: {
-      src: "/images/services/r10.webp",
-      alt: "",
-    },
-    userdata: {
-      src: "/images/services/profile3.png",
-      name: "Pellegrino Remodel",
-      role: "CEO at TechCorp",
-      info: "This service is amazing!",
-    },
-  },
-  {
-    link: "#",
-    thumbnail: {
-      src: "/images/services/r11.webp",
-      alt: "",
-    },
-    userdata: {
-      src: "/images/services/profile2.png",
-      name: "Norman Remodel",
-      role: "CEO at TechCorp",
-      info: "This service is amazing!",
-    },
-  },
-  {
-    link: "#",
-    thumbnail: {
-      src: "/images/services/r10.webp",
-      alt: "",
-    },
-    userdata: {
-      src: "/images/services/profile1.png",
-      name: "Eleanor Pena",
-      role: "CEO at TechCorp",
-      info: "This service is amazing!",
-    },
-  },
-];
 const fourBlockSections = [
   {
     title: "Traditional Wood Decks",
@@ -495,7 +454,7 @@ We provide custom deck services across Seattle and the Eastside, offering end-to
         </div>
       </div>
 
-      <SingleCard title="" type="video_content" sections={threeBlockSections} />
+      <Testimonials />
 
       <Consultation
         title="Get Started with Your Custom Deck"

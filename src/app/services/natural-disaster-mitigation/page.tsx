@@ -244,47 +244,6 @@ const whyChooseSections = [
       "Your safety and peace of mind are our priorities. We guide you through the process with clarity, care, and full transparency.",
   },
 ];
-const threeBlockSections = [
-  {
-    link: "#",
-    thumbnail: {
-      src: "/images/services/r10.webp",
-      alt: "",
-    },
-    userdata: {
-      src: "/images/services/profile3.png",
-      name: "Pellegrino Remodel",
-      role: "CEO at TechCorp",
-      info: "This service is amazing!",
-    },
-  },
-  {
-    link: "#",
-    thumbnail: {
-      src: "/images/services/r11.webp",
-      alt: "",
-    },
-    userdata: {
-      src: "/images/services/profile2.png",
-      name: "Norman Remodel",
-      role: "CEO at TechCorp",
-      info: "This service is amazing!",
-    },
-  },
-  {
-    link: "#",
-    thumbnail: {
-      src: "/images/services/r10.webp",
-      alt: "",
-    },
-    userdata: {
-      src: "/images/services/profile1.png",
-      name: "Eleanor Pena",
-      role: "CEO at TechCorp",
-      info: "This service is amazing!",
-    },
-  },
-];
 const fourBlockSections = [
   {
     title: "Seismic Retrofits",
@@ -502,11 +461,7 @@ If you're concerned about earthquakes, floods, wildfires, or extreme storms, we 
 
       <WhyChoose title="Why Choose Innate?" sections={whyChooseSections} />
 
-      <SingleCard
-        title="What our clients say about us"
-        type="video_content"
-        sections={threeBlockSections}
-      />
+      <Testimonials />
 
       <Consultation
         title="Get Started with Your Disaster Mitigation Project"

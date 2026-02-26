@@ -15,10 +15,26 @@ import {
 } from "swiper/modules";
 // Swiper CSS is now imported centrally in layout.tsx
 
-function Testimonials() {
+interface TestimonialsProps {
+  title?: string;
+}
+
+function Testimonials({ title }: TestimonialsProps) {
   return (
-    <div className=" w-full mx-auto pt-44 pb-20 tab:px-5 mob:py-10 mob:pt-[80px] mob:hidden">
-      <div className="flex flex-wrap justify-center gap-[20px]">
+    <div className=" w-full mx-auto pt-44 pb-20 tab:px-5 mob:py-10 mob:pt-[80px]">
+      {title && (
+        <div className="flex flex-wrap justify-center gap-[20px] mob:hidden mb-16 mob:mb-8">
+          <div className="w-full max-w-[78%]">
+            <Text
+              as="h2"
+              className="text-left font-normal mob:text-[30px] mob:leading-[33px] mob:px-5"
+            >
+              {title}
+            </Text>
+          </div>
+        </div>
+      )}
+      <div className="flex flex-wrap justify-center gap-[20px] mob:hidden">
         <VideoThumbnail
           videoId="RdjFPFmJqmw"
           title="Pellegrino Residence"
