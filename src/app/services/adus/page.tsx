@@ -402,7 +402,7 @@ const ServicesPage = () => {
 
       <ProjectSlider
         title="Portfolio Highlights"
-        subTitle="<a href='#'><u>Explore our portfolio</u></a> of recent accessory dwelling unit construction projects across Seattle. From stylish backyard cottages to full-scale new construction homes, our work highlights clean design, durable materials, and thoughtful space planning."
+        subTitle="<a href='/work'><u>Explore our portfolio</u></a> of recent accessory dwelling unit construction projects across Seattle. From stylish backyard cottages to full-scale new construction homes, our work highlights clean design, durable materials, and thoughtful space planning."
         sections={portfolio}
         mainClass="h-[562px]"
       />
