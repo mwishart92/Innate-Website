@@ -185,7 +185,7 @@ const processBlockSections = [
   {
     title: "Feasibility Study",
     description:
-      "WWe begin by assessing your property, lot layout, and local regulations to determine if you're eligible for an accessory dwelling unit and which type makes the most sense for your goals.",
+      "We begin by assessing your property, lot layout, and local regulations to determine if you're eligible for an accessory dwelling unit and which type makes the most sense for your goals.",
   },
   {
     title: "Design & Permitting",
