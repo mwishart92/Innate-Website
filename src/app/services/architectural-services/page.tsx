@@ -48,7 +48,7 @@ const slides = [
     ),
     delay: 36000,
     projectName: "",
-    subtitle: "Expert Kitchen Remodeling in Bellevue and Seattle",
+    subtitle: "Professional Architectural Services in Seattle and Beyond",
     isH1: true,
   },
   {
