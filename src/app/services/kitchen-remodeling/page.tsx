@@ -357,7 +357,7 @@ const exploreData = [
     title: "Architectural Services",
     description:
       "Bring your vision to life with architectural design and permitting services that blend creativity with code compliance.",
-    link: "",
+    link: "/services/architectural-services",
     thumbnail: {
       src: "/images/services/image 94.webp",
       alt: "",
@@ -367,7 +367,7 @@ const exploreData = [
     title: "Decks",
     description:
       "Expand your outdoor living area with a custom deck built for comfort, durability, and year-round enjoyment.",
-    link: "",
+    link: "/services/decks",
     thumbnail: {
       src: "/images/services/image 95.webp",
       alt: "",
@@ -377,7 +377,7 @@ const exploreData = [
     title: "Bathroom Remodeling",
     description:
       " Create a spa-like retreat with modern bathroom upgrades, elegant fixtures, and optimized comfort.",
-    link: "",
+    link: "/services/bathroom-remodeling",
     thumbnail: {
       src: "/images/services/image 93.webp",
       alt: "",
@@ -387,7 +387,7 @@ const exploreData = [
     title: "Exterior Remodeling",
     description:
       "Upgrade your curb appeal and energy efficiency with expert siding, window, and door replacements.",
-    link: "",
+    link: "/services/exterior-remodeling",
     thumbnail: {
       src: "/images/services/image 96.webp",
       alt: "",

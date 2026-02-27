@@ -366,7 +366,7 @@ const exploreData = [
     title: "Whole Home Remodeling",
     description:
       "Transform your entire home with cohesive design, structural updates, and personalized finishes tailored to your lifestyle.",
-    link: "",
+    link: "/services/whole-home-remodels",
     thumbnail: {
       src: "/images/services/exterior-remodeling/r10.webp",
       alt: "",
@@ -376,7 +376,7 @@ const exploreData = [
     title: "Accessory Dwelling Units (ADUs)",
     description:
       "Add space and value to your property with custom-built ADUs designed for rental income, multigenerational living, or flexible use.",
-    link: "",
+    link: "/services/adus",
     thumbnail: {
       src: "/images/services/exterior-remodeling/r12.webp",
       alt: "",
@@ -386,7 +386,7 @@ const exploreData = [
     title: "Bathroom Remodeling",
     description:
       "  Create a spa-like retreat with modern bathroom upgrades, elegant fixtures, and optimized comfort.",
-    link: "",
+    link: "/services/bathroom-remodeling",
     thumbnail: {
       src: "/images/services/image 93.webp",
       alt: "",
@@ -396,7 +396,7 @@ const exploreData = [
     title: "Natural Disaster Mitigation",
     description:
       "Safeguard your home with seismic retrofits, flood-resistant construction, and storm-ready upgrades.",
-    link: "",
+    link: "/services/natural-disaster-mitigation",
     thumbnail: {
       src: "/images/services/exterior-remodeling/r11.webp",
       alt: "",

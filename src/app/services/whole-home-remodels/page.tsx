@@ -365,7 +365,7 @@ const exploreData = [
     title: "Architectural Services",
     description:
       "Bring your vision to life with architectural design and permitting services that blend creativity with code compliance.",
-    link: "",
+    link: "/services/architectural-services",
     thumbnail: {
       src: "/images/services/image 94.webp",
       alt: "",
@@ -375,7 +375,7 @@ const exploreData = [
     title: "Kitchen Remodeling",
     description:
       "Redesign your kitchen into a beautiful, functional space with custom layouts, high-end materials, and smart storage.",
-    link: "",
+    link: "/services/kitchen-remodeling",
     thumbnail: {
       src: "/images/services/whole-home-remodels/r10.webp",
       alt: "",
@@ -385,7 +385,7 @@ const exploreData = [
     title: "Bathroom Remodeling",
     description:
       " Create a spa-like retreat with modern bathroom upgrades, elegant fixtures, and optimized comfort.",
-    link: "",
+    link: "/services/bathroom-remodeling",
     thumbnail: {
       src: "/images/services/image 93.webp",
       alt: "",
@@ -395,7 +395,7 @@ const exploreData = [
     title: "Accessory Dwelling Units (ADUs)",
     description:
       "Add space and value to your property with custom-built ADUs designed for rental income, multigenerational living, or flexible use.",
-    link: "",
+    link: "/services/adus",
     thumbnail: {
       src: "/images/services/natural-disaster-mitigation/r11.webp",
       alt: "",

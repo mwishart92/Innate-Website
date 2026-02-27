@@ -354,7 +354,7 @@ const exploreData = [
     title: "Architectural Services",
     description:
       "Bring your vision to life with architectural design and permitting services that blend creativity with code compliance.",
-    link: "",
+    link: "/services/architectural-services",
     thumbnail: {
       src: "/images/services/bathroom-remodeling/r10.webp",
       alt: "",
@@ -364,7 +364,7 @@ const exploreData = [
     title: "Accessory Dwelling Units (ADUs)",
     description:
       " Add space and value to your property with custom-built ADUs designed for rental income, multigenerational living, or flexible use.",
-    link: "",
+    link: "/services/adus",
     thumbnail: {
       src: "/images/services/bathroom-remodeling/r11.webp",
       alt: "",
@@ -374,7 +374,7 @@ const exploreData = [
     title: "Natural Disaster Mitigation",
     description:
       "Safeguard your home with seismic retrofits, flood-resistant construction, and storm-ready upgrades.",
-    link: "",
+    link: "/services/natural-disaster-mitigation",
     thumbnail: {
       src: "/images/services/bathroom-remodeling/r12.webp",
       alt: "",
@@ -384,7 +384,7 @@ const exploreData = [
     title: "Exterior Remodeling",
     description:
       "Upgrade your curb appeal and energy efficiency with expert siding, window, and door replacements.",
-    link: "",
+    link: "/services/exterior-remodeling",
     thumbnail: {
       src: "/images/services/bathroom-remodeling/r13.webp",
       alt: "",
