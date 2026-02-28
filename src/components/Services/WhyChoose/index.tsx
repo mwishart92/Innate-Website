@@ -38,24 +38,24 @@ const WhyChoose = ({
       >
         {title}
       </Text>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-[50px] mob:gap-[25px] max-w-[1203px] xl:px-8 mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-[50px] mob:gap-[25px] max-w-[996px] xl:px-8 mx-auto">
         {sections.map((section, index) => (
           <div
             key={index}
             className={cn(
-              "border border-white rounded-[15px] p-[54px] mob:p-[25px]",
+              "border border-white rounded-[15px] py-[54px]  mob:p-[25px]",
             )}
           >
             <>
               <div className="text-center flex flex-col items-center justify-center h-full">
                 <Text
                   as="h2"
-                  className="text-[40px] leading-[44px] text-[#FFFFFF] mt-2 mob:text-[20px] font-semibold mb-3 md:mb-7"
+                  className=" text-[40px] leading-[44px] text-[#FFFFFF] mt-2 mob:text-[20px] font-semibold mb-3 md:mb-7"
                 >
                   {section.title}
                 </Text>
                 <div
-                  className=" text-[16px] mob:text-[15px] text-[#fff]/[0.6] leading-[30.14px] mob:leading-[20.55px] mob:mt-0 font-light font-inter"
+                  className="px-[53px] text-[16px] mob:text-[15px] text-[#fff]/[0.6] leading-[30.14px] mob:leading-[20.55px] mob:mt-0 font-light font-inter"
                   dangerouslySetInnerHTML={{ __html: section.description }}
                 />
               </div>

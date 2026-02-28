@@ -31,7 +31,7 @@ const ProcessBlock = ({
     <div className="w-full py-16 px-5 mob:pt-5">
       <div className="max-w-[1264px] xl:px-8 mx-auto">
         <div className="flex tab:flex-col gap-[60px]  tab:gap-[30px]">
-          <div className="relative flex justify-center items-center rounded-[18px] min-w-[427px] tab:min-w-full  tab:h-[200px]">
+          <div className="relative flex justify-center items-center rounded-[18px] min-w-[427px] tab:min-w-full  tab:h-[200px] md:min-h-[946px] tab:min-h-auto">
             <Image
               className={cn("!relative object-cover rounded-[10px]")}
               src={bgImage.src}
@@ -48,19 +48,19 @@ const ProcessBlock = ({
               {subTitle && (
                 <Text
                   as="h3"
-                  className="mb-0 text-[16px] mob:text-[15px] text-[#fff]/[0.6] leading-[30.14px] mob:leading-[20.55px] mob:mt-0 font-light font-inter mob:text-center w-[289px]"
+                  className="mb-0 text-[16px] mob:text-[15px] text-[#fff]/[0.6] leading-[30.14px] mob:leading-[20.55px] mob:mt-0 font-light font-inter mob:text-center w-[309px]"
                 >
                   {subTitle}
                 </Text>
               )}
             </div>
           </div>
-          <div className="grid grid-row-1 gap-[33px] ">
+          <div className="flex flex-col justify-center gap-[33px] ">
             {sections.map((section, index) => (
               <div
                 key={index}
                 className={cn(
-                  "gradient2 rounded-[15px] py-6 mob:py-3 px-8 mob:px-4 flex mob:flex-col gap-8 mob:gap-2",
+                  "gradient2 rounded-[15px] py-3 mob:py-3 px-8 mob:px-4 flex mob:flex-col gap-8 mob:gap-2",
                 )}
               >
                 <div className="mob:flex mob:justify-center mob:mt-2">

@@ -69,7 +69,7 @@ export default function HomeClientComponent() {
         <OurPartners />
         <Services />
         {/* <Confidence /> */}
-        <ProjectSlider />
+        <ProjectSlider sliderWidthClass="!w-[1133px]" />
         <ContactHome />
       </div>
     </>

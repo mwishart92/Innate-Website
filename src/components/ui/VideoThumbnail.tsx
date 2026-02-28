@@ -1,12 +1,13 @@
 "use client";
-import React, { useState, useRef } from 'react';
-import YouTube from 'react-youtube';
-import Modal from 'react-modal';
-import Text from './Text';
+import React, { useState, useRef } from "react";
+import YouTube from "react-youtube";
+import Modal from "react-modal";
+import Text from "./Text";
+import { cn } from "@/libs/utils/twMerge";
 
 // Set modal app element for accessibility
-if (typeof window !== 'undefined') {
-  Modal.setAppElement('#body');
+if (typeof window !== "undefined") {
+  Modal.setAppElement("#body");
 }
 
 interface VideoThumbnailProps {
@@ -16,11 +17,11 @@ interface VideoThumbnailProps {
   className?: string;
 }
 
-const VideoThumbnail: React.FC<VideoThumbnailProps> = ({ 
-  videoId, 
-  title, 
-  subtitle, 
-  className = "" 
+const VideoThumbnail: React.FC<VideoThumbnailProps> = ({
+  videoId,
+  title,
+  subtitle,
+  className = "",
 }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const playerRef = useRef<any>(null);
@@ -32,7 +33,7 @@ const VideoThumbnail: React.FC<VideoThumbnailProps> = ({
       try {
         playerRef.current.pauseVideo();
       } catch (e) {
-        console.error('Error pausing video:', e);
+        console.error("Error pausing video:", e);
       }
     }
     setIsModalOpen(false);
@@ -40,8 +41,8 @@ const VideoThumbnail: React.FC<VideoThumbnailProps> = ({
 
   // YouTube player options
   const opts = {
-    height: '100%',
-    width: '100%',
+    height: "100%",
+    width: "100%",
     playerVars: {
       autoplay: 1,
       rel: 0,
@@ -57,13 +58,15 @@ const VideoThumbnail: React.FC<VideoThumbnailProps> = ({
     try {
       event.target.playVideo();
     } catch (e) {
-      console.error('Error playing video:', e);
+      console.error("Error playing video:", e);
     }
   };
 
   // Extract video ID from full URL if needed
   const getVideoId = (url: string) => {
-    const match = url.match(/(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})/);
+    const match = url.match(
+      /(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})/,
+    );
     return match ? match[1] : url;
   };
 
@@ -72,8 +75,13 @@ const VideoThumbnail: React.FC<VideoThumbnailProps> = ({
 
   return (
     <>
-      <div className={`w-full max-w-[25%] border mob:max-w-[100%] border-[#0000001A] rounded-[10px] ${className}`}>
-        <div 
+      <div
+        className={cn(
+          `w-full max-w-[25%] border mob:max-w-[100%] border-[#0000001A] rounded-[10px] `,
+          className,
+        )}
+      >
+        <div
           className="relative w-full pb-[56.25%] rounded-xl overflow-hidden cursor-pointer group"
           onClick={openModal}
         >
@@ -88,24 +96,24 @@ const VideoThumbnail: React.FC<VideoThumbnailProps> = ({
               target.src = `https://img.youtube.com/vi/${cleanVideoId}/hqdefault.jpg`;
             }}
           />
-          
+
           {/* Play Button Overlay */}
           <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 group-hover:bg-opacity-40 transition-all duration-300">
             <div className="w-16 h-16 bg-white bg-opacity-90 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-              <svg 
-                className="w-8 h-8 text-black ml-1" 
-                fill="currentColor" 
+              <svg
+                className="w-8 h-8 text-black ml-1"
+                fill="currentColor"
                 viewBox="0 0 24 24"
               >
-                <path d="M8 5v14l11-7z"/>
+                <path d="M8 5v14l11-7z" />
               </svg>
             </div>
           </div>
-          
+
           {/* Hover Effect */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
         </div>
-        
+
         <div className="pl-0 py-4 pr-4 hidden">
           <div className="flex gap-[11px] items-center">
             <div>
@@ -137,18 +145,28 @@ const VideoThumbnail: React.FC<VideoThumbnailProps> = ({
             className="absolute top-4 right-4 z-10 w-8 h-8 bg-black bg-opacity-50 text-white rounded-full flex items-center justify-center hover:bg-opacity-75 transition-all duration-200"
             aria-label="Close video"
           >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            <svg
+              className="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M6 18L18 6M6 6l12 12"
+              />
             </svg>
           </button>
-          
+
           {/* Video Title */}
           <div className="absolute top-4 left-4 z-10">
             <Text className="text-white text-lg font-medium drop-shadow-lg">
               {title}
             </Text>
           </div>
-          
+
           {/* YouTube Player */}
           {isModalOpen && (
             <div className="w-full h-full">

@@ -28,26 +28,45 @@ interface Section {
 interface ThreeCardDesignProps {
   title?: string;
   sections?: Section[];
+  cardParentClass?: string;
+  cardClass?: string;
+  imageParentClass?: string;
 }
 
 const ThreeCardDesign = ({
   title = "Design and build the Innate way",
   sections = [],
+  cardParentClass,
+  cardClass,
+  imageParentClass,
 }: ThreeCardDesignProps) => {
   const router = useRouter();
   return (
     <div className="w-full py-16 px-5 mob:pt-5">
       <Text
         as="h2"
-        className="text-center font-normal mob:text-[30px] mb-16  mob:mb-4 mob:leading-[33px] mob:px-5"
+        className="text-center font-normal mob:text-[30px] mb-16  mob:mb-4 mob:leading-[33px] mob:px-5 "
       >
         {title}
       </Text>
-      <div className="flex flex-col md:flex-row gap-[18px] max-w-[1203px] xl:px-8 mx-auto justify-center">
+      <div
+        className={cn(
+          "flex flex-col md:flex-row gap-[18px] max-w-[1203px] xl:px-8 mx-auto justify-center",
+          cardParentClass,
+        )}
+      >
         {sections.map((section, index) => (
-          <div key={index} className={cn("w-full md:w-[calc(33.333%-18px)]")}>
+          <div
+            key={index}
+            className={cn("w-full md:w-[calc(33.333%-18px)]", cardClass)}
+          >
             <>
-              <div className="w-full relative flex justify-center items-center mb-5 md:mb-[68px] h-[238px] md:h-[538px] rounded-[18px] ">
+              <div
+                className={cn(
+                  "w-full relative flex justify-center items-center mb-5 md:mb-[68px] h-[238px] md:h-[538px] rounded-[18px] ",
+                  imageParentClass,
+                )}
+              >
                 <Image
                   data-aos="zoom-in"
                   data-aos-duration="1000"
@@ -64,7 +83,7 @@ const ThreeCardDesign = ({
               <div className="">
                 <Text
                   as="h2"
-                  className="text-[40px] leading-[44px] text-[#FFFFFF] mt-2 mob:text-[20px] font-semibold mb-3 md:mb-7"
+                  className="text-[40px] leading-[44px] text-[#FFFFFF] mt-2 mob:text-[20px] font-semibold mb-3 md:mb-7 md:pr-[6px]"
                 >
                   {section.title}
                 </Text>

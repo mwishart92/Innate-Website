@@ -23,7 +23,7 @@ const Consultation = ({
 }: ConsultationProps) => {
   return (
     <div className={clsx("mob:py-4 py-16 px-5", mainClass)}>
-      <div className="w-full max-w-[1140px] mx-auto  min-h-[410px] mob:py-16 rounded-[10px] relative flex items-center justify-center">
+      <div className="w-full max-w-[1140px] mx-auto  min-h-[410px] mob:py-16 px-8 md:px-24 py-10 rounded-[10px] relative flex items-center justify-center gradient2">
         {/* <Image
           className="bottom-0 left-0 absolute"
           src={leftbg}
@@ -45,7 +45,7 @@ const Consultation = ({
           >
             {title ? title : "Not sure how to start? Get a free consultation"}
           </Text>
-          <Text className="text-[#D9D9D9] text-center mt-3">
+          <Text className="text-[#D9D9D9] text-center mt-10 ">
             {description ? (
               <span dangerouslySetInnerHTML={{ __html: description }} />
             ) : (

@@ -60,7 +60,7 @@ const SingleCard = ({
         </Text>
       )}
       <div className={clsx("max-w-[1203px]  mx-auto ", containerClass)}>
-        <div className="w-full max-w-full flex flex-wrap justify-center gap-[24px] mb-[44px] mob:mb-[24px] px-16 md:px-20 mob:px-0">
+        <div className="w-full max-w-full flex flex-wrap justify-center gap-[24px] mb-[44px] mob:mb-[24px] mob:px-0">
           {sections.map((section, key) => (
             <div
               className={clsx(
@@ -75,27 +75,30 @@ const SingleCard = ({
             >
               <Link
                 href={`${section.link}`}
-                className={clsx("h-[192px] relative w-full", {
-                  "h-[213px]": type === "video_content",
-                })}
+                className={clsx(
+                  "h-[192px] relative w-full rounded-t-[9px]  overflow-hidden",
+                  {
+                    "h-[213px]": type === "video_content",
+                  },
+                )}
               >
                 <Image
                   src={section.thumbnail?.src}
                   alt={section.thumbnail?.alt}
                   fill
-                  className="rounded-t-xl object-cover w-full h-full object-top"
+                  className=" object-cover w-full h-full object-top"
                 />
               </Link>
-              <div className="flex flex-col justify-between flex-grow p-4">
+              <div className="flex flex-col justify-between flex-grow p-4 pt-[46px] min-h-[206px]">
                 <Link href={`${section.link}`} className="">
                   <div>
                     {section.title && (
-                      <Text className="text-white text-[20px] leading-[28px] my-2 font-normal">
+                      <Text className="text-[#D9D9D9] text-[20px] leading-[28px] mt-0 mb-2 font-normal">
                         {section.title}
                       </Text>
                     )}
                     {section.description && (
-                      <Text className="text-gray-400  text-[16px] font-normal">
+                      <Text className="text-[#999]  text-[16px] font-normal">
                         {section.description}
                       </Text>
                     )}

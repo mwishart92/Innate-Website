@@ -41,7 +41,7 @@ interface MediaData {
 const slides = [
   {
     component: (
-      <Slide image="/images/services/adus/Hero/duplex-3 1.webp" video={null} />
+      <Slide image="/images/services/adus/Hero/h1.webp" video={null} />
     ),
     delay: 36000,
     projectName: "",
@@ -50,7 +50,7 @@ const slides = [
   },
   {
     component: (
-      <Slide image="/images/services/adus/Hero/2 280470.webp" video={null} />
+      <Slide image="/images/services/adus/Hero/h2.webp" video={null} />
     ),
     delay: 36000,
     projectName: "",
@@ -58,7 +58,7 @@ const slides = [
   },
   {
     component: (
-      <Slide image="/images/services/adus/Hero/1 2821.webp" video={null} />
+      <Slide image="/images/services/adus/Hero/h3.webp" video={null} />
     ),
     delay: 36000,
     projectName: "",
@@ -374,12 +374,17 @@ const ServicesPage = () => {
       />
       <LatestProjects
         title="What is an ADU or DADU?"
-        content="An accessory dwelling unit is a self-contained residential unit built on the same lot as an existing single-family home. Often referred to as a backyard cottage, in-law suite, or DADU (Detached Accessory Dwelling Unit), ADUs are a smart, flexible solution to urban living. They can be detached, attached, or created by converting garages or basements.Our team at Innate are experienced accessory dwelling unit builders who understand local zoning, site challenges, and how to design for maximum comfort and efficiency."
+        content="An accessory dwelling unit is a self-contained residential unit built on the same lot as an existing single-family home. Often referred to as a backyard cottage, in-law suite, or DADU (Detached Accessory Dwelling Unit), ADUs are a smart, flexible solution to urban living. They can be detached, attached, or created by converting garages or basements.
+        <br/><br/>
+        Our team at Innate are experienced accessory dwelling unit builders who understand local zoning, site challenges, and how to design for maximum comfort and efficiency."
         sliderAlbum={sliderAlbum}
       />
       <ThreeCardDesign
         title="Our Approach to ADU Projects"
         sections={threeCardDesignSections}
+        cardParentClass="md:gap-[97px]"
+        cardClass="md:w-[400px]"
+        imageParentClass="md:pr-6"
       />
       <DesignAndBuild
         title="Design and Build the <i>Innate</i> Way"
@@ -434,7 +439,7 @@ const ServicesPage = () => {
         </div>
       </div>
 
-      <Testimonials />
+      <Testimonials mainClass="" />
 
       <Consultation
         title="Ready to Build Your ADU?"

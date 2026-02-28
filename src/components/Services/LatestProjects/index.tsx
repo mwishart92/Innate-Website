@@ -31,7 +31,7 @@ const LatestProjects = ({
                 {title}
               </Text>
             )}
-            <Text className="text-white mt-4 tab:text-center w-full">
+            <Text className="text-[#999] mt-7 tab:text-center w-full">
               <span dangerouslySetInnerHTML={{ __html: content }} />
             </Text>
           </div>

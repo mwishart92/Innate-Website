@@ -8,6 +8,7 @@ import "swiper/css/effect-fade";
 import Link from "next/link";
 import { slidesData } from "@/data/workSlides";
 import clsx from "clsx";
+import { cn } from "@/libs/utils/twMerge";
 
 // Configure which projects to feature in the carousel
 // Add or remove project titles from this array to control what's displayed
@@ -36,6 +37,7 @@ interface SingleCardProps {
   title?: string | null;
   subTitle?: string | null;
   mainClass?: string | null;
+  sliderWidthClass?: string | null;
   sections?: Section[];
 }
 
@@ -44,6 +46,7 @@ const ProjectSlider = ({
   subTitle = null,
   sections = [],
   mainClass,
+  sliderWidthClass,
 }: SingleCardProps) => {
   // Get featured projects based on configuration
   const getFeaturedProjects = () => {
@@ -105,7 +108,10 @@ const ProjectSlider = ({
             return (
               <SwiperSlide
                 key={index}
-                className="relative !w-[1133px] mob:!max-w-full"
+                className={cn(
+                  "relative !w-[1246px] mob:!max-w-full",
+                  sliderWidthClass,
+                )}
               >
                 <div className={clsx("w-full h-[358px]", mainClass)}>
                   <Image
@@ -130,7 +136,7 @@ const ProjectSlider = ({
                   {item.description && (
                     <Text
                       as="p"
-                      className="text-white text-[28px] mob:text-[18px] mob:text-center font-normal max-w-[767px] w-full px-4"
+                      className="text-white text-[28px] mob:text-[18px] mob:text-center font-normal max-w-[1048px] w-full px-4 text-center"
                     >
                       {item.description}
                     </Text>
