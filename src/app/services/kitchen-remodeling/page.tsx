@@ -338,7 +338,7 @@ const portfolio = [
     ],
   },
   {
-    title: "North Seattle Kitchen",
+    title: "South Seattle Kitchen",
     location: "",
     description:
       "A bright, functional kitchen remodel with improved flow, custom cabinetry, and timeless finishes—designed to anchor daily life with ease and style.",
