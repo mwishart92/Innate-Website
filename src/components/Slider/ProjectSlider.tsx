@@ -105,9 +105,15 @@ const ProjectSlider = ({
               (media) => media.type === "image",
             );
 
-            const slideContent = (
-              <>
-                <div className={clsx("relative w-full h-[358px]", mainClass)}>
+            return (
+              <SwiperSlide
+                key={index}
+                className={cn(
+                  "relative !w-[1246px] mob:!max-w-full",
+                  sliderWidthClass,
+                )}
+              >
+                <div className={clsx("w-full h-[358px]", mainClass)}>
                   <Image
                     src={firstImage?.src || ""}
                     alt={item.title}
@@ -136,31 +142,16 @@ const ProjectSlider = ({
                     </Text>
                   )}
                   {item.url && (
-                    <span
-                      className="w-[172.63px] h-[50px] mt-8 border border-white text-white hover:bg-white hover:text-black hover:border-black text-[16px] font-medium flex items-center justify-center gap-1 cursor-pointer"
-                    >
-                      Learn More
-                    </span>
+                    <Link href={item.url}>
+                      <button
+                        type="button"
+                        className="w-[172.63px] h-[50px] mt-8 border border-white text-white hover:bg-white hover:text-black hover:border-black text-[16px] font-medium flex items-center justify-center gap-1"
+                      >
+                        Learn More
+                      </button>
+                    </Link>
                   )}
                 </div>
-              </>
-            );
-
-            return (
-              <SwiperSlide
-                key={index}
-                className={cn(
-                  "relative !w-[1246px] mob:!max-w-full",
-                  sliderWidthClass,
-                )}
-              >
-                {item.url ? (
-                  <Link href={item.url} className="block w-full h-full absolute inset-0 z-10">
-                    {slideContent}
-                  </Link>
-                ) : (
-                  slideContent
-                )}
               </SwiperSlide>
             );
           })}
