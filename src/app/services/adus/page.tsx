@@ -301,7 +301,7 @@ const portfolio = [
     location: "",
     description:
       "This ADU new construction demonstrates how thoughtful design and expert craftsmanship can create a home addition that balances beauty, function, and accessibility. Built as an attached unit for multi-generational living, this project was designed specifically with ADA and mobility needs in mind—ensuring comfort, safety, and ease of use for every family member.",
-    url: "",
+    url: "/project/wedgewood-adu",
     media: [
       {
         src: "/images/services/adus/r9.webp",

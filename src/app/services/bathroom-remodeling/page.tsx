@@ -326,7 +326,7 @@ const portfolio = [
     location: "",
     description:
       "A serene, modern bathroom upgrade with soft gray tones, clean lines, and custom storage—designed for calm, comfort, and everyday ease.",
-    url: "",
+    url: "/project/gray-bathroom",
     media: [
       {
         src: "/images/services/bathroom-remodeling/r8.webp",
@@ -339,7 +339,7 @@ const portfolio = [
     location: "",
     description:
       "A full interior transformation featuring open-concept living, expanded natural light, and custom finishes—designed for flow, warmth, and modern simplicity.",
-    url: "",
+    url: "/project/knight-residence",
     media: [
       {
         src: "/images/services/bathroom-remodeling/r9.webp",

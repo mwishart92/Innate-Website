@@ -337,7 +337,7 @@ const portfolio = [
     location: "",
     description:
       "A bold, full-home remodel balancing modern design and comfort. Rich textures, custom millwork, and elevated finishes throughout.",
-    url: "",
+    url: "/project/shoreline-residence",
     media: [
       {
         src: "/images/services/whole-home-remodels/r11.webp",
@@ -350,7 +350,7 @@ const portfolio = [
     location: "",
     description:
       "An open-plan renovation emphasizing warmth, light, and calm. Features include custom cabinetry, natural wood tones, and layered textures.",
-    url: "",
+    url: "/project/desert-oasis",
     media: [
       {
         src: "/images/services/whole-home-remodels/r12.webp",
