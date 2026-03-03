@@ -58,7 +58,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/logo-innate.png" />
-        <GoogleTagManager gtmId="GTM-KNSHDN66" />
+        <GoogleTagManager gtmId="GTM-KZSFFRCW" />
         {/* Critical CSS for above-the-fold content */}
         <style
           dangerouslySetInnerHTML={{
@@ -83,12 +83,24 @@ export default function RootLayout({
           `,
           }}
         />
-        <meta name="google-site-verification" content="T7ZHr0DyuChgFqqjvqmmCbJ5Y9KtuuvE7lEA36EQUQw" />
+        <meta
+          name="google-site-verification"
+          content="T7ZHr0DyuChgFqqjvqmmCbJ5Y9KtuuvE7lEA36EQUQw"
+        />
       </head>
       <body
         className={`gradient ${inter.variable} ${monts.variable} ${rajdhani.variable} ${inknut.variable} ${Bodoni.variable} bg-[#000] loading`}
         id="body"
       >
+        {/* Noscript fallback for users without JavaScript */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-KZSFFRCW"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
         <MyProvider>
           <TabProvider>
             <GTMPageTracker />
