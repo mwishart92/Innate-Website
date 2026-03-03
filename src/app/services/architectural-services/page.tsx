@@ -322,7 +322,7 @@ const portfolio = [
     location: "",
     description:
       "A highly functional architectural design residential project featuring smart use of space, natural lighting, and structural elegance.",
-    url: "",
+    url: "/project/wedgewood-adu",
     media: [
       {
         src: "/images/services/architectural-services/r9.webp",
@@ -335,7 +335,7 @@ const portfolio = [
     location: "",
     description:
       " A renovation that fused sustainable architectural design with contemporary materials and lighting precision.",
-    url: "",
+    url: "/project/freitas-kitchen-bathroom",
     media: [
       {
         src: "/images/services/architectural-services/r10.webp",

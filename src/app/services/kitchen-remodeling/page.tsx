@@ -329,7 +329,7 @@ const portfolio = [
     location: "",
     description:
       "A warm, character-rich remodel that blends original charm with updated function—featuring natural wood tones, refined finishes, and thoughtful spatial flow.",
-    url: "",
+    url: "/project/madrona-remodel",
     media: [
       {
         src: "/images/services/kitchen-remodeling/r9.webp",
@@ -338,11 +338,11 @@ const portfolio = [
     ],
   },
   {
-    title: "North Seattle Kitchen",
+    title: "South Seattle Kitchen",
     location: "",
     description:
       "A bright, functional kitchen remodel with improved flow, custom cabinetry, and timeless finishes—designed to anchor daily life with ease and style.",
-    url: "",
+    url: "/project/south-seattle-kitchen",
     media: [
       {
         src: "/images/services/kitchen-remodeling/r9.webp",
