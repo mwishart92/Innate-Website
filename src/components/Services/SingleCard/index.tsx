@@ -73,8 +73,7 @@ const SingleCard = ({
               )}
               key={key}
             >
-              <Link
-                href={`${section.link}`}
+              <div
                 className={clsx(
                   "h-[192px] relative w-full rounded-t-[9px]  overflow-hidden",
                   {
@@ -88,9 +87,9 @@ const SingleCard = ({
                   fill
                   className=" object-cover w-full h-full object-top"
                 />
-              </Link>
+              </div>
               <div className="flex flex-col justify-between flex-grow p-4 pt-[46px] min-h-[206px]">
-                <Link href={`${section.link}`} className="">
+                <div className="">
                   <div>
                     {section.title && (
                       <Text className="text-[#D9D9D9] text-[20px] leading-[28px] mt-0 mb-2 font-normal">
@@ -128,7 +127,7 @@ const SingleCard = ({
                       </>
                     )}
                   </div>
-                </Link>
+                </div>
               </div>
             </div>
           ))}

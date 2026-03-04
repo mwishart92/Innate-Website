@@ -83,7 +83,7 @@ const ThreeCardDesign = ({
               <div className="">
                 <Text
                   as="h2"
-                  className="text-[40px] leading-[44px] text-[#FFFFFF] mt-2 mob:text-[20px] font-semibold mb-3 md:mb-7 md:pr-[6px]"
+                  className="text-[40px] leading-[44px] text-[#FFFFFF] mt-2 mob:text-[20px] font-semibold mb-3 md:mb-7 md:pr-[6px] md:min-h-[88px] flex items-end"
                 >
                   {section.title}
                 </Text>
