@@ -100,7 +100,7 @@ const Faq = ({
         <div className="w-full py-6">
           <Text
             as="h2"
-            className="text-[40px] leading-[52px] text-center font-medium max-w-[596px] mx-auto"
+            className="text-[40px] leading-[52px] text-center font-medium max-w-[696px] mx-auto"
           >
             {title}
           </Text>

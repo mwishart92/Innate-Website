@@ -306,29 +306,33 @@ const fourBlockSections = [
 
 const faqItems = [
   {
-    question: "Do I need permits for exterior remodeling in Seattle?",
+    question:
+      "What exterior remodeling services do you provide in the Seattle area?",
     answer:
-      "Yes—most exterior remodeling projects, including siding installation and door installation, require permits. We handle all permitting for you.",
+      "At Innate, we offer a range of exterior services that are geared toward the unique climate in the Pacific Northwest region. Our services include the installation of quality siding, window and door replacements, deck building, and structural repairs for your property.",
   },
   {
-    question: "Can I upgrade my siding, windows, and doors at the same time?",
+    question:
+      "How do I know if my siding needs to be repaired or completely replaced?",
     answer:
-      "Absolutely. We often combine exterior remodeling services into one streamlined project, saving you time and maximizing results.",
+      "Signs that indicate that there is a need to repair or replace siding include cracked, warped, or moldy siding, and increased energy bills. At Innate, our exterior remodeling experts carry out a thorough inspection to assess the damage and determine if the siding can be repaired or if a complete replacement is needed to ensure that the structural integrity of the house is maintained.",
   },
   {
-    question: "Will a new exterior remodel increase my home's value?",
+    question:
+      "Does Innate AEC handle the design and permitting for exterior projects?",
     answer:
-      "Yes. A well-done exterior home remodeling project not only improves aesthetics and efficiency—it boosts resale value significantly.",
+      "Yes, Innate is a design-build company that offers a range of services in the Architecture, Engineering, and Construction industry. This allows us to provide a range of services, from designing and selecting materials that enhance the look of a home, to meeting all the requirements and codes in the Seattle area regarding structural repairs and changes.",
   },
   {
-    question: "What are the best siding materials for Seattle's climate?",
+    question: "What are the best siding and window materials for Seattle?",
     answer:
-      "Fiber cement and composite are top choices. As experienced siding contractors, we'll help you choose the best product for longevity, curb appeal, and budget.",
+      "Considering the Pacific Northwest climate is full of moisture, we recommend fiber cement siding, to target rot resistance. When it comes to windows, we suggest using high-performance vinyl or fiberglass window frames with Low-E glass for better insulating properties and to prevent heat loss during our damp winters.",
   },
   {
-    question: "Can you show me options with exterior remodeling software?",
+    question:
+      "How long does a typical exterior remodeling project take to complete?",
     answer:
-      "Yes. We use advanced exterior remodeling software to visualize changes before we begin, helping you make confident design decisions.",
+      "While every project is different in terms of work scope (e.g., a siding update vs. a window and siding replacement), a standard exterior remodel can take anywhere from 2 to 4 weeks to complete once we begin construction. We'll also give you a project timeline during our planning phase to give you a better idea of what to expect from start to finish.",
   },
 ];
 

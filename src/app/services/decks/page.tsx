@@ -285,29 +285,21 @@ const fourBlockSections = [
 
 const faqItems = [
   {
-    question: "How long does a kitchen remodel usually take?",
+    question:
+      "What kind of maintenance is required for different deck materials?",
     answer:
-      "Most kitchen remodel projects take 4–8 weeks, depending on the scope and permitting. We'll give you a detailed timeline during your consultation.",
+      "Deck maintenance needs greatly depend on the chosen materials. Wood decks, such as cedar or redwood, typically require regular cleaning, sealing, and occasional staining to protect against moisture and sun exposure. Composite decks, on the other hand, are low-maintenance and only need periodic washing to remove dirt and debris. PVC and other synthetic decking options offer even greater durability with minimal upkeep. At Innate NW, we help you choose the right materials for a deck that's easy to maintain and suitable for your lifestyle.",
   },
   {
-    question: "Can I use my kitchen during the remodel?",
+    question: "What is the typical cost of a custom deck design in Seattle?",
     answer:
-      "In most cases, your kitchen will be out of commission during construction. We work efficiently to minimize downtime and always keep you informed.",
+      "The cost of a custom deck design in Seattle can vary depending on the size, materials, and design complexity. On average, homeowners can expect to prepare a budget anywhere from $15,000 to $40,000 for high-quality, custom-built services from a Seattle deck builder. Premium materials like hardwood or composite may increase the price, while additional features such as built-in seating, railings, or pergolas will also raise the budget. During consultation, Innate provides a detailed estimate so you have a clear understanding of your investment before construction begins.",
   },
   {
-    question: "Do you help with kitchen design and materials?",
+    question:
+      "How will you ensure my property is protected during the deck construction?",
     answer:
-      "Yes! Our team handles everything from kitchen remodel design to finish selection—so your remodel feels effortless and aligned with your style.",
-  },
-  {
-    question: "Do you offer luxury kitchen remodels?",
-    answer:
-      "Absolutely. We specialize in luxury kitchen remodel services with premium finishes, high-end appliances, and thoughtful, custom layouts.",
-  },
-  {
-    question: "What if I just need a partial remodel?",
-    answer:
-      "We offer both full and partial kitchen remodel services—whether that means upgrading your cabinetry, reconfiguring lighting, or replacing surfaces.",
+      "Protecting your property is an essential part of our deck construction process. We take care to minimize disruption by using protective barriers, managing debris, and ensuring safe access around your home during the build. Our Seattle deck repair specialists work with precision to avoid damage to landscaping, existing structures, and outdoor spaces. At Innate NW, we're proud to be the leading Seattle deck contractor. Count on us to treat every property with respect, ensuring your home and yard remain safe and clean throughout the build.",
   },
 ];
 

@@ -269,29 +269,19 @@ const fourBlockSections = [
 
 const faqItems = [
   {
-    question: "How long does a kitchen remodel usually take?",
+    question: "What is the difference between DADU vs ADU?",
     answer:
-      "Most kitchen remodel projects take 4–8 weeks, depending on the scope and permitting. We'll give you a detailed timeline during your consultation.",
+      "A DADU (Detached Accessory Dwelling Unit) is a separate, stand-alone structure built on your property, such as a backyard cottage or laneway house. On the other hand, the attached ADU (Accessory Dwelling Unit) is built within or connected to your existing home, such as a basement apartment or an addition with its own entrance. Both DADU and ADU designs provide extra living space, rental opportunities, or housing for growing family members, but the choice depends on your property layout, budget, and goals.",
   },
   {
-    question: "Can I use my kitchen during the remodel?",
+    question: "Can an ADU be a multi-story unit?",
     answer:
-      "In most cases, your kitchen will be out of commission during construction. We work efficiently to minimize downtime and always keep you informed.",
+      "Yes, an ADU can be designed as a multi-story unit if your property and local zoning regulations allow it. Multi-level ADUs are a great solution when you want to maximize usable space on a smaller lot. They can include separate living areas, bedrooms, or even a rooftop deck. Our team ensures your ADU design complies with Seattle's ADU requirements while creating a functional and comfortable layout.",
   },
   {
-    question: "Do you help with kitchen design and materials?",
+    question: "Does building an ADU increase home value?",
     answer:
-      "Yes! Our team handles everything from kitchen remodel design to finish selection—so your remodel feels effortless and aligned with your style.",
-  },
-  {
-    question: "Do you offer luxury kitchen remodels?",
-    answer:
-      "Absolutely. We specialize in luxury kitchen remodel services with premium finishes, high-end appliances, and thoughtful, custom layouts.",
-  },
-  {
-    question: "What if I just need a partial remodel?",
-    answer:
-      "We offer both full and partial kitchen remodel services—whether that means upgrading your cabinetry, reconfiguring lighting, or replacing surfaces.",
+      "Yes, building an ADU typically increases property value. ADUs add functional living space and provide flexible options for rental income, guest housing, or multigenerational living. In Seattle's competitive housing market, properties with ADUs often attract more buyers and command higher prices. ADU investment can therefore enhance both your lifestyle and your long-term property value.",
   },
 ];
 
