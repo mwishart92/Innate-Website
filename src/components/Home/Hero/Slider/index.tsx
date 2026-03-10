@@ -70,7 +70,7 @@ function HomeSlider() {
             </Text>
 
             <button
-              className="mt-[20px] mb-[20px] border border-white bg-white text-black font-normal max-w-[200px] h-[50px] text-[16px] hover:bg-transparent hover:text-white hover:border-white transition duration-300 px-[24px] py-[14px] mob:text-[14px] mob:max-w-[181px] mob:h-[48px]"
+              className="mt-[20px] mb-[20px] border border-[#fff] bg-transparent text-[#fff] italic font-normal max-w-[200px] h-[50px] text-[16px] hover:bg-[#fff] hover:text-[#000] transition duration-300 px-[24px] py-[14px] mob:text-[14px] mob:max-w-[181px] mob:h-[48px]"
               // onClick={() => scrollToSection('contactHome')}
               onClick={() => {
                 localStorage?.setItem(
