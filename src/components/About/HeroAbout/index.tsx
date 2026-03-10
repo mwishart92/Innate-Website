@@ -29,7 +29,7 @@ const HeroAbout = () => {
       </Text>
       <Text
         as="h2"
-        className="text-center text-[40px] mt-8 pt-[50px] font-rhetorik font-light mob:text-[30px] mob:mt-2"
+        className="text-center text-[62px] mt-8 pt-[50px] font-rhetorik font-light mob:text-[30px] mob:mt-2"
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-delay="200"
