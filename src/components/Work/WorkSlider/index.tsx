@@ -99,11 +99,11 @@ function WorkSlider({
           >
             <Text
               as="h2"
-              className="text-[74px] font-semibold text-[#FFFFFF] mob:text-[29.29px] relative"
+              className="font-rhetorik text-[64px] font-light text-[#FFFFFF] mob:text-[29.29px] relative"
             >
               <span>{title}</span>
             </Text>
-            <Text className="text-[28px] font-normal  text-[#FFFFFF] mb-3 flex items-center gap-1 text-center justify-center mob:text-[11.84px] relative">
+            <Text className="font-inter text-[28px] font-normal text-[#FFFFFF] mb-3 flex items-center gap-1 text-center justify-center mob:text-[11.84px] relative">
               <span>{location}</span>
             </Text>
             {url && (
@@ -126,11 +126,11 @@ function WorkSlider({
             >
               <Text
                 as="h2"
-                className="text-[54px] font-semibold text-[#FFFFFF] mob:text-[29.29px] relative"
+                className="font-rhetorik text-[64px] font-light text-[#FFFFFF] mob:text-[29.29px] relative"
               >
                 <span>{hover?.title}</span>
               </Text>
-              <Text className="text-[18px] font-normal  text-[#FFFFFF] mb-3 flex items-center gap-1 text-center justify-center mob:text-[11.84px] relative">
+              <Text className="font-inter text-[18px] font-normal text-[#FFFFFF] mb-3 flex items-center gap-1 text-center justify-center mob:text-[11.84px] relative">
                 <span>{hover?.subTitle}</span>
               </Text>
               {url && (

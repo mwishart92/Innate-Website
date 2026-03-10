@@ -4,16 +4,17 @@ import Image from "next/image";
 import Text from "@/components/ui/Text";
 
 import firm from "@/public/images/about/firm.jpg";
-import michael from "@/public/images/about/michael2.jpg";
+import michael from "@/public/images/about/michael_frame.png";
 import gelberg from "@/public/images/about/rangul1.jpg";
-import andres from "@/public/images/about/andres.jpg";
-import nayeli from "@/public/images/about/nayeli.jpg";
-import ivan from "@/public/images/about/ivan.jpg";
+import andres from "@/public/images/about/andres_frame.png";
+import nayeli from "@/public/images/about/nayeli_frame.png";
+import ivan from "@/public/images/about/ivan_frame.png";
 // import amin from '@/public/images/about/amin.png'
-import mary from "@/public/images/about/mary.jpg";
-// import mridul from '@/public/images/about/mridul.png'
+import mary from "@/public/images/about/mary_frame.png";
 import arrow from "@/public/images/about/arrow.png";
-import userImg from "@/public/images/about/user.jpg";
+import userImg from "@/public/images/about/felix_frame.png";
+import bony from "@/public/images/about/bony_frame.png";
+import mridul from "@/public/images/about/mridul_frame.png";
 const HeroAbout = () => {
   return (
     <div className="min-h-screen pt-32 px-5 mob:pt-16">
@@ -28,7 +29,7 @@ const HeroAbout = () => {
       </Text>
       <Text
         as="h2"
-        className="text-center text-[40px] mt-8 font-inter font-medium mob:text-[30px] mob:font-semibold mob:mt-2"
+        className="text-center text-[40px] mt-8 pt-[50px] font-rhetorik font-light mob:text-[30px] mob:mt-2"
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-delay="200"
@@ -36,25 +37,25 @@ const HeroAbout = () => {
         Our Team
       </Text>
 
-      <div className="w-full max-w-full px-16 mob:px-0 grid grid-cols-3 gap-[25px] justify-center items-start pt-16 pb-16 mob:pt-12 mob:pb-24 mob:grid-cols-1">
+      <div className="w-full max-w-full px-16 mob:px-0 grid grid-cols-4 mob:grid-cols-1 gap-[25px] justify-center items-start pt-16 pb-[314px] mob:pt-12 mob:pb-[346px]">
         {/* Row 1 */}
         <div className="w-full max-w-full">
           <div
-            className="aspect-[2/2] relative overflow-hidden"
+            className="aspect-[3/4] relative overflow-hidden"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="200"
           >
             <Image
-              className="object-cover w-[266px] h-[261px] mob:w-[350px] rounded-[10px]"
-              src={michael}
+              className="object-contain w-[266px] h-[261px] mob:w-[350px] rounded-[10px]"
+              src={andres}
               alt=""
               fill
             />
           </div>
           <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
             <Text className="text-[30px] font-semibold leading-[39px] mt-5 mob:font-medium mob:text-[28px]">
-              Michael Wishart
+              Andres Quiroga
             </Text>
           </div>
           <div
@@ -64,28 +65,28 @@ const HeroAbout = () => {
             data-aos-delay="100"
           >
             <Text className="text-[18px] font-normal leading-[24px] mob:text-[16px]">
-              Designer
+              Superintendent
             </Text>
             <Image className="" src={arrow} alt="" width={41} height={41} />
           </div>
         </div>
         <div className="w-full max-w-full">
           <div
-            className="aspect-[2/2] relative overflow-hidden"
+            className="aspect-[3/4] relative overflow-hidden"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="400"
           >
             <Image
-              className="object-cover w-[266px] h-[261px] mob:w-[350px] rounded-[10px]"
-              src={ivan}
+              className="object-contain w-[266px] h-[261px] mob:w-[350px] rounded-[10px]"
+              src={nayeli}
               alt=""
               fill
             />
           </div>
           <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <Text className="text-[30px] font-semibold leading-[39px] mt-5 mob:font-medium mob:text-[28px]">
-              Ivan K
+              Nayeli Flores Herbert
             </Text>
           </div>
           <div
@@ -95,28 +96,28 @@ const HeroAbout = () => {
             data-aos-delay="300"
           >
             <Text className="text-[18px] font-normal leading-[24px] mob:text-[16px]">
-              Interior Craftsman
+              Office Manager
             </Text>
             <Image className="" src={arrow} alt="" width={41} height={41} />
           </div>
         </div>
         <div className="w-full max-w-full">
           <div
-            className="aspect-[2/2] relative overflow-hidden"
+            className="aspect-[3/4] relative overflow-hidden"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="600"
           >
             <Image
-              className="object-cover w-[266px] h-[261px] mob:w-[350px] rounded-[10px]"
-              src={mary}
+              className="object-contain w-[266px] h-[261px] mob:w-[350px] rounded-[10px]"
+              src={michael}
               alt=""
               fill
             />
           </div>
           <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
             <Text className="text-[30px] font-semibold leading-[39px] mt-5 mob:font-medium mob:text-[28px]">
-              Mary Padasas
+              Michael Wishart
             </Text>
           </div>
           <div
@@ -126,30 +127,28 @@ const HeroAbout = () => {
             data-aos-delay="500"
           >
             <Text className="text-[18px] font-normal leading-[24px] mob:text-[16px]">
-              Social Media
+              Designer
             </Text>
             <Image className="" src={arrow} alt="" width={41} height={41} />
           </div>
         </div>
-        
-        {/* Row 2 */}
         <div className="w-full max-w-full">
           <div
-            className="aspect-[2/2] relative overflow-hidden"
+            className="aspect-[3/4] relative overflow-hidden"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="800"
           >
             <Image
-              className="object-cover w-[266px] h-[261px] mob:w-[350px] rounded-[10px]"
-              src={nayeli}
+              className="object-contain w-[266px] h-[261px] mob:w-[350px] rounded-[10px]"
+              src={mary}
               alt=""
               fill
             />
           </div>
           <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
             <Text className="text-[30px] font-semibold leading-[39px] mt-5 mob:font-medium mob:text-[28px]">
-              Nayeli Flores Herbert
+              Mary Padasas
             </Text>
           </div>
           <div
@@ -159,28 +158,30 @@ const HeroAbout = () => {
             data-aos-delay="700"
           >
             <Text className="text-[18px] font-normal leading-[24px] mob:text-[16px]">
-              Office Manager
+              Social Media
             </Text>
             <Image className="" src={arrow} alt="" width={41} height={41} />
           </div>
         </div>
+
+        {/* Row 2 */}
         <div className="w-full max-w-full">
           <div
-            className="aspect-[2/2] relative overflow-hidden"
+            className="aspect-[3/4] relative overflow-hidden"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="1000"
           >
             <Image
-              className="object-cover w-[266px] h-[261px] mob:w-[350px] rounded-[10px]"
-              src={andres}
+              className="object-contain w-[266px] h-[261px] mob:w-[350px] rounded-[10px]"
+              src={ivan}
               alt=""
               fill
             />
           </div>
           <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
             <Text className="text-[30px] font-semibold leading-[39px] mt-5 mob:font-medium mob:text-[28px]">
-              Andres Quiroga
+              Ivan K
             </Text>
           </div>
           <div
@@ -190,20 +191,20 @@ const HeroAbout = () => {
             data-aos-delay="900"
           >
             <Text className="text-[18px] font-normal leading-[24px] mob:text-[16px]">
-              Superintendent
+              Interior Craftsman
             </Text>
             <Image className="" src={arrow} alt="" width={41} height={41} />
           </div>
         </div>
         <div className="w-full max-w-full">
           <div
-            className="aspect-[2/2] relative overflow-hidden"
+            className="aspect-[3/4] relative overflow-hidden"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="1200"
           >
             <Image
-              className="object-cover w-[266px] h-[261px] mob:w-[350px] rounded-[10px]"
+              className="object-contain w-[266px] h-[261px] mob:w-[350px] rounded-[10px]"
               src={userImg}
               alt=""
               fill
@@ -222,6 +223,68 @@ const HeroAbout = () => {
           >
             <Text className="text-[18px] font-normal leading-[24px] mob:text-[16px]">
               Exteriors
+            </Text>
+            <Image className="" src={arrow} alt="" width={41} height={41} />
+          </div>
+        </div>
+        <div className="w-full max-w-full">
+          <div
+            className="aspect-[3/4] relative overflow-hidden"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1400"
+          >
+            <Image
+              className="object-contain w-[266px] h-[261px] mob:w-[350px] rounded-[10px]"
+              src={bony}
+              alt=""
+              fill
+            />
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300">
+            <Text className="text-[30px] font-semibold leading-[39px] mt-5 mob:font-medium mob:text-[28px]">
+              Bony Foysal
+            </Text>
+          </div>
+          <div
+            className="flex items-center"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1300"
+          >
+            <Text className="text-[18px] font-normal leading-[24px] mob:text-[16px]">
+              Designer
+            </Text>
+            <Image className="" src={arrow} alt="" width={41} height={41} />
+          </div>
+        </div>
+        <div className="w-full max-w-full">
+          <div
+            className="aspect-[3/4] relative overflow-hidden"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1600"
+          >
+            <Image
+              className="object-contain w-[266px] h-[261px] mob:w-[350px] rounded-[10px]"
+              src={mridul}
+              alt=""
+              fill
+            />
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">
+            <Text className="text-[30px] font-semibold leading-[39px] mt-5 mob:font-medium mob:text-[28px]">
+              Mridul Alif
+            </Text>
+          </div>
+          <div
+            className="flex items-center"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1500"
+          >
+            <Text className="text-[18px] font-normal leading-[24px] mob:text-[16px]">
+              Intern
             </Text>
             <Image className="" src={arrow} alt="" width={41} height={41} />
           </div>

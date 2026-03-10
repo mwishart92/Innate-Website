@@ -13,6 +13,7 @@ export default {
         monts: ["var(--font-monts)"],
         firaSans: ["var(--font-firasans)"],
         bentonMedium: ["BentonSans-Medium", "sans-serif"],
+        rhetorik: ['"Rhetorik Serif Trial"', "serif"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
