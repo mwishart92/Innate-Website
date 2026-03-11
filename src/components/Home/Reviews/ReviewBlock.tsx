@@ -13,30 +13,37 @@ interface Review {
   title: string;
 }
 
-interface ReviewsProps {
+interface Review {
+  heading?: string;
   text: string;
   name: string;
   title: string;
+  photo?: string;
+}
+interface ReviewsProps {
+  review: Review;
   handleOpenDailog: (review: Review) => void;
 }
 
-const ReviewBlock: React.FC<ReviewsProps> = ({
-  text,
-  name,
-  title,
-  handleOpenDailog,
-}) => {
+const ReviewBlock: React.FC<ReviewsProps> = ({ review, handleOpenDailog }) => {
+  const { text, heading, name, photo, title } = review;
   return (
     <div className="mb-10">
       <div className="w-full mx-auto relative">
         <div className="">
           <Text
             className={cn(
-              "text-[21px] leading-[31.2px] text-white mob:text-[16px] mob:leading-[25.2px] mob:font-normal font-light",
-              "text-ellipsis"
+              "text-[26px] leading-[31.2px] text-black mob:text-[16px] mob:leading-[25.2px] font-normal mb-[30px]",
             )}
           >
-            {text}
+            {heading}
+          </Text>
+          <Text
+            className={cn(
+              "text-[16px] leading-[31.2px] text-black mob:leading-[25.2px] font-light italic",
+            )}
+          >
+            {text.length > 150 ? `${text.slice(0, 150)}...` : text}
           </Text>
           <a
             href="#"
@@ -44,18 +51,25 @@ const ReviewBlock: React.FC<ReviewsProps> = ({
               e.preventDefault();
               handleOpenDailog({ text, title, name });
             }}
-            className="text-gray-200 text-[18px] mob:text-[16px]"
+            className="text-black text-[14px] mob:text-[16px]"
           >
             Read more
           </a>
         </div>
         <div className="flex justify-between mt-10">
-          <div className="flex gap-[34px]">
+          <div className="flex gap-[15px]">
+            <div className="flex min-w-[43px] min-h-[43px] rounded-full overflow-hidden">
+              <img
+                src={photo}
+                alt=""
+                className="w-full h-full object-cover rounded-full"
+              />
+            </div>
             <div className="">
-              <Text className="text-[16px] font-normal leading-[31.2px] text-white mob:text-[16px]">
-                - {name}
+              <Text className="text-[16px] font-bold leading-[31.2px] text-black mb-0">
+                {name}
               </Text>
-              <Text className="text-[16px] mt-1 text-white mob:text-[14px] font-normal">
+              <Text className="text-[10px] text-black font-normal">
                 {title}
               </Text>
             </div>
