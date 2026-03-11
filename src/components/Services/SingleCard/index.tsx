@@ -64,12 +64,14 @@ const SingleCard = ({
           {sections.map((section, key) => (
             <div
               className={clsx(
-                "flex-grow max-w-[calc(25%-18px)] tab:max-w-[calc(50%-18px)] mob:max-w-[90%] border border-[#FFFFFF99] rounded-[10px]  flex flex-col relative",
+                "flex-grow border border-[#FFFFFF99] rounded-[10px]  flex flex-col relative",
                 {
                   "border-none  max-w-[calc(33.333%-18px)]":
                     type === "video_content",
                 },
-                columnClass,
+                columnClass
+                  ? columnClass
+                  : "max-w-[calc(25%-18px)] tab:max-w-[calc(50%-18px)] mob:max-w-[90%]"
               )}
               key={key}
             >
