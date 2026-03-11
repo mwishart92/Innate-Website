@@ -2,9 +2,10 @@
 import Text from "@/components/ui/Text";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, EffectFade } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/effect-fade";
+import "swiper/css/pagination";
+import "./ProjectSlider.css";
 import Link from "next/link";
 import { slidesData } from "@/data/workSlides";
 import clsx from "clsx";
@@ -87,6 +88,7 @@ const ProjectSlider = ({
         </Text>
       )}
       <div className={sections?.length ? "" : "pb-36"}>
+        <div className="portfolio-highlights-slider">
         <Swiper
           spaceBetween={50}
           slidesPerView={"auto"}
@@ -96,7 +98,10 @@ const ProjectSlider = ({
             delay: 4000,
             disableOnInteraction: false,
           }}
-          modules={[Autoplay]}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Autoplay, Pagination]}
           loop={true}
         >
           {featuredProjectsData.map((item, index) => {
@@ -113,15 +118,14 @@ const ProjectSlider = ({
                   sliderWidthClass,
                 )}
               >
-                <div className={clsx("w-full h-[358px]", mainClass)}>
+                <div className={cn("relative w-full h-[358px] overflow-hidden", mainClass)}>
                   <Image
                     src={firstImage?.src || ""}
                     alt={item.title}
                     className="w-full h-full object-cover"
                     fill
                   />
-                </div>
-                <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-black/50">
+                  <div className="absolute inset-0 z-10 flex flex-col justify-center items-center bg-black/50">
                   <Text
                     as="h3"
                     className="text-white text-[35px] md:text-[74px] font-semibold text-center"
@@ -152,10 +156,12 @@ const ProjectSlider = ({
                     </Link>
                   )}
                 </div>
+                </div>
               </SwiperSlide>
             );
           })}
         </Swiper>
+        </div>
       </div>
     </>
   );

@@ -497,7 +497,8 @@ If you're concerned about earthquakes, floods, wildfires, or extreme storms, we 
               </div>
               <div className="flex justify-center mt-12">
                 <ButtonGetStarted
-                  text="Free Estimate"
+                  text="Our Work"
+                  href="/work"
                   className="bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] hover:from-[#616275] hover:to-[#4b4b4b] hover:text-white"
                 />
               </div>
@@ -515,7 +516,8 @@ If you're concerned about earthquakes, floods, wildfires, or extreme storms, we 
               </div>
               <div className="flex justify-center mt-12">
                 <ButtonGetStarted
-                  text="Free Estimate"
+                  text="About Us"
+                  href="/about"
                   className="bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] hover:from-[#616275] hover:to-[#4b4b4b] hover:text-white"
                 />
               </div>

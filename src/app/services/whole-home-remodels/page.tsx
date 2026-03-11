@@ -350,6 +350,19 @@ const portfolio = [
       },
     ],
   },
+  {
+    title: "Enumclaw Full Home Remodel",
+    location: "Enumclaw, Washington",
+    description:
+      "After extensive water damage, this full home remodel reimagined a house that hadn't been renovated in over 30 years—a complete transformation led by Innate as design-build partner.",
+    url: "/project/enumclaw-full-home-remodel",
+    media: [
+      {
+        src: "/images/project/enumclaw-full-home-remodel/6L1A1657_websize.jpg",
+        type: "image",
+      },
+    ],
+  },
 ];
 
 const exploreData = [
@@ -441,7 +454,7 @@ From rethinking floorplans to executing structural upgrades, our integrated team
       <SingleCard
         title="Areas of Focus in Whole Home Remodeling"
         sections={fourBlockSections}
-        columnClass="max-w-[calc(18%)] tab:max-w-[calc(50%-18px)] xl:max-w-[calc(33.333%-18px)]"
+        columnClass="max-w-[calc((100%-96px)/5)] tab:max-w-[calc(50%-18px)] mob:max-w-[90%]"
         containerClass="max-w-full "
       />
 
@@ -489,7 +502,8 @@ From rethinking floorplans to executing structural upgrades, our integrated team
               </div>
               <div className="flex justify-center mt-12">
                 <ButtonGetStarted
-                  text="Free Estimate"
+                  text="Our Work"
+                  href="/work"
                   className="bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] hover:from-[#616275] hover:to-[#4b4b4b] hover:text-white"
                 />
               </div>
@@ -507,7 +521,8 @@ From rethinking floorplans to executing structural upgrades, our integrated team
               </div>
               <div className="flex justify-center mt-12">
                 <ButtonGetStarted
-                  text="Free Estimate"
+                  text="About Us"
+                  href="/about"
                   className="bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] hover:from-[#616275] hover:to-[#4b4b4b] hover:text-white"
                 />
               </div>

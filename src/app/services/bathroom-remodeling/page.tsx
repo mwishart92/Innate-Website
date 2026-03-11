@@ -347,6 +347,19 @@ const portfolio = [
       },
     ],
   },
+  {
+    title: "Kenmore Modern Bathroom",
+    location: "Kenmore, Washington",
+    description:
+      "A Kenmore renovation featuring two bathroom remodels, two closet upgrades, and a redesigned laundry to support an ADU—maximizing space without changing the home's footprint.",
+    url: "/project/kenmore-bathroom",
+    media: [
+      {
+        src: "/images/project/kenmore-bathroom/6L1A1295_websize.jpg",
+        type: "image",
+      },
+    ],
+  },
 ];
 
 const exploreData = [
@@ -513,7 +526,8 @@ At Innate, we specialize in bathroom remodel services tailored to your lifestyle
               </div>
               <div className="flex justify-center mt-12">
                 <ButtonGetStarted
-                  text="Free Estimate"
+                  text="Our Work"
+                  href="/work"
                   className="bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] hover:from-[#616275] hover:to-[#4b4b4b] hover:text-white"
                 />
               </div>
@@ -531,7 +545,8 @@ At Innate, we specialize in bathroom remodel services tailored to your lifestyle
               </div>
               <div className="flex justify-center mt-12">
                 <ButtonGetStarted
-                  text="Free Estimate"
+                  text="About Us"
+                  href="/about"
                   className="bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] hover:from-[#616275] hover:to-[#4b4b4b] hover:text-white"
                 />
               </div>

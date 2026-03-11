@@ -334,16 +334,29 @@ const portfolio = [
       },
     ],
   },
+  {
+    title: "West Seattle Residence",
+    location: "Fremont - Seattle, Washington",
+    description:
+      "A complete transformation with a spa-like bathroom and reimagined exterior—durable finishes, refreshed curb appeal, and thoughtful design.",
+    url: "/project/west-seattle-residence",
+    media: [
+      {
+        src: "/images/project/west-seattle-residence/6L1A1041_websize.jpg",
+        type: "image",
+      },
+    ],
+  },
 ];
 
 const exploreData = [
   {
-    title: "Architectural Services",
+    title: "Whole Home Remodeling",
     description:
-      "Bring your vision to life with architectural design and permitting services that blend creativity with code compliance.",
-    link: "/services/architectural-services",
+      "Transform your entire home with cohesive design, structural updates, and personalized finishes tailored to your lifestyle.",
+    link: "/services/whole-home-remodels",
     thumbnail: {
-      src: "/images/services/image 94.webp",
+      src: "/images/services/natural-disaster-mitigation/r9.webp",
       alt: "",
     },
   },
@@ -457,15 +470,15 @@ With every design, we consider aesthetics, structure, energy flow, and sustainab
       <Testimonials />
 
       <Consultation
-        title="Get Started with Your Kitchen Remodel"
+        title="Get Started With Your Architectural Design"
         description="Looking for a trusted kitchen remodel company in Seattle? Whether you want a modern kitchen remodel, a classic refresh, or a full transformation, Innate offers premium kitchen remodel services that bring your vision to life."
         subHeading="Serving Seattle, Bellevue, Redmond, and the surrounding areas"
         mainClass="pt-0"
       />
-      <Faq title="Kitchen Remodels – FAQs" description="" faqItems={faqItems} />
+      <Faq title="Architectural Services - FAQs" description="" faqItems={faqItems} />
 
       <ExploreService
-        title="Get Started with Your Kitchen Remodel"
+        title="Get Started With Your Architectural Design"
         sections={exploreData}
       />
 
@@ -486,7 +499,8 @@ With every design, we consider aesthetics, structure, energy flow, and sustainab
               </div>
               <div className="flex justify-center mt-12">
                 <ButtonGetStarted
-                  text="Free Estimate"
+                  text="Our Work"
+                  href="/work"
                   className="bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] hover:from-[#616275] hover:to-[#4b4b4b] hover:text-white"
                 />
               </div>
@@ -504,7 +518,8 @@ With every design, we consider aesthetics, structure, energy flow, and sustainab
               </div>
               <div className="flex justify-center mt-12">
                 <ButtonGetStarted
-                  text="Free Estimate"
+                  text="About Us"
+                  href="/about"
                   className="bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] hover:from-[#616275] hover:to-[#4b4b4b] hover:text-white"
                 />
               </div>

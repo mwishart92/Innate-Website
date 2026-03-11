@@ -1,0 +1,25 @@
+.portfolio-highlights-slider .swiper-pagination {
+  position: relative;
+  margin-top: 24px;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.portfolio-highlights-slider .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+  transition: background 0.2s;
+  margin: 0 !important;
+}
+
+.portfolio-highlights-slider .swiper-pagination-bullet:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.portfolio-highlights-slider .swiper-pagination-bullet-active {
+  background: #fff;
+}

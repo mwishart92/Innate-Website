@@ -93,9 +93,6 @@ function HomeSlider({ slides, overlayClass }: HomeSliderProps) {
             </button> */}
           </div>
 
-          <Text className="text-[20px] leading-[28px] mob:leading-[25px] text-[#FFFFFF] mt-5 mob:text-[18px] font-normal font-bentonMedium">
-            Project
-          </Text>
           <Text className="text-[28px] leading-[34px] mob:leading-[340px] text-[#FFFFFF] mt-2 mob:text-[18px] font-thin font-bentonMedium max-w-[370px]">
             {swiperSlides[currentSlide]?.subtitle}
           </Text>

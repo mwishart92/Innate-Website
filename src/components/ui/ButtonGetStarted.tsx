@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import rightarrow from '@/public/images/press/RightArrowblue.png'
 import { useRouter } from 'next/navigation'
@@ -11,12 +12,14 @@ interface ButtonProps {
   text?: string
   children?: React.ReactNode // Add children prop
   className?: string
+  href?: string
 }
 
 const ButtonGetStarted: React.FC<ButtonProps> = ({
   text = 'Get Started',
   children,
   className,
+  href,
 }) => {
   const router = useRouter()
   
@@ -24,9 +27,30 @@ const ButtonGetStarted: React.FC<ButtonProps> = ({
     trackButtonClick('get_started_button', {
       button_text: children || text,
       button_location: 'navigation',
-      destination: '/onboarding'
+      destination: href || '/onboarding'
     })
-    router.push('/onboarding')
+    router.push(href || '/onboarding')
+  }
+
+  const buttonContent = (
+    <>
+      {children || text}
+      <Image src={rightarrow} alt="" width={18} height={18} />
+    </>
+  )
+  
+  if (href) {
+    return (
+      <Link
+        href={href}
+        className={cn(
+          'w-[166.63px] h-[50px] gap-2 hover:bg-white hover:text-black hover:border-black transition duration-300 border border-white text-white text-[16px] font-medium flex items-center justify-center mob:font-normal mob:text-[14px] mob:px-[24px] mob:py-[14px] mob:z-100',
+          className,
+        )}
+      >
+        {buttonContent}
+      </Link>
+    )
   }
   
   return (
@@ -38,8 +62,7 @@ const ButtonGetStarted: React.FC<ButtonProps> = ({
         )}
         onClick={handleClick}
       >
-        {children || text} {/* Use children if available, otherwise use text */}
-        <Image src={rightarrow} alt="" width={18} height={18} />
+        {buttonContent}
       </button>
     </>
   )

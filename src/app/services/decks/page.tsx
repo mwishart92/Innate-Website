@@ -454,7 +454,7 @@ We provide custom deck services across Seattle and the Eastside, offering end-to
         subHeading="Serving Seattle, Bellevue, Redmond, and the surrounding areas"
         mainClass="pt-0"
       />
-      <Faq title="Deck Construction - FAQ" description="" faqItems={faqItems} />
+      <Faq title="Decks & Patios - FAQ" description="" faqItems={faqItems} />
 
       <ExploreService
         title="Explore Our Other Services"
@@ -478,7 +478,8 @@ We provide custom deck services across Seattle and the Eastside, offering end-to
               </div>
               <div className="flex justify-center mt-12">
                 <ButtonGetStarted
-                  text="Free Estimate"
+                  text="Our Work"
+                  href="/work"
                   className="bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] hover:from-[#616275] hover:to-[#4b4b4b] hover:text-white"
                 />
               </div>
@@ -496,7 +497,8 @@ We provide custom deck services across Seattle and the Eastside, offering end-to
               </div>
               <div className="flex justify-center mt-12">
                 <ButtonGetStarted
-                  text="Free Estimate"
+                  text="About Us"
+                  href="/about"
                   className="bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] hover:from-[#616275] hover:to-[#4b4b4b] hover:text-white"
                 />
               </div>

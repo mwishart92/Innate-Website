@@ -350,6 +350,19 @@ const portfolio = [
       },
     ],
   },
+  {
+    title: "Freitas Kitchen & Bathroom Remodel",
+    location: "Seattle, Washington",
+    description:
+      "This Capitol Hill kitchen remodel was completed in just four weeks, with custom Canyon Creek cabinetry, quartz countertops, and radiant heated floors—balancing beauty with daily function.",
+    url: "/project/freitas-kitchen-bathroom",
+    media: [
+      {
+        src: "/images/project/freitas-kitchen/freitas-kitchen_hero.webp",
+        type: "image",
+      },
+    ],
+  },
 ];
 
 const exploreData = [
@@ -500,7 +513,8 @@ const ServicesPage = () => {
               </div>
               <div className="flex justify-center mt-12">
                 <ButtonGetStarted
-                  text="Free Estimate"
+                  text="Our Work"
+                  href="/work"
                   className="bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] hover:from-[#616275] hover:to-[#4b4b4b] hover:text-white"
                 />
               </div>
@@ -518,7 +532,8 @@ const ServicesPage = () => {
               </div>
               <div className="flex justify-center mt-12">
                 <ButtonGetStarted
-                  text="Free Estimate"
+                  text="About Us"
+                  href="/about"
                   className="bg-gradient-to-r from-[#4b4b4b] via-[#595a5d] to-[#616275] hover:from-[#616275] hover:to-[#4b4b4b] hover:text-white"
                 />
               </div>
