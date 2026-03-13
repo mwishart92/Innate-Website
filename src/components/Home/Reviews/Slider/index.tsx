@@ -34,19 +34,45 @@ function ReviewsSlider() {
   const reviews: Review[] = [
     {
       heading:
-        "“I found Michael because he came highly recommended as both a designer and a builder.",
-      text: "I live in Seattle and was looking to maximize the value of my property. Innate came highly recommended and they did a feasibility study to understand what the best value proposition would be. Seeing that I had a large lot, we decided to subdivide the lot and add an attached ADU and detached ADU. Innate handled the entire design and permitting process as well as the application for change of use and new addresses. Highly recommended!",
-      name: "Ronald G",
+        "I hired Innate Design to handle both the design portion and the renovation of my basement, to prepare my house for the arrival of my 1st baby and also the fact that I became a full time remote employee. ",
+      text: `
+Whenever there was an issue, Trent always stepped in and fixed it promptly and courteously, and always made me feel like the job was going to be finished. 
+
+The end result is nothing short of spectacular! The basement looks incredible now and it is my favorite part of the house. I deeply appreciate Trent McDonald who helped me and my wife during this whole process and provided expertise as well as keeping the contractors accountable.
+      `,
+      name: "Jorge Reyes",
       title: "Kitchen Remodel, Madison Park",
-      photo: "/images/services/profile3.png",
+      photo: "",
     },
     {
       heading:
-        "“I found Michael because he came highly recommended as both a designer and a builder.",
+        "We recently completed a bathroom remodel with this company and couldn’t be happier with the experience. ",
+      text: "The team was very creak about budget, expectations, and timing, which made the entire process stress-free. I would recommend them to anyone looking for a reliable and transparent experience.",
+      name: "Susana",
+      title: "Bathroom Remodel",
+      photo: "",
+    },
+    {
+      heading: "My wife and I had a wonderful experience working with Innate.",
+      text: "It was critical that we find someone who can not only do the construction, but also help us visualize the space and design it. We loved the white glove experience, the communication was great throughout and the actual craftsmanship was top notch!",
+      name: "Enrique",
+      title: "Bathroom Remodel",
+      photo: "",
+    },
+    {
+      heading:
+        "I was getting estimates in order to finish my basement and Trent and Innate AEC really stood out. ",
+      text: "He was personable, knowledgeable and thorough. His estimate was detailed and gave allowances for every finish material. The construction process was pleasant and in schedule. His team showed up every day until the job was done, there were no delays and all challenges were solved and punch list items addressed. Will be using Innate for my master bedroom addition later this year! Thank you !",
+      name: "James",
+      title: "Basement finish",
+      photo: "",
+    },
+    {
+      heading: "",
       text: "I have worked with Michael on numerous projects as I manage Airbnbs and am continuously remodeling and developing properties. He is detail-oriented and communication-focused and always does a great job! I have referred him to various friends as well.",
       name: "Chris P",
       title: "Kitchen Remodel, Madison Park",
-      photo: "/images/services/profile3.png",
+      photo: "",
     },
     {
       heading:
@@ -54,7 +80,7 @@ function ReviewsSlider() {
       text: "Michael completed our kitchen remodel, and it was an amazing experience! We weren't exactly sure of the cabinet layout or appliance location, so Michael drew up different plans so we could choose the best layout. During construction, he was so flexible! We had some changes that were important to me during the process, and Michael and his team accommodated everything. His team was communicative and friendly, and I got the sense that everyone at the company genuinely enjoys their work and helping people. We love our new kitchen!",
       name: "Michelle M",
       title: "Kitchen Remodel, Madison Park",
-      photo: "/images/services/profile3.png",
+      photo: "",
     },
   ];
 

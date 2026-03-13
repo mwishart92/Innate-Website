@@ -31,13 +31,15 @@ const ReviewBlock: React.FC<ReviewsProps> = ({ review, handleOpenDailog }) => {
     <div className="mb-10">
       <div className="w-full mx-auto relative">
         <div className="">
-          <Text
-            className={cn(
-              "text-[26px] leading-[31.2px] text-black mob:text-[16px] mob:leading-[25.2px] font-normal mb-[30px]",
-            )}
-          >
-            {heading}
-          </Text>
+          {heading && (
+            <Text
+              className={cn(
+                "text-[26px] leading-[31.2px] text-black mob:text-[16px] mob:leading-[25.2px] font-normal mb-[30px]",
+              )}
+            >
+              {heading}
+            </Text>
+          )}
           <Text
             className={cn(
               "text-[16px] leading-[31.2px] text-black mob:leading-[25.2px] font-light italic",
@@ -58,12 +60,16 @@ const ReviewBlock: React.FC<ReviewsProps> = ({ review, handleOpenDailog }) => {
         </div>
         <div className="flex justify-between mt-10">
           <div className="flex gap-[15px]">
-            <div className="flex min-w-[43px] min-h-[43px] rounded-full overflow-hidden">
-              <img
-                src={photo}
-                alt=""
-                className="w-full h-full object-cover rounded-full"
-              />
+            <div className="flex min-w-[43px] min-h-[43px] rounded-full overflow-hidden bg-black/20 text-black justify-center items-center font-bold">
+              {photo ? (
+                <img
+                  src={photo}
+                  alt=""
+                  className="w-full h-full object-cover rounded-full"
+                />
+              ) : (
+                `${name.split(" ")[0][0]} ${name.split(" ")?.[1]?.[0] || ""}`
+              )}
             </div>
             <div className="">
               <Text className="text-[16px] font-bold leading-[31.2px] text-black mb-0">
