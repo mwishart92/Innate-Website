@@ -35,50 +35,40 @@ function ReviewsSlider() {
     {
       heading:
         "Innate remodeled my entire home, putting in all new floors, moving the laundry area upstairs, and totally redoing the kitchen and the bathrooms. ",
-      text: `
- They also took out my sliding glass door, replacing it with French doors. The fireplace was re-tiled. I admit I kept adding things; but the project was still completed within a week of the original estimate. They made sure everything was complete before considering it finished. A great job!  `,
+      text: `They also took out my sliding glass door, replacing it with French doors. The fireplace was re-tiled. I admit I kept adding things; but the project was still completed within a week of the original estimate. They made sure everything was complete before considering it finished. A great job!  `,
       name: "Mary Grager",
       title: "Whole Home Remodel",
       photo: "",
     },
     {
-      heading:
-        "We recently completed a bathroom remodel with this company and couldn’t be happier with the experience. ",
-      text: "The team was very creak about budget, expectations, and timing, which made the entire process stress-free. I would recommend them to anyone looking for a reliable and transparent experience.",
-      name: "Susana",
+      heading:"We recently completed a bathroom remodel with this company and couldn’t be happier with the experience.We had a great experience working with Innate and especially love how our two projects turned out.",
+      text: "Innate is really committed to quality and worked closely with us to make sure the projects turned out just like we imagined. We’ll work with them again!",
+      name: "Rainier Aliment",
+      title: "",
+      photo: "",
+    },
+    {
+      heading: "I hired Innate after buying my apartment in Lake Forest Park and had them remodel my bathroom and update the flooring and paint throughout. ",
+      text: "I really appreciated the collaborative process and how they helped me with the design and sourcing materials that matched my budget. The crew who did the work was respectful, clean and the work itself was flawless! Would definitely recommend them for interior remodeling.",
+      name: "Adepa Owusu-Bio",
       title: "Bathroom Remodel",
       photo: "",
     },
     {
-      heading: "My wife and I had a wonderful experience working with Innate.",
-      text: "It was critical that we find someone who can not only do the construction, but also help us visualize the space and design it. We loved the white glove experience, the communication was great throughout and the actual craftsmanship was top notch!",
-      name: "Enrique",
-      title: "Bathroom Remodel",
+      heading: "We wanted a warm, natural, earthy-style bathroom with stone textures, a floating vanity, and a clean, open layout. From the beginning, Innate took the design phase seriously.", 
+      text: "They were clear that construction wouldn’t start until every detail was finalized — the layout, the materials, the fixtures — and everything was ordered and on site. In the past, I’ve worked with remodelers who rushed to start before anything was truly ready. This experience was the opposite. The planning was rigorous, thoughtful, and patient, and it made the build phase smooth. The final result is exactly what I pictured, and honestly even better.",
+      name: "John",
+      title: "Remodel Project",
       photo: "",
     },
     {
-      heading:
-        "I was getting estimates in order to finish my basement and Trent and Innate AEC really stood out. ",
-      text: "He was personable, knowledgeable and thorough. His estimate was detailed and gave allowances for every finish material. The construction process was pleasant and in schedule. His team showed up every day until the job was done, there were no delays and all challenges were solved and punch list items addressed. Will be using Innate for my master bedroom addition later this year! Thank you !",
-      name: "James",
-      title: "Basement finish",
+      heading: "Innate does really beautiful work. The level of detail and thought they put into their remodels is obvious — nothing feels generic or rushed.",
+      text: " Even similar layouts feel elevated because of the design and craftsmanship. You can tell they genuinely care about doing things the right way and about the overall client experience. It’s refreshing to see that kind of intention in construction.",
+      name: "Nayeli Flores Herbert",
+      title: "",
       photo: "",
     },
-    {
-      heading: "",
-      text: "I have worked with Michael on numerous projects as I manage Airbnbs and am continuously remodeling and developing properties. He is detail-oriented and communication-focused and always does a great job! I have referred him to various friends as well.",
-      name: "Chris P",
-      title: "Kitchen Remodel, Madison Park",
-      photo: "",
-    },
-    {
-      heading:
-        "“I found Michael because he came highly recommended as both a designer and a builder.",
-      text: "Michael completed our kitchen remodel, and it was an amazing experience! We weren't exactly sure of the cabinet layout or appliance location, so Michael drew up different plans so we could choose the best layout. During construction, he was so flexible! We had some changes that were important to me during the process, and Michael and his team accommodated everything. His team was communicative and friendly, and I got the sense that everyone at the company genuinely enjoys their work and helping people. We love our new kitchen!",
-      name: "Michelle M",
-      title: "Kitchen Remodel, Madison Park",
-      photo: "",
-    },
+
   ];
 
   function handleOpenDailog(c: Review) {
