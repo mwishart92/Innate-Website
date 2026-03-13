@@ -34,14 +34,11 @@ function ReviewsSlider() {
   const reviews: Review[] = [
     {
       heading:
-        "I hired Innate Design to handle both the design portion and the renovation of my basement, to prepare my house for the arrival of my 1st baby and also the fact that I became a full time remote employee. ",
+        "Innate remodeled my entire home, putting in all new floors, moving the laundry area upstairs, and totally redoing the kitchen and the bathrooms. ",
       text: `
-Whenever there was an issue, Trent always stepped in and fixed it promptly and courteously, and always made me feel like the job was going to be finished. 
-
-The end result is nothing short of spectacular! The basement looks incredible now and it is my favorite part of the house. I deeply appreciate Trent McDonald who helped me and my wife during this whole process and provided expertise as well as keeping the contractors accountable.
-      `,
-      name: "Jorge Reyes",
-      title: "Kitchen Remodel, Madison Park",
+ They also took out my sliding glass door, replacing it with French doors. The fireplace was re-tiled. I admit I kept adding things; but the project was still completed within a week of the original estimate. They made sure everything was complete before considering it finished. A great job!  `,
+      name: "Mary Grager",
+      title: "Whole Home Remodel",
       photo: "",
     },
     {
@@ -163,7 +160,7 @@ The end result is nothing short of spectacular! The basement looks incredible no
                 },
               }}
               slidesPerView={1}
-              speed={4000}
+              speed={600}
               // autoplay={{
               //   delay: 12000,
               //   disableOnInteraction: false,
