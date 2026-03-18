@@ -43,8 +43,8 @@ const AlertBanner = () => {
             height={18}
             className="flex-shrink-0"
           />
-          Instant Remodel Preview — Upload Your Kitchen or Bath Photo and See
-          Your Space Remodeled in Seconds!
+          <span className="hidden mob:inline">Instant AI Remodel Tool</span>
+          <span className="mob:hidden">Instant AI Remodel Tool — Upload Your Kitchen or Bath Photo and See Your Space Remodeled in Seconds!</span>
         </span>
         <button
           onClick={handleDismiss}
