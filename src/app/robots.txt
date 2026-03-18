@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: https://www.innate-nw.com/sitemap.xml
+Sitemap: https://www.innate-aec.com/sitemap.xml

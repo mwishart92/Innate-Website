@@ -570,6 +570,6 @@ export const metadata: Metadata = {
   description:
     "Create a spa-like bathroom retreat with Innate's remodeling services in Seattle. Tailored design, moisture-resistant materials, and expert construction.",
   alternates: {
-    canonical: "https://innate-nw.com/services/bathroom-remodeling",
+    canonical: "https://innate-aec.com/services/bathroom-remodeling",
   },
 };

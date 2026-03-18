@@ -35,12 +35,12 @@ export async function POST(req: NextRequest) {
     //   port: 465,
     //   secure: true,
     //   auth: {
-    //     user: "info@innate-nw.com",
+    //     user: "info@innate-aec.com",
     //     pass: "Innate@123",
     //   },
     // });
     console.log("data >>", data);
-    const email = "info@innate-nw.com";
+    const email = "info@innate-aec.com";
     const sendSmtpEmail = new brevo.SendSmtpEmail();
     sendSmtpEmail.to = [{ email }, { email: process.env.BREVO_TO_EMAIL }];
     sendSmtpEmail.templateId = 1; // Use the correct template ID
@@ -86,7 +86,7 @@ export async function POST(req: NextRequest) {
 
     // Set up email options
     // const mailOptions = {
-    //   from: "info@innate-nw.com",
+    //   from: "info@innate-aec.com",
     //   to: "hasnainshafqatmlt@gmail.com",
     //   subject: "Consultation",
     //   html: emailTemplate,

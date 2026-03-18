@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Start Your Project | Project Onboarding | Innate",
     description: "Begin your design and construction journey with Innate. Our streamlined onboarding process helps us understand your vision and create a personalized plan.",
-    url: 'https://innate-nw.com/onboarding',
+    url: 'https://innate-aec.com/onboarding',
     siteName: 'Innate',
     images: [
       {

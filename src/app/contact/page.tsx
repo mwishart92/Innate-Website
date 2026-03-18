@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   description:
     "If you're looking for an architect, engineer, or builder to help with your project in Seattle, fill out our form or call us on or all us on (425) 866-5206.",
   alternates: {
-    canonical: 'https://innate-nw.com/contact',
+    canonical: 'https://innate-aec.com/contact',
   },
   openGraph: {
     title: "Contact Us | Design & Construction Solutions | Innate",
     description: "If you're looking for an architect, engineer, or builder to help with your project in Seattle, fill out our form or call us on or all us on (425) 866-5206.",
-    url: 'https://innate-nw.com/contact',
+    url: 'https://innate-aec.com/contact',
     siteName: 'Innate',
     images: [
       {

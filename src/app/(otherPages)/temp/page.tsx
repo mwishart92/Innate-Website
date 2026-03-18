@@ -180,7 +180,7 @@ const Temppage = () => {
             marginBottom: "20px",
           }}
         >
-       If you have any questions or need assistance, please contact our support team at <a style={{color:"#4591CA"}} href="/info@innate-nw.com">info@innate-nw.com</a>
+       If you have any questions or need assistance, please contact our support team at <a style={{color:"#4591CA"}} href="/info@innate-aec.com">info@innate-aec.com</a>
         </p>
 
         <p
@@ -191,7 +191,7 @@ const Temppage = () => {
             marginBottom: "20px",
           }}
         >
-    www.innate-nw.com   <span style={{marginLeft:'20px', marginRight:'20px'}}> | </span>   info@innate-nw.com
+    www.innate-aec.com   <span style={{marginLeft:'20px', marginRight:'20px'}}> | </span>   info@innate-aec.com
       </p>
       </div>
 

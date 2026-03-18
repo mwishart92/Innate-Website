@@ -509,6 +509,6 @@ export const metadata: Metadata = {
   description:
     "Design and build custom ADUs in Seattle with Innate. Expert architectural services, permitting, and construction for detached and attached units.",
   alternates: {
-    canonical: "https://innate-nw.com/services/adus",
+    canonical: "https://innate-aec.com/services/adus",
   },
 };

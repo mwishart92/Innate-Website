@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   description:
     "At Innate, we believe every client and project has unique needs—whether a small remodel or a large-scale commercial construction. Call us now (425) 866-5206.",
   alternates: {
-    canonical: 'https://innate-nw.com/about',
+    canonical: 'https://innate-aec.com/about',
   },
   openGraph: {
     title: "About Us | Design & Construction in Seattle | Innate",
     description: "At Innate, we believe every client and project has unique needs—whether a small remodel or a large-scale commercial construction. Call us now (425) 866-5206.",
-    url: 'https://innate-nw.com/about',
+    url: 'https://innate-aec.com/about',
     siteName: 'Innate',
     images: [
       {

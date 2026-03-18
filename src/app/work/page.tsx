@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   description:
     "Innate specializes in Seattle custom design and construction solutions. Delivering innovative and sustainable projects tailored to meet unique client needs.",
   alternates: {
-    canonical: 'https://innate-nw.com/work',
+    canonical: 'https://innate-aec.com/work',
   },
   openGraph: {
     title: "Our Expert Design and Construction Work | Innate",
     description: "Innate specializes in Seattle custom design and construction solutions. Delivering innovative and sustainable projects tailored to meet unique client needs.",
-    url: 'https://innate-nw.com/work',
+    url: 'https://innate-aec.com/work',
     siteName: 'Innate',
     images: [
       {

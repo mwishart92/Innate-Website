@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   description:
     "Innate is collective of architects, engineers and craftsmen collaborating to create beautiful spaces and structures in Seattle. Call us on (425) 866-5206.",
   alternates: {
-    canonical: 'https://innate-nw.com/',
+    canonical: 'https://innate-aec.com/',
   },
   openGraph: {
     title: "Custom Design & Construction Services in Seattle | Innate",
     description: "Innate is collective of architects, engineers and craftsmen collaborating to create beautiful spaces and structures in Seattle. Call us on (425) 866-5206.",
-    url: 'https://innate-nw.com/',
+    url: 'https://innate-aec.com/',
     siteName: 'Innate',
     images: [
       {
