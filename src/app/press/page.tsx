@@ -7,30 +7,30 @@ import React from "react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Press & Media | Industry Updates and Tips | Innate NW",
+  title: "Press & Media | Industry Updates and Tips | Innate",
   description:
-    "Innate NW's press section features news, media coverage, and insights into their innovative design and construction projects, highlighting the industry impact.",
+    "Innate's press section features news, media coverage, and insights into their innovative design and construction projects, highlighting the industry impact.",
   alternates: {
     canonical: 'https://innate-nw.com/press',
   },
   openGraph: {
-    title: "Press & Media | Industry Updates and Tips | Innate NW",
-    description: "Innate NW's press section features news, media coverage, and insights into their innovative design and construction projects, highlighting the industry impact.",
+    title: "Press & Media | Industry Updates and Tips | Innate",
+    description: "Innate's press section features news, media coverage, and insights into their innovative design and construction projects, highlighting the industry impact.",
     url: 'https://innate-nw.com/press',
-    siteName: 'Innate NW',
+    siteName: 'Innate',
     images: [
       {
         url: '/images/innate-nw.jpg',
         width: 1200,
         height: 630,
-        alt: 'Innate NW - Press & Media',
+        alt: 'Innate - Press & Media',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Press & Media | Industry Updates and Tips | Innate NW",
-    description: "Innate NW's press section features news, media coverage, and insights into their innovative design and construction projects, highlighting the industry impact.",
+    title: "Press & Media | Industry Updates and Tips | Innate",
+    description: "Innate's press section features news, media coverage, and insights into their innovative design and construction projects, highlighting the industry impact.",
   },
 };
 

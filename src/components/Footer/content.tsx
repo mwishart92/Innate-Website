@@ -25,7 +25,7 @@ const FooterContent = () => {
               <a
                 href="tel:+14258665206"
                 className="hover:text-white transition-colors duration-300 cursor-pointer"
-                aria-label="Call Innate NW at (425) 866-5206"
+                aria-label="Call Innate at (425) 866-5206"
               >
                 (425) 866-5206
               </a>

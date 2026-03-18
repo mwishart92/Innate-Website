@@ -505,9 +505,9 @@ We are experienced accessory dwelling unit contractors, new construction builder
 export default ServicesPage;
 
 export const metadata: Metadata = {
-  title: "ADU Design & Build Services in Seattle | Innate NW",
+  title: "ADU Design & Build Services in Seattle | Innate",
   description:
-    "Design and build custom ADUs in Seattle with Innate NW. Expert architectural services, permitting, and construction for detached and attached units.",
+    "Design and build custom ADUs in Seattle with Innate. Expert architectural services, permitting, and construction for detached and attached units.",
   alternates: {
     canonical: "https://innate-nw.com/services/adus",
   },

@@ -22,19 +22,19 @@ function HomeSlider() {
     {
       image: "/images/home/innate-hero_1--web.jpg",
       delay: 5000,
-      projectName: "Innate NW",
+      projectName: "Innate",
       priority: false,
     },
     {
       image: "/images/home/innate-hero_2--web.jpg",
       delay: 5000,
-      projectName: "Innate NW",
+      projectName: "Innate",
       priority: false,
     },
     {
       image: "/images/home/innate-hero_3--web.jpg",
       delay: 5000,
-      projectName: "Innate NW",
+      projectName: "Innate",
       priority: false,
     },
   ];

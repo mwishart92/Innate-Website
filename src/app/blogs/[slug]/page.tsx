@@ -13,7 +13,7 @@ export async function generateMetadata({
   const blogSection = blogSections.find(section => section.slug === slug);
   
   if (blogSection) {
-    const metaTitle = blogSection.seo?.title ?? `${blogSection.title} | Innate NW Blog`;
+    const metaTitle = blogSection.seo?.title ?? `${blogSection.title} | Innate Blog`;
     const metaDescription = blogSection.seo?.description ?? blogSection.excerpt ?? "Read our latest articles and insights about design and construction.";
     return {
       title: metaTitle,
@@ -32,7 +32,7 @@ export async function generateMetadata({
 
   // Fallback metadata
   return {
-    title: "Blog | Innate NW",
+    title: "Blog | Innate",
     description: "Read our latest articles and insights about design and construction.",
   };
 }

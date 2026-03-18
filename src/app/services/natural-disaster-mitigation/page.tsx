@@ -537,9 +537,9 @@ If you're concerned about earthquakes, floods, wildfires, or extreme storms, we 
 export default ServicesPage;
 
 export const metadata: Metadata = {
-  title: "Natural Disaster Mitigation Services | Innate NW Seattle",
+  title: "Natural Disaster Mitigation Services | Innate Seattle",
   description:
-    "Protect your home with disaster mitigation solutions from Innate NW. We offer seismic retrofits and flood-resistant construction services in Seattle.",
+    "Protect your home with disaster mitigation solutions from Innate. We offer seismic retrofits and flood-resistant construction services in Seattle.",
   alternates: {
     canonical: "https://innate-nw.com/services/natural-disaster-mitigation",
   },

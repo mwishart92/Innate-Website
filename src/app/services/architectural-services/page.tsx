@@ -292,18 +292,18 @@ const faqItems = [
   {
     question: "What is included in your architectural services?",
     answer:
-      "Our architectural services cover every stage of the design and building process. This includes initial consultations, site analysis, concept design, planning applications, detailed drawings, and coordination with engineers and consultants. We also provide full guidance on materials, sustainability, and functionality to ensure your project meets both your vision and practical requirements. At Innate NW, with extensive building design services, we guarantee architecture that is not only beautiful but also functional and enduring.",
+      "Our architectural services cover every stage of the design and building process. This includes initial consultations, site analysis, concept design, planning applications, detailed drawings, and coordination with engineers and consultants. We also provide full guidance on materials, sustainability, and functionality to ensure your project meets both your vision and practical requirements. At Innate, with extensive building design services, we guarantee architecture that is not only beautiful but also functional and enduring.",
   },
   {
     question:
       "How do you handle changes to the project scope and potential additional fees?",
     answer:
-      "Each project may evolve as ideas develop differently, and Innate NW is here to handle all the potential issues for you. If changes to the project scope occur, we discuss these with you upfront, outlining any adjustments to the timeline or budget. Transparency is a key part of our architectural project management services, so you will always know about any additional fees before decisions are made. Aiming for exceptional outcomes and customer satisfaction, our experts ensure that your project remains on track while still allowing flexibility for design refinements.",
+      "Each project may evolve as ideas develop differently, and Innate is here to handle all the potential issues for you. If changes to the project scope occur, we discuss these with you upfront, outlining any adjustments to the timeline or budget. Transparency is a key part of our architectural project management services, so you will always know about any additional fees before decisions are made. Aiming for exceptional outcomes and customer satisfaction, our experts ensure that your project remains on track while still allowing flexibility for design refinements.",
   },
   {
     question: "Will you stay involved during the construction phase?",
     answer:
-      "Yes. Our custom architectural solutions extend beyond drawings and approvals, as we remain actively involved during construction at every phase for close and immediate support when needed. This includes site visits, liaising with contractors, responding to inquiries, and ensuring that the promised modern architectural design is executed to a high standard. By staying involved throughout the construction phase, Innate NW helps safeguard the quality of your project and provides peace of mind that the finished result aligns with the agreed vision.",
+      "Yes. Our custom architectural solutions extend beyond drawings and approvals, as we remain actively involved during construction at every phase for close and immediate support when needed. This includes site visits, liaising with contractors, responding to inquiries, and ensuring that the promised modern architectural design is executed to a high standard. By staying involved throughout the construction phase, Innate helps safeguard the quality of your project and provides peace of mind that the finished result aligns with the agreed vision.",
   },
 ];
 
@@ -539,31 +539,31 @@ With every design, we consider aesthetics, structure, energy flow, and sustainab
 export default ServicesPage;
 
 export const metadata: Metadata = {
-  title: "Architectural Design Services in Seattle | Innate NW",
+  title: "Architectural Design Services in Seattle | Innate",
   description:
-    "Innate NW offers architectural design services in Seattle. Work with expert architects to create a space tailored to your lifestyle and future vision.",
+    "Innate offers architectural design services in Seattle. Work with expert architects to create a space tailored to your lifestyle and future vision.",
   alternates: {
     canonical: "https://innate-nw.com/services/architectural-services",
   },
   openGraph: {
-    title: "Architectural Design Services in Seattle | Innate NW",
+    title: "Architectural Design Services in Seattle | Innate",
     description:
-      "Innate NW offers architectural design services in Seattle. Work with expert architects to create a space tailored to your lifestyle and future vision.",
+      "Innate offers architectural design services in Seattle. Work with expert architects to create a space tailored to your lifestyle and future vision.",
     url: "https://innate-nw.com/services/architectural-services",
-    siteName: "Innate NW",
+    siteName: "Innate",
     images: [
       {
         url: "/images/innate-nw.jpg",
         width: 1200,
         height: 630,
-        alt: "Innate NW - Architectural Services",
+        alt: "Innate - Architectural Services",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Architectural Design Services in Seattle | Innate NW",
+    title: "Architectural Design Services in Seattle | Innate",
     description:
-      "Innate NW offers architectural design services in Seattle. Work with expert architects to create a space tailored to your lifestyle and future vision.",
+      "Innate offers architectural design services in Seattle. Work with expert architects to create a space tailored to your lifestyle and future vision.",
   },
 };

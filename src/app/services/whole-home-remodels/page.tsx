@@ -542,9 +542,9 @@ From rethinking floorplans to executing structural upgrades, our integrated team
 export default ServicesPage;
 
 export const metadata: Metadata = {
-  title: "Whole Home Remodeling Services in Seattle | Innate NW",
+  title: "Whole Home Remodeling Services in Seattle | Innate",
   description:
-    "Transform your entire home with Innate NW's expert whole home remodeling services in Seattle. Personalized design, dedicated project management, and flawless execution.",
+    "Transform your entire home with Innate's expert whole home remodeling services in Seattle. Personalized design, dedicated project management, and flawless execution.",
   alternates: {
     canonical: "https://innate-nw.com/services/whole-home-remodels",
   },

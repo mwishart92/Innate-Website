@@ -13,30 +13,30 @@ import ProjectSlider from "@/components/Project/Hero/Slider";
 import Slide from "@/components/Project/Hero/Content/slide";
 
 export const metadata: Metadata = {
-  title: "Custom Design and Construction Projects | Innate NW",
+  title: "Custom Design and Construction Projects | Innate",
   description:
-    "Explore Innate NW's diverse portfolio of innovative design and projects, showcasing sustainable solutions and craftsmanship tailored to unique client needs.",
+    "Explore Innate's diverse portfolio of innovative design and projects, showcasing sustainable solutions and craftsmanship tailored to unique client needs.",
   alternates: {
     canonical: 'https://innate-nw.com/project',
   },
   openGraph: {
-    title: "Custom Design and Construction Projects | Innate NW",
-    description: "Explore Innate NW's diverse portfolio of innovative design and projects, showcasing sustainable solutions and craftsmanship tailored to unique client needs.",
+    title: "Custom Design and Construction Projects | Innate",
+    description: "Explore Innate's diverse portfolio of innovative design and projects, showcasing sustainable solutions and craftsmanship tailored to unique client needs.",
     url: 'https://innate-nw.com/project',
-    siteName: 'Innate NW',
+    siteName: 'Innate',
     images: [
       {
         url: '/images/innate-nw.jpg',
         width: 1200,
         height: 630,
-        alt: 'Innate NW - Projects',
+        alt: 'Innate - Projects',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Custom Design and Construction Projects | Innate NW",
-    description: "Explore Innate NW's diverse portfolio of innovative design and projects, showcasing sustainable solutions and craftsmanship tailored to unique client needs.",
+    title: "Custom Design and Construction Projects | Innate",
+    description: "Explore Innate's diverse portfolio of innovative design and projects, showcasing sustainable solutions and craftsmanship tailored to unique client needs.",
   },
 };
 

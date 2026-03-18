@@ -533,33 +533,33 @@ If you're replacing siding or windows, planning a full exterior home remodeling 
 export default ServicesPage;
 
 export const metadata: Metadata = {
-  title: "Exterior Remodeling in Seattle | Siding, Windows & Doors | Innate NW",
+  title: "Exterior Remodeling in Seattle | Siding, Windows & Doors | Innate",
   description:
-    "Boost your home's curb appeal with exterior remodeling from Innate NW in Seattle. Expert siding, windows, and door upgrades with precision craftsmanship.",
+    "Boost your home's curb appeal with exterior remodeling from Innate in Seattle. Expert siding, windows, and door upgrades with precision craftsmanship.",
   alternates: {
     canonical: "https://innate-nw.com/services/exterior-remodeling",
   },
   openGraph: {
     title:
-      "Exterior Remodeling in Seattle | Siding, Windows & Doors | Innate NW",
+      "Exterior Remodeling in Seattle | Siding, Windows & Doors | Innate",
     description:
-      "Boost your home's curb appeal with exterior remodeling from Innate NW in Seattle. Expert siding, windows, and door upgrades with precision craftsmanship.",
+      "Boost your home's curb appeal with exterior remodeling from Innate in Seattle. Expert siding, windows, and door upgrades with precision craftsmanship.",
     url: "https://innate-nw.com/services/exterior-remodeling",
-    siteName: "Innate NW",
+    siteName: "Innate",
     images: [
       {
         url: "/images/innate-nw.jpg",
         width: 1200,
         height: 630,
-        alt: "Innate NW - Exterior Remodeling",
+        alt: "Innate - Exterior Remodeling",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Exterior Remodeling in Seattle | Siding, Windows & Doors | Innate NW",
+      "Exterior Remodeling in Seattle | Siding, Windows & Doors | Innate",
     description:
-      "Boost your home's curb appeal with exterior remodeling from Innate NW in Seattle. Expert siding, windows, and door upgrades with precision craftsmanship.",
+      "Boost your home's curb appeal with exterior remodeling from Innate in Seattle. Expert siding, windows, and door upgrades with precision craftsmanship.",
   },
 };

@@ -495,7 +495,7 @@ export const blogSections: ArticleSection[] = [
       },
     ],
     seo: {
-      title: "How to Choose the Right Custom Home Builder | Innate NW",
+      title: "How to Choose the Right Custom Home Builder | Innate",
       description:
         "Choosing the right custom home builder is key to bringing your vision to life. Learn what to look for and how we deliver a client-focused building experience.",
       keywords:
@@ -508,7 +508,7 @@ export const blogSections: ArticleSection[] = [
     title: "Seattle NR1, NR2, NR3 Zoning Explained",
     thumbnail: "/images/press/Zoning-1.jpg",
     tag: "Blog",
-    excerpt: `Learn how Seattle’s NR1, NR2, and NR3 zoning codes affect home remodels, additions, and DADUs—plus tips from Innate NW for navigating permits and building smart.`,
+    excerpt: `Learn how Seattle’s NR1, NR2, and NR3 zoning codes affect home remodels, additions, and DADUs—plus tips from Innate for navigating permits and building smart.`,
     publishedDate: "7 August, 2025",
     content: [
       {
@@ -1273,16 +1273,16 @@ export const blogSections: ArticleSection[] = [
 <p>Doing preplanning and knowing the <a href="https://www.innate-aec.com/services/whole-home-remodels">whole home remodel</a> costs early helps set realistic expectations and make smart choices. Usually, custom millwork to match original details costs more than standard replacements. Structural changes mean engineering costs and permitting fees you need to budget upfront.</p><br/>
 <p>Focus first on updates for safety, structure, and daily function. For instance, electrical and HVAC upgrades, window replacements, and structural repairs should be done before other cosmetic changes.</p><br/>
 <p>Keep a 15-20% backup fund for what you&rsquo;ll discover once walls open up. Mid-century homes almost always hide surprises&mdash;old wiring or even water damage. You need to prepare financially, so these expenses don&rsquo;t stop the whole project.<br /><br /></p>
-<h2>The Innate NW Approach</h2>
-<p>At Innate NW, we know that updating mid-century Seattle homes means balancing preservation with progress. We start our work with a full assessment of what makes your home unique, from identifying original features worth saving to areas where updates will most improve function and efficiency.</p><br/>
-<p>Innate NW works with architects, designers, and craftspeople who have great knowledge and understanding of mid-century construction and whose work feels authentic to the original design. We&rsquo;ll take care of everything, from window replacements that are in the right proportions to <a href="https://www.innate-aec.com/services/kitchen-remodeling">kitchen remodels</a> that keep mid-century design while addressing your family&rsquo;s modern needs.<br /><br /></p>
+<h2>The Innate Approach</h2>
+<p>At Innate, we know that updating mid-century Seattle homes means balancing preservation with progress. We start our work with a full assessment of what makes your home unique, from identifying original features worth saving to areas where updates will most improve function and efficiency.</p><br/>
+<p>Innate works with architects, designers, and craftspeople who have great knowledge and understanding of mid-century construction and whose work feels authentic to the original design. We&rsquo;ll take care of everything, from window replacements that are in the right proportions to <a href="https://www.innate-aec.com/services/kitchen-remodeling">kitchen remodels</a> that keep mid-century design while addressing your family&rsquo;s modern needs.<br /><br /></p>
 <h2>Ready to Modernize Your Mid-Century Seattle Home?</h2>
-<p><a href="https://www.innate-aec.com/contact">Contact Innate NW</a> to discuss strategies for preserving older themes while upgrading efficiency, function, and comfort in your PNW home.&nbsp;</p>
+<p><a href="https://www.innate-aec.com/contact">Contact Innate</a> to discuss strategies for preserving older themes while upgrading efficiency, function, and comfort in your PNW home.&nbsp;</p>
         `,
       },
     ],
     seo: {
-      title: "Modernizing Mid-Century Seattle Homes | Innate NW ",
+      title: "Modernizing Mid-Century Seattle Homes | Innate ",
       description:
         "Discover how to preserve the character of your mid-century PNW home in Seattle while upgrading efficiency, windows, kitchens, and systems for modern living. ",
       keywords:
@@ -1339,16 +1339,16 @@ export const blogSections: ArticleSection[] = [
 <h2>The Cost-Benefit Math</h2>
 <p>Professional waterproofing adds to upfront bathroom remodeling costs, typically representing 10-15% of the total project budget. This might include premium membrane systems, proper drainage solutions, quality substrates, and the labor to install everything right.</p><br/>
 <p>But consider the other option. Repairing water damage often means demolishing and rebuilding the entire bathroom&mdash;essentially paying for the remodel twice, plus fixing structural damage, mold remediation, and potential damage to adjacent spaces. The cost of proper waterproofing from the start is tiny compared to the expense of correcting waterproofing failures later.<br /><br /></p>
-<h2>The Innate NW Approach</h2>
-<p>At Innate NW, we treat waterproofing with the seriousness it deserves. Every Seattle bathroom remodel we do begins with a complete waterproofing strategy tailored to the specific conditions of your home and bathroom layout. We use professional membrane systems, follow the manufacturer&rsquo;s instructions precisely, and pay close attention to the details that separate adequate waterproofing from exceptional protection.</p><br/>
-<p>A waterproof bathroom remodel from Innate NW means you can enjoy your updated space with complete confidence, knowing that behind those beautiful tiles and elegant fixtures lies a robust barrier protecting your home from moisture damage for years to come.<br /><br /></p>
+<h2>The Innate Approach</h2>
+<p>At Innate, we treat waterproofing with the seriousness it deserves. Every Seattle bathroom remodel we do begins with a complete waterproofing strategy tailored to the specific conditions of your home and bathroom layout. We use professional membrane systems, follow the manufacturer&rsquo;s instructions precisely, and pay close attention to the details that separate adequate waterproofing from exceptional protection.</p><br/>
+<p>A waterproof bathroom remodel from Innate means you can enjoy your updated space with complete confidence, knowing that behind those beautiful tiles and elegant fixtures lies a robust barrier protecting your home from moisture damage for years to come.<br /><br /></p>
 <h2>Ready to Invest in a Bathroom Remodel That&rsquo;s Built to Last?</h2>
-<p><a href="https://www.innate-aec.com/contact">Contact Innate NW</a> to discuss professional waterproofing strategies and create a bathroom that combines beauty with long-term strength and protection.</p>
+<p><a href="https://www.innate-aec.com/contact">Contact Innate</a> to discuss professional waterproofing strategies and create a bathroom that combines beauty with long-term strength and protection.</p>
         `,
       },
     ],
     seo: {
-      title: "Professional Waterproofing for Seattle Bathrooms | Innate NW ",
+      title: "Professional Waterproofing for Seattle Bathrooms | Innate ",
       description:
         "Learn why professional-grade waterproofing is the most critical investment in your Seattle bathroom remodel and how proper systems can protect your home. ",
       keywords:
@@ -1395,15 +1395,15 @@ export const blogSections: ArticleSection[] = [
 <p>Here are the most common layouts for small kitchens:<br /><br /><strong>Galley Kitchens:</strong> Often underrated, galley layouts can be efficient when designed well. The tight work triangle reduces steps between key areas, and the parallel walls provide plenty of storage and counter space.<br /><br /><strong>L-Shaped Kitchens:</strong> These work well in small spaces by keeping everything within easy reach while leaving one side open to the rest of the home. They&rsquo;re great for creating a natural work triangle.<br /><br /><strong>U-Shaped Layouts:</strong> These provide maximum storage and counter space but only work when the room is wide enough. If the U is too narrow, the space can feel tunnel-like and cramped.<br /><br /></p>
 <h2>Should You Open Up Your Kitchen?</h2>
 <p>Many Seattle homeowners considering a kitchen renovation wonder whether to keep the kitchen as a separate room. A wide opening or partial wall removal can connect the kitchen to a dining or living area without losing all boundaries. This will create an open space while preventing kitchen mess from taking over your entire home.<br /><br /></p>
-<h2>The Innate NW Approach to Small Kitchen Design</h2>
-<p>At Innate NW, our kitchen remodeling designs focus on smart storage solutions, handle-free cabinetry, and integrated appliances that make small spaces feel generous and well-designed.<br /><br />Innate NW works closely with clients to understand exactly how they use their kitchens and coordinates every detail, from cabinet mechanisms to lighting placement to material selections, making sure your finished kitchen feels cohesive and intentional.&nbsp;<br /><br /></p>
+<h2>The Innate Approach to Small Kitchen Design</h2>
+<p>At Innate, our kitchen remodeling designs focus on smart storage solutions, handle-free cabinetry, and integrated appliances that make small spaces feel generous and well-designed.<br /><br />Innate works closely with clients to understand exactly how they use their kitchens and coordinates every detail, from cabinet mechanisms to lighting placement to material selections, making sure your finished kitchen feels cohesive and intentional.&nbsp;<br /><br /></p>
 <h2>Ready to Transform Your Small Kitchen?</h2>
-<p><a href="https://www.innate-aec.com/contact">Contact Innate NW</a> today to discuss creative storage solutions, layout changes, and design strategies.</p>
+<p><a href="https://www.innate-aec.com/contact">Contact Innate</a> today to discuss creative storage solutions, layout changes, and design strategies.</p>
         `,
       },
     ],
     seo: {
-      title: "Maximizing Small Kitchens: Seamless Design Tips | Innate NW",
+      title: "Maximizing Small Kitchens: Seamless Design Tips | Innate",
       description:
         "Explore creative storage solutions in Seattle, handle-free cabinetry, and hidden appliances that transform small kitchens into seamless, functional spaces.",
       keywords:

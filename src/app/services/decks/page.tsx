@@ -288,7 +288,7 @@ const faqItems = [
     question:
       "What kind of maintenance is required for different deck materials?",
     answer:
-      "Deck maintenance needs greatly depend on the chosen materials. Wood decks, such as cedar or redwood, typically require regular cleaning, sealing, and occasional staining to protect against moisture and sun exposure. Composite decks, on the other hand, are low-maintenance and only need periodic washing to remove dirt and debris. PVC and other synthetic decking options offer even greater durability with minimal upkeep. At Innate NW, we help you choose the right materials for a deck that's easy to maintain and suitable for your lifestyle.",
+      "Deck maintenance needs greatly depend on the chosen materials. Wood decks, such as cedar or redwood, typically require regular cleaning, sealing, and occasional staining to protect against moisture and sun exposure. Composite decks, on the other hand, are low-maintenance and only need periodic washing to remove dirt and debris. PVC and other synthetic decking options offer even greater durability with minimal upkeep. At Innate, we help you choose the right materials for a deck that's easy to maintain and suitable for your lifestyle.",
   },
   {
     question: "What is the typical cost of a custom deck design in Seattle?",
@@ -299,7 +299,7 @@ const faqItems = [
     question:
       "How will you ensure my property is protected during the deck construction?",
     answer:
-      "Protecting your property is an essential part of our deck construction process. We take care to minimize disruption by using protective barriers, managing debris, and ensuring safe access around your home during the build. Our Seattle deck repair specialists work with precision to avoid damage to landscaping, existing structures, and outdoor spaces. At Innate NW, we're proud to be the leading Seattle deck contractor. Count on us to treat every property with respect, ensuring your home and yard remain safe and clean throughout the build.",
+      "Protecting your property is an essential part of our deck construction process. We take care to minimize disruption by using protective barriers, managing debris, and ensuring safe access around your home during the build. Our Seattle deck repair specialists work with precision to avoid damage to landscaping, existing structures, and outdoor spaces. At Innate, we're proud to be the leading Seattle deck contractor. Count on us to treat every property with respect, ensuring your home and yard remain safe and clean throughout the build.",
   },
 ];
 
@@ -518,31 +518,31 @@ We provide custom deck services across Seattle and the Eastside, offering end-to
 export default ServicesPage;
 
 export const metadata: Metadata = {
-  title: "Custom Deck Building Services in Seattle | Innate NW",
+  title: "Custom Deck Building Services in Seattle | Innate",
   description:
-    "Expand your outdoor living space with a custom-built deck by Innate NW. Premium materials and expert design tailored to your lifestyle in Seattle.",
+    "Expand your outdoor living space with a custom-built deck by Innate. Premium materials and expert design tailored to your lifestyle in Seattle.",
   alternates: {
     canonical: "https://innate-nw.com/services/decks",
   },
   openGraph: {
-    title: "Custom Deck Building Services in Seattle | Innate NW",
+    title: "Custom Deck Building Services in Seattle | Innate",
     description:
-      "Expand your outdoor living space with a custom-built deck by Innate NW. Premium materials and expert design tailored to your lifestyle in Seattle.",
+      "Expand your outdoor living space with a custom-built deck by Innate. Premium materials and expert design tailored to your lifestyle in Seattle.",
     url: "https://innate-nw.com/services/decks",
-    siteName: "Innate NW",
+    siteName: "Innate",
     images: [
       {
         url: "/images/innate-nw.jpg",
         width: 1200,
         height: 630,
-        alt: "Innate NW - Deck Building",
+        alt: "Innate - Deck Building",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Custom Deck Building Services in Seattle | Innate NW",
+    title: "Custom Deck Building Services in Seattle | Innate",
     description:
-      "Expand your outdoor living space with a custom-built deck by Innate NW. Premium materials and expert design tailored to your lifestyle in Seattle.",
+      "Expand your outdoor living space with a custom-built deck by Innate. Premium materials and expert design tailored to your lifestyle in Seattle.",
   },
 };

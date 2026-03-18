@@ -125,7 +125,7 @@ export const slidesData: SlideData[] = [
     hover: {
       title:
         "West Seattle Renovation | Bathroom + Exterior Remodel | General Contracting",
-      subTitle: `Innate NW delivered a complete transformation in just five weeks, turning the bathroom into a spa-like retreat and reimagining the home’s exterior with durable finishes, refreshed curb appeal, and thoughtful design. This West Seattle renovation showcases our expertise in general contracting, bathroom remodeling, and exterior renovations from start to finish.`,
+      subTitle: `Innate delivered a complete transformation in just five weeks, turning the bathroom into a spa-like retreat and reimagining the home’s exterior with durable finishes, refreshed curb appeal, and thoughtful design. This West Seattle renovation showcases our expertise in general contracting, bathroom remodeling, and exterior renovations from start to finish.`,
     },
   },
   {
@@ -368,7 +368,7 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
     ],
     hover: {
       title: "Madrona Remodel | Seismic & Kitchen Renovation",
-      subTitle: `Our renovation turned this historic Madrona home into a space that's not just modern and functional, but also resilient. With experience in structural upgrades and kitchen remodels, Innate NW specializes in complex renovations that maintain the home's charm while enhancing its performance, especially in Seattle's older houses.`,
+      subTitle: `Our renovation turned this historic Madrona home into a space that's not just modern and functional, but also resilient. With experience in structural upgrades and kitchen remodels, Innate specializes in complex renovations that maintain the home's charm while enhancing its performance, especially in Seattle's older houses.`,
     },
   },
   {

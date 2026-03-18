@@ -566,9 +566,9 @@ At Innate, we specialize in bathroom remodel services tailored to your lifestyle
 export default ServicesPage;
 
 export const metadata: Metadata = {
-  title: "Bathroom Remodeling Experts in Seattle | Innate NW",
+  title: "Bathroom Remodeling Experts in Seattle | Innate",
   description:
-    "Create a spa-like bathroom retreat with Innate NW's remodeling services in Seattle. Tailored design, moisture-resistant materials, and expert construction.",
+    "Create a spa-like bathroom retreat with Innate's remodeling services in Seattle. Tailored design, moisture-resistant materials, and expert construction.",
   alternates: {
     canonical: "https://innate-nw.com/services/bathroom-remodeling",
   },

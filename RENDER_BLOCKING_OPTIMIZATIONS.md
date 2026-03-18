@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document outlines the comprehensive optimizations implemented to eliminate render blocking resources on the Innate NW website, significantly improving page load performance.
+This document outlines the comprehensive optimizations implemented to eliminate render blocking resources on the Innate website, significantly improving page load performance.
 
 ## 🚀 Optimizations Implemented
 

@@ -163,7 +163,7 @@ const projectData = {
       projectSlider,
     },
     seo: {
-      title: "South Seattle Kitchen | Innate NW Renovation",
+      title: "South Seattle Kitchen | Innate Renovation",
       description: `This South Seattle kitchen renovation highlights how thoughtful design and skilled craftsmanship can completely transform a home's most used space. Custom cabinetry from Canyon Creek was carefully tailored to fit the needs of the homeowners, with specialized compartments for spices, pans, and baking trays. Large-format tile and quartz countertops add a modern aesthetic, while a radiant heated floor ensures comfort and function through Seattle's colder months.`,
     },
   },
@@ -226,7 +226,7 @@ const projectData = {
       projectSlider,
     },
     seo: {
-      title: "Desert Oasis | Innate NW Renovation",
+      title: "Desert Oasis | Innate Renovation",
       description: `This modern Palm Springs new construction project was designed as a true desert oasis—blending indoor-outdoor living with smart functionality and bold architectural features. The home centers around an open-concept kitchen, living, and dining space, framed by exposed roof beams and flooded with natural light through clerestory windows and full accordion doors that open to the courtyard. The new construction design captures the spirit of the desert while maximizing modern livability.`,
     },
   },
@@ -315,7 +315,7 @@ const projectData = {
       ],
     },
     seo: {
-      title: "Gray Bathroom | Innate NW Renovation",
+      title: "Gray Bathroom | Innate Renovation",
       description: `A custom kitchenette and clean-lined finishes give the interiors a refined but relaxed atmosphere. Outside, a detached ADU offers a private space for visiting family and serves as a future income opportunity, reflecting a thoughtful approach to multi-functional design. Metal roofing installation, natural light, and the open floor plan contribute to both energy efficiency and long-term flexibility for the homeownerThe new bathroom design features floor-to-ceiling large format tile, a curbless walk-in shower with custom glass, and a smart mirror that enhances both function and style. A built-in hot tub adds a premium touch, while clean lines and high-end finishes bring cohesion to the space. What began as a remediation project evolved into a total reimagining of the master bath.`,
     },
   },
@@ -430,7 +430,7 @@ const projectData = {
   },
   "wheat-ridge-adu": {
     seo: {
-      title: "Gray BathroWheat Ridge ADU | Innate NW Renovation",
+      title: "Gray BathroWheat Ridge ADU | Innate Renovation",
       description: `Accordion doors open the main living space to the outdoors, while quartzite counters and gold accents add elegance to the kitchen. One of the home's standout features is a custom golf simulator installed in the living room—perfectly suited to the client's passion, and cleverly concealed when not in use. Every inch of the layout was thoughtfully considered to support evolving needs over time.`,
     },
     defaultSlides: [
@@ -523,7 +523,7 @@ const projectData = {
   },
   "kung-fu-tea": {
     seo: {
-      title: "Kung FU Tea x TKK | Innate NW Renovation",
+      title: "Kung FU Tea x TKK | Innate Renovation",
       description: `This commercial tenant improvement project in Renton brought two beloved franchises—Kung Fu Tea and TKK Fried Chicken—under one roof. Designed by Michael Wishart and built by Innate, the six-month project required precision, collaboration, and a deep understanding of franchise standards. From navigating a complex permitting process to aligning with brand-approved finishes, every detail was managed with care.`,
     },
     defaultSlides: [
@@ -604,7 +604,7 @@ const projectData = {
   },
   "madrona-remodel": {
     seo: {
-      title: "Madrona Remodel | Innate NW Renovation",
+      title: "Madrona Remodel | Innate Renovation",
       description: `This kitchen remodel in Seattle's historic Madrona neighborhood presented a unique set of challenges—steep slope, tight site conditions, and an aging structure that required a full seismic retrofit. Innate led the design and renovation, transforming the original layout into a bright, modern kitchen with expanded square footage and improved structural integrity. The six-month kitchen renovation resulted in a functional and resilient space that seamlessly blends old and new.`,
     },
     defaultSlides: [
@@ -684,7 +684,7 @@ const projectData = {
   },
   "shoreline-residence": {
     seo: {
-      title: "Shoreline Residence | Innate NW Renovation",
+      title: "Shoreline Residence | Innate Renovation",
       description: `This Shoreline home renovation and addition project transformed a charming one-story residence into a spacious, multi-level family home. Designed for a young couple preparing for the next chapter of life, Innate led the design and construction of a new upper floor, full kitchen remodel, and outdoor living upgrades. The result is a warm, modern space that blends everyday function with lasting quality.`,
     },
     defaultSlides: [
@@ -1092,7 +1092,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
   },
   "knight-residence": {
     seo: {
-      title: "Knight Residence | Innate NW Renovation",
+      title: "Knight Residence | Innate Renovation",
       description: `Inspired by a luxurious hotel spa they visited in Spain, the clients for this Fremont bathroom remodel came to Innate with a clear vision and a high bar for detail. Over six weeks, we transformed their existing bathroom into a serene, modern retreat that balances elegance with precision. From custom cabinetry to fully integrated wall-mounted fixtures, every element was tailored to match the client's aesthetic goals.`,
     },
     defaultSlides: [
@@ -1229,7 +1229,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         },
         { key: "General Contractor", value: "Innate" },
       ],
-      scopedescription: `Innate NW completed a 5-week bathroom and exterior renovation in West Seattle featuring large-format tile, quartz counters, slate porch tile, and custom railing. See how we resolved unfinished work and delivered a high-quality transformation.`,
+      scopedescription: `Innate completed a 5-week bathroom and exterior renovation in West Seattle featuring large-format tile, quartz counters, slate porch tile, and custom railing. See how we resolved unfinished work and delivered a high-quality transformation.`,
       media: {
         desktop: "/images/project/west-seattle-residence/6L1A1087_websize.jpg",
       },
@@ -1237,14 +1237,14 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         `
         <h2><strong><span style="font-size:17pt;font-family:Arial,sans-serif;">West Seattle Renovation</span></strong></h2> <br/>
 <p style="margin-bottom: 5px;"><strong><span style="font-size:11pt;font-family:Arial,sans-serif;">Bathroom + Exterior Remodel | General Contracting | 5-Week Turnaround</span></strong></p>
-<p style="margin-bottom: 10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">When a previous contractor left this West Seattle homeowner with an incomplete and frustrating renovation, Innate NW stepped in to finish the job with precision, professionalism, and thoughtful solutions.</span></p>
+<p style="margin-bottom: 10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">When a previous contractor left this West Seattle homeowner with an incomplete and frustrating renovation, Innate stepped in to finish the job with precision, professionalism, and thoughtful solutions.</span></p>
 <p style="margin-bottom: 10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">The client needed a capable general contractor who could not only pick up where things were left off but also take ownership of the full scope&mdash;from interior upgrades to exterior fixes. Over the course of five weeks, our team delivered a fully remodeled bathroom and revitalized exterior with careful attention to craftsmanship and continuity.</span></p>
 <h3><strong><span style="font-size:13pt;font-family:Arial,sans-serif;">Bathroom Remodel</span></strong></h3>
 <p style="margin-bottom: 10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We transformed the outdated bathroom into a refined, spa-like retreat. Large-format, high-grade tile sets a bold tone, complemented by a custom glass shower enclosure and sleek flat-panel cabinetry. Quartz countertops bring warmth and contrast, while a premium Toto bidet adds functionality and comfort.</span></p>
 <h3><strong><span style="font-size:13pt;font-family:Arial,sans-serif;">Exterior Remodel</span></strong></h3>
 <p style="margin-bottom: 10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Outside, the renovation continued with a reimagined front entry. We installed durable slate tile on the new porch, paired with a custom metal railing to bring clean lines and curb appeal. Repairs to the siding and fresh paint unified the home&rsquo;s aesthetic, resolving unfinished work from the previous contractor.</span></p>
 <h3><strong><span style="font-size:13pt;font-family:Arial,sans-serif;">General Contracting with Vision</span></strong></h3>
-<p style="margin-bottom: 10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">This project is a perfect example of what Innate NW does best: managing complex renovations with clear communication, elegant design, and quality execution. From uncovering issues with the original build to coordinating solutions across trades, our team ensured nothing was left behind.</span></p>
+<p style="margin-bottom: 10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">This project is a perfect example of what Innate does best: managing complex renovations with clear communication, elegant design, and quality execution. From uncovering issues with the original build to coordinating solutions across trades, our team ensured nothing was left behind.</span></p>
         `,
       ],
       gallery: [
@@ -1313,8 +1313,8 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
       ],
     },
     seo: {
-      title: "West Seattle Bathroom & Exterior Remodel | Innate NW Renovation",
-      description: `Innate NW completed a 5-week bathroom and exterior renovation in West Seattle featuring large-format tile, quartz counters, slate porch tile, and custom railing. See how we resolved unfinished work and delivered a high-quality transformation.`,
+      title: "West Seattle Bathroom & Exterior Remodel | Innate Renovation",
+      description: `Innate completed a 5-week bathroom and exterior renovation in West Seattle featuring large-format tile, quartz counters, slate porch tile, and custom railing. See how we resolved unfinished work and delivered a high-quality transformation.`,
     },
   },
   "enumclaw-full-home-remodel": {
@@ -1703,10 +1703,10 @@ export async function generateMetadata({
 
   // Safely access seo properties with fallbacks
   const seoTitle =
-    (projectDataForSlug as any)?.seo?.title || "Innate NW Project";
+    (projectDataForSlug as any)?.seo?.title || "Innate Project";
   const seoDescription =
     (projectDataForSlug as any)?.seo?.description ||
-    "Explore this custom design and construction project by Innate NW in Seattle.";
+    "Explore this custom design and construction project by Innate in Seattle.";
 
   return {
     title: seoTitle,
@@ -1718,7 +1718,7 @@ export async function generateMetadata({
       title: seoTitle,
       description: seoDescription,
       url: `https://innate-nw.com/project/${slug}`,
-      siteName: "Innate NW",
+      siteName: "Innate",
       images: [
         {
           url: "/images/innate-nw.jpg",

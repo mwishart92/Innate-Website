@@ -553,31 +553,31 @@ const ServicesPage = () => {
 export default ServicesPage;
 
 export const metadata: Metadata = {
-  title: "Kitchen Remodeling in Seattle | Innate NW",
+  title: "Kitchen Remodeling in Seattle | Innate",
   description:
-    "Upgrade your kitchen with Innate NW's boutique remodeling services in Seattle. Custom design, premium materials, and expert craftsmanship for every lifestyle.",
+    "Upgrade your kitchen with Innate's boutique remodeling services in Seattle. Custom design, premium materials, and expert craftsmanship for every lifestyle.",
   alternates: {
     canonical: "https://innate-nw.com/services/kitchen-remodeling",
   },
   openGraph: {
-    title: "Kitchen Remodeling in Seattle | Innate NW",
+    title: "Kitchen Remodeling in Seattle | Innate",
     description:
-      "Upgrade your kitchen with Innate NW's boutique remodeling services in Seattle. Custom design, premium materials, and expert craftsmanship for every lifestyle.",
+      "Upgrade your kitchen with Innate's boutique remodeling services in Seattle. Custom design, premium materials, and expert craftsmanship for every lifestyle.",
     url: "https://innate-nw.com/services/kitchen-remodeling",
-    siteName: "Innate NW",
+    siteName: "Innate",
     images: [
       {
         url: "/images/innate-nw.jpg",
         width: 1200,
         height: 630,
-        alt: "Innate NW - Kitchen Remodeling",
+        alt: "Innate - Kitchen Remodeling",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kitchen Remodeling in Seattle | Innate NW",
+    title: "Kitchen Remodeling in Seattle | Innate",
     description:
-      "Upgrade your kitchen with Innate NW's boutique remodeling services in Seattle. Custom design, premium materials, and expert craftsmanship for every lifestyle.",
+      "Upgrade your kitchen with Innate's boutique remodeling services in Seattle. Custom design, premium materials, and expert craftsmanship for every lifestyle.",
   },
 };

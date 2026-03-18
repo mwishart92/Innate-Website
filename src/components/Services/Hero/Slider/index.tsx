@@ -52,7 +52,7 @@ function HomeSlider({ slides, overlayClass }: HomeSliderProps) {
       delay: 42000,
       projectName: "Pellegrino Residence",
     },
-    { component: <Slide4 />, delay: 14000, projectName: "Innate NW" },
+    { component: <Slide4 />, delay: 14000, projectName: "Innate" },
   ];
 
   const swiperSlides = slides?.length ? slides : defaultSlides;

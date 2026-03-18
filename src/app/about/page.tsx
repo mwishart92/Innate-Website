@@ -4,29 +4,29 @@ import React from "react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us | Design & Construction in Seattle | Innate NW",
+  title: "About Us | Design & Construction in Seattle | Innate",
   description:
     "At Innate, we believe every client and project has unique needs—whether a small remodel or a large-scale commercial construction. Call us now (425) 866-5206.",
   alternates: {
     canonical: 'https://innate-nw.com/about',
   },
   openGraph: {
-    title: "About Us | Design & Construction in Seattle | Innate NW",
+    title: "About Us | Design & Construction in Seattle | Innate",
     description: "At Innate, we believe every client and project has unique needs—whether a small remodel or a large-scale commercial construction. Call us now (425) 866-5206.",
     url: 'https://innate-nw.com/about',
-    siteName: 'Innate NW',
+    siteName: 'Innate',
     images: [
       {
         url: '/images/innate-nw.jpg',
         width: 1200,
         height: 630,
-        alt: 'Innate NW - About Us',
+        alt: 'Innate - About Us',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: "About Us | Design & Construction in Seattle | Innate NW",
+    title: "About Us | Design & Construction in Seattle | Innate",
     description: "At Innate, we believe every client and project has unique needs—whether a small remodel or a large-scale commercial construction. Call us now (425) 866-5206.",
   },
 };
