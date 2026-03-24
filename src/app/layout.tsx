@@ -12,7 +12,6 @@ import Footer from "@/components/Footer";
 import { TabProvider } from "@/context/TabContsxt";
 import MyProvider from "@/components/MyProvider";
 import GTMPageTracker from "@/components/GTMPageTracker";
-import { GoogleTagManager } from "@next/third-parties/google";
 import PerformanceMonitor from "@/components/PerformanceMonitor";
 
 const inter = Inter({
@@ -58,7 +57,13 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/logo-innate.png" />
-        <GoogleTagManager gtmId="GTM-KZSFFRCW" />
+        {/* Google Tag Manager */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KNSHDN66');`,
+          }}
+        />
+        {/* End Google Tag Manager */}
         {/* Critical CSS for above-the-fold content */}
         <style
           dangerouslySetInnerHTML={{
@@ -95,7 +100,7 @@ export default function RootLayout({
         {/* Noscript fallback for users without JavaScript */}
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-KZSFFRCW"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-KNSHDN66"
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
