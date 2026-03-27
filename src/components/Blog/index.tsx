@@ -204,7 +204,7 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
           </div>
         </div>
       </div>
-      <div className="w-full relative pb-[30%] mob:pb-[50%] mt-10">
+      <div className={`w-full relative mt-10 ${slug === "professional-waterproofing-seattle-bathroom-remodel" ? "pb-[calc(30%+200px)] mob:pb-[calc(50%+200px)]" : slug === "modernizing-mid-century-seattle-homes" || slug === "maximizing-small-kitchens-seattle" ? "pb-[calc(30%+300px)] mob:pb-[calc(50%+300px)]" : "pb-[30%] mob:pb-[50%]"}`}>
         <Image
           src={section.thumbnail}
           alt={section.title || ""}

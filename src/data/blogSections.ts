@@ -1233,7 +1233,7 @@ export const blogSections: ArticleSection[] = [
     id: 13,
     slug: "modernizing-mid-century-seattle-homes",
     title: "Modernizing Mid-Century Seattle Homes",
-    thumbnail: "/images/press/pexels-photo-19309671.webp",
+    thumbnail: "/images/press/6L1A0713_websize.jpg",
     tag: "Blog",
     excerpt: `Discover how to preserve the character of your mid-century PNW home in Seattle while upgrading efficiency, windows, kitchens, and systems for modern living.`,
     publishedDate: "27 January, 2026",
@@ -1257,7 +1257,7 @@ export const blogSections: ArticleSection[] = [
       },
       {
         type: "image",
-        src: ["/images/press/pexels-photo-19309671.webp"],
+        src: ["/images/press/6L1A1052_websize.jpg"],
         alt: "Image description",
       },
       {
@@ -1293,7 +1293,7 @@ export const blogSections: ArticleSection[] = [
     id: 14,
     slug: "professional-waterproofing-seattle-bathroom-remodel",
     title: `The “Invisible” Bathroom Remodel for Waterproofing`,
-    thumbnail: "/images/press/pexels-curtis-adams-1694007-19227341.webp",
+    thumbnail: "/images/press/6L1A8970_websize.jpg",
     tag: "Blog",
     excerpt: `Learn why professional-grade waterproofing is the most critical investment in your Seattle bathroom remodel and how proper systems can protect your home. `,
     publishedDate: "27 January, 2026",
@@ -1320,7 +1320,7 @@ export const blogSections: ArticleSection[] = [
       },
       {
         type: "image",
-        src: ["/images/press/pexels-curtis-adams-1694007-19227341.webp"],
+        src: ["/images/press/6L1A8978_websize.jpg"],
         alt: "Image description",
       },
       {
@@ -1359,7 +1359,7 @@ export const blogSections: ArticleSection[] = [
     id: 15,
     slug: "maximizing-small-kitchens-seattle",
     title: `Maximizing Small Kitchens: Creative Storage and Layout Changes`,
-    thumbnail: "/images/press/stock-photo-cozy-kitchen.jpeg",
+    thumbnail: "/images/press/6L1A1598.jpg",
     tag: "Blog",
     excerpt: `Explore creative storage solutions in Seattle, handle-free cabinetry, and hidden appliances that transform small kitchens into seamless, functional spaces.`,
     publishedDate: "27 January, 2026",
@@ -1384,7 +1384,7 @@ export const blogSections: ArticleSection[] = [
       },
       {
         type: "image",
-        src: ["/images/press/stock-photo-cozy-kitchen.jpeg"],
+        src: ["/images/press/6L1A1572.jpg"],
         alt: "Image description",
       },
       {
