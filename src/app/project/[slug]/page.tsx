@@ -1,3 +1,4 @@
+import { redirect } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import ProjectDescription from "@/components/Project/ProjectDescription";
 import ManualPageTracker from "@/components/ManualPageTracker";
@@ -1664,6 +1665,11 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   // Await params first
   const awaitedParams = await params;
   const { slug } = awaitedParams;
+
+  // Redirect legacy slugs
+  if (slug === "freitas-bathroom") {
+    redirect("/project/freitas-kitchen-bathroom");
+  }
 
   // Check if the slug exists in projectData
   const projectDataForSlug = projectData[slug as keyof typeof projectData];
