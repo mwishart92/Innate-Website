@@ -128,7 +128,7 @@ const projectData = {
         projectType: "Renovation",
       },
     ],
-    title: "",
+    title: "South Seattle Kitchen Remodel",
     defaultProjectDetails: {
       projectScope: [
         { key: "Scope", value: "Kitchen Remodel" },
@@ -137,35 +137,49 @@ const projectData = {
         { key: "Design Principle", value: "Michael Wishart" },
         { key: "General Contractor", value: "Innate" },
       ],
-      scopedescription: `This South Seattle kitchen renovation highlights how thoughtful design and skilled craftsmanship can completely transform a home's most used space. Custom cabinetry from Canyon Creek was carefully tailored to fit the needs of the homeowners, with specialized compartments for spices, pans, and baking trays. Large-format tile and quartz countertops add a modern aesthetic, while a radiant heated floor ensures comfort and function through Seattle's colder months.`,
+      scopedescription: `This South Seattle kitchen renovation shows how good design and quality of work can transform a busy family kitchen. The homeowner required better storage and updated finishes. Innate created a kitchen that solved their everyday problems while providing them with the clean and modern look they wanted.`,
       media: {
         desktop: "/images/project/seattle-kitchen/IMG_1568.webp",
       },
       description: [
-        `Every detail in this kitchen remodel was considered—from the custom cabinet inserts to the precision installation required for each unique piece. Our team coordinated closely with Canyon Creek to fabricate custom elements that not only elevated the kitchen's look, but also made day-to-day use more intuitive. The result is a space that feels highly personal, with finishes and functionality aligned to the client's vision.`,
+        `
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Fixing Storage Problems with Custom Kitchen Cabinets</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">The old kitchen had inadequate storage. Items got lost in deep cabinets. There was no proper place for spices or baking equipment. Also, pans were stacked on top of each other, making it hard to grab what you needed. To fix these issues, we placed custom-designed <strong>Canyon Creek kitchen cabinets</strong>. The special spice drawers keep ingredients organized and easy to find. The pull-out pan storage helps access everything from sheet pans to big roasting dishes. Vertical dividers in deeper drawers organize baking trays, cutting boards, and serving platters.
+</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Materials That Work for Daily Life</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We chose large-format tile and <strong>quartz countertops</strong> for both the island and perimeter counters. The quartz doesn&rsquo;t stain easily and stays looking good with simple cleaning. For a kitchen that gets used every day, quartz made perfect sense.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Adding Comfort with Heated Floors</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Below, we added <strong>radiant heated flooring tile</strong>. This system keeps the floor warm during Seattle&rsquo;s cold months. There will be no more cold feet during early mornings or late evenings when the family spends time in the kitchen. The heating system was carefully installed during the floor prep work.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Completed in Four Weeks</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">This kitchen remodel was finished in just four weeks. How? We planned everything in detail before starting. All design choices were finalized, materials were ordered, and deliveries were scheduled.</span></p>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We worked closely with Canyon Creek during the making of the cabinet. The cabinets arrived exactly when we were ready to install them.</span></p>
+<p style="margin-bottom:5px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Our work started efficiently from Our work started efficiently from demolition to electrical and plumbing updates, cabinet installation, countertop work, flooring installation, and finishing touches.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Design Choices That Fit the Family</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Every detail in this kitchen was chosen with the homeowners in mind, from modern cabinet colors to clean hardware, tile patterns, and quartz colors to add visual interest. These weren&rsquo;t random choices or trends. Everything was selected based on what the family liked and how they lived. The result is a kitchen that feels personal and purposeful.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">How This Kitchen Changed Daily Life</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Beyond the new cabinets and fresh finishes, this Seattle kitchen remodel changed how this family experiences their home. The daily morning routines look perfect with organized storage, from meal prep to a space that works for both daily cooking.</span></p>
+<p style="margin-bottom:5px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">In this Innate kitchen remodeling project, we emphasizedIn this Innate's kitchen remodeling project, we emphasized the value of knowing how families use their kitchens, designing solutions to meet their needs, picking quality materials that last, and completing work efficiently. From a small kitchen renovation to a larger remodeling project, we bring the same care and skill.</span></p>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">From a small kitchen renovation to a larger remodeling project, we bring the same care and skill.</span></p>
+        `,
+      ],
+      sideImages: [
+        { image: "/images/project/seattle-kitchen/IMG_1567.webp" },
+        { image: "/images/project/seattle-kitchen/IMG_1568.webp" },
+        { image: "/images/project/seattle-kitchen/IMG_1570.webp" },
       ],
       gallery: [
-        {
-          image: "/images/project/seattle-kitchen/IMG_1567.webp",
-        },
-        {
-          image: "/images/project/seattle-kitchen/IMG_1568.webp",
-        },
-        {
-          image: "/images/project/seattle-kitchen/IMG_1570.webp",
-        },
         {
           image: "/images/project/seattle-kitchen/IMG_1572.webp",
           class: "col-span-3",
         },
       ],
       galleryDescription:
-        "Completed in just four weeks, this South Seattle kitchen renovation showcases Innate's commitment to quality, efficiency, and design excellence. Whether you're seeking a kitchen remodel in Seattle or a full-scale home renovation, our team brings deep experience and a collaborative approach to every custom project.",
+        `<strong>Ready to transform your kitchen?</strong> Contact Innate to discuss your kitchen remodeling designs and how we can create a space that works.`,
       projectSlider,
     },
     seo: {
-      title: "South Seattle Kitchen | Innate Renovation",
-      description: `This South Seattle kitchen renovation highlights how thoughtful design and skilled craftsmanship can completely transform a home's most used space. Custom cabinetry from Canyon Creek was carefully tailored to fit the needs of the homeowners, with specialized compartments for spices, pans, and baking trays. Large-format tile and quartz countertops add a modern aesthetic, while a radiant heated floor ensures comfort and function through Seattle's colder months.`,
+      title: "South Seattle Kitchen Remodel | Custom Cabinets | Innate",
+      description: `South Seattle kitchen renovation featuring custom Canyon Creek cabinetry, quartz countertops, and radiant heated floors. Completed in just four weeks.`,
     },
   },
   "desert-oasis": {
@@ -182,7 +196,7 @@ const projectData = {
         projectType: "New Construction",
       },
     ],
-    title: "",
+    title: "Palm Springs New Construction",
     defaultProjectDetails: {
       projectScope: [
         { key: "Scope", value: "Residential Design" },
@@ -191,23 +205,35 @@ const projectData = {
         
         { key: "General Contractor", value: "Innate" },
       ],
-      scopedescription: `This modern Palm Springs new construction project was designed as a true desert oasis—blending indoor-outdoor living with smart functionality and bold architectural features. The home centers around an open-concept kitchen, living, and dining space, framed by exposed roof beams and flooded with natural light through clerestory windows and full accordion doors that open to the courtyard. The new construction design captures the spirit of the desert while maximizing modern livability.`,
+      scopedescription: `his Palm Springs home was one of Innate's exciting new construction projects. The blend of indoor and outdoor living, with contemporary functionality and features, keeps the essence of desert modern living, honoring the region's architectural heritage. We designed and completed the house in just three months. This project demonstrates how to build a custom home with efficient planning and a clear vision.`,
       media: {
         desktop: "/images/project/desert-oasis/D5_Scene 6.webp",
       },
       description: [
-        `A custom kitchenette and clean-lined finishes give the interiors a refined but relaxed atmosphere. Outside, a detached ADU offers a private space for visiting family and serves as a future income opportunity, reflecting a thoughtful approach to multi-functional design. Metal roofing installation, natural light, and the open floor plan contribute to both energy efficiency and long-term flexibility for the homeowner.`,
+        `
+
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Desert Modern Design</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">The custom home design was inspired by Palm Springs' rich Desert Modernism tradition. At the heart sits an open-concept kitchen, living, and dining area where exposed roof beams create visual interest while maintaining the clean lines characteristic of modern desert architecture.</span></p>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We added clerestory windows to flood the interior space with natural light. To create a flexible transition between indoor and outdoor spaces, we installed full accordion doors along the main living area.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">The Detached ADU: Flexible Living</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">A key feature of this new home construction is the detached ADU (accessory dwelling unit). Strategically placed on the property, this separate structure serves multiple purposes. The detached ADU includes its own entrance, full bathroom, and kitchen facilities, functioning as a completely self-contained living space. For homeowners, the ADU represents both immediate utility and future opportunity. The ADU's design complements the main home's presence. To create visual flow across the property, we used similar materials, roof lines, and window treatments.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Materials Built for the Desert</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">The use of metal roofing across both the main residence and ADU provides practical advantages beyond its striking appearance. In Palm Springs' intense sun and high temperatures, metal roofing reflects heat rather than absorbing it.</span></p>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We kept the interior finishes refined rather than heavy materials that would not suit the Palm Springs' climate. The home features surfaces and textures that feel light, clean, and conducive to the indoor-outdoor living lifestyle. We also utilized natural materials like wood beams and stone accents.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Three-Month Design Timeline</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">It took us three months to complete the design phase for this custom new construction, which shows the value of communication and decision-making. From initial concept through final construction documents, the compressed timeline required focus and efficiency without sacrificing quality.</span></p>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We had an early alignment with the home's design philosophy. We tried to maintain a modern desert aesthetic, an indoor-outdoor emphasis, and include an ADU. We also provided a framework that guided subsequent decisions.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">A Modern Desert Home</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Thoughtful design meets desert modernism in this new Palm Springs custom build. By pairing efficient execution with a flexible detached ADU, we've created a home that delivers on today's comfort while securing the homeowner's future goals.</span></p>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Ready to explore custom home design?<br/><a href="/contact" style="text-decoration:underline;">Contact Innate</a> to discuss your vision for new home construction and how we can create spaces that seamlessly blend indoor and outdoor living.</span></p>
+        `,
+      ],
+      sideImages: [
+        { image: "/images/project/desert-oasis/D5_Scene 3.webp" },
+        { image: "/images/project/desert-oasis/D5_Scene 4.webp" },
+        { image: "/images/project/desert-oasis/D5_Scene 6.webp" },
       ],
       gallery: [
-        {
-          image: "/images/project/desert-oasis/D5_Scene 3.webp",
-        },
-        {
-          image: "/images/project/desert-oasis/D5_Scene 4.webp",
-        },
-        {
-          image: "/images/project/desert-oasis/D5_Scene 6.webp",
-        },
         {
           image: "/images/project/desert-oasis/D5_Scene 7.webp",
           class: "col-span-3",
@@ -227,8 +253,8 @@ const projectData = {
       projectSlider,
     },
     seo: {
-      title: "Desert Oasis | Innate Renovation",
-      description: `This modern Palm Springs new construction project was designed as a true desert oasis—blending indoor-outdoor living with smart functionality and bold architectural features. The home centers around an open-concept kitchen, living, and dining space, framed by exposed roof beams and flooded with natural light through clerestory windows and full accordion doors that open to the courtyard. The new construction design captures the spirit of the desert while maximizing modern livability.`,
+      title: "Palm Springs New Home Construction with Detached ADU | Innate",
+      description: `Modern Palm Springs new construction featuring open-concept design, indoor-outdoor living, detached ADU, and desert modern architecture. Completed in 3 months.`,
     },
   },
   "gray-bathroom": {
@@ -685,8 +711,8 @@ const projectData = {
   },
   "shoreline-residence": {
     seo: {
-      title: "Shoreline Residence | Innate Renovation",
-      description: `This Shoreline home renovation and addition project transformed a charming one-story residence into a spacious, multi-level family home. Designed for a young couple preparing for the next chapter of life, Innate led the design and construction of a new upper floor, full kitchen remodel, and outdoor living upgrades. The result is a warm, modern space that blends everyday function with lasting quality.`,
+      title: "Shoreline Second Story Addition & Kitchen Remodel | Innate",
+      description: `Here’s a comprehensive Shoreline home addition featuring a new second story, kitchen remodel, TimberTech deck, and StruXure louvered pergola. Learn more here.`,
     },
     defaultSlides: [
       {
@@ -701,7 +727,7 @@ const projectData = {
         projectType: "Renovation",
       },
     ],
-    title: "",
+    title: "Shoreline Home Addition: Second Story, Kitchen Remodel & Outdoor Living",
     defaultProjectDetails: {
       projectScope: [
         {
@@ -718,9 +744,28 @@ const projectData = {
           "/images/project/shoreline-residence/D5_front 01_20240625_010002.webp",
       },
       description: [
-        `The interior features refinished hardwood flooring, large-format tile in the bathrooms, and a newly remodeled kitchen tailored to the family's needs. Outdoors, a composite TimberTech deck and StruXure louvered pergola create a versatile space for year-round enjoyment, seamlessly expanding the home's living area. Every detail—from cabinetry layout to exterior transitions—was crafted for comfort, light, and longevity.`,
+        `
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">This Shoreline home transformation shows how a complete renovation can solve multiple needs. It can expand living space, update key rooms, and create functional outdoor areas. Innate designed this project for a young couple planning for their growing family. This project combined a new second-story addition, a full kitchen remodel, and outdoor living upgrades into one coordinated renovation.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Building Up: The Second-Story Addition</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">The existing single-story home was working well initially, but later, their house didn't have the space as their family grew. Instead of moving to a bigger house, the homeowners chose to build a home addition, which is a full second story with bedrooms, bathrooms, and flexible living areas while staying in their neighborhood.</span></p>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">The second-story addition required careful structural planning. We evaluated the existing foundation and framing to check if reinforcement was needed to support the extra weight. The roofline transitions, exterior materials, and window placements were designed to make the addition feel intentional.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Kitchen Remodel for a Growing Family</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">The original kitchen was sized for the smaller single-story home. We were required to match the expanded residence. This kitchen remodel addressed both functional needs and visual integration with the newly added spaces. We designed custom cabinetry to maximize storage, which was essential for a growing family.</span></p>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We chose materials that feature durability and style. From countertops to backsplash and flooring, the chosen materials can handle daily use while contributing to the warm, modern aesthetic throughout the home. We also integrated new appliances in the kitchen.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Creating Year-Round Outdoor Living Space</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">The outdoor part of this Shoreline home renovation was focused on extending living space beyond the walls. We replaced the old, deteriorating wood deck with a TimberTech composite deck, which provides a low-maintenance platform. It also performs well through Seattle's wet winters and dry summers. The composite decking resists moisture, won't splinter or rot, needs no staining or sealing, and looks good year after year with simple cleaning.</span></p>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">The StruXure louvered pergola deck transformed the fair-weather space into a four-season outdoor room. The adjustable louvers control the sun and rain. The French doors or large sliding glass panels connect the interior and exterior spaces. It makes the deck feel like a natural extension of the home.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Interior Finishes That Connect Everything</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Throughout this home addition, finish selections create visual flow between the original and new spaces. We refinished the hardwood flooring in the first-floor living areas. Where new flooring was installed, we matched existing floors to maintain consistency. The color palettes, trim details, and hardware were coordinated throughout.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Project Timeline and Communication</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Managing this second-story addition project with a kitchen remodel and outdoor construction, we required detailed scheduling and clear communication. All the material lead times, permit approvals, inspections, and trade coordination needed careful planning to keep work moving.</span></p>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Innate maintained close contact with the homeowners throughout, keeping them informed about progress and addressing questions. For a young couple living through a major renovation while planning their family's future, clear communication made the process manageable.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">A Home Ready for What's Next</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">This Shoreline home renovation delivered the space to grow into, a kitchen that works as the home's hub, and outdoor areas that extend their living space most of the year, which is what the couple needed. The project shows how complete home additions and renovations can transform a property without moving.</span></p>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;"><strong>Ready to expand your home?</strong><br/><a href="/contact" style="text-decoration:underline;">Contact Innate</a> to discuss your second-story addition, kitchen remodel, or home renovation plans.</span></p>
+        `,
       ],
-      gallery: [
+      sideImages: [
         {
           image:
             "/images/project/shoreline-residence/D5_Scene 21 1_20240628_105629.webp",
@@ -734,7 +779,7 @@ const projectData = {
             "/images/project/shoreline-residence/D5_Scene 23 1_20240628_085609.webp",
         },
       ],
-      galleryDescription: `This Shoreline project exemplifies Innate's holistic approach to residential renovations, combining kitchen remodeling, outdoor design, and new construction under one cohesive plan. Whether you're planning an addition or remodeling your current home, we bring design precision and build excellence to every square foot.`,
+      gallery: [],
       projectSlider: [
         {
           image: slider1,
@@ -998,8 +1043,8 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
   "magnolia-bathroom": {
     seo: {
       title:
-        "Magnolia Seattle Bathroom Remodel | Historic Craftsman Renovation",
-      description: `See how Innate refreshed a historic Magnolia Craftsman bathroom with marble tile, custom frameless glass, and brass fixtures. This one-month bathroom remodel repaired water damage while preserving the home’s original charm.`,
+        "Historic Craftsman Bathroom Remodel Magnolia Seattle | Innate",
+      description: `A Magnolia bathroom renovation project for a Craftsman home. We restored a water-damaged bathroom with marble tile, brass fixtures, & period-appropriate design.`,
     },
     defaultSlides: [
       {
@@ -1014,7 +1059,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         projectType: "Bathroom Remodel",
       },
     ],
-    title: "",
+    title: "Magnolia Seattle Bathroom Remodel",
     defaultProjectDetails: {
       projectScope: [
         {
@@ -1029,40 +1074,43 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
         },
         { key: "General Contractor", value: "Innate" },
       ],
-      scopedescription: `This Magnolia Seattle bathroom renovation showcases how a careful balance of preservation and modernization can breathe new life into a historic Craftsman home. Tasked with refreshing a bathroom that had suffered water damage, our team’s goal was to maintain the original character of the home while updating the space with durable, timeless finishes.`,
+      scopedescription: `This Magnolia bathroom renovation shows how structural problems can be fixed while keeping a home historic. After the water damage ruined this Craftsman home’s original bathroom, we completed a full bathroom remodel. We also kept the home’s early 1900s look while adding durable materials and updated systems.`,
 
       description: [
-        `The renovation features marble tile, custom frameless glass, and warm brass fixtures that complement the home’s historic aesthetic. Each selection was chosen not only for its elegance but also for its ability to respect the home’s original architecture. By integrating these updates seamlessly, the bathroom feels both renewed and in harmony with the rest of the Craftsman design. This Seattle bathroom remodel also required thoughtful restoration work. Our craftsmen repaired water damage while ensuring structural integrity and moisture protection for the long term. The result is a bathroom that retains the charm of its past while offering modern function and beauty.`,
+        `
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Fixing Water Damage First</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We started by checking all the structural damage. We found that water had affected the framing, subfloor, and wall cavities. We had to remove everything that was damaged before any new work could start. Our team carefully documented original details during demolition. We took photos of trim, door frames, and other elements that would help with restoration decisions.</span></p>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">During structural repairs, the compromised floor joists and wall framing were fixed. The bathroom now supports new finishes and fixtures properly. We added strong waterproofing systems throughout. It was important since water damage caused this problem in the first place. We continued working on professional-grade membranes, and proper drainage and moisture barriers were installed at every vulnerable spot, from the shower pan to wall assemblies to floor transitions.</span></p>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">This foundation work is invisible in the finished bathroom, but it was the most necessary part of this Seattle bathroom remodel. Without proper structure and moisture protection, even beautiful finishes wouldn’t have worked.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Materials That Match Craftsman Style</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">In historic home renovation, we focused on matching the home’s original look. We chose marble tile with realistic stone patterns and soft colors, which feel authentic while being durable enough.</span></p>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Later, the custom frameless glass was installed. While not historically accurate to the early Craftsman homes (which rarely had showers). The warm brass fixtures throughout this Craftsman bathroom provide the finishing touch that connects modern updates to historic style.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Keeping Original Details</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Beyond materials, this bathroom renovation prioritized preserving original architectural elements. We protected the existing window trim, door casings, and baseboard profiles during the construction. We didn’t change the ceiling height, window placement, or overall room size. We worked within the existing footprint without expanding or changing things.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">One-Month Timeline</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We completed this bathroom remodel in Seattle in one month. It required detailed planning, structural repairs, waterproofing installation, custom tile work, and finish carpentry. This all work needed careful timing, so we created a construction schedule that kept everyone moving efficiently without compromising quality.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">The Result: Character Kept, Function Improved</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">In this Magnolia bathroom renovation, we remodeled the damaged space into a bathroom that would work reliably for a long time. The marble tile, brass fixtures, and attention to architectural details created a craftsman’s style space.</span></p>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;"><strong>Ready to renovate your historic home’s bathroom?</strong><br/><a href="/contact" style="text-decoration:underline;">Contact Innate</a> to discuss your bathroom remodel today.</span></p>
+        `,
+      ],
+      sideImages: [
+        { image: "/images/project/magnolia-bathroom/6L1A0738_websize.webp" },
+        { image: "/images/project/magnolia-bathroom/6L1A0741_websize.webp" },
+        { image: "/images/project/magnolia-bathroom/6L1A0744_websize.webp" },
       ],
       gallery: [
-        {
-          image: "/images/project/magnolia-bathroom/6L1A0713_websize.webp",
-        },
-        {
-          image: "/images/project/magnolia-bathroom/6L1A0718_websize.webp",
-        },
-        {
-          image: "/images/project/magnolia-bathroom/6L1A0727_websize.webp",
-        },
         {
           image: "/images/project/magnolia-bathroom/6L1A0731_websize.webp",
           class: "col-span-3 aspect-[4/2]",
         },
-        {
-          image: "/images/project/magnolia-bathroom/6L1A0738_websize.webp",
-        },
-        {
-          image: "/images/project/magnolia-bathroom/6L1A0741_websize.webp",
-        },
-        {
-          image: "/images/project/magnolia-bathroom/6L1A0744_websize.webp",
-        },
+
         {
           image: "/images/project/magnolia-bathroom/6L1A0751_websize.webp",
           class: "col-span-3 aspect-[4/2]",
         },
       ],
-      galleryDescription: `Completed in just one month, this Magnolia bathroom renovation reflects Innate’s commitment to detail, craftsmanship, and respect for the unique history of Seattle’s homes. Whether you’re updating a single bathroom or planning a whole home remodel, our team delivers thoughtful design and quality construction at every stage.`,
+      
       projectSlider: [
         {
           image: slider1,

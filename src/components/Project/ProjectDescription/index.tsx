@@ -113,34 +113,64 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
               )}
             </div>
           )}
-          <div className="flex flex-col gap-2">
-            {projectDetails?.description.map((d: any, key: number) => (
-              <div
-                className="text-[#D9D9D9] font-normal mob:text-[14px]"
-                key={key}
-                dangerouslySetInnerHTML={{ __html: d || "" }}
-              ></div>
-            ))}
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-[10px] mob:gap-4">
-            {projectDetails.gallery.map((image: any, index: any) => (
-              <div
-                key={index}
-                className={cn(
-                  image.class, 
-                  "w-full mob:col-span-3 relative rounded-[10px] overflow-hidden",
-                  // Default aspect ratio for gallery items
-                  !image.class?.includes('aspect-') && "aspect-[4/3]"
-                )}
-                style={{
-                  backgroundImage: `url(${image.image})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                  backgroundRepeat: 'no-repeat'
-                }}
-              />
-            ))}
-          </div>
+          {projectDetails?.sideImages?.length > 0 ? (
+            <div className="grid grid-cols-3 mob:grid-cols-1 gap-8">
+              <div className="col-span-2 mob:col-span-1 flex flex-col gap-2">
+                {projectDetails?.description.map((d: any, key: number) => (
+                  <div
+                    className="text-[#D9D9D9] font-normal mob:text-[14px]"
+                    key={key}
+                    dangerouslySetInnerHTML={{ __html: d || "" }}
+                  ></div>
+                ))}
+              </div>
+              <div className="col-span-1 mob:col-span-1 flex flex-col">
+                {projectDetails.sideImages.map((image: any, index: number) => (
+                  <div
+                    key={index}
+                    className="w-full rounded-[10px] overflow-hidden aspect-[4/3] mb-[1em]"
+                    style={{
+                      backgroundImage: `url('${image.image}')`,
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center',
+                      backgroundRepeat: 'no-repeat'
+                    }}
+                  />
+                ))}
+              </div>
+            </div>
+          ) : (
+            <div className="flex flex-col gap-2">
+              {projectDetails?.description.map((d: any, key: number) => (
+                <div
+                  className="text-[#D9D9D9] font-normal mob:text-[14px]"
+                  key={key}
+                  dangerouslySetInnerHTML={{ __html: d || "" }}
+                ></div>
+              ))}
+            </div>
+          )}
+          {projectDetails.gallery?.length > 0 && (
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-[10px] mob:gap-4">
+              {projectDetails.gallery.map((image: any, index: any) => (
+                <div
+                  key={index}
+                  className={cn(
+                    image.class,
+                    "w-full mob:col-span-3 relative rounded-[10px] overflow-hidden",
+                    // Default aspect ratio for gallery items
+                    !image.class?.includes('aspect-') && "aspect-[4/3]"
+                  )}
+                  style={{
+                    backgroundImage: `url('${image.image}')`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat'
+                  }}
+                />
+              ))}
+            </div>
+          )}
           <div>
             <div
               className="text-[#D9D9D9] font-normal mob:text-[14px]"
@@ -181,22 +211,20 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
             <div className="flex flex-col md:items-end justify-center ">
               <div className="md:max-w-[441px]">
                 <Text className="self-center">
-                  My love of architecture began at a very young age. As a child
-                  growing up in Australia I would create structures with blocks
-                  and sketch my dream house. Many years later I found myself
-                  studying architecture at the Community College of Denver where
-                  I discovered the timeless art of hand drafting. Although we
-                  fully embrace the capabilities of modern technology at Innate,
-                  I believe something profound occurs when you put pencil to
-                  paper. It’s a tactile connection that brings a unique
-                  authenticity to every project we do. Since our inception, our
-                  philosophy has always been to enhance the quality of life of
-                  our clients. By collaborating with architects, engineers and
-                  craftsmen that share our values, I have formed a
-                  multi-disciplinary firm capable of handling the entire project
-                  from initial concept to finished construction. I believe that
-                  when design is both functional and beautiful, it can have the
-                  most impact on peoples lives.
+                  My love of architecture started at a very young age. As a child
+                  growing up in Australia, I would create structures with blocks
+                  and sketch my dream house. Years later, I studied architecture
+                  at the Community College of Denver, where I discovered the
+                  timeless art of hand drafting. Although we fully embrace modern
+                  technology at Innate, I believe something special happens when
+                  you put pencil to paper. It’s a tactile connection that brings
+                  authentic quality to every project we do.
+                  <br /><br />
+                  Since Innate started, our philosophy has been simple: it is our
+                  mission to enhance our clients’ quality of life. We collaborate
+                  with architects, engineers, and craftsmen who share our values.
+                  Innate is a multi-disciplinary firm capable of handling entire
+                  projects from initial concept to finished construction.
                 </Text>
                 <Link href="/onboarding">
                   <button
