@@ -1,10 +1,9 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Text from "@/components/ui/Text";
 import Swal from "sweetalert2";
 
 import arrow from "@/public/images/onboarding/majesticons_arrow-up-line.png";
-import user from "@/public/images/onboarding/users-01.png";
 
 interface Step6Props {
   onNext: () => void;
@@ -13,63 +12,18 @@ interface Step6Props {
 }
 
 const Step6: React.FC<Step6Props> = ({ onNext, onPrevious, onChange }) => {
-  const autoCompleteRef = useRef<HTMLInputElement | null>(null);
-  const autoComplete = useRef<google.maps.places.Autocomplete | null>(null);
   const [address, setAddress] = useState<string>("");
-  const [addressSelected, setAddressSelected] = useState<boolean>(false);
 
   useEffect(() => {
     const savedData = sessionStorage.getItem("step6");
     if (savedData) {
       setAddress(savedData);
-      setAddressSelected(true); // Keep message visible if data exists
     }
-
-    const loadScript = (url: string, callback: () => void) => {
-      if (document.querySelector(`script[src="${url}"]`)) {
-        if (window.google) callback();
-        return;
-      }
-
-      const script = document.createElement("script");
-      script.src = url;
-      script.async = true;
-      script.defer = true;
-      script.onload = () => {
-        if (window.google) callback();
-      };
-      document.head.appendChild(script);
-    };
-
-    const handleScriptLoad = () => {
-      if (!autoCompleteRef.current || !window.google?.maps) return;
-
-      autoComplete.current = new window.google.maps.places.Autocomplete(autoCompleteRef.current);
-
-      autoComplete.current.addListener("place_changed", () => {
-        const place = autoComplete.current?.getPlace();
-        if (place?.formatted_address) {
-          setAddress(place.formatted_address);
-          setAddressSelected(true); // Mark as selected from dropdown
-          onChange({ address: place.formatted_address });
-          sessionStorage.setItem("step6", place.formatted_address);
-        }
-      });
-    };
-
-    if (!window.google) {
-      loadScript(
-        "https://maps.googleapis.com/maps/api/js?key=AIzaSyD0A5Ma5HEzqdRzsRoh6TzvpwWPZ0UqP6s&libraries=places",
-        handleScriptLoad
-      );
-    } else {
-      handleScriptLoad();
-    }
-  }, [onChange]);
+  }, []);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setAddress(e.target.value);
-    setAddressSelected(false); // Reset selection status when user types
+    onChange({ address: e.target.value });
   };
 
   const handleNextClick = () => {
@@ -98,25 +52,12 @@ const Step6: React.FC<Step6Props> = ({ onNext, onPrevious, onChange }) => {
             Construction costs are highly dependent on your location. Share your address so we can give you a tailored estimate.
           </Text>
           <input
-            ref={autoCompleteRef}
             placeholder="Address"
             type="text"
             value={address}
             onChange={handleInputChange}
             className="pl-4 mt-7 w-full max-w-[900px] h-[60px] border border-[#FFFFFF3D] bg-transparent outline-none text-white text-[16px] placeholder:text-[16px] placeholder:text-white"
           />
-          <div className="flex gap-[12px] mt-5">
-            <Image src={user} alt="" className="w-[24px] h-[24px]" />
-
-            {addressSelected && (
-              <>
-                <Text className="text-[16px] font-normal mob:text-[14px]">
-                  4 of your neighbors are currently working on projects with Innate.
-                </Text>
-              </>
-            )}
-          </div>
-
         </div>
 
         <div className="flex mob:flex-wrap justify-end mt-5">
