@@ -5,6 +5,7 @@ export interface MediaItem {
 }
 
 export interface SlideData {
+  hidden?: boolean;
   title: string;
   location: string;
   description?: string;
@@ -84,7 +85,7 @@ export const slidesData: SlideData[] = [
     },
   },
   {
-    title: "Freitas Kitchen & Bathroom Remodel",
+    title: "Capitol Hill – Seattle, Washington",
     location: "Seattle, Washington",
     url: "/project/freitas-kitchen-bathroom",
     media: [
@@ -188,6 +189,7 @@ export const slidesData: SlideData[] = [
     },
   },
   {
+    hidden: true,
     title: "Freitas Bathroom",
     location: "Capitol Hill – Seattle, Washington",
     url: "/project/freitas-kitchen-bathroom",

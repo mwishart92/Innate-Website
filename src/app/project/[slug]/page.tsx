@@ -812,8 +812,8 @@ const projectData = {
   "freitas-kitchen-bathroom": {
     seo: {
       title:
-        "Capitol Hill Bathroom Remodel & Kitchen Renovation | Innate Seattle",
-      description: `A top-floor Capitol Hill bathroom and kitchen remodel in Seattle featuring marble mosaic tile, a wall-mounted vanity, gold fixtures, and space-saving design. Completed by Innate.`,
+        "Freitas Bathroom & Kitchen Remodel in Capitol Hill | Innate",
+      description: `Explore this Capitol Hill apartment bathroom renovation featuring marble mosaic tile, a wall-mounted vanity, and space-saving design. Book your Seattle remodel.`,
     },
     title: "Freitas Bathroom & Kitchen Remodel – Capitol Hill, Seattle",
     defaultSlides: [

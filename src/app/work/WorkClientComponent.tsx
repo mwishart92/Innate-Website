@@ -4,7 +4,9 @@ import Navbar from "@/components/Navbar";
 import FooterContent from "@/components/Footer/content";
 import ReactFullpage from "@fullpage/react-fullpage";
 import WorkSlider from "@/components/Work/WorkSlider";
-import { slidesData } from "@/data/workSlides";
+import { slidesData as allSlidesData } from "@/data/workSlides";
+
+const slidesData = allSlidesData.filter((s) => !s.hidden);
 import "./Work.css";
 import { Metadata } from "next";
 import MediaSlide from "@/components/Work/MediaSlide";
