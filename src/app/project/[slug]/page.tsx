@@ -911,7 +911,7 @@ const projectData = {
           class: "col-span-3 aspect-[4/2]",
         },
       ],
-      galleryDescription: `This Capitol Hill renovation showcases Innate’s ability to deliver high-quality bathroom and kitchen remodels in tight urban settings. Whether working within a small condo or a historic apartment, our team brings thoughtful design, precision execution, and elevated finishes to every project.`,
+      
       projectSlider: [
         {
           image: slider1,
