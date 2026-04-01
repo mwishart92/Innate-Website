@@ -870,19 +870,29 @@ const projectData = {
         desktop: "/images/project/freitas-kitchen/6L1A1563_websize.jpg",
       },
       description: [
-        `The bathroom remodel features marble mosaic tile, a wall-mounted vanity, and a sliding glass shower door designed to conserve space without sacrificing style. Matching gold trim and thoughtfully selected fixtures from West Elm and Rejuvenation bring warmth, cohesion, and a modern sensibility to the compact footprint. Every detail was intentionally chosen to maximize light, openness, and efficiency.
-`,
+        `
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Handling Urban Renovation Challenges</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We faced unique challenges while renovating this bathroom in one of Capitol Hill's historic apartments. For every material, fixture, and bathroom renovation tool, we had to travel up multiple flights of stairs. There were no freight elevators and no loading docks—just careful planning and manual carrying of everything from marble tile bathroom materials to the wall-mounted vanity.</span></p>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We scheduled deliveries to minimize trips and coordinated with building management on work hours, keeping the schedules of neighbors in mind. These considerations add complexity to apartment bathroom renovation projects, but managing them prevented conflicts and kept work moving smoothly.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Maximizing Function in Tight Spaces</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">This compact bathroom and kitchen remodel shows that space-efficient design principles are essential in Capitol Hill's small apartments. The original layout felt dated, with a bulky vanity and a wasted shower space. We installed the wall-mounted vanity, which freed up space at floor level. We replaced a space-hogging swinging door with sliding glass shower doors.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Materials That Add Character and Last</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Marble mosaic tile anchors the bathroom's refined look while handling practical needs. The small mosaic format provides excellent slip resistance in wet areas. We added gold bathroom fixtures throughout to create warmth and match the historic apartment's character. We applied brass-toned selections, rather than trendy finishes that might feel dated soon. These material choices weren't about following trends but creating a bathroom that fits its setting.</span></p>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Innate preserved existing door casings and window trim, refinishing rather than replacing elements in good condition. We transitioned new tile work to existing finishes, maintaining clean lines throughout. This approach sets thoughtful apartment renovations apart from generic updates that ignore their surroundings. The bathroom now functions smoothly, like a part of a historic Capitol Hill residence.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Carefully Selected Fixtures</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We selected the fixtures from West Elm and Rejuvenation. These retailers have balanced design quality with practical options. West Elm provided contemporary pieces, and Rejuvenation offered historically appropriate lighting and hardware.</span></p>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">These sources provided fixtures that scaled right in a compact bathroom design. The oversized elements that work in spacious suburban bathrooms dominate this Seattle bathroom remodel. The selection process involved evaluating dozens of options to find pieces that worked together while meeting practical requirements.</span></p>
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Experience with Urban Apartment Projects</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">This Capitol Hill renovation showcases Innate's ability to deliver high-quality bathroom and kitchen remodels in tight urban settings. Whether working within a small condo or a historic apartment, our team brings thoughtful design, precision execution, and elevated finishes to every project.</span></p>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Ready to transform your small apartment bathroom? <a href="/contact" style="text-decoration:underline;">Contact Innate</a> to discuss your bathroom remodel ideas.</span></p>
+        `,
+      ],
+      sideImages: [
+        { image: "/images/project/freitas-kitchen/6L1A1556_websize.jpg" },
+        { image: "/images/project/freitas-kitchen/6L1A1562_websize.jpg" },
+        { image: "/images/project/freitas-kitchen/6L1A1577_websize.jpg" },
       ],
       gallery: [
-        {
-          image: "/images/project/freitas-kitchen/6L1A1556_websize.jpg",
-        },
-        {
-          image: "/images/project/freitas-kitchen/6L1A1562_websize.jpg",
-        },
-        {
-          image: "/images/project/freitas-kitchen/6L1A1577_websize.jpg",
-        },
         {
           image: "/images/project/freitas-kitchen/6L1A1603_websize.jpg",
           class: "col-span-3 aspect-[4/2]",
