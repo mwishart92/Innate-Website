@@ -85,8 +85,8 @@ export const slidesData: SlideData[] = [
     },
   },
   {
-    title: "Capitol Hill – Seattle, Washington",
-    location: "Seattle, Washington",
+    title: "Freitas Bathroom & Kitchen Remodel",
+    location: "Capitol Hill – Seattle, Washington",
     url: "/project/freitas-kitchen-bathroom",
     media: [
       {
