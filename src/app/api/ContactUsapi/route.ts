@@ -14,11 +14,11 @@ export async function POST(req: NextRequest) {
     if (!process.env.BREVO_API_KEY) {
       return NextResponse.json(
         { error: "Server configuration error - missing API key" },
-        { status: 500 }
+        { status: 500 },
       );
     }
 
-    const email = "info@innate-aec.com";
+    const email = "michael@innate-aec.com";
     const sendSmtpEmail = new brevo.SendSmtpEmail();
 
     sendSmtpEmail.to = [{ email }, { email: process.env.BREVO_TO_EMAIL }];
@@ -49,7 +49,7 @@ export async function POST(req: NextRequest) {
           message: "Error processing request",
           error: error,
         },
-        { status: 400 }
+        { status: 400 },
       );
     }
   } catch (error: unknown) {
@@ -59,13 +59,13 @@ export async function POST(req: NextRequest) {
       console.error("Error sending email:", error);
       return NextResponse.json(
         { message: "Error processing request", error: error.message },
-        { status: 400 }
+        { status: 400 },
       );
     } else {
       console.error("Unexpected error:", error);
       return NextResponse.json(
         { message: "Unexpected error", error: "Unknown error occurred" },
-        { status: 400 }
+        { status: 400 },
       );
     }
   }
