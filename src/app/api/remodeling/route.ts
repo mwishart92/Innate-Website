@@ -18,7 +18,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const email = "info@innate-aec.com";
+    const email = "michael@innate-aec.com";
     const michaelEmail = "michael@innate-aec.com";
     const sendSmtpEmail = new brevo.SendSmtpEmail();
 
