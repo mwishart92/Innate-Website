@@ -10,3 +10,6 @@ node_modules
 *.mp4
 *.webm
 .env
+.claude/worktrees/competent-thompson/
+.claude/worktrees/fervent-knuth/
+.claude/worktrees/eloquent-davinci/
