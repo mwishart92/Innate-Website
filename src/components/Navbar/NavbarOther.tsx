@@ -165,6 +165,16 @@ const NavbarOther = () => {
                       </Link>
                     </li>
                     <li>
+                      <a
+                        href="https://careers.innate-aec.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block text-[16px] font-inter font-light leading-[25.5px] text-[#FFFFFF]"
+                      >
+                        Careers
+                      </a>
+                    </li>
+                    <li>
                       <Link
                         href="/contact"
                         onClick={() => handleTabChange("/contact")}
@@ -269,6 +279,18 @@ const NavbarOther = () => {
                             Press
                           </li>
                         </Link>
+                        <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
+
+                        <a
+                          href="https://careers.innate-aec.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block  text-[20px] font-inter font-medium leading-[25.5px] text-[#FFFFFF]"
+                        >
+                          <li className="flex justify-center py-[15px] list-items">
+                            Careers
+                          </li>
+                        </a>
                         <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
 
                         <Link

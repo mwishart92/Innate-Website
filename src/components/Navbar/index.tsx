@@ -211,6 +211,16 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <li>
+                      <a
+                        href="https://careers.innate-aec.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block text-[16px] font-inter font-light leading-[25.5px] hover:text-[#2CFF06] text-[#FFFFFF]"
+                      >
+                        Careers
+                      </a>
+                    </li>
+                    <li>
                       <Link
                         href="/contact"
                         onClick={() => handleTabChange("/contact")}
@@ -351,6 +361,16 @@ const Navbar = () => {
                         >
                           <li className="flex ms-5 py-[15px] ">Press</li>
                         </Link>
+                        {/* <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr> */}
+
+                        <a
+                          href="https://careers.innate-aec.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block  text-[19px] font-inter font-normal leading-[25.5px] text-[#FFFFFF] hover:text-[#2CFF06]"
+                        >
+                          <li className="flex ms-5 py-[15px] ">Careers</li>
+                        </a>
                         {/* <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr> */}
 
                         <Link
