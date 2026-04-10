@@ -1,5 +1,5 @@
 export interface MediaItem {
-  src: string;
+  src: string | string[];
   type: "image" | "video";
   mobilePlaceholder?: string;
 }
@@ -24,7 +24,10 @@ export const slidesData: SlideData[] = [
     url: "/project/bellevue-bathroom",
     media: [
       {
-        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/10.15_Innate%20Bathroom%20Remodel%20Finished%20Work_16x9.webm?alt=media&token=bb8b82d5-a81d-4c31-9693-8e6ccea5f00b",
+        src: [
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/10.15_Innate%20Bathroom%20Remodel%20Finished%20Work_16x9.webm?alt=media&token=bb8b82d5-a81d-4c31-9693-8e6ccea5f00b",
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/10.15_Innate%20Bathroom%20Remodel%20Finished%20Work_16x9.mp4?alt=media&token=f3db2ee1-60f8-468d-849a-fb3dd4c8df80",
+        ],
         type: "video",
         mobilePlaceholder: "/images/work/bellevue_mob.jpg",
       },
@@ -41,7 +44,10 @@ export const slidesData: SlideData[] = [
     url: "/project/kenmore-bathroom",
     media: [
       {
-        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/kenmore.webm?alt=media&token=6c9d916f-0ee6-42c5-bb74-1afa028482cf",
+        src: [
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/kenmore.webm?alt=media&token=6c9d916f-0ee6-42c5-bb74-1afa028482cf",
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/kenmore%20(1).mp4?alt=media&token=013b9271-b516-4358-8512-aa0aeec55742",
+        ],
         type: "video",
         mobilePlaceholder:
           "/images/project/kenmore-bathroom/6L1A1295_websize.jpg",
@@ -59,7 +65,10 @@ export const slidesData: SlideData[] = [
     url: "/project/woodinville-primary-and-guest-bathroom",
     media: [
       {
-        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Woodinville_bathroom.webm?alt=media&token=ba204823-d94b-4239-bcb2-0919b702ca40",
+        src: [
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Woodinville_bathroom.webm?alt=media&token=ba204823-d94b-4239-bcb2-0919b702ca40",
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Woodinville_bathroom%20(1).mp4?alt=media&token=234d35f2-3d7b-4460-9274-1fbf9a5d2080",
+        ],
         type: "video",
       },
     ],
@@ -75,7 +84,10 @@ export const slidesData: SlideData[] = [
     url: "/project/enumclaw-full-home-remodel",
     media: [
       {
-        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/enumclaw.webm?alt=media&token=0477f2bb-4bb9-4df4-94b5-130347b7fd4c",
+        src: [
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/enumclaw.webm?alt=media&token=0477f2bb-4bb9-4df4-94b5-130347b7fd4c",
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/enumclaw%20(1).mp4?alt=media&token=4f78ff03-6b96-4b3e-8c6e-d4877e4f0746",
+        ],
         type: "video",
       },
     ],
@@ -90,7 +102,10 @@ export const slidesData: SlideData[] = [
     url: "/project/freitas-kitchen-bathroom",
     media: [
       {
-        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Freitas%20Kitchen.webm?alt=media&token=49c036c5-9b2f-4f7c-adfb-b88ea4d16195",
+        src: [
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Freitas%20Kitchen.webm?alt=media&token=49c036c5-9b2f-4f7c-adfb-b88ea4d16195",
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Freitas%20Kitchen%20(1).mp4?alt=media&token=aa42ba2b-c151-49c8-8d7b-697cbe2d4b03",
+        ],
         type: "video",
       },
     ],
@@ -106,7 +121,10 @@ export const slidesData: SlideData[] = [
     url: "/project/west-seattle-residence",
     media: [
       {
-        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_Exterior-Bathroom.webm?alt=media&token=7d3e8e66-5096-4731-ac14-77755a3831c6",
+        src: [
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_Exterior-Bathroom.webm?alt=media&token=7d3e8e66-5096-4731-ac14-77755a3831c6",
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_Exterior-Bathroom.mp4?alt=media&token=8b05df72-4b7b-4796-bbba-18e9a09f5ed2",
+        ],
         type: "video",
         mobilePlaceholder: "/images/project/west-seattle-residence/ws_mob.jpg",
       },

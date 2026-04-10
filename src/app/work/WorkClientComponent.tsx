@@ -17,7 +17,7 @@ const Work: React.FC = () => {
 
   useEffect(() => {
     const checkMobile = () => {
-      setIsMobile(typeof window !== "undefined" && window.innerWidth <= 767);
+      setIsMobile(typeof window !== "undefined" && window.innerWidth <= 1024);
     };
     checkMobile();
     window.addEventListener("resize", checkMobile);
@@ -54,7 +54,7 @@ const Work: React.FC = () => {
         <ReactFullpage
           scrollingSpeed={900}
           credits={{ enabled: false }}
-          responsiveWidth={767}
+          responsiveWidth={1024}
           css3={false}
           licenseKey={"WNN87-N7JCH-4J73I-UUSNK-EVVMM"}
           controlArrowsHTML={[
