@@ -34,7 +34,7 @@ const HeroAbout = () => {
         data-aos-duration="1000"
         data-aos-delay="200"
       >
-        Our Team
+        Team + Partners
       </Text>
 
       <div className="w-full max-w-full px-16 mob:px-0 grid grid-cols-4 mob:grid-cols-1 gap-[25px] justify-center items-start pt-16 pb-[314px] mob:pt-12 mob:pb-[346px]">
