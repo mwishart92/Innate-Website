@@ -113,7 +113,70 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
               )}
             </div>
           )}
-          {projectDetails?.sideImages?.length > 0 ? (
+          {projectDetails?.sideImages?.length > 0 && projectDetails?.alternatingLayout ? (
+            <div className="flex flex-col gap-12">
+              {/* Row 1: 50% text left, 50% image right */}
+              <div className="grid grid-cols-2 mob:grid-cols-1 gap-8 items-center">
+                <div className="flex flex-col gap-2">
+                  <div
+                    className="text-[#D9D9D9] font-normal mob:text-[14px]"
+                    dangerouslySetInnerHTML={{ __html: projectDetails.description[0] || "" }}
+                  />
+                </div>
+                <div>
+                  <div
+                    className="w-full rounded-[10px] overflow-hidden aspect-[4/3]"
+                    style={{
+                      backgroundImage: `url('${projectDetails.sideImages[0]?.image}')`,
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center',
+                      backgroundRepeat: 'no-repeat'
+                    }}
+                  />
+                </div>
+              </div>
+              {/* Row 2: 50% image left, 50% text right */}
+              <div className="grid grid-cols-2 mob:grid-cols-1 gap-8 items-center">
+                <div>
+                  <div
+                    className="w-full rounded-[10px] overflow-hidden aspect-[4/3]"
+                    style={{
+                      backgroundImage: `url('${projectDetails.sideImages[1]?.image}')`,
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center',
+                      backgroundRepeat: 'no-repeat'
+                    }}
+                  />
+                </div>
+                <div className="flex flex-col gap-2">
+                  <div
+                    className="text-[#D9D9D9] font-normal mob:text-[14px]"
+                    dangerouslySetInnerHTML={{ __html: projectDetails.description[1] || "" }}
+                  />
+                </div>
+              </div>
+              {/* Row 3: 50% text left, 50% image right */}
+              <div className="grid grid-cols-2 mob:grid-cols-1 gap-8 items-center">
+                <div className="flex flex-col gap-2">
+                  <div
+                    className="text-[#D9D9D9] font-normal mob:text-[14px]"
+                    dangerouslySetInnerHTML={{ __html: projectDetails.description[2] || "" }}
+                  />
+                </div>
+                <div>
+                  <div
+                    className="w-full rounded-[10px] overflow-hidden aspect-[4/3]"
+                    style={{
+                      backgroundImage: `url('${projectDetails.sideImages[2]?.image}')`,
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center',
+                      backgroundRepeat: 'no-repeat'
+                    }}
+                  />
+                </div>
+              </div>
+            </div>
+          ) : projectDetails?.sideImages?.length > 0 ? (
             <div className="grid grid-cols-3 mob:grid-cols-1 gap-8">
               <div className="col-span-2 mob:col-span-1 flex flex-col gap-2">
                 {projectDetails?.description.map((d: any, key: number) => (
