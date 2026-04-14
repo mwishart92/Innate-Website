@@ -213,6 +213,17 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
               ))}
             </div>
           )}
+          {projectDetails?.descriptionCtaButton && (
+            <Link href={projectDetails.descriptionCtaButton.href}>
+              <button
+                type="button"
+                className="w-[172.63px] h-[50px] mt-4 border border-white text-white hover:bg-white hover:text-black hover:border-black text-[16px] font-medium flex items-center justify-center gap-1"
+              >
+                {projectDetails.descriptionCtaButton.text}
+                <Image src={rightarrow} alt="" width={18} height={18} />
+              </button>
+            </Link>
+          )}
           {projectDetails.gallery?.length > 0 && (
             <div className="grid grid-cols-1 md:grid-cols-3 gap-[10px] mob:gap-4">
               {projectDetails.gallery.map((image: any, index: any) => (

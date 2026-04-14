@@ -767,9 +767,10 @@ const projectData = {
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Innate maintained close contact with the homeowners throughout, keeping them informed about progress and addressing questions. For a young couple living through a major renovation while planning their family's future, clear communication made the process manageable.</span></p>
 <h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">A Home Ready for What's Next</h2>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">This Shoreline home renovation delivered the space to grow into, a kitchen that works as the home's hub, and outdoor areas that extend their living space most of the year, which is what the couple needed. The project shows how complete home additions and renovations can transform a property without moving.</span></p>
-<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;"><strong>Ready to expand your home?</strong><br/><a href="/contact" style="text-decoration:underline;">Contact Innate</a> to discuss your second-story addition, kitchen remodel, or home renovation plans.</span></p>
         `,
       ],
+      galleryDescription: `<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2 text-center">Ready to expand your home?</h2><p class="text-center" style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Contact Innate to discuss your second-story addition, kitchen remodel, or home renovation plans.</span></p>`,
+      galleryCtaButton: { text: "Contact Innate", href: "/onboarding" },
       sideImages: [
         {
           image:
@@ -1111,9 +1112,10 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We completed this bathroom remodel in Seattle in one month. It required detailed planning, structural repairs, waterproofing installation, custom tile work, and finish carpentry. This all work needed careful timing, so we created a construction schedule that kept everyone moving efficiently without compromising quality.</span></p>
 <h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">The Result: Character Kept, Function Improved</h2>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">In this Magnolia bathroom renovation, we remodeled the damaged space into a bathroom that would work reliably for a long time. The marble tile, brass fixtures, and attention to architectural details created a craftsman’s style space.</span></p>
-<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;"><strong>Ready to renovate your historic home’s bathroom?</strong><br/><a href="/contact" style="text-decoration:underline;">Contact Innate</a> to discuss your bathroom remodel today.</span></p>
         `,
       ],
+      galleryDescription: `<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2 text-center">Ready to renovate your historic home’s bathroom?</h2><p class="text-center" style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Contact Innate to discuss your bathroom remodel today.</span></p>`,
+      galleryCtaButton: { text: "Start Project", href: "/onboarding" },
       sideImages: [
         { image: "/images/project/magnolia-bathroom/6L1A0738_websize.webp" },
         { image: "/images/project/magnolia-bathroom/6L1A0741_websize.webp" },
@@ -1124,7 +1126,6 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
           image: "/images/project/magnolia-bathroom/6L1A0731_websize.webp",
           class: "col-span-3 aspect-[4/2]",
         },
-
         {
           image: "/images/project/magnolia-bathroom/6L1A0751_websize.webp",
           class: "col-span-3 aspect-[4/2]",
