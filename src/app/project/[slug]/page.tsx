@@ -141,6 +141,7 @@ const projectData = {
       media: {
         desktop: "/images/project/seattle-kitchen/IMG_1568.webp",
       },
+      alternatingLayout: true,
       description: [
         `
 <h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Fixing Storage Problems with Custom Kitchen Cabinets</h2>
@@ -148,12 +149,16 @@ const projectData = {
 </span></p>
 <h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Materials That Work for Daily Life</h2>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We chose large-format tile and <strong>quartz countertops</strong> for both the island and perimeter counters. The quartz doesn&rsquo;t stain easily and stays looking good with simple cleaning. For a kitchen that gets used every day, quartz made perfect sense.</span></p>
+        `,
+        `
 <h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Adding Comfort with Heated Floors</h2>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Below, we added <strong>radiant heated flooring tile</strong>. This system keeps the floor warm during Seattle&rsquo;s cold months. There will be no more cold feet during early mornings or late evenings when the family spends time in the kitchen. The heating system was carefully installed during the floor prep work.</span></p>
 <h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Completed in Four Weeks</h2>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">This kitchen remodel was finished in just four weeks. How? We planned everything in detail before starting. All design choices were finalized, materials were ordered, and deliveries were scheduled.</span></p>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We worked closely with Canyon Creek during the making of the cabinet. The cabinets arrived exactly when we were ready to install them.</span></p>
 <p style="margin-bottom:5px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Our work started efficiently from Our work started efficiently from demolition to electrical and plumbing updates, cabinet installation, countertop work, flooring installation, and finishing touches.</span></p>
+        `,
+        `
 <h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Design Choices That Fit the Family</h2>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Every detail in this kitchen was chosen with the homeowners in mind, from modern cabinet colors to clean hardware, tile patterns, and quartz colors to add visual interest. These weren&rsquo;t random choices or trends. Everything was selected based on what the family liked and how they lived. The result is a kitchen that feels personal and purposeful.</span></p>
 <h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">How This Kitchen Changed Daily Life</h2>
@@ -173,8 +178,8 @@ const projectData = {
           class: "col-span-3",
         },
       ],
-      galleryDescription:
-        `<strong>Ready to transform your kitchen?</strong> Contact Innate to discuss your kitchen remodeling designs and how we can create a space that works.`,
+      galleryDescription: `<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2 text-center">Ready to transform your kitchen?</h2><p class="text-center" style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Contact Innate to discuss your kitchen remodeling designs and how we can create a space that works.</span></p>`,
+      galleryCtaButton: { text: "Contact Us", href: "/contact" },
       projectSlider,
     },
     seo: {

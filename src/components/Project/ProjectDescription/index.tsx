@@ -116,14 +116,14 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
           {projectDetails?.sideImages?.length > 0 && projectDetails?.alternatingLayout ? (
             <div className="flex flex-col gap-12">
               {/* Row 1: 50% text left, 50% image right */}
-              <div className="grid grid-cols-2 mob:grid-cols-1 gap-8 items-center">
-                <div className="flex flex-col gap-2">
+              <div className="flex mob:flex-col gap-8 items-center justify-center">
+                <div className="w-1/2 mob:w-full flex flex-col gap-2 justify-center">
                   <div
                     className="text-[#D9D9D9] font-normal mob:text-[14px]"
                     dangerouslySetInnerHTML={{ __html: projectDetails.description[0] || "" }}
                   />
                 </div>
-                <div>
+                <div className="w-1/2 mob:w-full flex items-center justify-center">
                   <div
                     className="w-full rounded-[10px] overflow-hidden aspect-[4/3]"
                     style={{
@@ -136,8 +136,8 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
                 </div>
               </div>
               {/* Row 2: 50% image left, 50% text right */}
-              <div className="grid grid-cols-2 mob:grid-cols-1 gap-8 items-center">
-                <div>
+              <div className="flex mob:flex-col gap-8 items-center justify-center">
+                <div className="w-1/2 mob:w-full flex items-center justify-center">
                   <div
                     className="w-full rounded-[10px] overflow-hidden aspect-[4/3]"
                     style={{
@@ -148,7 +148,7 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
                     }}
                   />
                 </div>
-                <div className="flex flex-col gap-2">
+                <div className="w-1/2 mob:w-full flex flex-col gap-2 justify-center">
                   <div
                     className="text-[#D9D9D9] font-normal mob:text-[14px]"
                     dangerouslySetInnerHTML={{ __html: projectDetails.description[1] || "" }}
@@ -156,14 +156,14 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
                 </div>
               </div>
               {/* Row 3: 50% text left, 50% image right */}
-              <div className="grid grid-cols-2 mob:grid-cols-1 gap-8 items-center">
-                <div className="flex flex-col gap-2">
+              <div className="flex mob:flex-col gap-8 items-center justify-center">
+                <div className="w-1/2 mob:w-full flex flex-col gap-2 justify-center">
                   <div
                     className="text-[#D9D9D9] font-normal mob:text-[14px]"
                     dangerouslySetInnerHTML={{ __html: projectDetails.description[2] || "" }}
                   />
                 </div>
-                <div>
+                <div className="w-1/2 mob:w-full flex items-center justify-center">
                   <div
                     className="w-full rounded-[10px] overflow-hidden aspect-[4/3]"
                     style={{
@@ -234,11 +234,22 @@ const ProjectDescription = ({ projectDetails }: { projectDetails: any }) => {
               ))}
             </div>
           )}
-          <div>
+          <div className="flex flex-col items-center">
             <div
-              className="text-[#D9D9D9] font-normal mob:text-[14px]"
+              className="w-full text-[#D9D9D9] font-normal mob:text-[14px]"
               dangerouslySetInnerHTML={{ __html: projectDetails.galleryDescription || "" }}
             ></div>
+            {projectDetails?.galleryCtaButton && (
+              <Link href={projectDetails.galleryCtaButton.href}>
+                <button
+                  type="button"
+                  className="w-[172.63px] h-[50px] mt-8 border border-white text-white hover:bg-white hover:text-black hover:border-black text-[16px] font-medium flex items-center justify-center gap-1"
+                >
+                  {projectDetails.galleryCtaButton.text}
+                  <Image src={rightarrow} alt="" width={18} height={18} />
+                </button>
+              </Link>
+            )}
           </div>
         </div>
       </div>
