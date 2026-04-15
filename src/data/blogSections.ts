@@ -1820,7 +1820,7 @@ A well-designed au pair space protects your caregiver’s well-being, your house
     id: 18,
     slug: "cost-of-seattle-new-construction",
     title: "The Real Cost of New Construction in Seattle",
-    thumbnail: "/images/project/shoreline-residence/COVER-D5_a7-2_20240625_005152.webp",
+    thumbnail: "/images/press/adu_pic.jpg",
     tag: "Blog",
     excerpt: "How much does it cost to build a home in Seattle in 2026? Innate breaks down the real cost drivers—from site conditions to finishes—so you can plan with confidence.",
     publishedDate: "15 April, 2026",
