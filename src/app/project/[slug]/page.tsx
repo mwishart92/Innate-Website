@@ -214,20 +214,24 @@ const projectData = {
       media: {
         desktop: "/images/project/desert-oasis/D5_Scene 6.webp",
       },
+      alternatingLayout: true,
       description: [
         `
-
 <h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Desert Modern Design</h2>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">The custom home design was inspired by Palm Springs' rich Desert Modernism tradition. At the heart sits an open-concept kitchen, living, and dining area where exposed roof beams create visual interest while maintaining the clean lines characteristic of modern desert architecture.</span></p>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We added clerestory windows to flood the interior space with natural light. To create a flexible transition between indoor and outdoor spaces, we installed full accordion doors along the main living area.</span></p>
 <h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">The Detached ADU: Flexible Living</h2>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">A key feature of this new home construction is the detached ADU (accessory dwelling unit). Strategically placed on the property, this separate structure serves multiple purposes. The detached ADU includes its own entrance, full bathroom, and kitchen facilities, functioning as a completely self-contained living space. For homeowners, the ADU represents both immediate utility and future opportunity. The ADU's design complements the main home's presence. To create visual flow across the property, we used similar materials, roof lines, and window treatments.</span></p>
+        `,
+        `
 <h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Materials Built for the Desert</h2>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">The use of metal roofing across both the main residence and ADU provides practical advantages beyond its striking appearance. In Palm Springs' intense sun and high temperatures, metal roofing reflects heat rather than absorbing it.</span></p>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We kept the interior finishes refined rather than heavy materials that would not suit the Palm Springs' climate. The home features surfaces and textures that feel light, clean, and conducive to the indoor-outdoor living lifestyle. We also utilized natural materials like wood beams and stone accents.</span></p>
 <h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Three-Month Design Timeline</h2>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">It took us three months to complete the design phase for this custom new construction, which shows the value of communication and decision-making. From initial concept through final construction documents, the compressed timeline required focus and efficiency without sacrificing quality.</span></p>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We had an early alignment with the home's design philosophy. We tried to maintain a modern desert aesthetic, an indoor-outdoor emphasis, and include an ADU. We also provided a framework that guided subsequent decisions.</span></p>
+        `,
+        `
 <h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">A Modern Desert Home</h2>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Thoughtful design meets desert modernism in this new Palm Springs custom build. By pairing efficient execution with a flexible detached ADU, we've created a home that delivers on today's comfort while securing the homeowner's future goals.</span></p>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Ready to explore custom home design?<br/><a href="/contact" style="text-decoration:underline;">Contact Innate</a> to discuss your vision for new home construction and how we can create spaces that seamlessly blend indoor and outdoor living.</span></p>
