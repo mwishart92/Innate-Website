@@ -1097,17 +1097,22 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
       ],
       scopedescription: `This Magnolia bathroom renovation shows how structural problems can be fixed while keeping a home historic. After the water damage ruined this Craftsman home’s original bathroom, we completed a full bathroom remodel. We also kept the home’s early 1900s look while adding durable materials and updated systems.`,
 
+      alternatingLayout: true,
       description: [
         `
 <h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Fixing Water Damage First</h2>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We started by checking all the structural damage. We found that water had affected the framing, subfloor, and wall cavities. We had to remove everything that was damaged before any new work could start. Our team carefully documented original details during demolition. We took photos of trim, door frames, and other elements that would help with restoration decisions.</span></p>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">During structural repairs, the compromised floor joists and wall framing were fixed. The bathroom now supports new finishes and fixtures properly. We added strong waterproofing systems throughout. It was important since water damage caused this problem in the first place. We continued working on professional-grade membranes, and proper drainage and moisture barriers were installed at every vulnerable spot, from the shower pan to wall assemblies to floor transitions.</span></p>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">This foundation work is invisible in the finished bathroom, but it was the most necessary part of this Seattle bathroom remodel. Without proper structure and moisture protection, even beautiful finishes wouldn’t have worked.</span></p>
+        `,
+        `
 <h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Materials That Match Craftsman Style</h2>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">In historic home renovation, we focused on matching the home’s original look. We chose marble tile with realistic stone patterns and soft colors, which feel authentic while being durable enough.</span></p>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Later, the custom frameless glass was installed. While not historically accurate to the early Craftsman homes (which rarely had showers). The warm brass fixtures throughout this Craftsman bathroom provide the finishing touch that connects modern updates to historic style.</span></p>
 <h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Keeping Original Details</h2>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Beyond materials, this bathroom renovation prioritized preserving original architectural elements. We protected the existing window trim, door casings, and baseboard profiles during the construction. We didn’t change the ceiling height, window placement, or overall room size. We worked within the existing footprint without expanding or changing things.</span></p>
+        `,
+        `
 <h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">One-Month Timeline</h2>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">We completed this bathroom remodel in Seattle in one month. It required detailed planning, structural repairs, waterproofing installation, custom tile work, and finish carpentry. This all work needed careful timing, so we created a construction schedule that kept everyone moving efficiently without compromising quality.</span></p>
 <h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">The Result: Character Kept, Function Improved</h2>
