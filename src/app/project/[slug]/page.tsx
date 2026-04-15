@@ -899,9 +899,10 @@ const projectData = {
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">These sources provided fixtures that scaled right in a compact bathroom design. The oversized elements that work in spacious suburban bathrooms dominate this Seattle bathroom remodel. The selection process involved evaluating dozens of options to find pieces that worked together while meeting practical requirements.</span></p>
 <h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Experience with Urban Apartment Projects</h2>
 <p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">This Capitol Hill renovation showcases Innate's ability to deliver high-quality bathroom and kitchen remodels in tight urban settings. Whether working within a small condo or a historic apartment, our team brings thoughtful design, precision execution, and elevated finishes to every project.</span></p>
-<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Ready to transform your small apartment bathroom? <a href="/contact" style="text-decoration:underline;">Contact Innate</a> to discuss your bathroom remodel ideas.</span></p>
         `,
       ],
+      galleryDescription: `<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2 text-center">Ready to transform your small apartment bathroom?</h2><p class="text-center" style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Contact Innate to discuss your bathroom remodel ideas.</span></p>`,
+      galleryCtaButton: { text: "Contact Innate", href: "/contact" },
       sideImages: [
         { image: "/images/project/freitas-kitchen/6L1A1556_websize.jpg" },
         { image: "/images/project/freitas-kitchen/6L1A1562_websize.jpg" },
