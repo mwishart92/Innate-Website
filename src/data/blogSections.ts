@@ -1828,8 +1828,8 @@ A well-designed au pair space protects your caregiver’s well-being, your house
       {
         type: "text",
         text: `
-<p>If you're planning <a href="/services/whole-home-remodels">new construction in Seattle</a>—whether it's a custom home build, a major home addition, or an <a href="/services/adus">ADU</a>—you've probably already heard a confusing range of numbers.</p><br/>
-<p>Some people are told they can build a new construction project for $250–$300 per square foot. Others hear $400, $600, $800, or even $1,000+ per square foot.</p><br/>
+<p>If you're planning new construction in Seattle—whether it's a custom home build, a major home addition, or an <a href="/services/adus">ADU</a>—you've probably already heard a confusing range of numbers.</p><br/>
+<p>Some people are told they can build a new construction project for <strong>$250–$300 per square foot.</strong> Others hear <strong>$400, $600, $800, or even $1,000+ per square foot.</strong></p><br/>
 <p>Then the questions start:</p>
 <div class="pl-4">
 <ul class="list-disc">
@@ -1840,7 +1840,7 @@ A well-designed au pair space protects your caregiver’s well-being, your house
 </ul>
 </div>
 <br/>
-<p>It's incredibly confusing and frustrating for homeowners. At Innate, we believe homeowners deserve clear, grounded answers—not horror stories, optimism, or sales tactics. This article exists to reset expectations and explain how pricing for new construction in Seattle actually works.</p>
+<p>It's incredibly confusing and frustrating for homeowners. At <strong>Innate,</strong> we believe homeowners deserve <strong>clear, grounded answers</strong>—not horror stories, optimism, or sales tactics. This article exists to reset expectations and explain how pricing for new construction in Seattle actually works.</p>
 <br/><br/>
 
 <h2>Why "Cost Per Square Foot" Is a Trap</h2>
@@ -1856,7 +1856,7 @@ A well-designed au pair space protects your caregiver’s well-being, your house
 </ul>
 </div>
 <br/>
-<p>Seattle almost never provides that. With its steep slopes, difficult access, water frontage, older infrastructure, and complex soils, there is no universal formula that tells you what your Seattle new construction project will cost.</p>
+<p>Seattle almost never provides that. With its steep slopes, difficult access, water frontage, older infrastructure, and complex soils, <strong>there is no universal formula</strong> that tells you what your Seattle new construction project will cost.</p>
 <br/><br/>
 
 <h2>The Economy of Scale Myth</h2>
@@ -1910,7 +1910,7 @@ A well-designed au pair space protects your caregiver’s well-being, your house
 <br/><br/>
 
 <h3>3. Foundations &amp; Excavation</h3>
-<p>Foundation complexity is one of the biggest cost variables. The cost goes up with:</p>
+<p>Foundation complexity is one of the biggest <a href="https://www.innate-aec.com/blogs/seattle-custom-home-cost">cost variables.</a> The cost goes up with:</p>
 <div class="pl-4">
 <ul class="list-disc">
 <li>Deep or stepped foundations</li>
@@ -1947,7 +1947,7 @@ A well-designed au pair space protects your caregiver’s well-being, your house
 </ul>
 </div>
 <br/>
-<p>High-performance windows are often one of the largest line items in a project.</p>
+<p>High-performance windows are often one of the <strong>largest line items</strong> in a project.</p>
 <br/><br/>
 
 <h3>6. Interior Finishes &amp; Cabinetry</h3>
@@ -1977,7 +1977,7 @@ A well-designed au pair space protects your caregiver’s well-being, your house
 </ul>
 </div>
 <br/>
-<p>These home projects can cost $800–$1,000+ per square foot. This isn't just placeholder pricing—it reflects the actual cost of creating work that ends up in Architectural Digest.</p>
+<p>These home projects can cost <strong>$800–$1,000+ per square foot.</strong> This isn't just placeholder pricing—it reflects the actual cost of creating work that ends up in Architectural Digest.</p>
 <br/><br/>
 
 <h3>The Danger Zone: High Price, Mid Results</h3>
@@ -1985,7 +1985,7 @@ A well-designed au pair space protects your caregiver’s well-being, your house
 <br/><br/>
 
 <h3>Solid Mid-Range Builders</h3>
-<p>There are also excellent companies delivering durable, thoughtful mid-range work at fair prices. This is where many successful new construction projects live—and where many Innate projects fall.</p>
+<p>There are also excellent companies delivering <strong>durable, thoughtful mid-range work at fair prices.</strong> This is where many successful new construction projects live—and where many Innate projects fall.</p>
 <br/><br/>
 
 <h3>The Risks of Low-End Construction</h3>
@@ -1999,7 +1999,7 @@ A well-designed au pair space protects your caregiver’s well-being, your house
 </ul>
 </div>
 <br/>
-<p>At Innate, our new-construction services typically start around $400 per square foot. Below that, it's simply not feasible for us to deliver work we can stand behind—or that we believe is responsible.</p>
+<p>At <strong>Innate,</strong> our new-construction services typically start around <strong>$400 per square foot.</strong> Below that, it's simply not feasible for us to deliver work we can stand behind—or that we believe is responsible.</p>
 <br/><br/>
 
 <h2>When Something Sounds Too Good to Be True</h2>
@@ -2008,18 +2008,18 @@ A well-designed au pair space protects your caregiver’s well-being, your house
 <ul class="list-disc">
 <li>Claims of high-quality work under $400/SF</li>
 <li>Design "completed in weeks"</li>
-<li>Seattle permits "approved in weeks"</li>
+<li>Seattle <a href="/blogs/seattle-neighborhood-residential-zoning">permits</a> "approved in weeks"</li>
 <li>Schedules that even you know are unrealistic</li>
 </ul>
 </div>
 <br/>
 <p>Yes, there are exceptions. But quality construction requires time, effort, and planning. There are no shortcuts—only delayed consequences.</p><br/>
-<p><strong>You can't have fast, cheap, and high quality at the same time.</strong></p>
+<p><strong>You can't have <strong>fast, cheap, and high quality</strong> at the same time.</strong></p>
 <br/><br/>
 
 <h2>What Architects Are Saying (And Why It Confirms This)</h2>
 <p>This isn't just a home builder's opinion. Architects—who have a deeper understanding of the financials involved—are saying the same thing.</p><br/>
-<p>A great example is the <em>Project Budgeting – New Homes 2026</em> guide published by Christensen Architects, a respected Pacific Northwest firm. Their budgeting system separates the total project budget into these categories:</p>
+<p>A great example is the <em>Project Budgeting – New Homes 2026</em> guide published by <strong>Christensen Architects,</strong> a respected Pacific Northwest firm. Their budgeting system separates the total project budget into these categories:</p>
 <div class="pl-4">
 <ul class="list-disc">
 <li>Construction cost (~78.5%)</li>
@@ -2030,7 +2030,7 @@ A well-designed au pair space protects your caregiver’s well-being, your house
 </ul>
 </div>
 <br/>
-<p>The key takeaway: construction cost is the foundation everything else is calculated from. When construction costs rise, total project budgets rise with them.</p>
+<p>The key takeaway: <strong>construction cost is the foundation everything else is calculated from.</strong> When construction costs rise, total project budgets rise with them.</p>
 <br/><br/>
 
 <h2>Architect-Verified Cost Ranges (2026)</h2>
@@ -2071,20 +2071,20 @@ A well-designed au pair space protects your caregiver’s well-being, your house
 </ul>
 </div>
 <br/>
-<p>For 99% of homeowners, it simply doesn't make sense to pursue a high-end Seattle ADU or home addition at that level.</p>
+<p>For <strong>99% of homeowners,</strong> it simply doesn't make sense to pursue a high-end <a href="https://www.innate-aec.com/services/adus">Seattle ADU</a> or home addition at that level.</p>
 <br/><br/>
 
 <h3>High-End (But Not Luxury) Is Still Rare</h3>
-<p>Even $600–$800/SF construction is out of reach for 90–95% of the population.</p>
+<p>Even $600–$800/SF construction is out of reach for <strong>90–95% of the population.</strong></p>
 <br/><br/>
 
 <h3>Where Most Thoughtful Homeowners Land</h3>
-<p>Most homeowners who care about quality end up in the $400–$600/SF range:</p>
+<p>Most homeowners who care about quality end up in the <strong>$400–$600/SF</strong> range:</p>
 <div class="pl-4">
 <ul class="list-disc">
 <li>Durable construction</li>
 <li>Thoughtful design</li>
-<li>Some architectural detail</li>
+<li>Some <a href="/services/architectural-services">architectural detail</a></li>
 <li>No extravagance</li>
 </ul>
 </div>
@@ -2093,7 +2093,15 @@ A well-designed au pair space protects your caregiver’s well-being, your house
 <br/><br/>
 
 <h2>A Note on Flippers, Rentals, and ROI-Driven Projects</h2>
-<p>If you're flipping a house, doing rental-only remodeling, or running strictly ROI-optimized projects, it doesn't make sense to build high-end or design-driven projects. There are firms that do basic, functional rental work and turn projects quickly. That's a good thing.</p><br/>
+<p>If you're </p>
+<ul>
+<li>flipping a house</li>
+<li>Rental-only <a href="/services/whole-home-remodels">remodeling,</a></li>
+<li>Strictly ROI-optimized projects</li>
+</ul>
+<p>It doesn't make sense to build high-end or design-driven projects.</p>
+<p>There are firms that do basic, functional rental work and turn projects quickly. That's a good thing.</p><br/>
+<p>It's just <strong>not what we do.</strong></p>
 <p>At Innate, we don't usually work with flippers or low-end developers who don't care about quality, design, or long-term performance. That doesn't mean those projects are bad—it just means they're not what we do.</p>
 <br/><br/>
 
