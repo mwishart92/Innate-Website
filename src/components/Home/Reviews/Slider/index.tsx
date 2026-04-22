@@ -41,34 +41,37 @@ function ReviewsSlider() {
       photo: "/images/reviews/mary.png",
     },
     {
-      heading:"We recently completed a bathroom remodel with this company and couldn’t be happier with the experience.We had a great experience working with Innate and especially love how our two projects turned out.",
+      heading:
+        "We recently completed a bathroom remodel with this company and couldn’t be happier with the experience.We had a great experience working with Innate and especially love how our two projects turned out.",
       text: "Innate is really committed to quality and worked closely with us to make sure the projects turned out just like we imagined. We’ll work with them again!",
       name: "Rainier Aliment",
       title: "",
       photo: "/images/reviews/rainier.png",
     },
     {
-      heading: "I hired Innate after buying my apartment in Lake Forest Park and had them remodel my bathroom and update the flooring and paint throughout. ",
+      heading:
+        "I hired Innate after buying my apartment in Lake Forest Park and had them remodel my bathroom and update the flooring and paint throughout. ",
       text: "I really appreciated the collaborative process and how they helped me with the design and sourcing materials that matched my budget. The crew who did the work was respectful, clean and the work itself was flawless! Would definitely recommend them for interior remodeling.",
       name: "Adepa Owusu-Bio",
       title: "Bathroom Remodel",
       photo: "/images/reviews/adepa.png",
     },
     {
-      heading: "We wanted a warm, natural, earthy-style bathroom with stone textures, a floating vanity, and a clean, open layout. From the beginning, Innate took the design phase seriously.", 
+      heading:
+        "We wanted a warm, natural, earthy-style bathroom with stone textures, a floating vanity, and a clean, open layout. From the beginning, Innate took the design phase seriously.",
       text: "They were clear that construction wouldn’t start until every detail was finalized — the layout, the materials, the fixtures — and everything was ordered and on site. In the past, I’ve worked with remodelers who rushed to start before anything was truly ready. This experience was the opposite. The planning was rigorous, thoughtful, and patient, and it made the build phase smooth. The final result is exactly what I pictured, and honestly even better.",
       name: "John",
       title: "Remodel Project",
       photo: "",
     },
     {
-      heading: "Innate does really beautiful work. The level of detail and thought they put into their remodels is obvious — nothing feels generic or rushed.",
+      heading:
+        "Innate does really beautiful work. The level of detail and thought they put into their remodels is obvious — nothing feels generic or rushed.",
       text: " Even similar layouts feel elevated because of the design and craftsmanship. You can tell they genuinely care about doing things the right way and about the overall client experience. It’s refreshing to see that kind of intention in construction.",
       name: "Nayeli Flores Herbert",
       title: "",
       photo: "",
     },
-
   ];
 
   function handleOpenDailog(c: Review) {
@@ -88,7 +91,7 @@ function ReviewsSlider() {
             Watch this video <br /> to see our approach in action!
           </Text>
           <LoomVideoThumbnail
-            videoId="edfe795cdce04589b279fefaa15b4e96"
+            mp4Url="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate%20-%20Website%20Hero%20Video.mp4?alt=media&token=1e51d592-5ef8-40d7-b454-4c6bdffcccdf"
             title="Our Collective Story"
             subtitle="Learn about our team and approach"
           />

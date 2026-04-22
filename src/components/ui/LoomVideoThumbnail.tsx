@@ -4,13 +4,13 @@ import Modal from "react-modal";
 import Image from "next/image";
 import Text from "./Text";
 
-// Set modal app element for accessibility
 if (typeof window !== "undefined") {
   Modal.setAppElement("#body");
 }
 
 interface LoomVideoThumbnailProps {
-  videoId: string;
+  videoId?: string; // optional now
+  mp4Url?: string; // new fallback
   title?: string;
   subtitle?: string;
   className?: string;
@@ -18,6 +18,7 @@ interface LoomVideoThumbnailProps {
 
 const LoomVideoThumbnail: React.FC<LoomVideoThumbnailProps> = ({
   videoId,
+  mp4Url,
   title,
   subtitle,
   className = "",
@@ -27,18 +28,18 @@ const LoomVideoThumbnail: React.FC<LoomVideoThumbnailProps> = ({
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
 
-  // Extract video ID from full URL if needed
   const getVideoId = (url: string) => {
-    // Handle both full Loom URLs and just the ID
-    if (url.includes("loom.com/embed/")) {
-      const match = url.match(/loom\.com\/embed\/([a-zA-Z0-9]+)/);
+    if (url.includes("loom.com")) {
+      const match = url.match(/([a-zA-Z0-9]+)$/);
       return match ? match[1] : url;
     }
     return url;
   };
 
-  const cleanVideoId = getVideoId(videoId);
-  const loomEmbedUrl = `https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96`;
+  const cleanVideoId = videoId ? getVideoId(videoId) : null;
+  const loomEmbedUrl = cleanVideoId
+    ? `https://www.loom.com/embed/${cleanVideoId}`
+    : null;
 
   return (
     <>
@@ -46,18 +47,16 @@ const LoomVideoThumbnail: React.FC<LoomVideoThumbnailProps> = ({
         className={`flex justify-items-center mob:mt-8 mob:px-0 ${className}`}
       >
         <div className="relative cursor-pointer group" onClick={openModal}>
-          {/* Thumbnail Container */}
           <div className="relative w-[921px] h-[515px] mob:w-[354px] mob:h-[204px] rounded-lg overflow-hidden">
-            {/* Thumbnail Image */}
             <Image
               src="/images/home/loom_thumb.webp"
-              alt={`${title || "Loom video"} thumbnail`}
+              alt={`${title || "Video"} thumbnail`}
               width={631}
               height={360}
               className="w-full h-full object-cover"
             />
 
-            {/* Play Button Overlay */}
+            {/* Play Button */}
             <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 group-hover:bg-opacity-40 transition-all duration-300">
               <div className="w-16 h-16 bg-white bg-opacity-90 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <svg
@@ -69,61 +68,56 @@ const LoomVideoThumbnail: React.FC<LoomVideoThumbnailProps> = ({
                 </svg>
               </div>
             </div>
-
-            {/* Hover Effect */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </div>
         </div>
       </div>
 
-      {/* Modal */}
       <Modal
         isOpen={isModalOpen}
         onRequestClose={closeModal}
         className="fixed inset-0 flex items-center justify-center z-50 p-4"
         overlayClassName="fixed inset-0 bg-black bg-opacity-75 z-40"
-        contentLabel={`${title || "Loom video"} modal`}
       >
         <div className="relative w-full max-w-4xl aspect-video bg-black rounded-lg overflow-hidden">
-          {/* Close Button */}
+          {/* Close */}
           <button
             onClick={closeModal}
-            className="absolute top-4 right-4 z-10 w-8 h-8 bg-black bg-opacity-50 text-white rounded-full flex items-center justify-center hover:bg-opacity-75 transition-all duration-200"
-            aria-label="Close video"
+            className="absolute top-4 right-4 z-10 w-8 h-8 bg-black/50 text-white rounded-full flex items-center justify-center"
           >
-            <svg
-              className="w-5 h-5"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
+            ✕
           </button>
 
-          {/* Video Title */}
+          {/* Title */}
           {title && (
             <div className="absolute top-4 left-4 z-10">
-              <Text className="text-white text-lg font-medium drop-shadow-lg">
-                {title}
-              </Text>
+              <Text className="text-white text-lg font-medium">{title}</Text>
             </div>
           )}
 
-          {/* Loom Video Embed */}
+          {/* 🎥 Video Logic */}
           {isModalOpen && (
-            <iframe
-              src={loomEmbedUrl}
-              frameBorder="0"
-              allowFullScreen
-              className="w-full h-full"
-              allow="autoplay; encrypted-media"
-            />
+            <>
+              {loomEmbedUrl ? (
+                <iframe
+                  src={loomEmbedUrl}
+                  frameBorder="0"
+                  allowFullScreen
+                  className="w-full h-full"
+                  allow="autoplay; encrypted-media"
+                />
+              ) : mp4Url ? (
+                <video
+                  src={mp4Url}
+                  controls
+                  autoPlay
+                  className="w-full h-full object-cover"
+                />
+              ) : (
+                <div className="flex items-center justify-center h-full text-white">
+                  No video available
+                </div>
+              )}
+            </>
           )}
         </div>
       </Modal>
