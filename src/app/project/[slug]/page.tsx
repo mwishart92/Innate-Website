@@ -1249,8 +1249,8 @@ Every decision was made to support the architecture, not compete with it.</span>
       sideImages: [
         { image: "/images/project/magnolia-kitchen-bathroom/6L1A7643.jpg" },
         { image: "/images/project/magnolia-kitchen-bathroom/6L1A7689.jpg" },
-        { image: "/images/project/magnolia-kitchen-bathroom/6L1A7662.jpg" },
-        { image: "/images/project/magnolia-kitchen-bathroom/6L1A7672.jpg" },
+        { image: "/images/project/magnolia-bathroom/6L1A0731_websize.webp" },
+        { image: "/images/project/magnolia-bathroom/6L1A0741_websize.webp" },
       ],
       gallery: [
         {
@@ -1867,6 +1867,9 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   // Redirect legacy slugs
   if (slug === "freitas-bathroom") {
     redirect("/project/freitas-kitchen-bathroom");
+  }
+  if (slug === "magnolia-bathroom") {
+    redirect("/project/magnolia-kitchen-bathroom");
   }
 
   // Check if the slug exists in projectData
