@@ -164,18 +164,18 @@ export const slidesData: SlideData[] = [
     },
   },
   {
-    title: "Magnolia Bathroom",
+    title: "Magnolia Kitchen & Bathroom Remodel",
     location: "Magnolia, Seattle",
-    url: "/project/magnolia-bathroom",
+    url: "/project/magnolia-kitchen-bathroom",
     media: [
       {
-        src: "/images/project/magnolia-bathroom/6L1A0731_websize.webp",
+        src: "/images/project/magnolia-kitchen-bathroom/6L1A7643.jpg",
         type: "image",
       },
     ],
     hover: {
-      title: "Magnolia Bathroom Remodel | Renovation & Historic Preservation",
-      subTitle: `This Magnolia bathroom renovation showcases how we blend historic preservation with modern design, featuring marble tile, custom frameless glass, and warm brass fixtures. Our team carefully repaired water damage and updated the space to reflect the Craftsman home’s original character while ensuring long-lasting durability.`,
+      title: "Magnolia Kitchen Remodel Seattle | Innate Design & Build",
+      subTitle: `Magnolia kitchen remodel in Seattle by Innate Design & Build featuring restored wood cabinetry, new backsplash, and a custom coffee nook. Thoughtful craftsman kitchen and bathroom renovation completed in 1 month.`,
     },
   },
   {

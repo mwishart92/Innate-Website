@@ -207,7 +207,7 @@ const projectData = {
         { key: "Scope", value: "Residential Design" },
         { key: "Type", value: "New Construction" },
         { key: "Location", value: "Palm Springs, California" },
-        
+
         { key: "General Contractor", value: "Innate" },
       ],
       scopedescription: `his Palm Springs home was one of Innate's exciting new construction projects. The blend of indoor and outdoor living, with contemporary functionality and features, keeps the essence of desert modern living, honoring the region's architectural heritage. We designed and completed the house in just three months. This project demonstrates how to build a custom home with efficient planning and a clear vision.`,
@@ -736,7 +736,8 @@ const projectData = {
         projectType: "Renovation",
       },
     ],
-    title: "Shoreline Home Addition: Second Story, Kitchen Remodel & Outdoor Living",
+    title:
+      "Shoreline Home Addition: Second Story, Kitchen Remodel & Outdoor Living",
     defaultProjectDetails: {
       projectScope: [
         {
@@ -818,11 +819,10 @@ const projectData = {
       ],
     },
   },
-  
+
   "freitas-kitchen-bathroom": {
     seo: {
-      title:
-        "Freitas Bathroom & Kitchen Remodel in Capitol Hill | Innate",
+      title: "Freitas Bathroom & Kitchen Remodel in Capitol Hill | Innate",
       description: `Explore this Capitol Hill apartment bathroom renovation featuring marble mosaic tile, a wall-mounted vanity, and space-saving design. Book your Seattle remodel.`,
     },
     title: "Freitas Bathroom & Kitchen Remodel – Capitol Hill, Seattle",
@@ -927,7 +927,7 @@ const projectData = {
           class: "col-span-3 aspect-[4/2]",
         },
       ],
-      
+
       projectSlider: [
         {
           image: slider1,
@@ -1068,8 +1068,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
   },
   "magnolia-bathroom": {
     seo: {
-      title:
-        "Historic Craftsman Bathroom Remodel Magnolia Seattle | Innate",
+      title: "Historic Craftsman Bathroom Remodel Magnolia Seattle | Innate",
       description: `A Magnolia bathroom renovation project for a Craftsman home. We restored a water-damaged bathroom with marble tile, brass fixtures, & period-appropriate design.`,
     },
     defaultSlides: [
@@ -1141,7 +1140,129 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
           class: "col-span-3 aspect-[4/2]",
         },
       ],
-      
+
+      projectSlider: [
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+      ],
+    },
+  },
+  "magnolia-kitchen-bathroom": {
+    seo: {
+      title: "Magnolia Kitchen Remodel Seattle | Innate Design & Build",
+      description: `Magnolia kitchen remodel in Seattle by Innate Design & Build featuring restored wood cabinetry, new backsplash, and a custom coffee nook. Thoughtful craftsman kitchen and bathroom renovation completed in 1 month.`,
+    },
+    defaultSlides: [
+      {
+        component: (
+          <Slide
+            image=""
+            video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate%20-%20Magnolia%20Kitchen%20Video%20(Horizontal).mp4?alt=media&token=94bea933-386e-4424-812b-d2b6e28c6265"
+          />
+        ),
+        delay: 36000,
+        projectName: "Magnolia, Seattle",
+        projectType: "Bathroom Remodel",
+      },
+    ],
+    title: "Magnolia Kitchen Remodel in Seattle",
+    defaultProjectDetails: {
+      projectScope: [
+        { key: "Project Type", value: "Kitchen & Bathroom Remodel" },
+        { key: "Location", value: "Magnolia, Seattle" },
+        {
+          key: "Scope",
+          value: `
+<ul class="font-normal text-[14px] mob:text-[12px]">
+<li>Cabinet refinishing (sand + stain)</li>
+<li>New backsplash</li>
+<li>Custom coffee nook</li>
+<li>Bathroom material and fixture updates</li>
+<li>Finish and fixture upgrades throughout</li>
+</ul>
+`,
+        },
+        {
+          key: "Timeline",
+          value: "1 Month",
+        },
+      ],
+      scopedescription: `This Magnolia kitchen remodel in Seattle by Innate Design & Build focused on restoring original craftsmanship while upgrading the space for modern living. Located in one of Seattle’s most established neighborhoods, this project highlights how a thoughtful kitchen remodel can preserve character while improve function.
+<br />
+The scope included refinishing existing wood cabinets, installing a new backsplash, and integrating a custom coffee nook—all completed within a one-month timeline. Alongside the kitchen, the bathroom was also fully refreshed to create consistency across the home.`,
+
+      alternatingLayout: true,
+      description: [
+        `
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">A Measured Update to a Magnolia Craftsman</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">A focused renovation by Innate Design & Build of a Magnolia craftsman home, centered on preserving original character while introducing subtle, functional upgrades across both the kitchen and bathroom.
+<br /><br />
+Rather than rework the home entirely, the approach was to refine what existed—allowing the architecture to remain the foundation of every decision.</span></p>
+        `,
+        `
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Restoring Warmth and Function to the Kitchen</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">The kitchen renovation was rooted in preservation. Existing wood cabinetry was sanded and re-stained to restore depth and warmth, allowing the space to feel renewed without losing its original integrity.
+<br /><br />
+A new backsplash introduces contrast and lightness, while updated fixtures improve everyday usability without disrupting the layout.
+<br /><br />
+A custom coffee nook was integrated into the existing millwork—creating a functional focal point that feels intentional and inherent to the home.</span></p>
+        `,
+        `
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Bringing Clarity and Simplicity to the Bathroom</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">The bathroom was fully refreshed with updated materials and fixtures, balancing improved performance with a design language that aligns with the home’s craftsman roots.
+<br /><br />
+Clean, timeless finishes ensure longevity, while subtle improvements enhance the way the space is used day to day.</span></p>
+        `,
+        `
+<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2">Designed to Align, Not Overwrite</h2>
+<p style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">This project was not about transformation—it was about alignment.
+<br /><br />
+By preserving original elements and introducing thoughtful updates, Innate Design & Build ensured the home maintains its identity while functioning at a higher level.
+<br /><br />
+Every decision was made to support the architecture, not compete with it.</span></p>
+        `,
+      ],
+      galleryDescription: `<h2 class="font-semibold font-inter text-[35px] leading-[49px] text-[#FFFFFF] mob:text-[23.71px] mt-6 mb-2 text-center">Ready to renovate your historic home’s bathroom?</h2><p class="text-center" style="margin-bottom:10px;"><span style="font-size:11pt;font-family:Arial,sans-serif;">Contact Innate to discuss your bathroom remodel today.</span></p>`,
+      galleryCtaButton: { text: "Start Project", href: "/onboarding" },
+      sideImages: [
+        { image: "/images/project/magnolia-kitchen-bathroom/6L1A7643.jpg" },
+        { image: "/images/project/magnolia-kitchen-bathroom/6L1A7689.jpg" },
+        { image: "/images/project/magnolia-kitchen-bathroom/6L1A7662.jpg" },
+        { image: "/images/project/magnolia-kitchen-bathroom/6L1A7672.jpg" },
+      ],
+      gallery: [
+        {
+          image: "/images/project/magnolia-kitchen-bathroom/6L1A7683.jpg",
+          class: "col-span-3 aspect-[4/2]",
+        },
+        {
+          image: "/images/project/magnolia-kitchen-bathroom/6L1A7708.jpg",
+          class: "col-span-3 aspect-[4/2]",
+        },
+      ],
+
       projectSlider: [
         {
           image: slider1,
@@ -1458,8 +1579,7 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
             "/images/project/enumclaw-full-home-remodel/6L1A1677_websize.jpg",
         },
         {
-          image:
-            "/images/project/enumclaw-full-home-remodel/enumclaw2.jpg",
+          image: "/images/project/enumclaw-full-home-remodel/enumclaw2.jpg",
           class: "col-span-3 aspect-[4/2]",
         },
         {
@@ -1661,7 +1781,6 @@ Completed in just six months, this ADA-compliant ADU in Wedgewood reflects Innat
 `,
       ],
       gallery: [
-
         {
           image: "/images/project/kenmore-bathroom/6L1A1304_websize.jpg",
         },
@@ -1787,8 +1906,7 @@ export async function generateMetadata({
   const projectDataForSlug = projectData[slug as keyof typeof projectData];
 
   // Safely access seo properties with fallbacks
-  const seoTitle =
-    (projectDataForSlug as any)?.seo?.title || "Innate Project";
+  const seoTitle = (projectDataForSlug as any)?.seo?.title || "Innate Project";
   const seoDescription =
     (projectDataForSlug as any)?.seo?.description ||
     "Explore this custom design and construction project by Innate in Seattle.";

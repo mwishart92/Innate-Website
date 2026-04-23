@@ -1,4 +1,5 @@
 import { NextConfig } from "next";
+const isDev = process.env.NODE_ENV === "development";
 
 const nextConfig: NextConfig = {
   // Image optimization
@@ -8,7 +9,9 @@ const nextConfig: NextConfig = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     minimumCacheTTL: 60 * 60 * 24 * 30, // 30 days
     dangerouslyAllowSVG: true,
-    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    contentSecurityPolicy: isDev
+      ? "default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data:;"
+      : "default-src 'self'; script-src 'none'; sandbox;",
   },
 
   // Compression
@@ -65,8 +68,12 @@ const nextConfig: NextConfig = {
             key: "Content-Security-Policy",
             value: [
               "default-src 'self'",
-              "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://connect.facebook.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.gstatic.com",
-              "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://connect.facebook.net https://firebasestorage.googleapis.com",
+              isDev
+                ? "script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: http://localhost:* ws://localhost:*"
+                : "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://connect.facebook.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.gstatic.com",
+              isDev
+                ? "connect-src 'self' ws://localhost:* http://localhost:*"
+                : "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://connect.facebook.net https://firebasestorage.googleapis.com",
               "img-src 'self' data: blob: https:",
               "frame-src https://www.googletagmanager.com",
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
