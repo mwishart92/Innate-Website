@@ -390,7 +390,7 @@ const ServicesPage = () => {
       <Navbar />
       <HomeSlider slides={slides} />
       <Collective
-        videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
+        videoSrc="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate%20-%20Website%20Hero%20Video.mp4?alt=media&token=1e51d592-5ef8-40d7-b454-4c6bdffcccdf"
         contentText="Expand your living space, elevate your lifestyle, and enjoy the outdoors year-round with expert deck construction from Innate. Whether you're hosting a summer BBQ or enjoying quiet mornings outside, our custom deck solutions are designed for beauty, functionality, and durability.
 
 We provide custom deck services across Seattle and the Eastside, offering end-to-end support—from concept to completion. Let us turn your outdoor area into a stunning, usable extension of your home.

@@ -454,7 +454,7 @@ const ServicesPage = () => {
       <Navbar />
       <HomeSlider slides={slides} />
       <Collective
-        videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
+        videoSrc="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate%20-%20Website%20Hero%20Video.mp4?alt=media&token=1e51d592-5ef8-40d7-b454-4c6bdffcccdf"
         contentText="Your bathroom should be more than just a utility—it should be a space of comfort, calm, and beauty. At Innate, we specialize in full-service bathroom remodel solutions that elevate everyday living."
       />
       <LatestProjects

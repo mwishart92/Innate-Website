@@ -9,7 +9,7 @@ interface CollectiveProps {
 }
 
 const Collective = ({
-  videoSrc = "https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0",
+  videoSrc = "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate%20-%20Website%20Hero%20Video.mp4?alt=media&token=1e51d592-5ef8-40d7-b454-4c6bdffcccdf",
   contentText = "Innate offers boutique kitchen remodel services, combining modern design with functionality in order to transform spaces into personalized havens of comfort and style. Our dedicated project management and design team ensures that there is no difference between the product you envisioned and the product that you got.",
 }: CollectiveProps) => {
   return (
@@ -19,12 +19,11 @@ const Collective = ({
         <div className="max-w-[1203px] xl:px-8 mx-auto">
           <div className="w-full grid grid-cols-2 tab:grid-cols-1 gap-[50px] items-center justify-around">
             <div className="flex justify-items-center mob:mt-8 mob:px-0 w-full">
-              <iframe
+              <video
                 src={videoSrc}
-                frameBorder="0"
-                allowFullScreen
-                className="mob:mr-0 h-[300px] mob:h-[204px] w-full"
-              ></iframe>
+                controls
+                className="mob:mr-0 h-[300px] mob:h-[204px] w-full rounded-lg"
+              />
             </div>
             <div className="flex flex-col">
               <p 

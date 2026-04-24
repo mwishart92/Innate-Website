@@ -407,7 +407,7 @@ const ServicesPage = () => {
       <Navbar />
       <HomeSlider slides={slides} />
       <Collective
-        videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
+        videoSrc="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate%20-%20Website%20Hero%20Video.mp4?alt=media&token=1e51d592-5ef8-40d7-b454-4c6bdffcccdf"
         contentText="Design your dream space with a team that brings creativity, functionality, and construction expertise under one roof. At Innate, our architectural design services are a combination of beauty and quality and we have the expertise to elevate the way you live and work."
       />
       <LatestProjects

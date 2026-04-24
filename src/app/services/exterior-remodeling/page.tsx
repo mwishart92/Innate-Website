@@ -423,7 +423,7 @@ const ServicesPage = () => {
       <Navbar />
       <HomeSlider slides={slides} />
       <Collective
-        videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
+        videoSrc="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate%20-%20Website%20Hero%20Video.mp4?alt=media&token=1e51d592-5ef8-40d7-b454-4c6bdffcccdf"
         contentText="Your home’s exterior is the first thing people see and it should reflect the quality, care, and character within. At Innate, we offer professional exterior remodeling services that enhance curb appeal, boost energy efficiency, and increase long-term value.
 
 If you're replacing siding or windows, planning a full exterior home remodeling project, or upgrading your outdoor space, our team delivers thoughtful design and precise execution.

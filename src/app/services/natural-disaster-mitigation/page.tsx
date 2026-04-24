@@ -424,7 +424,7 @@ const ServicesPage = () => {
       <Navbar />
       <HomeSlider slides={slides} />
       <Collective
-        videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
+        videoSrc="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate%20-%20Website%20Hero%20Video.mp4?alt=media&token=1e51d592-5ef8-40d7-b454-4c6bdffcccdf"
         contentText="When the unexpected hits, preparation makes all the difference. At Innate, we provide natural disaster mitigation services designed to protect your home before disaster strikes. From seismic retrofits to flood-resistant construction, our solutions are tailored, code-compliant, and built to last.
 
 If you're concerned about earthquakes, floods, wildfires, or extreme storms, we offer comprehensive natural disaster preparation that prioritizes safety and peace of mind.

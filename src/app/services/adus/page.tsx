@@ -359,7 +359,7 @@ const ServicesPage = () => {
       <Navbar />
       <HomeSlider slides={slides} />
       <Collective
-        videoSrc="https://www.loom.com/embed/edfe795cdce04589b279fefaa15b4e96?autoplay=0"
+        videoSrc="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate%20-%20Website%20Hero%20Video.mp4?alt=media&token=1e51d592-5ef8-40d7-b454-4c6bdffcccdf"
         contentText="Unlock the full potential of your property with a custom accessory dwelling unit designed and built by Innate. If you're looking to increase rental income, expand living space for your family, or invest in long-term property value, we invite you to work with our team. Innate specializes in full-service accessory dwelling unit construction in Seattle and surrounding areas."
       />
       <LatestProjects
