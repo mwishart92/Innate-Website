@@ -541,6 +541,6 @@ export const metadata: Metadata = {
   description:
     "Protect your home with disaster mitigation solutions from Innate. We offer seismic retrofits and flood-resistant construction services in Seattle.",
   alternates: {
-    canonical: "https://innate-aec.com/services/natural-disaster-mitigation",
+    canonical: "https://www.innate-aec.com/services/natural-disaster-mitigation",
   },
 };

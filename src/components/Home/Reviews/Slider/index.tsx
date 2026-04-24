@@ -15,7 +15,6 @@ import "swiper/css/pagination";
 import { Button, Dialog, DialogPanel, DialogTitle } from "@headlessui/react";
 import Text from "@/components/ui/Text";
 import ReviewBlock from "../ReviewBlock";
-import LoomVideoThumbnail from "@/components/ui/LoomVideoThumbnail";
 import { useState } from "react";
 import Image from "next/image";
 
@@ -90,10 +89,10 @@ function ReviewsSlider() {
           >
             Watch this video <br /> to see our approach in action!
           </Text>
-          <LoomVideoThumbnail
-            mp4Url="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate%20-%20Website%20Hero%20Video.mp4?alt=media&token=1e51d592-5ef8-40d7-b454-4c6bdffcccdf"
-            title="Our Collective Story"
-            subtitle="Learn about our team and approach"
+          <video
+            src="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate%20-%20Website%20Hero%20Video.mp4?alt=media&token=1e51d592-5ef8-40d7-b454-4c6bdffcccdf"
+            controls
+            className="w-[921px] mob:w-full rounded-lg"
           />
         </div>
 

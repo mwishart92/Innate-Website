@@ -537,14 +537,14 @@ export const metadata: Metadata = {
   description:
     "Boost your home's curb appeal with exterior remodeling from Innate in Seattle. Expert siding, windows, and door upgrades with precision craftsmanship.",
   alternates: {
-    canonical: "https://innate-aec.com/services/exterior-remodeling",
+    canonical: "https://www.innate-aec.com/services/exterior-remodeling",
   },
   openGraph: {
     title:
       "Exterior Remodeling in Seattle | Siding, Windows & Doors | Innate",
     description:
       "Boost your home's curb appeal with exterior remodeling from Innate in Seattle. Expert siding, windows, and door upgrades with precision craftsmanship.",
-    url: "https://innate-aec.com/services/exterior-remodeling",
+    url: "https://www.innate-aec.com/services/exterior-remodeling",
     siteName: "Innate",
     images: [
       {

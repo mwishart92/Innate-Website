@@ -98,7 +98,7 @@ export const blogSections: ArticleSection[] = [
         text: `
         <p>The cost of architecture is a contentious topic and a difficult one to find a consensus on. The American Institute of Architects suggests that design fees for remodels are generally around 15% of the eventual construction cost, while for new construction projects, it's around 10%. However you can also find designers who will charge only a few thousand dollars for a complete set of drawings.</p>
         <br/><br/>
-        <p>This article explains the many reasons for the disparity and inconsistency with design fees. In short, every project is unique and cannot be exactly compared to another. While two projects may seem similar, the complexity may be vastly different based on jurisdiction, environmental factors, materials and scope. In addition, this article details why a good architects fee may be higher than expected because of their time, energy, expertise and of course, CREATIVITY.</p>
+        <p>This article explains the many reasons for the disparity and inconsistency with design fees. In short, every project is unique and cannot be exactly compared to another. While two projects may seem similar, the complexity may be vastly different based on jurisdiction, environmental factors, materials and scope. In addition, this article details why a good <a href="/blogs/architecture-impacts-property-value">architects fee</a> may be higher than expected because of their time, energy, expertise and of course, CREATIVITY.</p>
         <br/><br/>
         <p>This investment might appear substantial for simply creating building illustrations. However, let's delve into what clients receive for this expenditure and the comprehensive services architects provide beyond mere drawings:</p>
         <p>
@@ -205,7 +205,7 @@ export const blogSections: ArticleSection[] = [
       {
         type: "text",
         text: `
-       <h1 ><strong>How Design Impacts Long-Term Property Value</strong></h1>
+       <h2><strong>How Design Impacts Long-Term Property Value</strong></h2>
 <p style=""><strong><br></strong></p>
 <p style="">When we think about real estate value, location, square footage, and school districts often come to mind first. But one of the most overlooked factors is architectural design. Great architecture isn&apos;t just about aesthetics; it&apos;s a strategic investment that enhances functionality, energy efficiency, and long-term desirability.</p>
 <p style=""><br></p>
@@ -444,7 +444,7 @@ export const blogSections: ArticleSection[] = [
 
 <h2>2. Verify Credentials, Licensing &amp; Insurance</h2>
 <p>Every legitimate <strong>custom home builder in Bellevue or Seattle</strong> should be fully licensed, bonded, and insured. These credentials aren&rsquo;t just formalities&mdash;they protect your project and your investment.</p>
-<p>Innate meets all Washington State licensing requirements and carries full liability insurance. We also partner with experienced, <a href="/blogs/contractors-not-responding">licensed subcontractors</a> who are aligned with our standards of quality and professionalism. When you build with us, you're protected from day one.</p><br/>
+<p>Innate meets all Washington State licensing requirements and carries <a href="/blogs/insurance-company-ripoff">full liability insurance</a>. We also partner with experienced, <a href="/blogs/contractors-not-responding">licensed subcontractors</a> who are aligned with our standards of quality and professionalism. When you build with us, you're protected from day one.</p><br/>
 
 <h2>3. Prioritize Clear Communication with Your Builder</h2>
 <p>Strong communication is the foundation of any successful <strong>custom home build</strong>. From the first consultation through final walkthroughs, your builder should be <a href="/blogs/contractors-not-responding">responsive</a>, transparent, and proactive.</p>
@@ -478,7 +478,7 @@ export const blogSections: ArticleSection[] = [
 <p>A: Yes. We build new <strong>custom homes</strong> and offer complete <strong>custom home remodeling</strong> services. From expanding your living space to reimagining your kitchen, we do it all under one roof.</p>
 <p>&nbsp;</p>
 <p><strong>Q: Do I need an architect before working with Innate?</strong></p>
-<p>A: No. As a full-service <strong>design-build firm</strong>, we provide architectural planning, permitting, and construction services in-house.</p>
+<p>A: No. As a full-service <strong>design-build firm</strong>, we provide <a href="/blogs/cost-of-architecture">architectural planning</a>, permitting, and construction services in-house.</p>
 <p>&nbsp;</p>
 <p><strong>Q: How long does a custom home project typically take?</strong></p>
 <p>A: Most <strong>custom home builds</strong> take 10&ndash;16 months from design to completion. Timelines vary based on scope, permitting, and site conditions.</p>
@@ -952,7 +952,7 @@ export const blogSections: ArticleSection[] = [
 <p>4&ndash;9 months</p>
 </td>
 <td>
-<p>Foundation, zoning, utilities</p>
+<p>Foundation, <a href="/blogs/seattle-neighborhood-residential-zoning">zoning</a>, utilities</p>
 </td>
 </tr>
 </tbody>
@@ -973,7 +973,7 @@ export const blogSections: ArticleSection[] = [
 <li><strong>Bellevue custom home builders</strong> report luxury kitchen remodels running 14&ndash;20 weeks due to imported finishes.</li>
 <li><strong>Kirkland home remodeling</strong> averages 4&ndash;8 months, especially when basements are included.</li>
 <li><strong>Mercer Island home additions</strong> often require complex structural tie-ins, stretching to 9 months.</li>
-<li>A <strong>mercer island remodel contractor</strong> often advises adding buffer time for zoning reviews.</li>
+<li>A <strong>mercer island remodel contractor</strong> often advises adding buffer time for <a href="/blogs/seattle-neighborhood-residential-zoning">zoning</a> reviews.</li>
 <li><strong>Home builder Bellevue WA</strong> projects can be extended by stricter permit processes.</li>
 <li><strong>Home remodeling Kirkland WA</strong> frequently involves phased remodels to allow families to stay in the home.</li>
 <li><strong>Eastside home addition costs</strong> vary, but projects average $200K&ndash;$450K depending on complexity.</li>
@@ -1311,7 +1311,7 @@ export const blogSections: ArticleSection[] = [
 <p>Don&rsquo;t be fooled: &ldquo;water-resistant&rdquo; isn&rsquo;t the same as waterproof. The practice of waterproofing requires a systematic, layered approach that covers every possible entry point for moisture, from the shower pan to the walls to the spots where different wall surfaces meet.</p><br/>
 <p><strong>Substrate Preparation:</strong> Before any waterproofing work starts, the underlying surfaces must be structurally sound, level, and clean. This may mean reinforcing floor joists, replacing damaged subflooring, or ensuring walls are properly framed and covered.</p><br/>
 <p><strong>The Waterproofing Membrane System:</strong> In a professional Seattle bathroom remodel, this usually involves the use of liquid-applied membranes, sheet membranes, or both, depending on the specific application. These systems create a continuous barrier that stops water from reaching the structural parts of your home.</p><br/>
-<p><strong>Critical Detail Areas:</strong> Corners, changes in plane, holes for plumbing fixtures, and transitions between wet and dry areas all need special attention. Each represents a potential weak point where water could sneak in if not properly detailed. Experienced bathroom remodel contractors in Seattle employ specific techniques and products designed for these vulnerable spots. They can ensure the waterproofing system is seamless and works for the long term.<br /><br /></p>
+<p><strong>Critical Detail Areas:</strong> Corners, changes in plane, holes for plumbing fixtures, and transitions between wet and dry areas all need special attention. Each represents a potential weak point where water could sneak in if not properly detailed. Experienced bathroom <a href="/blogs/contractors-not-responding">remodel contractors</a> in Seattle employ specific techniques and products designed for these vulnerable spots. They can ensure the waterproofing system is seamless and works for the long term.<br /><br /></p>
 <h2>The Shower: Where Most Problems Start</h2>
 <p>If there&rsquo;s one area in the bathroom where waterproofing matters most, it&rsquo;s the shower. Water flows directly onto surfaces, pools in corners, and tests every seam and transition every single day. A properly waterproofed shower area is one of the more complex parts of bathroom renovation or construction.</p><br/>
 <p>The shower pan or base needs a waterproof barrier that extends up the walls at least six inches (and often higher, depending on the design). Walls in the shower need continuous waterproofing from the floor to a point above the highest spray of water. Curbs, benches, and niches each need careful detailing to ensure water can&rsquo;t migrate behind surfaces.</p><br/>
@@ -1367,9 +1367,9 @@ export const blogSections: ArticleSection[] = [
       {
         type: "text",
         text: `
-        <p>Struggling with a small kitchen that feels congested, no matter how much you declutter? You&rsquo;re not alone, and you&rsquo;re probably struggling with the layout and storage approach rather than the actual square footage problem. But the good news is that small kitchens can function well when every design decision works towards creating an open usable space.<br /><br />Whether you&rsquo;re planning a kitchen remodel to improve function, update an outdated space, or add value to your Seattle home, we&rsquo;re here to walk you through the creative storage solutions and layout changes that make small kitchens work.<br /><br /></p>
+        <p>Struggling with a small kitchen that feels congested, no matter how much you declutter? You&rsquo;re not alone, and you&rsquo;re probably struggling with the layout and storage approach rather than the actual square footage problem. But the good news is that small kitchens can function well when every design decision works towards creating an open usable space.<br /><br />Whether you&rsquo;re planning a <a href="/blogs/kitchen-remodel-cost-seattle">kitchen remodel</a> to improve function, update an outdated space, or add value to your Seattle home, we&rsquo;re here to walk you through the creative storage solutions and layout changes that make small kitchens work.<br /><br /></p>
 <h2>Why Small Kitchens Feel Cramped</h2>
-<p>Before jumping into kitchen remodel ideas for small kitchen spaces, let&rsquo;s understand the problem. The visual clutter, like the collection of hardware, appliances, open shelving, and other surfaces, creates a messy feel that makes spaces seem smaller than they actually are. The easy solution is to reduce visual interruptions. This doesn&rsquo;t mean giving up your appliances or kitchen materials, but it means being intentional about what stays visible.</p><br/>
+<p>Before jumping into <a href="/blogs/kitchen-remodel-cost-seattle">kitchen remodel</a> ideas for small kitchen spaces, let&rsquo;s understand the problem. The visual clutter, like the collection of hardware, appliances, open shelving, and other surfaces, creates a messy feel that makes spaces seem smaller than they actually are. The easy solution is to reduce visual interruptions. This doesn&rsquo;t mean giving up your appliances or kitchen materials, but it means being intentional about what stays visible.</p><br/>
 <h2>Handle-Free Cabinets for a Cleaner Look</h2>
 <p>Nowadays, the handle-free cabinets, also called push-to-open or integrated-grip designs, have become popular in <a href="https://www.innate-aec.com/services/kitchen-remodeling">kitchen remodeling</a>. By getting rid of that hardware, they create clean, uninterrupted surfaces that make spaces feel larger.</p><br/>
 <h3>There are two main types to consider:<br /></h3>
@@ -1828,7 +1828,7 @@ A well-designed au pair space protects your caregiver’s well-being, your house
       {
         type: "text",
         text: `
-<p>If you're planning new construction in Seattle—whether it's a custom home build, a major home addition, or an <a href="/services/adus">ADU</a>—you've probably already heard a confusing range of numbers.</p><br/>
+<p>If you're planning new construction in Seattle—whether it's a <a href="/blogs/choosing-custom-home-builder">custom home build</a>, a major home addition, or an <a href="/services/adus">ADU</a>—you've probably already heard a confusing range of numbers.</p><br/>
 <p>Some people are told they can build a new construction project for <strong>$250–$300 per square foot.</strong> Others hear <strong>$400, $600, $800, or even $1,000+ per square foot.</strong></p><br/>
 <p>Then the questions start:</p>
 <div class="pl-4">
@@ -1856,7 +1856,7 @@ A well-designed au pair space protects your caregiver’s well-being, your house
 </ul>
 </div>
 <br/>
-<p>Seattle almost never provides that. With its steep slopes, difficult access, water frontage, older infrastructure, and complex soils, <strong>there is no universal formula</strong> that tells you what your Seattle new construction project will cost.</p>
+<p>Seattle almost never provides that. With its steep slopes, difficult access, water frontage, older infrastructure, and <a href="/blogs/soils-report-civil-engineer-bellevue">complex soils</a>, <strong>there is no universal formula</strong> that tells you what your Seattle new construction project will cost.</p>
 <br/><br/>
 
 <h2>The Economy of Scale Myth</h2>

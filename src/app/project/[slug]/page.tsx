@@ -1918,12 +1918,12 @@ export async function generateMetadata({
     title: seoTitle,
     description: seoDescription,
     alternates: {
-      canonical: `https://innate-aec.com/project/${slug}`,
+      canonical: `https://www.innate-aec.com/project/${slug}`,
     },
     openGraph: {
       title: seoTitle,
       description: seoDescription,
-      url: `https://innate-aec.com/project/${slug}`,
+      url: `https://www.innate-aec.com/project/${slug}`,
       siteName: "Innate",
       images: [
         {
