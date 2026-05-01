@@ -149,13 +149,6 @@ const VideoThumbnailHomeMobile: React.FC<VideoThumbnailHomeMobileProps> = ({
             </svg>
           </button>
           
-          {/* Video Title */}
-          <div className="absolute top-2 left-2 z-10">
-            <Text className="text-white text-sm font-medium drop-shadow-lg">
-              {title}
-            </Text>
-          </div>
-          
           {/* YouTube Player */}
           {isModalOpen && (
             <div className="absolute inset-0">

@@ -160,13 +160,6 @@ const VideoThumbnail: React.FC<VideoThumbnailProps> = ({
             </svg>
           </button>
 
-          {/* Video Title */}
-          <div className="absolute top-4 left-4 z-10">
-            <Text className="text-white text-lg font-medium drop-shadow-lg">
-              {title}
-            </Text>
-          </div>
-
           {/* YouTube Player */}
           {isModalOpen && (
             <div className="absolute inset-0">
