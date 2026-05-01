@@ -169,12 +169,13 @@ const VideoThumbnail: React.FC<VideoThumbnailProps> = ({
 
           {/* YouTube Player */}
           {isModalOpen && (
-            <div className="w-full h-full">
+            <div className="absolute inset-0">
               <YouTube
                 key={cleanVideoId}
                 videoId={cleanVideoId}
                 opts={opts}
                 className="w-full h-full"
+                iframeClassName="w-full h-full"
                 onReady={handleReady}
                 onEnd={closeModal}
               />

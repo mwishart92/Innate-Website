@@ -27,19 +27,16 @@ function Testimonials() {
       </div>
       <div className="flex flex-wrap justify-center gap-[20px] mob:hidden">
         <VideoThumbnail
-          videoId="RdjFPFmJqmw"
-          title="Pellegrino Residence"
-          subtitle="Interior Remodel Project"
-        />
-        <VideoThumbnail
           videoId="CIfc5KXFhx8"
           title="Wedgewood ADU 950 SF"
           subtitle="ADU Project"
+          className="max-w-[45%]"
         />
         <VideoThumbnail
           videoId="BTdFMnOx__Q"
           title="Norman Residence"
           subtitle="Kitchen and Bathroom Remodel"
+          className="max-w-[45%]"
         />
       </div>
       <div className="w-full overflow-hidden sm:hidden">
@@ -86,15 +83,6 @@ function Testimonials() {
               modules={[Keyboard, Navigation, Scrollbar, Autoplay, Pagination]}
               className="mySwiper"
             >
-              <SwiperSlide className="mob:px-3">
-                <VideoThumbnailHomeMobile
-                  videoId="RdjFPFmJqmw"
-                  title="Pellegrino Residence"
-                  subtitle="Interior Remodel Project"
-                  additionalText="The team did a superb job"
-                />
-              </SwiperSlide>
-
               <SwiperSlide className="mob:px-3">
                 <VideoThumbnailHomeMobile
                   videoId="CIfc5KXFhx8"

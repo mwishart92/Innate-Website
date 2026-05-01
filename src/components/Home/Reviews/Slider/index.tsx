@@ -63,14 +63,6 @@ function ReviewsSlider() {
       title: "Remodel Project",
       photo: "",
     },
-    {
-      heading:
-        "Innate does really beautiful work. The level of detail and thought they put into their remodels is obvious — nothing feels generic or rushed.",
-      text: " Even similar layouts feel elevated because of the design and craftsmanship. You can tell they genuinely care about doing things the right way and about the overall client experience. It’s refreshing to see that kind of intention in construction.",
-      name: "Nayeli Flores Herbert",
-      title: "",
-      photo: "",
-    },
   ];
 
   function handleOpenDailog(c: Review) {

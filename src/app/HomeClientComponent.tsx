@@ -29,6 +29,17 @@ export default function HomeClientComponent() {
       }
       localStorage.removeItem("link");
     }
+
+    const hash = window.location.hash;
+    if (hash) {
+      const id = hash.replace("#", "");
+      setTimeout(() => {
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 300);
+    }
   }, []);
 
   const projectSliderData = [
