@@ -2128,4 +2128,70 @@ A well-designed au pair space protects your caregiver’s well-being, your house
         "new construction seattle, cost to build a home seattle, seattle new construction cost per square foot, custom home build seattle, seattle home addition cost, adu cost seattle, seattle construction pricing 2026",
     },
   },
+  {
+    id: 19,
+    slug: "exterior-remodeling-for-seattle-climate",
+    title: "Exterior Remodeling Solutions for the Seattle Climate",
+    thumbnail: "/images/blog/seattle_exterior.jpg",
+    tag: "Blog",
+    excerpt: "Protect your investment with expert exterior remodeling services. From high-performance siding in Seattle to rain-screen systems, we build for the PNW climate.",
+    publishedDate: "6 May, 2026",
+    content: [
+      {
+        type: "text",
+        text: `
+<p>In the Pacific Northwest the houses not only stand on their lots but survive. Seattle homes now endure an extreme "expand and contract cycle" due to both the breaking records of atmospheric river events from early 2026 and increasingly powerful summers' rays.</p><br/>
+<p>At <a href="/">Innate</a>, we view the exterior remodel as not just a face-lift, but an engineering venture built to safeguard your investment in structural integrity. As leaders in <a href="/services/exterior-remodeling">exterior remodeling</a>, our specialty lies in creating "enduring design," meaning systems that not only look amazing initially but will continue to be dry and stunning for many years. Learn how to defeat the "Seattle cycle" with our expert tips on exterior remodeling solutions for the PNW.</p><br/>
+<h2>The Anatomy of a Climate-Resistant Exterior</h2>
+<p>Traditional exterior remodeling contractors typically regard siding as mere decoration. In the Seattle climate, however, we consider it a part of your home's building envelope.</p><br/>
+<h2>1. Modern Siding: The First Line of Defense Against Seattle's Climate</h2>
+<p>Where traditional siding may have been considered an attractive but maintenance-prone addition in the past, today's Seattle homeowner looks to exterior materials that thrive in persistent moisture exposure.</p><br/>
+<div class="pl-4">
+<ul class="list-disc">
+<li><strong>The Rain Screen Technique:</strong> This is our default technique. We create an air space between your siding panels and the house wrap that allows drainage and breathing for the construction, thereby preventing moisture build-up that causes rot in traditional PNW structures.</li>
+<li><strong>Fiber Cement (Hardie):</strong> Our go-to siding product for decades. Hardie boards don't catch fire and won't bloat or crack when it hits the 2026 weather conditions.</li>
+<li><strong>Heat-Treated Timber:</strong> If your design concept features the warm earthiness of Madrona and West Seattle houses, then our thermally modified timber is your choice. It doesn't decay like conventional lumber and retains its natural look and texture.</li>
+</ul>
+</div>
+<br/><br/>
+<h2>2. Windows and Flashing: Where Many Home Makeovers Go Wrong</h2>
+<p>Leaking water rarely occurs right in the middle of a wall; leaking occurs at the point of changeover. With our <a href="/services/architectural-services">exterior remodeling services</a>, you will have a thorough technical assessment of your window and door flashing done. Using advanced technology, such as "peel-and-stick" membranes and stainless steel drip caps, no water will penetrate your wall, even when it rains sideways in November.</p><br/>
+<h2>3. Stormwater Management &amp; Permeability Requirements</h2>
+<p>With the new changes coming to Seattle's Land Use Code by 2026, the management of stormwater will be legally required for a lot of exterior projects.</p><br/>
+<div class="pl-4">
+<ul class="list-disc">
+<li><strong>Permeable Hard Surface Design:</strong> We incorporate permeable pavers and rain gardens in our exterior designs to assist property owners with meeting stringent "Green Factor" criteria and enhance their curb appeal.</li>
+<li><strong>Drainage Systems Integration:</strong> We design gutter systems and downspouts that effectively divert stormwater from your building's foundation—a process that many general contractors miss out on.</li>
+</ul>
+</div>
+<br/><br/>
+        `,
+      },
+      {
+        type: "image",
+        src: ["/images/project/west-seattle-residence/6L1A1054_websize.jpg"],
+        alt: "Exterior remodeling project in West Seattle",
+      },
+      {
+        type: "text",
+        text: `
+<h2>Why Choose a Design-Build Company for Your Exterior Remodel?</h2>
+<p>All exterior remodeling contractors tend to specialize in only one aspect of the project (either siding or roof). Since Innate is an interdisciplinary company of architects and engineers, we consider everything:</p><br/>
+<p><strong>Structural Performance:</strong> If any rotten wood is found during your siding replacement, we have our own engineering team to provide immediate structural solutions.</p><br/>
+<p><strong>Energy Savings:</strong> When working with the siding of your house, we usually recommend the installation of continuous insulation, which will save you up to 20–30% of your heating expenses.</p><br/>
+<p><strong>Aesthetic Consistency:</strong> We make sure that your newly created facade corresponds to your neighborhood's style, be it a 1920s Craftsman house in Wallingford or a contemporary box in Fremont.</p><br/>
+<h2>Build It Once and Build It Right</h2>
+<p>In a city that's always wet, "the lowest bid" can actually end up being the biggest mistake you'll ever make. Visit our <a href="/project/west-seattle-residence">West Seattle Residence project</a> and discover how we have combined slate, metal craftsmanship, and top-of-the-line siding for protection against the weather.</p><br/>
+<p>Protecting your home in Seattle starts now. <a href="/contact">Contact us</a> for a visit and assessment of your property.</p><br/>
+        `,
+      },
+    ],
+    seo: {
+      title: "Exterior Remodeling Services for the Seattle Climate | Blog",
+      description:
+        "Protect your investment with expert exterior remodeling services. From high-performance siding in Seattle to rain-screen systems, we build for the PNW climate.",
+      keywords:
+        "exterior remodeling Seattle, siding replacement Seattle, rain screen siding, Hardie board Seattle, PNW exterior remodel, stormwater management Seattle, design-build exterior Seattle",
+    },
+  },
 ];
