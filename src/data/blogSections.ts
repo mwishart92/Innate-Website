@@ -2132,7 +2132,7 @@ A well-designed au pair space protects your caregiver’s well-being, your house
     id: 19,
     slug: "exterior-remodeling-for-seattle-climate",
     title: "Exterior Remodeling Solutions for the Seattle Climate",
-    thumbnail: "/images/blog/seattle_exterior.jpg",
+    thumbnail: "/images/blog/exterior_seattle.jpg",
     tag: "Blog",
     excerpt: "Protect your investment with expert exterior remodeling services. From high-performance siding in Seattle to rain-screen systems, we build for the PNW climate.",
     publishedDate: "6 May, 2026",
