@@ -96,6 +96,7 @@ export default function RootLayout({
       <body
         className={`gradient ${inter.variable} ${monts.variable} ${rajdhani.variable} ${inknut.variable} ${Bodoni.variable} bg-[#000] loading`}
         id="body"
+        suppressHydrationWarning
       >
         {/* Noscript fallback for users without JavaScript */}
         <noscript>

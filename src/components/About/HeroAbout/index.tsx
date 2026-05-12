@@ -37,7 +37,7 @@ const HeroAbout = () => {
         Team + Partners
       </Text>
 
-      <div className="w-full max-w-full px-16 mob:px-0 grid grid-cols-4 mob:grid-cols-1 gap-[25px] justify-center items-start pt-16 pb-[314px] mob:pt-12 mob:pb-[346px]">
+      <div className="w-full max-w-full px-16 mob:px-0 grid grid-cols-4 mob:grid-cols-1 gap-[25px] justify-center items-start pt-16 pb-[157px] mob:pt-12 mob:pb-[173px]">
         {/* Row 1 */}
         <div className="w-full max-w-full">
           <div
@@ -290,6 +290,7 @@ const HeroAbout = () => {
           </div>
         </div>
       </div>
+
     </div>
   );
 };

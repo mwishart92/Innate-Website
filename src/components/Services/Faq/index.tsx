@@ -55,17 +55,17 @@ const AccordionItem = ({
         className="w-full py-[14px] px-3 relative flex items-center justify-between text-center border border-white bg-[#4E4E4E]"
         onClick={onClick}
       >
-        <div className="w-6" />
-        <Text className="text-base font-normal pr-8 text-white leading-none">
+        <span className="w-6 shrink-0" />
+        <span className="text-base font-normal pr-8 text-white leading-none font-inter">
           {item.question}
-        </Text>
-        <div
-          className={`transform transition-transform duration-300 ${
+        </span>
+        <span
+          className={`transform transition-transform duration-300 shrink-0 ${
             isOpen ? "rotate-180" : ""
           }`}
         >
           <Image src={expandArrow} alt="Expand" width={24} height={24} />
-        </div>
+        </span>
       </button>
       <div
         className={`overflow-hidden transition-all duration-300 ease-in-out bg-[#4E4E4E] bg-opacity-25 ${
@@ -74,8 +74,8 @@ const AccordionItem = ({
             : "max-h-0 opacity-0"
         }`}
       >
-        <p
-          className="text-white text-[#D9D9D9] text-[16px] font-light leading-[24px] font-inter"
+        <div
+          className="text-white text-[#D9D9D9] text-[16px] font-light leading-[24px] font-inter [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:mt-2 [&_li]:mt-1"
           dangerouslySetInnerHTML={{ __html: item.answer }}
         />
       </div>
