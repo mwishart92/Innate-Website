@@ -456,21 +456,6 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
     },
   },
   {
-    title: "Victoria Bathroom",
-    location: "Bothell, Washington",
-    media: [
-      {
-        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/victoria%20bathroom.mp4?alt=media&token=7c9e1c15-fffa-4c74-b6fc-50b0cee6a94b",
-        type: "video",
-      },
-    ],
-    hover: {
-      title: "Victoria Bathroom | Bothell Bathroom Renovation",
-      subTitle: `This Bothell bathroom remodel service was designed to create a spa-like retreat with high-end materials and expert craftsmanship. As a trusted bathroom remodel contractor, we delivered a luxurious and highly functional space tailored to the client's vision.
-`,
-    },
-  },
-  {
     title: "West Seattle Duplex",
     location: "West Seattle, Washington",
     media: [
