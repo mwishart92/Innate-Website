@@ -16,7 +16,7 @@ const faqs = [
   {
     question: "In what ways is our approach unique compared to conventional contracting firms?",
     answer:
-      "Innate handles Architecture, Engineering, and Construction. Whereas you may have to contract an architect and a construction company separately when hiring a conventional contractor, with our team, the three components can be combined into one under the same roof. The benefit is reduced misunderstandings during the building process and the likelihood of unanticipated expenses.",
+      "Innate handles Architecture, Engineering, and Construction all under one roof. While many conventional contractors require you to hire separate architects, engineers, and builders, our integrated approach brings all three together as one collaborative team. The result is clearer communication, a more streamlined process, fewer misunderstandings during construction, and reduced risk of unexpected costs.",
   },
   {
     question: "How do you manage the cost and timeline of the project?",

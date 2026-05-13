@@ -25,7 +25,7 @@ const HeroAbout = () => {
         "Architecture and craftsmanship is in our DNA"
       </Text>
       <Text className="text-center max-w-[971px] mx-auto py-[50px] pb-[8rem] text-[16px] mob:text-[14px] font-light">
-        At Innate, We believe every client and every <a href="/services">project</a> have unique needs that require unique solutions. Whether it is a small residential remodel or a large commercial project, <a href="/services">effective construction</a> begins with good architecture, and this process is a participatory one where the clients individual needs, and wishes are heard and respected.
+        At Innate, we believe every client and every <a href="/services">project</a> have unique needs that require unique solutions. Whether it is a small residential remodel or a large commercial project, <a href="/services">effective construction</a> begins with good architecture, and this process is a participatory one where the clients individual needs, and wishes are heard and respected.
       </Text>
       <Text
         as="h2"

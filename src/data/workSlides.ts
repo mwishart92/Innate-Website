@@ -169,8 +169,8 @@ export const slidesData: SlideData[] = [
     url: "/project/magnolia-kitchen-bathroom",
     media: [
       {
-        src: "/images/project/magnolia-kitchen-bathroom/6L1A7643.jpg",
-        type: "image",
+        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate%20-%20Magnolia%20Kitchen%20Video%20(Horizontal).mp4?alt=media&token=94bea933-386e-4424-812b-d2b6e28c6265",
+        type: "video",
       },
     ],
     hover: {
