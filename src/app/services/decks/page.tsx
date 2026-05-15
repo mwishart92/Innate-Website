@@ -522,13 +522,13 @@ export const metadata: Metadata = {
   description:
     "Expand your outdoor living space with a custom-built deck by Innate. Premium materials and expert design tailored to your lifestyle in Seattle.",
   alternates: {
-    canonical: "https://www.innate-aec.com/services/decks",
+    canonical: "https://innate-aec.com/services/decks",
   },
   openGraph: {
     title: "Custom Deck Building Services in Seattle | Innate",
     description:
       "Expand your outdoor living space with a custom-built deck by Innate. Premium materials and expert design tailored to your lifestyle in Seattle.",
-    url: "https://www.innate-aec.com/services/decks",
+    url: "https://innate-aec.com/services/decks",
     siteName: "Innate",
     images: [
       {

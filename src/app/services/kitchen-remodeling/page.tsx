@@ -557,13 +557,13 @@ export const metadata: Metadata = {
   description:
     "Upgrade your kitchen with Innate's boutique remodeling services in Seattle. Custom design, premium materials, and expert craftsmanship for every lifestyle.",
   alternates: {
-    canonical: "https://www.innate-aec.com/services/kitchen-remodeling",
+    canonical: "https://innate-aec.com/services/kitchen-remodeling",
   },
   openGraph: {
     title: "Kitchen Remodeling in Seattle | Innate",
     description:
       "Upgrade your kitchen with Innate's boutique remodeling services in Seattle. Custom design, premium materials, and expert craftsmanship for every lifestyle.",
-    url: "https://www.innate-aec.com/services/kitchen-remodeling",
+    url: "https://innate-aec.com/services/kitchen-remodeling",
     siteName: "Innate",
     images: [
       {

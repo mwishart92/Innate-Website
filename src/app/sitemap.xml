@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://www.innate-aec.com/</loc>
+    <loc>https://innate-aec.com/</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -10,42 +10,42 @@
   
   <!-- Main Pages -->
   <url>
-    <loc>https://www.innate-aec.com/about</loc>
+    <loc>https://innate-aec.com/about</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/contact</loc>
+    <loc>https://innate-aec.com/contact</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/work</loc>
+    <loc>https://innate-aec.com/work</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/project</loc>
+    <loc>https://innate-aec.com/project</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/press</loc>
+    <loc>https://innate-aec.com/press</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/onboarding</loc>
+    <loc>https://innate-aec.com/onboarding</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -53,63 +53,63 @@
   
   <!-- Services Pages -->
   <url>
-    <loc>https://www.innate-aec.com/services</loc>
+    <loc>https://innate-aec.com/services</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/services/architectural-services</loc>
+    <loc>https://innate-aec.com/services/architectural-services</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/services/kitchen-remodeling</loc>
+    <loc>https://innate-aec.com/services/kitchen-remodeling</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/services/bathroom-remodeling</loc>
+    <loc>https://innate-aec.com/services/bathroom-remodeling</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/services/whole-home-remodels</loc>
+    <loc>https://innate-aec.com/services/whole-home-remodels</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/services/exterior-remodeling</loc>
+    <loc>https://innate-aec.com/services/exterior-remodeling</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/services/decks</loc>
+    <loc>https://innate-aec.com/services/decks</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/services/adus</loc>
+    <loc>https://innate-aec.com/services/adus</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/services/natural-disaster-mitigation</loc>
+    <loc>https://innate-aec.com/services/natural-disaster-mitigation</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -117,141 +117,218 @@
   
   <!-- Blog Posts -->
   <url>
-    <loc>https://www.innate-aec.com/blogs/soils-report-civil-engineer-bellevue</loc>
+    <loc>https://innate-aec.com/blogs/soils-report-civil-engineer-bellevue</loc>
     <lastmod>2024-08-17T00:00:00+00:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/blogs/cost-of-architecture</loc>
+    <loc>https://innate-aec.com/blogs/cost-of-architecture</loc>
     <lastmod>2024-04-27T00:00:00+00:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/blogs/insurance-company-ripoff</loc>
+    <loc>https://innate-aec.com/blogs/insurance-company-ripoff</loc>
     <lastmod>2024-04-17T00:00:00+00:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/blogs/contractors-not-responding</loc>
+    <loc>https://innate-aec.com/blogs/contractors-not-responding</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/blogs/architecture-impacts-property-value</loc>
+    <loc>https://innate-aec.com/blogs/architecture-impacts-property-value</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/blogs/kitchen-remodel-cost-seattle</loc>
+    <loc>https://innate-aec.com/blogs/kitchen-remodel-cost-seattle</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/blogs/choosing-custom-home-builder</loc>
+    <loc>https://innate-aec.com/blogs/choosing-custom-home-builder</loc>
     <lastmod>2025-08-07T00:00:00+00:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/blogs/seattle-neighborhood-residential-zoning</loc>
+    <loc>https://innate-aec.com/blogs/seattle-neighborhood-residential-zoning</loc>
     <lastmod>2025-08-07T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://innate-aec.com/blogs/seattle-custom-home-cost</loc>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://innate-aec.com/blogs/seattle-home-remodeling-cost-and-timelines</loc>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://innate-aec.com/blogs/exterior-design-for-small-homes</loc>
+    <lastmod>2025-10-20T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://innate-aec.com/blogs/sustainable-architecture-guide</loc>
+    <lastmod>2025-10-20T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://innate-aec.com/blogs/modernizing-mid-century-seattle-homes</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://innate-aec.com/blogs/professional-waterproofing-seattle-bathroom-remodel</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://innate-aec.com/blogs/maximizing-small-kitchens-seattle</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://innate-aec.com/blogs/seattle-water-storm-damage-repair</loc>
+    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://innate-aec.com/blogs/seattle-au-pair-housing-design</loc>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://innate-aec.com/blogs/cost-of-seattle-new-construction</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://innate-aec.com/blogs/exterior-remodeling-for-seattle-climate</loc>
+    <lastmod>2026-05-06T00:00:00+00:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <!-- Project Pages -->
   <url>
-    <loc>https://www.innate-aec.com/project/south-seattle-kitchen</loc>
+    <loc>https://innate-aec.com/project/south-seattle-kitchen</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/project/desert-oasis</loc>
+    <loc>https://innate-aec.com/project/desert-oasis</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/project/gray-bathroom</loc>
+    <loc>https://innate-aec.com/project/gray-bathroom</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/project/wheat-ridge-adu</loc>
+    <loc>https://innate-aec.com/project/wheat-ridge-adu</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/project/kung-fu-tea</loc>
+    <loc>https://innate-aec.com/project/kung-fu-tea</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/project/madrona-remodel</loc>
+    <loc>https://innate-aec.com/project/madrona-remodel</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/project/shoreline-residence</loc>
+    <loc>https://innate-aec.com/project/shoreline-residence</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/project/freitas-bathroom</loc>
+    <loc>https://innate-aec.com/project/freitas-bathroom</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/project/wedgewood-adu</loc>
+    <loc>https://innate-aec.com/project/wedgewood-adu</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/project/magnolia-bathroom</loc>
+    <loc>https://innate-aec.com/project/magnolia-bathroom</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/project/knight-residence</loc>
+    <loc>https://innate-aec.com/project/knight-residence</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://www.innate-aec.com/project/west-seattle-residence</loc>
+    <loc>https://innate-aec.com/project/west-seattle-residence</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

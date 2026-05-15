@@ -209,7 +209,7 @@ export const blogSections: ArticleSection[] = [
 <p style=""><strong><br></strong></p>
 <p style="">When we think about real estate value, location, square footage, and school districts often come to mind first. But one of the most overlooked factors is architectural design. Great architecture isn&apos;t just about aesthetics; it&apos;s a strategic investment that enhances functionality, energy efficiency, and long-term desirability.</p>
 <p style=""><br></p>
-<p style="">In the Seattle area, where real estate is competitive and buyers are discerning, homes and buildings designed with intention tend to appreciate more consistently and command higher resale values. At Innate, we combine thoughtful&nbsp;<a href="https://www.innate-aec.com/services/architectural-services">architectural design</a>, sustainable materials, and expert craftsmanship to help homeowners and developers boost long-term property value.</p>
+<p style="">In the Seattle area, where real estate is competitive and buyers are discerning, homes and buildings designed with intention tend to appreciate more consistently and command higher resale values. At Innate, we combine thoughtful&nbsp;<a href="https://innate-aec.com/services/architectural-services">architectural design</a>, sustainable materials, and expert craftsmanship to help homeowners and developers boost long-term property value.</p>
 
 <h2>1. Curb Appeal and First Impressions</h2>
 <p style="">Your property only has one chance to make a first impression. High-quality residential design that enhances curb appeal can elevate a home from standard to standout. Features such as modern facades, balanced proportions, and complementary landscaping contribute to the overall value of a property. In Seattle&apos;s residential neighborhoods like Queen Anne, Ballard, or West Seattle, curb appeal is a key differentiator for homebuyers.</p>
@@ -249,7 +249,7 @@ export const blogSections: ArticleSection[] = [
 <h2>5. Material Quality and Craftsmanship</h2>
 <p style="">It&rsquo;s not just what you build&mdash;it&rsquo;s how you build it. High-quality materials and expert craftsmanship ensure your investment stands the test of time. In Seattle&rsquo;s wet climate, durable exteriors and smart drainage are crucial.</p>
 <p style=""><br></p>
-<p style="">We use only the best materials and trusted vendors, ensuring&nbsp;<a href="https://www.innate-aec.com/work">our projects</a> don&rsquo;t just look good&mdash;they last. From siding to structural framing, every detail matters when it comes to long-term value. This commitment also means fewer repairs, lower maintenance costs, and better performance year after year.</p>
+<p style="">We use only the best materials and trusted vendors, ensuring&nbsp;<a href="https://innate-aec.com/work">our projects</a> don&rsquo;t just look good&mdash;they last. From siding to structural framing, every detail matters when it comes to long-term value. This commitment also means fewer repairs, lower maintenance costs, and better performance year after year.</p>
 <p style=""><br></p>
 <p style="">Our clients often tell us that what sets their Innate home apart is not just the look, but how it feels&mdash;solid, seamless, dependable. That kind of intangible quality adds to resale and pride of ownership.</p>
 <p style=""><br></p>
@@ -263,15 +263,15 @@ export const blogSections: ArticleSection[] = [
 <h2>7. Return on Investment</h2>
 <p style="">According to industry studies, quality design services can add 5&ndash;15% to a home&rsquo;s value depending on the project scope and level of execution. For Seattle homeowners considering remodeling or rebuilding, investing in a strategic design plan is a smart move.</p>
 <p style=""><br></p>
-<p style="">From&nbsp;<a href="https://www.innate-aec.com/services/kitchen-remodeling">custom kitchens</a> to&nbsp;<a href="https://www.innate-aec.com/services/whole-home-remodels">complete home rebuilds</a>, the return isn&rsquo;t just in dollars&mdash;it&rsquo;s in lifestyle, efficiency, and long-term peace of mind. A well-designed home is more marketable, more livable, and more resilient to market shifts.</p>
+<p style="">From&nbsp;<a href="https://innate-aec.com/services/kitchen-remodeling">custom kitchens</a> to&nbsp;<a href="https://innate-aec.com/services/whole-home-remodels">complete home rebuilds</a>, the return isn&rsquo;t just in dollars&mdash;it&rsquo;s in lifestyle, efficiency, and long-term peace of mind. A well-designed home is more marketable, more livable, and more resilient to market shifts.</p>
 <p style=""><br></p>
 <p style="">ROI also includes emotional and functional dividends. A space that works beautifully every day is worth more&mdash;both financially and in the way it supports your life.</p>
 <p style=""><br></p>
-<p style=""><strong>Start Your Design Journey with&nbsp;</strong><a href="https://www.innate-aec.com/"><strong>Innate</strong></a></p>
+<p style=""><strong>Start Your Design Journey with&nbsp;</strong><a href="https://innate-aec.com/"><strong>Innate</strong></a></p>
 <p style=""><strong><br></strong></p>
-<p style="">If you&rsquo;re planning a remodel or working with&nbsp;<a href="https://www.innate-aec.com/contact">a design-build Seattle firm</a>, consider partnering with a design-build firm that understands how thoughtful design impacts long-term value. Innate delivers custom solutions rooted in quality, sustainability, and craftsmanship.</p>
+<p style="">If you&rsquo;re planning a remodel or working with&nbsp;<a href="https://innate-aec.com/contact">a design-build Seattle firm</a>, consider partnering with a design-build firm that understands how thoughtful design impacts long-term value. Innate delivers custom solutions rooted in quality, sustainability, and craftsmanship.</p>
 <p style=""><br></p>
-<p style=""><a href="https://www.innate-aec.com/services/architectural-services"><strong>Explore our architectural design services</strong></a> or&nbsp;<a href="https://www.innate-aec.com/onboarding">schedule a consultation</a> to see how we can bring your vision to life.</p> 
+<p style=""><a href="https://innate-aec.com/services/architectural-services"><strong>Explore our architectural design services</strong></a> or&nbsp;<a href="https://innate-aec.com/onboarding">schedule a consultation</a> to see how we can bring your vision to life.</p> 
         `,
       },
     ],
@@ -329,7 +329,7 @@ export const blogSections: ArticleSection[] = [
 <h2>&nbsp;</h2>
 <h2>3. Kitchen Design Fees and Planning Costs</h2>
 <p>&nbsp;</p>
-<p>Design services are a critical part of any successful kitchen remodel in Seattle. At Innate, we offer full-service<a href="https://www.innate-aec.com/services/kitchen-remodeling"> design-build kitchen remodeling</a>. Our team provides layout planning, material selection, 3D renderings, and construction documentation.</p>
+<p>Design services are a critical part of any successful kitchen remodel in Seattle. At Innate, we offer full-service<a href="https://innate-aec.com/services/kitchen-remodeling"> design-build kitchen remodeling</a>. Our team provides layout planning, material selection, 3D renderings, and construction documentation.</p>
 <p>&nbsp;</p>
 <p>Typical design fees range from <strong>$3,000 to $10,000</strong>, depending on complexity. Our integrated process reduces costly mistakes and delays by starting with a solid plan.</p>
 <p>&nbsp;</p>
@@ -379,7 +379,7 @@ export const blogSections: ArticleSection[] = [
 <p>&nbsp;</p>
 <p>A kitchen remodel in Seattle typically recoups <strong>60&ndash;80%</strong> of its cost at resale, especially when targeting functional, high-demand features.</p>
 <p>&nbsp;</p>
-<p>Take a look at our<a href="https://www.innate-aec.com/project/north-seattle-kitchen"> North Seattle Kitchen project</a> to see how we helped one family completely reimagine their kitchen with a thoughtful layout and elevated finishes.</p>
+<p>Take a look at our<a href="https://innate-aec.com/project/north-seattle-kitchen"> North Seattle Kitchen project</a> to see how we helped one family completely reimagine their kitchen with a thoughtful layout and elevated finishes.</p>
 <h2>&nbsp;</h2>
 <h2>6. Kitchen Remodeling Timelines in Seattle</h2>
 <p>&nbsp;</p>
@@ -409,7 +409,7 @@ export const blogSections: ArticleSection[] = [
 <p>&nbsp;</p>
 <p>Remodeling your kitchen is one of the most rewarding upgrades you can make. With the right remodeling contractor, it can be an enjoyable, inspiring process that transforms your daily routine.</p>
 <p>&nbsp;</p>
-<p><strong>Explore our</strong><a href="https://www.innate-aec.com/services/kitchen-remodeling"> <strong>kitchen remodeling services</strong></a> or schedule a consultation to get a custom quote for your Seattle home.</p>
+<p><strong>Explore our</strong><a href="https://innate-aec.com/services/kitchen-remodeling"> <strong>kitchen remodeling services</strong></a> or schedule a consultation to get a custom quote for your Seattle home.</p>
 <p>&nbsp;</p>
 <p>Whether you&rsquo;re budgeting for a mid-range kitchen remodel or ready to invest in a full kitchen renovation, we&rsquo;re here to help bring your vision to life.</p>
         `,
@@ -638,7 +638,7 @@ export const blogSections: ArticleSection[] = [
 <p>The truth: costs vary by project type, finishes, and location. Rising construction costs, <a href="/blogs/seattle-neighborhood-residential-zoning">strict building codes</a>, and long permitting timelines all play a role. Without a clear cost estimate, projects can spiral.</p>
 <p>That&rsquo;s why we built this guide&mdash;so homeowners across Seattle, Bellevue, and the Eastside can make informed choices.</p>
 <p>&nbsp;</p>
-<p>At<a href="https://www.innate-aec.com/"> Innate</a>, our team of architects, designers, and project managers specializes in custom designed homes, remodels, and additions that bring your vision to life from start to finish.</p>
+<p>At<a href="https://innate-aec.com/"> Innate</a>, our team of architects, designers, and project managers specializes in custom designed homes, remodels, and additions that bring your vision to life from start to finish.</p>
 <h2>&nbsp;</h2>
 <h2>Seattle Custom Home Cost</h2>
 <p>A custom home offers freedom to design exactly what you want. But costs add up quickly in Seattle.</p>
@@ -674,9 +674,9 @@ export const blogSections: ArticleSection[] = [
 <p>Remodeling is often more cost effective than starting over.</p>
 <h3>Typical Costs</h3>
 <ul>
-<li style="font-weight: 400;">Seattle <a href="https://www.innate-aec.com/services/kitchen-remodeling">kitchen remodel</a> cost: $75K&ndash;$150K+</li>
-<li style="font-weight: 400;">Seattle <a href="https://www.innate-aec.com/services/bathroom-remodeling">bathroom remodel</a> cost: $35K&ndash;$80K+</li>
-<li style="font-weight: 400;">Seattle <a href="https://www.innate-aec.com/services/whole-home-remodels">whole home remodel</a> cost: $250K&ndash;$750K+</li>
+<li style="font-weight: 400;">Seattle <a href="https://innate-aec.com/services/kitchen-remodeling">kitchen remodel</a> cost: $75K&ndash;$150K+</li>
+<li style="font-weight: 400;">Seattle <a href="https://innate-aec.com/services/bathroom-remodeling">bathroom remodel</a> cost: $35K&ndash;$80K+</li>
+<li style="font-weight: 400;">Seattle <a href="https://innate-aec.com/services/whole-home-remodels">whole home remodel</a> cost: $250K&ndash;$750K+</li>
 </ul>
 <h3>What Impacts Remodeling Costs</h3>
 <ul>
@@ -702,7 +702,7 @@ export const blogSections: ArticleSection[] = [
 <li style="font-weight: 400;">Mercer Island home additions: Higher due to strict codes and premium finishes.</li>
 <li style="font-weight: 400;">Kirkland home remodeling with additions: Often includes basement or second story expansion.</li>
 <li style="font-weight: 400;"></li>
-<li style="font-weight: 400;">Bellevue custom home builders report higher demand for<a href="https://www.innate-aec.com/services/adus"> ADU</a>s, especially for multigenerational living.</li>
+<li style="font-weight: 400;">Bellevue custom home builders report higher demand for<a href="https://innate-aec.com/services/adus"> ADU</a>s, especially for multigenerational living.</li>
 </ul>
 <p>&nbsp;</p>
 <p>Future Flexibility: Accessory dwelling units (ADUs) provide long-term rental income, while also boosting property value.</p>
@@ -756,9 +756,9 @@ export const blogSections: ArticleSection[] = [
 <h2>Bring Your Vision to Life with Innate</h2>
 <p>Whether you&rsquo;re exploring a Seattle custom home cost, a home remodel in Kirkland, or a Mercer Island home addition, knowing the numbers helps you plan with confidence.</p>
 <p>&nbsp;</p>
-<p>At<a href="https://www.innate-aec.com"> Innate</a>, we provide design and build services that move projects from concept to completion&mdash;on time and on budget.</p>
+<p>At<a href="https://innate-aec.com"> Innate</a>, we provide design and build services that move projects from concept to completion&mdash;on time and on budget.</p>
 <h1>&nbsp;</h1>
-<h1>Ready to start? <a href="https://www.innate-aec.com/contact">Contact Innate</a> today for your cost estimate.</h1>
+<h1>Ready to start? <a href="https://innate-aec.com/contact">Contact Innate</a> today for your cost estimate.</h1>
         `,
       },
     ],
@@ -785,7 +785,7 @@ export const blogSections: ArticleSection[] = [
         <h2>Why Timelines Matter in Seattle Remodeling</h2>
 <p>One of the most common homeowner questions is: <em>&ldquo;How long will my remodel take in Seattle?&rdquo;</em></p>
 <p>The truth is that timelines vary based on scope, <a href="/blogs/soils-report-civil-engineer-bellevue">permits</a>, and whether you live in an older home. <strong>Seattle&rsquo;s building code</strong>, material delays, and skilled labor shortages all impact schedules. And because <strong>construction costs</strong> keep rising in the region, even a few weeks of delay can add thousands.</p><br/>
-<p>At<a href="https://www.innate-aec.com/"> Innate-NW</a>, a dedicated <strong>project manager</strong> guides your remodel from <strong>start to finish</strong>&mdash;so you have a realistic timeline and cost estimate. Whether it&rsquo;s a <strong>home remodel Seattle</strong> project or a full addition, we help bring your vision to life without surprises.</p>
+<p>At<a href="https://innate-aec.com/"> Innate-NW</a>, a dedicated <strong>project manager</strong> guides your remodel from <strong>start to finish</strong>&mdash;so you have a realistic timeline and cost estimate. Whether it&rsquo;s a <strong>home remodel Seattle</strong> project or a full addition, we help bring your vision to life without surprises.</p>
 <p>&nbsp;</p>
 <h2>The 5 Phases of a Remodel</h2>
 <p>Every remodel has five major stages:</p><br/>
@@ -833,10 +833,10 @@ export const blogSections: ArticleSection[] = [
 <li>Back-ordered appliances or high end finishes</li>
 </ul><br/>
 <p><strong>Pro Tip:</strong> Order cabinetry and appliances early&mdash;this single step can shorten your project by weeks.</p>
-<p><a href="https://www.innate-aec.com/services/kitchen-remodeling">Learn more about our kitchen remodeling services</a>.</p>
+<p><a href="https://innate-aec.com/services/kitchen-remodeling">Learn more about our kitchen remodeling services</a>.</p>
 <h2>&nbsp;</h2>
 <p><strong>Bathroom Remodel Timelines</strong></p>
-<p><strong>Direct Answer:</strong> A <a href="https://www.innate-aec.com/services/bathroom-remodeling"><strong>Seattle bathroom remodel</strong></a><strong> cost timeline</strong> averages <strong>6&ndash;10 weeks</strong>.</p><br/>
+<p><strong>Direct Answer:</strong> A <a href="https://innate-aec.com/services/bathroom-remodeling"><strong>Seattle bathroom remodel</strong></a><strong> cost timeline</strong> averages <strong>6&ndash;10 weeks</strong>.</p><br/>
 <h3><strong>Breakdown</strong></h3>
 <ul>
 <li><strong>Planning &amp; design:</strong> 3&ndash;4 weeks</li>
@@ -850,7 +850,7 @@ export const blogSections: ArticleSection[] = [
 <li>Ventilation upgrades required by Seattle&rsquo;s <strong>general contractor</strong> codes</li>
 </ul><br/>
 <p><strong>Pro Tip:</strong> Stick with standard fixtures and tile sizes if you want to finish faster.</p>
-<p><a href="https://www.innate-aec.com/services/bathroom-remodeling">See our bathroom remodeling services</a>.</p>
+<p><a href="https://innate-aec.com/services/bathroom-remodeling">See our bathroom remodeling services</a>.</p>
 <h2>&nbsp;</h2>
         `,
       },
@@ -864,7 +864,7 @@ export const blogSections: ArticleSection[] = [
         type: "text",
         text: `
 <p><strong>Whole-Home Remodel Timelines</strong></p>
-<p><strong>Direct Answer:</strong> A <a href="https://www.innate-aec.com/services/whole-home-remodels"><strong>Seattle whole home remodel</strong></a><strong> cost</strong> project can take <strong>6&ndash;12 months</strong>.</p><br/>
+<p><strong>Direct Answer:</strong> A <a href="https://innate-aec.com/services/whole-home-remodels"><strong>Seattle whole home remodel</strong></a><strong> cost</strong> project can take <strong>6&ndash;12 months</strong>.</p><br/>
 <h3><strong>Breakdown</strong></h3>
 <ul>
 <li><strong>Planning &amp; design:</strong> 8&ndash;12 weeks</li>
@@ -878,10 +878,10 @@ export const blogSections: ArticleSection[] = [
 <li>Mid project scope changes</li>
 </ul><br/>
 <p><strong>Pro Tip:</strong> Large remodels are often as complex as <strong>building a new home</strong>. Budget extra time and money for contingencies.</p>
-<p><a href="https://www.innate-aec.com/services/whole-home-remodels">Explore our whole-home remodeling services</a>.</p>
+<p><a href="https://innate-aec.com/services/whole-home-remodels">Explore our whole-home remodeling services</a>.</p>
 <h2>&nbsp;</h2>
 <p><strong>Home Addition Timelines</strong></p>
-<p><strong>Direct Answer:</strong> A <a href="https://www.innate-aec.com/services/whole-home-remodels"><strong>Seattle home addition</strong></a><strong> cost timeline</strong> runs <strong>4&ndash;9 months</strong> on average.</p>
+<p><strong>Direct Answer:</strong> A <a href="https://innate-aec.com/services/whole-home-remodels"><strong>Seattle home addition</strong></a><strong> cost timeline</strong> runs <strong>4&ndash;9 months</strong> on average.</p>
 <h3><strong>Breakdown</strong></h3>
 <ul>
 <li><strong>Planning &amp; design:</strong> 8&ndash;10 weeks</li>
@@ -895,7 +895,7 @@ export const blogSections: ArticleSection[] = [
 <li>Utility extensions for plumbing, HVAC, and electrical</li>
 </ul><br/>
 <p>&nbsp;<strong>Pro Tip:</strong> <strong>Accessory dwelling units (ADUs)</strong> are a <strong>cost effective</strong> way to expand space while generating income.</p>
-<p><a href="https://www.innate-aec.com/services/adus">Check out our home addition services</a>.</p>
+<p><a href="https://innate-aec.com/services/adus">Check out our home addition services</a>.</p>
 <h2>&nbsp;</h2>
 <h2>Quick Reference Timeline Chart</h2>
 <table>
@@ -982,8 +982,8 @@ export const blogSections: ArticleSection[] = [
 <p>&nbsp;</p>
 <p><strong>Plan Your Remodel with Confidence</strong></p>
 <p>Whether you&rsquo;re planning a <strong>home addition Seattle</strong>, a kitchen update, or a whole-home remodel, timelines and costs are critical to success.</p>
-<p>At<a href="https://www.innate-aec.com/"> Innate-NW</a>, we provide full <strong>design and build</strong> services to make your remodel seamless. From concept to completion, we handle every detail&mdash;so your home is <strong>custom designed</strong>, delivered on time, and crafted to bring your vision to life.</p><br/>
-<p><strong>Ready to start? </strong><a href="https://www.innate-aec.com/contact"><strong>Contact Innate</strong></a><strong> today for your remodel cost estimate and project timeline.</strong></p>
+<p>At<a href="https://innate-aec.com/"> Innate-NW</a>, we provide full <strong>design and build</strong> services to make your remodel seamless. From concept to completion, we handle every detail&mdash;so your home is <strong>custom designed</strong>, delivered on time, and crafted to bring your vision to life.</p><br/>
+<p><strong>Ready to start? </strong><a href="https://innate-aec.com/contact"><strong>Contact Innate</strong></a><strong> today for your remodel cost estimate and project timeline.</strong></p>
         `,
       },
     ],
@@ -1250,7 +1250,7 @@ export const blogSections: ArticleSection[] = [
 <p>The fix isn&rsquo;t only removing the glass. You need to upgrade it strategically. Modern double- or triple-pane windows with low-E coatings can match original profiles while keeping heat inside. Custom millwork can recreate those thin mid-century frames. Updated windows don&rsquo;t change the look. They can retain the iconic outdoor connection while delivering comfort and better energy use year-round.<br /><br /></p>
 <h2>Kitchens That Work for Real Life</h2>
 <p>Back then, mid-century kitchens were small and had enclosed spaces&mdash;galleys or tight U-shapes hidden from main living areas. This reflected the era&rsquo;s view of cooking as solo work. It doesn&rsquo;t suit how families live now.</p><br/>
-<p>When planning to expand the kitchen, you have to work with a <a href="https://www.innate-aec.com/services/architectural-services">home remodeling architect</a> who knows post-and-beam construction. While remodeling changes the structure, we need to respect how these homes were built. We can&rsquo;t just knock out walls without knowing what&rsquo;s holding things up. The goal is to create a space where cooking, dining, and entertaining flow naturally without hurting the structure or the design that makes the kitchen worth remodeling.<br /><br /></p>
+<p>When planning to expand the kitchen, you have to work with a <a href="https://innate-aec.com/services/architectural-services">home remodeling architect</a> who knows post-and-beam construction. While remodeling changes the structure, we need to respect how these homes were built. We can&rsquo;t just knock out walls without knowing what&rsquo;s holding things up. The goal is to create a space where cooking, dining, and entertaining flow naturally without hurting the structure or the design that makes the kitchen worth remodeling.<br /><br /></p>
 <h2>Fixing What&rsquo;s Behind the Walls</h2>
 <p>Peek behind the walls of a classic mid-century home and you&rsquo;ll find a time capsule of outdated tech. Think of these &ldquo;invisible&rdquo; upgrades&mdash;like replacing old wiring or adding high-performance insulation&mdash;as the home&rsquo;s new foundation. Addressing these hidden layers isn&rsquo;t just about safety; it&rsquo;s also about ensuring your vintage gem provides 21st-century comfort and long-term value without completely changing how the house looks.&nbsp;<br /><br /></p>
         `,
@@ -1270,14 +1270,14 @@ export const blogSections: ArticleSection[] = [
 <p>Mid-century architects understood the connection between indoor space and nature&mdash;especially relevant in the Pacific Northwest, where you can use outdoor space most of the year. Keep and improve this connection by updating or expanding decks, patios, and door systems.</p><br/>
 <p>Modern multi-slide or lift-and-slide door systems work better and create larger openings compared to original sliding glass doors. This strengthens the relationship between inside and outside spaces. Think about sight lines from inside, and design outdoor areas as extensions of interior rooms instead of separate zones.<br /><br /></p>
 <h2>Planning What You&rsquo;ll Spend</h2>
-<p>Doing preplanning and knowing the <a href="https://www.innate-aec.com/services/whole-home-remodels">whole home remodel</a> costs early helps set realistic expectations and make smart choices. Usually, custom millwork to match original details costs more than standard replacements. Structural changes mean engineering costs and permitting fees you need to budget upfront.</p><br/>
+<p>Doing preplanning and knowing the <a href="https://innate-aec.com/services/whole-home-remodels">whole home remodel</a> costs early helps set realistic expectations and make smart choices. Usually, custom millwork to match original details costs more than standard replacements. Structural changes mean engineering costs and permitting fees you need to budget upfront.</p><br/>
 <p>Focus first on updates for safety, structure, and daily function. For instance, electrical and HVAC upgrades, window replacements, and structural repairs should be done before other cosmetic changes.</p><br/>
 <p>Keep a 15-20% backup fund for what you&rsquo;ll discover once walls open up. Mid-century homes almost always hide surprises&mdash;old wiring or even water damage. You need to prepare financially, so these expenses don&rsquo;t stop the whole project.<br /><br /></p>
 <h2>The Innate Approach</h2>
 <p>At Innate, we know that updating mid-century Seattle homes means balancing preservation with progress. We start our work with a full assessment of what makes your home unique, from identifying original features worth saving to areas where updates will most improve function and efficiency.</p><br/>
-<p>Innate works with architects, designers, and craftspeople who have great knowledge and understanding of mid-century construction and whose work feels authentic to the original design. We&rsquo;ll take care of everything, from window replacements that are in the right proportions to <a href="https://www.innate-aec.com/services/kitchen-remodeling">kitchen remodels</a> that keep mid-century design while addressing your family&rsquo;s modern needs.<br /><br /></p>
+<p>Innate works with architects, designers, and craftspeople who have great knowledge and understanding of mid-century construction and whose work feels authentic to the original design. We&rsquo;ll take care of everything, from window replacements that are in the right proportions to <a href="https://innate-aec.com/services/kitchen-remodeling">kitchen remodels</a> that keep mid-century design while addressing your family&rsquo;s modern needs.<br /><br /></p>
 <h2>Ready to Modernize Your Mid-Century Seattle Home?</h2>
-<p><a href="https://www.innate-aec.com/contact">Contact Innate</a> to discuss strategies for preserving older themes while upgrading efficiency, function, and comfort in your PNW home.&nbsp;</p>
+<p><a href="https://innate-aec.com/contact">Contact Innate</a> to discuss strategies for preserving older themes while upgrading efficiency, function, and comfort in your PNW home.&nbsp;</p>
         `,
       },
     ],
@@ -1305,7 +1305,7 @@ export const blogSections: ArticleSection[] = [
 <p>Yes, waterproofing is the least exciting part of a bathroom renovation. But it&rsquo;s also a vital factor that can impact whether your remodel lasts five years or fifty. In Seattle&rsquo;s damp climate, where moisture never stops, proper waterproofing isn&rsquo;t optional. It&rsquo;s the beginning of every successful bathroom remodeling project.<br /><br /></p>
 <h2>Why Waterproofing Deserves Your Money</h2>
 <p>Here&rsquo;s an uncomfortable truth about bathroom renovations: most catastrophic failures were from waterproofing shortcuts during the initial remodel. When water gets behind the tile, it doesn&rsquo;t just sit there politely; it works into framing, ruins subfloors, grows mold, and causes structural damage that costs far more to fix than it would have cost to prevent.</p><br/>
-<p>When it rains for nine months of the year, your bathroom never truly gets a break. In the PNW, what happens behind the tile is just as important as the tile itself. Without rigorous waterproofing practices for <a href="https://www.innate-aec.com/services/bathroom-remodeling">bathroom remodeling</a>, trapped moisture stays put, causing constant, invisible damage that can turn a dream remodel into a headache down the road.</p><br/>
+<p>When it rains for nine months of the year, your bathroom never truly gets a break. In the PNW, what happens behind the tile is just as important as the tile itself. Without rigorous waterproofing practices for <a href="https://innate-aec.com/services/bathroom-remodeling">bathroom remodeling</a>, trapped moisture stays put, causing constant, invisible damage that can turn a dream remodel into a headache down the road.</p><br/>
 <p>The irony? When waterproofing is done right, you&rsquo;ll never think about it. You won&rsquo;t see it. You won&rsquo;t appreciate it until years later, when your bathroom still works perfectly while others deal with expensive repairs. It&rsquo;s the ultimate &ldquo;invisible&rdquo; bathroom remodel investment.<br /><br /></p>
 <h2>What Real Waterproofing Actually Involves</h2>
 <p>Don&rsquo;t be fooled: &ldquo;water-resistant&rdquo; isn&rsquo;t the same as waterproof. The practice of waterproofing requires a systematic, layered approach that covers every possible entry point for moisture, from the shower pan to the walls to the spots where different wall surfaces meet.</p><br/>
@@ -1329,7 +1329,7 @@ export const blogSections: ArticleSection[] = [
 <h2>Beyond the Shower: Whole-Bathroom Needs</h2>
 <p>While the shower demands the most rigorous waterproofing, the rest of the bathroom needs attention, too. Areas around the bathtub, particularly the tub deck and surrounding walls, need proper waterproofing. The floor in front of the shower and around the toilet should be protected against water that splashes or spills during normal use.</p><br/>
 <p>Ventilation also plays a big supporting role in bathroom waterproofing. Even the best waterproofing system can be overwhelmed if moisture builds up in the air with nowhere to go. Properly sized <a href="https://www.consumerreports.org/home-garden/bathroom/best-bathroom-exhaust-fans-of-the-year-a3069728798/">exhaust fans</a>, ideally ducted to the exterior (not just into the attic), help remove humid air before it can condense on surfaces or work into wall cavities.</p><br/>
-<p>In a <a href="https://www.innate-aec.com/services/whole-home-remodels">whole-home remodel</a> that includes bathroom work, coordinating waterproofing with other building systems becomes important. A qualified home remodeling architect can make sure HVAC adjustments account for bathroom ventilation needs and verify that electrical work doesn&rsquo;t compromise waterproofing membranes.&nbsp;<br /><br /></p>
+<p>In a <a href="https://innate-aec.com/services/whole-home-remodels">whole-home remodel</a> that includes bathroom work, coordinating waterproofing with other building systems becomes important. A qualified home remodeling architect can make sure HVAC adjustments account for bathroom ventilation needs and verify that electrical work doesn&rsquo;t compromise waterproofing membranes.&nbsp;<br /><br /></p>
 <h2>Materials Matter: Picking the Right Systems</h2>
 <p>Not all waterproofing systems perform equally. Selecting appropriate materials for Seattle&rsquo;s climate is crucial.</p><br/>
 <p><strong>Liquid-Applied Membranes:</strong> These offer excellent coverage and can be easily detailed around complex shapes and penetrations. They&rsquo;re particularly useful for tricky corners and transitions.</p>
@@ -1343,7 +1343,7 @@ export const blogSections: ArticleSection[] = [
 <p>At Innate, we treat waterproofing with the seriousness it deserves. Every Seattle bathroom remodel we do begins with a complete waterproofing strategy tailored to the specific conditions of your home and bathroom layout. We use professional membrane systems, follow the manufacturer&rsquo;s instructions precisely, and pay close attention to the details that separate adequate waterproofing from exceptional protection.</p><br/>
 <p>A waterproof bathroom remodel from Innate means you can enjoy your updated space with complete confidence, knowing that behind those beautiful tiles and elegant fixtures lies a robust barrier protecting your home from moisture damage for years to come.<br /><br /></p>
 <h2>Ready to Invest in a Bathroom Remodel That&rsquo;s Built to Last?</h2>
-<p><a href="https://www.innate-aec.com/contact">Contact Innate</a> to discuss professional waterproofing strategies and create a bathroom that combines beauty with long-term strength and protection.</p>
+<p><a href="https://innate-aec.com/contact">Contact Innate</a> to discuss professional waterproofing strategies and create a bathroom that combines beauty with long-term strength and protection.</p>
         `,
       },
     ],
@@ -1371,7 +1371,7 @@ export const blogSections: ArticleSection[] = [
 <h2>Why Small Kitchens Feel Cramped</h2>
 <p>Before jumping into <a href="/blogs/kitchen-remodel-cost-seattle">kitchen remodel</a> ideas for small kitchen spaces, let&rsquo;s understand the problem. The visual clutter, like the collection of hardware, appliances, open shelving, and other surfaces, creates a messy feel that makes spaces seem smaller than they actually are. The easy solution is to reduce visual interruptions. This doesn&rsquo;t mean giving up your appliances or kitchen materials, but it means being intentional about what stays visible.</p><br/>
 <h2>Handle-Free Cabinets for a Cleaner Look</h2>
-<p>Nowadays, the handle-free cabinets, also called push-to-open or integrated-grip designs, have become popular in <a href="https://www.innate-aec.com/services/kitchen-remodeling">kitchen remodeling</a>. By getting rid of that hardware, they create clean, uninterrupted surfaces that make spaces feel larger.</p><br/>
+<p>Nowadays, the handle-free cabinets, also called push-to-open or integrated-grip designs, have become popular in <a href="https://innate-aec.com/services/kitchen-remodeling">kitchen remodeling</a>. By getting rid of that hardware, they create clean, uninterrupted surfaces that make spaces feel larger.</p><br/>
 <h3>There are two main types to consider:<br /></h3>
 <p><strong>Push-to-Open Mechanisms:</strong> These work well in modern designs and offer completely smooth surfaces.&nbsp;</p><br/>
 <p><strong>Integrated Grip Systems:</strong> These feature a channel built into the cabinet edge.&nbsp;<br /><br /></p>
@@ -1391,14 +1391,14 @@ export const blogSections: ArticleSection[] = [
         type: "text",
         text: `
 <h2>Deciding When to Change the Kitchen Layout</h2>
-<p>Sometimes, making the most of small kitchens means rethinking the basic layout. Moving a wall by even a foot can make a surprising difference in how the space works. Opening the kitchen to a dining or living area can make both spaces feel larger while improving traffic flow.<br /><br />But not every layout change improves a small kitchen. It&rsquo;s smart to work with a <a href="https://www.innate-aec.com/services/architectural-services">home remodeling architect</a> who can evaluate structural possibilities while keeping the space functional.&nbsp;</p>
+<p>Sometimes, making the most of small kitchens means rethinking the basic layout. Moving a wall by even a foot can make a surprising difference in how the space works. Opening the kitchen to a dining or living area can make both spaces feel larger while improving traffic flow.<br /><br />But not every layout change improves a small kitchen. It&rsquo;s smart to work with a <a href="https://innate-aec.com/services/architectural-services">home remodeling architect</a> who can evaluate structural possibilities while keeping the space functional.&nbsp;</p>
 <p>Here are the most common layouts for small kitchens:<br /><br /><strong>Galley Kitchens:</strong> Often underrated, galley layouts can be efficient when designed well. The tight work triangle reduces steps between key areas, and the parallel walls provide plenty of storage and counter space.<br /><br /><strong>L-Shaped Kitchens:</strong> These work well in small spaces by keeping everything within easy reach while leaving one side open to the rest of the home. They&rsquo;re great for creating a natural work triangle.<br /><br /><strong>U-Shaped Layouts:</strong> These provide maximum storage and counter space but only work when the room is wide enough. If the U is too narrow, the space can feel tunnel-like and cramped.<br /><br /></p>
 <h2>Should You Open Up Your Kitchen?</h2>
 <p>Many Seattle homeowners considering a kitchen renovation wonder whether to keep the kitchen as a separate room. A wide opening or partial wall removal can connect the kitchen to a dining or living area without losing all boundaries. This will create an open space while preventing kitchen mess from taking over your entire home.<br /><br /></p>
 <h2>The Innate Approach to Small Kitchen Design</h2>
 <p>At Innate, our kitchen remodeling designs focus on smart storage solutions, handle-free cabinetry, and integrated appliances that make small spaces feel generous and well-designed.<br /><br />Innate works closely with clients to understand exactly how they use their kitchens and coordinates every detail, from cabinet mechanisms to lighting placement to material selections, making sure your finished kitchen feels cohesive and intentional.&nbsp;<br /><br /></p>
 <h2>Ready to Transform Your Small Kitchen?</h2>
-<p><a href="https://www.innate-aec.com/contact">Contact Innate</a> today to discuss creative storage solutions, layout changes, and design strategies.</p>
+<p><a href="https://innate-aec.com/contact">Contact Innate</a> today to discuss creative storage solutions, layout changes, and design strategies.</p>
         `,
       },
     ],
@@ -1425,7 +1425,7 @@ export const blogSections: ArticleSection[] = [
 <h2>Flood, Water, and Storm Damage Restoration</h2>
 <p>Severe weather is part of life in the Pacific Northwest. In the past year, many homeowners in Seattle have faced residential basement flooding, roof damage, wind-driven rain entry, fallen trees, and storm-related structural issues, especially due to recent flooding events and the storms of 2025.</p><br/>
 <p>The Seattle storm damage was due to strong winds, and then there was the flood damage on the inside requiring emergency flood repairs. If not treated appropriately, both in the short and long term, it could lead to structural damage, mold, and other issues with moisture. It's not just cosmetic matters.</p><br/>
-<p>As a <a href="https://www.innate-aec.com/">design-build company</a> in Seattle, we help homeowners recover from water and storm damage the right way. Our team offers a calm, methodical approach that prioritizes safety, durability, and long-term performance, not quick patches.</p><br/>
+<p>As a <a href="https://innate-aec.com/">design-build company</a> in Seattle, we help homeowners recover from water and storm damage the right way. Our team offers a calm, methodical approach that prioritizes safety, durability, and long-term performance, not quick patches.</p><br/>
 <h2>When Water Damage Happens, Speed and Strategy Matter</h2>
 <p>In situations requiring emergency flood restoration or flood water restoration, the first instinct after flooding or storm damage is often to "dry it out and patch it up." Unfortunately, that approach frequently leads to hidden failures months or years later.</p><br/>
 <p>Water travels! It moves through framing cavities, under finishes, behind walls, and into insulation. Storm damage repair can also compromise roofing, flashing, siding, and structural connections in ways that aren't immediately visible.</p><br/>
@@ -1440,7 +1440,7 @@ export const blogSections: ArticleSection[] = [
 </ul>
 </div>
 <br/><br/>
-<p>This is where experience in storm damage remediation and <a href="https://www.innate-aec.com/services/whole-home-remodels">residential construction</a> truly matters.</p><br/>
+<p>This is where experience in storm damage remediation and <a href="https://innate-aec.com/services/whole-home-remodels">residential construction</a> truly matters.</p><br/>
 <h2>Common Water & Storm Damage We See in Seattle Homes</h2>
 <p>Based on recent storm damage restoration projects across Seattle, the most common issues include:</p>
 <div class="pl-4">  
@@ -1455,13 +1455,13 @@ export const blogSections: ArticleSection[] = [
 <br/><br/>
 <p>Each of these conditions requires a different response, and often coordination between multiple disciplines, especially for residential storm damage restoration.</p><br/>
 <h2>Why Storm & Water Damage Repairs Should Be Design-Build Projects</h2>
-<p>Many homeowners begin by calling a restoration company or a single trade. While <a href="https://www.innate-aec.com/services/natural-disaster-mitigation">emergency mitigation</a> is important, true recovery requires integration.</p><br/>
+<p>Many homeowners begin by calling a restoration company or a single trade. While <a href="https://innate-aec.com/services/natural-disaster-mitigation">emergency mitigation</a> is important, true recovery requires integration.</p><br/>
 <p>As a design-build firm specializing in storm damage restoration, we manage:</p>
 <div class="pl-4">  
 <ul class="list-disc">
 <li>Damage assessment and documentation</li>
 <li>Coordination with insurance timelines (when applicable)</li>
-<li><a href="https://www.innate-aec.com/services/architectural-services">Architectural and structural</a> evaluation</li>
+<li><a href="https://innate-aec.com/services/architectural-services">Architectural and structural</a> evaluation</li>
 <li>Permit-required repairs and upgrades</li>
 <li>Construction and rebuild under one roof</li>
 </ul>
@@ -1497,7 +1497,7 @@ export const blogSections: ArticleSection[] = [
 <li>Shallow foundations and outdated drainage</li>
 <li>Minimal waterproofing</li>
 <li>Aging roof and wall assemblies</li>
-<li>Outdated <a href="https://www.innate-aec.com/services/adus">basements and additions</a></li>
+<li>Outdated <a href="https://innate-aec.com/services/adus">basements and additions</a></li>
 </ul>
 </div>
 <br/><br/>
@@ -1910,7 +1910,7 @@ A well-designed au pair space protects your caregiver’s well-being, your house
 <br/><br/>
 
 <h3>3. Foundations &amp; Excavation</h3>
-<p>Foundation complexity is one of the biggest <a href="https://www.innate-aec.com/blogs/seattle-custom-home-cost">cost variables.</a> The cost goes up with:</p>
+<p>Foundation complexity is one of the biggest <a href="https://innate-aec.com/blogs/seattle-custom-home-cost">cost variables.</a> The cost goes up with:</p>
 <div class="pl-4">
 <ul class="list-disc">
 <li>Deep or stepped foundations</li>
@@ -2071,7 +2071,7 @@ A well-designed au pair space protects your caregiver’s well-being, your house
 </ul>
 </div>
 <br/>
-<p>For <strong>99% of homeowners,</strong> it simply doesn't make sense to pursue a high-end <a href="https://www.innate-aec.com/services/adus">Seattle ADU</a> or home addition at that level.</p>
+<p>For <strong>99% of homeowners,</strong> it simply doesn't make sense to pursue a high-end <a href="https://innate-aec.com/services/adus">Seattle ADU</a> or home addition at that level.</p>
 <br/><br/>
 
 <h3>High-End (But Not Luxury) Is Still Rare</h3>

@@ -546,6 +546,6 @@ export const metadata: Metadata = {
   description:
     "Transform your entire home with Innate's expert whole home remodeling services in Seattle. Personalized design, dedicated project management, and flawless execution.",
   alternates: {
-    canonical: "https://www.innate-aec.com/services/whole-home-remodels",
+    canonical: "https://innate-aec.com/services/whole-home-remodels",
   },
 };

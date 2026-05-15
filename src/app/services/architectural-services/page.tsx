@@ -543,13 +543,13 @@ export const metadata: Metadata = {
   description:
     "Innate offers architectural design services in Seattle. Work with expert architects to create a space tailored to your lifestyle and future vision.",
   alternates: {
-    canonical: "https://www.innate-aec.com/services/architectural-services",
+    canonical: "https://innate-aec.com/services/architectural-services",
   },
   openGraph: {
     title: "Architectural Design Services in Seattle | Innate",
     description:
       "Innate offers architectural design services in Seattle. Work with expert architects to create a space tailored to your lifestyle and future vision.",
-    url: "https://www.innate-aec.com/services/architectural-services",
+    url: "https://innate-aec.com/services/architectural-services",
     siteName: "Innate",
     images: [
       {

@@ -151,7 +151,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Design & Construction Services in Seattle | Innate",
     description: "Explore Innate's comprehensive range of design and construction services in Seattle. From kitchen remodeling to ADUs, we deliver custom solutions with expert craftsmanship.",
-    url: 'https://www.innate-aec.com/services',
+    url: 'https://innate-aec.com/services',
     siteName: 'Innate',
     images: [
       {
