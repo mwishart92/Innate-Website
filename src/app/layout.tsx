@@ -64,6 +64,14 @@ export default function RootLayout({
           }}
         />
         {/* End Google Tag Manager */}
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-S9VVEXC8ZB" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-S9VVEXC8ZB');`,
+          }}
+        />
+        {/* End Google Analytics */}
         {/* Critical CSS for above-the-fold content */}
         <style
           dangerouslySetInnerHTML={{
