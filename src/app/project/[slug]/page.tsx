@@ -1844,6 +1844,287 @@ Every decision was made to support the architecture, not compete with it.</span>
       ],
     },
   },
+  "north-seattle-giveaway": {
+    seo: {
+      title:
+        "Seattle Accessible Bathroom Remodel | Meaningful Design-Build Renovation by Innate",
+      description: `A heartfelt Seattle bathroom remodel focused on accessibility, comfort, and functionality. Featuring a custom tiled shower, built-in seat, glass enclosure, new vanity, and thoughtful preservation of existing elements.`,
+    },
+    defaultSlides: [
+      {
+        component: (
+          <Slide
+            image="/images/project/north-seattle-giveaway/6L1A9177.jpg"
+            video=""
+          />
+        ),
+        delay: 36000,
+        projectName: "Freitas Bathroom",
+        projectType: "Renovation",
+      },
+    ],
+    title: "North Seattle Giveaway Bathroom Remodel",
+    defaultProjectDetails: {
+      projectScope: [
+        {
+          key: "Scope",
+          value:
+            "Bathroom Remodel, Shower Remodel, Accessibility Improvements, Interior Painting",
+        },
+        { key: "Type", value: "Renovation" },
+        { key: "Location", value: "Seattle, Washington" },
+        {
+          key: "Approach",
+          value: "Design-Build",
+        },
+        {
+          key: "Focus",
+          value: "Accessibility, Aging in Place, Comfort, Functionality",
+        },
+        { key: "Design & Construction", value: "Innate" },
+        { key: "Photographer & Videographer", value: "Akiha Marketing" },
+      ],
+      scopedescription: `This bathroom remodel was one of the most meaningful projects our team has completed. The renovation was created for a homeowner who truly needed a safer, more comfortable, and more functional bathroom, and our goal was to improve her day-to-day quality of life while creating a space she could enjoy for years to come.
+`,
+      media: {
+        desktop: "",
+      },
+      description: [
+        `The project centered around thoughtful accessibility improvements and carefully selected upgrades that would make the bathroom easier to use without sacrificing style. The existing shower was transformed with new tile, a built-in shower seat, and a glass enclosure that brought a fresh, modern feel to the space. We also installed a new vanity, replaced the toilet, and repainted the bathroom to create a brighter, more welcoming environment.
+        <br /><br />
+        One of the aspects we appreciated most about this project was the opportunity to preserve elements that were important to the homeowner. She wanted to keep her existing medicine cabinet, so we refinished and repainted it rather than replacing it. We also retained the original bathroom flooring, which ended up pairing beautifully with the new tile selections and helped maintain the character of the space.
+        <br /><br />
+This project reflects Innate's belief that remodeling is about more than updating finishes. It's about creating spaces that better support the people who live in them. Through thoughtful design and intentional craftsmanship, we were able to deliver a bathroom that provides greater comfort, accessibility, and peace of mind every day.
+
+`,
+      ],
+      gallery: [
+        {
+          image: "/images/project/north-seattle-giveaway/6L1A9173.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+        {
+          image: "/images/project/north-seattle-giveaway/6L1A9192.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+        {
+          image: "/images/project/north-seattle-giveaway/6L1A9184.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+
+        {
+          image: "/images/project/north-seattle-giveaway/6L1A9205.jpg",
+          class: "col-span-3 aspect-[4/2]",
+        },
+        {
+          image: "/images/project/north-seattle-giveaway/6L1A9196.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+        {
+          image: "/images/project/north-seattle-giveaway/6L1A9191-2.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+        {
+          image: "/images/project/north-seattle-giveaway/6L1A9179.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+
+        // {
+        //   image:
+        //     "/images/project/north-seattle-giveaway/6L1A1687_websize.jpg",
+        // },
+        // {
+        //   image:
+        //     "/images/project/north-seattle-giveaway/6L1A1694_websize.jpg",
+        // },
+      ],
+      galleryDescription: `
+      <h2 style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">Watch the Client's Experience</h2>
+      <p>Hear directly from the homeowner about her experience working with Innate Design & Build and what this bathroom transformation has meant for her daily life.</p>
+      <div style="max-width: 100%; height: 600px; margin-top: 20px; text-align: center;">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_XRwWSx-16M?si=DeMrtIkdzWHtK8Iz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+`,
+      projectSlider: [
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+      ],
+    },
+  },
+  "bellevue-skylit": {
+    seo: {
+      title:
+        "Bellevue Skylight & Living Room Remodel | Design-Build Home Renovation by Innate",
+      description: `A heartfelt Seattle bathroom remodel focused on accessibility, comfort, and functionality. Featuring a custom tiled shower, built-in seat, glass enclosure, new vanity, and thoughtful preservation of existing elements.A Bellevue home renovation featuring a raised roofline, six new skylights, and additional windows to maximize natural light, enhance ceiling height, and create a brighter, more open living experience.`,
+    },
+    defaultSlides: [
+      {
+        component: (
+          <Slide
+            image="/images/project/bellevue-skylit/6L1A9481.jpg"
+            video=""
+          />
+        ),
+        delay: 36000,
+        projectName: "",
+        projectType: "",
+      },
+      {
+        component: (
+          <Slide
+            image="/images/project/bellevue-skylit/6L1A9517.jpg"
+            video=""
+          />
+        ),
+        delay: 36000,
+        projectName: "",
+        projectType: "",
+      },
+    ],
+    title: "Bellevue Skylit Living Space Renovation",
+    defaultProjectDetails: {
+      projectScope: [
+        {
+          key: "Scope",
+          value:
+            "Roofline Modification, Skylight Installation, Window Installation, Covered Deck Construction",
+        },
+        { key: "Type", value: "Renovation" },
+        { key: "Location", value: "Bellevue, Washington" },
+        {
+          key: "Approach",
+          value: "Design-Build",
+        },
+        {
+          key: "Focus",
+          value:
+            "Natural Light, Open Living Spaces, Architectural Enhancement, Indoor-Outdoor Living",
+        },
+        { key: "Design & Construction", value: "Innate" },
+        { key: "Photographer", value: "Akiha Marketing" },
+      ],
+      scopedescription: `This Bellevue renovation was designed around a simple but transformative goal: bringing more natural light into the home while creating a greater sense of openness throughout the main living spaces.
+`,
+      media: {
+        desktop: "",
+      },
+      description: [
+        `To achieve this vision, our team raised the existing roofline in the main living area, creating additional ceiling height and dramatically changing the feel of the space. By increasing the vertical volume of the room, we were able to make the home feel larger, brighter, and more connected to the outdoors.
+        <br /><br />
+Natural light played a central role in the design. Four new windows were added throughout the main living room area, along with four strategically placed skylights that flood the space with daylight throughout the day. The combination of increased ceiling height and abundant natural light transformed what was once a darker interior into an airy, welcoming environment.
+        <br /><br />
+The renovation also extended outdoors. We constructed a new roof structure over the existing deck, creating a more functional outdoor living area that can be enjoyed year-round. To maintain the bright and open feeling beneath the covered space, two additional skylights were incorporated into the new roof structure, allowing natural light to filter through while providing protection from the elements.
+        <br /><br />
+This project showcases how thoughtful structural modifications can dramatically improve the way a home feels without requiring a large addition. Through strategic design, enhanced natural lighting, and carefully integrated architectural elements, we created a home that feels more spacious, connected, and enjoyable to live in every day.
+`,
+      ],
+      gallery: [
+        {
+          image: "/images/project/bellevue-skylit/6L1A9473.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+        {
+          image: "/images/project/bellevue-skylit/6L1A9487.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+        {
+          image: "/images/project/bellevue-skylit/6L1A9478.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+
+        {
+          image: "/images/project/bellevue-skylit/6L1A9517.jpg",
+          class: "col-span-3 aspect-[4/2]",
+        },
+        {
+          image: "/images/project/bellevue-skylit/6L1A9490.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+        {
+          image: "/images/project/bellevue-skylit/6L1A9509.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+        {
+          image: "/images/project/bellevue-skylit/6L1A9504.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+
+        // {
+        //   image:
+        //     "/images/project/north-seattle-giveaway/6L1A1687_websize.jpg",
+        // },
+        // {
+        //   image:
+        //     "/images/project/north-seattle-giveaway/6L1A1694_websize.jpg",
+        // },
+      ],
+      galleryDescription: `
+
+      <h2 style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">Project Highlights</h2>
+      <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 20px;">
+        <li>Raised roofline to increase ceiling height and openness</li>
+Added four new windows in the main living area
+        <li>Installed four skylights in the primary living space</li>
+        <li>Built a new covered deck structure</li>
+        <li>Added two additional skylights above the deck area</li>
+        <li>Increased natural light throughout the home</li>
+        <li>Enhanced indoor-outdoor functionality and year-round usability</li>
+      </ul>
+
+      <h2 style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">Bringing More Light Into Your Home</h2>
+      <p>At Innate Design & Build, we believe some of the most impactful renovations come from improving how a space feels. Whether through structural modifications, expanded windows, skylights, or reimagined layouts, our team helps homeowners unlock the full potential of their existing homes.</p>
+      <p>If you're looking to create brighter, more open living spaces, we'd love to help bring your vision to life.</p>
+`,
+      projectSlider: [
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+      ],
+    },
+  },
 };
 
 export async function generateStaticParams() {
