@@ -19,6 +19,48 @@ export interface SlideData {
 
 export const slidesData: SlideData[] = [
   {
+    title: "Design and Construction Projects in Kenmore",
+    location: "Kenmore, Washington",
+    url: "/project/bellevue-skylit",
+    media: [
+      {
+        src: [
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate-AEC%20-%20Finished%20Bellevue%20Work%20(Horizontal).webm?alt=media&token=b4016be4-e61b-4260-9920-b4249766f1d6",
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate-AEC%20-%20Finished%20Bellevue%20Work%20(Horizontal).mp4?alt=media&token=0da5669c-6b37-46e9-b6fa-ad9d5af37b4c",
+        ],
+        type: "video",
+        mobilePlaceholder: "/images/project/bellevue-skylit/6L1A9481.jpg",
+      },
+      { src: "/images/project/bellevue-skylit/6L1A9481.jpg", type: "image" },
+      { src: "/images/project/bellevue-skylit/6L1A9474.jpg", type: "image" },
+    ],
+    hover: {
+      title: "Design and Construction Projects in Kenmore | Bathroom Remodel",
+      subTitle: `A Kenmore renovation featuring two bathroom remodels, two closet upgrades, and a redesigned laundry to support an ADU—maximizing space without changing the home’s footprint.
+`,
+    },
+  },
+  {
+    title: "North Seattle Giveaway Bathroom Remodel",
+    location: "Seattle, Washington",
+    url: "/project/north-seattle-giveaway",
+    media: [
+      {
+        src: "/images/project/north-seattle-giveaway/6L1A9177.jpg",
+        type: "image",
+      },
+      {
+        src: "/images/project/north-seattle-giveaway/6L1A9179.jpg",
+        type: "image",
+      },
+    ],
+    hover: {
+      title: "North Seattle Giveaway Bathroom Remodel | Bathroom Remodel",
+      subTitle: `This bathroom remodel was one of the most meaningful projects our team has completed. The renovation was created for a homeowner who truly needed a safer, more comfortable, and more functional bathroom, and our goal was to improve her day-to-day quality of life while creating a space she could enjoy for years to come.
+`,
+    },
+  },
+  {
     title: "Bellevue Bathroom Remodel",
     location: "Bellevue, Washington",
     url: "/project/bellevue-bathroom",
