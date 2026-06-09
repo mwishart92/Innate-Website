@@ -19,8 +19,8 @@ export interface SlideData {
 
 export const slidesData: SlideData[] = [
   {
-    title: "Design and Construction Projects in Kenmore",
-    location: "Kenmore, Washington",
+    title: "Bellevue Skylit Living Space Renovation",
+    location: "Bellevue, Washington",
     url: "/project/bellevue-skylit",
     media: [
       {
