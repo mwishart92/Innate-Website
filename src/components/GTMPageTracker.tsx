@@ -2,21 +2,25 @@
 
 import { useEffect } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
-import { initializeLinkTracking, initializeGTM, initializeFormTracking } from "@/utils/gtm";
+import {
+  initializeLinkTracking,
+  initializeGTM,
+  initializeFormTracking,
+} from "@/utils/gtm";
 
 const AD_PARAMS = [
-  'gclid',    // Google Ads click ID
-  'fbclid',   // Facebook click ID
-  'msclkid',  // Microsoft/Bing Ads click ID
-  'ttclid',   // TikTok click ID
-  'utm_source',
-  'utm_medium',
-  'utm_campaign',
-  'utm_content',
-  'utm_term',
+  "gclid", // Google Ads click ID
+  "fbclid", // Facebook click ID
+  "msclkid", // Microsoft/Bing Ads click ID
+  "ttclid", // TikTok click ID
+  "utm_source",
+  "utm_medium",
+  "utm_campaign",
+  "utm_content",
+  "utm_term",
 ];
 
-const SESSION_PREFIX = 'innate_attr_';
+const SESSION_PREFIX = "innate_attr_";
 
 const GTMPageTracker = () => {
   const pathname = usePathname();
@@ -28,7 +32,7 @@ const GTMPageTracker = () => {
   }, []);
 
   useEffect(() => {
-    if (typeof window === 'undefined') return;
+    if (typeof window === "undefined") return;
 
     // Capture any ad attribution params present in the current URL
     const captured: Record<string, string> = {};
@@ -36,7 +40,9 @@ const GTMPageTracker = () => {
       const value = searchParams?.get(param);
       if (value) {
         captured[param] = value;
-        try { sessionStorage.setItem(SESSION_PREFIX + param, value); } catch {}
+        try {
+          sessionStorage.setItem(SESSION_PREFIX + param, value);
+        } catch {}
       }
     });
 
@@ -53,7 +59,10 @@ const GTMPageTracker = () => {
 
     // Push attribution to dataLayer whenever we have params
     if (Object.keys(attribution).length > 0 && (window as any).dataLayer) {
-      (window as any).dataLayer.push({ event: 'ad_attribution', ...attribution });
+      (window as any).dataLayer.push({
+        event: "ad_attribution",
+        ...attribution,
+      });
     }
   }, [searchParams]);
 
@@ -62,7 +71,9 @@ const GTMPageTracker = () => {
     if (typeof window !== "undefined" && (window as any).dataLayer) {
       const pageViewData = {
         event: "page_view",
-        page_path: pathname + (searchParams?.toString() ? `?${searchParams.toString()}` : ""),
+        page_path:
+          pathname +
+          (searchParams?.toString() ? `?${searchParams.toString()}` : ""),
         page_title: document.title,
         page_location: window.location.href,
         timestamp: new Date().toISOString(),
@@ -75,13 +86,12 @@ const GTMPageTracker = () => {
   useEffect(() => {
     // Initialize automatic link tracking
     const linkCleanup = initializeLinkTracking();
-    
+
     // Initialize automatic form tracking
     const formCleanup = initializeFormTracking();
-    
+
     return () => {
       if (linkCleanup) linkCleanup();
-      if (formCleanup) formCleanup();
     };
   }, []);
 
