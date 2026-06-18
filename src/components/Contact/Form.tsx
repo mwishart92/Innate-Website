@@ -1,14 +1,14 @@
-'use client'
-import React, { useState, useEffect, useRef } from 'react'
-import Image from 'next/image'
-import rightarrow from '@/public/images/press/RightArrowblue.png'
-import Swal from 'sweetalert2'
-import logo from '@/public/logo-innate.png'
-import facebook from '@/public/fbb.png'
-import linkedin from '@/public/LinkedIn.png'
-import instagaram from '@/public/Instagram.png'
-import { ClipLoader } from 'react-spinners'
-import { trackFormSuccess, trackFormFailure, trackButtonClick } from '@/utils/gtm'
+"use client";
+import React, { useState, useEffect, useRef } from "react";
+import Image from "next/image";
+import rightarrow from "@/public/images/press/RightArrowblue.png";
+import Swal from "sweetalert2";
+import logo from "@/public/logo-innate.png";
+import facebook from "@/public/fbb.png";
+import linkedin from "@/public/LinkedIn.png";
+import instagaram from "@/public/Instagram.png";
+import { ClipLoader } from "react-spinners";
+import { trackFormSuccess } from "@/utils/gtm";
 
 // interface LatLng {
 //   lat: number;
@@ -20,17 +20,18 @@ import { trackFormSuccess, trackFormFailure, trackButtonClick } from '@/utils/gt
 // }
 
 const Form: React.FC = () => {
-
   const autoCompleteRef = useRef<HTMLInputElement>(null);
   // let autoComplete: google.maps.places.Autocomplete;
-  const autoCompleteInstance = useRef<google.maps.places.Autocomplete | null>(null); 
+  const autoCompleteInstance = useRef<google.maps.places.Autocomplete | null>(
+    null,
+  );
   useEffect(() => {
     const loadScript = (url: string, callback: () => void) => {
       if (document.querySelector(`script[src="${url}"]`)) {
         callback();
         return;
       }
-  
+
       const script = document.createElement("script");
       script.src = url;
       script.async = true;
@@ -38,24 +39,29 @@ const Form: React.FC = () => {
       script.onload = callback;
       document.head.appendChild(script);
     };
-  
+
     const handleScriptLoad = () => {
       if (!autoCompleteRef.current || !window.google?.maps) return;
-  
-      autoCompleteInstance.current = new google.maps.places.Autocomplete(autoCompleteRef.current);
-  
+
+      autoCompleteInstance.current = new google.maps.places.Autocomplete(
+        autoCompleteRef.current,
+      );
+
       autoCompleteInstance.current.addListener("place_changed", () => {
         const place = autoCompleteInstance.current?.getPlace();
         if (place?.formatted_address) {
-          setFormData((prev) => ({ ...prev, projectAddress: place.formatted_address ?? prev.projectAddress }));
+          setFormData((prev) => ({
+            ...prev,
+            projectAddress: place.formatted_address ?? prev.projectAddress,
+          }));
         }
       });
     };
-  
+
     if (!window.google) {
       loadScript(
         "https://maps.googleapis.com/maps/api/js?key=AIzaSyD0A5Ma5HEzqdRzsRoh6TzvpwWPZ0UqP6s&libraries=places",
-        handleScriptLoad
+        handleScriptLoad,
       );
     } else {
       handleScriptLoad();
@@ -63,44 +69,37 @@ const Form: React.FC = () => {
   }, []);
 
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    projectAddress: '',
-    projectType: '',
-    message: '',
-  })
+    name: "",
+    email: "",
+    phone: "",
+    projectAddress: "",
+    projectType: "",
+    message: "",
+  });
 
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false);
 
   const validateEmail = (email: string) => {
-    const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+    const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     if (regex.test(email)) {
-      return true
+      return true;
     }
-    return false
-  }
+    return false;
+  };
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>,
   ) => {
-    const { name, value } = e.target
+    const { name, value } = e.target;
     setFormData({
       ...formData,
       [name]: value,
-    })
-  }
+    });
+  };
 
   const handleSubmit = async (
     event: React.FormEvent<HTMLFormElement>,
   ): Promise<void> => {
-    event.preventDefault()
-
-    // Track button click
-    trackButtonClick('contact_form_submit', {
-      button_text: 'Submit',
-      form_type: 'contact',
-      button_location: 'contact_form'
-    })
+    event.preventDefault();
 
     if (
       !formData.name ||
@@ -110,39 +109,29 @@ const Form: React.FC = () => {
       !formData.projectType ||
       !formData.message
     ) {
-      trackFormFailure('contact_form', {
-        form_type: 'contact',
-        error_message: 'Missing required fields',
-        form_data_keys: Object.keys(formData).filter(key => !formData[key as keyof typeof formData])
-      })
       Swal.fire({
-        title: 'Error!',
-        text: 'Please fill in all fields.',
-        icon: 'error',
+        title: "Error!",
+        text: "Please fill in all fields.",
+        icon: "error",
         showConfirmButton: false,
         timer: 2000,
-      })
-      return
+      });
+      return;
     } else if (!validateEmail(formData.email)) {
-      trackFormFailure('contact_form', {
-        form_type: 'contact',
-        error_message: 'Invalid email format',
-        email_provided: formData.email
-      })
       Swal.fire({
-        title: 'Error!',
-        text: 'Please Enter valid Email',
-        icon: 'error',
+        title: "Error!",
+        text: "Please Enter valid Email",
+        icon: "error",
         showConfirmButton: false,
         timer: 2000,
-      })
-      return
+      });
+      return;
     }
 
-    const apiEndpoint = '/api/ContactUsapi' // Replace with your actual API URL
+    const apiEndpoint = "/api/ContactUsapi"; // Replace with your actual API URL
 
     try {
-      setLoading(true)
+      setLoading(true);
 
       // Add images to the formData
       const formDataWithImages = {
@@ -153,88 +142,75 @@ const Form: React.FC = () => {
           linkedin: linkedin.src,
           instagram: instagaram.src,
         },
-      }
+      };
       // console.log("API response:", formDataWithImages);
       // Call the API with the collected data
       const response: Response = await fetch(apiEndpoint, {
-        method: 'POST',
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(formDataWithImages),
-      })
+      });
       // console.log("API response:", response);
 
       // Check if the response is successful
       if (!response.ok) {
-        setLoading(false)
-        trackFormFailure('contact_form', {
-          form_type: 'contact',
-          error_message: `API call failed with status: ${response.status}`,
-          http_status: response.status
-        })
-        throw new Error(`API call failed with status: ${response.status}`)
+        setLoading(false);
+        throw new Error(`API call failed with status: ${response.status}`);
       }
 
       // Parse the API response
-      const data: { success: boolean; message: string } = await response.json()
+      const data: { success: boolean; message: string } = await response.json();
       // console.log("API response:", data);
-      setLoading(false)
+      setLoading(false);
       // Check the response success
       if (data.success) {
-        trackFormSuccess('contact_form', {
-          form_type: 'contact',
+        console.log("calling trackFormSuccess ::");
+        trackFormSuccess("contact_form", {
+          form_type: "contact",
           project_type: formData.projectType,
-          has_message: !!formData.message
-        })
+          has_message: !!formData.message,
+        });
         Swal.fire({
-          title: 'Success!',
-          icon: 'success',
+          title: "Success!",
+          icon: "success",
           showConfirmButton: false,
           timer: 2000,
-        })
+        });
         setFormData({
-          name: '',
-          email: '',
-          phone: '',
-          projectAddress: '',
-          projectType: '',
-          message: '',
-        })
+          name: "",
+          email: "",
+          phone: "",
+          projectAddress: "",
+          projectType: "",
+          message: "",
+        });
       } else {
-        trackFormFailure('contact_form', {
-          form_type: 'contact',
-          error_message: data.message,
-          api_response: data
-        })
         Swal.fire({
-          title: 'Error!',
+          title: "Error!",
           text: data.message,
-          icon: 'error',
+          icon: "error",
           showConfirmButton: false,
           timer: 2000,
-        })
+        });
       }
     } catch (error) {
       console.error(
-        'Error calling contactFlow API:',
+        "Error calling contactFlow API:",
         error instanceof Error ? error.message : error,
-      )
-      trackFormFailure('contact_form', {
-        form_type: 'contact',
-        error_message: error instanceof Error ? error.message : 'Unknown error',
-        error_type: error instanceof Error ? error.constructor.name : typeof error
-      })
+      );
+
       Swal.fire({
-        title: 'Error!',
-        text: 'Something went Wrong. Please Try Again',
-        icon: 'error',
+        title: "Error!",
+        text: "Something went Wrong. Please Try Again",
+        icon: "error",
         showConfirmButton: false,
         timer: 2000,
-      })
-      setLoading(false)
+      });
+      setLoading(false);
     }
-  }
+  };
   return (
     <>
       <div className="w-full">
@@ -251,9 +227,9 @@ const Form: React.FC = () => {
               id="name"
               value={formData.name}
               onChange={(e) => {
-                const regex = /^[a-zA-Z\s]*$/
+                const regex = /^[a-zA-Z\s]*$/;
                 if (regex.test(e.target.value)) {
-                  handleChange(e)
+                  handleChange(e);
                 }
               }}
               placeholder=""
@@ -262,10 +238,11 @@ const Form: React.FC = () => {
             />
             <label
               htmlFor="name"
-              className={`absolute left-0 text-[16px] text-white transition-all mob:text-[14px] font-normal ${formData.name
-                ? '-top-4 text-[16px] mob:text-[14px]'
-                : 'top-2.5 text-base peer-focus:-top-4 peer-focus:text-sm'
-                }`}
+              className={`absolute left-0 text-[16px] text-white transition-all mob:text-[14px] font-normal ${
+                formData.name
+                  ? "-top-4 text-[16px] mob:text-[14px]"
+                  : "top-2.5 text-base peer-focus:-top-4 peer-focus:text-sm"
+              }`}
             >
               Name
             </label>
@@ -285,10 +262,11 @@ const Form: React.FC = () => {
             />
             <label
               htmlFor="email"
-              className={`absolute left-0 font-normal text-white transition-all text-[16px] mob:text-[14px] ${formData.email
-                ? '-top-4 text-[16px] mob:text-[14px]'
-                : 'top-2.5 text-base peer-focus:-top-4 peer-focus:text-sm'
-                }`}
+              className={`absolute left-0 font-normal text-white transition-all text-[16px] mob:text-[14px] ${
+                formData.email
+                  ? "-top-4 text-[16px] mob:text-[14px]"
+                  : "top-2.5 text-base peer-focus:-top-4 peer-focus:text-sm"
+              }`}
             >
               Email
             </label>
@@ -299,29 +277,29 @@ const Form: React.FC = () => {
               type="number"
               name="phone"
               id="phone"
-              value={formData.phone || ''}
+              value={formData.phone || ""}
               onKeyDown={(e) => {
-                const invalidKeys = ['e', 'E', '+', '-', '.', ' ']
+                const invalidKeys = ["e", "E", "+", "-", ".", " "];
                 if (
                   invalidKeys.includes(e.key) ||
-                  (isNaN(Number(e.key)) && e.key !== 'Backspace')
+                  (isNaN(Number(e.key)) && e.key !== "Backspace")
                 ) {
-                  e.preventDefault()
+                  e.preventDefault();
                 }
               }}
               onChange={(e) => {
-                const value = e.target.value
+                const value = e.target.value;
                 if (value.length <= 14) {
-                  handleChange(e)
-                  console.log(value)
+                  handleChange(e);
+                  console.log(value);
                 } else {
                   Swal.fire({
-                    title: 'Error!',
-                    text: 'Enter max 14 digits',
-                    icon: 'error',
+                    title: "Error!",
+                    text: "Enter max 14 digits",
+                    icon: "error",
                     showConfirmButton: false,
                     timer: 2000,
-                  })
+                  });
                 }
               }}
               placeholder=""
@@ -330,10 +308,11 @@ const Form: React.FC = () => {
             />
             <label
               htmlFor="phone"
-              className={`absolute left-0 text-[16px] mob:text-[14px] font-normal text-white transition-all ${formData.phone && formData.phone.toString().length > 0
-                ? '-top-4 text-[16px] mob:text-[14px]'
-                : 'top-2.5 text-base peer-focus:-top-4 peer-focus:text-sm'
-                }`}
+              className={`absolute left-0 text-[16px] mob:text-[14px] font-normal text-white transition-all ${
+                formData.phone && formData.phone.toString().length > 0
+                  ? "-top-4 text-[16px] mob:text-[14px]"
+                  : "top-2.5 text-base peer-focus:-top-4 peer-focus:text-sm"
+              }`}
             >
               Phone
             </label>
@@ -353,10 +332,11 @@ const Form: React.FC = () => {
             />
             <label
               htmlFor="projectAddress"
-              className={`absolute left-0 text-[16px] mob:text-[14px] font-normal text-white transition-all ${formData.projectAddress
-                ? '-top-4 text-[16px] mob:text-[14px]'
-                : 'top-2.5 text-base peer-focus:-top-4 peer-focus:text-sm'
-                }`}
+              className={`absolute left-0 text-[16px] mob:text-[14px] font-normal text-white transition-all ${
+                formData.projectAddress
+                  ? "-top-4 text-[16px] mob:text-[14px]"
+                  : "top-2.5 text-base peer-focus:-top-4 peer-focus:text-sm"
+              }`}
             >
               Project Address
             </label>
@@ -437,10 +417,11 @@ const Form: React.FC = () => {
             />
             <label
               htmlFor="message"
-              className={`absolute left-0 text-[16px] font-normal mob:text-[14px] text-white transition-all ${formData.message
-                ? '-top-4 text-[16px] mob:text-[14px]'
-                : 'top-2.5 text-base peer-focus:-top-4 peer-focus:text-sm'
-                }`}
+              className={`absolute left-0 text-[16px] font-normal mob:text-[14px] text-white transition-all ${
+                formData.message
+                  ? "-top-4 text-[16px] mob:text-[14px]"
+                  : "top-2.5 text-base peer-focus:-top-4 peer-focus:text-sm"
+              }`}
             >
               Message
             </label>
@@ -456,7 +437,7 @@ const Form: React.FC = () => {
         </form>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Form
+export default Form;

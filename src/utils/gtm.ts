@@ -16,16 +16,16 @@ export const initializeGTM = () => {
   // Initialize dataLayer if it doesn't exist
   if (!(window as any).dataLayer) {
     (window as any).dataLayer = [];
-    console.log('GTM dataLayer initialized');
+    console.log("GTM dataLayer initialized");
   }
 
   // Push initial GTM configuration
   (window as any).dataLayer.push({
-    'gtm.start': new Date().getTime(),
-    event: 'gtm.js'
+    "gtm.start": new Date().getTime(),
+    event: "gtm.js",
   });
 
-  console.log('GTM initialized successfully');
+  console.log("GTM initialized successfully");
 };
 
 // Check if GTM script is loaded
@@ -36,26 +36,30 @@ export const checkGTMLoading = (): GTMLoadingStatus => {
       gtmInlineScript: false,
       dataLayerExists: false,
       gtagExists: false,
-      allLoaded: false
+      allLoaded: false,
     };
   }
 
   // Check if GTM script is in the DOM
-  const gtmScript = document.querySelector('script[src*="googletagmanager.com"]');
-  const gtmInlineScript = document.querySelector('script[innerHTML*="googletagmanager.com"]');
-  
+  const gtmScript = document.querySelector(
+    'script[src*="googletagmanager.com"]',
+  );
+  const gtmInlineScript = document.querySelector(
+    'script[innerHTML*="googletagmanager.com"]',
+  );
+
   // Check if dataLayer exists
   const dataLayerExists = !!(window as any).dataLayer;
-  
+
   // Check if gtag function exists
   const gtagExists = !!(window as any).gtag;
 
-  console.log('GTM Loading Check:', {
+  console.log("GTM Loading Check:", {
     gtmScript: !!gtmScript,
     gtmInlineScript: !!gtmInlineScript,
     dataLayerExists,
     gtagExists,
-    dataLayerLength: dataLayerExists ? (window as any).dataLayer.length : 0
+    dataLayerLength: dataLayerExists ? (window as any).dataLayer.length : 0,
   });
 
   return {
@@ -63,7 +67,7 @@ export const checkGTMLoading = (): GTMLoadingStatus => {
     gtmInlineScript: !!gtmInlineScript,
     dataLayerExists,
     gtagExists,
-    allLoaded: !!(gtmScript || gtmInlineScript) && dataLayerExists
+    allLoaded: !!(gtmScript || gtmInlineScript) && dataLayerExists,
   };
 };
 
@@ -72,22 +76,22 @@ export const forceGTMLoading = () => {
   if (typeof window === "undefined") return;
 
   const loadingStatus = checkGTMLoading();
-  
+
   if (!loadingStatus.allLoaded) {
-    console.log('Forcing GTM script loading...');
-    
+    console.log("Forcing GTM script loading...");
+
     // Create and inject GTM script
-    const script = document.createElement('script');
+    const script = document.createElement("script");
     script.async = true;
-    script.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-KNSHDN66';
+    script.src = "https://www.googletagmanager.com/gtm.js?id=GTM-KNSHDN66";
     script.onload = () => {
-      console.log('GTM script loaded successfully');
+      console.log("GTM script loaded successfully");
       initializeGTM();
     };
     script.onerror = () => {
-      console.error('Failed to load GTM script');
+      console.error("Failed to load GTM script");
     };
-    
+
     document.head.appendChild(script);
   }
 };
@@ -95,12 +99,12 @@ export const forceGTMLoading = () => {
 // Push custom events to GTM dataLayer
 export const pushGTMEvent = (
   eventName: string,
-  eventData: Record<string, any> = {}
+  eventData: Record<string, any> = {},
 ) => {
   if (typeof window !== "undefined") {
     // Check GTM loading status
     const loadingStatus = checkGTMLoading();
-    
+    console.log("calling pushGTMEvent 1 :: form_submission event");
     // Force loading if not loaded
     if (!loadingStatus.allLoaded) {
       forceGTMLoading();
@@ -113,13 +117,11 @@ export const pushGTMEvent = (
 
     const event = {
       event: eventName,
-      ...eventData,
     };
-
     (window as any).dataLayer.push(event);
-    console.log('GTM Event pushed:', eventName, eventData);
+    console.log("GTM Event pushed:", event, eventName, eventData);
   } else {
-    console.warn('GTM dataLayer not available');
+    console.warn("GTM dataLayer not available");
   }
 };
 
@@ -127,8 +129,9 @@ export const pushGTMEvent = (
 export const trackFormSubmission = (
   formName: string,
   formData: Record<string, any> = {},
-  isSuccess: boolean = true
+  isSuccess: boolean = true,
 ) => {
+  console.log("calling trackFormSubmission :: form_submission event");
   pushGTMEvent("form_submission", {
     form_name: formName,
     form_success: isSuccess,
@@ -139,7 +142,7 @@ export const trackFormSubmission = (
 // Track form submission success
 export const trackFormSuccess = (
   formName: string,
-  formData: Record<string, any> = {}
+  formData: Record<string, any> = {},
 ) => {
   trackFormSubmission(formName, formData, true);
 };
@@ -148,7 +151,7 @@ export const trackFormSuccess = (
 export const trackFormFailure = (
   formName: string,
   formData: Record<string, any> = {},
-  error?: string
+  error?: string,
 ) => {
   trackFormSubmission(
     formName,
@@ -156,14 +159,14 @@ export const trackFormFailure = (
       ...formData,
       error_message: error,
     },
-    false
+    false,
   );
 };
 
 // Track button clicks
 export const trackButtonClick = (
   buttonName: string,
-  buttonData: Record<string, any> = {}
+  buttonData: Record<string, any> = {},
 ) => {
   pushGTMEvent("button_click", {
     button_name: buttonName,
@@ -175,7 +178,7 @@ export const trackButtonClick = (
 export const trackLinkClick = (
   linkText: string,
   linkUrl: string,
-  linkData: Record<string, any> = {}
+  linkData: Record<string, any> = {},
 ) => {
   pushGTMEvent("link_click", {
     link_text: linkText,
@@ -200,9 +203,13 @@ export const trackTimeOnPage = (timeInSeconds: number) => {
 
 // Hook to automatically track link clicks
 export const useLinkTracking = () => {
-  const trackLink = (linkText: string, linkUrl: string, additionalData: Record<string, any> = {}) => {
+  const trackLink = (
+    linkText: string,
+    linkUrl: string,
+    additionalData: Record<string, any> = {},
+  ) => {
     trackLinkClick(linkText, linkUrl, {
-      link_location: 'page_content',
+      link_location: "page_content",
       ...additionalData,
     });
   };
@@ -212,9 +219,12 @@ export const useLinkTracking = () => {
 
 // Hook to automatically track button clicks
 export const useButtonTracking = () => {
-  const trackButton = (buttonName: string, additionalData: Record<string, any> = {}) => {
+  const trackButton = (
+    buttonName: string,
+    additionalData: Record<string, any> = {},
+  ) => {
     trackButtonClick(buttonName, {
-      button_location: 'page_content',
+      button_location: "page_content",
       ...additionalData,
     });
   };
@@ -228,59 +238,42 @@ export const initializeLinkTracking = () => {
 
   const handleLinkClick = (event: MouseEvent) => {
     const target = event.target as HTMLElement;
-    const link = target.closest('a');
-    
+    const link = target.closest("a");
+
     if (link) {
-      const linkText = link.textContent?.trim() || link.getAttribute('aria-label') || 'Unknown Link';
+      const linkText =
+        link.textContent?.trim() ||
+        link.getAttribute("aria-label") ||
+        "Unknown Link";
       const linkUrl = link.href;
-      
+
       // Don't track internal navigation links that use Next.js router
-      if (linkUrl && !linkUrl.startsWith('javascript:') && !linkUrl.startsWith('#')) {
+      if (
+        linkUrl &&
+        !linkUrl.startsWith("javascript:") &&
+        !linkUrl.startsWith("#")
+      ) {
         trackLinkClick(linkText, linkUrl, {
-          link_location: 'automatic_tracking',
-          link_type: linkUrl.startsWith(window.location.origin) ? 'internal' : 'external',
+          link_location: "automatic_tracking",
+          link_type: linkUrl.startsWith(window.location.origin)
+            ? "internal"
+            : "external",
         });
       }
     }
   };
 
-  document.addEventListener('click', handleLinkClick);
-  
+  document.addEventListener("click", handleLinkClick);
+
   // Cleanup function
   return () => {
-    document.removeEventListener('click', handleLinkClick);
+    document.removeEventListener("click", handleLinkClick);
   };
 };
 
 // Initialize automatic form tracking
 export const initializeFormTracking = () => {
   if (typeof window === "undefined") return;
-
-  const handleFormSubmit = (event: Event) => {
-    const form = event.target as HTMLFormElement;
-    
-    if (form) {
-      const formName = form.getAttribute('data-form-name') || form.id || 'unknown_form';
-      const formAction = form.action || 'unknown_action';
-      const formMethod = form.method || 'unknown_method';
-      
-      // Track form submission attempt
-      trackFormSubmission(formName, {
-        form_action: formAction,
-        form_method: formMethod,
-        form_location: 'automatic_tracking',
-        form_elements_count: form.elements.length
-      });
-    }
-  };
-
-  // Track form submissions
-  document.addEventListener('submit', handleFormSubmit);
-  
-  // Cleanup function
-  return () => {
-    document.removeEventListener('submit', handleFormSubmit);
-  };
 };
 
 // Initialize GTM on module load
