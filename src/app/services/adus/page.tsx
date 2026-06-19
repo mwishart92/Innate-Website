@@ -163,7 +163,7 @@ const threeCardDesignSections = [
   {
     title: "Integrated Design-Build Services",
     description:
-      "As a full-service accessory dwelling unit contractor, we handle every phase of the project—from feasibility and architectural planning to permitting and construction. Our integrated design-build model eliminates confusion and handoffs, ensuring speed, clarity, and exceptional results.",
+      "As a full-service accessory dwelling unit contractor, we handle every phase of the project—from feasibility and architectural planning to permitting and construction. Our integrated <a href='https://visualizer.innate-aec.com/' target='_blank' rel='noopener noreferrer'>design-build model</a> eliminates confusion and handoffs, ensuring speed, clarity, and exceptional results.",
     image: {
       src: "/images/services/adus/r1.webp",
       alt: "Integrated Design-Build Services",

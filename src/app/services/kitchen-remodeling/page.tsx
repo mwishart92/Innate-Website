@@ -424,7 +424,7 @@ const ServicesPage = () => {
       <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate%20-%20Website%20Hero%20Video.mp4?alt=media&token=1e51d592-5ef8-40d7-b454-4c6bdffcccdf"
-        contentText="At <a href='/' style='text-decoration: underline;'>Innate</a> , we specialize in kitchen remodel solutions that bring beauty, function, and flow into perfect harmony. Whether you’re planning a modern kitchen remodel, a high-end upgrade, or a full reimagining of your space, our boutique team transforms outdated kitchens into stunning, personalized hubs for everyday living."
+        contentText="At <a href='/' style='text-decoration: underline;'>Innate</a> , we specialize in kitchen remodel solutions that bring beauty, function, and flow into perfect harmony. Whether you’re planning a modern kitchen remodel, a high-end upgrade, or a full <a href='https://visualizer.innate-aec.com/' target='_blank' rel='noopener noreferrer'>reimagining of your space</a>, our boutique team transforms outdated kitchens into stunning, personalized hubs for everyday living."
       />
       <LatestProjects
         title="Transform Your Kitchen into a Culinary Haven"
