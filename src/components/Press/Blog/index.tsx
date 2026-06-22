@@ -41,12 +41,40 @@ const Blog = () => {
               href={`/blogs/${section.slug}`}
               className="h-[192px] relative w-full"
             >
-              <Image
-                src={section.thumbnail}
-                alt=""
-                fill
-                className="rounded-t-xl object-cover w-full h-full"
-              />
+              {section.thumbnail ? (
+                <Image
+                  src={section.thumbnail}
+                  alt=""
+                  fill
+                  className="object-cover"
+                />
+              ) : (
+                <div className="flex h-full w-full flex-col items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    className="mb-3 h-12 w-12 text-slate-400"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M19.5 14.25v-8.25a2.25 2.25 0 0 0-2.25-2.25h-10.5A2.25 2.25 0 0 0 4.5 6v12a2.25 2.25 0 0 0 2.25 2.25h6.75"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M8.25 8.25h6M8.25 12h7.5M8.25 15.75h4.5"
+                    />
+                  </svg>
+
+                  <span className="text-sm font-medium text-slate-500">
+                    Blog Article
+                  </span>
+                </div>
+              )}
             </Link>
             <div className="flex flex-col justify-between flex-grow p-4">
               <Link href={`/blogs/${section.slug}`} className="">

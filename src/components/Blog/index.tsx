@@ -91,13 +91,14 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
   const faqData = useMemo(() => {
     if (!section) return [];
     const faqs: { question: string; answer: string }[] = [];
-    
+
     section.content.forEach((item) => {
       if (item.text) {
         // Look for FAQ patterns: Q: question followed by A: answer
         // Pattern matches: <p><span...>Q: question</span></p> followed by <p><span...>A: answer</span></p>
         // Use multiline flag and handle whitespace/newlines
-        const faqPattern = /<p><span[^>]*>Q:\s*([^<]+)<\/span><\/p>\s*<p><span[^>]*>A:\s*([^<]+)<\/span><\/p>/g;
+        const faqPattern =
+          /<p><span[^>]*>Q:\s*([^<]+)<\/span><\/p>\s*<p><span[^>]*>A:\s*([^<]+)<\/span><\/p>/g;
         let match;
         let lastIndex = 0;
         while ((match = faqPattern.exec(item.text)) !== null) {
@@ -106,31 +107,31 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
             break;
           }
           lastIndex = match.index;
-          
+
           const question = match[1].trim();
           const answer = match[2].trim();
           if (question && answer) {
             faqs.push({ question, answer });
           }
         }
-        
+
         // If no FAQs found with first pattern, try a more flexible pattern
         if (faqs.length === 0) {
           const flexiblePattern = /Q:\s*([^<]+?)(?=<\/span>)/g;
           const answerPattern = /A:\s*([^<]+?)(?=<\/span>)/g;
           const questions: string[] = [];
           const answers: string[] = [];
-          
+
           let qMatch;
           while ((qMatch = flexiblePattern.exec(item.text)) !== null) {
             questions.push(qMatch[1].trim());
           }
-          
+
           let aMatch;
           while ((aMatch = answerPattern.exec(item.text)) !== null) {
             answers.push(aMatch[1].trim());
           }
-          
+
           // Pair questions with answers
           for (let i = 0; i < Math.min(questions.length, answers.length); i++) {
             if (questions[i] && answers[i]) {
@@ -140,15 +141,18 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
         }
       }
     });
-    
+
     return faqs;
   }, [section]);
 
   // Check if content contains FAQ section
   const hasFaqSection = useMemo(() => {
     if (!section) return false;
-    return section.content.some((item) => 
-      item.text && (item.text.includes("FAQs:") || item.text?.includes("Frequently Asked Questions"))
+    return section.content.some(
+      (item) =>
+        item.text &&
+        (item.text.includes("FAQs:") ||
+          item.text?.includes("Frequently Asked Questions")),
     );
   }, [section]);
 
@@ -204,13 +208,43 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
           </div>
         </div>
       </div>
-      <div className={`w-full relative mt-10 ${slug === "professional-waterproofing-seattle-bathroom-remodel" ? "pb-[calc(30%+200px)] mob:pb-[calc(50%+200px)]" : slug === "modernizing-mid-century-seattle-homes" || slug === "maximizing-small-kitchens-seattle" ? "pb-[calc(30%+300px)] mob:pb-[calc(50%+300px)]" : "pb-[30%] mob:pb-[50%]"}`}>
-        <Image
-          src={section.thumbnail}
-          alt={section.title || ""}
-          fill
-          className="object-cover relative h-auto w-full"
-        />
+      <div
+        className={`w-full relative mt-10 ${slug === "professional-waterproofing-seattle-bathroom-remodel" ? "pb-[calc(30%+200px)] mob:pb-[calc(50%+200px)]" : slug === "modernizing-mid-century-seattle-homes" || slug === "maximizing-small-kitchens-seattle" ? "pb-[calc(30%+300px)] mob:pb-[calc(50%+300px)]" : "pb-[30%] mob:pb-[50%]"}`}
+      >
+        {section.thumbnail ? (
+          <Image
+            src={section.thumbnail}
+            alt={section.title || ""}
+            fill
+            className="object-cover relative h-auto w-full"
+          />
+        ) : (
+          <div className="flex h-full absolute w-full flex-col items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              className="mb-3 h-12 w-12 text-slate-400"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19.5 14.25v-8.25a2.25 2.25 0 0 0-2.25-2.25h-10.5A2.25 2.25 0 0 0 4.5 6v12a2.25 2.25 0 0 0 2.25 2.25h6.75"
+              />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M8.25 8.25h6M8.25 12h7.5M8.25 15.75h4.5"
+              />
+            </svg>
+
+            <span className="text-sm font-medium text-slate-500">
+              Blog Article
+            </span>
+          </div>
+        )}
       </div>
       <div className="w-full max-w-[90%] mob:max-w-[100%] flex tab:flex-col gap-[90px] tab:gap-[0] mx-auto pt-10 lg:px-5">
         <div className="w-full max-w-[70%] tab:max-w-[100%]">
@@ -238,12 +272,40 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
                   {item?.src?.map((s, i) => (
                     <SwiperSlide key={i}>
                       <div className="relative w-full aspect-[10/5] mob:aspect-[7/5] ">
-                        <Image
-                          src={s}
-                          alt={item.alt || ""}
-                          fill
-                          className="object-cover"
-                        />
+                        {s ? (
+                          <Image
+                            src={s}
+                            alt={item.alt || ""}
+                            fill
+                            className="object-cover"
+                          />
+                        ) : (
+                          <div className="flex h-full w-full flex-col items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth="1.5"
+                              className="mb-3 h-12 w-12 text-slate-400"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M19.5 14.25v-8.25a2.25 2.25 0 0 0-2.25-2.25h-10.5A2.25 2.25 0 0 0 4.5 6v12a2.25 2.25 0 0 0 2.25 2.25h6.75"
+                              />
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M8.25 8.25h6M8.25 12h7.5M8.25 15.75h4.5"
+                              />
+                            </svg>
+
+                            <span className="text-sm font-medium text-slate-500">
+                              Blog Article
+                            </span>
+                          </div>
+                        )}
                       </div>
                     </SwiperSlide>
                   ))}
@@ -254,35 +316,54 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
                 <>
                   {(() => {
                     // If FAQs are successfully extracted, remove FAQ section from text and show both
-                    if (hasFaqSection && item.text?.includes("FAQs:") && faqData.length > 0) {
+                    if (
+                      hasFaqSection &&
+                      item.text?.includes("FAQs:") &&
+                      faqData.length > 0
+                    ) {
                       // Find the FAQ section and split content around it
                       const faqHeadingIndex = item.text.indexOf("FAQs:");
                       if (faqHeadingIndex !== -1) {
                         // Find the start of the FAQ heading (go back to find <h2)
-                        let faqSectionStart = item.text.lastIndexOf("<h2", faqHeadingIndex);
+                        let faqSectionStart = item.text.lastIndexOf(
+                          "<h2",
+                          faqHeadingIndex,
+                        );
                         if (faqSectionStart === -1) {
                           faqSectionStart = faqHeadingIndex;
                         }
-                        
+
                         // Find where FAQ section ends (next <h2 or end of text)
-                        const nextH2Index = item.text.indexOf("<h2", faqSectionStart + 1);
-                        const faqSectionEnd = nextH2Index !== -1 ? nextH2Index : item.text.length;
-                        
-                        const textBeforeFaq = item.text.substring(0, faqSectionStart).trim();
-                        const textAfterFaq = item.text.substring(faqSectionEnd).trim();
-                        
+                        const nextH2Index = item.text.indexOf(
+                          "<h2",
+                          faqSectionStart + 1,
+                        );
+                        const faqSectionEnd =
+                          nextH2Index !== -1 ? nextH2Index : item.text.length;
+
+                        const textBeforeFaq = item.text
+                          .substring(0, faqSectionStart)
+                          .trim();
+                        const textAfterFaq = item.text
+                          .substring(faqSectionEnd)
+                          .trim();
+
                         return (
                           <>
                             {textBeforeFaq && (
                               <div
-                                dangerouslySetInnerHTML={{ __html: textBeforeFaq }}
+                                dangerouslySetInnerHTML={{
+                                  __html: textBeforeFaq,
+                                }}
                                 className={contentClassName}
                               ></div>
                             )}
                             <BlogFaq faqItems={faqData} />
                             {textAfterFaq && (
                               <div
-                                dangerouslySetInnerHTML={{ __html: textAfterFaq }}
+                                dangerouslySetInnerHTML={{
+                                  __html: textAfterFaq,
+                                }}
                                 className={contentClassName}
                               ></div>
                             )}
@@ -337,7 +418,7 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
           {selectedSections.map((section) => {
             // Find the first image in the content array
             const thumbnailItem = section.content.find(
-              (item) => item.type === "text" && item.src
+              (item) => item.type === "text" && item.src,
             );
             // Use a tag if available, otherwise fallback
             const tag = section.tag || "Carbon Economy";

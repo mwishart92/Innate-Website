@@ -3,15 +3,24 @@ import React from "react";
 
 // import Text from "@/components/ui/Text";
 
+const getVideoMimeType = (source: string) => {
+  const path = source.split("?")[0];
+  if (path.endsWith(".webm")) return "video/webm";
+  if (path.endsWith(".ogg")) return "video/ogg";
+  return "video/mp4";
+};
+
 interface SlideProps {
   image: string;
-  video: string | null;
+  video: string | string[] | null;
 }
 
 const Slide = ({ image, video }: SlideProps) => {
+  const showVideo = Array.isArray(video) ? video.length > 0 : !!video;
+
   return (
     <div className="relative h-screen mob:h-screen min-h-[784px] flex justify-center items-center">
-      {video ? (
+      {showVideo ? (
         <video
           preload="none"
           className="fixed top-0 left-0 w-full h-full object-cover z-0"
@@ -20,14 +29,13 @@ const Slide = ({ image, video }: SlideProps) => {
           muted
           playsInline
         >
-          <source
-            src={
-              video
-                ? video
-                : "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/bosma-adu.mp4?alt=media&token=0c906c3e-ed25-4082-8230-f5941f54e9ce"
-            }
-            type="video/mp4"
-          />
+          {Array.isArray(video)
+            ? video.map((src, index) => (
+                <source key={index} src={src} type={getVideoMimeType(src)} />
+              ))
+            : video && (
+                <source src={video} type={getVideoMimeType(video)} />
+              )}
         </video>
       ) : (
         <div className="relative w-full h-full">

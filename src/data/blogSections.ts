@@ -1413,10 +1413,12 @@ export const blogSections: ArticleSection[] = [
   {
     id: 16,
     slug: "seattle-water-storm-damage-repair",
-    title: "Rebuilding After Water & Storm Damage in Seattle — Insurance-Backed Repairs Done Right",
+    title:
+      "Rebuilding After Water & Storm Damage in Seattle — Insurance-Backed Repairs Done Right",
     thumbnail: "/images/press/flood_hero.jpg",
     tag: "Blog",
-    excerpt: "Dealing with Seattle water damage or storm repairs? Innate provides flood restoration, insurance-backed rebuilds, and design-build solutions. Contact us",
+    excerpt:
+      "Dealing with Seattle water damage or storm repairs? Innate provides flood restoration, insurance-backed rebuilds, and design-build solutions. Contact us",
     publishedDate: "4 February, 2026",
     content: [
       {
@@ -1619,7 +1621,8 @@ export const blogSections: ArticleSection[] = [
     title: "Designing the Ideal Au Pair Living Space in Seattle",
     thumbnail: "/images/project/wedgewood-adu/6L1A0999_websize.webp",
     tag: "Blog",
-    excerpt: "Dealing with Seattle water damage or storm repairs? Innate provides flood restoration, insurance-backed rebuilds, and design-build solutions. Contact us",
+    excerpt:
+      "Dealing with Seattle water damage or storm repairs? Innate provides flood restoration, insurance-backed rebuilds, and design-build solutions. Contact us",
     publishedDate: "24 February, 2026",
     content: [
       {
@@ -1822,7 +1825,8 @@ A well-designed au pair space protects your caregiver’s well-being, your house
     title: "The Real Cost of New Construction in Seattle",
     thumbnail: "/images/press/adu_pic.jpg",
     tag: "Blog",
-    excerpt: "How much does it cost to build a home in Seattle in 2026? Innate breaks down the real cost drivers—from site conditions to finishes—so you can plan with confidence.",
+    excerpt:
+      "How much does it cost to build a home in Seattle in 2026? Innate breaks down the real cost drivers—from site conditions to finishes—so you can plan with confidence.",
     publishedDate: "15 April, 2026",
     content: [
       {
@@ -2134,7 +2138,8 @@ A well-designed au pair space protects your caregiver’s well-being, your house
     title: "Exterior Remodeling Solutions for the Seattle Climate",
     thumbnail: "/images/blog/exterior_seattle.jpg",
     tag: "Blog",
-    excerpt: "Protect your investment with expert exterior remodeling services. From high-performance siding in Seattle to rain-screen systems, we build for the PNW climate.",
+    excerpt:
+      "Protect your investment with expert exterior remodeling services. From high-performance siding in Seattle to rain-screen systems, we build for the PNW climate.",
     publishedDate: "6 May, 2026",
     content: [
       {
@@ -2192,6 +2197,187 @@ A well-designed au pair space protects your caregiver’s well-being, your house
         "Protect your investment with expert exterior remodeling services. From high-performance siding in Seattle to rain-screen systems, we build for the PNW climate.",
       keywords:
         "exterior remodeling Seattle, siding replacement Seattle, rain screen siding, Hardie board Seattle, PNW exterior remodel, stormwater management Seattle, design-build exterior Seattle",
+    },
+  },
+  {
+    id: 20,
+    slug: "instant-ai-remodel-tool",
+    title:
+      "How to Redesign Your Kitchen or Bath in Seconds with Innate’s Instant AI Remodel Tool",
+    thumbnail: "",
+    tag: "Blog",
+    excerpt:
+      "Bring your dream kitchen or bathroom to life instantly! Upload a photo of your space to our free, instant AI Remodel and see it transform in seconds today.",
+    publishedDate: "20 June, 2026",
+    content: [
+      {
+        type: "text",
+        text: `
+<p><span style="font-weight: 400;">Have you ever seen your outdated kitchen or bathroom and thought, &ldquo;I wish I could remodel this place, but I simply have no idea where to begin&rdquo;?</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Deciding on a theme for an extensive home remodeling can seem like a tough choice. Sure, looking at Pinterest or Instagram gives you endless inspiration; however, it&rsquo;s impossible to envision how those luxury designs will look inside your home.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">The team behind Innate understands that home design should be fun and easy. This is precisely why our developers decided to come up with the shortcut to home design inspiration&mdash;the Innate </span><a href="https://visualizer.innate-aec.com/"><span style="font-weight: 400;">Instant AI Remodel Tool.</span></a></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">No more guessing about what kind of changes you can make to your home. Simply upload a photo of your kitchen or bathroom and watch your place being redesigned right before your eyes&mdash;all absolutely free of charge without requiring any credit cards.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Here is a guide on how to use this game-changing tool and how it can help kickstart your dream home renovation.</span></p>
+<h2>&nbsp;</h2>
+<br/><br/>
+        `,
+      },
+      {
+        type: "image",
+        src: [""],
+        alt: "Exterior remodeling project in West Seattle",
+      },
+      {
+        type: "text",
+        text: `
+<h2><strong>It Works In Just Three Simple Steps</strong></h2>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Our visualizer is powered by AI technology that acts as the middle ground between the mind and the visualization of its ideas in actuality. This technology is quick, effective, and most importantly, easy to use:</span></p>
+<p>&nbsp;</p>
+<p><strong>Snap and Upload: </strong><span style="font-weight: 400;">Simply snap a picture of your current kitchen, bathroom, or any other area that needs a redesign, then upload it into the program.</span></p>
+<p><strong>Select Style: </strong><span style="font-weight: 400;">Pick from our collection of professionally curated luxury design styles.</span></p>
+<p><strong>Generate: </strong><span style="font-weight: 400;">Press generate and see your room get redesigned completely within just 30 seconds.</span></p>
+<p><strong>Tips on Designing with the AI Tool: </strong><span style="font-weight: 400;">To get the best out of the AI designer, always use a high-quality picture taken in bright daylight. Position yourself in a corner of the room to get all of the room inside the frame.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><strong>Discover Unique Design Styles Selected Just for You</strong></h2>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Wondering about your own unique design style? Discover it using the Innate Visualizer to explore luxury designs in minutes. Try out any of the following styles:</span></p>
+<p><strong>Modern Luxury: </strong><span style="font-weight: 400;">Design style emphasizing precision and airy spaces.</span></p>
+<p><strong>Warm Contemporary:</strong><span style="font-weight: 400;"> Layered warmth with organic elements and collected aesthetic.</span></p>
+<p><strong>Pacific Northwest Modern: </strong><span style="font-weight: 400;">Style with balance of architectural structure and rugged materials.</span></p>
+<p><strong>Japandi:</strong><span style="font-weight: 400;"> Combines simplicity of minimalism with the comfort of wabi-sabi.</span></p>
+<p><strong>Classic Elegance: </strong><span style="font-weight: 400;">Classic elegance combined with the eclectic soul.</span></p>
+<p><strong>Mid-Century Modern: </strong><span style="font-weight: 400;">Style that incorporates post and beam architecture with indoor-outdoor living.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><strong>Innate AI Visualizer: The Advantages of This Program in Your Life&nbsp;</strong></h2>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Apart from being a lot of fun to play around with, our Instant AI Remodeling Tool can help you immensely while preparing for a renovation in real life, such as:</span></p>
+<ol>
+<li><strong> No More Guessing Game</strong></li>
+</ol>
+<p><span style="font-weight: 400;">Unlike viewing various mood boards or analyzing small-scale samples, you immediately see what certain combinations of colors and designs look like inside your home through a kind of 3D preview of what is ahead of you.</span></p>
+<ol start="2">
+<li><strong> Saves Time and Effort of Decisions</strong></li>
+</ol>
+<p><span style="font-weight: 400;">The time spent on designing may take up weeks due to constant back-and-forth negotiations. By playing with our AI tool, you save yourself much time and trouble, as you already know what to ask for.</span></p>
+<ol start="3">
+<li><strong> It Ensures a Seamless Process When it Comes to Construction</strong></li>
+</ol>
+<p><span style="font-weight: 400;">Innate is a single Design-Build-Engineering Firm. This means that we won&rsquo;t leave you hanging once you get your exciting AI design. From then on, all you need to do is wait while our team of highly skilled professionals handles your project from permits to actual construction.</span></p>
+<ol start="4">
+<li><strong> It Promotes Collaboration</strong></li>
+</ol>
+<p><span style="font-weight: 400;">Sometimes, getting another person or even your contractor to understand what you&rsquo;re thinking can be challenging. With this, however, all you have to say is, &ldquo;I want my kitchen to look exactly like this,&rdquo; pointing at the exact AI generated design.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><strong>Are You Ready To Transform Your Home in Seattle?&nbsp;</strong></h2>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Your ideal kitchen or bathroom can be yours faster than ever imagined. There&rsquo;s no need for deep pockets or design plans in order to start visualizing your future.</span></p>
+<p><span style="font-weight: 400;">Check out the </span><a href="https://visualizer.innate-aec.com/"><span style="font-weight: 400;">Innate AI Visualizer</span></a><span style="font-weight: 400;"> today, upload your photo, and witness an instant transformation.</span></p>
+<p><span style="font-weight: 400;">After picking out your favorite look, </span><a href="https://www.innate-aec.com/"><span style="font-weight: 400;">contact the Innate team for a consultation</span></a><span style="font-weight: 400;">. We will turn your design ideas into a reality through our transparent bidding system, JobSync project management, and professional craftsmanship.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+        `,
+      },
+    ],
+    seo: {
+      title: "Redesign Your Home with our Instant AI Remodel Tool | Blog",
+      description:
+        "Bring your dream kitchen or bathroom to life instantly! Upload a photo of your space to our free, instant AI Remodel and see it transform in seconds today.",
+      keywords: "",
+    },
+  },
+  {
+    id: 21,
+    slug: "open-concept-vs-defined-spaces",
+    title: "Open Concept vs. Defined Spaces: Which is right for your home?",
+    thumbnail: "",
+    tag: "Blog",
+    excerpt:
+      "Explore the pros and cons of an open concept remodel versus defined spaces to find the perfect fit. Learn how Innate can help transform your floor plan!",
+    publishedDate: "20 June, 2026",
+    content: [
+      {
+        type: "text",
+        text: `
+<p><span style="font-weight: 400;">Do you think about your ideal home when you close your eyes? Is there a wide, sunny floor plan with the kitchen opening out into the living room where you have conversations throughout the whole downstairs floor of your house? Or do you think of smaller rooms with different moods and functions, as well as the ability to shut each off from the others with a door</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">If you are designing a new, open concept floor plan in your </span><a href="https://www.innate-aec.com/services/whole-home-remodels"><span style="font-weight: 400;">Seattle remodeling project</span></a><span style="font-weight: 400;">, one of the largest decisions you will have to make will be whether or not you go with an open concept floor plan versus a floor plan with defined rooms.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">As one of the premiere design-build-engineering firms in Seattle Innate understands that choosing between the two can be a daunting task. We&rsquo;ll break down both types of plans to help you find the layout you want in your house.</span></p>
+<p>&nbsp;</p>
+<br/><br/>
+        `,
+      },
+      {
+        type: "image",
+        src: [""],
+        alt: "Exterior remodeling project in West Seattle",
+      },
+      {
+        type: "text",
+        text: `
+<h2><strong>The Appeal of the Open Concept House</strong></h2>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">An open concept house design has been very popular for many decades now. It transforms the look of a home by tearing down any non-load-bearing walls between the kitchen, dining room, and living space.</span></p>
+<h3><strong>Benefits of an Open Design</strong></h3>
+<p><strong>Perfect for Entertaining Guests: </strong><span style="font-weight: 400;">An open concept design is perfect if you like to throw parties because it allows the cook to mingle with their guests while cooking because they will be able to see everyone even when they are not in the same room as them.</span></p>
+<p><strong>It Allows for Maximum Sunlight: </strong><span style="font-weight: 400;">Walls absorb light. With no walls, natural light that enters through the windows on one side of the house lights up the entire home.</span></p>
+<p><span style="font-weight: 400;"><br /></span><strong>It Makes a House Look Larger:</strong><span style="font-weight: 400;"> By removing any physical obstruction in the house, the size of the house increases by perception alone. A 1,200-square foot open-concept house looks bigger than a 1,500-square foot house split up into many small rooms.</span></p>
+<p>&nbsp;</p>
+<h3><strong>Downsides to Consider:</strong></h3>
+<p><strong>Mess Is Always Visible:</strong><span style="font-weight: 400;"> If you don&rsquo;t have enough time to wash the dishes after the meal, they&rsquo;ll be clearly visible not only from your sofa but from any point within the house.</span></p>
+<p><strong>Noisy Moments Go Everywhere:</strong><span style="font-weight: 400;"> The absence of the walls means that the blender, TV, video chat session, and even your kids&rsquo; playing will take place in the same sound space.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><strong>The Defined Space (Closed Concept)</strong></h2>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Though the open concept floor plan remains extremely popular, a huge culture shift is occurring. The homeowner is realizing the coziness, privacy, and purposefulness of a defined space. Not one large great room, but rather distinct rooms which serve their own designated function.</span></p>
+<h3><strong>The Benefits:</strong></h3>
+<p><strong>Privacy and Isolation:</strong><span style="font-weight: 400;"> Working at home has now become the norm, and so having a defined space with its own door is essential to be able to do so without being interrupted.</span></p>
+<p><strong>More Creative Design: </strong><span style="font-weight: 400;">In an open-concept house, your design will need to match across the whole space. In defined rooms, you have the ability to explore new designs. This means painting the dining room a dark green and the living room a bright white.</span></p>
+<p><strong>Intimate and Purposeful Room Environment:</strong><span style="font-weight: 400;"> Rooms that are clearly defined and have their own function create micro-spaces that are cozy and intimate.</span></p>
+<p><strong>Energy Efficiency:</strong><span style="font-weight: 400;"> Smaller rooms are much easier to heat or cool than a large, vaulted open-concept space.</span></p>
+<h3><strong>Disadvantages:&nbsp;</strong></h3>
+<p><strong>It Can Feel Crowded: </strong><span style="font-weight: 400;">When done badly, without windows in the right places, it can make an area seem dark or cramped.</span></p>
+<p><strong>Disrupted Flow: </strong><span style="font-weight: 400;">It can inhibit the flow during big social events where people are forced to separate themselves into different rooms.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><strong>Open Concept vs Closed Concept: How Do You Decide?</strong></h2>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">To help you figure out whether an open or closed concept is appropriate for your impending renovations, take a look at the following lifestyle considerations:</span></p>
+<p><span style="font-weight: 400;">How do you and your family live together? Do you prefer a more communal atmosphere that involves being around everyone else while you prepare meals? Or would you rather have quiet spots to read books or relax in.</span></p>
+<p><span style="font-weight: 400;">What type of home do you reside in? Some homes were designed and built specifically to be open spaces. Older homes tend to retain their charm when their rooms are kept well-defined.</span></p>
+<p><span style="font-weight: 400;">Are there any remote workers in the home? When many people take Zoom calls, a completely open concept will get messy very fast.</span></p>
+<h2><strong>&nbsp;</strong></h2>
+<h2><strong>The Best of Both Worlds: The Broken Layout</strong></h2>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">It doesn&rsquo;t always mean you need to choose sides. Here at Innate, we find ourselves designing many broken-plan layouts for our customers. This solution maintains the spaciousness and natural light of an open concept redesign but makes use of clever </span><a href="https://www.innate-aec.com/services/architectural-services"><span style="font-weight: 400;">architectural techniques</span></a><span style="font-weight: 400;"> to define different areas.</span></p>
+<p><span style="font-weight: 400;">Some solutions that allow us to achieve this blend include:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Glass partitions or steel-frame doors that allow light to pass through while blocking sound.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Different ceiling heights or floor coverings to separate the kitchen from the rest of the home without any walls.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Fireplaces or shelves that serve as beautiful room separators while maintaining the openness.</span></li>
+</ul>
+<h3><strong>Turn Your Dream Home Layout into a Reality With Innate</strong></h3>
+<p><span style="font-weight: 400;">Do you envision tearing everything down to create a stunning open concept home or would you prefer designing various unique rooms? It is essential that whatever you choose to do, the process goes off without a hitch.</span></p>
+<p><span style="font-weight: 400;">As most changes require structural alterations, relying on a design &amp; build company will ensure you get both a stunningly beautiful, perfectly structured, and efficiently engineered home. At Innate, we take care of the </span><a href="https://www.innate-aec.com/blogs/architecture-impacts-property-value"><span style="font-weight: 400;">architectural design</span></a><span style="font-weight: 400;">, engineering, and building of your dream home in a cost-effective and timely manner.</span></p>
+<p><span style="font-weight: 400;">Interested in seeing what kind of layouts you can design? Take a picture of your present home layout and use our </span><a href="https://visualizer.innate-aec.com/"><span style="font-weight: 400;">Instant AI Remodel Tool</span></a><span style="font-weight: 400;"> to try out some design aesthetics in just moments! </span><a href="https://www.innate-aec.com/contact"><span style="font-weight: 400;">Contact us</span></a><span style="font-weight: 400;"> for more information.</span></p>
+
+        `,
+      },
+    ],
+    seo: {
+      title: "Choosing an Open Concept Home vs. Defined Spaces | Blog",
+      description:
+        "Explore the pros and cons of an open concept remodel versus defined spaces to find the perfect fit. Learn how Innate can help transform your floor plan!",
+      keywords: "",
     },
   },
 ];

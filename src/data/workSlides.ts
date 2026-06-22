@@ -290,7 +290,10 @@ export const slidesData: SlideData[] = [
     url: "/project/knight-residence",
     media: [
       {
-        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/05.25_Innate-NW_16x9%20No%20SpeedRamp_No%20Sound.webm?alt=media&token=b30f1fba-154c-495e-870e-8058cebddedc",
+        src: [
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/05.25_Innate-NW_16x9%20No%20SpeedRamp_No%20Sound.webm?alt=media&token=b30f1fba-154c-495e-870e-8058cebddedc",
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/05.25_Innate-NW_16x9%20No%20SpeedRamp_No%20Sound.mp4?alt=media&token=414b69f0-d9c3-41ef-a3d5-1c98b6813f0f",
+        ],
         type: "video",
         mobilePlaceholder: "/images/project/knight-residence/knight_mob.jpg",
       },
@@ -405,7 +408,10 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
     url: "/project/wedgewood-adu",
     media: [
       {
-        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_ADU_16x9.webm?alt=media&token=146a7881-9a11-4099-8f58-3714d7c5f98b",
+        src: [
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_ADU_16x9.webm?alt=media&token=146a7881-9a11-4099-8f58-3714d7c5f98b",
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_ADU_16x9.mp4?alt=media&token=91558a20-2927-43ab-a22e-341bd95cfe90",
+        ],
         type: "video",
         mobilePlaceholder: "/images/project/wedgewood-adu/wwadu_mob.jpg",
       },

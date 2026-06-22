@@ -966,7 +966,10 @@ const projectData = {
         component: (
           <Slide
             image=""
-            video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_ADU_16x9.webm?alt=media&token=146a7881-9a11-4099-8f58-3714d7c5f98b"
+            video={[
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_ADU_16x9.webm?alt=media&token=146a7881-9a11-4099-8f58-3714d7c5f98b",
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_ADU_16x9.mp4?alt=media&token=91558a20-2927-43ab-a22e-341bd95cfe90",
+            ]}
           />
         ),
         delay: 36000,
@@ -1301,7 +1304,10 @@ Every decision was made to support the architecture, not compete with it.</span>
         component: (
           <Slide
             image=""
-            video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/05.25_Innate-NW_16x9%20No%20SpeedRamp_No%20Sound.webm?alt=media&token=b30f1fba-154c-495e-870e-8058cebddedc"
+            video={[
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/05.25_Innate-NW_16x9%20No%20SpeedRamp_No%20Sound.webm?alt=media&token=b30f1fba-154c-495e-870e-8058cebddedc",
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/05.25_Innate-NW_16x9%20No%20SpeedRamp_No%20Sound.mp4?alt=media&token=414b69f0-d9c3-41ef-a3d5-1c98b6813f0f",
+            ]}
           />
         ),
         delay: 36000,
