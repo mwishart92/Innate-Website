@@ -2204,7 +2204,7 @@ A well-designed au pair space protects your caregiver’s well-being, your house
     slug: "instant-ai-remodel-tool",
     title:
       "How to Redesign Your Kitchen or Bath in Seconds with Innate’s Instant AI Remodel Tool",
-    thumbnail: "",
+    thumbnail: "/images/blog/Ai-Tool-main-image.jpg",
     tag: "Blog",
     excerpt:
       "Bring your dream kitchen or bathroom to life instantly! Upload a photo of your space to our free, instant AI Remodel and see it transform in seconds today.",
@@ -2228,7 +2228,7 @@ A well-designed au pair space protects your caregiver’s well-being, your house
       },
       {
         type: "image",
-        src: [""],
+        src: ["/images/blog/AI-Tool-second-image.jpg"],
         alt: "Exterior remodeling project in West Seattle",
       },
       {
@@ -2297,7 +2297,7 @@ A well-designed au pair space protects your caregiver’s well-being, your house
     id: 21,
     slug: "open-concept-vs-defined-spaces",
     title: "Open Concept vs. Defined Spaces: Which is right for your home?",
-    thumbnail: "",
+    thumbnail: "/images/blog/open-Concept-main-image.jpg",
     tag: "Blog",
     excerpt:
       "Explore the pros and cons of an open concept remodel versus defined spaces to find the perfect fit. Learn how Innate can help transform your floor plan!",
@@ -2317,7 +2317,7 @@ A well-designed au pair space protects your caregiver’s well-being, your house
       },
       {
         type: "image",
-        src: [""],
+        src: ["/images/blog/open-concept-secondary-image.jpg"],
         alt: "Exterior remodeling project in West Seattle",
       },
       {
