@@ -73,9 +73,9 @@ const nextConfig: NextConfig = {
                 : "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://connect.facebook.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.gstatic.com https://www.youtube.com https://s.ytimg.com",
               isDev
                 ? "connect-src 'self' ws://localhost:* http://localhost:*"
-                : "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://connect.facebook.net https://firebasestorage.googleapis.com https://ad.doubleclick.net https://www.google.com",
+                : "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://region1.analytics.google.com https://region1.google-analytics.com https://stats.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://connect.facebook.net https://firebasestorage.googleapis.com https://ad.doubleclick.net https://td.doubleclick.net https://www.google.com",
               "img-src 'self' data: blob: https:",
-              "frame-src https://www.googletagmanager.com https://www.youtube.com https://www.youtube-nocookie.com",
+              "frame-src https://www.googletagmanager.com https://td.doubleclick.net https://www.youtube.com https://www.youtube-nocookie.com",
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
               "font-src 'self' data: https://fonts.gstatic.com",
               "media-src 'self' https://firebasestorage.googleapis.com",

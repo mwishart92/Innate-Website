@@ -117,6 +117,7 @@ export const pushGTMEvent = (
 
     const event = {
       event: eventName,
+      ...eventData,
     };
     (window as any).dataLayer.push(event);
     console.log("GTM Event pushed:", event, eventName, eventData);
@@ -276,11 +277,3 @@ export const initializeFormTracking = () => {
   if (typeof window === "undefined") return;
 };
 
-// Initialize GTM on module load
-if (typeof window !== "undefined") {
-  // Initialize after a short delay to ensure DOM is ready
-  setTimeout(() => {
-    initializeGTM();
-    checkGTMLoading();
-  }, 100);
-}

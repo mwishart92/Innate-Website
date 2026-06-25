@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import {
   initializeLinkTracking,
-  initializeGTM,
   initializeFormTracking,
 } from "@/utils/gtm";
 
@@ -25,11 +24,6 @@ const SESSION_PREFIX = "innate_attr_";
 const GTMPageTracker = () => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
-
-  useEffect(() => {
-    // Initialize GTM once
-    initializeGTM();
-  }, []);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
