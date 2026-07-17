@@ -405,6 +405,16 @@ const projectData = {
       },
       description: [
         `The renovation focused on creating a modern, minimalist aesthetic defined by sleek lines, neutral tones, and high-quality materials. Each space was carefully planned to feel open, serene, and effortlessly functional, showcasing the balance between form and purpose that defines European design philosophy. During construction, our team also addressed existing water damage, reinforcing structural integrity and implementing modern waterproofing solutions to ensure longevity. Every detail—from fixture placement to material transitions—was executed with the precision demanded by architectural standards.`,
+        `<h2 style="font-size: 24px; font-weight: 600; margin-top: 20px; margin-bottom: 10px;">Conforming to Architectural Standards & Reinforcing Structural Soundness</h2>
+        <p>Designing for an industry colleague guarantees perfection in every aspect; all the fixtures were installed perfectly, tiles were aligned precisely, and all material junctions were perfect.</p>
+        <p>In addition, during the demolition stage of the Bellevue bathroom renovation project, we discovered that there had been water damage inside the walls from previous construction projects. We had to act swiftly to fix the subfloor and the framework, while incorporating waterproofing techniques at the same time.</p>
+        <h2 style="font-size: 24px; font-weight: 600; margin-top: 20px; margin-bottom: 10px;">Unmatched European Design & Innovative Engineering</h2>
+        <p>Being the bathroom remodelling contractors, our design approach ensured a combination of invisible structural excellence and perfect surface execution:</p>
+        <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 20px;">
+          <li style="margin-bottom: 10px;"><strong>The European Look:</strong> By selecting a palette of neutral colors, hiding plumbing fittings, and using a design of handle-free vanities, we created an open environment which looks like timeless modernism.</li>
+          <li style="margin-bottom: 10px;"><strong>Accurate Tiling & Transitioning:</strong> In order to accomplish the clean geometry desired by the architect, we laid down a pattern for tiling grids that ensured no awkward slivers by providing smooth transition between materials.</li>
+          <li style="margin-bottom: 10px;"><strong>Waterproofing:</strong> To solve the problem of water damage and ensure the longevity of the home, we reinforced its structural frame and provided waterproofing for it.</li>
+        </ul>`,
       ],
       gallery: [
         {
@@ -430,7 +440,8 @@ const projectData = {
           image: "/images/project/bellevue-bathroom/bb9.jpg",
         },
       ],
-      galleryDescription: `The result is a cohesive series of bathrooms that feel timeless, intentional, and refined. Completed within two months, this Bellevue remodel reflects Innate-NW’s ability to collaborate closely with discerning clients, translating vision into modern craftsmanship that enhances both daily living and long-term value.`,
+      galleryDescription: `<h2 style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">An Integrated and High-Priced Transformation</h2>
+      <p>The result is a cohesive series of bathrooms that feel timeless, intentional, and refined. Completed within two months, this Bellevue remodel reflects Innate’s ability to collaborate closely with discerning clients, translating vision into modern craftsmanship that enhances both daily living and long-term value. Through integration of our building methods with the European approach to design, we have provided spaces which enhance living and increase market value.</p>`,
       projectSlider: [
         {
           image: slider1,
@@ -1890,18 +1901,23 @@ Every decision was made to support the architecture, not compete with it.</span>
         { key: "Design & Construction", value: "Innate" },
         { key: "Photographer & Videographer", value: "Akiha Marketing" },
       ],
-      scopedescription: `This bathroom remodel was one of the most meaningful projects our team has completed. The renovation was created for a homeowner who truly needed a safer, more comfortable, and more functional bathroom, and our goal was to improve her day-to-day quality of life while creating a space she could enjoy for years to come.
+      scopedescription: `This bathroom remodel was one of the most meaningful projects our team has completed. The renovation was created for a homeowner who truly needed a safer, more comfortable, and more functional bathroom. We as Seattle bathroom remodel contractors did our best in order to make her daily life easier and enjoyable. Our goal was to improve her day-to-day quality of life while creating a space she could enjoy for years to come.
 `,
       media: {
         desktop: "",
       },
       description: [
-        `The project centered around thoughtful accessibility improvements and carefully selected upgrades that would make the bathroom easier to use without sacrificing style. The existing shower was transformed with new tile, a built-in shower seat, and a glass enclosure that brought a fresh, modern feel to the space. We also installed a new vanity, replaced the toilet, and repainted the bathroom to create a brighter, more welcoming environment.
+        `The existing bathroom posed many difficulties on a daily basis, since it did not have the essential safety elements that would allow for independent and safe living over time. The project centered around thoughtful accessibility improvements and carefully selected upgrades that would make the bathroom easier to use without sacrificing style. The existing shower was transformed with new tile, a built-in shower seat, and a glass enclosure that brought a fresh, modern feel to the space. We also installed a new vanity, replaced the toilet, and repainted the bathroom to create a brighter, more welcoming environment.
         <br /><br />
         One of the aspects we appreciated most about this project was the opportunity to preserve elements that were important to the homeowner. She wanted to keep her existing medicine cabinet, so we refinished and repainted it rather than replacing it. We also retained the original bathroom flooring, which ended up pairing beautifully with the new tile selections and helped maintain the character of the space.
-        <br /><br />
-This project reflects Innate's belief that remodeling is about more than updating finishes. It's about creating spaces that better support the people who live in them. Through thoughtful design and intentional craftsmanship, we were able to deliver a bathroom that provides greater comfort, accessibility, and peace of mind every day.
-
+        <h2 style="font-size: 24px; font-weight: 600; margin-top: 20px; margin-bottom: 10px;">The Fix: Accessible & Compassionate Design</h2>
+        <ol style="margin-left: 20px; margin-bottom: 20px;">
+          <li style="margin-bottom: 10px;"><strong>Redefining the Shower: Structural Safety</strong> &mdash; We redesigned the old shower by putting in new low maintenance tile, built-in shower seat, and a sleek glass enclosure. The design was modernized and gave a clean and fresh look.</li>
+          <li style="margin-bottom: 10px;"><strong>Integration of Modern Fixtures: Improved Plumbing & Storage</strong> &mdash; A new modern vanity which made storage easier was put up; the toilet was upgraded to a high efficiency and comfortable height toilet; accessible and stylish fixtures were used throughout the space.</li>
+          <li style="margin-bottom: 10px;"><strong>Maintaining Original Charm: Sustainable Remodeling</strong> &mdash; The idea of doing a gut job which would remove the charm of the place was not done here; instead, the homeowner's precious medicine cabinet was refurbished. The floor tiles in the bathroom were kept intact and matched with the new tiles used.</li>
+        </ol>
+        <h2 style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">The Result: Peace of Mind Everyday</h2>
+        <p>This North Seattle bathroom remodel project reflects Innate's belief that remodeling is about more than updating finishes. It's about creating spaces that better support the people who live in them. Through thoughtful design and intentional craftsmanship, we were able to deliver a bathroom that provides greater comfort, accessibility, and peace of mind every day.</p>
 `,
       ],
       gallery: [
