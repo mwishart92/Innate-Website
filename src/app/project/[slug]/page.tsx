@@ -2031,19 +2031,21 @@ This project reflects Innate's belief that remodeling is about more than updatin
         { key: "Design & Construction", value: "Innate" },
         { key: "Photographer", value: "Akiha Marketing" },
       ],
-      scopedescription: `This Bellevue renovation was designed around a simple but transformative goal: bringing more natural light into the home while creating a greater sense of openness throughout the main living spaces.
+      scopedescription: `The skylight renovation project for this house was centered on a relatively simple yet groundbreaking objective of introducing more natural light into the home, coupled with increased open space feeling of the main living areas.
 `,
       media: {
         desktop: "",
       },
       description: [
-        `To achieve this vision, our team raised the existing roofline in the main living area, creating additional ceiling height and dramatically changing the feel of the space. By increasing the vertical volume of the room, we were able to make the home feel larger, brighter, and more connected to the outdoors.
+        `The design concept revolves around creating a redefinition of the interior volume of the home through the intelligent incorporation of daylight. This Bellevue remodel utilizes the overhead glazing system, which converts an overhead plane from conventional into an ever-changing luminosity source all day long
         <br /><br />
-Natural light played a central role in the design. Four new windows were added throughout the main living room area, along with four strategically placed skylights that flood the space with daylight throughout the day. The combination of increased ceiling height and abundant natural light transformed what was once a darker interior into an airy, welcoming environment.
+To create this concept, the design team increased the roofline height of the main living areas, thereby increasing ceiling height and changing the entire character of the room. This allowed us to expand the dimensions of the living room both vertically and horizontally, making the whole place appear larger and brighter, as well as more connected to the outside world.
         <br /><br />
-The renovation also extended outdoors. We constructed a new roof structure over the existing deck, creating a more functional outdoor living area that can be enjoyed year-round. To maintain the bright and open feeling beneath the covered space, two additional skylights were incorporated into the new roof structure, allowing natural light to filter through while providing protection from the elements.
+Natural light was one of the key elements of this skylight remodel design. Four additional windows and four skylights were added to the main living room area.
         <br /><br />
-This project showcases how thoughtful structural modifications can dramatically improve the way a home feels without requiring a large addition. Through strategic design, enhanced natural lighting, and carefully integrated architectural elements, we created a home that feels more spacious, connected, and enjoyable to live in every day.
+The living room renovation also extended outdoors. We added a roof structure to cover the existing deck, thereby forming a usable outdoor living space available for use throughout the year. In order to ensure that the interior space under the roof remained light and airy, two skylights were added to the roof structure.
+        <br /><br />
+As you can see, it is possible to change the feel of your house significantly with just a few smart changes in the structure. By utilizing smart design for this living space renovation, adding light and architectural elements, we made this home feel bigger and more pleasant to live in.
 `,
       ],
       gallery: [
@@ -2091,7 +2093,7 @@ This project showcases how thoughtful structural modifications can dramatically 
       <h2 style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">Project Highlights</h2>
       <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 20px;">
         <li>Raised roofline to increase ceiling height and openness</li>
-Added four new windows in the main living area
+        <li>Added four new windows in the main living area</li>
         <li>Installed four skylights in the primary living space</li>
         <li>Built a new covered deck structure</li>
         <li>Added two additional skylights above the deck area</li>
@@ -2100,8 +2102,7 @@ Added four new windows in the main living area
       </ul>
 
       <h2 style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">Bringing More Light Into Your Home</h2>
-      <p>At Innate Design & Build, we believe some of the most impactful renovations come from improving how a space feels. Whether through structural modifications, expanded windows, skylights, or reimagined layouts, our team helps homeowners unlock the full potential of their existing homes.</p>
-      <p>If you're looking to create brighter, more open living spaces, we'd love to help bring your vision to life.</p>
+      <p>Here at Innate Design & Build, we believe that some of the best renovations have been accomplished by enhancing the feel of a space. From making changes to the structure itself to installing bigger windows, skylights, and reconfiguration of the room, our crew will help you unleash the full potential of your current home. Let&rsquo;s make your dream of light-filled and spacious rooms come true!</p>
 `,
       projectSlider: [
         {
