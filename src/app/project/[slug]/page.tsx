@@ -2158,7 +2158,7 @@ As you can see, it is possible to change the feel of your house significantly wi
       {
         component: (
           <Slide
-            image="/images/project/issaquah-bathroom/6L1A8481_websize.jpg"
+            image="/images/project/issaquah-bathroom/issaquah_bathroom_hero.jpg"
             video=""
           />
         ),
