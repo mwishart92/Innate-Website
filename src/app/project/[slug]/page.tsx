@@ -2148,6 +2148,157 @@ As you can see, it is possible to change the feel of your house significantly wi
       ],
     },
   },
+  "issaquah-bathroom": {
+    seo: {
+      title:
+        "Issaquah Primary Bathroom Remodel | Custom Wet Room & Walk-In Closet by Innate",
+      description: `An Issaquah primary bathroom renovation featuring a custom floating vanity, porcelain tile, an integrated bathtub and shower wet room, and a new walk-in closet.`,
+    },
+    defaultSlides: [
+      {
+        component: (
+          <Slide
+            image="/images/project/issaquah-bathroom/6L1A8481_websize.jpg"
+            video=""
+          />
+        ),
+        delay: 36000,
+        projectName: "",
+        projectType: "",
+      },
+      {
+        component: (
+          <Slide
+            image="/images/project/issaquah-bathroom/6L1A8531_websize.jpg"
+            video=""
+          />
+        ),
+        delay: 36000,
+        projectName: "",
+        projectType: "",
+      },
+    ],
+    title: "Issaquah Primary Bathroom & Wet Room Renovation",
+    defaultProjectDetails: {
+      projectScope: [
+        {
+          key: "Scope",
+          value:
+            "Primary Bathroom Remodel, Custom Vanity Installation, Wet Room Construction, Porcelain Tile Installation, Walk-In Closet Addition",
+        },
+        { key: "Type", value: "Renovation" },
+        { key: "Location", value: "Issaquah, Washington" },
+        {
+          key: "Approach",
+          value: "Design-Build",
+        },
+        {
+          key: "Focus",
+          value:
+            "Functional Layout, Custom Storage, Modern Materials, Wet Room Design",
+        },
+        { key: "Design & Construction", value: "Innate" },
+        { key: "Photographer", value: "Akiha Marketing" },
+      ],
+      scopedescription: `This Issaquah primary bathroom remodel was designed to create a more functional layout while giving the space a refined, modern feel. Every element was thoughtfully selected to improve how the homeowners use the bathroom each day, from the custom storage solutions to the integrated wet room.
+`,
+      media: {
+        desktop: "",
+      },
+      description: [
+        `The existing double-sink vanity was replaced with a custom wall-mounted vanity featuring a durable porcelain countertop. The floating design creates a cleaner, more open appearance while making the bathroom feel larger and easier to navigate. Above the vanity, we installed a smart LED mirror with integrated lighting, providing practical illumination while contributing to the bathroom’s streamlined aesthetic.
+        <br /><br />
+Monolith Crema Beige Matte Porcelain tile was installed throughout the main bathroom floor, introducing warmth and visual continuity across the space. Its neutral finish provides a balanced foundation for the darker materials used within the wet room.
+        <br /><br />
+The new wet room serves as the focal point of the renovation. Monolith Charcoal Black Matte Porcelain tile was installed on the walls, creating a bold contrast with the lighter bathroom flooring. A custom glass door defines the wet room while preserving an open visual connection to the rest of the bathroom.
+        <br /><br />
+Inside the wet room, the bathtub was incorporated directly into the shower space to create a cohesive and efficient layout. Two shower faucets allow the space to accommodate multiple preferences and provide greater flexibility for everyday use. Updated plumbing fixtures and finishes were installed throughout the bathroom to complete the modern design.
+        <br /><br />
+To further improve the primary suite, we added a new walk-in closet that significantly increases storage capacity. Integrating the closet into the renovation allowed us to improve the overall flow and functionality of the space while giving the homeowners a more organized and practical daily routine.
+        <br /><br />
+This project demonstrates how a thoughtful bathroom renovation can balance design, comfort, and functionality. Through a reconfigured layout, custom cabinetry, durable porcelain surfaces, and an integrated wet room, we transformed the primary bathroom into a more efficient and enjoyable space.
+`,
+      ],
+      gallery: [
+        {
+          image: "/images/project/issaquah-bathroom/6L1A8485_websize.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+        {
+          image: "/images/project/issaquah-bathroom/6L1A8487_websize.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+        {
+          image: "/images/project/issaquah-bathroom/6L1A8494_websize.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+        {
+          image: "/images/project/issaquah-bathroom/6L1A8502_websize.jpg",
+          class: "col-span-3 aspect-[4/2]",
+        },
+        {
+          image: "/images/project/issaquah-bathroom/6L1A8507_websize.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+        {
+          image: "/images/project/issaquah-bathroom/6L1A8515_websize.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+        {
+          image: "/images/project/issaquah-bathroom/6L1A8519_websize.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+      ],
+      galleryDescription: `
+
+      <h2 style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">Project Highlights</h2>
+      <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 20px;">
+        <li>Reconfigured the primary bathroom for improved functionality</li>
+        <li>Replaced the existing double-sink vanity with a custom wall-mounted vanity</li>
+        <li>Installed a porcelain vanity countertop</li>
+        <li>Added a smart LED mirror with integrated lighting</li>
+        <li>Installed Monolith Crema Beige Matte Porcelain floor tile</li>
+        <li>Created a custom wet room with a glass door</li>
+        <li>Installed Monolith Charcoal Black Matte Porcelain wall tile</li>
+        <li>Integrated the bathtub within the shower area</li>
+        <li>Added two shower faucets within the wet room</li>
+        <li>Updated plumbing fixtures and finishes throughout</li>
+        <li>Constructed a new walk-in closet to increase storage</li>
+        <li>Improved the flow and functionality of the primary suite</li>
+      </ul>
+
+      <h2 style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">Creating a More Functional Primary Suite</h2>
+      <p>At Innate Design & Build, we believe a primary bathroom should be designed around the way you live. From improving an inefficient layout to adding custom storage, modern fixtures, and durable materials, every decision should make the space more comfortable and functional.</p>
+      <p>Whether you are considering a complete primary bathroom remodel, a custom wet room, or a more functional primary suite, our design-build team can help transform your existing space into one that better supports your daily routine.</p>
+`,
+      projectSlider: [
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+      ],
+    },
+  },
 };
 
 export async function generateStaticParams() {

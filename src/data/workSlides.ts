@@ -19,6 +19,26 @@ export interface SlideData {
 
 export const slidesData: SlideData[] = [
   {
+    title: "Issaquah Primary Bathroom & Wet Room Renovation",
+    location: "Issaquah, Washington",
+    url: "/project/issaquah-bathroom",
+    media: [
+      {
+        src: [
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/issaquah_bathroom.webm?alt=media&token=2e069e6c-b8b3-49d9-8d80-553150b6f030",
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/issaquah_bathroom.mp4?alt=media&token=eed39a19-ee83-498c-bc0a-9afb27ec9fa6",
+        ],
+        type: "video",
+      },
+    ],
+    hover: {
+      title:
+        "Issaquah Primary Bathroom Remodel | Custom Wet Room & Walk-In Closet",
+      subTitle: `This Issaquah primary bathroom remodel was designed to create a more functional layout while giving the space a refined, modern feel. Every element was thoughtfully selected to improve how the homeowners use the bathroom each day, from the custom storage solutions to the integrated wet room.
+`,
+    },
+  },
+  {
     title: "Bellevue Skylit Living Space Renovation",
     location: "Bellevue, Washington",
     url: "/project/bellevue-skylit",

@@ -18,15 +18,10 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const email = "michael@innate-aec.com";
-    const michaelEmail = "michael@innate-aec.com";
+    const email = "info@innate-aec.com";
     const sendSmtpEmail = new brevo.SendSmtpEmail();
 
-    sendSmtpEmail.to = [
-      { email },
-      { email: process.env.BREVO_TO_EMAIL },
-      { email: michaelEmail },
-    ];
+    sendSmtpEmail.to = [{ email }, { email: process.env.BREVO_TO_EMAIL }];
 
     sendSmtpEmail.templateId = 4; // Use the correct template ID
     sendSmtpEmail.params = {
