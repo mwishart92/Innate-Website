@@ -1537,8 +1537,8 @@ Every decision was made to support the architecture, not compete with it.</span>
   },
   "enumclaw-full-home-remodel": {
     seo: {
-      title: "Enumclaw Full Home Remodel & Renovation | Design-Build by Innate",
-      description: `A full home remodel in Enumclaw featuring a craftsman-inspired design, redesigned kitchen, living spaces, and custom finishes after water damage. Completed by Innate.`,
+      title: "Enumclaw Full Home Remodel and Renovation | Innate",
+      description: `A full home remodel in Enumclaw featuring a craftsman-inspired design, redesigned kitchen, living spaces, and custom finishes after water damage by Innate.`,
     },
     defaultSlides: [
       {
@@ -1573,13 +1573,25 @@ Every decision was made to support the architecture, not compete with it.</span>
         { key: "General Contractor & Designer", value: "Innate" },
         { key: "Photographer", value: "Akiha Marketing" },
       ],
-      scopedescription: `After extensive water damage destroyed the home’s bathrooms, this Enumclaw full home remodel became an opportunity to thoughtfully reimagine a house that had never been renovated in over 30 years. Innate led the project as a design-build partner, guiding the client through a complete transformation of her first—and only—home.`,
+      scopedescription: `Starting out as an unfortunate situation with severe water damage that led to total destruction of the bathroom facilities, it eventually gave way to something quite significant. This project was actually an entire renovation of a home that hadn’t been touched in over 30 years in Enumclaw.
+        <br /><br />
+Being the design/build partner, Innate was trusted with the task of helping the client restore the one and only home that she has ever had. And this is no easy task, considering the amount of personal trust involved when dealing with a property containing such long-lasting memories.`,
       media: {
         desktop:
           "/images/project/enumclaw-full-home-remodel/6L1A1657_websize.jpg",
       },
       description: [
-        `The renovation included a full redesign of the kitchen, entryway, living room, and dining room, bringing cohesion, warmth, and functionality to the entire home. Inspired by craftsman and classic design principles, the remodel introduced all new doors, trim, lighting, paint, and finishes, creating a timeless aesthetic that respects the home’s character while elevating it for modern living.
+        `<h2 style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">Transformation of the Entire House</h2>
+        <p>Instead of the limited repairs of the damaged sections, the scope was further widened to ensure design flow across the entire main living area. Innate completely re-designed the kitchen, entryway, living room, and the dining room space of this fragmented, outmoded design space.</p>
+        <p>The following are some of the most important aspects of this transformation process:</p>
+        <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 20px;">
+          <li style="margin-bottom: 10px;"><strong>Craftsman & Classic Design:</strong> Drawing upon traditional design principles, the new design of the house incorporates wood tones, architectural details, and a warm color palette, which respects the historic character of the building while giving it an elegant touch.</li>
+          <li style="margin-bottom: 10px;"><strong>Redesigning the Kitchen & Living Space:</strong> Improvement of the layouts to enhance the interaction between the kitchen, dining room and living room was done to create seamless living and entertaining space.</li>
+          <li style="margin-bottom: 10px;"><strong>Architecture Trims & Millwork:</strong> Custom casings, baseboard, and interior doors were added to provide depth and warmth to the interior spaces.</li>
+          <li style="margin-bottom: 10px;"><strong>Lighting & Finishes:</strong> Careful selection of lighting fixtures, finishes, and color tones was done to illuminate and unify all the interior spaces into one single story.</li>
+        </ul>
+        <h2 style="font-size: 24px; font-weight: 600; margin-top: 20px; margin-bottom: 10px;">Precise Execution & Client Confidence</h2>
+        <p>Performed smoothly in an intensive three-month period of construction, this project underscores the benefits of using Innate’s design-build process that brings together all phases of the job under one roof. This ensures a smooth transition from urgent repairs to perfect completion without sacrificing the integrity of the work.</p>
 `,
       ],
       gallery: [
@@ -1612,7 +1624,7 @@ Every decision was made to support the architecture, not compete with it.</span>
             "/images/project/enumclaw-full-home-remodel/6L1A1694_websize.jpg",
         },
       ],
-      galleryDescription: `Completed over the course of three months, this project reflects Innate’s commitment to craftsmanship, care, and client trust—especially when renovating a home filled with decades of personal history. The result is a beautifully renewed space designed to support the next chapter of living with comfort and pride.`,
+      galleryDescription: `<p>This is exemplified by this beautifully restored home—a masterpiece that has been renovated in every sense to fit its next chapter of comfort and pride.</p>`,
       projectSlider: [
         {
           image: slider1,
@@ -1643,8 +1655,7 @@ Every decision was made to support the architecture, not compete with it.</span>
   },
   "woodinville-primary-and-guest-bathroom": {
     seo: {
-      title:
-        "Woodinville Bathroom Remodel | Primary & Guest Bath Renovation by Innate",
+      title: "Primary & Guest Woodinville Bathroom Remodel | Innate",
       description: `A Woodinville bathroom remodel featuring a redesigned primary bath with curbless shower, slate tile, freestanding tub, and high-end Rejuvenation fixtures.`,
     },
     defaultSlides: [
@@ -1681,13 +1692,27 @@ Every decision was made to support the architecture, not compete with it.</span>
         },
         { key: "Photographer", value: "Akiha Marketing" },
       ],
-      scopedescription: `This Woodinville bathroom remodel included the renovation of both the primary (master) bathroom and a guest bath, elevating the home with a refined, spa-like feel and significantly improved functionality. Innate served as the design-build partner, guiding the project from concept through construction.
+      scopedescription: `This Woodinville bathroom remodel included not only the master but also the guest bath, giving the house a touch of elegance and sophistication. Being a design and build contractor, Innate provided seamless transition through all the stages of work: from the architectural design to material selection, renovation of structures and installation of details.
 `,
       media: {
         desktop: "/images/project/woodinville/6L1A1198_websize2.webp",
       },
       description: [
-        `The primary bathroom was fully reimagined with a smarter layout designed to improve flow, openness, and everyday use. Key features include a curbless shower, slate tile flooring, frameless glass, and wall-mounted fixtures that create a clean, modern aesthetic. A freestanding tub anchors the space, adding a sense of calm and luxury.
+        `<h2 style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">Primary Bathroom: A Spa-Inspired Retreat</h2>
+        <p>Being poorly designed at first, the original master bathroom was redesigned to create a spacious and elegant place in line with the everyday needs of the homeowner.</p>
+        <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 20px;">
+          <li style="margin-bottom: 10px;"><strong>Curbless Walk-In Shower:</strong> This modern feature is also aimed at future accessibility for the owner of the bathroom.</li>
+          <li style="margin-bottom: 10px;"><strong>Frameless Glass Enclosure:</strong> This transparent element makes the room bigger and gives a chance to pay attention to all other interior details of the room.</li>
+          <li style="margin-bottom: 10px;"><strong>Slate Tile Floor:</strong> Natural slate tiles create a sense of warmth, beauty and slip-resistant surface.</li>
+          <li style="margin-bottom: 10px;"><strong>Freestanding Soaking Tub:</strong> The placement of the tub makes it become a visual center of the room.</li>
+          <li style="margin-bottom: 10px;"><strong>Wall-Mounted Fixtures & Floating Elements:</strong> These elements give an impression of the spaciousness of the room.</li>
+        </ul>
+        <h2 style="font-size: 24px; font-weight: 600; margin-top: 20px; margin-bottom: 10px;">Guest Bathroom & Consistent Material Selection</h2>
+        <p>The guest bathroom remodel was done with the same level of detailed attention as the master suite, maintaining consistency of design throughout the entire second level of the house.</p>
+        <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 20px;">
+          <li style="margin-bottom: 10px;"><strong>Consistent Design Theme:</strong> By using similar materials and colors within both of these rooms, the house acquires a consistent designer touch.</li>
+          <li style="margin-bottom: 10px;"><strong>Hardware & Lighting Upgrades:</strong> Top-of-the-line, timeless hardware and fixtures from Rejuvenation in solid brass were chosen for both bathrooms.</li>
+        </ul>
 `,
       ],
       gallery: [
@@ -1718,7 +1743,8 @@ Every decision was made to support the architecture, not compete with it.</span>
           class: "col-span-3 aspect-[4/2]",
         },
       ],
-      galleryDescription: `Both bathrooms feature high-end finishes and fixtures from Rejuvenation, reinforcing a cohesive, timeless design throughout the home. The result is a thoughtful renovation that balances elevated materials with practical design—tailored to how the homeowners live.
+      galleryDescription: `<h2 style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">The Design-Build Advantage</h2>
+      <p>Both bathrooms feature high-end finishes and fixtures from Rejuvenation, reinforcing a cohesive, timeless design throughout the home. A complicated bathroom renovation project in Woodinville needs to be planned precisely with regard to architectural aspects as well as skillful construction. With the help of the design-build system, it was possible to preserve the design integrity all along, and the result is a perfect combination of high-quality materials, space layout, and usability.</p>
 `,
       projectSlider: [
         {
@@ -1750,9 +1776,8 @@ Every decision was made to support the architecture, not compete with it.</span>
   },
   "kenmore-bathroom": {
     seo: {
-      title:
-        "Kenmore Bathroom & Laundry Remodel | Design-Build Renovation by Innate",
-      description: `A Kenmore renovation featuring two bathroom remodels, two closet upgrades, and a redesigned laundry to support an ADU—maximizing space without changing the home’s footprint.`,
+      title: "Kenmore Bathroom & Laundry Remodel | Design-Build by Innate",
+      description: `A Kenmore renovation featuring two bathroom remodels and closet upgrades, and a redesigned laundry to support an ADU—maximizing space without changing layout.`,
     },
     defaultSlides: [
       {
@@ -1788,13 +1813,22 @@ Every decision was made to support the architecture, not compete with it.</span>
         { key: "Design & Construction", value: "Innate" },
         { key: "Photographer", value: "Akiha Marketing" },
       ],
-      scopedescription: `This Kenmore renovation focused on maximizing space, functionality, and long-term flexibility—without changing the footprint of the home. Innate led the project as a design-build partner, coordinating two bathroom remodels, two closet remodels, and a full laundry reconfiguration to support a future ADU rental opportunity.
+      scopedescription: `This Kenmore bathroom renovation emphasized efficiency of space and function without changing the current footprint of the home. The design and build company, Innate, was responsible for the entire process, including the remodeling of two bathrooms, two custom built closets, and an entire laundry room that would later be used to create a downstairs rental ADU.
 `,
       media: {
         desktop: "/images/project/kenmore-bathroom/6L1A1307_websize.jpg",
       },
       description: [
-        `Through thoughtful planning and spatial reorganization, the primary bathroom was redesigned to feel more open and spacious, while the laundry was relocated to a more functional area that better served the household and the downstairs ADU layout. By reclaiming underutilized space, the team was able to increase the size of the walk-in closet, improving everyday usability without adding square footage.
+        `<h2 style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">Strategic Spatial Reorganization</h2>
+        <p>Through thoughtful planning and implementing spatial reorganization, the primary bathroom has been transformed into one that is more open, airy, and efficient. The use of otherwise wasted space has enabled the remodeling team to make room for an expanded primary walk-in closet.</p>
+        <p>On the other hand, the intelligent laundry remodel has seen the laundry moved to a much more logical location. This spatial reorganization has not only enhanced the flow of life within the main residence but also optimized the lower level for future use as a private ADU rental.</p>
+        <h2 style="font-size: 24px; font-weight: 600; margin-top: 20px; margin-bottom: 10px;">Contemporary Design Meets Functional Needs</h2>
+        <p>The bathrooms have been transformed into a luxury modern bathroom design through full-scale remodeling by removing the old layout in favor of new design elements, modern fixtures, and contemporary finishes. The improvements include:</p>
+        <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 20px;">
+          <li style="margin-bottom: 10px;"><strong>Sophisticated Design:</strong> The sleek modern tiling, new vanities, and contemporary plumbing fixtures that create an integrated look throughout.</li>
+          <li style="margin-bottom: 10px;"><strong>Space Optimization:</strong> Customized cabinets and increased closet space that help de-clutter the space.</li>
+          <li style="margin-bottom: 10px;"><strong>Multi-functional Space:</strong> The layout is designed to suit present-day functional needs as well as be easily transformed into a revenue-generating layout.</li>
+        </ul>
 `,
       ],
       gallery: [
@@ -1831,7 +1865,7 @@ Every decision was made to support the architecture, not compete with it.</span>
         //     "/images/project/kenmore-bathroom/6L1A1694_websize.jpg",
         // },
       ],
-      galleryDescription: `Both bathrooms were fully modernized with updated fixtures, finishes, and layouts, bringing a clean, contemporary feel throughout the home. This project highlights Innate’s strength in smart renovation strategy—unlocking more value, comfort, and flexibility from the space clients already have.
+      galleryDescription: `<p>Innate has demonstrated its expertise in creating a clever renovation plan that allows extracting the maximum benefit out of an existing space.</p>
 `,
       projectSlider: [
         {
