@@ -508,22 +508,6 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
     },
   },
   {
-    title: "Pellegrino Remodel",
-    location: "Denver, Colorado",
-    media: [
-      {
-        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/pellegrino-remodel.mp4?alt=media&token=d42fe844-9e50-4b63-8e43-3fcf398e1240",
-        type: "video",
-      },
-      { src: "/images/work/PR1.png", type: "image" },
-    ],
-    hover: {
-      title: "Pellegrino Remodel | Denver Home Renovation",
-      subTitle:
-        "A full-scale home renovation in Denver, this project highlights our ability to transform outdated spaces into modern, functional homes. Our home architectural design and build expertise brought new life to the entire property.",
-    },
-  },
-  {
     title: "West Seattle Duplex",
     location: "West Seattle, Washington",
     media: [
