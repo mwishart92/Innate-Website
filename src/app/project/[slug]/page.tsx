@@ -2333,6 +2333,149 @@ This project demonstrates how a thoughtful bathroom renovation can balance desig
       ],
     },
   },
+  "sammamish-kitchen-remodel": {
+    seo: {
+      title: "Sammamish Kitchen Remodel | Innate",
+      description: ``,
+    },
+    defaultSlides: [
+      {
+        component: (
+          <Slide
+            image="/images/project/sammamish-kitchen-remodel/6L1A9810-hero.jpg"
+            video=""
+          />
+        ),
+        delay: 36000,
+        projectName: "",
+        projectType: "",
+      },
+      {
+        component: (
+          <Slide
+            image="/images/project/sammamish-kitchen-remodel/6L1A9770-2.jpg"
+            video=""
+          />
+        ),
+        delay: 36000,
+        projectName: "",
+        projectType: "",
+      },
+    ],
+    title: "Sammamish Kitchen Remodel",
+    defaultProjectDetails: {
+      projectScope: [
+        {
+          key: "Scope",
+          value:
+            "Kitchen Remodel, Layout Reconfiguration, Custom Cabinetry Installation, Corian Countertops, Mirrored Backsplash, Hardwood Floor Refinishing, Pass-Through Window Installation, Roofing",
+        },
+        { key: "Type", value: "Renovation" },
+        { key: "Location", value: "Sammamish, Washington" },
+        {
+          key: "Approach",
+          value: "Design-Build",
+        },
+        {
+          key: "Focus",
+          value:
+            "Functional Layout, Custom Cabinetry, Lake Views, Modern Finishes, Original Hardwood Restoration",
+        },
+        { key: "Design & Construction", value: "Innate" },
+        { key: "Photographer", value: "Akiha Marketing" },
+      ],
+      scopedescription: `This Sammamish kitchen remodel was designed to create a more functional layout while introducing custom finishes and making better use of the home's lake views. Through framing and layout changes, custom cabinetry, updated surfaces, and carefully integrated details, the kitchen was transformed into a more open and functional space for everyday living.`,
+      media: {
+        desktop: "",
+      },
+      description: [
+        `
+<p><span style="font-weight: 400;">The existing kitchen layout was reconfigured with framing changes to improve the flow and functionality of the space. Rather than working within the limitations of the original footprint, the new layout allowed us to rethink how the homeowners move through, cook, gather, and use the kitchen each day.<br /><br /></span></p>
+<p><span style="font-weight: 400;">A new pass-through window was added to create a direct view of the lake from the kitchen. This addition helps connect the interior of the home to its surroundings while bringing more natural light and visual openness into the space.<br /><br /></span></p>
+<p><span style="font-weight: 400;">Two-tone Belmont custom cabinetry was installed throughout the kitchen, creating contrast while providing storage designed around the new layout. The cabinetry was paired with Corian countertops, creating durable work surfaces with a clean, modern appearance.<br /><br /></span></p>
+<p><span style="font-weight: 400;">A mirrored backsplash was installed to add depth and reflect natural light throughout the kitchen. Prado outlets were incorporated into the design to minimize visual interruptions along the finished surfaces, helping maintain the clean lines and streamlined appearance of the space.</span></p>
+`,
+      ],
+      gallery: [
+        {
+          image: "/images/project/sammamish-kitchen-remodel/6L1A9791.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+        {
+          image: "/images/project/sammamish-kitchen-remodel/6L1A9793.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+        {
+          image: "/images/project/sammamish-kitchen-remodel/6L1A9796.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+        {
+          image: "/images/project/sammamish-kitchen-remodel/6L1A9801.jpg",
+          class: "col-span-3 aspect-[4/2]",
+        },
+        {
+          image: "/images/project/sammamish-kitchen-remodel/6L1A9806.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+        {
+          image: "/images/project/sammamish-kitchen-remodel/6L1A9823-2.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+        {
+          image: "/images/project/sammamish-kitchen-remodel/6L1A9825.jpg",
+          class: "col-span-1 aspect-[2/3]",
+        },
+      ],
+      galleryDescription: `
+<p><span style="font-weight: 400;">The home's original hardwood flooring was preserved rather than replaced. We sanded and stained the existing hardwood to restore its appearance and integrate it with the updated kitchen finishes. Smooth-finish walls were also completed throughout the remodeled areas, providing a refined backdrop for the cabinetry and other architectural details.<br /><br /></span></p>
+<p><span style="font-weight: 400;">Beyond the kitchen, the renovation included the installation of a new shingle roof. Coordinating these improvements as part of the larger renovation allowed our team to address both interior and exterior elements of the home within a unified construction process.<br /><br /></span></p>
+<p><span style="font-weight: 400;">Completed in approximately one month, this project demonstrates how strategic layout changes and carefully selected materials can significantly transform an existing kitchen. Through custom cabinetry, restored original hardwood, integrated electrical details, and a new connection to the lake view, we created a kitchen that feels more functional, intentional, and connected to the home.<br /><br /></span></p>
+<h2 style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">Project Highlights</h2>
+<ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 20px;">
+<li style="font-weight: 400;"><span style="font-weight: 400;">Reconfigured the kitchen with framing and layout changes</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Installed two-tone Belmont custom cabinetry</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Added Corian countertops throughout the kitchen</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Installed a mirrored backsplash</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Integrated Prado outlets for a cleaner finished appearance</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Added a new pass-through window with a view of the lake</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Sanded and stained the home's original hardwood floors</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Completed smooth-finish walls throughout the remodeled areas</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Installed a new shingle roof</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Improved the overall flow and functionality of the kitchen</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Completed the renovation in approximately one month</span></li>
+</ul>
+<h2 style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">Creating a More Functional Sammamish Kitchen</h2>
+<p><span style="font-weight: 400;">At Innate Design &amp; Build, we believe a kitchen should be designed around the way you live and the unique characteristics of your home. From reconfiguring an inefficient layout to adding custom cabinetry, updated surfaces, and architectural details that take advantage of the surrounding views, every decision should make the space more functional and enjoyable.<br /><br /></span></p>
+<p><span style="font-weight: 400;">Whether you are considering a complete kitchen remodel, custom cabinetry, or a larger home renovation in Sammamish, our design-build team can help transform your existing space into one that better supports the way you live.</span></p>
+`,
+      projectSlider: [
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider1,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+        {
+          image: slider2,
+          title: "Modern Musa Spa",
+          description: "Denver Coloredo",
+          url: "#",
+        },
+      ],
+    },
+  },
 };
 
 export async function generateStaticParams() {

@@ -19,6 +19,25 @@ export interface SlideData {
 
 export const slidesData: SlideData[] = [
   {
+    title: "Sammamish Kitchen Remodel",
+    location: "Sammamish, Washington",
+    url: "/project/sammamish-kitchen-remodel",
+    media: [
+      {
+        src: [
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate-AEC%20-%20Finished%20Bellevue%20Work%20(Horizontal).webm?alt=media&token=b4016be4-e61b-4260-9920-b4249766f1d6",
+          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate-AEC%20-%20Finished%20Bellevue%20Work%20(Horizontal).mp4?alt=media&token=0da5669c-6b37-46e9-b6fa-ad9d5af37b4c",
+        ],
+        type: "video",
+      },
+    ],
+    hover: {
+      title: "Sammamish Kitchen Remodel | Innate",
+      subTitle: `
+`,
+    },
+  },
+  {
     title: "Issaquah Primary Bathroom & Wet Room Renovation",
     location: "Issaquah, Washington",
     url: "/project/issaquah-bathroom",
