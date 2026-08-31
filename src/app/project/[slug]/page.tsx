@@ -2335,8 +2335,9 @@ This project demonstrates how a thoughtful bathroom renovation can balance desig
   },
   "sammamish-kitchen-remodel": {
     seo: {
-      title: "Sammamish Kitchen Remodel | Innate",
-      description: ``,
+      title: "Sammamish, WA Kitchen Remodel | Innate",
+      description: `Explore this Sammamish, WA kitchen remodel featuring custom cabinetry, a reworked layout, modern finishes, and thoughtful design-build solutions by Innate.`,
+      image: "/images/project/sammamish-kitchen-remodel/6L1A9770-2.jpg",
     },
     defaultSlides: [
       {
@@ -2545,6 +2546,8 @@ export async function generateMetadata({
   const seoDescription =
     (projectDataForSlug as any)?.seo?.description ||
     "Explore this custom design and construction project by Innate in Seattle.";
+  const seoImage =
+    (projectDataForSlug as any)?.seo?.image || "/images/innate-nw.jpg";
 
   return {
     title: seoTitle,
@@ -2559,7 +2562,7 @@ export async function generateMetadata({
       siteName: "Innate",
       images: [
         {
-          url: "/images/innate-nw.jpg",
+          url: seoImage,
           width: 1200,
           height: 630,
           alt: seoTitle,
