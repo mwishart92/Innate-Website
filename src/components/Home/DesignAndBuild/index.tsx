@@ -52,7 +52,7 @@ const DesignAndBuild = () => {
         </div>
         <div className="mob:order-1">
           <Text as="h2" className="">
-            Avoid (Costly) Surprises
+            Avoid Costly Surprises
           </Text>
           <Text className="mt-3 mb-12 text-[22px] mob:text-[15px] text-[#FFFFFF66] leading-[30.14px] mob:leading-[20.55px] mob:mt-0">
             After doing an in-person site visit, we will provide an accurate,
@@ -72,11 +72,12 @@ const DesignAndBuild = () => {
       <div className="flex lg:flex-wrap gap-[47px] mb-24 items-center px-[43px] pt-[43px] pb-[43px] mob:px-[16px] w-[80%] mob:w-full min-h-[500px] mt-8 mx-auto rounded-[50px] mob:rounded-[19.05px] gradient2 justify-center mob:gap-[40px] mob:pt-[12px] mob:pb-[28px]">
         <div className="mob:order-1">
           <Text as="h2" className="">
-            Save (Precious) Time          
+            Save Precious Time
           </Text>
           <Text className="mt-3 mb-12 text-[22px] mob:text-[15px] text-[#FFFFFF66] leading-[30.14px] mob:leading-[20.55px] mob:mt-0">
-            Our network of vetted architects, engineers and craftsmen save you
-            the time and hassle of putting together your own team.
+            We know you’re busy, so our network of vetted architects, engineers
+            and craftsmen save you the time and hassle of putting together
+            your own team. We manage every piece, so you don’t have to.
           </Text>
           <Button
             className="max-w-[375px] mob:max-w-[116.38px] mob:h-[35.61px] h-[61px] flex justify-center items-center gap-2 mt-4 text-[19.5px] bg-transparent backdrop-blur-md mob:text-[11.21px]"
@@ -120,7 +121,7 @@ const DesignAndBuild = () => {
         </div>
         <div className="mob:order-1">
           <Text as="h2" className="">
-            Avoid Stress (and Advil)          
+            Avoid Stress
           </Text>
           <Text className="mt-3 mb-12 text-[22px] mob:text-[15px] text-[#FFFFFF66] leading-[30.14px] mob:leading-[20.55px] mob:mt-0 mob:mb-6">
             Our dedicated project managers attend to every detail of your

@@ -21,14 +21,7 @@ const FooterContent = () => {
           </div>
           <div className="max-w-[20%] mob:max-w-full mob:text-center mob:mt-10">
             <Text className="text-[#D9D9D9] mt-3 font-light mob:text-[14px]">
-              12819 SE 38th St #340 <br /> Bellevue, WA 98006 <br />{" "}
-              <a
-                href="tel:+14258665206"
-                className="hover:text-white transition-colors duration-300 cursor-pointer"
-                aria-label="Call Innate at (425) 866-5206"
-              >
-                (425) 866-5206
-              </a>
+              12819 SE 38th St #340 <br /> Bellevue, WA 98006
             </Text>
           </div>
 
