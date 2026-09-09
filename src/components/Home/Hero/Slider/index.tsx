@@ -62,7 +62,7 @@ function HomeSlider() {
                 router.push("/onboarding");
               }}
             >
-              Let's Work Together
+              Let's Work Together!
             </button>
             <Text
               as="h2"
