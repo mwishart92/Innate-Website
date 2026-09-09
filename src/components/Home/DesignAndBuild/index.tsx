@@ -7,7 +7,7 @@ import stresstop from "@/public/images/home/dsignbuild/avoidtop.png";
 import avoidleft from "@/public/images/home/dsignbuild/avoidleft.png";
 import avoidright from "@/public/images/home/dsignbuild/avoidright.png";
 import avoidcenter from "@/public/images/home/dsignbuild/avoidcenter.png";
-import savetime from "@/public/images/home/savetimee.png";
+import savetime from "@/public/images/home/savetime2.png";
 import track from "@/public/images/home/cabinetry.png";
 import rightarrow from "@/public/images/press/RightArrowblue.png";
 import { useRouter } from "next/navigation";
