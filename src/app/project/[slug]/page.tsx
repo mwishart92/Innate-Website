@@ -1430,7 +1430,10 @@ Every decision was made to support the architecture, not compete with it.</span>
         component: (
           <Slide
             image=""
-            video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_Exterior-Bathroom.webm?alt=media&token=7d3e8e66-5096-4731-ac14-77755a3831c6"
+            video={[
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_Exterior-Bathroom.webm?alt=media&token=7d3e8e66-5096-4731-ac14-77755a3831c6",
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_Exterior-Bathroom.mp4?alt=media&token=8b05df72-4b7b-4796-bbba-18e9a09f5ed2",
+            ]}
           />
         ),
         delay: 36000,
@@ -1551,7 +1554,10 @@ Every decision was made to support the architecture, not compete with it.</span>
         component: (
           <Slide
             image=""
-            video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/enumclaw.webm?alt=media&token=0477f2bb-4bb9-4df4-94b5-130347b7fd4c"
+            video={[
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/enumclaw.webm?alt=media&token=0477f2bb-4bb9-4df4-94b5-130347b7fd4c",
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/enumclaw%20(1).mp4?alt=media&token=4f78ff03-6b96-4b3e-8c6e-d4877e4f0746",
+            ]}
           />
         ),
         delay: 36000,
@@ -1669,7 +1675,10 @@ Being the design/build partner, Innate was trusted with the task of helping the 
         component: (
           <Slide
             image=""
-            video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Woodinville_bathroom.webm?alt=media&token=ba204823-d94b-4239-bcb2-0919b702ca40"
+            video={[
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Woodinville_bathroom.webm?alt=media&token=ba204823-d94b-4239-bcb2-0919b702ca40",
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Woodinville_bathroom%20(1).mp4?alt=media&token=234d35f2-3d7b-4460-9274-1fbf9a5d2080",
+            ]}
           />
         ),
         delay: 36000,
