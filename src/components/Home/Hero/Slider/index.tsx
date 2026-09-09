@@ -51,24 +51,6 @@ function HomeSlider() {
       <div className="w-full overflow-hidden home-slider-parent">
         <div className="absolute bottom-[128px] mob:bottom-[70px] left-16 p-5 z-20 bg-opacity-50 mob:left-0">
           <div className="mb-[40px]">
-            <Text
-              as="h2"
-              className="my-3 text-white leading-[44px] mob:leading-[36.4px]"
-            >
-              <span className="text-[22px] mob:text-[22px] font-light font-inter">
-                Seattle Design+ Build
-              </span>
-              <br />
-              <span className="text-[40px] mob:text-[28px] font-light">
-                It's{" "}
-              </span>
-              <span className="italic text-[40px] mob:text-[28px]">Innate</span>
-            </Text>
-            <Text className="text-[22px] mob:text-[22px] font-light font-inter mt-6 mb-4">
-              
-              We manage every piece, so you don't have to.
-            </Text>
-
             <button
               className="mt-[20px] mb-[20px] border border-[#fff] bg-transparent text-[#fff] italic font-normal max-w-[200px] h-[50px] text-[16px] hover:bg-[#fff] hover:text-[#000] transition duration-300 px-[24px] py-[14px] mob:text-[14px] mob:max-w-[181px] mob:h-[48px]"
               // onClick={() => scrollToSection('contactHome')}
@@ -82,6 +64,22 @@ function HomeSlider() {
             >
               Let's Work Together
             </button>
+            <Text
+              as="h2"
+              className="my-3 text-white leading-[44px] mob:leading-[36.4px]"
+            >
+              <span className="text-[22px] mob:text-[22px] font-light font-inter">
+                Seattle Design+ Build
+              </span>
+              <br />
+              <span className="text-[40px] mob:text-[28px] font-light">
+                It's{" "}
+              </span>
+              <span className="italic text-[40px] mob:text-[28px]">Innate</span>
+            </Text>
+
+
+
             <div className="home-hero-pagination"></div>
           </div>
 
