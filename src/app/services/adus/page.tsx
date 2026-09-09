@@ -163,7 +163,7 @@ const threeCardDesignSections = [
   {
     title: "Integrated Design-Build Services",
     description:
-      "As a full-service accessory dwelling unit contractor, we handle every phase of the project—from feasibility and architectural planning to permitting and construction. Our integrated <a href='https://visualizer.innate-aec.com/' target='_blank' rel='noopener noreferrer'>design-build model</a> eliminates confusion and handoffs, ensuring speed, clarity, and exceptional results.",
+      "As a full-service ADU contractor, we handle every phase of the project — from feasibility and architectural planning to permitting and construction. Our integrated <a href='https://visualizer.innate-aec.com/' target='_blank' rel='noopener noreferrer'>design-build model</a> eliminates confusion and handoffs, ensuring speed, clarity, and exceptional results from your first consultation to final walkthrough.",
     image: {
       src: "/images/services/adus/r1.webp",
       alt: "Integrated Design-Build Services",
@@ -173,7 +173,7 @@ const threeCardDesignSections = [
   {
     title: "ADU Specialists with Local Expertise",
     description:
-      "We’re not general builders dabbling in ADUs, we are accessory dwelling unit specialists. Our expertise in accessory dwelling unit regulations, local Seattle zoning, and custom small-space design gives you a major advantage in creating an efficient, beautiful space that’s fully compliant and built to last.",
+      "We’re not general contractors dabbling in ADUs — we are dedicated accessory dwelling unit specialists. As a Seattle-based ADU contractor, our expertise in local zoning, permitting requirements, and custom small-space design gives you a major advantage in creating an efficient, beautiful space that’s fully compliant and built to last.",
     image: {
       src: "/images/services/adus/r2.webp",
       alt: "ADU Specialists with Local Expertise",
@@ -230,7 +230,7 @@ const fourBlockSections = [
   {
     title: "Detached ADUs",
     description:
-      "Separate structures ideal for rental income, privacy, or guest housing.",
+      "Perfect for generating rental income, providing privacy, or accommodating guests.",
     link: "/",
     thumbnail: {
       src: "/images/services/adus/r5.webp",
@@ -248,8 +248,7 @@ const fourBlockSections = [
   },
   {
     title: "Garage Conversions",
-    description:
-      "Transform underused garages into high-functioning living space.",
+    description: "This involves converting your unused garage into livable space.",
     link: "/",
     thumbnail: {
       src: "/images/services/adus/r7.webp",
@@ -258,7 +257,8 @@ const fourBlockSections = [
   },
   {
     title: "Basement Conversions",
-    description: "Turn existing square footage into income-generating units.",
+    description:
+      "Turn existing square footage into income-generating units through smart ADU renovation design.",
     link: "/",
     thumbnail: {
       src: "/images/services/adus/r6.webp",
@@ -271,17 +271,27 @@ const faqItems = [
   {
     question: "What is the difference between DADU vs ADU?",
     answer:
-      "A DADU (Detached Accessory Dwelling Unit) is a separate, stand-alone structure built on your property, such as a backyard cottage or laneway house. On the other hand, the attached ADU (Accessory Dwelling Unit) is built within or connected to your existing home, such as a basement apartment or an addition with its own entrance. Both DADU and ADU designs provide extra living space, rental opportunities, or housing for growing family members, but the choice depends on your property layout, budget, and goals.",
+      "A DADU (Detached Accessory Dwelling Unit) is a completely standalone building constructed on your property, such as a backyard cottage or laneway house. An ADU (Accessory Dwelling Unit), however, is attached to your current house, like a basement suite or a new addition with its own entrance. Both DADU and ADU designs serve to increase your living space, generate rental income, or accommodate your growing family, but which option to choose depends on your property, finances, and goals. Our team will help you choose the best solution as your ADU builders.",
   },
   {
     question: "Can an ADU be a multi-story unit?",
     answer:
-      "Yes, an ADU can be designed as a multi-story unit if your property and local zoning regulations allow it. Multi-level ADUs are a great solution when you want to maximize usable space on a smaller lot. They can include separate living areas, bedrooms, or even a rooftop deck. Our team ensures your ADU design complies with Seattle's ADU requirements while creating a functional and comfortable layout.",
+      "Absolutely, an accessory dwelling unit can have multiple stories if your property and local zoning ordinance permit it. Multi-story ADUs are ideal when you want to maximize the usable square footage on a smaller lot. These buildings can include separate levels for different purposes, including lounging, sleeping, and even a rooftop deck.",
   },
   {
     question: "Does building an ADU increase home value?",
     answer:
-      "Yes, building an ADU typically increases property value. ADUs add functional living space and provide flexible options for rental income, guest housing, or multigenerational living. In Seattle's competitive housing market, properties with ADUs often attract more buyers and command higher prices. ADU investment can therefore enhance both your lifestyle and your long-term property value.",
+      "Yes, adding an ADU typically increases the value of your property. An ADU creates additional livable space and gives you flexibility when it comes to renting out the property, accommodating guests, or providing living space for multiple generations. In Seattle, having an ADU makes your property more appealing to buyers.",
+  },
+  {
+    question: "How much does an ADU cost to build in Seattle?",
+    answer:
+      "There is a wide range in the cost of ADU construction in Seattle depending on factors such as size, site conditions, chosen finishes, and whether it's a detached ADU or a conversion of an existing basement or garage. Utility connections and foundation work also play a role in determining the overall project budget. At Innate, we carry out a feasibility analysis and cost estimation for our ADU clients up front.",
+  },
+  {
+    question: "How long does an ADU renovation take from permitting to completion?",
+    answer:
+      "Depending on the size of the project, a typical ADU renovation takes a few months to a year once design and permitting time is included alongside construction. In Seattle, permitting can be one of the longest phases in the process, especially for detached units that require separate utility connections. At Innate, we handle design and construction in-house, which helps keep the permitting process moving smoothly.",
   },
 ];
 
@@ -360,13 +370,13 @@ const ServicesPage = () => {
       <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate%20-%20Website%20Hero%20Video.mp4?alt=media&token=1e51d592-5ef8-40d7-b454-4c6bdffcccdf"
-        contentText="Unlock the full potential of your property with a custom accessory dwelling unit designed and built by Innate. If you're looking to increase rental income, expand living space for your family, or invest in long-term property value, we invite you to work with our team. Innate specializes in full-service accessory dwelling unit construction in Seattle and surrounding areas."
+        contentText="Unlock the full potential of your property with a custom accessory dwelling unit designed and built by Innate, Seattle's trusted ADU builder. If you're looking to increase rental income, expand living space for your family, or invest in long-term property value, we invite you to work with our team. Innate specializes in full-service ADU renovation in Seattle and surrounding areas, delivering projects that are code-compliant, efficient, and built to last."
       />
       <LatestProjects
         title="What is an ADU or DADU?"
-        content="An accessory dwelling unit is a self-contained residential unit built on the same lot as an existing single-family home. Often referred to as a backyard cottage, in-law suite, or DADU (Detached Accessory Dwelling Unit), ADUs are a smart, flexible solution to urban living. They can be detached, attached, or created by converting garages or basements.
+        content="Accessory dwelling unit (ADU) is an independent living space that is constructed on the same land lot where a principal house already exists. Commonly known as a backyard cottage, mother-in-law unit, or DADU (detached accessory dwelling unit), ADU is a great solution for city dwellers as it can be detached, attached, or converted from garage or basement.
         <br/><br/>
-        Our team at Innate are experienced accessory dwelling unit builders who understand local zoning, site challenges, and how to design for maximum comfort and efficiency."
+        Our team at Innate are experienced ADU builders who understand local zoning, site challenges, and how to design for maximum comfort and efficiency — whether you're planning new construction or an ADU remodel in Seattle."
         sliderAlbum={sliderAlbum}
       />
       <ThreeCardDesign
@@ -433,10 +443,10 @@ const ServicesPage = () => {
 
       <Consultation
         title="Ready to Build Your ADU?"
-        description="If you’re just starting to research building an accessory dwelling unit or you’re looking for a trusted partner to bring your plans to life, Innate is here to help.
+        description="If you’re just starting to research building an accessory dwelling unit, or you’re looking for a trusted ADU builder to bring your plans to life, Innate is here to help.
 <br/><br/>
 
-We are experienced accessory dwelling unit contractors, new construction builders, and design experts committed to unlocking the full value of your property.
+We are experienced ADU contractors, new construction builders, and design experts committed to unlocking the full value of your property through expert ADU custom build in Seattle.
 "
         subHeading="Serving Seattle, Bellevue, Redmond, and the surrounding areas"
         mainClass="pt-0"

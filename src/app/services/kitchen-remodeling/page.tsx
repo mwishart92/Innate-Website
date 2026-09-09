@@ -184,7 +184,7 @@ const threeCardDesignSections = [
   {
     title: "Integrated Design-Build Services",
     description:
-      "As full-service Seattle kitchen remodel contractors, our in-house team does it all – designs, permits, and building of your new kitchen.",
+      "As a full-service kitchen remodel builder, our in-house team does it all — design, permits, and construction of your new kitchen, under one roof for a smoother, faster process.",
     image: {
       src: "/images/services/kitchen-remodeling/r2.webp",
       alt: "Integrated Design-Build Services",
@@ -266,7 +266,7 @@ const fourBlockSections = [
   {
     title: "Partial Kitchen Updates",
     description:
-      "Refresh your cabinets, countertops, or appliances for a brand new look—while maintaining your existing layout.",
+      "Refresh your cabinets, countertops, or appliances for a modern kitchen upgrade while maintaining your existing layout.",
     link: "/",
     thumbnail: {
       src: "/images/services/kitchen-remodeling/r8.webp",
@@ -286,7 +286,7 @@ const fourBlockSections = [
   {
     title: "Open-Concept Conversions",
     description:
-      "Knock down walls to make way for an open kitchen space, great for socializing and hosting friends and family.",
+      "Knock down walls to make way for an open kitchen space, great for socializing and hosting.",
     link: "/",
     thumbnail: {
       src: "/images/services/kitchen-remodeling/r6.webp",
@@ -299,22 +299,22 @@ const faqItems = [
   {
     question: "How long does a kitchen remodel usually take?",
     answer:
-      "Most kitchen remodel projects take 4–8 weeks, depending on the scope and permitting. We'll give you a detailed timeline during your consultation.",
+      "Most kitchen renovations usually take anywhere from 4 to 8 weeks, depending on the work involved and permits. With our experience in kitchen renovations, a professional kitchen remodel contractor will provide you with an exact timeline upon consulting with you.",
   },
   {
     question: "Can I use my kitchen during the remodel?",
     answer:
-      "In most cases, your kitchen will be out of commission during construction. We work efficiently to minimize downtime and always keep you informed.",
+      "Your kitchen will normally not be functional during the remodeling process. We aim at being efficient while informing you about your Seattle kitchen remodel.",
   },
   {
     question: "Do you help with kitchen design and materials?",
     answer:
-      "Yes! Our team handles everything from kitchen remodel design to finish selection—so your remodel feels effortless and aligned with your style.",
+      "Yes! Our team covers everything from design to finish choice. That way, your kitchen remodeling process becomes smooth and customized according to your taste. As a complete kitchen remodeling service provider, we ensure easy sourcing of materials and making decisions.",
   },
   {
     question: "Do you offer luxury kitchen remodels?",
     answer:
-      "Absolutely. We specialize in luxury kitchen remodel services with premium finishes, high-end appliances, and thoughtful, custom layouts.",
+      "Absolutely. From fine cabinetry to natural stone countertops, from high-quality appliances to custom lighting, our experts offer luxury kitchen renovation services that will enhance the aesthetics as well as functionality of your kitchen. Whether you want a luxurious traditional kitchen look or a stunning contemporary kitchen look, we have got you covered.",
   },
   {
     question: "What if I just need a partial remodel?",
@@ -424,11 +424,11 @@ const ServicesPage = () => {
       <HomeSlider slides={slides} />
       <Collective
         videoSrc="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate%20-%20Website%20Hero%20Video.mp4?alt=media&token=1e51d592-5ef8-40d7-b454-4c6bdffcccdf"
-        contentText="Our team at <a href='/' style='text-decoration: underline;'>Innate</a> focuses on providing innovative remodeling services to help turn your kitchen into an elegant combination of beauty, functionality, and efficiency. When <a href='https://visualizer.innate-aec.com/' target='_blank' rel='noopener noreferrer'>reimagining your space</a>, be it a new modern kitchen remodel or a luxurious one, or simply an overhaul of your current kitchen layout, we can do it all."
+        contentText="Our team at <a href='/' style='text-decoration: underline;'>Innate</a> is a trusted kitchen remodeling company focused on providing innovative remodeling services to help turn your kitchen into an elegant combination of beauty, functionality, and efficiency. Whether you're envisioning a sleek modern kitchen upgrade, a luxurious transformation, or simply an overhaul of your current layout, our <a href='https://visualizer.innate-aec.com/' target='_blank' rel='noopener noreferrer'>kitchen remodel service</a> can do it all."
       />
       <LatestProjects
         title="Transform Your Kitchen into a Culinary Haven"
-        content="Your kitchen is not just for cooking… it’s where relationships are formed, creativity takes shape, and comfort resides. We are a reputable kitchen renovation contractor in Seattle who can deliver the right design and impeccable craft to your space."
+        content="Your kitchen is not just for cooking… it’s where relationships are formed, creativity takes shape, and comfort resides. We are a reputable kitchen remodel contractor in Seattle who can deliver the right design and impeccable craft to your space."
         sliderAlbum={sliderAlbum}
       />
       <ThreeCardDesign
@@ -484,8 +484,8 @@ const ServicesPage = () => {
       <Testimonials />
 
       <Consultation
-        title="Ready to Transform Your Kitchen?"
-        description="Are you looking for a reputable kitchen remodeler in Seattle? No matter what kind of remodeling project you need for your kitchen, whether modern or classic, our kitchen remodel services can help."
+        title="Ready to Get Your Kitchen Transformed?"
+        description="Do you require a kitchen remodeler for your kitchen who is reliable? Be it any type of kitchen remodeling service that you require, be it contemporary or traditional, we have got you covered."
         subHeading="Serving Seattle, Bellevue, Redmond, and the surrounding areas"
         mainClass="pt-0"
       />
