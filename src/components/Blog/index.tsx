@@ -161,7 +161,7 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
   }
 
   const contentBaseClass =
-    "[&_a]:text-blue-500 [&_h2]:font-bold [&_h2]:text-[22px] [&_h3]:font-bold mt-10 [&_ul]:list-disc [&_ul]:pl-6 [&_li]:list-item [&_a.blog-hero-cta]:inline-block [&_a.blog-hero-cta]:no-underline [&_a.blog-hero-cta]:mt-5 [&_a.blog-hero-cta]:mb-5 [&_a.blog-hero-cta]:border [&_a.blog-hero-cta]:border-white [&_a.blog-hero-cta]:bg-white [&_a.blog-hero-cta]:text-black [&_a.blog-hero-cta]:font-normal [&_a.blog-hero-cta]:max-w-[200px] [&_a.blog-hero-cta]:h-[50px] [&_a.blog-hero-cta]:text-[16px] [&_a.blog-hero-cta]:hover:bg-transparent [&_a.blog-hero-cta]:hover:text-white [&_a.blog-hero-cta]:hover:border-white [&_a.blog-hero-cta]:transition [&_a.blog-hero-cta]:duration-300 [&_a.blog-hero-cta]:px-6 [&_a.blog-hero-cta]:py-[14px] [&_a.blog-hero-cta]:flex [&_a.blog-hero-cta]:items-center [&_a.blog-hero-cta]:justify-center [&_a.blog-hero-cta]:text-center [&_a.blog-hero-cta]:box-border mob:[&_a.blog-hero-cta]:text-[14px] mob:[&_a.blog-hero-cta]:max-w-[181px] mob:[&_a.blog-hero-cta]:h-[48px] mob:[&_a.blog-hero-cta]:leading-[48px]";
+    "[&_a]:text-blue-500 [&_h2]:font-bold [&_h2]:text-[22px] [&_h2]:pt-4 [&_h3]:font-bold [&_h3]:pt-4 mt-10 [&_ul]:list-disc [&_ul]:pl-6 [&_li]:list-item [&_a.blog-hero-cta]:inline-block [&_a.blog-hero-cta]:no-underline [&_a.blog-hero-cta]:mt-5 [&_a.blog-hero-cta]:mb-5 [&_a.blog-hero-cta]:border [&_a.blog-hero-cta]:border-white [&_a.blog-hero-cta]:bg-white [&_a.blog-hero-cta]:text-black [&_a.blog-hero-cta]:font-normal [&_a.blog-hero-cta]:max-w-[200px] [&_a.blog-hero-cta]:h-[50px] [&_a.blog-hero-cta]:text-[16px] [&_a.blog-hero-cta]:hover:bg-transparent [&_a.blog-hero-cta]:hover:text-white [&_a.blog-hero-cta]:hover:border-white [&_a.blog-hero-cta]:transition [&_a.blog-hero-cta]:duration-300 [&_a.blog-hero-cta]:px-6 [&_a.blog-hero-cta]:py-[14px] [&_a.blog-hero-cta]:flex [&_a.blog-hero-cta]:items-center [&_a.blog-hero-cta]:justify-center [&_a.blog-hero-cta]:text-center [&_a.blog-hero-cta]:box-border mob:[&_a.blog-hero-cta]:text-[14px] mob:[&_a.blog-hero-cta]:max-w-[181px] mob:[&_a.blog-hero-cta]:h-[48px] mob:[&_a.blog-hero-cta]:leading-[48px]";
   const contentClassName =
     slug === "seattle-home-remodeling-cost-and-timelines"
       ? `${contentBaseClass} [&_li]:ml-[15px]`
@@ -216,7 +216,7 @@ const Blog: FC<ArticleProps> = ({ slug }) => {
             src={section.thumbnail}
             alt={section.title || ""}
             fill
-            className="object-cover relative h-auto w-full"
+            className={`object-cover relative h-auto w-full ${slug === "expanding-bathroom-without-adding-square-footage" ? "object-bottom" : ""}`}
           />
         ) : (
           <div className="flex h-full absolute w-full flex-col items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200">

@@ -2658,4 +2658,109 @@ A well-designed au pair space protects your caregiver’s well-being, your house
       keywords: "",
     },
   },
+  {
+    id: 26,
+    slug: "dual-kitchen-design",
+    title: "Architectural Considerations for Dual Kitchen Spaces",
+    thumbnail: "/images/project/sammamish-kitchen-remodel/6L1A9810-hero.jpg",
+    tag: "Blog",
+    excerpt:
+      "Struggling to keep your primary entertaining space clean? Discover what is a scullery kitchen and how a hidden kitchen design elevates your modern home.",
+    publishedDate: "11 August, 2026",
+    content: [
+      {
+        type: "text",
+        text: `
+<p>Open plan living is fantastic in glossy magazines, but the moment you try to prepare an elaborate dish, the illusion of effortless entertaining falls apart. Your guests are suddenly forced to witness the reality of grease-coated pans, vegetable skins, and piles of dirty dishes.</p>
+<p>Meet the dual kitchen design concept, where you divide the cooking space into two separate areas: one for visual impact, and one for the mess. Designing this kind of layout is not something to tackle over a weekend.</p>
+<h2>Decoding the Layout</h2>
+<p>You might be wondering exactly what a <a href="/services/kitchen-remodeling">scullery kitchen</a> is. Historically, it was a damp, cramped back room in grand estates strictly reserved for washing pots. Today, it operates as the ultimate high-functioning prep zone for modern homes.</p>
+<p>You shove the noisy dishwashers, the messy prep stations, the ugly countertop appliances, and the pantry overflow back here. This allows the primary front kitchen to stay completely pristine, functioning purely as an architectural centerpiece and entertaining hub rather than a chaotic workstation. The front zone gets the monolithic marble island and the minimalist induction cooktop, while the back zone gets the deep stainless-steel sinks, heavy-duty chopping blocks, and open shelving where practicality trumps aesthetics.</p>
+<h2>The Geometry of Space</h2>
+<p>A proper dual kitchen design requires aggressive spatial planning before a single stud is framed. You cannot just carve a slice off your living room and hope it works &mdash; architects must calculate the exact traffic flow between the two zones.</p>
+<p>A minimum clearance of 1,200 millimeters is non-negotiable for primary walkways, ensuring two people can pass each other while carrying hot baking trays without a collision. If you lack the footprint for a full walk-in prep room, a linear galley-style secondary space tucked directly behind the main joinery wall often provides the necessary utility without eating up your entire floor plan. The goal is ergonomic efficiency: drastically reducing the physical steps required to move from the fridge to the sink to the stove.</p>
+        `,
+      },
+      {
+        type: "image",
+        src: ["/images/project/sammamish-kitchen-remodel/6L1A9825.jpg"],
+        alt: "Flush wood veneer cabinet door concealing a secondary scullery kitchen",
+      },
+      {
+        type: "text",
+        text: `
+<h2>Engineering the Disappearing Act</h2>
+<p>An effective hidden kitchen design depends on the transition threshold alone. Conventional interior doors create gaps in the seamless look of quality joinery and clearly denote a utility closet.</p>
+<p>Architects instead call for pivot doors and heavy-duty pocket sliders made from the same wood veneer used on the cabinets. Once the door closes, the secondary room gets completely swallowed up by the surrounding wooden millwork.</p>
+<p>As per Architectural Digest, embedding soundproofing elements inside these hidden access panels is a key factor that often gets overlooked. The roar of commercial blenders and the crash of utensils can easily disrupt the serene environment of the primary dining room, since sound travels quickly along smooth surfaces such as stone and glass.</p>
+<h2>The Mechanics Hiding Within</h2>
+<p>Bespoke joinery means nothing if the underlying mechanics fail. A custom kitchen is truly built within the walls, not just on top of them.</p>
+<p>Two cooking areas mean twice the mechanical infrastructure. You need two plumbing stacks run through the floor joists for the sinks and dishwashers, each requiring careful drainage-angle calculations. Electrical sub-panels must be installed to handle all the high-amp appliances running at once, and professional-grade ventilation ducts need to run through the roof cavity from the scullery to clear cooking odors.</p>
+<h2>The Structural Reality</h2>
+<p>An impressively crafted design means nothing without a structure that can support the plumbing, framing, and finish work behind it. Dividing your cooking space properly takes engineering, millwork, and solid structuring working together.</p>
+<p>From building your dream home from the foundation up to performing an elaborate spatial transformation, Innate bridges the gap between architectural dreams and solid construction. We focus on precise spatial planning, reliable mechanical structuring, and exquisite finishing to create a two-kitchen experience that works under pressure.</p>
+<p>Stop fighting an inefficient floor plan that exposes your mess to the world. <a href="/contact">Reach out to our team today</a> for a straightforward chat and get your space engineered correctly from the inside out.</p>
+        `,
+      },
+    ],
+    seo: {
+      title: "Architectural Tips for Dual Kitchen Design | Innate",
+      description:
+        "Struggling to keep your primary entertaining space clean? Discover what is a scullery kitchen and how a hidden kitchen design elevates your modern home.",
+      keywords: "",
+    },
+  },
+  {
+    id: 27,
+    slug: "expanding-bathroom-without-adding-square-footage",
+    title: "Expanding a Bathroom Without Adding Square Footage",
+    thumbnail: "/images/project/gray-bathroom/COVER.webp",
+    tag: "Blog",
+    excerpt:
+      "Feeling cramped? Discover proven strategies on how to make a bathroom feel bigger without moving walls. Start planning your Seattle bathroom remodel today.",
+    publishedDate: "1 September, 2026",
+    content: [
+      {
+        type: "text",
+        text: `
+<p>Increasing the physical size of a bathroom means engineering reports, complicated permits, and an astronomical jump in cost. Sometimes, though, you don&rsquo;t need to tear down a single wall to create more space &mdash; you just need to redesign how the room&rsquo;s volume is perceived.</p>
+<h2>Floor Space Recovery</h2>
+<p>Regular floor-supported vanities occupy significant visual space. Switching to a <a href="/services/bathroom-remodeling">floating vanity</a> makes the entire room look bigger, since the floor extends beneath the cabinet and creates the illusion of extra square footage.</p>
+<p>The same trick works for the toilet. A wall-mounted toilet hides its tank and pipework in the wall, occupying nothing but the bowl itself.</p>
+<h2>Removing Visual Barriers</h2>
+<p>A frosted glass shower door or an opaque curtain acts as an optical barrier that splits the bathroom in half. Installing a frameless, clear glass enclosure lets your eyesight travel all the way through the room to the wall behind it, instead of stopping at a foggy barrier a few steps in.</p>
+<p>This single change shifts the feeling of a room&rsquo;s volume more than almost anything else, because the brain measures a room&rsquo;s size by how far it can see, not by the actual floor space available. Paired with a wall-mounted vanity or a hanging shelf beneath it, the effect multiplies: the visible floor beneath the fixtures tricks the eye into reading the room as larger than its true volume. This is a basic architectural principle you&rsquo;ll find referenced in sources like House Beautiful when researching how to make a small bathroom feel bigger.</p>
+        `,
+      },
+      {
+        type: "image",
+        src: ["/images/project/gray-bathroom/IMG_9334.webp"],
+        alt: "Backlit wall-to-wall mirror above a floating double vanity in a small bathroom",
+      },
+      {
+        type: "text",
+        text: `
+<h2>Your Bathroom Storage Solutions</h2>
+<p>Storage is usually the first thing cut from a cramped floor plan. Rather than adding bulky shelving or extra cabinets, use the empty space already hiding inside your wall studs.</p>
+<p>Recessed medicine cabinets keep your daily essentials within arm&rsquo;s reach without stealing any counter space. In the shower, recessed niches offer an efficient place to store bottles without eating into elbow room.</p>
+<h2>Strategic Reflection and Tile Selection</h2>
+<p>A single harsh overhead light casts shadows into corners, which visually shrinks a room. Installing wall sconces at eye level eliminates those shadows while washing the walls in soft, even light. Pair this with a wall-to-wall mirror to bounce that light around and double the room&rsquo;s perceived depth.</p>
+<p>For flooring, avoid tiny mosaics outside the shower pan. Small tiles require hundreds of grout lines, creating a busy grid that only highlights the room&rsquo;s limited dimensions. Large-format tiles create a smooth, continuous surface instead, and running that same large tile from the main floor straight into the shower blurs the room&rsquo;s boundaries even further.</p>
+<h2>The Local Factors</h2>
+<p>A small bathroom renovation in Seattle comes with its own set of local obstacles. Many older homes across the Pacific Northwest hide outdated plumbing, aging wiring, and wood decay behind their existing walls.</p>
+<p>Accessing those cavities for new storage or shifting the position of plumbing stacks requires careful architectural planning and moisture testing before any demo begins.</p>
+<h2>The Bottom Line</h2>
+<p>At Innate, our integrated design-build firm manages every phase of your <a href="/services/bathroom-remodeling">Seattle bathroom remodel</a>, from initial architectural drafting and permitting through final construction, all in-house.</p>
+<p>Our team specializes in optimizing existing layouts, applying clever spatial design and structural expertise to create a highly functional retreat without the cost of a structural extension.</p>
+<p>Don&rsquo;t let a tight layout restrict your options. <a href="/contact">Contact us today</a> for a straightforward discussion about optimizing your property.</p>
+        `,
+      },
+    ],
+    seo: {
+      title: "Tips to Maximize Small Bathroom Space in Seattle | Innate",
+      description:
+        "Feeling cramped? Discover proven strategies on how to make a bathroom feel bigger without moving walls. Start planning your Seattle bathroom remodel today.",
+      keywords: "",
+    },
+  },
 ];
