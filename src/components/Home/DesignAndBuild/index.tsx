@@ -62,7 +62,7 @@ const DesignAndBuild = () => {
             className="max-w-[375px] mob:max-w-[116.38px] mob:h-[35.61px] h-[61px] flex justify-center items-center gap-2 mt-4 text-[19.5px] bg-transparent backdrop-blur-md mob:text-[11.21px]"
             onClick={() => router.push("/onboarding")}
           >
-            Yes, I want to avoid surprises!
+            Yes, I want to avoid surprises! 
             <Image src={rightarrow} alt="" width={18} height={18} />
           </Button>
         </div>
