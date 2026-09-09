@@ -360,8 +360,11 @@ const projectData = {
       {
         component: (
           <Slide
-            image="/images/project/bellevue-bathroom/bellevue_main.jpg"
-            video={null}
+            image=""
+            video={[
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/10.15_Innate%20Bathroom%20Remodel%20Finished%20Work_16x9.webm?alt=media&token=bb8b82d5-a81d-4c31-9693-8e6ccea5f00b",
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/10.15_Innate%20Bathroom%20Remodel%20Finished%20Work_16x9.mp4?alt=media&token=f3db2ee1-60f8-468d-849a-fb3dd4c8df80",
+            ]}
           />
         ),
         delay: 36000,
@@ -841,8 +844,11 @@ const projectData = {
       {
         component: (
           <Slide
-            image="/images/project/freitas-kitchen/freitas-kitchen_hero.webp"
-            video=""
+            image=""
+            video={[
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Freitas%20Kitchen.webm?alt=media&token=49c036c5-9b2f-4f7c-adfb-b88ea4d16195",
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Freitas%20Kitchen%20(1).mp4?alt=media&token=aa42ba2b-c151-49c8-8d7b-697cbe2d4b03",
+            ]}
           />
         ),
         delay: 36000,
@@ -1783,8 +1789,11 @@ Being the design/build partner, Innate was trusted with the task of helping the 
       {
         component: (
           <Slide
-            image="/images/project/kenmore-bathroom/6L1A1295_websize.jpg"
-            video=""
+            image=""
+            video={[
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/kenmore.webm?alt=media&token=6c9d916f-0ee6-42c5-bb74-1afa028482cf",
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/kenmore%20(1).mp4?alt=media&token=013b9271-b516-4358-8512-aa0aeec55742",
+            ]}
           />
         ),
         delay: 36000,
@@ -2039,8 +2048,11 @@ Being the design/build partner, Innate was trusted with the task of helping the 
       {
         component: (
           <Slide
-            image="/images/project/bellevue-skylit/6L1A9481.jpg"
-            video=""
+            image=""
+            video={[
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate-AEC%20-%20Finished%20Bellevue%20Work%20(Horizontal).webm?alt=media&token=b4016be4-e61b-4260-9920-b4249766f1d6",
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate-AEC%20-%20Finished%20Bellevue%20Work%20(Horizontal).mp4?alt=media&token=0da5669c-6b37-46e9-b6fa-ad9d5af37b4c",
+            ]}
           />
         ),
         delay: 36000,
@@ -2192,8 +2204,11 @@ As you can see, it is possible to change the feel of your house significantly wi
       {
         component: (
           <Slide
-            image="/images/project/issaquah-bathroom/issaquah_bathroom_hero.jpg"
-            video=""
+            image=""
+            video={[
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/issaquah_bathroom.webm?alt=media&token=2e069e6c-b8b3-49d9-8d80-553150b6f030",
+              "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/issaquah_bathroom.mp4?alt=media&token=eed39a19-ee83-498c-bc0a-9afb27ec9fa6",
+            ]}
           />
         ),
         delay: 36000,

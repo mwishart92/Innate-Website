@@ -24,11 +24,8 @@ export const slidesData: SlideData[] = [
     url: "/project/sammamish-kitchen-remodel",
     media: [
       {
-        src: [
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate-AEC%20-%20Finished%20Bellevue%20Work%20(Horizontal).webm?alt=media&token=b4016be4-e61b-4260-9920-b4249766f1d6",
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate-AEC%20-%20Finished%20Bellevue%20Work%20(Horizontal).mp4?alt=media&token=0da5669c-6b37-46e9-b6fa-ad9d5af37b4c",
-        ],
-        type: "video",
+        src: "/images/project/sammamish-kitchen-remodel/6L1A9810-hero.jpg",
+        type: "image",
       },
     ],
     hover: {
@@ -43,11 +40,8 @@ export const slidesData: SlideData[] = [
     url: "/project/issaquah-bathroom",
     media: [
       {
-        src: [
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/issaquah_bathroom.webm?alt=media&token=2e069e6c-b8b3-49d9-8d80-553150b6f030",
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/issaquah_bathroom.mp4?alt=media&token=eed39a19-ee83-498c-bc0a-9afb27ec9fa6",
-        ],
-        type: "video",
+        src: "/images/project/issaquah-bathroom/issaquah_bathroom_hero.jpg",
+        type: "image",
       },
     ],
     hover: {
@@ -62,14 +56,6 @@ export const slidesData: SlideData[] = [
     location: "Bellevue, Washington",
     url: "/project/bellevue-skylit",
     media: [
-      {
-        src: [
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate-AEC%20-%20Finished%20Bellevue%20Work%20(Horizontal).webm?alt=media&token=b4016be4-e61b-4260-9920-b4249766f1d6",
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate-AEC%20-%20Finished%20Bellevue%20Work%20(Horizontal).mp4?alt=media&token=0da5669c-6b37-46e9-b6fa-ad9d5af37b4c",
-        ],
-        type: "video",
-        mobilePlaceholder: "/images/project/bellevue-skylit/6L1A9481.jpg",
-      },
       { src: "/images/project/bellevue-skylit/6L1A9481.jpg", type: "image" },
       { src: "/images/project/bellevue-skylit/6L1A9474.jpg", type: "image" },
     ],
@@ -105,12 +91,8 @@ export const slidesData: SlideData[] = [
     url: "/project/bellevue-bathroom",
     media: [
       {
-        src: [
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/10.15_Innate%20Bathroom%20Remodel%20Finished%20Work_16x9.webm?alt=media&token=bb8b82d5-a81d-4c31-9693-8e6ccea5f00b",
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/10.15_Innate%20Bathroom%20Remodel%20Finished%20Work_16x9.mp4?alt=media&token=f3db2ee1-60f8-468d-849a-fb3dd4c8df80",
-        ],
-        type: "video",
-        mobilePlaceholder: "/images/work/bellevue_mob.jpg",
+        src: "/images/project/bellevue-bathroom/bellevue_main.jpg",
+        type: "image",
       },
     ],
     hover: {
@@ -125,13 +107,8 @@ export const slidesData: SlideData[] = [
     url: "/project/kenmore-bathroom",
     media: [
       {
-        src: [
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/kenmore.webm?alt=media&token=6c9d916f-0ee6-42c5-bb74-1afa028482cf",
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/kenmore%20(1).mp4?alt=media&token=013b9271-b516-4358-8512-aa0aeec55742",
-        ],
-        type: "video",
-        mobilePlaceholder:
-          "/images/project/kenmore-bathroom/6L1A1295_websize.jpg",
+        src: "/images/project/kenmore-bathroom/6L1A1295_websize.jpg",
+        type: "image",
       },
     ],
     hover: {
@@ -146,11 +123,8 @@ export const slidesData: SlideData[] = [
     url: "/project/woodinville-primary-and-guest-bathroom",
     media: [
       {
-        src: [
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Woodinville_bathroom.webm?alt=media&token=ba204823-d94b-4239-bcb2-0919b702ca40",
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Woodinville_bathroom%20(1).mp4?alt=media&token=234d35f2-3d7b-4460-9274-1fbf9a5d2080",
-        ],
-        type: "video",
+        src: "/images/project/woodinville/6L1A1232_websize.jpg",
+        type: "image",
       },
     ],
     hover: {
@@ -165,11 +139,8 @@ export const slidesData: SlideData[] = [
     url: "/project/enumclaw-full-home-remodel",
     media: [
       {
-        src: [
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/enumclaw.webm?alt=media&token=0477f2bb-4bb9-4df4-94b5-130347b7fd4c",
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/enumclaw%20(1).mp4?alt=media&token=4f78ff03-6b96-4b3e-8c6e-d4877e4f0746",
-        ],
-        type: "video",
+        src: "/images/project/enumclaw-full-home-remodel/enumclaw2.jpg",
+        type: "image",
       },
     ],
     hover: {
@@ -183,11 +154,8 @@ export const slidesData: SlideData[] = [
     url: "/project/freitas-kitchen-bathroom",
     media: [
       {
-        src: [
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Freitas%20Kitchen.webm?alt=media&token=49c036c5-9b2f-4f7c-adfb-b88ea4d16195",
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Freitas%20Kitchen%20(1).mp4?alt=media&token=aa42ba2b-c151-49c8-8d7b-697cbe2d4b03",
-        ],
-        type: "video",
+        src: "/images/project/freitas-kitchen/freitas-kitchen_hero.webp",
+        type: "image",
       },
     ],
     hover: {
@@ -201,14 +169,6 @@ export const slidesData: SlideData[] = [
     location: "Fremont - Seattle, Washington",
     url: "/project/west-seattle-residence",
     media: [
-      {
-        src: [
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_Exterior-Bathroom.webm?alt=media&token=7d3e8e66-5096-4731-ac14-77755a3831c6",
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_Exterior-Bathroom.mp4?alt=media&token=8b05df72-4b7b-4796-bbba-18e9a09f5ed2",
-        ],
-        type: "video",
-        mobilePlaceholder: "/images/project/west-seattle-residence/ws_mob.jpg",
-      },
       {
         src: "/images/project/west-seattle-residence/6L1A1041_websize.jpg",
         type: "image",
@@ -250,8 +210,8 @@ export const slidesData: SlideData[] = [
     url: "/project/magnolia-kitchen-bathroom",
     media: [
       {
-        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Innate%20-%20Magnolia%20Kitchen%20Video%20(Horizontal).mp4?alt=media&token=94bea933-386e-4424-812b-d2b6e28c6265",
-        type: "video",
+        src: "/images/project/magnolia-kitchen-bathroom/6L1A7643.jpg",
+        type: "image",
       },
     ],
     hover: {
@@ -328,14 +288,6 @@ export const slidesData: SlideData[] = [
     location: "Fremont – Seattle, Washington",
     url: "/project/knight-residence",
     media: [
-      {
-        src: [
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/05.25_Innate-NW_16x9%20No%20SpeedRamp_No%20Sound.webm?alt=media&token=b30f1fba-154c-495e-870e-8058cebddedc",
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/05.25_Innate-NW_16x9%20No%20SpeedRamp_No%20Sound.mp4?alt=media&token=414b69f0-d9c3-41ef-a3d5-1c98b6813f0f",
-        ],
-        type: "video",
-        mobilePlaceholder: "/images/project/knight-residence/knight_mob.jpg",
-      },
       {
         src: "/images/project/knight-residence/6L1A8383-Enhanced-NR.webp",
         type: "image",
@@ -447,12 +399,8 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
     url: "/project/wedgewood-adu",
     media: [
       {
-        src: [
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_ADU_16x9.webm?alt=media&token=146a7881-9a11-4099-8f58-3714d7c5f98b",
-          "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/06.25_ADU_16x9.mp4?alt=media&token=91558a20-2927-43ab-a22e-341bd95cfe90",
-        ],
-        type: "video",
-        mobilePlaceholder: "/images/project/wedgewood-adu/wwadu_mob.jpg",
+        src: "/images/project/wedgewood-adu/6L1A0999_websize.webp",
+        type: "image",
       },
     ],
     hover: {
@@ -515,10 +463,6 @@ Our dedicated team at Innate-NW managed everything from the initial design plans
       { src: "/images/work/NB2.jpg", type: "image" },
       { src: "/images/work/NB1.jpg", type: "image" },
       { src: "/images/work/NB4.jpg", type: "image" },
-      {
-        src: "https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/Norman-bath.mp4?alt=media&token=963a355e-149c-4735-87f2-911ad70f6445",
-        type: "video",
-      },
     ],
     hover: {
       title: "Norman Bathroom | West Seattle Bathroom Remodel",
