@@ -2763,4 +2763,220 @@ A well-designed au pair space protects your caregiver’s well-being, your house
       keywords: "",
     },
   },
+  {
+    id: 28,
+    slug: "phased-vs-all-at-once-remodeling",
+    title: "Phased vs. All-at-Once Whole Home Remodeling",
+    thumbnail: "/images/project/enumclaw-full-home-remodel/enumclaw2.jpg",
+    tag: "Blog",
+    excerpt:
+      "Phased or all-at-once whole home remodeling? Use the four-part dependency test to pick the right strategy for your Seattle home before you sign a bid.",
+    publishedDate: "14 September, 2026",
+    content: [
+      {
+        type: "text",
+        text: `
+<p>Most people base their phasing decisions on cash flow. They should be based on dependency. If the second phase alters a load path, an electrical service, or a weather barrier which the first phase has just encased, you will pay for the exact same square footage twice &ndash; and the second time around it will cost you more than the first. Following is the test to perform before proceeding, as well as the five expenses every phased budget fails to include.</p>
+<h2>Phased vs. All-at-Once: What Actually Separates Them</h2>
+<p>Both strategies deliver the same finished house. What differs is who absorbs the risk, when the money leaves your account, and how many times a crew has to walk through the same doorway.</p>
+<p>An all-at-once remodel treats the house as one project: one set of drawings, one permit, one continuous construction period, one move out. A phased remodel breaks the same scope into stages separated by months or years, each with its own contract, permit, and mobilization.</p>
+<table>
+<thead>
+<tr><th></th><th>Phased</th><th>All-at-once</th></tr>
+</thead>
+<tbody>
+<tr><td>Total cost for identical scope</td><td>Higher</td><td>Lower</td></tr>
+<tr><td>Peak cash requirement</td><td>Lower, spread over years</td><td>Full amount up front or financed</td></tr>
+<tr><td>Calendar duration</td><td>2 to 5 years</td><td>6 to 14 months on site</td></tr>
+<tr><td>Where you live</td><td>Usually in the house</td><td>Almost always out</td></tr>
+<tr><td>Permit exposure</td><td>One application per phase</td><td>One application</td></tr>
+<tr><td>Design coherence</td><td>Degrades as taste, code, and product lines change</td><td>Locked at one moment</td></tr>
+<tr><td>Escalation risk</td><td>Carried on all unbuilt scope</td><td>Largely priced out at contract</td></tr>
+<tr><td>Rework risk</td><td>Concentrated at phase boundaries</td><td>Low</td></tr>
+<tr><td>Appraisal timing</td><td>Value lands in increments</td><td>Full value at completion</td></tr>
+</tbody>
+</table>
+<p>The table is the easy part. The decision is harder, because the two columns are not symmetric: phasing spreads a known cost and adds an unknown one, while all-at-once concentrates a known cost and removes most of the unknown. Which of those you should prefer has less to do with your bank balance than with how tightly the parts of your particular house are tied together.</p>
+<h2>Which Strategy Costs More?</h2>
+<p>The cost of phasing a <a href="/services/whole-home-remodels">whole home remodel</a> will be more compared to carrying out the project as a whole. This is because of the fact that each stage requires mobilization, permitting, and protection of already completed work, which involves applying escalation to whatever is yet to be built. All-at-once methods will incur higher peak costs. Phasing will result in higher final cost.</p>
+<p>This becomes even more so in Seattle. Published cost range for whole home remodel in Seattle metropolitan area is approximately $250&ndash;$450 per square foot, compared to the nation cost range of $200&ndash;$300, due to the high labor cost and permit burden, plus that fact that Washington State imposes retail sales tax not only on material but also on labor charges. Seattle combined rate was 10.55% as of 2026.</p>
+<p>Labor sales tax has a significant impact. This is charged to the total contract price, which includes labor, subcontractor fees, and contractor profit. If you rebuild something twice, you get to pay tax twice too.</p>
+<h3>The Five Repeated Costs a Phased Budget Usually Misses</h3>
+<ul>
+<li><strong>Mobilization and demobilization, per phase.</strong> Site protection, dumpsters, portable toilet, temporary power, scaffolding, and the first three days of every crew getting up to speed. This is a fixed cost that does not care how small the phase is.</li>
+<li><strong>Permit fees and review time, per phase.</strong> SDCI bills plan review against an hourly base rate, which rose to $292 per hour for 2026. Two applications means two intakes, two review cycles, and two rounds of corrections.</li>
+<li><strong>Demolition at the seam.</strong> Phase two starts by undoing part of phase one: the wall you patched, the floor you refinished to the old room edge, the ceiling you closed up to run the duct you now need to move.</li>
+<li><strong>Escalation on unbuilt scope.</strong> A kitchen priced in 2026 and built in 2029 is not a 2026 kitchen. Contractors either carry that risk in the price or hand it back to you at each phase.</li>
+<li><strong>Repeat design and administration.</strong> Drawings get updated, a new engineer looks at the frame, the as-builts no longer match, and someone has to re-coordinate the trades.</li>
+</ul>
+<p>None of these buy you anything. They are the cost of stopping, and they are the reason a phased project that looked cheaper stage by stage ends up more expensive in total.</p>
+        `,
+      },
+      {
+        type: "image",
+        src: ["/images/project/enumclaw-full-home-remodel/6L1A1641_websize.jpg"],
+        alt: "Remodeled kitchen with dark shaker cabinets and quartz countertops in an Enumclaw whole home remodel",
+      },
+      {
+        type: "text",
+        text: `
+<h2>The Dependency Test: Four Questions That Set the Sequence</h2>
+<p>Here is the framework we apply before pricing a whole home remodel in phases. Every question asks the same thing in a different system: does the later work reach back into the earlier work?</p>
+<h3>1. Structural Interdependency</h3>
+<p><strong>Question:</strong> does any subsequent stage alter the load path or lateral bracing of anything from a previous stage?</p>
+<p>Second-story additions, wall removal for open spaces, and large openings all shift the load distribution from the top to the bottom of the house and ultimately to the structure&rsquo;s foundation. If stage three places a point load on a spot where stage one had placed a hardwood floor on top of a joist bay, stage one gets torn up. The floor gets cut, additional support gets added, it gets fixed, and there&rsquo;s never a good match in the refinishing.</p>
+<p>The wall that must be removed in year three is always the wall supporting the space that was remodeled in year one. Even if you only plan on building one-third of your project, hire a <a href="/services/architectural-services">structural engineer</a> on day one to evaluate the entire scope of work. A stamped design for the whole house will cost much less than tearing down walls to fix a mistake at the phase boundaries.</p>
+<h3>2. Systems Dependency</h3>
+<p><strong>Ask:</strong> do two phases share a service, a trunk, or a stack?</p>
+<p>Three items drive most of this in older Seattle homes. The electrical service, because a 100-amp panel that was fine for phase one will not carry the heat pump, induction range, and EV charger arriving in phase two. The drain-waste-vent stack, because adding a bathroom usually means opening the wall the stack runs in. And the heating distribution, since a 2021 Washington State Energy Code compliance path built around a heat pump needs duct or line-set routing designed for the finished house, not for the third of it you are building now.</p>
+<p>Upgrade shared services once, early, at full final capacity. It is the single highest-return decision in any phased plan.</p>
+<h3>3. Dependence on Envelope Integrity</h3>
+<p><strong>Question:</strong> Is there a phase ahead that compromises the weather resistive barrier, insulation plane, or air seal that was created in the previous phases?</p>
+<p>This is called &ldquo;the Pacific Northwest pitfall.&rdquo; The roof, windows, siding, and drainage all combine to make up one system, and compromising it by doing things to it in a later phase can be costly and dangerous. If you replace the siding in the first phase, then cut another window in the fourth phase, you will compromise the weather resistive barrier and flash an opening through the wall.</p>
+<h3>4. Permit Dependency</h3>
+<p>Consider whether dividing the scope into two complex permit reviews is better than keeping one complex permit review, or whether a portion of your work should be placed on a fast track.</p>
+<p>It&rsquo;s the kind of question that no one ever asks, but in Seattle it could go either way. SDCI&rsquo;s goal is to complete their initial review of simple permit applications within two to three weeks and complex permits in about eight weeks. Structural modifications, additional dwelling units, and additional stories will be on the complex list. Interior modifications which are not structural and other small additions could be eligible for subject-to-field-inspection permits, which can be reviewed in days rather than weeks.</p>
+<p>Phasing is helpful if you can put all of the structural modifications into one complex permit review and place subsequent cosmetic phases on the subject-to-field-inspection permits. Phasing is disastrous if you divide your structural work between two complex permits because you&rsquo;ll get two eight-week reviews and two correction periods and a second chance for the reviewer to ask for more.</p>
+<h2>Can You Live in Your Home During a Whole Home Remodel?</h2>
+<p>It is usually possible to reside in a Seattle home undergoing a phase-build renovation, but not one undergoing a complete renovation at once. A complete renovation entails disconnecting water, power, and heat, ripping out all kitchens and bathrooms at once, and creating circumstances no family would wish to live in. Phase-building entails keeping at least one functioning kitchen and bathroom behind a dust barrier and is the prime reason why people opt for this method of building.</p>
+<p>Place value on it appropriately when buying it. A year&rsquo;s rent in Seattle plus storage and two moves would constitute a lot of money, and to many families, that is where the price of phasing ends up. But what does it give you? Rent gives you a quicker and more economical build, while the cost of phasing gives you residency continuity, school drop-off, and pets.</p>
+<p>There is a middle option that gets overlooked. An <a href="/services/adus">accessory dwelling unit</a> built first gives you somewhere to live during the main build and keeps its value afterwards as a rental, a guest suite, or aging-in-place space. It is the only phasing strategy where phase one pays you back twice.</p>
+        `,
+      },
+      {
+        type: "image",
+        src: ["/images/project/west-seattle-residence/6L1A1036_websize.jpg"],
+        alt: "New lap siding and entry stairs on a West Seattle residence",
+      },
+      {
+        type: "text",
+        text: `
+<h2>Where to Draw a Phase Boundary</h2>
+<p>A phase boundary is the line where one stage of work stops and the next begins. Draw it where nothing structural, mechanical, or weather-related crosses: a separate load path, a separate branch circuit, a separate roof plane. Boundaries drawn on room labels instead of systems are what generate rework.</p>
+<p>In practice, good boundaries look like this:</p>
+<ul>
+<li><strong>A vertical split at a structural line,</strong> for example the original house in phase one and the addition in phase two, where the existing exterior wall stays as a complete assembly until it is removed deliberately.</li>
+<li><strong>A floor-by-floor split with the service upgrade done first,</strong> so the basement gets the new panel, stack, and mechanical room, then upper floors follow with capacity already waiting.</li>
+<li><strong>Envelope first, then interiors,</strong> because you can finish inside a dry, insulated shell indefinitely without touching the outside again.</li>
+</ul>
+<p>Bad boundaries look like a room list. Doing the kitchen remodel in year one and the family room in year three reads reasonably on a spreadsheet and fails on site, because those two rooms usually share a wall, a header, a circuit, and a duct run.</p>
+<h2>Who Each Strategy Actually Suits</h2>
+<p><strong>Choose all-at-once</strong> if the scope touches structure, if you are adding square footage or a story, if the electrical service or plumbing stack needs replacing, or if you have somewhere else to live and access to the full budget. The savings are real and the design holds together.</p>
+<p><strong>Choose phased</strong> if the work is genuinely separable, cosmetic-led, and organized so each phase closes a complete system, or if staying in the house is non-negotiable. And accept the premium consciously, as the price of continuity, rather than discovering it later one phase boundary at a time.</p>
+<p>If your honest answer to the dependency test is &ldquo;I&rsquo;m not sure&rdquo;, that is not a tie. It means the scope has not been designed far enough to price either way, and the next step is drawings, not a bid.</p>
+<h2>Start With One Set of Drawings, Not One Phase</h2>
+<p>Make sure that the entire house is planned and engineered before starting construction of even one single portion of the structure, even though your intentions are to construct just a third of it. This will provide you with a load path that you can phase against, service size for upgrading once, and a permit strategy for sequencing consciously. Moreover, this is the only way to make sure that you get an honest quote for phasing premium as the contractor can price the phases based on what he sees.</p>
+<p>Architecture, engineering, and construction of Innate happens to be in one office, which is located in Bellevue, meaning that the decision regarding sequencing is taken by the very same people who possess the structural drawings and schedule. If you desire that your project undergoes the dependency test, then <a href="/contact">come to the consultation</a> with a rough wish list and floor plan, and you would know how many phases are needed for your project. Check out some of our <a href="/work">Seattle projects</a> first to understand the magnitude of the project.</p>
+        `,
+      },
+    ],
+    seo: {
+      title: "Phased vs. All-at-Once Whole Home Remodeling | Blog",
+      description:
+        "Phased or all-at-once whole home remodeling? Use the four-part dependency test to pick the right strategy for your Seattle home before you sign a bid.",
+      keywords: "",
+    },
+  },
+  {
+    id: 29,
+    slug: "modernizing-homes-seattle-structural-integrity",
+    title: "Modernizing Homes in Seattle While Preserving Structural Integrity",
+    thumbnail: "/images/project/madrona-remodel/living1.webp",
+    tag: "Blog",
+    excerpt:
+      "Modernizing homes in Seattle without losing structural integrity: what your older house is carrying, and what has to replace each job when you open it up.",
+    publishedDate: "27 September, 2026",
+    content: [
+      {
+        type: "text",
+        text: `
+<p>Each wall you remove has two roles. Most renovations only address one. The beam running across the opening in your new kitchen carries the overhead loads, but it does absolutely nothing about the lateral earthquake load carried by the wall. This is where things go awry when updating an old Seattle home, and it is something that only comes to light when the earth shifts or a plan checker recognizes it.</p>
+<p>Luckily, the analysis is simple, quick, and affordable. Let&rsquo;s talk about what an old Seattle home is really doing, and what has to be done to take its place.</p>
+<h2>What Structural Integrity Means When You Start Cutting</h2>
+<p>In terms of a remodel, structural integrity consists of two systems: gravity load path and lateral system. The former can be replaced with a beam, the latter &mdash; never. Most remodels manage to preserve the former without difficulty and silently remove the latter.</p>
+<p>Gravity is the simple one because it is quite obvious. The weight goes down: roof to rafter, rafter to wall, wall to floor framing, framing to post, post to footing. Once the chain breaks, the ceiling collapses, which is why nobody ever breaks it accidentally.</p>
+<p>The lateral system is the one that gets forgotten about. In a house built on a wood frame, the resistance to lateral forces comes from the walls functioning as vertical plates and connections between them and floors and foundations. Walls sheathed and reasonably sturdy in two dimensions create a building that shakes yet does not fall apart. When enough walls get replaced with glass and open space, the building remains capable of supporting its own roof flawlessly, while being much less able to resist the load that destroys houses in this region.</p>
+<p>Seattle sits between the Cascadia subduction zone and the Seattle Fault, and it falls in one of the highest seismic design categories the residential code uses. The code writes that as a design requirement for new construction. For an existing house, nobody enforces it retroactively, which means the responsibility for noticing lands on whoever draws your remodel.</p>
+<h2>What Your Seattle House Is Doing Right Now</h2>
+<p>Housing here is older than its reputation. A 2025 Construction Coverage analysis of Census data put the median Seattle-area home at a 1985 build year, with 43.3 percent of homes predating 1980 and 9.7 percent built before 1940. Anything in those older bands was framed before modern seismic detailing existed.</p>
+<div style="overflow-x:auto">
+<table style="min-width:640px">
+<thead>
+<tr><th>Element</th><th>Typical era</th><th>What it is carrying</th><th>What modernizing breaks</th><th>What has to replace the job</th></tr>
+</thead>
+<tbody>
+<tr><td>Interior bearing wall</td><td>All eras</td><td>Gravity load, and often shear</td><td>Removed for open plan</td><td>Beam plus posts to footings for gravity, new shear wall or steel moment frame for lateral</td></tr>
+<tr><td>Cripple walls in crawl space</td><td>Pre-1980</td><td>The entire house, laterally</td><td>Usually ignored entirely</td><td>Plywood sheathing, blocking, and hold-downs</td></tr>
+<tr><td>Mudsill to foundation connection</td><td>Pre-1950 often unbolted</td><td>Friction only</td><td>Ignored during interior work</td><td>Anchor bolts or retrofit foundation plates</td></tr>
+<tr><td>Brick chimney above roofline</td><td>Pre-1950</td><td>Itself, badly</td><td>Left standing through a reroof or gut</td><td>Removal below the roofline, or engineered bracing</td></tr>
+<tr><td>Balloon-framed exterior wall</td><td>Pre-1930</td><td>Continuous studs with no floor-level bearing plate</td><td>New window or door openings</td><td>Full-height header detailing, blocking, fire blocking</td></tr>
+<tr><td>Old-growth joists at true dimensions</td><td>Pre-1950</td><td>Floors, usually very well</td><td>Sistered with modern lumber of different depth</td><td>Members sized to the actual dimension, not the nominal one</td></tr>
+<tr><td>Wall assembly with no drainage plane</td><td>Pre-1960</td><td>Drying in both directions</td><td>Air sealed and densely insulated</td><td>Weather-resistive barrier, rainscreen, vapor-open detailing</td></tr>
+</tbody>
+</table>
+</div>
+<p>Read that table as a sequence of obligations rather than a list of problems. Each row has a cost, and the cost of the row is always lower than the cost of finding out later. Cripple wall bracing and sill bolting on a typical wood-framed house run in the four to low five figures in this market, and they happen in a crawl space where nothing finished exists yet. The same work after new floors, new millwork, and new kitchen cabinets means lifting or cutting all of it.</p>
+        `,
+      },
+      {
+        type: "image",
+        src: ["/images/project/madrona-remodel/living3.webp"],
+        alt: "Open-plan dining and kitchen space in a Madrona home remodel",
+      },
+      {
+        type: "text",
+        text: `
+<h2>Can You Remove a Load-Bearing Wall in an Older Seattle Home?</h2>
+<p>Yes, it is possible to demolish a load-bearing wall in a Seattle house built years ago, but the two functions of the wall will still have to be fulfilled somehow. The gravity load will transfer to a beam designed by a licensed engineer in the State of Washington, and posts and footings will still transfer to the bearing.</p>
+<h3>Where the New Load Lands</h3>
+<p>A beam concentrates what a wall used to spread. A 20-foot wall carrying a floor above distributed its load along its whole length into the framing below. A beam collects the same load and dumps roughly half of it at each end, as a point load.</p>
+<p>That point load then has to keep going. Down through a post, through the floor framing below, through another post, to a footing sized to take it. In an older house with a 1920s crawl space and shallow unreinforced footings, &ldquo;to a footing&rdquo; often means pouring a new pad footing inside the crawl space. This is the step that gets missed, and the symptom is a new beam that works beautifully sitting on a floor that starts to dish two years later.</p>
+<h3>What Replaces the Bracing</h3>
+<p>Three options, in ascending order of cost and capability.</p>
+<ul>
+<li><strong>Sheathe elsewhere.</strong> If there are remaining wall segments in the same direction, plywood or OSB sheathing with the right nailing pattern and hold-downs can recover the lost capacity. Cheapest, least intrusive, and frequently enough.</li>
+<li><strong>A dedicated shear wall.</strong> A shorter, engineered panel, sometimes a prefabricated narrow shear panel, placed where the architecture allows. Works when you have some wall left but not much.</li>
+<li><strong>A steel moment frame.</strong> Column and beam welded into a rigid frame that resists sideways load without needing wall length. The answer for a full-width window wall or an open corner, and the most expensive by a wide margin.</li>
+</ul>
+<p>The choice is architectural as much as structural, which is the argument for having the <a href="/services/architectural-services">structural and civil engineering</a> run alongside the design rather than after it. An engineer brought in once the plan is fixed can only tell you what it will cost to make your plan stand up. An engineer looking at the same house before the plan is fixed can usually find a layout that gets 90 percent of the openness for a fraction of the steel.</p>
+<h2>Will Updating an Old Building Reduce Its Earthquake Resistance?</h2>
+<p>An old Seattle building will only become less earthquake-resistant if there is no reinstallation after removal of bracing. Open-concept conversions, wall-to-wall windows, and fronting garages all remove the shear resistance. Accompanied with a retrofit of bolting the house to its foundation and bracing the cripple walls, the same job is likely to end up being more resistant than it was in the beginning.</p>
+<p>The residential seismic retrofit of Seattle is done on a voluntary basis and is not obligatory. SDCI provides a standard prescriptive package of plans for a standard wood-framed structure, and WABO publishes the same for others, thus enabling the standard retrofit job to be completed without hiring a professional engineer. All the non-prescriptive cases will need a stamp from a licensed Washington engineer.</p>
+<p>Since your remodel is already pulling finishes off walls, opening the crawl space, and going through structural plan review, the marginal cost of the retrofit scope at that moment is the lowest it will ever be. Treating <a href="/services/natural-disaster-mitigation">natural disaster mitigation</a> as part of the remodel rather than a separate future project is the single best-value decision available in an older-home renovation here.</p>
+        `,
+      },
+      {
+        type: "image",
+        src: ["/images/project/west-seattle-residence/6L1A1058_websize.jpg"],
+        alt: "New lap siding, windows, and trim on a West Seattle residence exterior remodel",
+      },
+      {
+        type: "text",
+        text: `
+<h2>The Moisture Trap in a Pacific Northwest Retrofit</h2>
+<p>Structural failure is not the only way to damage an old house while improving it. The more common outcome in this climate is rot, and it comes from doing the energy work correctly but incompletely.</p>
+<p>A pre-1960 Seattle wall was built to dry. It leaked air, it had no plastic sheeting, and any water that got in evaporated out both faces. Fill that wall with dense insulation and seal the air leaks, and you have made it a wall that no longer dries, with a dew point now sitting inside the assembly. Add new cladding with no drainage gap and the sheathing starts to go, invisibly, from the outside in.</p>
+<p>This is why envelope work belongs together in one scope. Siding, windows, flashing, insulation, and ventilation form a single system, and an <a href="/services/exterior-remodeling">exterior remodel</a> that treats them as one assembly costs less than doing them in three visits and performs better than any of them alone.</p>
+<h2>Read the House Before You Draw the Plan</h2>
+<p>Five checks, in this order, before design starts. The whole sequence takes a couple of weeks and costs a small fraction of the remodel.</p>
+<ol>
+<li><strong>Structural walkthrough with an engineer, including the crawl space and attic.</strong> Half a day on site. This is where the bearing walls, the bracing lines, the foundation type, the sill anchorage, and the chimney get identified. Output is a marked-up floor plan showing what can move and what cannot.</li>
+<li><strong>Foundation and drainage assessment.</strong> Older Seattle lots slope, and a lot of them drain toward the house. Check the footing type and depth, the crawl space moisture, and the grading before anyone proposes a basement conversion or an addition.</li>
+<li><strong>Hazardous materials screening.</strong> The EPA&rsquo;s Renovation, Repair and Painting rule applies to work disturbing paint in housing built before 1978, and asbestos turns up in mid-century floor tile, duct wrap, and textured coatings. Test early, because a positive result changes both the method and the price of demolition.</li>
+<li><strong>Historic and landmark status check.</strong> A Certificate of Approval is required before the city will issue permits for exterior changes to a designated landmark or to any building in Seattle&rsquo;s eight historic districts, including Pioneer Square, Ballard Avenue, Columbia City and Harvard-Belmont. It is required for work that would not otherwise need a permit, exterior painting included. Repair strictly in kind is exempt. Check status before you draw a new window.</li>
+<li><strong>Permit strategy.</strong> Structural alterations land in SDCI&rsquo;s complex review track, where the department aims to complete initial review in about eight weeks, against two to three weeks for simple applications. Knowing which track your scope sits in shapes the schedule more than anything else on this list.</li>
+</ol>
+<h2>Look at the Load Path First, Not the Mood Board</h2>
+<p>Get a structural assessment for your house before falling in love with a floor plan. This is the cheapest hour of the entire process, and it is the only hour that alters what can be done versus what it costs to do it.</p>
+<p>Innate Architecture keeps architecture, engineering, and construction in one office in Bellevue, meaning the person analyzing your load path and the person designing your open plan talk to each other the same week, not two contracts apart. If you are evaluating <a href="/services/whole-home-remodels">full remodels</a> of an old Seattle home, <a href="/contact">bring along your floor plan</a> and a list of the walls you&rsquo;d like torn out, and we&rsquo;ll tell you which ones are load bearing, which ones carry lateral loads, and what it will take to tear each one down properly. Check out our <a href="/work">Seattle projects</a>.</p>
+        `,
+      },
+    ],
+    seo: {
+      title: "Modernizing Homes While Preserving Structure | Blog",
+      description:
+        "Modernizing homes in Seattle without losing structural integrity: what your older house is carrying, and what has to replace each job when you open it up.",
+      keywords: "",
+    },
+  },
 ];
