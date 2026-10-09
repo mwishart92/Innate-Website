@@ -26,7 +26,7 @@ const faqs = [
   {
     question: "Who will be working on my remodel project?",
     answer:
-      "We have our own staff of designers, superintendents and project managers. They also have a list of reliable craftsmen and subcontractors who are committed to building something lasting just like Innate. Every project has its own project manager who supervises each project aspect.",
+      "Our in-house team of designers, superintendents, and project managers works alongside a trusted network of skilled craftsmen and subcontractors who share our commitment to quality and lasting craftsmanship. Every project is led by a dedicated project manager who oversees each phase of the process, ensuring clear communication, attention to detail, and a seamless experience from start to finish.",
   },
 ];
 
