@@ -2357,17 +2357,17 @@ This project demonstrates how a thoughtful bathroom renovation can balance desig
       ],
     },
   },
-  "sammamish-kitchen-remodel": {
+  "japandi-dadu-north-seattle": {
     seo: {
-      title: "Sammamish, WA Kitchen Remodel | Innate",
-      description: `Explore this Sammamish, WA kitchen remodel featuring custom cabinetry, a reworked layout, modern finishes, and thoughtful design-build solutions by Innate.`,
-      image: "/images/project/sammamish-kitchen-remodel/6L1A9770-2.jpg",
+      title: "Japandi DADU in Seattle | Innate Design & Build",
+      description: `Explore a custom Japandi-inspired DADU in North Seattle with a studio apartment, physiotherapy office, natural wood siding, and modern design-build details.`,
+      image: "/images/project/north-seattle-japandi-dadu-exterior.jpg",
     },
     defaultSlides: [
       {
         component: (
           <Slide
-            image="/images/project/sammamish-kitchen-remodel/6L1A9810-hero.jpg"
+            image="/images/project/japandi-dadu-north-seattle/north-seattle-japandi-dadu-exterior.jpg"
             video=""
           />
         ),
@@ -2378,7 +2378,7 @@ This project demonstrates how a thoughtful bathroom renovation can balance desig
       {
         component: (
           <Slide
-            image="/images/project/sammamish-kitchen-remodel/6L1A9770-2.jpg"
+            image="/images/project/japandi-dadu-north-seattle/seattle-dadu-custom-kitchen.webp.jpg"
             video=""
           />
         ),
@@ -2387,16 +2387,16 @@ This project demonstrates how a thoughtful bathroom renovation can balance desig
         projectType: "",
       },
     ],
-    title: "Sammamish Kitchen Remodel",
+    title: "Japandi DADU in Seattle",
     defaultProjectDetails: {
       projectScope: [
         {
           key: "Scope",
           value:
-            "Kitchen Remodel, Layout Reconfiguration, Custom Cabinetry Installation, Corian Countertops, Mirrored Backsplash, Hardwood Floor Refinishing, Pass-Through Window Installation, Roofing",
+            "New DADU Construction, Studio Apartment, Physiotherapy Office, Space Planning, Lunawood Exterior Siding, Standing-Seam Metal Roofing, Kitchen Installation, Bathroom Construction, Interior Finishes",
         },
-        { key: "Type", value: "Renovation" },
-        { key: "Location", value: "Sammamish, Washington" },
+        { key: "Type", value: "New Construction" },
+        { key: "Location", value: "North Seattle, Washington" },
         {
           key: "Approach",
           value: "Design-Build",
@@ -2404,74 +2404,85 @@ This project demonstrates how a thoughtful bathroom renovation can balance desig
         {
           key: "Focus",
           value:
-            "Functional Layout, Custom Cabinetry, Lake Views, Modern Finishes, Original Hardwood Restoration",
+            "Japandi-Inspired Design, Dual-Purpose Living and Workspace, Efficient Space Planning, Natural Wood Finishes, Privacy, Modern Architecture",
         },
         { key: "Design & Construction", value: "Innate" },
         { key: "Photographer", value: "Akiha Marketing" },
       ],
-      scopedescription: `This Sammamish kitchen remodel was designed to create a more functional layout while introducing custom finishes and making better use of the home's lake views. Through framing and layout changes, custom cabinetry, updated surfaces, and carefully integrated details, the kitchen was transformed into a more open and functional space for everyday living.`,
+      scopedescription: `
+      <p><span style="font-weight: 400;">This custom detached accessory dwelling unit (DADU) in North Seattle was designed and built to accommodate both a studio apartment and a physiotherapy office within one thoughtfully planned building. Combining Japandi-inspired architecture, natural wood finishes, and efficient interior layouts, the project creates a versatile space for residential living and professional use.<br /><br /></span></p>
+<p><span style="font-weight: 400;">Through an integrated design-build approach, Innate Design &amp; Build brought together thoughtful space planning, contemporary materials, and functional design to create a backyard dwelling that balances privacy, natural light, and everyday comfort.</span></p>
+      `,
       media: {
         desktop: "",
       },
       description: [
         `
-<p><span style="font-weight: 400;">The existing kitchen layout was reconfigured with framing changes to improve the flow and functionality of the space. Rather than working within the limitations of the original footprint, the new layout allowed us to rethink how the homeowners move through, cook, gather, and use the kitchen each day.<br /><br /></span></p>
-<p><span style="font-weight: 400;">A new pass-through window was added to create a direct view of the lake from the kitchen. This addition helps connect the interior of the home to its surroundings while bringing more natural light and visual openness into the space.<br /><br /></span></p>
-<p><span style="font-weight: 400;">Two-tone Belmont custom cabinetry was installed throughout the kitchen, creating contrast while providing storage designed around the new layout. The cabinetry was paired with Corian countertops, creating durable work surfaces with a clean, modern appearance.<br /><br /></span></p>
-<p><span style="font-weight: 400;">A mirrored backsplash was installed to add depth and reflect natural light throughout the kitchen. Prado outlets were incorporated into the design to minimize visual interruptions along the finished surfaces, helping maintain the clean lines and streamlined appearance of the space.</span></p>
+<p><span style="font-weight: 400;">The primary challenge of this North Seattle DADU construction project was accommodating two distinct functions within a compact footprint. The studio apartment needed to feel comfortable and welcoming, while the physiotherapy office required a practical environment for professional use.<br /><br /></span></p>
+<p><span style="font-weight: 400;">Rather than treating the two spaces as separate projects, the design focused on creating a cohesive building that could support both purposes. Efficient space planning, thoughtful interior layouts, and consistent material selections helped establish a sense of continuity while maintaining the privacy and functionality each space required.<br /><br /></span></p>
+<p><span style="font-weight: 400;">Inspired by Japandi design, which combines Japanese minimalism with Scandinavian warmth, the project emphasizes natural materials, simple architectural forms, and a restrained color palette. The result is a contemporary accessory dwelling unit that feels intentional, welcoming, and suited to everyday use.</span></p>
 `,
       ],
       gallery: [
         {
-          image: "/images/project/sammamish-kitchen-remodel/6L1A9791.jpg",
+          image: "/images/project/japandi-dadu-north-seattle/japandi-dadu-wood-accent-wall.jpg",
           class: "col-span-1 aspect-[2/3]",
         },
         {
-          image: "/images/project/sammamish-kitchen-remodel/6L1A9793.jpg",
+          image: "/images/project/japandi-dadu-north-seattle/north-seattle-dadu-interior.jpg",
           class: "col-span-1 aspect-[2/3]",
         },
         {
-          image: "/images/project/sammamish-kitchen-remodel/6L1A9796.jpg",
+          image: "/images/project/japandi-dadu-north-seattle/north-seattle-dadu-physiotherapy-office.jpg",
           class: "col-span-1 aspect-[2/3]",
         },
         {
-          image: "/images/project/sammamish-kitchen-remodel/6L1A9801.jpg",
+          image: "/images/project/japandi-dadu-north-seattle/north-seattle-japandi-dadu-exterior.jpg",
           class: "col-span-3 aspect-[4/2]",
         },
         {
-          image: "/images/project/sammamish-kitchen-remodel/6L1A9806.jpg",
+          image: "/images/project/japandi-dadu-north-seattle/seattle-dadu-custom-kitchen.webp.jpg",
           class: "col-span-1 aspect-[2/3]",
         },
         {
-          image: "/images/project/sammamish-kitchen-remodel/6L1A9823-2.jpg",
+          image: "/images/project/japandi-dadu-north-seattle/seattle-dadu-modern-bathroom.jpg",
           class: "col-span-1 aspect-[2/3]",
         },
         {
-          image: "/images/project/sammamish-kitchen-remodel/6L1A9825.jpg",
+          image: "/images/project/japandi-dadu-north-seattle/north-seattle-japandi-dadu-exterior.jpg",
           class: "col-span-1 aspect-[2/3]",
         },
       ],
       galleryDescription: `
-<p><span style="font-weight: 400;">The home's original hardwood flooring was preserved rather than replaced. We sanded and stained the existing hardwood to restore its appearance and integrate it with the updated kitchen finishes. Smooth-finish walls were also completed throughout the remodeled areas, providing a refined backdrop for the cabinetry and other architectural details.<br /><br /></span></p>
-<p><span style="font-weight: 400;">Beyond the kitchen, the renovation included the installation of a new shingle roof. Coordinating these improvements as part of the larger renovation allowed our team to address both interior and exterior elements of the home within a unified construction process.<br /><br /></span></p>
-<p><span style="font-weight: 400;">Completed in approximately one month, this project demonstrates how strategic layout changes and carefully selected materials can significantly transform an existing kitchen. Through custom cabinetry, restored original hardwood, integrated electrical details, and a new connection to the lake view, we created a kitchen that feels more functional, intentional, and connected to the home.<br /><br /></span></p>
-<h2 style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">Project Highlights</h2>
+<p><span style="font-weight: 400;">The exterior features Lunawood thermally modified wood siding, introducing warmth and natural texture to the modern architecture. A dark standing-seam metal roof provides contrast, while black-framed windows and doors reinforce the building's clean lines. Together, these materials create a distinctive exterior that balances contemporary design with organic finishes.<br /><br /></span></p>
+<p><span style="font-weight: 400;">Inside the studio apartment, light wood kitchen cabinetry provides a warm foundation for the living space. White countertops and a coordinating tile backsplash complement the natural cabinetry, creating a bright, streamlined kitchen with the essential functionality needed for daily living.<br /><br /></span></p>
+<p><span style="font-weight: 400;">Light wood-look flooring extends throughout the interior, helping connect the different spaces through a consistent material palette. A vertical wood-slat accent wall introduces texture and architectural detail while reinforcing the Japandi-inspired aesthetic.<br /><br /></span></p>
+<p><span style="font-weight: 400;">Natural light was another important consideration in the DADU design. Black-framed windows bring daylight into the building, helping the compact interior feel brighter and more open. Paired with lighter wood tones and simple finishes, the design creates a comfortable atmosphere without requiring additional square footage.<br /><br /></span></p>
+<p><span style="font-weight: 400;">The bathroom continues the project's warm, minimalist direction through beige tile finishes and a glass shower enclosure. The neutral palette complements the rest of the interior, while the glass enclosure helps preserve a sense of openness within the space.<br /><br /></span></p>
+<p><span style="font-weight: 400;">The physiotherapy office required its own functional considerations. Incorporating a professional workspace within a residential DADU meant carefully considering privacy, circulation, and the different activities taking place throughout the building. The finished layout supports both residential and professional use while maintaining a consistent architectural character.<br /><br /></span></p>
+<p><span style="font-weight: 400;">Completed over nine months, this North Seattle project demonstrates how custom ADU and DADU design-build services can transform an existing residential property by adding flexible, functional space. Through thoughtful planning, natural materials, and contemporary construction, Innate created a detached dwelling designed around the way its occupants live and work.<br /><br /><br /></span></p>
+<h2><strong>Project Highlights<br /><br /></strong></h2>
 <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 20px;">
-<li style="font-weight: 400;"><span style="font-weight: 400;">Reconfigured the kitchen with framing and layout changes</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Installed two-tone Belmont custom cabinetry</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Added Corian countertops throughout the kitchen</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Installed a mirrored backsplash</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Integrated Prado outlets for a cleaner finished appearance</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Added a new pass-through window with a view of the lake</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Sanded and stained the home's original hardwood floors</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Completed smooth-finish walls throughout the remodeled areas</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Installed a new shingle roof</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Improved the overall flow and functionality of the kitchen</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Completed the renovation in approximately one month</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Designed and built a custom detached accessory dwelling unit (DADU) in North Seattle</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Created a dual-purpose building accommodating a studio apartment and physiotherapy office</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Developed an efficient layout balancing residential and professional functions</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Incorporated Japandi-inspired architecture and interior design</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Installed Lunawood thermally modified wood exterior siding</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Installed dark standing-seam metal roofing</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Incorporated black-framed windows and doors</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Installed light wood kitchen cabinetry with white countertops and a tile backsplash</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Used light wood-look flooring throughout the interior</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Added a vertical wood-slat accent wall</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Finished the bathroom with warm beige tile and a glass shower enclosure</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Prioritized natural light, privacy, and functionality within a compact footprint</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Completed the project over nine months</span></li>
 </ul>
-<h2 style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">Creating a More Functional Sammamish Kitchen</h2>
-<p><span style="font-weight: 400;">At Innate Design &amp; Build, we believe a kitchen should be designed around the way you live and the unique characteristics of your home. From reconfiguring an inefficient layout to adding custom cabinetry, updated surfaces, and architectural details that take advantage of the surrounding views, every decision should make the space more functional and enjoyable.<br /><br /></span></p>
-<p><span style="font-weight: 400;">Whether you are considering a complete kitchen remodel, custom cabinetry, or a larger home renovation in Sammamish, our design-build team can help transform your existing space into one that better supports the way you live.</span></p>
+<h2><strong><br />Custom ADU &amp; DADU Design-Build in Seattle and Bellevue<br /><br /></strong></h2>
+<p><span style="font-weight: 400;">At Innate Design &amp; Build, we believe a well-designed accessory dwelling unit should do more than add square footage. It should create space that supports the way you live, work, and plan for the future.<br /><br /></span></p>
+<p><span style="font-weight: 400;">Whether you're building a backyard cottage, creating an independent living space for family, or designing a detached home office, every ADU and DADU project begins with understanding your property, your needs, and what you want the space to accomplish.<br /><br /></span></p>
+<p><span style="font-weight: 400;">This North Seattle DADU demonstrates how thoughtful design and construction can bring multiple functions together within one cohesive building. From the exterior architecture to the interior finishes, each decision was made to support comfort, functionality, and long-term flexibility.<br /><br /></span></p>
+<p><span style="font-weight: 400;">Innate provides integrated residential design-build services for homeowners in Seattle, Bellevue, and surrounding communities. Our team brings design, engineering, permitting, and construction together to help guide your ADU or DADU project from the initial concept through completion.<br /><br /></span></p>
+<p><span style="font-weight: 400;">Whether you're considering a detached accessory dwelling unit in Seattle, a custom ADU in Bellevue, or another residential construction project, we're here to help you explore what's possible for your property.</span></p>
 `,
       projectSlider: [
         {

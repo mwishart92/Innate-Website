@@ -19,6 +19,21 @@ export interface SlideData {
 
 export const slidesData: SlideData[] = [
   {
+    title: "Japandi DADU in Seattle",
+    location: "North Seattle, Washington",
+    url: "/project/japandi-dadu-north-seattle",
+    media: [
+      {
+        src: "/images/project/japandi-dadu-north-seattle/north-seattle-japandi-dadu-exterior.jpg",
+        type: "image",
+      },
+    ],
+    hover: {
+      title: "Japandi DADU in Seattle | Innate Design & Build",
+      subTitle: `This Japandi DADU balances Japanese simplicity with Scandinavian warmth through minimalist design, natural materials, and intentional layouts. Every detail was crafted to create a calm, functional space that honors both Japanese aesthetic traditions and Scandinavian design principles.`,
+    },
+  },
+  {
     title: "Sammamish Kitchen Remodel",
     location: "Sammamish, Washington",
     url: "/project/sammamish-kitchen-remodel",
