@@ -2367,7 +2367,11 @@ This project demonstrates how a thoughtful bathroom renovation can balance desig
       {
         component: (
           <Slide
+<<<<<<< HEAD
             image=""
+=======
+            image="/images/project/japandi-dadu-north-seattle/north-seattle-japandi-dadu-exterior.jpg"
+>>>>>>> cd0700dc5e268d0317f7d54e0f6b5c6c1736d77f
             video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/ADU%20Finished%20Project%20Website%20Hero%20Video_16x9.mp4?alt=media&token=bf92cfad-1db0-417f-a28d-be1d2a6795cb"
           />
         ),
