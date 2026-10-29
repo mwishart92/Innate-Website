@@ -2367,25 +2367,14 @@ This project demonstrates how a thoughtful bathroom renovation can balance desig
       {
         component: (
           <Slide
-            image="/images/project/japandi-dadu-north-seattle/north-seattle-japandi-dadu-exterior.jpg"
-            video=""
+            image=""
+            video="https://firebasestorage.googleapis.com/v0/b/innate-bb90b.firebasestorage.app/o/ADU%20Finished%20Project%20Website%20Hero%20Video_16x9.mp4?alt=media&token=bf92cfad-1db0-417f-a28d-be1d2a6795cb"
           />
         ),
         delay: 36000,
         projectName: "",
         projectType: "",
-      },
-      {
-        component: (
-          <Slide
-            image="/images/project/japandi-dadu-north-seattle/seattle-dadu-custom-kitchen.webp.jpg"
-            video=""
-          />
-        ),
-        delay: 36000,
-        projectName: "",
-        projectType: "",
-      },
+      },       
     ],
     title: "Japandi DADU in Seattle",
     defaultProjectDetails: {
