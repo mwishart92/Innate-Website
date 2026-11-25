@@ -22,6 +22,10 @@ export async function POST(req: NextRequest) {
     const sendSmtpEmail = new brevo.SendSmtpEmail();
 
     sendSmtpEmail.to = [{ email }, { email: process.env.BREVO_TO_EMAIL }];
+    sendSmtpEmail.cc = [
+      { email: "josh@rokket.us" },
+      { email: "nicolai@akihamarketing.com" },
+    ];
 
     sendSmtpEmail.templateId = 4; // Use the correct template ID
     sendSmtpEmail.params = {
