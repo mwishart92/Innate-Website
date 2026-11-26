@@ -46,6 +46,7 @@ export async function POST(req: NextRequest) {
     sendSmtpEmail.cc = [
       { email: "josh@rokket.us" },
       { email: "nicolai@akihamarketing.com" },
+      { email: "michael@innate-aec.com" },
     ];
     sendSmtpEmail.templateId = 1; // Use the correct template ID
     sendSmtpEmail.params = {
